@@ -731,6 +731,52 @@ h1 {
   font-size: 0.78rem;
 }
 
+.help summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.help summary::-webkit-details-marker {
+  display: none;
+}
+
+.help__mark {
+  display: inline-grid;
+  place-items: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  font-weight: 800;
+}
+
+.help summary:hover .help__mark,
+.help[open] .help__mark {
+  background: var(--accent);
+  color: #fff;
+}
+
+.help__steps {
+  margin: 0.6rem 0 0;
+  padding: 0.75rem 0.75rem 0.75rem 1.9rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.help__steps li + li {
+  margin-top: 0.3rem;
+}
+
 .field-row {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

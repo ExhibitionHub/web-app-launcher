@@ -386,6 +386,18 @@ function openUnlockForm() {
     <form class="edit-form" data-form="unlock">
       <p class="launch-modal__eyebrow">Edit mode</p>
       <h2 class="launch-modal__title" id="edit-modal-title">Sign in with GitHub</h2>
+      <details class="help">
+        <summary><span class="help__mark" aria-hidden="true">?</span> How do I get a token?</summary>
+        <ol class="help__steps">
+          <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">github.com/settings/personal-access-tokens/new</a> (sign in to GitHub if asked).</li>
+          <li>Token name: <strong>Exhibition Hub editor</strong>. Pick an expiration, for example 90 days.</li>
+          <li>Resource owner: <strong>${escapeHtml(SOURCE_REPO.owner)}</strong>.</li>
+          <li>Repository access: <strong>Only select repositories</strong>, then choose <strong>${escapeHtml(SOURCE_REPO.name)}</strong>.</li>
+          <li>Repository permissions: set <strong>Contents</strong> to <strong>Read and write</strong>.</li>
+          <li>Click <strong>Generate token</strong> and copy it right away. GitHub shows it only once.</li>
+          <li>Paste it below. If it is "pending", an organization owner has to approve it first.</li>
+        </ol>
+      </details>
       <label class="field">
         <span class="field__label">Personal access token</span>
         <input type="password" name="token" autocomplete="off" spellcheck="false" required />
