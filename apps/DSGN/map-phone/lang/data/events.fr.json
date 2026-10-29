@@ -1,0 +1,62 @@
+{
+	"movementPaths": {
+		"samir": [
+			"Départ : maison de l'ami dans le quartier Agdal.",
+			"Déplacement vers : maison de la victime (non invité, ivre).",
+			"Reste toute la nuit.",
+			"Part vers 6 h 30."
+		],
+		"karim": [
+			"Départ : quartier Hassan.",
+			"Déplacement vers : maison de la victime (invité après une dispute).",
+			"Part vers 5 h."
+		],
+		"remoteDeletion": [
+			"Dernière zone connue de Karim.",
+			"Contexte du compte Google de la victime.",
+			"Téléphone au Commissariat Central de Rabat.",
+			"Résultat : BLOQUÉ."
+		]
+	},
+	"chronology": {
+		"earlierWeek": [
+			{ "time": "10 mai", "label": "Dispute Samir / Youssef au sujet d'une fille" },
+			{ "time": "12 mai", "label": "Transaction de drogue entre Karim et Youssef" }
+		],
+		"incident": [
+			{ "time": "23:18", "label": "Karim : 'C'est quoi ce délire ?'" },
+			{ "time": "23:22", "label": "Youssef invite Karim à parler" },
+			{ "time": "23:41", "label": "Samir, ivre, dit qu'il arrive" },
+			{ "time": "23:49", "label": "Youssef dit à Samir : 'NON, pas ce soir'" },
+			{ "time": "23:55", "label": "Samir : 'J'arrive'" }
+		],
+		"night": [
+			{ "time": "00:30 — 04:30", "label": "Les deux suspects sont présents chez la victime" },
+			{ "time": "05:00", "label": "Karim quitte la maison de la victime" },
+			{ "time": "06:30", "label": "Samir quitte la maison de la victime" }
+		],
+		"morning": [
+			{ "time": "05:48", "label": "Gouvernante : 'Tes lumières ne sont jamais allumées à cette heure'" },
+			{ "time": "06:24", "label": "Appel manqué de la gouvernante à Youssef" },
+			{ "time": "06:30", "label": "La gouvernante appelle la police" },
+			{ "time": "07:12", "label": "Samir : 'Dis-moi ce qui s'est passé, si tu es réveillé'" }
+		],
+		"postIncident": [
+			{ "time": "07:18", "label": "Téléphone sécurisé dans le conteneur Faraday" },
+			{ "time": "07:24", "label": "Connexion Google depuis la zone de Karim" },
+			{ "time": "07:26", "label": "Tentative d'effacement n°1 bloquée" },
+			{ "time": "07:29", "label": "Tentative d'effacement n°2 bloquée" }
+		]
+	},
+	"timelineItems": [
+		{ "id": "karim-leaves", "time": "05:00", "label": "Karim quitte la maison de la victime", "source": "cellular", "tag": "cellular" },
+		{ "id": "neighbor-text", "time": "05:48", "label": "La gouvernante remarque des lumières inhabituelles et écrit à Youssef", "source": "conversations", "tag": "witness" },
+		{ "id": "samir-leaves", "time": "06:30", "label": "Samir quitte la maison de la victime", "source": "cellular", "tag": "cellular" },
+		{ "id": "neighbor-call", "time": "06:30", "label": "La gouvernante appelle la police", "source": "conversations", "tag": "witness" },
+		{ "id": "samir-message", "time": "07:12", "label": "Samir : 'Dis-moi ce qui s'est passé, si tu es réveillé'", "source": "conversations", "tag": "conversations" },
+		{ "id": "phone-secured", "time": "07:18", "label": "Téléphone de la victime sécurisé dans le conteneur Faraday", "source": "phone", "tag": "phone" },
+		{ "id": "google-login", "time": "07:24", "label": "Connexion Google depuis la zone de Karim", "source": "google", "tag": "google" },
+		{ "id": "delete-one", "time": "07:26", "label": "Tentative d'effacement n°1 bloquée", "source": "google", "tag": "google" },
+		{ "id": "delete-two", "time": "07:29", "label": "Tentative d'effacement n°2 bloquée", "source": "google", "tag": "google" }
+	]
+}

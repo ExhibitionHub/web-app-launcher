@@ -1,0 +1,7 @@
+{
+  "appKey": "sk-personality",
+  "displayName": "Personality Test",
+  "entryPath": "/apps/SK/sk-personality/index.html",
+  "idleTimeoutSec": 120,
+  "requiresSecureContext": true
+}

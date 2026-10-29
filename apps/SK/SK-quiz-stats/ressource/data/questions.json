@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "correctAnswer": 2
+    },
+    {
+      "id": 4,
+      "correctAnswer": 0
+    },
+    {
+      "id": 5,
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "correctAnswer": 1
+    },
+    {
+      "id": 7,
+      "correctAnswer": 2
+    },
+    {
+      "id": 8,
+      "correctAnswer": 2
+    },
+    {
+      "id": 9,
+      "correctAnswer": 1
+    },
+    {
+      "id": 10,
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "correctAnswer": 2
+    },
+    {
+      "id": 12,
+      "correctAnswer": 1
+    }
+  ],
+  "conclusions": [
+    {
+      "minScore": 0,
+      "maxScore": 3,
+      "id": "beginner"
+    },
+    {
+      "minScore": 4,
+      "maxScore": 6,
+      "id": "student"
+    },
+    {
+      "minScore": 7,
+      "maxScore": 9,
+      "id": "connoisseur"
+    },
+    {
+      "minScore": 10,
+      "maxScore": 12,
+      "id": "expert"
+    }
+  ]
+}

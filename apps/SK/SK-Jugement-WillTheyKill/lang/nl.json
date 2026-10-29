@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Zullen ze doden?"
+  },
+  "branding": {
+    "eyebrow": "Interactieve reis",
+    "title": "Zullen ze doden?"
+  },
+  "intro": {
+    "heroTitle": "Je instincten als je tegenover vreemden staat",
+    "heroCopy": "Elk vignet vat de beginjaren en waarschuwingssignalen van een echt persoon samen zonder zijn naam prijs te geven. Jouw oproep: zullen ze escaleren tot moord?",
+    "howTitle": "Hoe het werkt",
+    "howSteps": [
+      "Bekijk de belangrijkste feiten: familie, gedrag, eerste overtredingen.",
+      "Bepaal in één tik of deze persoon een moord zal plegen.",
+      "Onthul hun identiteit en vergelijk uw instinct met de gedocumenteerde uitkomst."
+    ],
+    "goalTitle": "Doel",
+    "goalCopy": "Meet uw vooroordelen en overtuigingen in een reeks contrasterende profielen. De eindscore vat uw voorspellingen samen en opent discussieaanwijzingen."
+  },
+  "profile": {
+    "progressLabel": "Profiel",
+    "progressConnector": "van",
+    "taglineFallback": "Anoniem profiel",
+    "aliasFallback": "Alias",
+    "decisionTitle": "Jouw oordeel",
+    "decisionPrompt": "Zal deze persoon, op basis van de aanwijzingen, uiteindelijk iemand vermoorden?",
+    "choiceYes": "Ja, ze zullen doden",
+    "choiceNo": "Nee, deze persoon zal niet doden",
+    "revealPlaceholder": "Kies Ja of Nee om de echte identiteit te onthullen en wat er is gebeurd.",
+    "revealLabel": "Identiteit onthuld",
+    "outcomeYes": "Deze persoon heeft gedood",
+    "outcomeNo": "Geen moord gepleegd",
+    "revealNext": "Volgende profiel",
+    "revealFinal": "Bekijk de eindscore",
+    "verdictTitle": "Wat is er gebeurd",
+    "detailTitle": "Waarom we dat weten",
+    "yourCallLabel": "Jouw oordeel",
+    "realityLabel": "Realiteit",
+    "correctLabel": "Juist",
+    "incorrectLabel": "Onjuist",
+    "choiceYesShort": "Ja",
+    "choiceNoShort": "Nee",
+    "fallbackImage": "??",
+    "profileLabelDefault": "Profiel",
+    "defaultProfilePrefix": "Profiel"
+  },
+  "score": {
+    "eyebrow": "Eindresultaat",
+    "title": "Hoe je het risico leest",
+    "dialLabel": "Correcte beslissingen",
+    "calculating": "Je score wordt berekend...",
+    "summaryTemplate": "Je hebt {count} geanonimiseerde profielen beoordeeld en elke keer een standpunt ingenomen.",
+    "notes": {
+      "perfect": "Vlekkeloos lezen: je anticipeerde op elk traject. Maak een lijst van uw criteria en deel ze met de groep.",
+      "high": "Sterke intuïtie: jij hebt de meeste risico’s gezien. Welke signalen hebben u in de overige gevallen misleid?",
+      "medium": "Evenwichtige score: je onderbuikgevoel schommelt. Bezoek de profielen opnieuw om uw vooroordelen te testen en eventuele ontbrekende context aan te vullen.",
+      "low": "Deze profielen tarten snelle oordelen. Bestudeer de ontbrekende details en beschermende contexten om uw leeservaring te verfijnen."
+    },
+    "discussionTitle": "Discussieaanwijzingen",
+    "peerYes": "Ja",
+    "peerNo": "Nee",
+    "separator": "·"
+  },
+  "navigation": {
+    "start": "Begin",
+    "languageSelector": "Taalkiezer",
+    "continue": "Ga door",
+    "restart": "Opnieuw beginnen",
+    "viewFinal": "Bekijk de eindscore",
+    "nextProfile": "Volgende profiel"
+  },
+  "errors": {
+    "bootstrap": "Kan ervaring niet opstarten:",
+    "profiles": "Kan ervaringsgegevens niet laden. Vernieuw de pagina.",
+    "fetchFailed": "Kan {path} niet laden (status {status})",
+    "storageWarning": "Kan de opgeslagen waarde voor {key} niet parseren:"
+  },
+  "experience": {
+    "progressAria": "Voortgang van de ervaring"
+  },
+  "formatAnswer": {
+    "yes": "Ja - ze zullen doden",
+    "no": "Nee, geen dodelijke daad",
+    "none": "Geen antwoord"
+  },
+  "peer": {
+    "ariaLabel": "{name}: {yes}% antwoordde {yesLabel}, {no}% antwoordde {noLabel}"
+  },
+  "profiles": {
+    "p01": {
+      "label": "Profiel 01",
+      "alias": "Profiel 01 - De zwerver op de snelweg",
+      "tagline": "Verlating verhardt zich in hinderlagen langs de weg",
+      "era": "Florida, Verenigde Staten - eind jaren tachtig",
+      "summary": "Ze werd als tiener uit haar huis gegooid en overleefde door te liften en seks te werken langs de U.S. 1, waarbij ze een dik arrestatiedossier verzamelde wegens wanordelijk gedrag en diefstal.",
+      "highlights": [
+        "Buren herinnerden zich haar schietoefeningen met een .22-pistool in het bos achter goedkope motels.",
+        "Regelmatig werden de auto's van klanten gestolen en uren later gedumpt, waarbij portemonnees en identiteitsbewijzen in afvalcontainers achterbleven.",
+        "Vertelde haar vriendin dat ze onderbroeken 'haatte' en fantaseerde erover om ze weg te vagen."
+      ],
+      "reveal": {
+        "identity": "Aileen Wuornos",
+        "verdict": "Bekent dat hij zeven mannen heeft gedood terwijl hij zich voordeed als een gestrande lifter; uitgevoerd in 2002.",
+        "detail": "Onderzoekers bonden haar vast aan verlaten voertuigen, gebruikte granaten en pionnenstrookjes van de bezittingen van de slachtoffers."
+      }
+    },
+    "p02": {
+      "label": "Profiel 02",
+      "alias": "Profiel 02 - De schaakbordwreker",
+      "tagline": "Een door puzzels geobsedeerde klerk houdt een privételling bij",
+      "era": "Moskou, Rusland - jaren negentig tot 2000",
+      "summary": "Een supermarkthandelaar die tegen klasgenoten opschepte dat het leven een gigantisch schaakspel was en dat hij van plan was 'het bord te vullen' voordat hij met pensioen ging.",
+      "highlights": [
+        "Vertelde vrienden dat hij één slachtoffer wilde voor elk van de 64 vakjes op zijn geliefde schaakbord.",
+        "Nodigde collega's uit om wodka te drinken in Bittsevsky Park, sloeg ze vervolgens met een hamer en liet ze in putten vallen.",
+        "Hij nam zichzelf op terwijl hij zwerfhonden martelde en bewaarde de banden als oefenmateriaal."
+      ],
+      "reveal": {
+        "identity": "Alexander Pichushkin",
+        "verdict": "In 2007 veroordeeld voor de moord op 48 mensen, hoewel hij meer dan 60 slachtoffers eiste.",
+        "detail": "De politie koppelde zijn slachtoffers aan de schaakbordtellingen die hij onder zijn vloerplanken bewaarde."
+      }
+    },
+    "p03": {
+      "label": "Profiel 03",
+      "alias": "Profiel 03 - De teruggetrokken vlieger",
+      "tagline": "Briljante techniek verteerd door angst voor ziektekiemen",
+      "era": "Verenigde Staten - jaren dertig tot zeventig",
+      "summary": "Een erfgenaam die filmstudio's en vliegtuigbedrijven bouwde en zich vervolgens terugtrok achter verduisteringsgordijnen en dictaten uitleverde via in Kleenex verpakte potloden.",
+      "highlights": [
+        "Hij sloot zichzelf maandenlang op in een filmzaal, leefde van melk- en chocoladerepen en gaf memo's per uur.",
+        "Hij gaf assistenten de opdracht om kleding te verbranden waarvan hij dacht dat deze besmet was, en drong aan op chirurgische maskers tijdens elke interactie.",
+        "Miljoenen uitgegeven aan experimentele vliegtuigen zoals de H-4 Hercules, ondanks meerdere bijna fatale crashes."
+      ],
+      "reveal": {
+        "identity": "Howard Hughes",
+        "verdict": "Excentrieke miljardairvlieger wiens paranoia nooit uitmondde in moord.",
+        "detail": "Bekend om zijn luchtvaartgegevens, ziekenhuisdonaties en de oprichting van het Hughes Medical Institute."
+      }
+    },
+    "p04": {
+      "label": "Profiel 04",
+      "alias": "Profiel 04 - De gouden jongen van de campagne",
+      "tagline": "De charme van een rechtenstudent die dwanghandelingen maskeert",
+      "era": "Washington State & Utah, Verenigde Staten - midden jaren zeventig",
+      "summary": "Een beursstudent die zich vrijwillig aanmeldde voor politieke campagnes en een zelfmoordhotline bemande terwijl hij escalerende fantasieën over overheersing verborg.",
+      "highlights": [
+        "Verzamelde gipsen armafgietsels en geveinsde verwondingen om vrouwen naar zijn Volkswagen Kever te lokken.",
+        "Plaats delict bezocht en zich voorgedaan als onderzoeker om rechercheurs af te luisteren.",
+        "Ontsnapte in 1977 tweemaal aan hechtenis en hervatte zwervende roadtrips zonder familie te waarschuwen."
+      ],
+      "reveal": {
+        "identity": "Ted Bundy",
+        "verdict": "Veroordeeld voor meerdere moorden in Florida en gekoppeld aan minstens 30 moorden in de Verenigde Staten.",
+        "detail": "Geëxecuteerd in 1989 na ooggetuigenverklaringen, analyse van bijtsporen en forensische vezelmatches."
+      }
+    },
+    "p05": {
+      "label": "Profiel 05",
+      "alias": "Profiel 05 - De meedogenloze pleitbezorger",
+      "tagline": "Politiek als mensenrechtenlokaal",
+      "era": "Washington, DC en New York, Verenigde Staten - jaren dertig tot vijftig",
+      "summary": "Een van patriciërs afkomstige organisator die de ceremoniële rol van First Lady transformeerde in een meedogenloze campagne voor arbeiders, vrouwen en vluchtelingen.",
+      "highlights": [
+        "Houdt persconferenties voor alleen vrouwen, waardoor kranten gedwongen worden vrouwelijke verslaggevers in dienst te nemen.",
+        "Bezocht kolenmijnen, gevangenissen en gescheiden ziekenhuizen ondanks bedreigingen van segregationisten.",
+        "Voorzitter van de VN-commissie die de Universele Verklaring van de Rechten van de Mens heeft opgesteld."
+      ],
+      "reveal": {
+        "identity": "Eleanor Roosevelt",
+        "verdict": "Sociaal hervormer en diplomaat; geen betrokkenheid bij geweldsmisdrijven.",
+        "detail": "Gebruikte haar platform om burgerrechten en humanitaire corridors uit te breiden tijdens de Tweede Wereldoorlog."
+      }
+    },
+    "p06": {
+      "label": "Profiel 06",
+      "alias": "Profiel 06 - De vertrouwde plattelandsdokter",
+      "tagline": "Huisbezoeken, valse handtekeningen",
+      "era": "Hyde, Engeland - jaren zeventig tot negentig",
+      "summary": "Een gerespecteerde huisarts die geroemd werd om zijn stipte bezoeken aan het bed, die een ongewoon strikte controle hield over de medische dossiers en het crematiepapierwerk.",
+      "highlights": [
+        "Patiënten stierven minuten nadat hij routinematige morfine-injecties had toegediend zonder de symptomen in kaart te brengen.",
+        "Hij heeft Kathleen Grundy's testament gesmeed om zichzelf de enige begunstigde van haar nalatenschap te maken.",
+        "Was in 1975 al gestraft wegens het vervalsen van pethidinevoorschriften om zijn eigen verslaving te voeden."
+      ],
+      "reveal": {
+        "identity": "Harold Shipman",
+        "verdict": "Schuldig bevonden aan de moord op 15 patiënten, waarbij uit een onderzoek later meer dan 200 doden aan zijn praktijk werden toegeschreven.",
+        "detail": "Kreeg in 2000 vijftien levenslange gevangenisstraffen nadat statistische audits van overlijdensakten dit patroon aan het licht brachten."
+      }
+    },
+    "p07": {
+      "label": "Profiel 07",
+      "alias": "Profiel 07 - De ballerina in oorlogstijd",
+      "tagline": "Ondervoede tiener werd UNICEF-gezant",
+      "era": "Nederland en wereldwijd - jaren 40 tot 90",
+      "summary": "Een jonge danseres die tijdens de nazi-bezetting verzetsboodschappen uitdroeg voordat ze een filmster en mondiaal humanitair persoon werd.",
+      "highlights": [
+        "Overleefde de Nederlandse Hongerwinter en zamelde in het geheim geld in met 'blackout'-dansrecitals.",
+        "Ze verliet een professionele balletcarrière na oorlogsverwondingen, maar verlegde de discipline naar acteren.",
+        "Haar laatste decennia bracht ze als Goodwill-ambassadeur van UNICEF door met het bezoeken van hongersnoodgebieden in Afrika en Azië."
+      ],
+      "reveal": {
+        "identity": "Audrey Hepburn",
+        "verdict": "Oscar-winnende acteur en humanitair; nooit in verband gebracht met geweldsmisdrijven.",
+        "detail": "Bekend vanwege 'Roman Holiday', 'Breakfast at Tiffany's' en praktische hulpmissies."
+      }
+    },
+    "p08": {
+      "label": "Profiel 08",
+      "alias": "Profiel 08 - De jetset-oplichter",
+      "tagline": "Luxe ontbijtjes, verdwenen backpackers",
+      "era": "Zuid- en Zuidoost-Azië - midden jaren zeventig",
+      "summary": "Een polyglot die tussen Bangkok, Kathmandu en Bombay heen en weer reisde en nep-edelstenen verkocht, terwijl hij een wisselende kliek van bewonderende reizigers cultiveerde.",
+      "highlights": [
+        "Gebruikte gestolen paspoorten om zichzelf opnieuw uit te vinden als rijke dealer en slachtoffers naar privévilla's te lokken.",
+        "Gasten gedrogeerd met pillen, zo zei hij, genas dysenterie, waardoor ze arbeidsongeschikt raakten voor diefstal of erger.",
+        "Ontsnapte in 1986 uit de Tihar-gevangenis door bewakers te drogeren met een afscheidstaart en de poort uit te lopen."
+      ],
+      "reveal": {
+        "identity": "Charles Sobhraj",
+        "verdict": "Gelinkt aan minstens een dozijn moorden op backpackers in Thailand, Nepal en India.",
+        "detail": "Verdiende de bijnaam 'Bikini Killer' en zit een levenslange gevangenisstraf uit in Nepal na een arrestatie in 2003."
+      }
+    },
+    "p09": {
+      "label": "Profiel 09",
+      "alias": "Profiel 09 - Het ongekochte congreslid",
+      "tagline": "Opvoeder bestormt Capitol Hill met alleen maar vrijwilligers",
+      "era": "Brooklyn en Washington, DC - jaren zestig tot zeventig",
+      "summary": "Een eigenzinnige leraar die kinderdagverblijven opende voordat hij zich kandidaat stelde voor het Congres met de belofte de machtsmakelaars van beide partijen uit te dagen.",
+      "highlights": [
+        "Weigerden donaties van bedrijven en vertrouwden op kerkkelders en onderwijzers voor steun van kleine dollars.",
+        "Stimuleerde de kindervoeding en het minimumloon, terwijl hij racistische bedreigingen en kritiek ontving.",
+        "Kondigde in 1972 een presidentiële poging aan om burgerrechtenplanken in televisiedebatten te forceren."
+      ],
+      "reveal": {
+        "identity": "Shirley Chisholm",
+        "verdict": "Eerste zwarte congreslid in de Verenigde Staten; pionier zonder geweldsdelicten.",
+        "detail": "Haar platform 'Unbought and Unbossed' inspireerde latere generaties ambtenaren."
+      }
+    },
+    "p10": {
+      "label": "Profiel 10",
+      "alias": "Profiel 10 - De stille huurder",
+      "tagline": "Keldergeuren werden weggeveegd als slecht sanitair",
+      "era": "Milwaukee, Verenigde Staten - eind jaren tachtig",
+      "summary": "Een eenzame werknemer in een chocoladefabriek die op tijd de huur betaalde en bier aanbood aan de buren, ook al kreeg de politie herhaaldelijk hinderlijke telefoontjes over zijn appartement.",
+      "highlights": [
+        "Huurders waarschuwden het management voor ranzige geuren, zoemende zagen en donkere vloeistof die uit de ventilatieopeningen lekte.",
+        "Eerder veroordeeld voor het lastigvallen van een 13-jarige jongen; kreeg nog steeds vervroegde vrijlating en minimaal toezicht.",
+        "Vertelde aan jeugdvrienden dat hij het leuk vond om roadkill te verzamelen en botten in zuurpotten te bleken."
+      ],
+      "reveal": {
+        "identity": "Jeffrey Dahmer",
+        "verdict": "Bekende dat hij tussen 1978 en 1991 zeventien mannen en jongens heeft vermoord en in stukken gehakt.",
+        "detail": "De politie heeft lichaamsdelen, foto's en geschreven plannen voor meer moorden in zijn appartement teruggevonden."
+      }
+    },
+    "p11": {
+      "label": "Profiel 11",
+      "alias": "Profiel 11 - De kandidaat-gevangene",
+      "tagline": "Sabotagetraining gericht op verzoening",
+      "era": "Zuid-Afrika - jaren zestig tot negentig",
+      "summary": "Een advocaat die medeoprichter was van een gewapende vleugel tegen de apartheid, Afrikaans studeerde in de gevangenis en later onderhandelde over verkiezingen in plaats van wraak.",
+      "highlights": [
+        "We hebben Umkhonto geholpen bij het saboteren van cellen die zich richten op de infrastructuur in plaats van op burgers.",
+        "Heeft 27 jaar opgesloten gezeten op Robbeneiland, waar hij rechtenboeken heeft gelezen en heeft bemiddeld in geschillen tussen gevangenen.",
+        "Na zijn vrijlating pleitte hij voor een Waarheids- en Verzoeningscommissie in plaats van zuiveringen."
+      ],
+      "reveal": {
+        "identity": "Nelson Mandela",
+        "verdict": "Leidde Zuid-Afrika naar de multiraciale democratie en ontving de Nobelprijs voor de Vrede.",
+        "detail": "Pleitte voor verzoening en kreeg ondanks militante training nooit te maken met beschuldigingen van moord."
+      }
+    },
+    "p12": {
+      "label": "Profiel 12",
+      "alias": "Profiel 12 - Het vormveranderende poppictogram",
+      "tagline": "Persona's vermenigvuldigen zich met elke albumcyclus",
+      "era": "Londen, Berlijn en New York - Jaren 70 tot 2010",
+      "summary": "Een rusteloze performer die zichzelf opnieuw uitvond met buitenaardse alter ego's, occulte leesbuien en zorgvuldig gechoreografeerd podiumkunst.",
+      "highlights": [
+        "Wekenlang geïsoleerd voor snelle en storyboard-personages als Ziggy Stardust en de Thin White Duke.",
+        "Verdiepte zich in surveillancebeelden en expressionistische kunst tijdens de jaren van de Berlijnse trilogie.",
+        "Werkte samen met mimekunstenaars, modeontwerpers en filmregisseurs om het publiek onrustig te houden."
+      ],
+      "reveal": {
+        "identity": "David Bowie",
+        "verdict": "Genre-tartende muzikant met nul ervaring op het gebied van geweldsmisdrijven.",
+        "detail": "Heeft een catalogus achtergelaten van innovatie en filantropische steun voor HIV/AIDS-doelen."
+      }
+    }
+  }
+}

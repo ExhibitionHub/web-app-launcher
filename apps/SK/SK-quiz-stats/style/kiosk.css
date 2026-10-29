@@ -1,0 +1,70 @@
+:root {
+  --kiosk-font-text: var(--sk-font-text);
+  --kiosk-black: var(--sk-color-black);
+  --kiosk-white: var(--sk-color-white);
+  --kiosk-red: var(--sk-color-red-900);
+  --kiosk-red-light: var(--sk-color-red-700);
+  --kiosk-border: var(--sk-border-subtle);
+}
+
+html,
+body {
+  overscroll-behavior: none;
+  overflow: hidden;
+  touch-action: none;
+  -ms-touch-action: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.kiosk-menu {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 999999;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  font-family: var(--kiosk-font-text);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--kiosk-white);
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid var(--kiosk-border);
+  border-radius: 999px;
+  text-decoration: none;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  user-select: none;
+}
+
+.kiosk-menu::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--kiosk-red);
+  box-shadow: 0 0 0 4px rgba(139, 0, 0, 0.22);
+}
+
+.kiosk-menu:hover {
+  border-color: rgba(178, 34, 34, 0.55);
+}
+
+.kiosk-menu:focus-visible {
+  outline: 3px solid var(--sk-focus-ring);
+  outline-offset: 2px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}

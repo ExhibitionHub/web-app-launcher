@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "pageTitle": "DSGN Board — Investigation"
+  },
+  "ui": {
+    "aria": {
+      "board": "Investigation Board",
+      "fiber": "Fiber analysis",
+      "network": "Cellular & network data",
+      "dna": "DNA comparison",
+      "toxicology": "Coroner and substance reports",
+      "light": "Light wavelength photos",
+      "fingerprints": "Fingerprint report"
+    },
+    "controls": {
+      "label": "App controls",
+      "languageGroup": "Language",
+      "languages": {
+        "en": "English",
+        "fr": "French",
+        "ar": "Arabic",
+        "es": "Spanish"
+      }
+    },
+    "tablet": {
+      "profileOverview": "Profile overview",
+      "agency": "GENERAL DIRECTORATE OF NATIONAL SECURITY OF MOROCCO",
+      "title": "CRIMINAL INVESTIGATION - PROFILE OVERVIEW",
+      "labels": {
+        "category": "CATEGORY",
+        "name": "NAME",
+        "role": "ROLE",
+        "age": "AGE",
+        "height": "HEIGHT",
+        "weight": "WEIGHT"
+      },
+      "profiles": {
+        "victimProfile": "VICTIM PROFILE",
+        "suspectAProfile": "SUSPECT A PROFILE",
+        "suspectBProfile": "SUSPECT B PROFILE",
+        "victim": {
+          "category": "Victim",
+          "role": "Victim",
+          "age": "34yo",
+          "height": "175cm",
+          "weight": "68kg"
+        },
+        "samir": {
+          "category": "Visitor 2",
+          "role": "Suspect A",
+          "age": "32yo",
+          "height": "180cm",
+          "weight": "65kg"
+        },
+        "karim": {
+          "category": "Visitor 1",
+          "role": "Suspect B",
+          "age": "29yo",
+          "height": "170cm",
+          "weight": "58kg"
+        }
+      }
+    },
+    "actions": {
+      "analyze": "Analyze result",
+      "close": "Close",
+      "closeCase": "Close case",
+      "home": "Home",
+      "homeAria": "Reset this board",
+      "reset": "Reset",
+      "resetAria": "Reset investigation"
+    },
+    "popup": {
+      "evidenceKicker": "EVIDENCE",
+      "conclusionKicker": "CONCLUSION:"
+    },
+    "carousel": {
+      "ariaLabel": "Evidence images",
+      "previous": "Previous",
+      "next": "Next",
+      "imageLabel": "Image {{number}}"
+    },
+    "network": {
+      "kicker": "DIGITAL EVIDENCE",
+      "tabsAriaLabel": "Digital evidence source",
+      "messagesAriaLabel": "Text message evidence",
+      "mapLocked": "MAP LOCKED",
+      "status": {
+        "locked": "LOCKED",
+        "located": "LOCATED"
+      },
+      "pins": {
+        "victim": {
+          "label": "Victim House",
+          "context": "Medina district"
+        },
+        "police": {
+          "label": "Police Station",
+          "context": "Commissariat Central"
+        },
+        "karim": {
+          "label": "Karim Last Known",
+          "context": "Hassan district"
+        }
+      },
+      "cleaner": {
+        "badge": "Cleaner interview",
+        "title": "First visitor details",
+        "arrival": "The first visitor arrived before dawn, around 05:00.",
+        "drunk": "The cleaner described the visitor as drunk.",
+        "short": "The cleaner remembered the visitor as short."
+      }
+    },
+    "conclusions": {
+      "coroner": "CORONER",
+      "substanceReport": "SUBSTANCE REPORT"
+    },
+    "questions": {
+      "reviewedKicker": "EVIDENCE REVIEWED",
+      "noQuestion": "No question for this station.",
+      "kicker": "QUESTION",
+      "numberedKicker": "QUESTION {{current}} / {{total}}",
+      "singleHint": "Select one answer",
+      "multiHint": "Select {{count}} answers",
+      "reviewOnlyHint": "Review this evidence before continuing.",
+      "recordAnswer": "RECORD ANSWER",
+      "markReviewed": "MARK REVIEWED",
+      "recorded": "RECORDED",
+      "feedback": "Answer recorded for final analysis.",
+      "conclusionKicker": "CONCLUSION",
+      "closeStation": "Close evidence"
+    },
+    "hints": {
+      "initial": "Tap an item on the desk to inspect the evidence.",
+      "progress": "Evidence reviewed: {{completed}} / {{total}}. Tap an item on the desk.",
+      "complete": "All evidence reviewed. Tap anywhere on the tablet to close the case.",
+      "idleReset": "Session reset after inactivity."
+    },
+    "reveal": {
+      "analysisComplete": "ANALYSIS COMPLETE",
+      "caseSolved": "CASE SOLVED",
+      "caseInconclusive": "CASE INCONCLUSIVE",
+      "killerIs": "The killer is…",
+      "wrongAccused": "You accused the wrong person. The killer was…",
+      "winText": "The forensic evidence converges: motive (fake cocaine), hidden initials on the brick under UV, fiber match between the lost button and the broken branch, and the wiped chair confirm the killer.",
+      "loseText": "Re-examine the evidence: the fake cocaine brick, the hidden UV initials, the fiber match and the wiped chair all point to a single person."
+    }
+  }
+}

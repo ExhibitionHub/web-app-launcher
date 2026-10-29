@@ -1,0 +1,29 @@
+{
+  "locations": {
+    "victimHouse": {
+      "name": "Casa de la victima",
+      "context": "Distrito Medina, Rabat"
+    },
+    "neighborHouse": {
+      "name": "Ama de llaves",
+      "context": "Testigo de la manana"
+    },
+    "friendHouse": {
+      "name": "Casa del amigo",
+      "context": "Distrito Agdal"
+    },
+    "policeStation": {
+      "name": "Comisaria",
+      "context": "Commissariat Central de Rabat",
+      "address": "Avenida Ibn Sina, Rabat, Marruecos"
+    },
+    "karimLocation": {
+      "name": "Ultima ubicacion de Karim",
+      "context": "Distrito Hassan"
+    }
+  },
+  "policeAnchor": {
+    "location": "Commissariat Central de Rabat",
+    "address": "Avenida Ibn Sina, Rabat, Marruecos"
+  }
+}

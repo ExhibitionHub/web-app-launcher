@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exhibition Hub</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./assets/styles.css?v=20261029j" />
+  </head>
+  <body>
+    <main class="launcher" id="launcher">
+      <aside class="sidebar">
+        <div class="brand">
+          <h1>Exhibition Hub</h1>
+          <p>Apps &amp; downloads</p>
+        </div>
+        <nav class="family-nav" id="family-nav" aria-label="Families"></nav>
+      </aside>
+      <section class="content">
+        <header class="content__header">
+          <div>
+            <h2 class="content__title" id="family-title"></h2>
+            <p class="content__subtitle" id="family-subtitle"></p>
+          </div>
+          <div class="content__actions">
+            <button class="sign-out hidden" id="sign-out" type="button">Sign out</button>
+            <button class="edit-toggle" id="edit-toggle" type="button" aria-pressed="false"></button>
+          </div>
+        </header>
+        <div class="app-list" id="app-list"></div>
+        <div class="empty hidden" id="empty-state">No apps available in the hub.</div>
+      </section>
+    </main>
+
+    <section class="launch-modal hidden" id="launch-modal" aria-hidden="true">
+      <div class="launch-modal__backdrop" data-close-launch-modal></div>
+      <div
+        class="launch-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="launch-modal-title"
+        aria-describedby="launch-modal-description"
+      >
+        <button
+          class="launch-modal__close"
+          type="button"
+          data-close-launch-modal
+          aria-label="Close launch window"
+        >
+          ×
+        </button>
+        <p class="launch-modal__eyebrow">Launch app</p>
+        <h2 class="launch-modal__title" id="launch-modal-title"></h2>
+        <p class="launch-modal__description" id="launch-modal-description"></p>
+        <div class="launch-modal__languages" id="launch-modal-languages"></div>
+        <div class="launch-modal__alerts" id="launch-modal-alerts"></div>
+        <p class="launch-modal__section">Display mode</p>
+        <div class="launch-modal__actions">
+          <button class="launch-mode" type="button" data-launch-modal-mode="horizontal">
+            <span class="launch-mode__shape launch-mode__shape--landscape" aria-hidden="true"></span>
+            <span class="launch-mode__label">Horizontal</span>
+            <span class="launch-mode__hint">Landscape format 16:9</span>
+          </button>
+          <button class="launch-mode" type="button" data-launch-modal-mode="vertical">
+            <span class="launch-mode__shape launch-mode__shape--portrait" aria-hidden="true"></span>
+            <span class="launch-mode__label">Vertical</span>
+            <span class="launch-mode__hint">Portrait format 9:16</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="launch-modal hidden" id="edit-modal" aria-hidden="true">
+      <div class="launch-modal__backdrop" data-close-edit-modal></div>
+      <div class="launch-modal__dialog launch-modal__dialog--wide" role="dialog" aria-modal="true" aria-labelledby="edit-modal-title">
+        <button class="launch-modal__close" type="button" data-close-edit-modal aria-label="Close">×</button>
+        <div id="edit-modal-body"></div>
+      </div>
+    </section>
+
+    <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+
+    <script type="module" src="./assets/app.js?v=20261029j"></script>
+  </body>
+</html>

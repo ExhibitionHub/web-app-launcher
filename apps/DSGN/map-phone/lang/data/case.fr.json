@@ -1,0 +1,82 @@
+{
+	"case": {
+		"location": "Rabat, Maroc"
+	},
+	"intro": {
+		"description": [
+			"Dans la nuit du 17 mai 2024, Youssef est retrouvé mort à son domicile dans le quartier de la Médina à Rabat.",
+			"Son téléphone est récupéré sur place et immédiatement placé dans un conteneur Faraday — une enceinte blindée qui bloque tous les signaux sans fil afin d'empêcher tout suivi, accès ou effacement à distance.",
+			"Deux suspects se trouvaient près de la maison cette nuit-là. À vous de recouper les traces numériques et de décider pourquoi chacun est venu."
+		],
+		"objectives": [
+			"Comprendre comment l'investigation numérique relie plusieurs types de données pour résoudre un cas réel.",
+			"Comprendre l'importance d'isoler un appareil pour préserver les preuves.",
+			"Recouper données du téléphone, données réseau et données de compte.",
+			"Utiliser chronologies, lieux et comportements pour identifier les suspects.",
+			"Voir que même une tentative de destruction de preuve peut laisser des traces numériques révélatrices."
+		],
+		"people": {
+			"victim": {
+				"summary": "Retrouvé mort à son domicile."
+			},
+			"witness": {
+				"summary": "La gouvernante arrive tôt, remarque des lumières inhabituelles et l'absence de réponse, puis appelle la police."
+			},
+			"karim": {
+				"summary": "Contact lié à une transaction de drogue. Mécontent de la transaction, il annonce qu'il vient. Il est invité à entrer pour discuter."
+			},
+			"samir": {
+				"summary": "Ami de la victime. Ivre cette nuit-là, non invité, il vient quand même."
+			}
+		},
+		"evidence": [
+			{
+				"tone": "phone",
+				"title": "Téléphone de la victime",
+				"meta": "Appareil physique",
+				"body": "Récupéré sur la scène de crime (maison de la victime). Placé au commissariat."
+			},
+			{
+				"tone": "conversations",
+				"title": "Conversations",
+				"meta": "Messages et appels",
+				"body": "Les fils avec la gouvernante, Karim et Samir révèlent mobile, invitations et alerte du matin."
+			},
+			{
+				"tone": "cellular",
+				"title": "Données du réseau cellulaire",
+				"body": "Fournies par l'opérateur télécom. Comprennent journaux d'appels, métadonnées SMS et triangulation par antennes."
+			},
+			{
+				"tone": "google",
+				"title": "Données du compte Google",
+				"meta": "Ordinateur portable",
+				"body": "Issues de l'ordinateur de la victime trouvé dans la maison. Montrent les connexions et tentatives d'effacement à distance."
+			}
+		],
+		"secureCard": {
+			"paragraphs": [
+				"Le téléphone de la victime est placé dans un conteneur Faraday immédiatement après sa récupération pour bloquer tous les signaux sans fil.",
+				"Pendant le transport vers le commissariat, deux tentatives d'effacement à distance sont effectuées via le compte Google. Elles sont toutes deux bloquées.",
+				"L'isolation Faraday préserve les preuves en empêchant l'accès distant, le suivi et la suppression de données."
+			],
+			"status": "Conteneur Faraday actif"
+		}
+	},
+	"conclusion": {
+		"cards": [
+			{
+				"title": "Deux suspects sont entrés dans la maison",
+				"body": "Karim est venu après une dispute au sujet d'une transaction de drogue — il était contrarié, mais il a été invité à entrer pour discuter."
+			},
+			{
+				"title": "Et l'autre est venu ivre",
+				"body": "Samir était ivre, non invité, et il est venu quand même. Il cherchait de la drogue et pouvait encore être contrarié à propos d'une fille."
+			},
+			{
+				"title": "À vous de décider",
+				"body": "L'isolation criminalistique a préservé le téléphone, les pings cellulaires ont placé les deux hommes sur place, et les tentatives Google bloquées viennent de la zone de Karim. Les traces sont claires — le mobile reste à interpréter."
+			}
+		]
+	}
+}

@@ -1,0 +1,62 @@
+{
+  "movementPaths": {
+    "samir": [
+      "Inicio: casa del amigo en el distrito Agdal.",
+      "Movimiento a: casa de la victima (sin invitacion, borracho).",
+      "Permanece durante la noche.",
+      "Sale alrededor de las 6:30am."
+    ],
+    "karim": [
+      "Inicio: distrito Hassan.",
+      "Movimiento a: casa de la victima (invitado tras la discusion).",
+      "Sale alrededor de las 5:00am."
+    ],
+    "remoteDeletion": [
+      "Ultima ubicacion conocida de Karim.",
+      "Contexto de la cuenta Google de la victima.",
+      "Telefono en el Commissariat Central de Rabat.",
+      "Resultado: BLOQUEADO."
+    ]
+  },
+  "chronology": {
+    "earlierWeek": [
+      { "time": "10 de mayo", "label": "Discusion Samir / Youssef por una chica" },
+      { "time": "12 de mayo", "label": "Trato de drogas entre Karim y Youssef" }
+    ],
+    "incident": [
+      { "time": "23:18", "label": "Karim: 'Que demonios, tio'" },
+      { "time": "23:22", "label": "Youssef invita a Karim a hablar" },
+      { "time": "23:41", "label": "Samir (borracho) dice que va a venir" },
+      { "time": "23:49", "label": "Youssef le dice a Samir: 'NO, esta noche no'" },
+      { "time": "23:55", "label": "Samir: 'Voy para allaa'" }
+    ],
+    "night": [
+      { "time": "00:30 - 04:30", "label": "Ambos sospechosos presentes en casa de la victima" },
+      { "time": "05:00", "label": "Karim sale de casa de la victima" },
+      { "time": "06:30", "label": "Samir sale de casa de la victima" }
+    ],
+    "morning": [
+      { "time": "05:48", "label": "Ama de llaves: 'Tus luces nunca estan encendidas a esta hora'" },
+      { "time": "06:24", "label": "Llamada perdida del ama de llaves a Youssef" },
+      { "time": "06:30", "label": "El ama de llaves llama a la policia" },
+      { "time": "07:12", "label": "Samir: 'Dime que paso, si estas despierto'" }
+    ],
+    "postIncident": [
+      { "time": "07:18", "label": "Telefono asegurado en contenedor Faraday" },
+      { "time": "07:24", "label": "Login de Google desde la zona de Karim" },
+      { "time": "07:26", "label": "Intento de borrado #1 bloqueado" },
+      { "time": "07:29", "label": "Intento de borrado #2 bloqueado" }
+    ]
+  },
+  "timelineItems": [
+    { "id": "karim-leaves", "time": "05:00", "label": "Karim sale de casa de la victima", "source": "cellular", "tag": "cellular" },
+    { "id": "neighbor-text", "time": "05:48", "label": "El ama de llaves nota luces inusuales y escribe a Youssef", "source": "conversations", "tag": "witness" },
+    { "id": "samir-leaves", "time": "06:30", "label": "Samir sale de casa de la victima", "source": "cellular", "tag": "cellular" },
+    { "id": "neighbor-call", "time": "06:30", "label": "El ama de llaves llama a la policia", "source": "conversations", "tag": "witness" },
+    { "id": "samir-message", "time": "07:12", "label": "Samir: 'Dime que paso, si estas despierto'", "source": "conversations", "tag": "conversations" },
+    { "id": "phone-secured", "time": "07:18", "label": "Telefono de la victima asegurado en contenedor Faraday", "source": "phone", "tag": "phone" },
+    { "id": "google-login", "time": "07:24", "label": "Login de Google desde la zona de Karim", "source": "google", "tag": "google" },
+    { "id": "delete-one", "time": "07:26", "label": "Intento de borrado #1 bloqueado", "source": "google", "tag": "google" },
+    { "id": "delete-two", "time": "07:29", "label": "Intento de borrado #2 bloqueado", "source": "google", "tag": "google" }
+  ]
+}

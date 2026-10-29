@@ -1,0 +1,1201 @@
+{
+  "meta": {
+    "documentTitle": "Quiz de escenarios de personalidad"
+  },
+  "ui": {
+    "welcome": {
+      "tag": "Quiz situacional de personalidad",
+      "title": "INSTANTÁNEA DE PERSONALIDAD",
+      "subtitle": "15 situaciones breves para mapear cómo reaccionas",
+      "description": "Avanza por situaciones rápidas y elige la reacción que te salga de forma natural. Cada elección instintiva construye tu perfil personal, sin mostrar otros perfiles en pantalla.",
+      "howTitle": "Cómo funciona",
+      "howSteps": [
+        "Lee el contexto breve de cada situación.",
+        "Elige la respuesta que mejor se parezca a cómo reaccionarías.",
+        "Mira cómo tu perfil se actualiza con un dossier en directo."
+      ],
+      "whyTitle": "Por qué",
+      "whyCopy": "Descubre tu equilibrio natural entre estructura, espontaneidad, iniciativa y soltura social. Es una herramienta de autoexploración: solo estás observando tu propio patrón.",
+      "disclaimer": "Experiencia lúdica y ficcional para la reflexión personal. No es una evaluación clínica.",
+      "start": "Empezar"
+    },
+    "question": {
+      "sectionLabel": "Recorrido situacional",
+      "metaLabel": "Resumen del escenario",
+      "counterPrefix": "Caso",
+      "answersLabel": "Tu reacción",
+      "statusLocked": "Elección guardada. Pasa al siguiente escenario.",
+      "statusOpen": "Elige la respuesta que mejor encaje contigo.",
+      "visualAlt": "Pista visual {index}"
+    },
+    "result": {
+      "title": "TU PERFIL DE PERSONALIDAD",
+      "profileTypeTitle": "TU TIPOLOGÍA",
+      "populationTitle": "Tu patrón de respuestas",
+      "traits": {
+        "organized": "Estructura",
+        "impulsive": "Espontaneidad",
+        "control": "Iniciativa",
+        "social": "Soltura social"
+      },
+      "highlightsTitle": "Tendencias clave",
+      "profileSummaryShare": "Fuerza del perfil: {value}%",
+      "profileSummaryLabel": "Te alineas con: {type}"
+    },
+    "buttons": {
+      "restart": "Reiniciar",
+      "back": "Atrás",
+      "send": "Compartir",
+      "sendWide": "Enviar mi perfil",
+      "sendModalClose": "Volver al inicio"
+    },
+    "accessibility": {
+      "languageSelector": "Selector de idioma"
+    },
+    "research": {
+      "title": "DOSSIER DEL PERFIL",
+      "emailTitle": "Enviar tu instantánea",
+      "emailHint": "Teclado en pantalla",
+      "recipientLabel": "Destinatario",
+      "placeholder": "p. ej. tu@email.com",
+      "statusMissing": "Añade un correo para compartir tu perfil.",
+      "statusInvalid": "Introduce una dirección de correo válida.",
+      "statusSending": "Enviando...",
+      "statusQueued": "Perfil en cola de envío.",
+      "statusSuccess": "Perfil enviado.",
+      "statusError": "No se pudo enviar tu dossier.",
+      "statusNoCamera": "La foto en directo no está disponible con esta conexión. El dossier aún se puede enviar.",
+      "sendStatus": "Perfil listo para {email}. (Envío simulado)",
+      "liveLabel": "Póster del perfil en directo",
+      "sendAria": "Enviar tu perfil",
+      "keyboardBackspace": "Borrar",
+      "keyboardClear": "Limpiar",
+      "mailSubject": "Expediente adjunto: dossier de personalidad",
+      "mailBody": "Tu dossier confidencial va adjunto.\n\nCompilado a partir de tus respuestas durante la investigación de Instantánea de Personalidad, este archivo recoge el perfil de comportamiento identificado en tu sesión.\n\nGracias por participar en la investigación.\n\nExhibition Hub"
+    },
+    "modal": {
+      "title": "Perfil enviado",
+      "body": "Tu instantánea ya va de camino."
+    },
+    "error": {
+      "title": "ERROR DE CARGA",
+      "subtitle": "No se pueden cargar los datos del quiz",
+      "message": "Asegúrate de que el servidor local esté en funcionamiento y de que los archivos de idioma sean accesibles.",
+      "reload": "Recargar",
+      "loadQuestions": "No se pudieron cargar las preguntas. Comprueba que el archivo de idioma sea accesible."
+    },
+    "chart": {
+      "you": "Tú",
+      "average": "Referencia"
+    },
+    "camera": {
+      "permissionError": "No se pudo acceder a la cámara. Asegúrate de que haya una cámara conectada y de haber concedido permiso.\n\nDetalles: {error}",
+      "errors": {
+        "secureContext": "El acceso a la cámara requiere HTTPS o localhost en el navegador del kiosco.",
+        "notAllowed": "Se ha denegado el permiso para la cámara.",
+        "notFound": "No se detectó ninguna cámara.",
+        "notReadable": "La cámara ya está en uso o no está disponible.",
+        "overconstrained": "La cámara no admite la configuración de vídeo solicitada.",
+        "generic": "El acceso a la cámara ha fallado."
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Cuando sientes que te han tratado injustamente o te han hecho daño, ¿cómo sueles reaccionar?",
+      "answers": [
+        {
+          "text": "Lo hablo e intento entender la perspectiva de la otra persona",
+          "organized": 1,
+          "impulsive": 1,
+          "control": 1,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Me aparto y planifico cuidadosamente mi siguiente paso",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Me enfrento de inmediato y con intensidad emocional",
+          "organized": 1,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Guardo rencor y espero el momento oportuno",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Tu respuesta al conflicto revela cómo procesas la ira y controlas los impulsos. Los perfiles más estructurados tienden a actuar de forma metódica, mientras que los más impulsivos reaccionan emocionalmente en el momento.",
+      "image": "images/questions/q01.jpg"
+    },
+    {
+      "id": 2,
+      "question": "¿Cómo te sientes respecto a guardar secretos?",
+      "answers": [
+        {
+          "text": "Soy totalmente transparente; los secretos me incomodan",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Mantengo algunas cosas en privado, pero las comparto con mis amistades cercanas",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Tengo muchos secretos y disfruto del poder de saber cosas que otras personas no saben",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Mantengo vidas paralelas complejas y compartimento la información con mucho cuidado",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La compartimentación y el secretismo son rasgos frecuentes en personalidades manipuladoras. Quien disfruta controlando la información suele buscar poder a través de la asimetría del conocimiento.",
+      "image": "images/questions/q02.jpg"
+    },
+    {
+      "id": 3,
+      "question": "¿Qué te atrae de otras personas?",
+      "answers": [
+        {
+          "text": "La conexión auténtica y los intereses compartidos",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Las personas que pueden ayudarme a alcanzar mis objetivos",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "La emoción de nuevas interacciones y conquistas",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Personas vulnerables sobre las que pueda influir o ejercer control",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La motivación en las relaciones revela el nivel de empatía. Las personalidades depredadoras ven a los demás como herramientas u objetivos, no como iguales dignos de respeto.",
+      "image": "images/questions/q03.jpg"
+    },
+    {
+      "id": 4,
+      "question": "¿Cómo describirías tu espacio de vida o de trabajo?",
+      "answers": [
+        {
+          "text": "Caos confortable: sé dónde está cada cosa",
+          "organized": 1,
+          "impulsive": 4,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Bastante organizado, con algunos toques personales",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Meticulosamente ordenado: todo tiene su sitio",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Estéril y controlado: elimino con frecuencia lo innecesario",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "El control del entorno refleja una necesidad psicológica de orden. La organización extrema suele correlacionarse con la necesidad de controlar otros ámbitos de la vida.",
+      "image": "images/questions/q04.jpg"
+    },
+    {
+      "id": 5,
+      "question": "¿Cómo reaccionas ante cambios inesperados en tus planes?",
+      "answers": [
+        {
+          "text": "Me adapto con facilidad y sigo adelante",
+          "organized": 1,
+          "impulsive": 3,
+          "control": 1,
+          "social": 4,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Me frustra, pero reajusto mis planes",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Me irrito e intento recuperar el plan original",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Siento una rabia intensa ante la pérdida de control",
+          "organized": 5,
+          "impulsive": 5,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La reacción ante la interrupción mide la flexibilidad y los detonantes de la ira. Las personalidades rígidas toleran peor la imprevisibilidad y pueden responder con una rabia desproporcionada.",
+      "image": "images/questions/q05.jpg"
+    },
+    {
+      "id": 6,
+      "question": "¿Qué papel sueles asumir en un grupo?",
+      "answers": [
+        {
+          "text": "La persona colaboradora que ayuda a que todo el mundo trabaje en conjunto",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "La observadora que mira desde un segundo plano",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "La líder que dirige y toma decisiones",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "La manipuladora que mueve los hilos desde la sombra",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La preferencia por un rol social revela necesidades de dominancia. Quienes buscan un control encubierto suelen preferir manipular desde la sombra antes que liderar abiertamente.",
+      "image": "images/questions/q06.jpg"
+    },
+    {
+      "id": 7,
+      "question": "Cuando cometes un error, ¿cómo lo gestionas?",
+      "answers": [
+        {
+          "text": "Lo reconozco, pido disculpas y aprendo de ello",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Intento arreglarlo discretamente, sin llamar la atención",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Desvío la culpa hacia las circunstancias o hacia otras personas",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Lo niego por completo o reescribo la historia",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La forma de asumir responsabilidades revela tendencias narcisistas. La incapacidad para aceptar la culpa y la tendencia a manipular la realidad son marcadores de una autoprotección patológica.",
+      "image": "images/questions/q07.jpg"
+    },
+    {
+      "id": 8,
+      "question": "¿Qué relación mantienes con las normas y la autoridad?",
+      "answers": [
+        {
+          "text": "Respeto las normas y las sigo por armonía social",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Sigo la mayoría de las normas, pero cuestiono las injustas",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Solo sigo las normas cuando me benefician",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Las normas no van conmigo; estoy por encima de esas limitaciones",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La actitud ante la autoridad revela tendencias antisociales. Creer que uno está exento de las normas es un rasgo central de las personalidades sociopáticas.",
+      "image": "images/questions/q08.jpg"
+    },
+    {
+      "id": 9,
+      "question": "¿Cómo sueles pasar tu tiempo libre?",
+      "answers": [
+        {
+          "text": "Socializando con amistades y familia",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Dedicándome a aficiones y proyectos creativos",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Planificando objetivos y estrategias futuras",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Observando a otras personas o entregándome a actividades solitarias e intensas",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Las elecciones de ocio reflejan conexión social o aislamiento. La preferencia por actividades solitarias y voyeuristas puede indicar una desconexión de los vínculos sociales habituales.",
+      "image": "images/questions/q09.jpg"
+    },
+    {
+      "id": 10,
+      "question": "¿Cómo te sientes cuando ves triunfar a otra persona?",
+      "answers": [
+        {
+          "text": "Me alegro por ella y me inspira",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Motivada para alcanzar mis propios logros",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Envidiosa y competitiva",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Resentida y con ganas de sabotearla",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La reacción ante el éxito ajeno mide empatía y ego. La envidia maligna y el deseo de sabotear revelan inseguridad profunda y falta de autoestima genuina.",
+      "image": "images/questions/q10.jpg"
+    },
+    {
+      "id": 11,
+      "question": "¿Qué tipo de medios o contenidos te atraen más?",
+      "answers": [
+        {
+          "text": "Comedias, romances e historias reconfortantes",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Documentales y contenido educativo",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Acción, thrillers y true crime",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Contenido oscuro, violento o perturbador",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Las preferencias mediáticas pueden reflejar necesidades psicológicas. Un interés sostenido por el contenido violento puede indicar desensibilización o satisfacción vicaria de impulsos más oscuros.",
+      "image": "images/questions/q11.jpg"
+    },
+    {
+      "id": 12,
+      "question": "¿Cómo manejas el aburrimiento?",
+      "answers": [
+        {
+          "text": "Busco a mis amistades o encuentro una actividad sencilla",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Me pongo con una tarea productiva o aprendo algo nuevo",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Busco excitación o estimulación inmediata",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Genero caos o manipulo situaciones para entretenerme",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La tolerancia al aburrimiento revela impulsividad y necesidad de estimulación. Quienes crean drama o peligro cuando están poco estimulados pueden mostrar patrones de búsqueda patológica de sensaciones.",
+      "image": "images/questions/q12.jpg"
+    },
+    {
+      "id": 13,
+      "question": "¿Cuál es tu forma de abordar objetivos a largo plazo?",
+      "answers": [
+        {
+          "text": "Trabajo con constancia y con apoyo de mi entorno",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Creo planes detallados y me mantengo fiel a ellos",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Tomo atajos y aprovecho oportunidades",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Elimino obstáculos por cualquier medio necesario",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La manera de perseguir objetivos revela flexibilidad moral. La disposición a perjudicar a otras personas por beneficio propio es un rasgo clásico de la agresión instrumental psicopática.",
+      "image": "images/questions/q13.jpg"
+    },
+    {
+      "id": 14,
+      "question": "¿Cómo describirías tu vida emocional?",
+      "answers": [
+        {
+          "text": "Rica y variada: siento intensamente",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Equilibrada: vivo altibajos normales",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Intensa y a veces desbordante",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Superficial y amortiguada: las emociones se sienten lejanas o interpretadas",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La profundidad emocional distingue las personalidades empáticas de las insensibles. El afecto superficial y las emociones interpretadas son marcadores clásicos de la psicopatía.",
+      "image": "images/questions/q14.jpg"
+    },
+    {
+      "id": 15,
+      "question": "Si pudieras tener cualquier superpoder, ¿cuál elegirías?",
+      "answers": [
+        {
+          "text": "Curar a otras personas o llevar felicidad",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Superinteligencia o capacidades aumentadas",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Leer la mente o ser invisible",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Control total sobre otras personas",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Las preferencias fantásticas revelan deseos profundos. Quienes se fijan en la dominación y el control sobre otras personas muestran el núcleo de búsqueda de poder propio de las personalidades depredadoras.",
+      "image": "images/questions/q15.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "type": "LA ESTRATEGA",
+      "label": "ORGANIZADA",
+      "icon": "\ud83e\uddec",
+      "description": "En las tipologías criminológicas clásicas, un patrón \"organizado\" se asocia con la planificación, la contención y la toma deliberada de decisiones. Tus respuestas se inclinan hacia un control basado primero en la estructura, más que hacia reacciones impulsivas.",
+      "traits": {
+        "organized": "95%",
+        "impulsive": "90%",
+        "control": "95%",
+        "social": "60%"
+      },
+      "characteristics": [
+        "Planifica antes de actuar",
+        "Prefiere controlar a través de la preparación",
+        "Mantiene la calma bajo presión",
+        "Sigue los detalles y la ejecución",
+        "Anticipa las consecuencias",
+        "Elige el método antes que el caos"
+      ],
+      "minScore": {
+        "organized": 60,
+        "impulsive": 0,
+        "control": 60,
+        "social": 0
+      },
+      "realWorldPattern": "Esta etiqueta es una referencia temática y ficticia a tipologías conocidas utilizadas en medios y educación sobre crimen; está pensada para encajar con el tono de la exposición, no para diagnosticar comportamientos."
+    },
+    {
+      "type": "LA ESPONTÁNEA",
+      "label": "DESORGANIZADA",
+      "icon": "\u26a1",
+      "description": "En las tipologías criminológicas clásicas, un patrón \"desorganizado\" se asocia con la reactividad y la baja contención. Tus respuestas se inclinan más hacia actuar en el momento que hacia planificar con cuidado.",
+      "traits": {
+        "organized": "25%",
+        "impulsive": "15%",
+        "control": "40%",
+        "social": "30%"
+      },
+      "characteristics": [
+        "Responde rápido a los factores de estrés",
+        "Improvisa en lugar de planificar",
+        "Actúa desde la emoción y el impulso",
+        "Cambia de dirección con facilidad",
+        "Acepta la imprevisibilidad",
+        "Se inclina por la espontaneidad"
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 55,
+        "control": 0,
+        "social": 0
+      },
+      "realWorldPattern": "Esta etiqueta es una referencia temática y ficticia para la exposición. Describe un patrón de respuestas, no un riesgo o una intención en el mundo real."
+    },
+    {
+      "type": "LA BUSCADORA DE EXPERIENCIAS",
+      "label": "HEDONISTA",
+      "icon": "\ud83c\udf20",
+      "description": "En las tipologías clásicas, los patrones \"hedonistas\" se enmarcan en la búsqueda de sensaciones y gratificación. Tus respuestas sugieren que la novedad y la estimulación son motivadores importantes.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "45%",
+        "control": "70%",
+        "social": "50%"
+      },
+      "characteristics": [
+        "Busca novedad y estimulación",
+        "Se aburre con la rutina",
+        "Persigue intensidad y variedad",
+        "Combina control con curiosidad",
+        "Asume riesgos calculados",
+        "Prefiere las experiencias a la contención"
+      ],
+      "minScore": {
+        "organized": 40,
+        "impulsive": 40,
+        "control": 50,
+        "social": 0
+      },
+      "realWorldPattern": "Es una etiqueta con estilo expositivo inspirada en tipologías conocidas; no es clínica ni constituye un juicio moral."
+    },
+    {
+      "type": "LA DIRECTORA",
+      "label": "PODER / CONTROL",
+      "icon": "\ud83c\udfaf",
+      "description": "En las tipologías clásicas, los patrones de \"poder/control\" ponen el acento en la dominancia, la dirección y el control de los resultados. Tus respuestas se inclinan más hacia conducir las situaciones que hacia adaptarte a ellas.",
+      "traits": {
+        "organized": "80%",
+        "impulsive": "70%",
+        "control": "95%",
+        "social": "40%"
+      },
+      "characteristics": [
+        "Quiere dirigir los resultados",
+        "Busca un control claro",
+        "Define roles, normas y dirección",
+        "Prefiere la acción decisiva",
+        "No tolera perder influencia",
+        "Mide el éxito por su capacidad de influir"
+      ],
+      "minScore": {
+        "organized": 45,
+        "impulsive": 0,
+        "control": 65,
+        "social": 0
+      },
+      "realWorldPattern": "Es una etiqueta temática para la exposición que refleja respuestas orientadas al control, no un comportamiento del mundo real."
+    },
+    {
+      "type": "LA IDEALISTA CON PROPÓSITO",
+      "label": "ORIENTADA A UNA MISIÓN",
+      "icon": "\ud83d\ude80",
+      "description": "En las tipologías clásicas, los patrones \"orientados a una misión\" se articulan en torno a una causa o propósito autojustificado. Tus respuestas se inclinan hacia decisiones guiadas por principios y por un fuerte sentido del porqué de la acción.",
+      "traits": {
+        "organized": "75%",
+        "impulsive": "65%",
+        "control": "60%",
+        "social": "55%"
+      },
+      "characteristics": [
+        "Actúa desde un propósito definido",
+        "Presenta sus decisiones como \"necesarias\"",
+        "Prefiere la disciplina al impulso",
+        "Justifica sus decisiones con principios",
+        "Piensa en resultados a largo plazo",
+        "Se mantiene firme una vez decide"
+      ],
+      "minScore": {
+        "organized": 50,
+        "impulsive": 0,
+        "control": 45,
+        "social": 35
+      },
+      "realWorldPattern": "Esta etiqueta se utiliza únicamente con fines narrativos en la exposición, inspirada en el lenguaje tipológico habitual en la educación criminológica."
+    },
+    {
+      "type": "LA INDIVIDUALIDAD EQUILIBRADA",
+      "label": "VISIONARIA",
+      "icon": "\u2696\ufe0f",
+      "description": "En las tipologías clásicas, lo \"visionario\" se formula en torno a un relato interno que se siente convincente o dominante. Tus respuestas sugieren decisiones influidas por el instinto, la narrativa y la interpretación, más que por una estructura externa estricta.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "65%",
+        "control": "40%",
+        "social": "85%"
+      },
+      "characteristics": [
+        "Sigue una narrativa interna",
+        "Busca significado en los acontecimientos",
+        "Se apoya en la intuición y la interpretación",
+        "Oscila entre la calma y la intensidad",
+        "Adapta su relato a la nueva información",
+        "Actúa cuando \"parece inevitable\""
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 0,
+        "control": 0,
+        "social": 50
+      },
+      "realWorldPattern": "Etiqueta puramente expositiva. Describe un patrón de respuestas usado con fines narrativos, no una evaluación de salud mental."
+    }
+  ],
+  "researchProfiles": {
+    "THE STRATEGIST": {
+      "notes": [
+        "Prefiere listas de comprobación y hitos claros.",
+        "Mantiene un tono sereno cuando las decisiones son urgentes.",
+        "Usa planes de respaldo antes de comprometerse.",
+        "Representa visualmente riesgos y opciones.",
+        "Comparte expectativas desde el principio."
+      ],
+      "locations": [
+        "Paneles de proyecto",
+        "Oficinas tranquilas",
+        "Sesiones de planificación"
+      ],
+      "alias": [
+        "Organizada",
+        "Metódica",
+        "La planificadora"
+      ]
+    },
+    "THE SPONTANEOUS": {
+      "notes": [
+        "Se activa con los cambios rápidos.",
+        "Habla con libertad de sus emociones.",
+        "Adapta sus planes sobre la marcha.",
+        "Encuentra ángulos creativos con rapidez.",
+        "Valora la libertad por encima de la rutina."
+      ],
+      "locations": [
+        "Eventos efímeros",
+        "Plazas concurridas",
+        "Estudios creativos"
+      ],
+      "alias": [
+        "Desorganizada",
+        "La reactiva",
+        "Imprevisible"
+      ]
+    },
+    "THE EXPERIENCE SEEKER": {
+      "notes": [
+        "Busca nuevas experiencias cada semana.",
+        "Prefiere actividades inmersivas.",
+        "Equilibra preparación y sorpresa.",
+        "Persigue historias memorables.",
+        "Le entusiasman los detalles sensoriales."
+      ],
+      "locations": [
+        "Mercados nocturnos",
+        "Salas en vivo",
+        "Nodos de viaje"
+      ],
+      "alias": [
+        "Hedonista",
+        "Buscadora de emociones",
+        "Perseguidora de sensaciones"
+      ]
+    },
+    "THE DIRECTOR": {
+      "notes": [
+        "Marca prioridades para el grupo.",
+        "Mantiene claros los roles y los plazos.",
+        "Se siente cómoda tomando decisiones.",
+        "Valora la responsabilidad.",
+        "Busca vías eficientes."
+      ],
+      "locations": [
+        "Salas de reuniones",
+        "Estudios en producción",
+        "Reuniones de equipo"
+      ],
+      "alias": [
+        "Poder/Control",
+        "La controladora",
+        "La dominadora"
+      ]
+    },
+    "THE PURPOSEFUL IDEALIST": {
+      "notes": [
+        "Fundamenta sus decisiones en principios.",
+        "Conecta las tareas con una misión.",
+        "Invierte energía en causas con sentido.",
+        "Busca impacto a largo plazo.",
+        "Inspira a otras personas con propósito."
+      ],
+      "locations": [
+        "Espacios comunitarios",
+        "Talleres",
+        "Retiros estratégicos"
+      ],
+      "alias": [
+        "Orientada a una misión",
+        "La cruzada",
+        "La purista"
+      ]
+    },
+    "THE BALANCED INDIVIDUAL": {
+      "notes": [
+        "Escucha antes de actuar.",
+        "Mantiene alineadas emoción y lógica.",
+        "Sostiene rutinas estables.",
+        "Muestra empatía constante.",
+        "Se siente cómoda cambiando de ritmo."
+      ],
+      "locations": [
+        "Centros comunitarios",
+        "Oficinas",
+        "Hogares"
+      ],
+      "alias": [
+        "Visionaria",
+        "La intérprete",
+        "La profeta"
+      ]
+    }
+  },
+  "poster": {
+    "header": "DEPARTAMENTO DE INVESTIGACIÓN",
+    "subHeader": "DOSSIER DE REFLEXIÓN",
+    "sealCode": "UFPD07OFF002274",
+    "intended": "Solo para reflexión personal.",
+    "separatorCode": "P034",
+    "labels": {
+      "fileNumber": "ID DE SESIÓN",
+      "purposeCode": "CÓDIGO DE FOCO",
+      "sruId": "ID DE EJECUCIÓN",
+      "name": "NOMBRE",
+      "aliases": "AKA",
+      "recordId": "ID DE PERFIL#",
+      "nationality": "CONTEXTO",
+      "citizen": "ENTORNO",
+      "gender": "ESTILO",
+      "race": "EQUILIBRIO DE RASGOS",
+      "height": "ENERGÍA",
+      "weight": "RITMO",
+      "eyeColor": "PUNTO DE VISTA",
+      "hairColor": "ATMÓSFERA",
+      "dob": "INICIO",
+      "age": "ESTADO",
+      "arrestSection": "INSTANTÁNEA DE SESIÓN",
+      "date": "ESCENA",
+      "offenseCode": "ETIQUETA",
+      "institution": "CONTEXTO",
+      "charge": "NOTA DE REACCIÓN",
+      "term": "ENERGÍA",
+      "fingerprints": "NOTAS",
+      "otherInfo": "OTRA INFORMACIÓN",
+      "stampFiled": "REGISTRADO",
+      "exhibitionFallback": "EXPOSICIÓN"
+    },
+    "defaults": {
+      "name": "[CENSURADO]",
+      "aliases": "[CENSURADO]",
+      "nationality": "[CENSURADO]",
+      "citizen": "[CENSURADO]",
+      "gender": "[CENSURADO]",
+      "race": "[CENSURADO]",
+      "height": "[CENSURADO]",
+      "weight": "[CENSURADO]",
+      "eyeColor": "[CENSURADO]",
+      "hairColor": "[CENSURADO]",
+      "dob": "[CENSURADO]",
+      "age": "[CENSURADO]",
+      "arrests": [
+        {
+          "institution": "SESIÓN",
+          "charge": "Esperando respuestas",
+          "term": "N/A"
+        }
+      ],
+      "defaultRedaction": "[OCULTO]",
+      "defaultUnknown": "DESCONOCIDO"
+    },
+    "otherInfoFallback": [
+      "* Perfil en construcción",
+      "esperando la captura de cámara.",
+      "Las notas de sesión se actualizarán",
+      "después de tus respuestas.",
+      "Diseñado para la autoexploración.",
+      "Compártelo o descárgalo cuando quieras."
+    ],
+    "notes": {
+      "subjectProfile": "PERFIL: {type}",
+      "divider": "--------------------------------",
+      "psychEval": "SENSACIÓN DE CONTROL: {control}"
+    },
+    "compose": {
+      "subjectProfile": "PERFIL: {type}",
+      "knownLocations": "PUNTOS DE ANCLAJE",
+      "stats": "ESTILO O:{o}% I:{i}% C:{c}% S:{s}%"
+    },
+    "charges": {
+      "THE STRATEGIST": [
+        {
+          "charge": "PLANES ESTRUCTURADOS",
+          "term": "BASE"
+        },
+        {
+          "charge": "DECISIONES SERENAS",
+          "term": "ALTO"
+        },
+        {
+          "charge": "RUTAS DE RESPALDO",
+          "term": "LISTA"
+        },
+        {
+          "charge": "SEGUIMIENTO DEL DETALLE",
+          "term": "SÓLIDO"
+        },
+        {
+          "charge": "SEÑALES CLARAS",
+          "term": "FUERTE"
+        }
+      ],
+      "THE SPONTANEOUS": [
+        {
+          "charge": "REACCIÓN INMEDIATA",
+          "term": "YA"
+        },
+        {
+          "charge": "GUIADA POR LA EMOCIÓN",
+          "term": "ALTO"
+        },
+        {
+          "charge": "AMA EL CAMBIO",
+          "term": "MÁX"
+        },
+        {
+          "charge": "PLAN FLEXIBLE",
+          "term": "LIGERO"
+        },
+        {
+          "charge": "CHISPA CREATIVA",
+          "term": "VIVA"
+        }
+      ],
+      "THE EXPERIENCE SEEKER": [
+        {
+          "charge": "BUSCA NOVEDAD",
+          "term": "AUDAZ"
+        },
+        {
+          "charge": "RIESGO LÚDICO",
+          "term": "PICANTE"
+        },
+        {
+          "charge": "CREADORA DE HISTORIAS",
+          "term": "VIVO"
+        },
+        {
+          "charge": "MEZCLA PLAN/JUEGO",
+          "term": "HÍBRIDO"
+        },
+        {
+          "charge": "FOCO SENSORIAL",
+          "term": "ALTO"
+        }
+      ],
+      "THE DIRECTOR": [
+        {
+          "charge": "MARCA DIRECCIÓN",
+          "term": "LIDERA"
+        },
+        {
+          "charge": "COORDINA EQUIPO",
+          "term": "SYNC"
+        },
+        {
+          "charge": "DECISIONES CLARAS",
+          "term": "RÁPIDO"
+        },
+        {
+          "charge": "MANTIENE VISIÓN GLOBAL",
+          "term": "CLARO"
+        },
+        {
+          "charge": "EXIGE RESPONSABILIDAD",
+          "term": "ESTABLE"
+        }
+      ],
+      "THE PURPOSEFUL IDEALIST": [
+        {
+          "charge": "MISIÓN PRIMERO",
+          "term": "BASE"
+        },
+        {
+          "charge": "GUIADA POR VALORES",
+          "term": "ANCLA"
+        },
+        {
+          "charge": "VISIÓN LARGA",
+          "term": "LEJOS"
+        },
+        {
+          "charge": "CONSTRUCTORA DE CAUSAS",
+          "term": "CONSTRUYE"
+        },
+        {
+          "charge": "INSPIRA A OTRAS PERSONAS",
+          "term": "ELEVA"
+        }
+      ],
+      "THE BALANCED INDIVIDUAL": [
+        {
+          "charge": "ÁNIMO ESTABLE",
+          "term": "CALMA"
+        },
+        {
+          "charge": "EMPÁTICA",
+          "term": "CÁLIDA"
+        },
+        {
+          "charge": "RESPUESTA EQUILIBRADA",
+          "term": "ESTABLE"
+        },
+        {
+          "charge": "LÍMITES SANOS",
+          "term": "CLAROS"
+        },
+        {
+          "charge": "ENERGÍA CENTRADA",
+          "term": "ESTABLE"
+        }
+      ],
+      "DEFAULT": [
+        {
+          "charge": "NOTA DE SESIÓN",
+          "term": "PENDIENTE"
+        }
+      ]
+    }
+  }
+}

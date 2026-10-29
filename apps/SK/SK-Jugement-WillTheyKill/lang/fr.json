@@ -1,0 +1,296 @@
+{
+    "meta": {
+        "title": "Vont-ils tuer ?"
+    },
+    "branding": {
+        "eyebrow": "Voyage interactif",
+        "title": "Vont-ils tuer ?"
+    },
+    "intro": {
+        "heroTitle": "Votre instinct face à des inconnus",
+        "heroCopy": "Chaque vignette résume les premières années et les signes avant-coureurs d'une personne réelle sans révéler son nom. À vous de décider : cette personne ira-t-elle jusqu'au meurtre ?",
+        "howTitle": "Comment ça marche",
+        "howSteps": [
+            "Revoyez les faits clés : famille, comportements, premières infractions.",
+            "Décidez en un clin d’œil si cet individu va commettre un meurtre.",
+            "Révélez leur identité et comparez votre instinct au résultat documenté."
+        ],
+        "goalTitle": "Objectif",
+        "goalCopy": "Mesurez vos préjugés et vos convictions à travers une série de profils contrastés. Le score final résume vos prédictions et ouvre des pistes de discussion."
+    },
+    "profile": {
+        "progressLabel": "Profil",
+        "progressConnector": "de",
+        "taglineFallback": "Profil anonyme",
+        "aliasFallback": "Alias",
+        "decisionTitle": "Votre jugement",
+        "decisionPrompt": "D’après les indices, cette personne finira-t-elle par tuer quelqu’un ?",
+        "choiceYes": "Oui, elle passera à l'acte",
+        "choiceNo": "Non, elle s'arrêtera avant le meurtre",
+        "revealPlaceholder": "Choisissez Oui ou Non pour révéler la véritable identité et ce qui s'est passé.",
+        "revealLabel": "Identité révélée",
+        "outcomeYes": "Ils ont tué",
+        "outcomeNo": "Pas de meurtre",
+        "revealNext": "Profil suivant",
+        "revealFinal": "Voir le score final",
+        "verdictTitle": "Que s'est-il passé",
+        "detailTitle": "Ce qui l'atteste",
+        "yourCallLabel": "Votre choix",
+        "realityLabel": "Réalité",
+        "correctLabel": "Correct",
+        "incorrectLabel": "Incorrect",
+        "choiceYesShort": "Oui",
+        "choiceNoShort": "Non",
+        "fallbackImage": "??",
+        "profileLabelDefault": "Profil",
+        "defaultProfilePrefix": "Profil "
+    },
+    "score": {
+        "eyebrow": "Résultat final",
+        "title": "Comment lire le risque",
+        "dialLabel": "Décisions correctes",
+        "calculating": "Calculer votre score...",
+        "summaryTemplate": "Vous avez examiné les profils anonymisés {count} et pris position à chaque fois.",
+        "notes": {
+            "perfect": "Lecture sans faute : vous avez anticipé chaque trajectoire. Listez vos critères et partagez-les avec le groupe.",
+            "high": "Forte intuition : vous avez repéré la plupart des risques. Quels signaux vous ont induit en erreur dans les autres cas ?",
+            "medium": "Score équilibré : votre intuition oscille. Revisitez les profils pour tester vos préjugés et combler tout contexte manquant.",
+            "low": "Ces profils défient les jugements hâtifs. Étudiez les détails manquants et les contextes de protection pour affiner votre lecture."
+        },
+        "discussionTitle": "Questions pour en discuter",
+        "peerYes": "Oui",
+        "peerNo": "Non",
+        "separator": "·"
+    },
+    "navigation": {
+        "start": "Commencer",
+        "languageSelector": "Sélecteur de langue",
+        "continue": "Continuer",
+        "restart": "Redémarrer",
+        "viewFinal": "Voir le score final",
+        "nextProfile": "Profil suivant"
+    },
+    "errors": {
+        "bootstrap": "Impossible d'amorcer l'expérience :",
+        "profiles": "Impossible de charger les données d'expérience. Veuillez actualiser la page.",
+        "fetchFailed": "Échec du chargement de {path} (statut {status})",
+        "storageWarning": "Impossible d'analyser la valeur stockée pour {key} :"
+    },
+    "experience": {
+        "progressAria": "Progression de l'expérience"
+    },
+    "formatAnswer": {
+        "yes": "Oui, elle passera à l'acte",
+        "no": "Non, pas d'acte mortel",
+        "none": "Pas de réponse"
+    },
+    "peer": {
+        "ariaLabel": "{name} : {yes}% a répondu {yesLabel}, {no}% a répondu {noLabel}"
+    },
+    "profiles": {
+        "p01": {
+            "label": "Profil 01",
+            "alias": "Profil 01 - Le vagabond interétatique",
+            "tagline": "L'abandon se transforme en embuscades en bord de route",
+            "era": "Floride, États-Unis - fin des années 1980",
+            "summary": "Expulsée de chez elle alors qu'elle était adolescente, elle a survécu grâce à l'auto-stop et au travail du sexe le long de la route américaine 1, collectant un épais dossier d'arrestation pour conduite désordonnée et vol.",
+            "highlights": [
+                "Les voisins se souvenaient de son entraînement au tir avec un pistolet .22 dans les bois derrière des motels économiques.",
+                "Volait régulièrement les voitures des clients et les jetait des heures plus tard, laissant les sacs à main et les pièces d'identité dans les bennes à ordures.",
+                "Elle a dit à sa petite amie qu'elle « détestait » les clients et qu'elle rêvait de les éliminer."
+            ],
+            "reveal": {
+                "identity": "Aileen Wuornos",
+                "verdict": "A avoué avoir tué sept hommes alors qu'il se faisait passer pour un auto-stoppeur bloqué ; exécuté en 2002.",
+                "detail": "Les enquêteurs l'ont attachée à des véhicules abandonnés, à des obus usagés et à des mises en gage provenant des biens des victimes."
+            }
+        },
+        "p02": {
+            "label": "Profil 02",
+            "alias": "Profil 02 - Le vengeur de l'échiquier",
+            "tagline": "Un employé obsédé par les énigmes tient un compte privé",
+            "era": "Moscou, Russie - années 1990 aux années 2000",
+            "summary": "Un magasinier de supermarché qui se vantait auprès de ses camarades de classe que la vie était un jeu d'échecs géant et qu'il avait l'intention de « remplir le tableau » avant de prendre sa retraite.",
+            "highlights": [
+                "Il a dit à ses amis qu'il voulait une victime pour chacune des 64 cases de son échiquier bien-aimé.",
+                "Il a invité ses collègues à boire de la vodka dans le parc Bittsevsky, puis les a matraqués avec un marteau et les a jetés dans des puits.",
+                "Il s'est enregistré en train de torturer des chiens errants, conservant les cassettes comme matériel de répétition."
+            ],
+            "reveal": {
+                "identity": "Alexandre Picchouchkine",
+                "verdict": "Reconnu coupable en 2007 du meurtre de 48 personnes, il a fait plus de 60 victimes.",
+                "detail": "La police a comparé ses victimes au décompte sur l'échiquier qu'il gardait sous son plancher."
+            }
+        },
+        "p03": {
+            "label": "Profil 03",
+            "alias": "Profil 03 - L'aviateur solitaire",
+            "tagline": "Le génie de l'ingénierie rongé par la peur des germes",
+            "era": "États-Unis - années 1930 à 1970",
+            "summary": "Un héritier qui a construit des studios de cinéma et des compagnies aéronautiques, puis s'est retiré derrière des rideaux occultants et des dictées délivrées à l'aide de crayons enveloppés de Kleenex.",
+            "highlights": [
+                "Il s'est enfermé dans une salle de projection pendant des mois, vivant de barres de lait et de chocolat tout en donnant des mémos toutes les heures.",
+                "Il a ordonné à ses assistants de brûler les vêtements qu'il croyait contaminés et a insisté sur le port de masques chirurgicaux lors de chaque interaction.",
+                "J'ai dépensé des millions pour des avions expérimentaux comme le H-4 Hercules malgré de multiples accidents presque mortels."
+            ],
+            "reveal": {
+                "identity": "Howard Hughes",
+                "verdict": "Aviateur milliardaire excentrique dont la paranoïa n'a jamais dégénéré en homicide.",
+                "detail": "On se souvient de lui pour ses dossiers d'aviation, ses dons à l'hôpital et sa fondation du Hughes Medical Institute."
+            }
+        },
+        "p04": {
+            "label": "Profil 04",
+            "alias": "Profil 04 - Le golden boy de la campagne",
+            "tagline": "Le charme d'un étudiant en droit masquant les compulsions",
+            "era": "État de Washington et Utah, États-Unis - milieu des années 1970",
+            "summary": "Un étudiant boursier qui s'est porté volontaire pour des campagnes politiques et a tenu une ligne d'assistance téléphonique contre le suicide tout en cachant des fantasmes de domination croissants.",
+            "highlights": [
+                "Il a collecté des plâtres de bras et simulé des blessures pour attirer les femmes vers sa Volkswagen Beetle.",
+                "Visité des scènes de crime en se faisant passer pour un enquêteur pour écouter les détectives.",
+                "Il s'est évadé à deux reprises en 1977 et a repris ses voyages en itinérance sans alerter sa famille."
+            ],
+            "reveal": {
+                "identity": "Ted Bundy",
+                "verdict": "Reconnu coupable de plusieurs meurtres en Floride et lié à au moins 30 meurtres à travers les États-Unis.",
+                "detail": "Exécuté en 1989 après témoignage oculaire, analyse des marques de morsure et correspondances de fibres médico-légales."
+            }
+        },
+        "p05": {
+            "label": "Profil 05",
+            "alias": "Profil 05 - Le défenseur acharné",
+            "tagline": "La politique comme école des droits de l’homme",
+            "era": "Washington, D.C. et New York, États-Unis – années 1930 à 1950",
+            "summary": "Un organisateur d'origine patricienne qui a transformé le rôle cérémoniel de Première Dame en une campagne incessante en faveur des travailleurs, des femmes et des réfugiés.",
+            "highlights": [
+                "Organisation de conférences de presse réservées aux femmes, obligeant les journaux à embaucher des journalistes féminines.",
+                "Visité des mines de charbon, des prisons et des hôpitaux séparés malgré les menaces des ségrégationnistes.",
+                "A présidé le comité des Nations Unies qui a rédigé la Déclaration universelle des droits de l'homme."
+            ],
+            "reveal": {
+                "identity": "Éléonore Roosevelt",
+                "verdict": "Réformateur social et diplomate ; aucune implication dans des crimes violents.",
+                "detail": "A utilisé sa plateforme pour étendre les droits civiques et les couloirs humanitaires pendant la Seconde Guerre mondiale."
+            }
+        },
+        "p06": {
+            "label": "Profil 06",
+            "alias": "Profil 06 - Le médecin de campagne de confiance",
+            "tagline": "Visites à domicile, fausses signatures",
+            "era": "Hyde, Angleterre - années 1970 à 1990",
+            "summary": "Un médecin généraliste respecté, célèbre pour ses visites ponctuelles au chevet du patient et qui exerçait un contrôle inhabituellement strict sur les dossiers médicaux et les documents de crémation.",
+            "highlights": [
+                "Les patients sont décédés quelques minutes après les injections de morphine de routine qu’il leur a administrées sans présenter de symptômes.",
+                "A forgé le testament de Kathleen Grundy pour devenir l'unique bénéficiaire de sa succession.",
+                "Il avait déjà été sanctionné en 1975 pour avoir falsifié des ordonnances de péthidine afin de nourrir sa propre dépendance."
+            ],
+            "reveal": {
+                "identity": "Harold Shipman",
+                "verdict": "Reconnu coupable du meurtre de 15 patients, une enquête attribuant plus tard plus de 200 décès à sa pratique.",
+                "detail": "A été condamné à 15 condamnations à perpétuité en 2000 après que des audits statistiques des certificats de décès ont révélé cette tendance."
+            }
+        },
+        "p07": {
+            "label": "Profil 07",
+            "alias": "Profil 07 - La ballerine de guerre",
+            "tagline": "Un adolescent malnutri est devenu envoyé de l'UNICEF",
+            "era": "Pays-Bas et dans le monde – des années 1940 aux années 1990",
+            "summary": "Une jeune danseuse qui a porté des messages de résistance pendant l'occupation nazie avant de devenir une star de cinéma et une humanitaire mondiale.",
+            "highlights": [
+                "A survécu à l'hiver de la faim aux Pays-Bas, en collectant secrètement des fonds avec des récitals de danse « black-out ».",
+                "A abandonné une carrière de ballet professionnel après des blessures de guerre, mais a réorienté sa discipline vers le théâtre.",
+                "A passé ses dernières décennies en tant qu'ambassadrice itinérante de l'UNICEF à visiter des zones de famine en Afrique et en Asie."
+            ],
+            "reveal": {
+                "identity": "Audrey Hepburn",
+                "verdict": "Acteur et humanitaire oscarisé ; jamais associé à un crime violent.",
+                "detail": "On se souvient de lui pour \"Vacances romaines\", \"Breakfast at Tiffany's\" et ses missions de secours pratiques."
+            }
+        },
+        "p08": {
+            "label": "Profil 08",
+            "alias": "Profil 08 - L'escroc de la jet-set",
+            "tagline": "Petits-déjeuners de luxe, routards disparus",
+            "era": "Asie du Sud et du Sud-Est - milieu des années 1970",
+            "summary": "Un polyglotte qui sautait entre Bangkok, Katmandou et Bombay en vendant de fausses pierres précieuses tout en cultivant une coterie tournante de voyageurs adorateurs.",
+            "highlights": [
+                "A utilisé des passeports volés pour se réinventer en tant que riche dealer et attirer les victimes dans des villas privées.",
+                "Il disait que les invités drogués avec des pilules guérissaient la dysenterie, les rendant incapables de commettre un vol ou pire.",
+                "Il s'est évadé de la prison de Tihar en 1986 en droguant les gardiens avec un gâteau d'adieu et en franchissant la porte."
+            ],
+            "reveal": {
+                "identity": "Charles Sobhraj",
+                "verdict": "Lié à au moins une douzaine de meurtres de routards en Thaïlande, au Népal et en Inde.",
+                "detail": "A gagné le surnom de « Bikini Killer » et purge une peine d'emprisonnement à perpétuité au Népal après une arrestation en 2003."
+            }
+        },
+        "p09": {
+            "label": "Profil 09",
+            "alias": "Profil 09 - La députée non achetée",
+            "tagline": "Un éducateur prend d’assaut le Capitole avec uniquement des bénévoles",
+            "era": "Brooklyn et Washington, DC - Années 1960 à 1970",
+            "summary": "Un enseignant obstiné qui a ouvert des garderies avant de se présenter au Congrès en s'engageant à défier les puissants des deux partis.",
+            "highlights": [
+                "Refusé les dons des entreprises, comptant sur les sous-sols des églises et les enseignants pour un petit soutien financier.",
+                "Il a poussé les projets de loi sur la nutrition des enfants et le salaire minimum tout en recevant des menaces et des chahuts racistes.",
+                "A annoncé une tentative présidentielle en 1972 pour imposer les droits civiques dans les débats télévisés."
+            ],
+            "reveal": {
+                "identity": "Shirley Chisholm",
+                "verdict": "Première députée noire aux États-Unis ; pionnier sans infractions violentes.",
+                "detail": "Sa plateforme « Unbought and Unbossed » a inspiré les générations ultérieures de fonctionnaires."
+            }
+        },
+        "p10": {
+            "label": "Profil 10",
+            "alias": "Profil 10 - Le locataire tranquille",
+            "tagline": "Les odeurs du sous-sol sont considérées comme une mauvaise plomberie",
+            "era": "Milwaukee, États-Unis - fin des années 1980",
+            "summary": "Un ouvrier solitaire d'une chocolaterie qui payait son loyer à temps et proposait des bières aux voisins, alors même que la police répondait à des appels intempestifs concernant son appartement.",
+            "highlights": [
+                "Les locataires ont alerté la direction des odeurs rances, des scies bourdonnantes et du liquide sombre qui s'échappait des bouches d'aération.",
+                "Précédemment reconnu coupable d'avoir agressé un garçon de 13 ans ; il a quand même bénéficié d'une libération anticipée et d'une surveillance minimale.",
+                "Il a dit à ses amis d'enfance qu'il aimait ramasser les morts sur les routes et blanchir les os dans des bocaux d'acide."
+            ],
+            "reveal": {
+                "identity": "Jeffrey Dahmer",
+                "verdict": "A avoué avoir assassiné et démembré 17 hommes et garçons entre 1978 et 1991.",
+                "detail": "La police a récupéré des parties du corps, des photographies et des plans écrits pour d'autres meurtres à l'intérieur de son appartement."
+            }
+        },
+        "p11": {
+            "label": "Profil 11",
+            "alias": "Profil 11 - Le candidat prisonnier",
+            "tagline": "La formation au sabotage réorientée vers la réconciliation",
+            "era": "Afrique du Sud - années 1960 à 1990",
+            "summary": "Un avocat qui a cofondé une branche armée contre l’apartheid, a étudié l’afrikaans en prison et a ensuite négocié des élections au lieu de se venger.",
+            "highlights": [
+                "A aidé à organiser des cellules de sabotage d'Umkhonto we Sizwe ciblant les infrastructures plutôt que les civils.",
+                "A passé 27 ans en prison à Robben Island, à lire des manuels de droit et à arbitrer les différends entre détenus.",
+                "Après sa libération, il a défendu une Commission Vérité et Réconciliation au lieu de purges."
+            ],
+            "reveal": {
+                "identity": "Nelson Mandela",
+                "verdict": "A conduit l’Afrique du Sud vers une démocratie multiraciale et a reçu le prix Nobel de la paix.",
+                "detail": "A prôné la réconciliation et n'a jamais fait face à des allégations d'homicide malgré une formation militante."
+            }
+        },
+        "p12": {
+            "label": "Profil 12",
+            "alias": "Profil 12 - L'icône pop métamorphe",
+            "tagline": "Les personas se multiplient à chaque cycle d’album",
+            "era": "Londres, Berlin et New York - des années 1970 aux années 2010",
+            "summary": "Un artiste agité qui s'est réinventé avec des alter ego extraterrestres, des lectures occultes et une scénographie méticuleusement chorégraphiée.",
+            "highlights": [
+                "Isolé pendant des semaines pour des personnages rapides et scénarisés comme Ziggy Stardust et Thin White Duke.",
+                "S'immerge dans l'imagerie de surveillance et l'art expressionniste pendant les années de la trilogie berlinoise.",
+                "Collaboration avec des mimes, des créateurs de mode et des réalisateurs de films pour garder le public instable."
+            ],
+            "reveal": {
+                "identity": "David Bowie",
+                "verdict": "Musicien défiant les genres avec aucun casier judiciaire en matière de crimes violents.",
+                "detail": "A laissé un catalogue d'innovation et de soutien philanthropique pour les causes du VIH/SIDA."
+            }
+        }
+    }
+}

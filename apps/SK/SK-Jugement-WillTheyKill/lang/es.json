@@ -1,0 +1,296 @@
+{
+    "meta": {
+        "title": "¿Matarán?"
+    },
+    "branding": {
+        "eyebrow": "Recorrido interactivo",
+        "title": "¿Matarán?"
+    },
+    "intro": {
+        "heroTitle": "Tus instintos ante desconocidos",
+        "heroCopy": "Cada viñeta resume los primeros años y las señales de alerta de una persona real sin revelar su nombre. Tu decisión: ¿escalará hasta el asesinato?",
+        "howTitle": "Cómo funciona",
+        "howSteps": [
+            "Revisa los hechos clave: familia, comportamientos y primeras infracciones.",
+            "Decide con un toque si esta persona llegará a matar.",
+            "Revela su identidad y compara tu intuición con el desenlace documentado."
+        ],
+        "goalTitle": "Objetivo",
+        "goalCopy": "Mide tus sesgos y convicciones a través de una serie de perfiles contrastados. La puntuación final resume tus predicciones y abre nuevas pistas para debatir."
+    },
+    "profile": {
+        "progressLabel": "Perfil",
+        "progressConnector": "de",
+        "taglineFallback": "Perfil anónimo",
+        "aliasFallback": "Alias",
+        "decisionTitle": "Tu juicio",
+        "decisionPrompt": "Según las pistas, ¿esta persona acabará matando a alguien?",
+        "choiceYes": "Sí, matará",
+        "choiceNo": "No, se detendrá antes",
+        "revealPlaceholder": "Elige Sí o No para revelar la identidad real y lo que ocurrió.",
+        "revealLabel": "Identidad revelada",
+        "outcomeYes": "Sí mató",
+        "outcomeNo": "No hubo asesinato",
+        "revealNext": "Siguiente perfil",
+        "revealFinal": "Ver resultado final",
+        "verdictTitle": "Qué ocurrió",
+        "detailTitle": "Cómo lo sabemos",
+        "yourCallLabel": "Tu decisión",
+        "realityLabel": "Realidad",
+        "correctLabel": "Correcto",
+        "incorrectLabel": "Incorrecto",
+        "choiceYesShort": "Sí",
+        "choiceNoShort": "No",
+        "fallbackImage": "??",
+        "profileLabelDefault": "Perfil",
+        "defaultProfilePrefix": "Perfil "
+    },
+    "score": {
+        "eyebrow": "Resultado final",
+        "title": "Cómo interpretaste el riesgo",
+        "dialLabel": "Decisiones correctas",
+        "calculating": "Calculando tu puntuación...",
+        "summaryTemplate": "Has revisado {count} perfiles anonimizados y te has pronunciado en cada uno de ellos.",
+        "notes": {
+            "perfect": "Lectura impecable: anticipaste todas las trayectorias. Enumera tus criterios y compártelos con el grupo.",
+            "high": "Buena intuición: detectaste la mayoría de los riesgos. ¿Qué señales te despistaron en los casos restantes?",
+            "medium": "Resultado equilibrado: tu intuición oscila. Revisa los perfiles para poner a prueba tus sesgos y completar el contexto que falta.",
+            "low": "Estos perfiles desafían los juicios rápidos. Estudia los detalles que faltaban y los factores de protección para afinar tu lectura."
+        },
+        "discussionTitle": "Pistas para debatir",
+        "peerYes": "Sí",
+        "peerNo": "No",
+        "separator": "·"
+    },
+    "navigation": {
+        "start": "Empezar",
+        "languageSelector": "Selector de idioma",
+        "continue": "Continuar",
+        "restart": "Reiniciar",
+        "viewFinal": "Ver resultado final",
+        "nextProfile": "Siguiente perfil"
+    },
+    "errors": {
+        "bootstrap": "No se puede iniciar la experiencia:",
+        "profiles": "No se pueden cargar los datos de la experiencia. Actualiza la página.",
+        "fetchFailed": "Error al cargar {path} (estado {status})",
+        "storageWarning": "No se puede interpretar el valor guardado para {key}:"
+    },
+    "experience": {
+        "progressAria": "Progreso de la experiencia"
+    },
+    "formatAnswer": {
+        "yes": "Sí - matará",
+        "no": "No - no habrá acto letal",
+        "none": "Sin respuesta"
+    },
+    "peer": {
+        "ariaLabel": "{name}: {yes}% respondió {yesLabel}, {no}% respondió {noLabel}"
+    },
+    "profiles": {
+        "p01": {
+            "label": "Perfil 01",
+            "alias": "Perfil 01 - La vagabunda interestatal",
+            "tagline": "El abandono se endurece hasta convertirse en emboscadas en carretera",
+            "era": "Florida, Estados Unidos - finales de los años 80",
+            "summary": "Expulsada de casa siendo adolescente, sobrevivía haciendo autostop y trabajo sexual a lo largo de la U.S. 1, acumulando un amplio historial de detenciones por alteración del orden y robos.",
+            "highlights": [
+                "Los vecinos recordaban que practicaba tiro con una pistola del 22 en los bosques detrás de moteles baratos.",
+                "Robaba con frecuencia los coches de los clientes y los abandonaba horas después, dejando bolsos y documentos en contenedores.",
+                "Dijo a su novia que odiaba a los clientes y fantaseaba con eliminarlos."
+            ],
+            "reveal": {
+                "identity": "Aileen Wuornos",
+                "verdict": "Confesó haber matado a siete hombres haciéndose pasar por una autoestopista en apuros; fue ejecutada en 2002.",
+                "detail": "Los investigadores la vincularon con vehículos abandonados, casquillos gastados y recibos de empeño de objetos pertenecientes a las víctimas."
+            }
+        },
+        "p02": {
+            "label": "Perfil 02",
+            "alias": "Perfil 02 - El vengador del tablero de ajedrez",
+            "tagline": "Un empleado obsesionado con los rompecabezas lleva una cuenta privada",
+            "era": "Moscú, Rusia - años 90 y 2000",
+            "summary": "Un reponedor de supermercado que presumía ante sus compañeros de que la vida era una enorme partida de ajedrez y de que pensaba llenar el tablero antes de jubilarse.",
+            "highlights": [
+                "Decía a sus amigos que quería una víctima por cada una de las 64 casillas de su tablero favorito.",
+                "Invitaba a compañeros de trabajo a beber vodka en el parque de Bittsevsky, luego los golpeaba con un martillo y arrojaba sus cuerpos a pozos.",
+                "Se grababa torturando perros callejeros y guardaba las cintas como material de ensayo."
+            ],
+            "reveal": {
+                "identity": "Alexander Pichushkin",
+                "verdict": "Fue condenado en 2007 por el asesinato de 48 personas, aunque afirmó haber tenido más de 60 víctimas.",
+                "detail": "La policía relacionó a sus víctimas con el recuento que llevaba en un tablero de ajedrez oculto bajo el suelo."
+            }
+        },
+        "p03": {
+            "label": "Perfil 03",
+            "alias": "Perfil 03 - El aviador recluso",
+            "tagline": "El genio de la ingeniería consumido por el miedo a los gérmenes",
+            "era": "Estados Unidos - de los años 30 a los 70",
+            "summary": "Un heredero que levantó estudios de cine y compañías aeronáuticas antes de encerrarse tras cortinas opacas y dictados entregados con lápices envueltos en pañuelos de papel.",
+            "highlights": [
+                "Se encerró durante meses en una sala de proyección, viviendo de leche y chocolatinas mientras dictaba memorandos cada hora.",
+                "Ordenaba a sus ayudantes quemar ropa que consideraba contaminada y exigía mascarillas quirúrgicas en cada interacción.",
+                "Gastó millones en aeronaves experimentales como el H-4 Hercules pese a sufrir varios accidentes casi mortales."
+            ],
+            "reveal": {
+                "identity": "Howard Hughes",
+                "verdict": "Excéntrico multimillonario de la aviación cuya paranoia nunca derivó en homicidio.",
+                "detail": "Se le recuerda por sus récords aeronáuticos, sus donaciones hospitalarias y la fundación del Hughes Medical Institute."
+            }
+        },
+        "p04": {
+            "label": "Perfil 04",
+            "alias": "Perfil 04 - El niño prodigio de campaña",
+            "tagline": "El encanto de un estudiante de derecho ocultando compulsiones",
+            "era": "Estado de Washington y Utah, Estados Unidos - mediados de los años 70",
+            "summary": "Un estudiante becado que colaboraba en campañas políticas y atendía una línea de ayuda al suicidio mientras ocultaba fantasías crecientes de dominación.",
+            "highlights": [
+                "Coleccionaba yesos ortopédicos y fingía lesiones para atraer a mujeres hacia su Volkswagen Escarabajo.",
+                "Visitaba escenas del crimen haciéndose pasar por investigador para escuchar a los detectives.",
+                "Escapó dos veces de custodia en 1977 y reanudó sus viajes por carretera sin alertar a su familia."
+            ],
+            "reveal": {
+                "identity": "Ted Bundy",
+                "verdict": "Fue condenado por múltiples asesinatos en Florida y vinculado a al menos 30 homicidios en Estados Unidos.",
+                "detail": "Fue ejecutado en 1989 tras testimonios presenciales, análisis de marcas de mordedura y coincidencias forenses de fibras."
+            }
+        },
+        "p05": {
+            "label": "Perfil 05",
+            "alias": "Perfil 05 - La defensora incansable",
+            "tagline": "La política como aula de derechos humanos",
+            "era": "Washington D. C. y Nueva York, Estados Unidos - de los años 30 a los 50",
+            "summary": "Una organizadora nacida en la élite que transformó el papel ceremonial de la Primera Dama en una campaña constante a favor de trabajadores, mujeres y refugiados.",
+            "highlights": [
+                "Celebró ruedas de prensa solo para mujeres que obligaron a los periódicos a contratar reporteras.",
+                "Visitó minas de carbón, prisiones y hospitales segregados pese a las amenazas de los segregacionistas.",
+                "Presidió el comité de la ONU que redactó la Declaración Universal de los Derechos Humanos."
+            ],
+            "reveal": {
+                "identity": "Eleanor Roosevelt",
+                "verdict": "Reformadora social y diplomática; sin implicación alguna en delitos violentos.",
+                "detail": "Utilizó su plataforma para ampliar los derechos civiles y los corredores humanitarios durante la Segunda Guerra Mundial."
+            }
+        },
+        "p06": {
+            "label": "Perfil 06",
+            "alias": "Perfil 06 - El médico rural de confianza",
+            "tagline": "Visitas a domicilio y firmas falsificadas",
+            "era": "Hyde, Inglaterra - de los años 70 a los 90",
+            "summary": "Un médico de cabecera respetado por la puntualidad de sus visitas que mantenía un control inusualmente estricto sobre historiales médicos y formularios de cremación.",
+            "highlights": [
+                "Los pacientes morían minutos después de inyecciones rutinarias de morfina administradas por él sin registrar síntomas.",
+                "Falsificó el testamento de Kathleen Grundy para convertirse en el único beneficiario de su patrimonio.",
+                "Ya había sido sancionado en 1975 por falsificar recetas de petidina para alimentar su propia adicción."
+            ],
+            "reveal": {
+                "identity": "Harold Shipman",
+                "verdict": "Fue declarado culpable de asesinar a 15 pacientes, y una investigación posterior atribuyó a su práctica más de 200 muertes.",
+                "detail": "Recibió 15 cadenas perpetuas en 2000, después de que auditorías estadísticas de certificados de defunción destaparan el patrón."
+            }
+        },
+        "p07": {
+            "label": "Perfil 07",
+            "alias": "Perfil 07 - La bailarina de la guerra",
+            "tagline": "De adolescente desnutrida a enviada de UNICEF",
+            "era": "Países Bajos y mundo - de los años 40 a los 90",
+            "summary": "Una joven bailarina que llevó mensajes de la resistencia durante la ocupación nazi antes de convertirse en estrella de cine y figura humanitaria global.",
+            "highlights": [
+                "Sobrevivió al Invierno del Hambre neerlandés y recaudó fondos en secreto con recitales de danza a oscuras.",
+                "Abandonó una carrera profesional en el ballet tras lesiones de guerra, pero redirigió esa disciplina hacia la interpretación.",
+                "Dedicó sus últimas décadas a UNICEF como embajadora de buena voluntad, visitando zonas de hambruna en África y Asia."
+            ],
+            "reveal": {
+                "identity": "Audrey Hepburn",
+                "verdict": "Actriz ganadora del Óscar y humanitaria; jamás vinculada a delitos violentos.",
+                "detail": "Se la recuerda por Roman Holiday, Breakfast at Tiffany's y sus misiones de ayuda sobre el terreno."
+            }
+        },
+        "p08": {
+            "label": "Perfil 08",
+            "alias": "Perfil 08 - El estafador de la jet set",
+            "tagline": "Desayunos de lujo y mochileros desaparecidos",
+            "era": "Sur y sudeste asiático - mediados de los años 70",
+            "summary": "Un políglota que saltaba entre Bangkok, Katmandú y Bombay vendiendo gemas falsas mientras reunía a su alrededor a un grupo cambiante de viajeros fascinados por él.",
+            "highlights": [
+                "Usaba pasaportes robados para reinventarse como un comerciante adinerado y atraer a sus víctimas a villas privadas.",
+                "Drogaba a los huéspedes con pastillas que decía que curaban la disentería, dejándolos indefensos para robarles o algo peor.",
+                "Escapó de la prisión de Tihar en 1986 drogando a los guardias con un pastel de despedida y saliendo por la puerta."
+            ],
+            "reveal": {
+                "identity": "Charles Sobhraj",
+                "verdict": "Relacionado con al menos una docena de asesinatos de mochileros en Tailandia, Nepal e India.",
+                "detail": "Recibió el apodo de asesino del bikini y cumple cadena perpetua en Nepal tras su detención en 2003."
+            }
+        },
+        "p09": {
+            "label": "Perfil 09",
+            "alias": "Perfil 09 - La congresista incorruptible",
+            "tagline": "Una educadora asalta Capitol Hill con solo voluntarios",
+            "era": "Brooklyn y Washington D. C. - de los años 60 a los 70",
+            "summary": "Una profesora de carácter fuerte que abrió guarderías antes de presentarse al Congreso con la promesa de desafiar a los caciques de ambos partidos.",
+            "highlights": [
+                "Rechazó donaciones corporativas y se apoyó en sótanos de iglesias y maestras para reunir pequeñas aportaciones.",
+                "Impulsó leyes sobre nutrición infantil y salario mínimo mientras recibía amenazas racistas y burlas constantes.",
+                "Anunció una candidatura presidencial en 1972 para introducir propuestas de derechos civiles en los debates televisados."
+            ],
+            "reveal": {
+                "identity": "Shirley Chisholm",
+                "verdict": "Primera congresista negra de Estados Unidos; pionera sin historial de delitos violentos.",
+                "detail": "Su plataforma Unbought and Unbossed inspiró a generaciones posteriores de servidores públicos."
+            }
+        },
+        "p10": {
+            "label": "Perfil 10",
+            "alias": "Perfil 10 - El inquilino silencioso",
+            "tagline": "Los olores del sótano se atribuyen a la mala fontanería",
+            "era": "Milwaukee, Estados Unidos - finales de los años 80",
+            "summary": "Un trabajador solitario de una fábrica de chocolate que pagaba el alquiler puntualmente y ofrecía cervezas a los vecinos, mientras la policía atendía repetidas quejas por molestias en su apartamento.",
+            "highlights": [
+                "Los vecinos alertaron a la administración por olores rancios, sierras zumbando y un líquido oscuro que salía de las rejillas.",
+                "Había sido condenado previamente por abusar de un chico de 13 años y aun así obtuvo libertad temprana y una supervisión mínima.",
+                "Confesó a amigos de la infancia que le gustaba recoger animales muertos en la carretera y blanquear huesos en frascos con ácido."
+            ],
+            "reveal": {
+                "identity": "Jeffrey Dahmer",
+                "verdict": "Confesó haber asesinado y desmembrado a 17 hombres y chicos entre 1978 y 1991.",
+                "detail": "La policía halló partes de cuerpos, fotografías y planes escritos para más asesinatos dentro de su apartamento."
+            }
+        },
+        "p11": {
+            "label": "Perfil 11",
+            "alias": "Perfil 11 - El candidato encarcelado",
+            "tagline": "Formación en sabotaje reconducida hacia la reconciliación",
+            "era": "Sudáfrica - de los años 60 a los 90",
+            "summary": "Un abogado que cofundó un ala armada contra el apartheid, estudió afrikáans en prisión y más tarde negoció elecciones en vez de buscar venganza.",
+            "highlights": [
+                "Ayudó a organizar células de sabotaje de Umkhonto we Sizwe dirigidas contra infraestructuras y no contra civiles.",
+                "Pasó 27 años encarcelado en Robben Island, estudiando derecho y mediando en conflictos entre presos.",
+                "Tras su liberación, defendió una Comisión de la Verdad y Reconciliación en lugar de purgas."
+            ],
+            "reveal": {
+                "identity": "Nelson Mandela",
+                "verdict": "Condujo a Sudáfrica hacia una democracia multirracial y recibió el Premio Nobel de la Paz.",
+                "detail": "Defendió la reconciliación y nunca afrontó acusaciones de homicidio pese a su formación militante."
+            }
+        },
+        "p12": {
+            "label": "Perfil 12",
+            "alias": "Perfil 12 - El icono pop cambiante",
+            "tagline": "Las identidades se multiplican con cada ciclo de álbumes",
+            "era": "Londres, Berlín y Nueva York - de los años 70 a los 2010",
+            "summary": "Un intérprete inquieto que se reinventaba a través de alter egos alienígenas, atracones de lecturas ocultistas y una puesta en escena meticulosamente coreografiada.",
+            "highlights": [
+                "Se aislaba durante semanas para ayunar y diseñar personajes como Ziggy Stardust o el Thin White Duke.",
+                "Se sumergió en imágenes de vigilancia y arte expresionista durante los años de la Trilogía de Berlín.",
+                "Colaboró con mimos, diseñadores de moda y directores de cine para mantener al público en vilo."
+            ],
+            "reveal": {
+                "identity": "David Bowie",
+                "verdict": "Músico rompedor sin historial de delitos violentos.",
+                "detail": "Dejó un catálogo innovador y apoyó causas filantrópicas relacionadas con el VIH/sida."
+            }
+        }
+    }
+}

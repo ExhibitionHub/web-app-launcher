@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "pageTitle": "DSGN Board — Enquête"
+  },
+  "ui": {
+    "aria": {
+      "board": "Tableau d'enquête",
+      "fiber": "Analyse des fibres",
+      "network": "Données cellulaires et réseau",
+      "dna": "Comparaison ADN",
+      "toxicology": "Rapports du légiste et des substances",
+      "light": "Photos en longueur d'onde lumineuse",
+      "fingerprints": "Rapport d'empreintes"
+    },
+    "controls": {
+      "label": "Contrôles de l'application",
+      "languageGroup": "Langue",
+      "languages": {
+        "en": "Anglais",
+        "fr": "Français",
+        "ar": "Arabe",
+        "es": "Espagnol"
+      }
+    },
+    "tablet": {
+      "profileOverview": "Vue d'ensemble des profils",
+      "agency": "DIRECTION GÉNÉRALE DE LA SÛRETÉ NATIONALE DU MAROC",
+      "title": "ENQUÊTE CRIMINELLE - VUE D'ENSEMBLE DES PROFILS",
+      "labels": {
+        "category": "CATÉGORIE",
+        "name": "NOM",
+        "role": "RÔLE",
+        "age": "ÂGE",
+        "height": "TAILLE",
+        "weight": "POIDS"
+      },
+      "profiles": {
+        "victimProfile": "PROFIL VICTIME",
+        "suspectAProfile": "PROFIL SUSPECT A",
+        "suspectBProfile": "PROFIL SUSPECT B",
+        "victim": {
+          "category": "Victime",
+          "role": "Victime",
+          "age": "34 ans",
+          "height": "175 cm",
+          "weight": "68 kg"
+        },
+        "samir": {
+          "category": "Visiteur 2",
+          "role": "Suspect A",
+          "age": "32 ans",
+          "height": "180 cm",
+          "weight": "65 kg"
+        },
+        "karim": {
+          "category": "Visiteur 1",
+          "role": "Suspect B",
+          "age": "29 ans",
+          "height": "170 cm",
+          "weight": "58 kg"
+        }
+      }
+    },
+    "actions": {
+      "analyze": "Analyser le résultat",
+      "close": "Fermer",
+      "closeCase": "Clore l'affaire",
+      "home": "Accueil",
+      "homeAria": "Réinitialiser ce tableau",
+      "reset": "Réinit.",
+      "resetAria": "Réinitialiser l'enquête"
+    },
+    "popup": {
+      "evidenceKicker": "PREUVE",
+      "conclusionKicker": "CONCLUSION :"
+    },
+    "carousel": {
+      "ariaLabel": "Images des preuves",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "imageLabel": "Image {{number}}"
+    },
+    "network": {
+      "kicker": "PREUVE NUMÉRIQUE",
+      "tabsAriaLabel": "Source de preuve numérique",
+      "messagesAriaLabel": "Preuve par messages texte",
+      "mapLocked": "CARTE VERROUILLÉE",
+      "status": {
+        "locked": "VERROUILLÉ",
+        "located": "LOCALISÉ"
+      },
+      "pins": {
+        "victim": {
+          "label": "Maison de la victime",
+          "context": "Quartier de la Médina"
+        },
+        "police": {
+          "label": "Commissariat",
+          "context": "Commissariat central"
+        },
+        "karim": {
+          "label": "Dernière position de Karim",
+          "context": "Quartier Hassan"
+        }
+      },
+      "cleaner": {
+        "badge": "Entretien avec la gouvernante",
+        "title": "Détails sur le premier visiteur",
+        "arrival": "Le premier visiteur est arrivé avant l'aube, vers 05:00.",
+        "drunk": "La gouvernante l'a décrit comme ivre.",
+        "short": "La gouvernante se souvient d'un visiteur de petite taille."
+      }
+    },
+    "conclusions": {
+      "coroner": "LÉGISTE",
+      "substanceReport": "RAPPORT SUBSTANCES"
+    },
+    "questions": {
+      "reviewedKicker": "PREUVE EXAMINÉE",
+      "noQuestion": "Aucune question pour cette station.",
+      "kicker": "QUESTION",
+      "numberedKicker": "QUESTION {{current}} / {{total}}",
+      "singleHint": "Sélectionnez une réponse",
+      "multiHint": "Sélectionnez {{count}} réponses",
+      "reviewOnlyHint": "Examinez cette preuve avant de continuer.",
+      "recordAnswer": "ENREGISTRER LA RÉPONSE",
+      "markReviewed": "MARQUER COMME EXAMINÉ",
+      "recorded": "ENREGISTRÉ",
+      "feedback": "Réponse enregistrée pour l'analyse finale.",
+      "conclusionKicker": "CONCLUSION",
+      "closeStation": "Fermer la preuve"
+    },
+    "hints": {
+      "initial": "Touchez un objet sur le bureau pour examiner la preuve.",
+      "progress": "Preuves examinées : {{completed}} / {{total}}. Touchez un objet sur le bureau.",
+      "complete": "Toutes les preuves ont été examinées. Touchez la tablette pour clore l'affaire.",
+      "idleReset": "Session réinitialisée après inactivité."
+    },
+    "reveal": {
+      "analysisComplete": "ANALYSE TERMINÉE",
+      "caseSolved": "AFFAIRE RÉSOLUE",
+      "caseInconclusive": "AFFAIRE NON CONCLUANTE",
+      "killerIs": "Le meurtrier est…",
+      "wrongAccused": "Vous avez accusé la mauvaise personne. Le meurtrier était…",
+      "winText": "Les preuves médico-légales convergent : le mobile lié à la fausse cocaïne, les initiales cachées sur le bloc sous UV, la correspondance des fibres entre le bouton perdu et la branche cassée, ainsi que la chaise essuyée confirment le meurtrier.",
+      "loseText": "Réexaminez les preuves : le bloc de fausse cocaïne, les initiales cachées sous UV, la correspondance des fibres et la chaise essuyée pointent tous vers une seule personne."
+    }
+  }
+}

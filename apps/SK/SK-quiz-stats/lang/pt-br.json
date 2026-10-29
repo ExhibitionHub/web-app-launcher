@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "languageName": "Português (Brasil)"
+  },
+  "common": {
+    "home": "Início",
+    "languageSelector": "Seletor de idioma",
+    "backToMainMenu": "Voltar ao menu principal"
+  },
+  "quizApp": {
+    "pageTitle": "Quiz sobre assassinos em série - Modo quiosque",
+    "welcome": {
+      "title": "QUIZ INTERATIVO",
+      "subtitle": "ESTATÍSTICAS CRIMINAIS",
+      "descriptionHtml": "Teste seus conhecimentos sobre dados reais de assassinos em série.<br>12 perguntas baseadas no banco de dados Radford/FGCU (FGCU = Florida Gulf Coast University).",
+      "start": "INICIAR"
+    },
+    "nav": {
+      "previous": "ANTERIOR",
+      "next": "PRÓXIMA",
+      "seeResult": "VER RESULTADO",
+      "nextQuestion": "PRÓXIMA PERGUNTA",
+      "seeResults": "VER RESULTADOS"
+    },
+    "questionCounter": "Pergunta {{current}} / {{total}}",
+    "insight": {
+      "title": "EXPLICAÇÃO",
+      "continue": "CONTINUAR",
+      "answerCorrect": "VERDADEIRO",
+      "answerIncorrect": "FALSO"
+    },
+    "result": {
+      "title": "RESULTADO",
+      "correctAnswers": "RESPOSTAS CORRETAS",
+      "restart": "RECOMEÇAR"
+    },
+    "error": {
+      "title": "ERRO",
+      "subtitle": "FALHA AO CARREGAR",
+      "helpHtml": "Verifique se o servidor local está em execução e se o arquivo questions.json está acessível.",
+      "reload": "RECARREGAR",
+      "unableToLoadQuestions": "Não foi possível carregar as perguntas. Verifique se o arquivo questions.json está acessível."
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Iniciante em criminologia",
+        "message": "Seu conhecimento sobre estatísticas criminais ainda é limitado. Estes dados revelam tendências importantes que contestam muitos mitos populares sobre assassinos em série. Continue aprendendo sobre criminologia baseada em evidências!"
+      },
+      "student": {
+        "title": "Estudante bem informado",
+        "message": "Você tem uma compreensão razoável dos dados criminais. Está começando a perceber que a realidade dos assassinos em série muitas vezes difere das representações da mídia. As estatísticas revelam padrões complexos influenciados por fatores sociais e históricos."
+      },
+      "connoisseur": {
+        "title": "Conhecedor perspicaz",
+        "message": "Excelente domínio das estatísticas criminais! Você entende que os dados revelam tendências contraintuitivas: o QI médio dos assassinos em série está dentro da normalidade, a maioria usa armas de fogo e os picos históricos correspondem a fatores sociais específicos."
+      },
+      "expert": {
+        "title": "Especialista em criminologia",
+        "message": "Impressionante! Seu conhecimento sobre estatísticas criminais é excepcional. Você sabe que os dados de Radford revelam como o aprimoramento dos bancos de dados, da ciência forense e da comunicação entre jurisdições reduziu significativamente a atividade de assassinos em série desde a década de 1990."
+      },
+      "undetermined": {
+        "title": "Perfil indeterminado",
+        "message": "Não foi possível determinar seu perfil com os dados disponíveis."
+      }
+    },
+    "questions": {
+      "1": {
+        "question": "Quantos assassinos em série constavam no banco de dados Radford em 2016?",
+        "answers": {
+          "0": { "text": "A. 1.452" },
+          "1": { "text": "B. 2.112" },
+          "2": { "text": "C. 4.743" },
+          "3": { "text": "D. 6.235" }
+        },
+        "insight": "Em 4 de setembro de 2016, o banco de dados Radford/FGCU continha 4.743 assassinos em série e 13.105 vítimas, sendo o conjunto de dados mais abrangente do gênero."
+      },
+      "2": {
+        "question": "Em qual década os Estados Unidos registraram o maior número de novos assassinos em série começando a matar?",
+        "answers": {
+          "0": { "text": "A. Anos 1960" },
+          "1": { "text": "B. Anos 1970" },
+          "2": { "text": "C. Anos 1980" },
+          "3": { "text": "D. Anos 1990" }
+        },
+        "insight": "A década de 1970 marca a era de ouro dos assassinatos em série, com 605 assassinos iniciando seus crimes — impulsionados pelo aumento da mobilidade, pela agitação social e pela ausência de bancos de dados policiais centralizados."
+      },
+      "3": {
+        "question": "Qual porcentagem dos assassinos em série dos EUA é composta por homens?",
+        "answers": {
+          "0": { "text": "A. 70%" },
+          "1": { "text": "B. 80%" },
+          "2": { "text": "C. 90%" },
+          "3": { "text": "D. 95%" }
+        },
+        "insight": "Cerca de 9 em cada 10 assassinos em série são homens. A parcela feminina (≈ 9%) é pequena, mas persistente em todas as décadas."
+      },
+      "4": {
+        "question": "Qual grupo étnico representa atualmente a maior parcela dos assassinos em série dos EUA?",
+        "answers": {
+          "0": { "text": "A. Brancos" },
+          "1": { "text": "B. Negros" },
+          "2": { "text": "C. Hispânicos" },
+          "3": { "text": "D. Asiáticos" }
+        },
+        "insight": "O antigo estereótipo do 'homem branco' está ultrapassado. Embora autores brancos ainda representem cerca da metade, autores negros agora correspondem a quase 40%, refletindo fatores demográficos e socioeconômicos, e não uma causalidade baseada em raça."
+      },
+      "5": {
+        "question": "Qual é o motivo mais comum entre assassinos em série?",
+        "answers": {
+          "0": { "text": "A. Raiva" },
+          "1": { "text": "B. Ganho financeiro" },
+          "2": { "text": "C. Prazer" },
+          "3": { "text": "D. Evitar a prisão" }
+        },
+        "insight": "Mais de 36% dos assassinos em série matam por prazer — uma combinação de desejo sexual, dominação e poder —, fazendo do 'prazer' o motivo mais relatado para assassinatos em série."
+      },
+      "6": {
+        "question": "Qual é o QI médio de um assassino em série?",
+        "answers": {
+          "0": { "text": "A. 76" },
+          "1": { "text": "B. 94" },
+          "2": { "text": "C. 109" },
+          "3": { "text": "D. 127" }
+        },
+        "insight": "Ao contrário do mito do 'gênio do crime', assassinos em série têm um QI médio de 94,5 — ligeiramente abaixo da média da população em geral. Raramente é a inteligência que garante a longevidade; planejamento e circunstâncias são os fatores decisivos."
+      },
+      "7": {
+        "question": "Qual é o método de assassinato mais comum entre assassinos em série?",
+        "answers": {
+          "0": { "text": "A. Estrangulamento" },
+          "1": { "text": "B. Esfaqueamento" },
+          "2": { "text": "C. Armas de fogo" },
+          "3": { "text": "D. Envenenamento" }
+        },
+        "insight": "Armas de fogo são usadas em cerca de 43% de todos os assassinatos conhecidos cometidos por assassinos em série, seguidas pelo estrangulamento (≈ 22%). A escolha reflete acessibilidade e controle, e não sofisticação."
+      },
+      "8": {
+        "question": "Qual estado dos EUA registrou o maior número de vítimas de assassinos em série?",
+        "answers": {
+          "0": { "text": "A. Flórida" },
+          "1": { "text": "B. Texas" },
+          "2": { "text": "C. Califórnia" },
+          "3": { "text": "D. Nova York" }
+        },
+        "insight": "A Califórnia lidera com 1.628 vítimas, seguida pelo Texas e pela Flórida — um reflexo do tamanho da população e da mobilidade, e não de uma diferença regional intrínseca."
+      },
+      "9": {
+        "question": "Qual é a idade da maioria das vítimas de assassinos em série?",
+        "answers": {
+          "0": { "text": "A. Menos de 10 anos" },
+          "1": { "text": "B. 18 – 35 anos" },
+          "2": { "text": "C. 40 – 60 anos" },
+          "3": { "text": "D. Mais de 60 anos" }
+        },
+        "insight": "A idade média das vítimas é de 33,8 anos, com mediana de 29 — adultos jovens que combinam mobilidade e vulnerabilidade."
+      },
+      "10": {
+        "question": "Qual gênero representa a maioria das vítimas de assassinos em série?",
+        "answers": {
+          "0": { "text": "A. Masculino" },
+          "1": { "text": "B. Feminino" },
+          "2": { "text": "C. Misto/Desconhecido" },
+          "3": { "text": "D. Em igual proporção" }
+        },
+        "insight": "Segundo o banco de dados Radford/FGCU, cerca de sete em cada dez vítimas de assassinos em série são mulheres. Esse padrão reflete a seleção dos alvos, não apenas a oportunidade — as mulheres são escolhidas com maior frequência porque os criminosos as consideram mais fáceis de isolar ou manipular."
+      },
+      "11": {
+        "question": "Qual década registrou o maior número de assassinos em série ativos nos Estados Unidos em um mesmo ano?",
+        "answers": {
+          "0": { "text": "A. Anos 1960" },
+          "1": { "text": "B. Anos 1970" },
+          "2": { "text": "C. Anos 1980" },
+          "3": { "text": "D. Anos 1990" }
+        },
+        "insight": "Durante a década de 1980, os Estados Unidos registraram uma média de 145 assassinos em série ativos por ano (definidos como aqueles que mataram ao menos uma vez naquele ano). Desde então, os avanços na ciência forense e nos bancos de dados reduziram drasticamente esse número."
+      },
+      "12": {
+        "question": "Qual porcentagem dos assassinos em série dos EUA serviu às Forças Armadas?",
+        "answers": {
+          "0": { "text": "A. 11%" },
+          "1": { "text": "B. 18%" },
+          "2": { "text": "C. 32%" },
+          "3": { "text": "D. 46%" }
+        },
+        "insight": "Cerca de 1 em cada 5 assassinos em série do sexo masculino tem histórico militar — um índice ligeiramente superior às médias nacionais. O treinamento militar não causa violência, mas pode reforçar a estrutura, o controle e a dessensibilização."
+      }
+    }
+  }
+}

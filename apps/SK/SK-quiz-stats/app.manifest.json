@@ -1,0 +1,6 @@
+{
+  "appKey": "SK-quiz-stats",
+  "displayName": "Data Quiz",
+  "entryPath": "/apps/SK/SK-quiz-stats/index.html",
+  "idleTimeoutSec": 90
+}

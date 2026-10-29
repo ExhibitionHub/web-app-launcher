@@ -1,0 +1,29 @@
+{
+	"locations": {
+		"victimHouse": {
+			"name": "Maison de la victime",
+			"context": "Quartier de la Médina, Rabat"
+		},
+		"neighborHouse": {
+			"name": "Gouvernante",
+			"context": "Témoin du matin"
+		},
+		"friendHouse": {
+			"name": "Maison de l'ami",
+			"context": "Quartier Agdal"
+		},
+		"policeStation": {
+			"name": "Commissariat",
+			"context": "Commissariat central de Rabat",
+			"address": "Avenue Ibn Sina, Rabat, Maroc"
+		},
+		"karimLocation": {
+			"name": "Dernière zone connue de Karim",
+			"context": "Quartier Hassan"
+		}
+	},
+	"policeAnchor": {
+		"location": "Commissariat central de Rabat",
+		"address": "Avenue Ibn Sina, Rabat, Maroc"
+	}
+}

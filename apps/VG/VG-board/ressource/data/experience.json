@@ -1,0 +1,286 @@
+{
+  "meta": {
+    "storageKey": "vg-board-ranking",
+    "inactivityMs": 60000,
+    "homeFlipMs": 4200,
+    "defaultLocale": "en",
+    "rankingSeed": [
+      "ranking.sunflowers1888",
+      "ranking.sunflowers1889",
+      "ranking.bedroom1888",
+      "ranking.bedroom1889",
+      "ranking.theStarryNight",
+      "ranking.starryNightOverTheRhone",
+      "ranking.cafeTerraceAtNight",
+      "ranking.roadWithCypressAndStar",
+      "ranking.wheatfieldWithCrows",
+      "ranking.wheatfieldUnderThunderclouds",
+      "ranking.greenWheatfieldWithCypress",
+      "ranking.wheatfieldsNearAuvers",
+      "ranking.almondBlossom",
+      "ranking.irises",
+      "ranking.roses",
+      "ranking.portrait1888Blue",
+      "ranking.portrait1888Floral",
+      "ranking.portrait1889Green",
+      "ranking.vanGoghChair",
+      "ranking.gauguinChair"
+    ]
+  },
+  "home": {
+    "titleKey": "home.title",
+    "textKey": "home.text",
+    "buttonKey": "home.button",
+    "idleKeys": [
+      "steps.sunflowers.title",
+      "steps.bedroom.title",
+      "steps.night.title",
+      "steps.wheatfields.title",
+      "steps.flowers.title",
+      "steps.portraits.title",
+      "steps.chairs.title"
+    ]
+  },
+  "final": {
+    "titleKey": "final.title",
+    "textKey": "final.text"
+  },
+  "steps": [
+    {
+      "id": "sunflowers",
+      "titleKey": "steps.sunflowers.title",
+      "textKey": "steps.sunflowers.text",
+      "options": [
+        {
+          "labelKey": "steps.sunflowers.options.sunflowers",
+          "yearKey": "years.1888",
+          "resultKey": "steps.sunflowers.results.1888",
+          "rankingKey": "ranking.sunflowers1888",
+          "imageFile": "sunflowers-1888-variant-1.webp",
+          "backgroundFile": "sunflowers-1888-variant-1.webp"
+        },
+        {
+          "labelKey": "steps.sunflowers.options.sunflowers",
+          "yearKey": "years.1888",
+          "resultKey": "steps.sunflowers.results.1888",
+          "rankingKey": "ranking.sunflowers1888",
+          "imageFile": "sunflowers-1888-variant-2.webp",
+          "backgroundFile": "sunflowers-1888-variant-2.webp"
+        },
+        {
+          "labelKey": "steps.sunflowers.options.sunflowers",
+          "yearKey": "years.1889",
+          "resultKey": "steps.sunflowers.results.1889",
+          "rankingKey": "ranking.sunflowers1889",
+          "imageFile": "sunflowers-1889.webp",
+          "backgroundFile": "sunflowers-1889.webp"
+        },
+        {
+          "labelKey": "steps.sunflowers.options.sunflowers",
+          "yearKey": "years.1888",
+          "resultKey": "steps.sunflowers.results.1888",
+          "rankingKey": "ranking.sunflowers1888",
+          "imageFile": "sunflowers-1888-variant-3.webp",
+          "backgroundFile": "sunflowers-1888-variant-3.webp"
+        }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "titleKey": "steps.bedroom.title",
+      "textKey": "steps.bedroom.text",
+      "options": [
+        {
+          "labelKey": "steps.bedroom.options.bedroom",
+          "yearKey": "years.1888",
+          "resultKey": "steps.bedroom.results.1888",
+          "rankingKey": "ranking.bedroom1888",
+          "imageFile": "bedroom-in-arles-1888.webp",
+          "backgroundFile": "bedroom-in-arles-1888.webp"
+        },
+        {
+          "labelKey": "steps.bedroom.options.bedroom",
+          "yearKey": "years.1889",
+          "resultKey": "steps.bedroom.results.1889",
+          "rankingKey": "ranking.bedroom1889",
+          "imageFile": "bedroom-in-arles-1889-chicago.webp",
+          "backgroundFile": "bedroom-in-arles-1889-chicago.webp"
+        },
+        {
+          "labelKey": "steps.bedroom.options.bedroom",
+          "yearKey": "years.1889",
+          "resultKey": "steps.bedroom.results.1889",
+          "rankingKey": "ranking.bedroom1889",
+          "imageFile": "bedroom-in-arles-1889-orsay.webp",
+          "backgroundFile": "bedroom-in-arles-1889-orsay.webp"
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "titleKey": "steps.night.title",
+      "textKey": "steps.night.text",
+      "options": [
+        {
+          "labelKey": "steps.night.options.theStarryNight",
+          "yearKey": "years.1889",
+          "resultKey": "steps.night.results.1889",
+          "rankingKey": "ranking.theStarryNight",
+          "imageFile": "the-starry-night-1889.webp",
+          "backgroundFile": "the-starry-night-1889.webp"
+        },
+        {
+          "labelKey": "steps.night.options.starryNightOverTheRhone",
+          "yearKey": "years.1888",
+          "resultKey": "steps.night.results.1888",
+          "rankingKey": "ranking.starryNightOverTheRhone",
+          "imageFile": "starry-night-over-the-rhone-1888.webp",
+          "backgroundFile": "starry-night-over-the-rhone-1888.webp"
+        },
+        {
+          "labelKey": "steps.night.options.cafeTerraceAtNight",
+          "yearKey": "years.1888",
+          "resultKey": "steps.night.results.1888",
+          "rankingKey": "ranking.cafeTerraceAtNight",
+          "imageFile": "cafe-terrace-at-night-1888.webp",
+          "backgroundFile": "cafe-terrace-at-night-1888.webp"
+        },
+        {
+          "labelKey": "steps.night.options.roadWithCypressAndStar",
+          "yearKey": "years.1890",
+          "resultKey": "steps.night.results.1890",
+          "rankingKey": "ranking.roadWithCypressAndStar",
+          "imageFile": "road-with-cypress-and-star-1890.webp",
+          "backgroundFile": "road-with-cypress-and-star-1890.webp"
+        }
+      ]
+    },
+    {
+      "id": "wheatfields",
+      "titleKey": "steps.wheatfields.title",
+      "textKey": "steps.wheatfields.text",
+      "options": [
+        {
+          "labelKey": "steps.wheatfields.options.wheatfieldWithCrows",
+          "yearKey": "years.1890",
+          "resultKey": "steps.wheatfields.results.1890",
+          "rankingKey": "ranking.wheatfieldWithCrows",
+          "imageFile": "wheatfield-with-crows-1890.webp",
+          "backgroundFile": "wheatfield-with-crows-1890.webp"
+        },
+        {
+          "labelKey": "steps.wheatfields.options.wheatfieldUnderThunderclouds",
+          "yearKey": "years.1890",
+          "resultKey": "steps.wheatfields.results.1890",
+          "rankingKey": "ranking.wheatfieldUnderThunderclouds",
+          "imageFile": "wheatfield-under-thunderclouds-1890.webp",
+          "backgroundFile": "wheatfield-under-thunderclouds-1890.webp"
+        },
+        {
+          "labelKey": "steps.wheatfields.options.greenWheatfieldWithCypress",
+          "yearKey": "years.1889",
+          "resultKey": "steps.wheatfields.results.1889",
+          "rankingKey": "ranking.greenWheatfieldWithCypress",
+          "imageFile": "green-wheatfield-with-cypress-1889.webp",
+          "backgroundFile": "green-wheatfield-with-cypress-1889.webp"
+        },
+        {
+          "labelKey": "steps.wheatfields.options.wheatfieldsNearAuvers",
+          "yearKey": "years.1890",
+          "resultKey": "steps.wheatfields.results.1890",
+          "rankingKey": "ranking.wheatfieldsNearAuvers",
+          "imageFile": "wheatfields-near-auvers-1890.webp",
+          "backgroundFile": "wheatfields-near-auvers-1890.webp"
+        }
+      ]
+    },
+    {
+      "id": "flowers",
+      "titleKey": "steps.flowers.title",
+      "textKey": "steps.flowers.text",
+      "options": [
+        {
+          "labelKey": "steps.flowers.options.almondBlossom",
+          "yearKey": "years.1890",
+          "resultKey": "steps.flowers.results.1890",
+          "rankingKey": "ranking.almondBlossom",
+          "imageFile": "almond-blossom-1890.webp",
+          "backgroundFile": "almond-blossom-1890.webp"
+        },
+        {
+          "labelKey": "steps.flowers.options.irises",
+          "yearKey": "years.1889",
+          "resultKey": "steps.flowers.results.1889",
+          "rankingKey": "ranking.irises",
+          "imageFile": "irises-1889.webp",
+          "backgroundFile": "irises-1889.webp"
+        },
+        {
+          "labelKey": "steps.flowers.options.roses",
+          "yearKey": "years.1890",
+          "resultKey": "steps.flowers.results.1890",
+          "rankingKey": "ranking.roses",
+          "imageFile": "roses-1890.webp",
+          "backgroundFile": "roses-1890.webp"
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "titleKey": "steps.portraits.title",
+      "textKey": "steps.portraits.text",
+      "options": [
+        {
+          "labelKey": "steps.portraits.options.portrait",
+          "yearKey": "years.1888",
+          "detailKey": "steps.portraits.details.blueBackground",
+          "resultKey": "steps.portraits.results.1888",
+          "rankingKey": "ranking.portrait1888Blue",
+          "imageFile": "joseph-roulin-1888-blue.webp",
+          "backgroundFile": "joseph-roulin-1888-blue.webp"
+        },
+        {
+          "labelKey": "steps.portraits.options.portrait",
+          "yearKey": "years.1888",
+          "detailKey": "steps.portraits.details.floralBackground",
+          "resultKey": "steps.portraits.results.1888",
+          "rankingKey": "ranking.portrait1888Floral",
+          "imageFile": "joseph-roulin-1888-floral.webp",
+          "backgroundFile": "joseph-roulin-1888-floral.webp"
+        },
+        {
+          "labelKey": "steps.portraits.options.portrait",
+          "yearKey": "years.1889",
+          "detailKey": "steps.portraits.details.greenTones",
+          "resultKey": "steps.portraits.results.1889",
+          "rankingKey": "ranking.portrait1889Green",
+          "imageFile": "joseph-roulin-1889-green.webp",
+          "backgroundFile": "joseph-roulin-1889-green.webp"
+        }
+      ]
+    },
+    {
+      "id": "chairs",
+      "titleKey": "steps.chairs.title",
+      "textKey": "steps.chairs.text",
+      "options": [
+        {
+          "labelKey": "steps.chairs.options.vanGoghChair",
+          "yearKey": "years.1888",
+          "resultKey": "steps.chairs.results.shared",
+          "rankingKey": "ranking.vanGoghChair",
+          "imageFile": "van-gogh-chair-1888.webp",
+          "backgroundFile": "van-gogh-chair-1888.webp"
+        },
+        {
+          "labelKey": "steps.chairs.options.gauguinChair",
+          "yearKey": "years.1888",
+          "resultKey": "steps.chairs.results.shared",
+          "rankingKey": "ranking.gauguinChair",
+          "imageFile": "gauguin-chair-1888.webp",
+          "backgroundFile": "gauguin-chair-1888.webp"
+        }
+      ]
+    }
+  ]
+}

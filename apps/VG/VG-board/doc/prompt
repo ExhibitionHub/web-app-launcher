@@ -1,0 +1,10 @@
+dans le choice il manque le allow derriere le text blanc
+
+il manque aussi le back blanc dans step_text avec la difference entre le simili titre et le text et la ligne de separation
+
+les bouton doit aussi etre coller au bord droit comme si il sortait de l'ecrant
+
+il y a des probleme:
+- dans step_text le text doit etre centrer et son back doit etre un fondu pas une div, le btn next doit etre centrer, le btn home doit etre contre le bord droit comme le next de maintenant
+
+- dans step_choice, les card ne sont plus centrer, le halo doit etre plus blanc au centre et plus fade au bord, et le btn home contre le bord droit

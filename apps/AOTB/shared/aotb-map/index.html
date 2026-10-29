@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Art of the Brick Interactive Map</title>
+  <meta name="i18n-base" content="./lang/" />
+  <meta name="i18n-default-lang" content="en" />
+  <meta name="i18n-supported-langs" content="en,fr" />
+  <meta name="i18n-lock-lang" content="" />
+  <meta name="i18n-title-key" content="mapApp.pageTitle" />
+  <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,forceLang,startRegion" />
+  <meta name="kiosk-home" content="./" />
+  <!-- Disable shared kiosk.js auto-redirect for this page (we handle it with a loading screen). -->
+  <meta name="kiosk-timeout-ms" content="0" />
+  <meta name="map-idle-timeout-ms" content="90000" />
+  <meta name="tracking-exhibition" content="AOTB" />
+  <meta name="tracking-application" content="AOTB-Map" />
+  <!-- Optional: force UI language on boot and whenever the app returns to idle. Values: en | fr | (empty = no forced boot, idle keeps legacy default) -->
+  <meta name="map-force-lang" content="" />
+  <!-- Optional: override the initial camera alignment. Values: europe | america | dataset (empty = dataset default) -->
+  <meta name="map-start-region" content="" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./styles/popup.css" />
+</head>
+<body>
+  <a class="kiosk-menu" href="./" data-i18n="common.home" data-i18n-attr="aria-label:common.backToMainMenu">Home</a>
+  <div id="viewport"></div>
+  <img id="mapAotbLogo" class="map-aotb-logo" src="./Ressource/logo.webp" alt="AOTB" aria-hidden="true" />
+
+  <aside id="statusLegend" class="status-legend" hidden>
+    <button type="button" class="status-legend__toggle" id="statusLegendToggle" aria-expanded="false">ⓘ</button>
+    <div class="status-legend__panel" id="statusLegendPanel" hidden>
+      <div class="status-legend__title" data-i18n="mapApp.legend.title">Conservation status</div>
+      <ul class="status-legend__list">
+        <li><span class="status-legend__dot status-legend__dot--endangered"></span><span data-i18n="mapApp.legend.endangered">Endangered</span></li>
+        <li><span class="status-legend__dot status-legend__dot--vulnerable"></span><span data-i18n="mapApp.legend.vulnerable">Vulnerable</span></li>
+        <li><span class="status-legend__dot status-legend__dot--near"></span><span data-i18n="mapApp.legend.nearThreatened">Near Threatened</span></li>
+      </ul>
+    </div>
+  </aside>
+
+  <div id="langOverlay" class="lang-overlay" role="group" aria-label="Language">
+    <button type="button" class="lang-overlay__btn" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
+    <button type="button" class="lang-overlay__btn" data-lang="fr" aria-pressed="false" aria-label="Français">FR</button>
+  </div>
+
+  <aside id="mapSearch" class="map-search" aria-label="Search" hidden>
+    <div class="map-search__header">
+      <div class="map-search__title" data-i18n="mapApp.search.title">Search</div>
+      <button type="button" class="map-search__toggle" data-action="search-toggle" aria-expanded="true" data-i18n-attr="aria-label:mapApp.search.toggleAria">
+        ▸
+      </button>
+    </div>
+
+    <div class="map-search__input">
+      <input
+        id="mapSearchInput"
+        class="map-search__input-el"
+        type="text"
+        autocomplete="off"
+        autocapitalize="none"
+        spellcheck="false"
+        data-i18n-attr="placeholder:mapApp.search.placeholder;aria-label:mapApp.search.placeholder" />
+      <button type="button" class="map-search__clear" data-action="search-clear" data-i18n-attr="aria-label:mapApp.search.clearAria">×</button>
+    </div>
+
+    <div class="map-search__tools">
+      <div class="map-search__hint" data-i18n="mapApp.search.hint">Search by name, place, description…</div>
+      <select id="mapSearchCountry" class="map-search__country" data-i18n-attr="aria-label:mapApp.search.countryAria"></select>
+      <button type="button" class="map-search__layout" data-action="search-layout" data-i18n-attr="aria-label:mapApp.search.layoutAria">AZERTY</button>
+    </div>
+
+    <div id="mapSearchResults" class="map-search__results" role="listbox" aria-label="Results" data-i18n-attr="aria-label:mapApp.search.resultsAria"></div>
+    <div id="mapSearchKeyboard" class="map-search__keyboard" aria-label="Keyboard" data-i18n-attr="aria-label:mapApp.search.keyboardAria"></div>
+  </aside>
+
+  <div class="user-menu user-menu--bottom">
+    <button class="menu-toggle" data-menu-group="primary" data-i18n="common.controls" data-i18n-attr="aria-label:common.toggleControls">Controls</button>
+    <div class="controls-panel" data-menu-group-panel="primary">
+      <div class="controls-row">
+        <button data-action="zoomIn" data-i18n-attr="aria-label:common.zoomIn">+</button>
+        <button data-action="zoomOut" data-i18n-attr="aria-label:common.zoomOut">-</button>
+        <button data-action="resetCamera" data-i18n="common.reset">Home</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="idleOverlay" class="idle-overlay idle-overlay--loading">
+    <div class="idle-overlay__content">
+      <div class="idle-title">
+        <img class="idle-logo" id="idleLogo" src="./Ressource/logo.webp" alt="Art of the Brick Interactive Map" />
+        <div class="idle-logo-text idle-logo-text--hidden" id="idleTitle">Art of the Brick Interactive Map</div>
+      </div>
+      <div class="idle-intro" id="idleIntro" hidden>
+        <div class="idle-intro__title" id="idleIntroTitle"></div>
+        <div class="idle-intro__cta" id="idleIntroCta"></div>
+      </div>
+      <div class="idle-loading" aria-live="polite">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <div id="idleMessage" class="idle-message" data-i18n="mapApp.idle.loading">Loading…</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      const params = new URL(window.location.href).searchParams;
+      const home = String(params.get('home') || '').trim() || './';
+      const homeMeta = document.querySelector('meta[name="kiosk-home"]');
+      const homeLink = document.querySelector('.kiosk-menu');
+
+      if (homeMeta) {
+        homeMeta.setAttribute('content', home);
+      }
+
+      if (homeLink) {
+        homeLink.setAttribute('href', home);
+      }
+    })();
+
+    // Bootstrap watchdog: if the module bundle fails to start (e.g. importmap not supported
+    // in the embedded runtime), the overlay would otherwise look like "loading forever".
+    window.__MAP_APP_STARTED = false;
+    (function () {
+      const overlay = document.getElementById('idleOverlay');
+      const msg = document.getElementById('idleMessage');
+      const setMsg = (t) => { try { if (msg) msg.textContent = String(t || ''); } catch {} };
+
+      window.addEventListener('error', (e) => {
+        const text = (e && e.message) ? e.message : 'JavaScript error';
+        setMsg(`Error: ${text}`);
+      });
+      window.addEventListener('unhandledrejection', (e) => {
+        const r = e && e.reason;
+        const text = (r && (r.message || String(r))) ? (r.message || String(r)) : 'Unhandled promise rejection';
+        setMsg(`Error: ${text}`);
+      });
+
+      window.setTimeout(() => {
+        if (window.__MAP_APP_STARTED) return;
+        if (!overlay) return;
+        try {
+          const t = (window.i18n && typeof window.i18n.t === 'function')
+            ? window.i18n.t
+            : null;
+          const msgKey = 'mapApp.idle.unableToStart';
+          const translated = t ? t(msgKey) : msgKey;
+          setMsg(translated && translated !== msgKey
+            ? translated
+            : 'Unable to start the map module bundle. Check the runtime version or the asset paths.');
+        } catch {
+          setMsg('Unable to start the map module bundle. Check the runtime version or the asset paths.');
+        }
+      }, 8000);
+    })();
+  </script>
+
+  <script src="./i18n.js"></script>
+  <script src="./lib/qrcode-generator/qrcode.js"></script>
+  <script src="../../../../assets/tracking.js"></script>
+  <script>
+    (function () {
+      const root = document.getElementById('langOverlay');
+      if (!root) return;
+
+      const buttons = Array.from(root.querySelectorAll('button[data-lang]'));
+      if (!buttons.length) return;
+
+      const getSwitchableLanguages = () => {
+        try {
+          const list = window.i18n && Array.isArray(window.i18n.switchableLanguages)
+            ? window.i18n.switchableLanguages
+            : [];
+          return list
+            .map((value) => String(value || '').trim().toLowerCase())
+            .filter(Boolean);
+        } catch {
+          return [];
+        }
+      };
+
+      const syncAvailability = () => {
+        const switchableLanguages = getSwitchableLanguages();
+        const allowedLanguages = new Set(
+          switchableLanguages.length
+            ? switchableLanguages
+            : buttons
+                .map((btn) => String(btn.getAttribute('data-lang') || '').trim().toLowerCase())
+                .filter(Boolean)
+        );
+
+        let visibleCount = 0;
+        buttons.forEach((btn) => {
+          const lang = String(btn.getAttribute('data-lang') || '').trim().toLowerCase();
+          const isVisible = allowedLanguages.has(lang);
+          btn.hidden = !isVisible;
+          if (isVisible) {
+            visibleCount += 1;
+          }
+        });
+
+        root.hidden = visibleCount <= 1;
+      };
+
+      const setActive = (lang) => {
+        const next = String(lang || '');
+        buttons.forEach((btn) => {
+          const isActive = (btn.getAttribute('data-lang') || '') === next;
+          btn.classList.toggle('is-active', isActive);
+          btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+      };
+
+      const refreshFromI18n = () => {
+        syncAvailability();
+        try {
+          const cur = (window.i18n && window.i18n.lang) ? window.i18n.lang : '';
+          if (cur) setActive(cur);
+        } catch {
+          // ignore
+        }
+      };
+
+      buttons.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const lang = btn.getAttribute('data-lang') || '';
+          if (!lang) return;
+          if (!window.i18n || typeof window.i18n.setLang !== 'function') return;
+
+          window.i18n.setLang(lang)
+            .then(() => setActive(lang))
+            .catch(() => { /* ignore */ });
+        });
+      });
+
+      syncAvailability();
+      window.addEventListener('i18n:change', () => refreshFromI18n());
+      if (window.i18n && window.i18n.ready && typeof window.i18n.ready.then === 'function') {
+        window.i18n.ready.then(() => refreshFromI18n()).catch(() => { /* ignore */ });
+      } else {
+        refreshFromI18n();
+      }
+    })();
+  </script>
+  <script>
+    (function () {
+      const params = new URL(window.location.href).searchParams;
+      const forceLegacy = /^(1|true|yes)$/i.test(String(params.get('forceLegacy') || '').trim());
+      const supportsModuleScripts = 'noModule' in document.createElement('script');
+      const useLegacyBundle = forceLegacy || !supportsModuleScripts;
+
+      const runtimeScript = document.createElement('script');
+      runtimeScript.src = useLegacyBundle ? './vendor/main.legacy.js' : './src/main.js';
+      runtimeScript.setAttribute('data-map-runtime', useLegacyBundle ? 'legacy' : 'module');
+
+      if (!useLegacyBundle) {
+        runtimeScript.type = 'module';
+      }
+
+      document.body.appendChild(runtimeScript);
+    })();
+  </script>
+  <script src="./vendor/kiosk.js" defer></script>
+</body>
+</html>

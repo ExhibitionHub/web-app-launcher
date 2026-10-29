@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "languageName": "English"
+  },
+  "common": {
+    "home": "Home",
+    "map": "Map",
+    "quiz": "Quiz",
+    "controls": "Controls",
+    "toggleControls": "Toggle controls",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "reset": "Home",
+    "all": "All",
+    "backToMainMenu": "Back to main menu",
+    "mainMenu": "Main menu",
+    "selection": "Selection",
+    "openMap": "Open map"
+  },
+  "mapApp": {
+    "pageTitle": "Art of the Brick Interactive Map",
+    "datasetTitles": {
+      "perniciem": "PERNiCiEM — Endangered Species",
+      "masters": "Past Masters — Artworks Map",
+      "postmasters": "Post Masters — Artworks Map",
+      "all": "Art of the Brick Interactive Map"
+    },
+    "datasetShortTitles": {
+      "perniciem": "Endangered Species",
+      "masters": "Past Masters",
+      "postmasters": "Post Masters",
+      "all": "AOTB Map"
+    },
+    "search": {
+      "title": "Search",
+      "placeholder": "Search (species, artwork, artist...)",
+      "hint": "Search by name, region, description...",
+      "countryAria": "Filter by region",
+      "resultsAria": "Results",
+      "keyboardAria": "Keyboard",
+      "countryAll": "All regions",
+      "countryUnknown": "Unknown region",
+      "startTyping": "Start typing to search",
+      "noResults": "No results",
+      "unnamed": "Unnamed",
+      "toggleAria": "Toggle search panel",
+      "clearAria": "Clear search",
+      "layoutAria": "Toggle keyboard layout",
+      "keys": {
+        "space": "Space",
+        "backspace": "Back",
+        "clear": "Clear",
+        "shift": "Shift"
+      }
+    },
+    "idle": {
+      "logoAlt": "Art of the Brick Interactive Map",
+      "subtitle": "Explore the interactive exhibition",
+      "loading": "Loading...",
+      "unableToStart": "Unable to start the map module bundle. Check the runtime version or the asset paths."
+    },
+    "opening": {
+      "perniciem": {
+        "title": "Our Planet Is Changing.\nDiscover the Species in Danger all around the world.",
+        "cta": "Tap to Explore"
+      },
+      "masters": {
+        "title": "Step into the world of the Masters.",
+        "cta": "Tap to explore."
+      }
+    },
+    "legend": {
+      "title": "Conservation status",
+      "endangered": "Endangered",
+      "vulnerable": "Vulnerable",
+      "nearThreatened": "Near Threatened"
+    }
+  },
+  "popup": {
+    "keyInfos": "Key info",
+    "tagsLabel": "Details",
+    "imageUnavailable": "Image unavailable",
+    "profile": "Details",
+    "profileDetails": "Details",
+    "imageAlt": "Image",
+    "adoptSpecies": "Adopt This Species",
+    "openLink": "Open link",
+    "close": "Close",
+    "closeCard": "Close the card",
+    "detailsToBeConfirmed": "Details to be confirmed.",
+    "meta": {
+      "status": "Status",
+      "habitat": "Habitat",
+      "population": "Population",
+      "threats": "Threats",
+      "artists": "Artists",
+      "medium": "Medium",
+      "date": "Date",
+      "dimensions": "Dimensions",
+      "movement": "Movement",
+      "artist": "Artist",
+      "conservationStatus": "Status",
+      "cat": "Habitat",
+      "artwork": "Artwork",
+      "declineRate": "Decline",
+      "mounting": "Mounting",
+      "labelNumber": "Label",
+      "dimensionsCm": "Dimensions (cm)",
+      "bricks": "Bricks",
+      "QRcode": "QR",
+      "artistBio": "About the Artist"
+    },
+    "compare": {
+      "original": "Original Artwork",
+      "aotb": "AOTB Artwork"
+    }
+  },
+  "thethinker": {
+    "masters": {
+      "name": "The Thinker",
+      "desc": "Originally intended to be an element to sit atop the door frame of The Gates of Hell (an unfinished piece), Rodin eventually decided to make The Thinker a sculpture on its own.\nThe sculpture represents the everyman, as he ponders perhaps the meaning of life. Whereas often public sculptures depicted heroes or politicians, Rodin’s Thinker is universal and can represent everyone, but in his pose, he is also intelligent and heroic.\nThe sculpture is not absolutely anatomically correct with his large back exemplifying his hunched thinking position. This emphasizes that the figure is not thinking only with his brain, but with every muscle in his body.\nThe original piece is such a great sculpture that it was a pleasure to build a brick replica version. The brick version is to scale with the original version that Rodin first created The Thinker. It took a lot of work to get the body positioning correct and I am amazed how much detail Rodin was able to accomplish at this scale.",
+      "artist": "Auguste Rodin",
+      "medium": "Bronze",
+      "origin": "France",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "France",
+      "place": "France",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "handeffigy": {
+    "masters": {
+      "name": "Hand Effigy",
+      "desc": "This Hand Effigy is larger than an actual human hand, and was found with Burial 47 in Mound 25 at the Hopewell Mound Group in Ross County, Ohio. This hand is created out of a natural sheet of mica which is quite delicate in nature, and not necessarily readily available to the Hopewell. The use of this type of material shows the Hopewell’s trading network was extensive. It also shows the skill of the Hopewell artists to use a material which was not natural to their home territory. The mounds, such as the one that was excavated revealing this Hand Effigy, were most likely sacred burial or ceremonial sites. The Hand Effigy made from such unconventional material, was likely placed within the mound as a burial offering.\nTo capture the translucent color of the original sculpture’s mica, I decided to integrate some clear brick pieces with the different gray hues. Since the original sculpture is very thin, I wanted to make the brick replica as thin as possible, but in the end I decided to build upwards, stacking the small bricks upon one another. This allowed for more detail with the small pieces. I may have been able to achieve a thinner piece using plates, but I wanted the smooth face of the bricks to face outward to match the smoothness of the original sculpture.",
+      "artist": "Unknown",
+      "medium": "Sheet Mica",
+      "origin": "Ohio, USA",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "United States",
+      "place": "Ohio, USA",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "gayerandersencat": {
+    "masters": {
+      "name": "Gayer-Andersen Cat",
+      "desc": "The Gayer-Andersen Cat is a bronze sculpture named after the owner who donated the sculpture to the British Museum. X-rays of the cat have shown small square parts all over the sculpture’s body, which turned out to be core-pins revealing that the sculpture was produced using lost-wax casting. The sculpture of the cat still dons a silver necklace and plaque around its neck. On the original sculpture, the plaque bears an image of the udjat eye which pays homage to the hawk god Horus. The cat’s nose and ears are pierced and it bears gold earrings and a nose-ring. It's eyes would have held stone or glass to provide a realistic quality. The Cat represents the goddess Bastet, and was likely presented to a temple where Bastet was revered and worshipped. In keeping with Egyptian tradition, the tail of the cat rests along the right side of the body. The sculpture is an iconic rendition of an ancient Egyptian cat is one of the best non-human sculptures from that era.\nThe bronze of the original cat sculpture has turned a dark color that is almost a deep green in tone. For that reason I choose a dark-earth green as the color of the bricks for the replica version of the sculpture. The yellow rings are actual brick elements which I have used to represent the cat’s gold jewelry on the original sculpture.",
+      "artist": "Unknown",
+      "medium": "Bronze, Gold and Silver",
+      "origin": "Egypt",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Egypt",
+      "place": "Egypt",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "chacmoolfigure": {
+    "masters": {
+      "name": "Chacmool Figure",
+      "desc": "Chacmool figures are found amongst Central American temple sites, mostly in Mexico and the Yucatan. Their purpose is unknown, but considering the positioning in front of the Mayan temples suggests that they served as an alter for receiving offerings or sacrifices. Chacmools are roughly cut stone human figures who are casually placed leaning back, with the head facing up and forward at a 90 degree angle. This Chacmool holds a bowl, or offering dish, over its stomach, which may have held the sacrificial items, such has human hearts or small animals. The large round headdress and large ear-spools suggest that the figure is of Mayan nobility.\nFor the brick replica version, I was first concerned with an accurate portrayal of the sandy coloring of the Chacmool. I also wanted to properly capture the backside of the sculpture since I was unable to visit one and could not find a proper photo of its back. I was happy with the result of the bowl and headress, each which required extensive work.",
+      "artist": "Unknown",
+      "medium": "Limestone",
+      "origin": "Mexico",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Mexico",
+      "place": "Mexico",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "beninmask": {
+    "masters": {
+      "name": "Benin Mask",
+      "desc": "This ivory pendant mask likely represents Iyoba Idia, the mother of the king, or Oba Esigie, and would have been worn by Idia during festivals in her honor. The strong look of the eyes, nose and mouth of the queen dominate the mask, as well as the two brown vertical stripe or scarification marks on the forehead. The mask also has carvings of small figures above and in contrast with her powerful face. The figures are likely to represent Portuguese traders, forming a crown on the mask.\nThe ivory represented a purity associated with the god of the sea. The Portuguese traders, having crossed the sea, were thought of as denizens of the spirit realm that brought with them power and wealth. The Benin people often traded ivory with such traders.\nFor the brick version of the mask, I wanted to focus on the small representations of the Portuguese traders that surround the top and bottom of the mask. By using certain elements from the brick minifigures, I was able to create a similar aesthetic.",
+      "artist": "Unknown",
+      "medium": "Ivory and iron",
+      "origin": "Nigeria",
+      "mounting": "Mounted on wall",
+      "status": "Used",
+      "country": "Nigeria",
+      "place": "Nigeria",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "bullvaseorzebu": {
+    "masters": {
+      "name": "Bull Vase or Zebu",
+      "desc": "Marlik people were nomadic horseman and are known mostly from the remains found at the province of Gilan near the Caspian Sea. They are thought to be the first Iranians to populate the area. Horses played a very important role within the Marlik culture, and were sometimes buried in individual burial tombs. Although horses played a significant role, the Marlik culture looked to the hump-backed bull, Zebu, as a favorite motif. This Bull Vase is a significantly stylized representation of a bull with short legs and a working a spout at the nose of the bull.\nThe brick version replica in dark orange color is very similar to the reddish coloring of the original vase.  At this scale, it was tough to get the curvature of the bull, but I was able to build the spout similarly concave so that it could act as a channel for water just like in the original sculpture.",
+      "artist": "Unknown",
+      "medium": "Ceramic",
+      "origin": "Marlik, Northern Iran",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Iran",
+      "place": "Marlik, Northern Iran",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "sacrificialvessel": {
+    "masters": {
+      "name": "Sacrificial Vessel",
+      "desc": "Discoveries in the tombs of Kaya in Korea have revealed that birds were often a subject matter for the creators of low-fired stoneware vessels of this era. The kilns were constructed in hillside tunnels.  The curves of the vessel are characteristic of these types of stoneware, with rather simplistic yet elegant designs. This Sacrificial Vessel represents a version of a duck. The body of the vessel could be filled with water through the hole on the bird’s back, with the tail of the bird acting as a spout to pour the water.\nThis Sacrificial Vessel is the one of the earliest known sculptures from Korea. It was likely used for shamanism, the dominant religious system in Korea at the time. These clay models were often placed into the tombs to accompany the deceased into the afterlife.\nI really enjoyed creating this brick replica version of this duck. The thin mane that crowns the bird’s head came out really well for such a small sculpture. The spout is an accurate portrayal, but the bricks are not watertight so it does not function well as a vessel for containing liquids.",
+      "artist": "Unknown",
+      "medium": "Stoneware",
+      "origin": "Korea",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Korea",
+      "place": "Korea",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "dogu": {
+    "masters": {
+      "name": "Dogu",
+      "desc": "Dogus belong to the Jomon period of prehistoric Japan and are the earliest dated proof of pottery. They are small human-like figures. Their purpose was most likely to be used effigies belonging to a hunting and gathering societies.  They likely were the embodiment of spirits, or illnesses could have been transferred to them in a ceremony and then the Dogu was shattered to rid them of the illness. This is likely as most Dogu remains are not found in grave sites, but rather in mounds of refuse, and most are broken.\nThe main attribute of the Dogu are its large goggle-like eyes. They are geometric figures with exaggerated heads, chests and thighs, but very small hands and feet. The core markings of rope-like cord patterns found on the abdomen are what identifies it as coming from the Jomon period. Some theorists believe that the Dogu are representations of a universal life form and the sculptures are actually evidence of alien beings.\nIn creating the brick replica version of the Dogu I wanted to focus on two main things: the shape of the sculpture, and the oversized eyes. I started with very small hands and feet for the shape of the sculpture and then made sure the body type and head (including headdress) was similar to the shape of the original. For the eyes, I used large dish pieces to capture the goggle-like eyes of the original.",
+      "artist": "Unknown",
+      "medium": "Clay",
+      "origin": "Japan",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Japan",
+      "place": "Japan",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "venusofwillendorf": {
+    "masters": {
+      "name": "Venus of Willendorf",
+      "desc": "Also knowns as the “Woman of Willendorf”, this sculpture is one of the earliest objects ever found to have the the shape of a human form. It is one of three venus sculptures that were found at an archaeological dig near the banks of the Danube River in lower Austria. The sculpture is an important part of Palaeolithic art. It depicts a round figure with amplified body traits that emphasize her fertility. For example the navel is emphasized. The torso and thighs are large in comparison, but the legs are very short. There is no face, but the head has a bumpy design which may have represented a woven hat or wavy hair. The original sculpture is very small, which means it could easily have traveled with the nomadic people that created her.\nFor the brick replica version, I decided to double the original size in order to bring out more of the detail of the sculpture, such as the curves of her body type. By using the bumps of the bricks in a sideways manner, I was able to depict the bumps of the figure’s hat or hair.",
+      "artist": "Unknown",
+      "medium": "Limestone",
+      "origin": "Austria",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Austria",
+      "place": "Austria",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "doubleheadedserpent": {
+    "masters": {
+      "name": "Double-Headed Serpent",
+      "desc": "The body of the Double Head Serpent sculpture is made of wood which has been covered in turquoise and stone. The sculpture uses over 2,000 tiny flat pieces to mosaic the serpent’s body like the scales of a snake’s skin. The expert placement of the mosaic pieces accentuates the serpent’s curved body and the skill of the Aztec artist. The rippling body of the snake likely represents both water and wind. Snakes were also often connected to the ideas of metamorphosis and rebirth since snakes shed their skins.\nIt is unclear whether this sculpture was worn as pendant or put on the head of a staff. The holes for eyes in the heads of the snakes suggest that the eyes may have held something. The teeth of the serpents are made from pieces of white shell.\nSince even the smallest individual bricks are still much larger than the tiny bits of turquoise covering the original sculpture, I decided to take a different approach rather than creating a mosaic of brick pieces around a snake form. I did however, want to try and capture the rich colors of the original piece, and embedded a variety of colors within the brick replica version. I was also fortunate to use the small white pointed pieces representing teeth of the original sculpture.",
+      "artist": "Unknown",
+      "medium": "Wood, Turquoise, Conch Shell",
+      "origin": "Mexico",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Mexico",
+      "place": "Mexico",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "seatedbuddha": {
+    "masters": {
+      "name": "Seated Buddha",
+      "desc": "This Seated Buddha sculpture sits cross-legged in the posture of satvaparyankasana, the yogi position with the right leg placed over the left leg. His hands are in the bhumisparshamudra, which means \"calling the earth to witness\", with his right hand lowered so that his fingers are pointing toward the ground. This also symbolizes Shakyamuni’s victory over the demon Mara, who tried to distract Buddha from his pursuit of enlightenment. This is a common theme in Thai Buddhist artwork.\nThis Buddha combines characteristics of northern and central Thailand schools of sculpture. The pose are typical of early figures from the northern kingdom of Lan Na while the stylized facial features typify the later Sukhothai style.\nAlthough this brick sculpture came together rather well, the toughest part of the brick replica version was sculpting the correct positioning of the hands which is so important to the meaning of this original sculpture. The brown color of the bricks was the best choice to represent the brown color of the original bronze.",
+      "artist": "Unknown",
+      "medium": "Bronze",
+      "origin": "Thailand",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "Thailand",
+      "place": "Thailand",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "headtete": {
+    "masters": {
+      "name": "Head (Tete)",
+      "desc": "Modigliani was an Italian artist that worked in France. This particular sculpture is one of 27 sculptures known by the artist. Both his paintings and sculptures were characterized by elongated faces. Modigliani often borrowed from African ceremonial masks, which represented a spiritual expression to the artist. Although Modigliani did exhibit a series of his sculptures in 1912, he had abandoned sculpting by 1914 to focus solely on painting.\nThe piece represents the head of a woman who is bearing the face of a mask. It pays homage to indigenous geometric designs and ceremonial masks. The eyes appear closed, and the long face gives the sense of deep contemplation. The hair of the woman is pulled back in a tussled manner off to one side. The sculpture is entirely symmetrical except for the hair of the woman.\nTo achieve the sweeping mask of this sculpture in the brick replica version, I widened the nose just slightly and brought out the brow further than in the original piece. This allowed the eyes to also come out and give the entire piece the same feel as the original sculpture.",
+      "artist": "Amedeo Modigliani",
+      "medium": "Limestone",
+      "origin": "France",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "France",
+      "place": "France",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "littledanceroffourteenyears": {
+    "masters": {
+      "name": "Little Dancer of Fourteen Years",
+      "desc": "Degas faithfully interpreted the ballet over the years in his paintings, but also in the sculpture of the Little Dancer. However, the dancers at the Paris Opera, which he used for his models, although rigorously taught, also had loose morals and as a result the sculpture received frowns when it first was unveiled.\nDegas began the sculpture by having the Belgian student, Maria Van Goethem pose for him while he made drawings of her. He then made a small scale figure. The sculpture was originally modeled in translucent beeswax. The sculpture also wears a fabric tutu and silk bow in her hair. She stands two-thirds of her actual size.\nThe sculpture has a very naturalistic appearance. The realistic representation was enhanced by the mixed media of the tutu and bow. It was the only sculpture that Degas allowed to be exhibited during his lifetime. Although, his heirs decided to have copies made from the wax model.\nFor the brick replica version, I wanted to capture the self-assuredness of the original sculpture, with her slightly upturned face. I struggled with making the tutu and bow appear to lay naturally as if they were actual fabric. The original sculpture stands on a wooden block to which I tried match the color as accurately as possible.",
+      "artist": "Edgar Degas",
+      "medium": "Bronze and mixed media",
+      "origin": "France",
+      "mounting": "On pedestal",
+      "status": "Used",
+      "country": "France",
+      "place": "France",
+      "cat": "Past Masters",
+      "location": "Past Masters"
+    }
+  },
+  "icarusplateviiifromtheillustratedbookjazz": {
+    "masters": {
+      "name": "Icarus, plate VIII from the illustrated book \"Jazz\"",
+      "artist": "Henri Matisse",
+      "medium": "Pochoir",
+      "country": "United States",
+      "place": "Metropolitan Museum of Art, New York",
+      "cat": "Past Masters"
+    }
+  },
+  "africanelephant": {
+    "perniciem": {
+      "name": "African Elephant",
+      "cat": "grassland",
+      "conservationStatus": "Vulnerable",
+      "population": "~415,000 remaining",
+      "declineRate": "~90% decline over last century",
+      "threats": "Poaching for ivory, habitat loss, illegal ivory trade",
+      "notes": "The largest walking land mammal. Highly empathic and emotional creatures, integral to Africa's biodiversity and ecosystem. Despite a 1990 global ivory ban, demand resurged — 2011 saw the highest recorded illegal ivory seizure. Approximately 20,000 elephants are killed per year (55 per day).",
+      "artwork": "AFRICAN ELEPHANT, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Kenya",
+      "place": "Amboseli"
+    }
+  },
+  "arcticfox": {
+    "perniciem": {
+      "name": "Arctic Fox",
+      "cat": "arctic",
+      "conservationStatus": "Endangered (Scandinavia)",
+      "population": "Less than 200 in Scandinavia",
+      "declineRate": "Significant decline in Scandinavian populations",
+      "threats": "Climate change, sea ice loss, hunting for fur, offshore drilling, prey scarcity",
+      "notes": "Native to snow-blanketed Arctic regions. Dependent on sea ice that is disappearing under warming temperatures. The Scandinavian Arctic Fox is now endangered despite legal protection from hunting. Populations in Norway, Finland, and Sweden reduced to less than 200 each.",
+      "artwork": "ARCTIC FOX, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Norway",
+      "place": "Svalbard"
+    }
+  },
+  "belugawhale": {
+    "perniciem": {
+      "name": "Beluga Whale",
+      "cat": "ocean",
+      "conservationStatus": "Critically Endangered (Cook Inlet)",
+      "population": "Decreased over 75% (Cook Inlet)",
+      "declineRate": "75%+ decline in Cook Inlet subpopulation",
+      "threats": "Ocean plastic pollution, climate change, sea ice loss, noise pollution, coastal development, ship strikes",
+      "notes": "Known as the Canaries of the Sea. Incredibly social and vocal animals who use echolocation. Rely on sea ice that is disappearing. Despite regulated hunting stopping in 2005, Cook Inlet numbers have yet to recover.",
+      "artwork": "BELUGA WHALE, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "United States",
+      "place": "Cook Inlet, Alaska"
+    }
+  },
+  "chileanflamingo": {
+    "perniciem": {
+      "name": "Chilean Flamingo",
+      "cat": "grassland",
+      "conservationStatus": "Near Threatened",
+      "population": "Colonies reduced dramatically",
+      "declineRate": "Dramatic colony size reduction",
+      "threats": "Illegal egg collecting, habitat loss, water pollution, mining/water abstraction, tourism disturbances",
+      "notes": "Recognized by pale pink plumage, hot pink joints and large black beaks. Diet dependent on algae and plankton from salt lagoons and soda lakes. Bred only 9 times in 26 years at Mar Chiquita. Females produce only one egg at a time.",
+      "artwork": "FLAMINGO, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Chile",
+      "place": "Atacama"
+    }
+  },
+  "cheetah": {
+    "perniciem": {
+      "name": "Cheetah",
+      "cat": "grassland",
+      "conservationStatus": "Vulnerable",
+      "population": "Less than 7,000 remaining",
+      "declineRate": "50% decline since 1975; additional 53% loss predicted in next 15 years",
+      "threats": "Habitat loss (agriculture), poaching for skin, illegal pet trade, prey depletion, human-animal conflict",
+      "notes": "Fastest land mammal — 0 to 60 mph in 3 seconds. Less than 5% of cheetah cubs survive to adulthood. Almost totally extinct in Asia (fewer than 50 remain in Iran). Habitat shrinking by ~3% per year. Predicted to disappear entirely by the end of the century.",
+      "artwork": "CHEETAH, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Tanzania",
+      "place": "Serengeti"
+    }
+  },
+  "malayantiger": {
+    "perniciem": {
+      "name": "Malayan Tiger",
+      "cat": "forest",
+      "conservationStatus": "Critically Endangered",
+      "population": "250-340 adults (only 80-120 breeding capable)",
+      "declineRate": "96% decline in all tigers over a century (100,000 → 3,890)",
+      "threats": "Poaching (biggest threat), habitat loss (palm oil deforestation), human-animal conflict, illegal trade, prey decline",
+      "notes": "Three of nine tiger subspecies are already entirely extinct. Malaysia had the highest rate of forest loss globally between 2000-2012, losing 18,244 sq miles (larger than Denmark) for palm oil plantations. No single habitat pocket has more than 50 Malayan Tigers remaining.",
+      "artwork": "MALAYAN TIGER, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Malaysia",
+      "place": "Taman Negara"
+    }
+  },
+  "giraffe": {
+    "perniciem": {
+      "name": "Giraffe",
+      "cat": "grassland",
+      "conservationStatus": "Vulnerable / Endangered (Rothschild)",
+      "population": "97,562 (2015 estimate)",
+      "declineRate": "40%+ decline over 30 years (down from 163,452 in 1985)",
+      "threats": "Unregulated hunting, poaching, wildlife trafficking, shrinking habitat",
+      "notes": "World's tallest living land mammal, averaging 19 feet tall with a two-ton body mass. The Rothschild Giraffe is one of nine subspecies. Herds reduced from 20-30 to as few as 6 individuals. A 'silent extinction' is underway.",
+      "artwork": "GIRAFFE, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Kenya",
+      "place": "Lake Nakuru"
+    }
+  },
+  "polarbear": {
+    "perniciem": {
+      "name": "Polar Bear",
+      "cat": "arctic",
+      "notes": "The Polar Bear, which has long been one of the most coveted and well-loved creatures on the planet; ubiquitous in pop culture and synonymous with cold weather and the arctic, has become the poster child for the devastating effects of a warming earth.",
+      "artwork": "Polar Bear, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Canada",
+      "place": "Hudson Bay"
+    }
+  },
+  "westernlowlandgorilla": {
+    "perniciem": {
+      "name": "Western Lowland Gorilla",
+      "cat": "forest",
+      "notes": "The Western Lowland Gorilla is the most common and abundant of all gorilla species. Yet, despite its seemingly copious numbers, has been classified as Critically Endangered by the IUCN since 2007.",
+      "artwork": "Western Lowland Gorilla, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Gabon",
+      "place": "Loango National Park"
+    }
+  },
+  "humpbackwhale2": {
+    "perniciem": {
+      "name": "Humpback Whale 2",
+      "cat": "ocean",
+      "notes": "Before the 1985 Commercial Whaling Moratorium, Humpback whale populations were depleted by a devastating 95 percent. They were hunted relentlessly, almost to extinction.",
+      "artwork": "Humpback Whale 2, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "United States",
+      "place": "Glacier Bay, Alaska"
+    }
+  },
+  "reefshark": {
+    "perniciem": {
+      "name": "Reef Shark",
+      "cat": "ocean",
+      "notes": "For as long as most can remember, sharks have been a subject of fear, malevolence and subsequently, awe. From their portrayal in popular culture in movies such as Jaws and The Reef to real-life examples of the threat they pose to humans in beach and open waters.",
+      "artwork": "Reef Shark, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Belize",
+      "place": "Belize Barrier Reef"
+    }
+  },
+  "vaquita": {
+    "perniciem": {
+      "name": "Vaquita",
+      "cat": "ocean",
+      "notes": "The Vaquita, the porpoise of the Gulf of California, is currently the most Critically Endangered cetacean in existence. Despite having been discovered less than a century ago in 1958, their numbers have declined so aggressively they were classified as Critically Endangered less than 40 years later in 1996.",
+      "artwork": "Vaquita, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Mexico",
+      "place": "Gulf of California"
+    }
+  },
+  "hawksbillturtle": {
+    "perniciem": {
+      "name": "Hawksbill Turtle",
+      "cat": "ocean",
+      "conservationStatus": "Critically Endangered",
+      "population": "80-90% decline in 10 years",
+      "declineRate": "80%+ loss in just 10 years",
+      "threats": "Hunting for shells (tortoiseshell trade), egg and flesh trade, coastal development, marine pollution, accidental fishing capture",
+      "notes": "One of the most Critically Endangered species on the planet. Living representatives of reptiles that ruled Earth over 100 million years ago. Fundamental role in marine biodiversity: maintains health of coral reefs. Shell trade declared illegal internationally in 1993 but black market persists.",
+      "artwork": "HAWKSBILL TURTLE, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Mexico",
+      "place": "Cozumel"
+    }
+  },
+  "humpbackwhale1": {
+    "perniciem": {
+      "name": "Humpback Whale 1",
+      "cat": "ocean",
+      "conservationStatus": "Least Concern (upgraded; 4/14 subpopulations still Endangered)",
+      "population": "~80,000 (2016), up from ~10,000 in the 1970s",
+      "declineRate": "95% depleted before 1985 moratorium; recovering but still imperiled",
+      "threats": "Ocean pollution, fishing gear entanglement, vessel strikes, vessel-based harassment",
+      "notes": "The crooners of the ocean. Complex songs of moans, howls, and cries that echo for hours. Recovery is proof that conservation efforts work, but threats persist. Two million baleen whales were killed by the whaling industry before the ban. 80 dead humpbacks found on US east coast between 2016-2018.",
+      "artwork": "HUMPBACK WHALE, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Australia",
+      "place": "Great Barrier Reef"
+    }
+  },
+  "militarymacaw": {
+    "perniciem": {
+      "name": "Military Macaw",
+      "cat": "forest",
+      "notes": "Still easily distinguishable even in the lush, green rainforest background of our image, decorated with mostly lime green and accented aqua blue flight feathers and small details of red plumage on their crowns and tails, the Military Macaw is a visual delicacy.",
+      "artwork": "Military Macaw, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Mexico",
+      "place": "Sierra Madre Occidental"
+    }
+  },
+  "northernwhiterhinoceros": {
+    "perniciem": {
+      "name": "Northern White Rhinoceros",
+      "cat": "grassland",
+      "notes": "The Northern White Rhinoceros, the last to be released in our project, is also the most threatened species in the collection. Fatu, a female and her mother Najin are the only remaining Northern White Rhinos left in existence.",
+      "artwork": "Northern White Rhinoceros, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Kenya",
+      "place": "Ol Pejeta Conservancy"
+    }
+  },
+  "sumatranorangutan": {
+    "perniciem": {
+      "name": "Sumatran Orangutan",
+      "cat": "forest",
+      "notes": "The Sumatran Orangutan, native to the Indonesian Island of Sumatra, is losing its place on our planet. These Asian primates have been deemed Critically Endangered since 2000 and their numbers are only continuing to decrease today.",
+      "artwork": "Sumatran Orangutan, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Indonesia",
+      "place": "Gunung Leuser"
+    }
+  },
+  "orca": {
+    "perniciem": {
+      "name": "Orca",
+      "cat": "ocean",
+      "notes": "The Killer Whale, exceptionally bright, emotional and sociable ocean giants, are actually the world’s largest dolphin species. The distinguishably black and white Orca is a powerful and colossal apex predator that is omnipresent in every one of the earth’s oceans.",
+      "artwork": "Orca, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Norway",
+      "place": "Tromsø"
+    }
+  },
+  "whaleshark": {
+    "perniciem": {
+      "name": "Whale Shark",
+      "cat": "ocean",
+      "notes": "Being the largest fish in our sea, The Whale Shark can weigh up to 50,000 pounds and grow to be over 30 feet long. It is, however, deceivingly harmless.",
+      "artwork": "Whale Shark, PERNiCiEM 2019",
+      "medium": "Archival Inkjet on Canson Paper",
+      "country": "Philippines",
+      "place": "Donsol"
+    }
+  },
+  "geo": {
+    "countries": {
+      "france": "France",
+      "unitedstates": "United States",
+      "egypt": "Egypt",
+      "mexico": "Mexico",
+      "nigeria": "Nigeria",
+      "iran": "Iran",
+      "korea": "Korea",
+      "japan": "Japan",
+      "austria": "Austria",
+      "thailand": "Thailand",
+      "kenya": "Kenya",
+      "norway": "Norway",
+      "chile": "Chile",
+      "tanzania": "Tanzania",
+      "malaysia": "Malaysia",
+      "canada": "Canada",
+      "gabon": "Gabon",
+      "belize": "Belize",
+      "australia": "Australia",
+      "indonesia": "Indonesia",
+      "philippines": "Philippines"
+    }
+  },
+  "masters": {
+    "collections": {
+      "pastmasters": "Past Masters"
+    },
+    "status": {
+      "used": "Used"
+    },
+    "mounting": {
+      "onpedestal": "On pedestal",
+      "mountedonwall": "Mounted on wall"
+    },
+    "medium": {
+      "bronze": "Bronze",
+      "sheetmica": "Sheet Mica",
+      "bronzegoldandsilver": "Bronze, Gold and Silver",
+      "limestone": "Limestone",
+      "ivoryandiron": "Ivory and iron",
+      "ceramic": "Ceramic",
+      "stoneware": "Stoneware",
+      "clay": "Clay",
+      "woodturquoiseconchshell": "Wood, Turquoise, Conch Shell",
+      "bronzeandmixedmedia": "Bronze and mixed media",
+      "pochoir": "Pochoir"
+    },
+    "origin": {
+      "france": "France",
+      "ohiousa": "Ohio, USA",
+      "egypt": "Egypt",
+      "mexico": "Mexico",
+      "nigeria": "Nigeria",
+      "marliknortherniran": "Marlik, Northern Iran",
+      "korea": "Korea",
+      "japan": "Japan",
+      "austria": "Austria",
+      "thailand": "Thailand"
+    }
+  },
+  "perniciem": {
+    "habitats": {
+      "grassland": "grassland",
+      "arctic": "arctic",
+      "ocean": "ocean",
+      "forest": "forest"
+    },
+    "conservationStatus": {
+      "vulnerable": "Vulnerable",
+      "endangeredscandinavia": "Endangered (Scandinavia)",
+      "criticallyendangeredcookinlet": "Critically Endangered (Cook Inlet)",
+      "nearthreatened": "Near Threatened",
+      "criticallyendangered": "Critically Endangered",
+      "vulnerableendangeredrothschild": "Vulnerable / Endangered (Rothschild)",
+      "leastconcernupgraded414subpopulationsstillendangered": "Least Concern (upgraded; 4/14 subpopulations still Endangered)"
+    }
+  }
+}

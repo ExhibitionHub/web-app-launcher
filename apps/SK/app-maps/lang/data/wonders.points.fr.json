@@ -1,0 +1,2088 @@
+[
+    {
+        "sourceKey": "Mark Nash|Ireland - Grangegorman",
+        "Notes": "Il a assassiné deux patients à Grangegorman en mars 1997, puis un couple à Ballintober en août ; un autre homme a été reconnu coupable à tort du premier double meurtre ; Il a été condamné à la réclusion à perpétuité.",
+        "position": "Irlande - Grangegorman"
+    },
+    {
+        "sourceKey": "Geoffrey Evans and John Shaw|Ireland - Dublin",
+        "position": "Irlande - Dublin",
+        "Notes": "Des Anglais qui ont assassiné deux femmes en Irlande en 1976. Ils prévoyaient de violer et de tuer une femme chaque semaine."
+    },
+    {
+        "sourceKey": "Alice Kyteler|Ireland - England",
+        "position": "Irlande - Angleterre",
+        "Notes": "Sorcière qui a empoisonné ses quatre maris au XIVe siècle."
+    },
+    {
+        "sourceKey": "Ireland's Vanishing Triangle|Ireland - Dublin",
+        "position": "Irlande - Dublin",
+        "Notes": "Série de disparitions et de meurtres de femmes dans une zone de 80 miles à l'extérieur de Dublin de la fin des années 1980 à la fin des années 1990. En raison des similitudes entre les cas, les autorités irlandaises émettent l'hypothèse qu'il y a un ou plusieurs tueurs en série responsables."
+    },
+    {
+        "sourceKey": "Gosnell, Kermit|United States - West Philadelphia",
+        "Notes": "Ancien médecin spécialiste de l'avortement qui dirigeait une clinique à Philadelphie où les autorités ont trouvé les restes de 47 fœtus avortés tardivement et de bébés nés vivants. Gosnell a été reconnu coupable de la mort de trois bébés nés vivants et d'une patiente, bien que les témoignages du personnel aient fait état de centaines de cas similaires.",
+        "position": "États-Unis - Philadelphie Ouest"
+    },
+    {
+        "sourceKey": "Little, Samuel|United States - Miami, Florida",
+        "Nickname": "Le tueur d'étranglement et de déversement",
+        "Notes": "Vagabond itinérant crédité du meurtre de quatre-vingt-treize femmes dans quatorze États.",
+        "position": "États-Unis - Miami, Floride"
+    },
+    {
+        "sourceKey": "Ridgway, Gary|United States - Washington",
+        "Nickname": "Le tueur de la rivière verte",
+        "Notes": "Il a ciblé les travailleuses du sexe et les jeunes en fuite dans l'État de Washington.",
+        "position": "États-Unis - Washington"
+    },
+    {
+        "sourceKey": "Majors, Orville Lynn|United States - Clinton, Indiana",
+        "Notes": "Infirmière autorisée qui a été reconnue coupable du meurtre de ses patients à Clinton, Indiana.",
+        "position": "États-Unis - Clinton, Indiana"
+    },
+    {
+        "sourceKey": "Chicago Strangler|United States - Chicago",
+        "Notes": "Il a principalement violé et étranglé des prostituées afro-américaines et d'autres femmes vulnérables à Chicago ; Il est possible qu'il s'agisse de plusieurs tueurs en série.",
+        "position": "États-Unis - Chicago"
+    },
+    {
+        "sourceKey": "Harvey, Donald|United States - Ohio and Kentucky",
+        "Nickname": "L'ange de la mort",
+        "Notes": "Infirmier d'hôpital qui a assassiné des patients dans l'Ohio et le Kentucky.",
+        "position": "États-Unis - Ohio et Kentucky"
+    },
+    {
+        "sourceKey": "Watts, Carl Eugene|United States - Michigan and Texas",
+        "Nickname": "Le slasher du dimanche matin",
+        "Notes": "Il a agressé, torturé et assassiné des adolescents et des jeunes femmes dans le Michigan et le Texas.",
+        "position": "États-Unis – Michigan et Texas"
+    },
+    {
+        "sourceKey": "Gaskins, Donald Henry|United States - Prospect, South Carolina",
+        "Notes": "Reconnu coupable de neuf meurtres ; Il a affirmé à un écrivain avoir tué plus de 100 personnes.",
+        "position": "États-Unis - Prospect, Caroline du Sud"
+    },
+    {
+        "sourceKey": "Cottingham, Richard|United States - New York and New Jersey",
+        "Nickname": "Le tueur du torse",
+        "Notes": "Il a violé, étranglé et démembré de nombreuses femmes à New York et dans le New Jersey.",
+        "position": "États-Unis - New York et New Jersey"
+    },
+    {
+        "sourceKey": "Massof, Steven|United States - Philadelphia",
+        "Notes": "Le complice de Kermit Gosnell.",
+        "position": "États-Unis - Philadelphie"
+    },
+    {
+        "sourceKey": "Harpe Brothers|United States - Tennessee",
+        "Notes": "Frères ou cousins, considérés comme les premiers tueurs en série connus aux États-Unis.",
+        "position": "États-Unis - Tennessee"
+    },
+    {
+        "sourceKey": "Green, Larry|United States - San Francisco, California",
+        "Notes": "Membre des \"Death Angels\", le groupe responsable des meurtres de Zebra.",
+        "position": "États-Unis - San Francisco, Californie"
+    },
+    {
+        "sourceKey": "Cooks, Jessie Lee|United States - San Francisco, California",
+        "Notes": "Membre des \"Death Angels\", le groupe responsable des meurtres de Zebra.",
+        "position": "États-Unis - San Francisco, Californie"
+    },
+    {
+        "sourceKey": "Moore, Manuel|United States - San Francisco, California",
+        "Notes": "Membre des \"Death Angels\", le groupe responsable des meurtres de Zebra.",
+        "position": "États-Unis - San Francisco, Californie"
+    },
+    {
+        "sourceKey": "Kraft, Randy|United States - Southern California, Michigan and Oregon",
+        "Nickname": "Le tueur des scores",
+        "Notes": "Il tenait une liste codée des jeunes hommes et garçons qu'il avait violés et assassinés dans le sud de la Californie, du Michigan et de l'Oregon.",
+        "position": "États-Unis – sud de la Californie, Michigan et Oregon"
+    },
+    {
+        "sourceKey": "Simon, J.C.X.|United States - San Francisco, California",
+        "Notes": "Membre des \"Death Angels\", le groupe responsable des meurtres de Zebra.",
+        "position": "États-Unis - San Francisco, Californie"
+    },
+    {
+        "sourceKey": "San Diego serial murders|United States - San Diego County",
+        "Notes": "Série de meurtres de femmes, principalement des prostituées et des toxicomanes, dans le comté de San Diego. Au début, ils ont été attribués à un seul tueur en série, mais il a ensuite été déterminé qu'il y en avait plusieurs.",
+        "position": "États-Unis - Comté de San Diego"
+    },
+    {
+        "sourceKey": "Mulatto Axe Murders|United States - Louisiana",
+        "Notes": "Meurtres à la hache d'au moins douze familles afro-américaines et interraciales le long de la ligne du Pacifique Sud en Louisiane et au Texas. Raymond Barnabet a été reconnu coupable du meurtre d'une famille ; sa fille adolescente, Clémentine Barnabet, a avoué des dizaines d'autres décès. Les historiens remettent en question les deux condamnations et de nombreux crimes restent sans auteur identifié.",
+        "position": "États-Unis - Louisiane"
+    },
+    {
+        "sourceKey": "Evans, Donald Leroy|United States - Galveston, Texas",
+        "Notes": "Soupçonné d'une douzaine d'autres meurtres, il est cependant rétracté sur plus de soixante-dix autres meurtres.",
+        "position": "États-Unis - Galveston, Texas"
+    },
+    {
+        "sourceKey": "Gacy, John Wayne|United States - Chicago",
+        "Nickname": "Le clown tueur",
+        "Notes": "Il traquait des jeunes et des enfants à Chicago et dans ses environs.",
+        "position": "États-Unis - Chicago"
+    },
+    {
+        "sourceKey": "Kearney, Patrick|United States - Southern California",
+        "Nickname": "Le tueur de sacs poubelles",
+        "Notes": "Nécrophile et sadique qui ciblait les jeunes et les enfants du sud de la Californie.",
+        "position": "États-Unis - Californie du Sud"
+    },
+    {
+        "sourceKey": "Woodfield, Randall|United States - Washington",
+        "Nickname": "Le tueur I-5 / Le bandit I-5",
+        "Notes": "Violeur en série, kidnappeur, voleur et voleur qui a attaqué des femmes le long du corridor de l'Interstate 5 à Washington, en Oregon et en Californie.",
+        "position": "États-Unis - Washington"
+    },
+    {
+        "sourceKey": "Espinosa, Felipe|United States - Colorado Territory",
+        "Notes": "Il a assassiné plusieurs personnes dans le territoire du Colorado.",
+        "position": "États-Unis - Territoire du Colorado"
+    },
+    {
+        "sourceKey": "Swango, Michael|United States - US and Zimbabwe",
+        "Notes": "Médecin et chirurgien qui a empoisonné des patients et des collègues aux États-Unis et au Zimbabwe.",
+        "position": "États-Unis - États-Unis et Zimbabwe"
+    },
+    {
+        "sourceKey": "Stano, Gerald|United States - Florida, New Jersey and Pennsylvania",
+        "Notes": "Il a assassiné des jeunes femmes et des filles en Floride, au New Jersey et en Pennsylvanie.",
+        "position": "États-Unis – Floride, New Jersey et Pennsylvanie"
+    },
+    {
+        "sourceKey": "Bonin, William|United States - Southern California",
+        "Nickname": "Le tueur de la route",
+        "Notes": "Il traquait des jeunes et des enfants dans le sud de la Californie avec plusieurs complices.",
+        "position": "États-Unis - Californie du Sud"
+    },
+    {
+        "sourceKey": "Jones, Genene|United States - Texas",
+        "Notes": "Infirmière pédiatrique du Texas qui a empoisonné des bébés dont elle avait la garde ; Elle devait être libérée en mars 2018, mais les procureurs l'ont inculpée de deux meurtres supplémentaires.",
+        "position": "États-Unis - Texas"
+    },
+    {
+        "sourceKey": "Archer-Gilligan, Amy|United States - Windsor, Connecticut",
+        "Notes": "Elle a empoisonné son mari et les résidents de sa maison de retraite à Windsor, dans le Connecticut.",
+        "position": "États-Unis - Windsor, Connecticut"
+    },
+    {
+        "sourceKey": "Hansen, Robert|United States - Anchorage, Alaska",
+        "Nickname": "Le Boucher Boulanger",
+        "Notes": "Il a kidnappé, violé et assassiné des femmes à Anchorage et dans ses environs, en Alaska. Après les avoir kidnappés, il a relâché plusieurs de ses victimes dans la nature sauvage de l'Alaska et les a chassées avec un fusil semi-automatique et un couteau.",
+        "position": "États-Unis - Anchorage, Alaska"
+    },
+    {
+        "sourceKey": "Rhoades, Robert Ben|United States - Illinois",
+        "Nickname": "Le tueur aux relais routiers",
+        "Notes": "Camionneur qui a transformé la cabine couchette de son camion en chambre de torture où il détenait des femmes, les torturait et les agressait sexuellement avant de les tuer.",
+        "position": "États-Unis - Illinois"
+    },
+    {
+        "sourceKey": "Bird, Jake|United States - Washington",
+        "Notes": "Il a été condamné à mort pour le meurtre de deux personnes ; Il a avoué quarante-quatre autres meurtres.",
+        "position": "États-Unis - Washington"
+    },
+    {
+        "sourceKey": "The Man from the Train|United States - East Coast to the West",
+        "Notes": "Probablement Paul Mueller. Il a tué des familles entières dans leur sommeil, de la côte Est à l'Ouest, arrivant et fuyant en train. Son existence, probable bien que son identité ne soit pas prouvée, a été détectée plus de cent ans plus tard lors de l'analyse de documents contemporains qui montraient un modus operandi très similaire dans de nombreux crimes jusqu'alors sans lien.",
+        "position": "États-Unis - de la côte Est à l'Ouest"
+    },
+    {
+        "sourceKey": "Alcala, Rodney|United States - California",
+        "Notes": "Parfois appelé « The Dating Game Killer » pour son apparition en 1978 dans l'émission télévisée The Dating Game pendant la période du meurtre.",
+        "position": "États-Unis - Californie"
+    },
+    {
+        "sourceKey": "Corll, Dean|United States - Texas",
+        "Notes": "Connu sous les noms de « The Candy Man » et « The Pied Piper ». Leurs crimes sont connus sous le nom de « meurtres de masse à Houston » ; violé et assassiné des enfants et des jeunes hommes au Texas avec l'aide de ses complices adolescents David Owen Brooks et Elmer Wayne Henley.",
+        "position": "États-Unis - Texas"
+    },
+    {
+        "sourceKey": "Atlanta child murders|United States - Atlanta, Georgia",
+        "Notes": "Série de meurtres commis à Atlanta, en Géorgie, entre juillet 1979 et mai 1981. Au cours de ces deux années, au moins vingt-huit enfants, adolescents et adultes ont été assassinés. Wayne Williams a été accusé et reconnu coupable de deux meurtres d'adultes et vingt-quatre autres cas lui ont été attribués.",
+        "position": "États-Unis - Atlanta, Géorgie"
+    },
+    {
+        "sourceKey": "Saldivar, Efren|United States - Glendale Adventist Medical Center in Glendale, California",
+        "Notes": "Inhalothérapeute qui a assassiné ses patients à Adventist Health Glendale.",
+        "position": "États-Unis - Centre médical adventiste de Glendale, Glendale, Californie"
+    },
+    {
+        "sourceKey": "Knowles, Paul John|United States - Georgia",
+        "Nickname": "Le meurtrier Casanova",
+        "Notes": "Connu sous le nom de « le tueur de Casanova ».",
+        "position": "États-Unis - Géorgie"
+    },
+    {
+        "sourceKey": "Morin, Stephen|United States - Texas",
+        "Notes": "Suspect de plus de trente crimes violents non résolus à travers le pays.",
+        "position": "États-Unis - Texas"
+    },
+    {
+        "sourceKey": "Tholmer, Brandon|United States - Westside, Los Angeles County",
+        "Nickname": "Le violeur du côté ouest",
+        "Notes": "Il a traqué des femmes plus âgées dans le Westside du comté de Los Angeles.",
+        "position": "États-Unis - Westside, comté de Los Angeles"
+    },
+    {
+        "sourceKey": "Nelson, Earle|United States - Canada",
+        "Notes": "Connu sous le nom de \"L'Homme Gorille\". Il a été exécuté pour un meurtre commis au Canada.",
+        "position": "États-Unis - Canada"
+    },
+    {
+        "sourceKey": "Bundy, Ted|United States - Tacoma",
+        "Notes": "Il traquait les jeunes femmes blanches partout aux États-Unis.",
+        "position": "États-Unis - Tacoma"
+    },
+    {
+        "sourceKey": "Corona, Juan|United States - Sutter County, California",
+        "Notes": "Entrepreneur agricole mexicain qui a assassiné des travailleurs migrants dans le comté de Sutter, en Californie, et enterré les corps dans des vergers de pêchers.",
+        "position": "États-Unis - Comté de Sutter, Californie"
+    },
+    {
+        "sourceKey": "Cullen, Charles|United States - New Jersey and Pennsylvania",
+        "Notes": "Infirmière du New Jersey et de Pennsylvanie qui a assassiné des patients.",
+        "position": "États-Unis - New Jersey et Pennsylvanie"
+    },
+    {
+        "sourceKey": "Storyville Slayer|United States - New Orleans",
+        "Notes": "Il a kidnappé, étranglé et noyé principalement des prostituées autour de la Nouvelle-Orléans ; On pense qu'il pourrait s'agir de plusieurs meurtriers.",
+        "position": "États-Unis - Nouvelle-Orléans"
+    },
+    {
+        "sourceKey": "Toppan, Jane|United States - Massachusetts",
+        "Notes": "Infirmière qui a empoisonné des patients et des membres de leur famille dans le Massachusetts.",
+        "position": "États-Unis - Massachusetts"
+    },
+    {
+        "sourceKey": "Creech, Thomas Eugene|United States - Idaho",
+        "Notes": "Vagabond qui a tué des personnes dans plusieurs États, dans certains cas prétendument dans le cadre d'un gang de motards ou pour des sacrifices humains.",
+        "position": "États-Unis - Idaho"
+    },
+    {
+        "sourceKey": "Flat-Tire murders|United States - Broward and Miami-Dade Counties",
+        "Notes": "Il a tué des filles et des femmes dans les comtés de Broward et de Miami-Dade en leur proposant de réparer leurs pneus, avant de les agresser sexuellement et de les noyer dans les canaux.",
+        "position": "États-Unis - Comtés de Broward et Miami-Dade"
+    },
+    {
+        "sourceKey": "LaRette, Anthony|United States - Missouri",
+        "Notes": "Homme sans-abri qui a traqué, violé et poignardé mortellement des femmes dans plusieurs États.",
+        "position": "États-Unis - Missouri"
+    },
+    {
+        "sourceKey": "Dominique, Ronald|United States - Louisiana",
+        "Notes": "Il a violé et assassiné des hommes en Louisiane.",
+        "position": "États-Unis - Louisiane"
+    },
+    {
+        "sourceKey": "Eyler, Larry|United States - Midwest",
+        "Nickname": "Le tueur inter-États / Le tueur sur autoroute",
+        "Notes": "Connu sous le nom de « The Interstate Killer » et « The Highway Killer » ; traqué des enfants et des jeunes dans le Midwest.",
+        "position": "États-Unis - Midwest"
+    },
+    {
+        "sourceKey": "Silveria Jr., Robert Joseph|United States - Wyoming",
+        "Nickname": "Le tueur de wagons",
+        "Notes": "Membre présumé de Freight Train Riders of America.",
+        "position": "États-Unis - Wyoming"
+    },
+    {
+        "sourceKey": "Bartlett, Polly|United States - Wyoming",
+        "Notes": "Le premier tueur en série du Wyoming, avant même qu'il ne soit un État. Il dirigeait une auberge et empoisonnait de riches invités masculins avec de l'arsenic pour les voler avec son père Jim. Elle a été arrêtée par une victime potentielle qui cherchait à mettre sa tête à prix et a ensuite été abattue en prison par un employé du père de sa dernière victime.",
+        "position": "États-Unis - Wyoming"
+    },
+    {
+        "sourceKey": "Denver Prostitute Killer|United States - Denver",
+        "Notes": "Il a kidnappé, violé et étranglé des filles et des jeunes femmes à Denver et dans ses différentes banlieues.",
+        "position": "États-Unis - Denver"
+    },
+    {
+        "sourceKey": "Gray, Marvin|United States - Colorado",
+        "Notes": "Considéré comme le détenu le plus dangereux du Colorado jusqu'à sa mort ; a avoué les meurtres de quarante et une personnes dans huit États différents.",
+        "position": "États-Unis - Colorado"
+    },
+    {
+        "sourceKey": "Stafford, Roger Dale|United States - Oklahoma",
+        "Notes": "Sa femme l'a impliqué dans trente-quatre meurtres différents dans sept États.",
+        "position": "États-Unis - Oklahoma"
+    },
+    {
+        "sourceKey": "Zodiac Killer|United States - California",
+        "Notes": "Il ciblait les jeunes couples. L'affaire reste officiellement non résolue dans les juridictions californiennes où ont eu lieu les cinq meurtres attribués avec certitude au Zodiac. Il a fait jusqu'à trente-sept victimes, mais ce chiffre n'a jamais été vérifié.",
+        "position": "États-Unis - Californie"
+    },
+    {
+        "sourceKey": "Franklin Jr., Lonnie David|United States - Los Angeles",
+        "Nickname": "Le sinistre dormeur",
+        "Notes": "Il a été inculpé après que des preuves ADN l'ont lié à dix meurtres commis à Los Angeles depuis 1985.",
+        "position": "États-Unis - Los Angeles"
+    },
+    {
+        "sourceKey": "Cole, Carroll|United States - California, Nevada and Texas",
+        "Notes": "Il a noyé un camarade de classe de huit ans alors qu'il était encore enfant et, à l'âge adulte, a étranglé plusieurs femmes en Californie, au Nevada et au Texas.",
+        "position": "États-Unis – Californie, Nevada et Texas"
+    },
+    {
+        "sourceKey": "Yates, Robert Lee|United States - Spokane, Washington",
+        "Nickname": "Le tueur de sacs à provisions",
+        "Notes": "Il ciblait les femmes de Spokane et de ses environs, dans l’État de Washington.",
+        "position": "États-Unis - Spokane, Washington"
+    },
+    {
+        "sourceKey": "Ng, Charles|United States - Leonard Lake at Lake's cabin in Calaveras County, California",
+        "Notes": "Avec son complice Leonard Lake, il était également connu comme l'un des « tueurs de l'opération Miranda ».",
+        "position": "États-Unis - Cabane de Leonard Lake dans le comté de Calaveras, Californie"
+    },
+    {
+        "sourceKey": "Queho|United States - cave five miles upriver from El Dorado Canyon",
+        "Notes": "Le premier tueur en série connu du Nevada ; a été retrouvé mort dans une grotte à huit kilomètres en amont du canyon El Dorado. La cause de son décès reste incertaine.",
+        "position": "États-Unis - grotte à cinq milles en amont du canyon El Dorado"
+    },
+    {
+        "sourceKey": "Kokoraleis, Thomas|United States - Illinois",
+        "Notes": "Membre du groupe criminel organisé connu sous le nom de « The Ripper Crew » ou « The Chicago Rippers ».",
+        "position": "États-Unis - Illinois"
+    },
+    {
+        "sourceKey": "Kokoraleis, Andrew|United States - Illinois",
+        "position": "États-Unis - Illinois",
+        "Notes": "Membre du groupe criminel organisé connu sous le nom de « The Ripper Crew » ou « The Chicago Rippers »"
+    },
+    {
+        "sourceKey": "Holmes, H. H.|United States - White City",
+        "position": "États-Unis - Ville Blanche",
+        "Notes": "Reconnu coupable d'un seul meurtre, mais lié de manière concluante à au moins huit autres ; a avoué un total de 27"
+    },
+    {
+        "sourceKey": "Spreitzer, Edward|United States - Illinois",
+        "position": "États-Unis - Illinois",
+        "Notes": "Membre du groupe criminel organisé connu sous le nom de « The Ripper Crew » ou « The Chicago Rippers »"
+    },
+    {
+        "sourceKey": "Gecht, Robin|United States - Illinois",
+        "position": "États-Unis - Illinois",
+        "Notes": "Chef du groupe criminel organisé connu sous le nom de « The Ripper Crew » ou « The Chicago Rippers »"
+    },
+    {
+        "sourceKey": "Gibson, William Clyde|United States - Indiana",
+        "Notes": "Il a agressé sexuellement et assassiné des femmes dans différents endroits de l'Indiana.",
+        "position": "États-Unis - Indiana"
+    },
+    {
+        "sourceKey": "Davis, Bruce Alan|United States - Illinois",
+        "Notes": "Il a assassiné deux hommes lors de vols et plus tard un gardien de prison ; Il a avoué de nombreux meurtres d'hommes à motivation sexuelle dans tout le pays.",
+        "position": "États-Unis - Illinois"
+    },
+    {
+        "sourceKey": "Lake, Leonard|United States - Charles Ng at a remote cabin near Wilseyville, California",
+        "position": "États-Unis - Charles Ng dans une cabane isolée près de Wilseyville, Californie",
+        "Notes": "Avec son complice Charles Ng, également connu sous le nom de « The Operation Miranda Killers »"
+    },
+    {
+        "sourceKey": "Hazzard, Linda|United States - Washington",
+        "Nickname": "Le médecin du jeûne",
+        "Notes": "Faux médecin et escroc qui promouvait le jeûne, les coups et les lavements d'une heure comme traitements. En 1911, elle fut reconnue coupable d'homicide involontaire dans l'État de Washington et condamnée à entre deux et vingt ans de travaux forcés pour avoir tué au moins quinze personnes dans un but lucratif dans un sanatorium qu'elle dirigeait près de Seattle. Elle a été libérée sous condition après avoir purgé seulement deux ans et, plus tard, pour des raisons inconnues, a reçu une grâce totale du gouverneur Ernest Lister en 1916. Elle est décédée après s'être soumise à ses propres méthodes.",
+        "position": "États-Unis - Washington"
+    },
+    {
+        "sourceKey": "Texas Killing Fields|United States - Texas",
+        "position": "États-Unis - Texas",
+        "Notes": "Depuis le début des années 1970, une trentaine de corps ont été retrouvés dans les camps, principalement des filles. En mars 2024, six de ces cas avaient été définitivement résolus et les autorités pensent désormais que plusieurs auteurs sont impliqués."
+    },
+    {
+        "sourceKey": "Dahmer, Jeffrey|United States - Milwaukee",
+        "position": "États-Unis - Milwaukee",
+        "Notes": "Cannibale de Milwaukee qui a préservé plusieurs parties du corps de ses victimes"
+    },
+    {
+        "sourceKey": "Christensen, William Dean|United States - Pennsylvania",
+        "position": "États-Unis - Pennsylvanie",
+        "Notes": "Personnes assassinées et mutilées entre le Canada et les États-Unis"
+    },
+    {
+        "sourceKey": "Briley Brothers|United States - Richmond, Virginia",
+        "Notes": "Trois frères et un complice responsables de onze meurtres.",
+        "position": "États-Unis - Richmond, Virginie"
+    },
+    {
+        "sourceKey": "Shawcross, Arthur|United States - Watertown, New York",
+        "Notes": "Il a violé et assassiné deux enfants à Watertown, New York, en 1972. Après avoir obtenu une libération conditionnelle en 1987, il a de nouveau tué en 1988, se concentrant principalement sur les travailleuses du sexe de la région de Rochester. Il a été arrêté en 1990.",
+        "position": "États-Unis - Watertown, État de New York"
+    },
+    {
+        "sourceKey": "Franklin, Joseph Paul|United States - Bonne Terre",
+        "position": "États-Unis - Bonne Terre",
+        "Notes": "Il a également tenté d'assassiner Larry Flynt et Vernon Jordan."
+    },
+    {
+        "sourceKey": "Cleveland Torso Murderer|United States - Cleveland, Ohio",
+        "position": "États-Unis - Cleveland, Ohio",
+        "Notes": "Également connu sous le nom de « Boucher fou de Kingsbury Run » ; responsable de 12 à 13 meurtres dans la région de Cleveland, Ohio dans les années 1930"
+    },
+    {
+        "sourceKey": "Travis, Maury|United States - Ferguson, Missouri",
+        "position": "États-Unis - Ferguson, Missouri",
+        "Notes": "Soupçonné d'avoir kidnappé, torturé et tué des femmes à leur domicile à Ferguson, Missouri"
+    },
+    {
+        "sourceKey": "Gulf Killer|United States - Pasco County, Florida",
+        "position": "États-Unis - Comté de Pasco, Floride",
+        "Notes": "Une série de meurtres non résolus survenus principalement dans le comté de Pasco, en Floride, dans les années 1970 ; probablement plusieurs tueurs"
+    },
+    {
+        "sourceKey": "Meekins, Duncan Eric|United States - Richmond, Virginia",
+        "position": "États-Unis - Richmond, Virginie",
+        "Notes": "Adolescent complice des frères Briley"
+    },
+    {
+        "sourceKey": "Lindsey, William Darrell|United States - Florida and North Carolina",
+        "position": "États-Unis - Floride et Caroline du Nord",
+        "Notes": "Il a assassiné sept prostituées en Floride et en Caroline du Nord"
+    },
+    {
+        "sourceKey": "Reséndiz, Ángel Maturino|United States - Texas",
+        "position": "États-Unis - Texas",
+        "Notes": "Il a principalement assassiné des personnes dans leurs maisons à proximité des voies ferrées."
+    },
+    {
+        "sourceKey": "Sinclair, Charles T.|United States - western United States and Canada",
+        "position": "États-Unis – ouest des États-Unis et Canada",
+        "Notes": "Ciblage des propriétaires de magasins de pièces de monnaie pour voler de précieuses collections numismatiques"
+    },
+    {
+        "sourceKey": "Baumeister, Herb|United States - Westfield, Indiana",
+        "position": "États-Unis - Westfield, Indiana",
+        "Notes": "Responsable du meurtre d'au moins onze victimes retrouvées enterrées sur leur propriété à Westfield, Indiana"
+    },
+    {
+        "sourceKey": "Turner, Chester|United States - South Los Angeles",
+        "position": "États-Unis - Sud de Los Angeles",
+        "Notes": "Reconnu coupable du meurtre de dix femmes et d'un bébé viable à naître dans le sud de Los Angeles"
+    },
+    {
+        "sourceKey": "Ramirez, Richard|United States - California",
+        "position": "États-Unis - Californie",
+        "Notes": "Connu sous le nom de \"Le Traqueur de la Nuit\""
+    },
+    {
+        "sourceKey": "Atlanta Ripper|United States - Georgia",
+        "position": "États-Unis - Géorgie",
+        "Notes": "Meurtre(s) mystérieux de quinze femmes d'Atlanta en 1911"
+    },
+    {
+        "sourceKey": "Chavez, Juan Rodriguez|United States - Dallas, Texas",
+        "Notes": "Il a tué un voisin lors d'un vol ; Il a été libéré sur parole et s'est ensuite lancé dans une série de meurtres avec un complice adolescent.",
+        "position": "États-Unis - Dallas, Texas"
+    },
+    {
+        "sourceKey": "Essex County prostitute killings|United States - Essex County, New Jersey",
+        "Notes": "Meurtres d'au moins quatorze femmes liés à la prostitution dans le comté d'Essex, New Jersey. Plusieurs auteurs sont soupçonnés et, en 1998, Harrison Hogue a été arrêté pour l'un de ces crimes, bien qu'il ait été déclaré incapable de subir son procès.",
+        "position": "États-Unis - Comté d'Essex, New Jersey"
+    },
+    {
+        "sourceKey": "Cannon, Patty|United States - Maryland",
+        "position": "États-Unis - Maryland",
+        "Notes": "Chef de gang qui kidnappait des esclaves et libérait des Noirs pour les vendre ou les torturer"
+    },
+    {
+        "sourceKey": "Sherman, Lydia|United States - Connecticut",
+        "position": "États-Unis - Connecticut",
+        "Notes": "Elle a empoisonné huit enfants dont elle avait la garde, dont six étaient les siens, ainsi que leurs trois maris, dans le Connecticut et le Rhode Island."
+    },
+    {
+        "sourceKey": "Sells, Tommy Lynn|United States - Huntsville Unit in Texas",
+        "position": "États-Unis - Unité de Huntsville au Texas",
+        "Notes": "Il a avoué le meurtre de dizaines de personnes, peut-être plus de 70, seuls six fils ont confirmé"
+    },
+    {
+        "sourceKey": "McDuff, Kenneth|United States - Texas",
+        "position": "États-Unis - Texas",
+        "Notes": "La peine de mort pour un triple meurtre commis en 1966 a été commuée ; Il a encore tué trois jours après sa libération conditionnelle en 1989"
+    },
+    {
+        "sourceKey": "Suff, William|United States - Riverside County, California",
+        "position": "États-Unis - Comté de Riverside, Californie",
+        "Notes": "Connu sous le nom de « le tueur de prostituées de Riverside »"
+    },
+    {
+        "sourceKey": "Gretzler, Douglas|United States - California and Arizona",
+        "position": "États-Unis – Californie et Arizona",
+        "Notes": "Avec son complice Willie Steelman, il a tué des témoins lors de ses vols en Californie et en Arizona."
+    },
+    {
+        "sourceKey": "Gunness, Belle|United States - Illinois",
+        "position": "États-Unis - Illinois",
+        "Notes": "Meurtrier à but lucratif d'origine norvégienne qui a tué ses prétendants et ses enfants"
+    },
+    {
+        "sourceKey": "Hall, James Waybern|United States - Little Rock, Arkansas",
+        "Notes": "Il a tué sa femme en 1944 et trois autres hommes alors qu'ils faisaient de l'auto-stop en 1945. Il a avoué au moins 20 meurtres.",
+        "position": "États-Unis - Little Rock, Arkansas"
+    },
+    {
+        "sourceKey": "Brooks, Shelly|United States - Detroit, Michigan",
+        "position": "États-Unis - Détroit, Michigan",
+        "Notes": "Il a violé et assassiné des femmes d'âge moyen autour de Détroit, dans le Michigan."
+    },
+    {
+        "sourceKey": "Atkins, Benjamin|United States - Highland Park and Detroit, Michigan",
+        "Notes": "Violeur en série qui a traqué des femmes à Highland Park et à Détroit, Michigan.",
+        "position": "États-Unis - Highland Park et Détroit, Michigan"
+    },
+    {
+        "sourceKey": "Groves, Vincent|United States - Denver and the",
+        "position": "États-Unis - Denver et le",
+        "Notes": "Il a violé et étranglé des prostituées à Denver et dans les environs"
+    },
+    {
+        "sourceKey": "Panzram, Carl|United States - United States alone",
+        "Notes": "Meurtrier, violeur et pyromane ; Il a été reconnu coupable de deux meurtres, bien qu'il en ait avoué dix-neuf autres.",
+        "position": "États-Unis - États-Unis"
+    },
+    {
+        "sourceKey": "Helm, Boone|United States - American West",
+        "position": "États-Unis - Ouest américain",
+        "Notes": "Homme de montagne et tireur du Far West qui a assassiné et partiellement consumé ses victimes dans tout l'Ouest américain"
+    },
+    {
+        "sourceKey": "Greenwood, Vaughn|United States - Southern California",
+        "position": "États-Unis - Californie du Sud",
+        "Notes": "Se nourrissant principalement de migrants et de sans-abri en Californie du Sud"
+    },
+    {
+        "sourceKey": "Wallace, Henry Louis|United States - Charlotte, North Carolina",
+        "position": "États-Unis - Charlotte, Caroline du Nord",
+        "Notes": "S'attaque aux femmes de Charlotte et de ses environs, en Caroline du Nord."
+    },
+    {
+        "sourceKey": "Doss, Nannie|United States - McAlester",
+        "position": "États-Unis - McAlester",
+        "Notes": "Elle a empoisonné quatre maris, deux enfants, ses deux sœurs, sa mère, son petit-fils et sa belle-mère."
+    },
+    {
+        "sourceKey": "DeAngelo, Joseph James|United States - Sacramento",
+        "Notes": "Connu sous les noms de « The Golden State Killer », « The Visalia Ransacker », « The East Area Rapist » et « The Original Night Stalker » ; Il a assassiné trois personnes à Sacramento et dix en Californie du Sud entre 1975 et 1986. Il a également été associé à plus de cinquante viols dans la région de Sacramento entre 1976 et 1979.",
+        "position": "États-Unis - Sacramento"
+    },
+    {
+        "sourceKey": "Jones, Syd|United States - U.S",
+        "Notes": "Vagabond qui a reconnu avoir commis une dizaine de meurtres aux Etats-Unis.",
+        "position": "États-Unis - États-Unis"
+    },
+    {
+        "sourceKey": "Golden Years Murders|United States - Richmond, Virginia",
+        "Notes": "Meurtres de femmes âgées à Richmond, en Virginie ; Leslie Burchart a été reconnu coupable dans certaines affaires, même si sa culpabilité reste controversée.",
+        "position": "États-Unis - Richmond, Virginie"
+    },
+    {
+        "sourceKey": "Mullin, Herbert|United States - California",
+        "position": "États-Unis - Californie",
+        "Notes": "Schizophrène californien qui a tiré, poignardé et matraqué des victimes âgées de 4 à 72 ans. Décédé dans la prison du California Health Care Facility en 2022"
+    },
+    {
+        "sourceKey": "Hassell, George|United States - Farwell, Texas",
+        "position": "États-Unis - Farwell, Texas",
+        "Notes": "Anéanti leur famille à deux reprises"
+    },
+    {
+        "sourceKey": "Boston Strangler|United States - Massachusetts",
+        "Notes": "Série de décès dans les années 1960 de treize femmes, cinq jeunes et huit plus âgées, pour la plupart étranglées avec leurs propres bas. Albert DeSalvo a avoué les crimes, mais n'a jamais été poursuivi pour ceux-ci ; Les preuves ADN analysées en 2013 ont souligné sa culpabilité dans l'une des affaires.",
+        "position": "États-Unis - Massachusetts"
+    },
+    {
+        "sourceKey": "Rifkin, Joel|United States - New York City and Long Island",
+        "position": "États-Unis - New York et Long Island",
+        "Notes": "Principalement la proie des travailleuses du sexe à New York et à Long Island"
+    },
+    {
+        "sourceKey": "Kemper, Edmund|United States - California",
+        "position": "États-Unis - Californie",
+        "Notes": "Il a assassiné ses grands-parents à l'âge de 15 ans ; Libéré à 21 ans, il a ensuite assassiné six jeunes femmes, ainsi que sa mère et ses amis, en Californie."
+    },
+    {
+        "sourceKey": "Jennings, Desmond Domnique|United States - Fort Worth, Texas",
+        "position": "États-Unis - Fort Worth, Texas",
+        "Notes": "Personnes tuées dans des vols liés à la drogue à Fort Worth, Texas"
+    },
+    {
+        "sourceKey": "Long, Bobby Joe|United States - Florida's Tampa Bay",
+        "Notes": "Violeur en série qui a kidnappé, agressé et assassiné des femmes dans la région de Tampa Bay, en Floride.",
+        "position": "États-Unis - Tampa Bay, Floride"
+    },
+    {
+        "sourceKey": "Rader, Dennis|United States - Wichita and Park City, Kansas",
+        "position": "États-Unis - Wichita et Park City, Kansas",
+        "Notes": "Il a tué des hommes, des femmes et des enfants à Wichita et à Park City, au Kansas, tout en envoyant des lettres de moquerie à la police locale et aux médias."
+    },
+    {
+        "sourceKey": "Surratt, Edward Arthur|United States - Pennsylvania",
+        "Notes": "Violeur et tueur en série qui opérait principalement dans l'ouest de la Pennsylvanie et l'est de l'Ohio, également connu sous le nom de « The Shotgun Killer ». Bien qu'il ait été suspecté de plus de dix-huit meurtres, il n'a été reconnu coupable que d'un seul meurtre en Caroline du Sud. En 2021, il a avoué six autres meurtres.",
+        "position": "États-Unis - Pennsylvanie"
+    },
+    {
+        "sourceKey": "Player, Michael|United States - Skid Row",
+        "position": "États-Unis - Skid Row",
+        "Notes": "Ciblage principalement des personnes sans abri dans le quartier Skid Row de Los Angeles"
+    },
+    {
+        "sourceKey": "Muhammad, John Allen|United States - Washington",
+        "position": "États-Unis - Washington",
+        "Notes": "Avec son complice Lee Boyd Malvo, il a perpétré les attaques de tireurs d'élite de Washington DC."
+    },
+    {
+        "sourceKey": "Christopher, Joseph|United States - New York",
+        "Notes": "Connu sous le nom de « The Midtown Slasher » et « .22-Caliber Killer » ; Il a principalement attaqué des hommes et des garçons afro-américains à New York, tirant sur certaines victimes et en poignardant et démembrant d’autres.",
+        "position": "États-Unis - New York"
+    },
+    {
+        "sourceKey": "Joyner, Anthony|United States - Philadelphia, Pennsylvania",
+        "position": "États-Unis - Philadelphie, Pennsylvanie",
+        "Notes": "Il a violé et tué des femmes âgées dans la maison de retraite de Philadelphie où il travaillait"
+    },
+    {
+        "sourceKey": "Robinson, Sarah Jane|United States - Massachusetts",
+        "position": "États-Unis - Massachusetts",
+        "Notes": "Empoisonneur d'origine irlandaise qui a assassiné des membres de sa famille et des associés dans un but lucratif dans le Massachusetts avec l'aide de ses complices Thomas R. Smith et le Dr Charles C. Beers"
+    },
+    {
+        "sourceKey": "I-70 Strangler|United States - I-70",
+        "Notes": "Il a tué des homosexuels et jeté leurs corps près de l'Interstate 70 ; Herb Baumeister est le principal suspect dans cette affaire.",
+        "position": "États-Unis - I-70"
+    },
+    {
+        "sourceKey": "Malvo, Lee Boyd|United States - Virginia",
+        "position": "États-Unis - Virginie",
+        "Notes": "Avec son complice John Allen Muhammad, il a perpétré les attaques de tireurs d'élite de Washington DC."
+    },
+    {
+        "sourceKey": "Gilyard, Lorenzo|United States - Kansas City, Missouri",
+        "position": "États-Unis - Kansas City, Missouri",
+        "Notes": "Ciblé principalement les travailleuses du sexe à Kansas City et dans ses environs, dans le Missouri."
+    },
+    {
+        "sourceKey": "Mosley, Eddie|United States - Fort Lauderdale, Florida",
+        "position": "États-Unis - Fort Lauderdale, Floride",
+        "Notes": "Il a violé et assassiné de nombreuses jeunes filles et femmes à Fort Lauderdale et dans ses environs, en Floride."
+    },
+    {
+        "sourceKey": "Pough, James Edward|United States - Jacksonville, Florida",
+        "position": "États-Unis - Jacksonville, Floride",
+        "Notes": "Il a tué un ami en 1971, puis s'est déchaîné en 1990."
+    },
+    {
+        "sourceKey": "Puente, Dorothea|United States - Sacramento, California",
+        "position": "États-Unis - Sacramento, Californie",
+        "Notes": "Des pensionnaires âgés et handicapés mentaux assassinés à Sacramento, en Californie, avant d'encaisser leurs chèques de sécurité sociale ; reconnu coupable de trois meurtres, soupçonné de six autres"
+    },
+    {
+        "sourceKey": "Bianchi, Kenneth|United States - Los Angeles and Washington",
+        "position": "États-Unis – Los Angeles et Washington",
+        "Notes": "Avec son complice Angelo Buono Jr., connu sous le nom de « The Hillside Stranglers ». jeunes femmes assassinées à Los Angeles et à Washington"
+    },
+    {
+        "sourceKey": "Glaze, Billy|United States - Smyrna",
+        "Notes": "Sa culpabilité a été remise en question après la découverte de preuves ADN excluant Glaze et impliquant un autre homme.",
+        "position": "États-Unis - Smyrne"
+    },
+    {
+        "sourceKey": "Shermantine, Wesley|United States - San Joaquin County, California",
+        "position": "États-Unis - Comté de San Joaquin, Californie",
+        "Notes": "Avec son complice Loren Herzog, connu sous le nom de « The Speed Freak Killers »"
+    },
+    {
+        "sourceKey": "Hill, Ivan|United States - California",
+        "position": "États-Unis - Californie",
+        "Notes": "Responsable d'au moins un des meurtres de Southside Slayer"
+    },
+    {
+        "sourceKey": "Northcott, Gordon Stewart|United States - Wineville, California",
+        "Notes": "Un immigrant canadien reconnu coupable d'avoir abusé sexuellement et du meurtre de trois enfants à Wineville, en Californie, dans l'affaire qui allait devenir connue sous le nom de meurtres dans le poulailler de Wineville. Sa mère, Sarah Louise Northcott, a été inculpée et reconnue coupable de complicité.",
+        "position": "États-Unis - Wineville, Californie"
+    },
+    {
+        "sourceKey": "Gomez, Lloyd|United States - California",
+        "position": "États-Unis - Californie",
+        "Notes": "Assassiné de neuf hommes sans abri en Californie"
+    },
+    {
+        "sourceKey": "Beck, Martha|United States - Provo",
+        "position": "États-Unis - Provo",
+        "Notes": "Avec son complice Raymond Fernandez, il est devenu connu sous le nom de « The Lonely Hearts Killers »."
+    },
+    {
+        "sourceKey": "Goudeau, Mark|United States - Phoenix metro",
+        "position": "États-Unis - Métro de Phoenix",
+        "Notes": "Un kidnappeur en série, un violeur, un voleur et un tueur en série qui a terrorisé la région métropolitaine de Phoenix."
+    },
+    {
+        "sourceKey": "Siebert, Daniel Lee|United States - America in three months",
+        "position": "Etats-Unis - L'Amérique en trois mois",
+        "Notes": "Tué neuf personnes en Amérique en trois mois ; responsable d'au moins un des meurtres de Southside Slayer"
+    },
+    {
+        "sourceKey": "Armstrong, John Eric|United States - Michigan and Illinois",
+        "Notes": "Un marin de la marine reconnu coupable du meurtre de prostituées dans le Michigan et l'Illinois ; Il a avoué davantage d'homicides dans différentes parties du monde.",
+        "position": "États-Unis - Michigan et Illinois"
+    },
+    {
+        "sourceKey": "Lunz, Christopher|United States - Florida",
+        "position": "États-Unis - Floride",
+        "Notes": "Il a assassiné son père ; Il a tué son compagnon de cellule et a avoué avoir tué un délinquant sexuel en fuite"
+    },
+    {
+        "sourceKey": "Carpenter, David|United States - California",
+        "Notes": "Violeur en série connu pour avoir traqué et assassiné des femmes en randonnée dans les parcs de l'État de Californie.",
+        "position": "États-Unis - Californie"
+    },
+    {
+        "sourceKey": "Francois, Kendall|United States - New York",
+        "position": "États-Unis - New York",
+        "Notes": "Reconnu coupable du meurtre de huit femmes à New York"
+    },
+    {
+        "sourceKey": "Fernandez, Raymond|United States - Bridgeport, Connecticut",
+        "position": "États-Unis - Bridgeport, Connecticut",
+        "Notes": "Avec sa complice Martha Beck, il est devenu connu sous le nom de « The Lonely Hearts Killers »."
+    },
+    {
+        "sourceKey": "Gilgo Beach serial killings|United States - Suffolk and Nassau County, New York",
+        "Notes": "L'auteur est soupçonné d'avoir tué huit femmes, un homme et un enfant depuis 1996 et d'avoir caché les corps sur des plages isolées des comtés de Suffolk et de Nassau, à New York. L'affaire est connue sous le nom de meurtres de Gilgo Beach en raison de l'endroit où les restes ont été découverts pour la première fois. En juillet 2023, Rex Heuerman a été arrêté et inculpé de quatre des meurtres.",
+        "position": "États-Unis - Comtés de Suffolk et Nassau, New York"
+    },
+    {
+        "sourceKey": "Skid Row Stabber|United States - Los Angeles' Skid Row",
+        "position": "États-Unis - Le Skid Row de Los Angeles",
+        "Notes": "Des hommes sans abri assassinés dans le quartier Skid Row de Los Angeles ; Bobby Joe Maxwell a été faussement reconnu coupable de deux des meurtres et accusé des autres, et est décédé dans le coma avant d'être disculpé."
+    },
+    {
+        "sourceKey": "West Mesa murders|United States - New Mexico",
+        "position": "États-Unis - Nouveau-Mexique",
+        "Notes": "Restes de onze femmes disparues entre 2003 et 2005, retrouvées enterrées dans le désert d'Albuquerque, au Nouveau-Mexique, en 2009 et attribuées à un collectionneur d'os"
+    },
+    {
+        "sourceKey": "Herzog, Loren|United States - San Joaquin County, California",
+        "position": "États-Unis - Comté de San Joaquin, Californie",
+        "Notes": "Aux côtés de son complice Wesley Shermantine, connu sous le nom de « The Speed Freak Killers »"
+    },
+    {
+        "sourceKey": "Kelly Family|United States - No Man's Land",
+        "Notes": "Famille de tueurs en série qui ont tué et volé de riches voyageurs dans le No Man's Land.",
+        "position": "États-Unis - No Man's Land"
+    },
+    {
+        "sourceKey": "Bender Family|United States - Labette County, Kansas",
+        "Notes": "Famille de tueurs en série qui vivait et opérait dans le comté de Labette, au Kansas.",
+        "position": "États-Unis – Comté de Labette, Kansas"
+    },
+    {
+        "sourceKey": "Doodler|United States - San Francisco, California",
+        "position": "États-Unis - San Francisco, Californie",
+        "Notes": "A dessiné puis poignardé à mort des hommes homosexuels à San Francisco, en Californie, dans les années 1970"
+    },
+    {
+        "sourceKey": "Sowell, Anthony|United States - Cleveland, Ohio",
+        "position": "États-Unis - Cleveland, Ohio",
+        "Notes": "Connu sous le nom de « l'étrangleur de Cleveland » et « le tueur de l'Imperial Avenue »"
+    },
+    {
+        "sourceKey": "Thomas Jr., John Floyd|United States - Los Angeles",
+        "position": "États-Unis - Los Angeles",
+        "Notes": "Connu sous le nom de « L'étrangleur du Southland » et « Le violeur du Westside »"
+    },
+    {
+        "sourceKey": "Crawford, Andre|United States - Chicago",
+        "position": "États-Unis - Chicago",
+        "Notes": "Transitoire de Chicago qui s'attaquait aux prostituées et aux démunis"
+    },
+    {
+        "sourceKey": "Ross, Michael Bruce|United States - Connecticut and New York",
+        "Notes": "Il a agressé sexuellement et assassiné des femmes et des filles dans le Connecticut et à New York.",
+        "position": "États-Unis – Connecticut et New York"
+    },
+    {
+        "sourceKey": "Lynch, Franklin|United States - East Bay, California",
+        "position": "États-Unis - East Bay, Californie",
+        "Notes": "S'attaque aux femmes âgées d'East Bay, en Californie."
+    },
+    {
+        "sourceKey": "Bright, Larry|United States - Peoria",
+        "position": "États-Unis - Peoria",
+        "Notes": "Il a étranglé des prostituées noires dans sa maison de Peoria, brûlant ensuite certaines d'entre elles."
+    },
+    {
+        "sourceKey": "Brown, Curtis Don|United States - Arlington and Fort Worth, Texas",
+        "Notes": "Il a assassiné trois femmes autour d'Arlington et de Fort Worth, au Texas, entre 1985 et 1986 ; Il était également soupçonné de dix-huit meurtres.",
+        "position": "États-Unis - Arlington et Fort Worth, Texas"
+    },
+    {
+        "sourceKey": "Kibbe, Roger|United States - Sacramento, California",
+        "position": "États-Unis - Sacramento, Californie",
+        "Notes": "Des jeunes femmes assassinées arrêtées sur les autoroutes autour de Sacramento, en Californie"
+    },
+    {
+        "sourceKey": "Hatcher, Charles Ray|United States - Missouri",
+        "Notes": "Reconnu coupable de deux meurtres d'enfants en 1978 et 1982 ; Il a également poignardé à mort un codétenu et un autre homme à vingt ans d’intervalle.",
+        "position": "États-Unis - Missouri"
+    },
+    {
+        "sourceKey": "Edgecombe County serial killer|United States - Rocky Mount, North Carolina",
+        "Notes": "Meurtres de neuf femmes et disparition d'une autre depuis 2005 autour de Rocky Mount, en Caroline du Nord. Antwan Pittman a été reconnu coupable dans l'une de ces affaires.",
+        "position": "États-Unis - Rocky Mount, Caroline du Nord"
+    },
+    {
+        "sourceKey": "Lone Woman Murders|United States - Los Angeles",
+        "position": "États-Unis - Los Angeles",
+        "Notes": "Plus de neuf féminicides non résolus commis à Los Angeles et impliquant des mutilations sexuelles, dont le célèbre meurtre de Black Dahlia"
+    },
+    {
+        "sourceKey": "Lannon, Sean|United States - New Jersey and New Mexico",
+        "position": "États-Unis - New Jersey et Nouveau-Mexique",
+        "Notes": "Il a tué au moins cinq personnes dans le New Jersey et au Nouveau-Mexique, dont son ex-femme."
+    },
+    {
+        "sourceKey": "Wilder, Christopher|United States - US",
+        "position": "États-Unis - États-Unis",
+        "Notes": "Un Australien qui a enlevé et assassiné des femmes aux États-Unis"
+    },
+    {
+        "sourceKey": "Brashers, Robert Eugene|United States - Kentucky, Missouri",
+        "Notes": "Violeur en série qui a assassiné au moins huit femmes et filles dans le Kentucky, le Missouri, la Caroline du Sud et le Texas, dont quatre cas liés aux meurtres d'un magasin de yaourts à Austin en 1991.",
+        "position": "États-Unis - Kentucky et Missouri"
+    },
+    {
+        "sourceKey": "Wood, David Leonard|United States - El Paso, Texas",
+        "position": "États-Unis - El Paso, Texas",
+        "Notes": "Il a violé et assassiné des jeunes filles et des femmes à El Paso, au Texas, enterrant ensuite leurs corps dans le désert."
+    },
+    {
+        "sourceKey": "Gallego, Charlene|United States - Sacramento, California",
+        "Notes": "Avec son mari et complice Gerald Gallego, elle était connue comme l'un des « tueurs d'esclaves sexuels » ; kidnappé, agressé sexuellement et assassiné dix personnes dans trois États.",
+        "position": "États-Unis - Sacramento, Californie"
+    },
+    {
+        "sourceKey": "Ferguson, John Errol|United States - Miami-Dade County, Florida",
+        "position": "États-Unis - Comté de Miami-Dade, Floride",
+        "Notes": "Assassiné de plusieurs personnes dans le comté de Miami-Dade, en Floride"
+    },
+    {
+        "sourceKey": "Gifford, Bertha|United States - Missouri",
+        "Notes": "Empoisonneur en série du Missouri ; Elle a été déclarée non coupable pour cause d'aliénation mentale.",
+        "position": "États-Unis - Missouri"
+    },
+    {
+        "sourceKey": "Ann Arbor Hospital murders|United States - Michigan",
+        "Notes": "Empoisonnements de dix patients à l'hôpital de l'administration des anciens combattants en 1975. Deux infirmières, Filipina Narciso et Leonora Perez, ont été reconnues coupables, mais un nouveau procès a été ordonné en raison d'une mauvaise conduite du procureur. L'accusation a décidé d'abandonner les charges retenues plutôt que de répéter le processus.",
+        "position": "États-Unis - Michigan"
+    },
+    {
+        "sourceKey": "Gallego, Gerald|United States - Sacramento, California",
+        "Notes": "Avec son épouse et complice Charlene Gallego, il était connu comme l'un des « tueurs d'esclaves sexuels » ; kidnappé, agressé sexuellement et assassiné dix personnes dans trois États.",
+        "position": "États-Unis - Sacramento, Californie"
+    },
+    {
+        "sourceKey": "Rogers, Dayton Leroy|United States - Oregon",
+        "position": "États-Unis - Orégon",
+        "Notes": "Il a violé et assassiné des travailleuses du sexe dans l'Oregon"
+    },
+    {
+        "sourceKey": "Edwards, Edward|United States - Ohio",
+        "position": "États-Unis - Ohio",
+        "Notes": "Condamné à mort pour avoir tiré sur son fils adoptif lors d'un meurtre commis lors d'une assurance en 1996"
+    },
+    {
+        "sourceKey": "Code, Nathaniel|United States - Shreveport, Louisiana",
+        "Notes": "Il a commis au moins huit meurtres à Shreveport, en Louisiane.",
+        "position": "États-Unis - Shreveport, Louisiane"
+    },
+    {
+        "sourceKey": "Housel, Tracy|United States - Georgia",
+        "position": "États-Unis - Géorgie",
+        "Notes": "Tué au moins trois personnes au cours d'une vague de crimes de six semaines dans quatre États"
+    },
+    {
+        "sourceKey": "Lewingdon, Gary|United States - Ohio",
+        "position": "États-Unis - Ohio",
+        "Notes": "Avec son frère Thaddeus Lewingdon, connu sous le nom de « les tueurs de calibre .22 »"
+    },
+    {
+        "sourceKey": "Buono, Angelo Jr.|United States - Los Angeles",
+        "position": "États-Unis - Los Angeles",
+        "Notes": "Avec son complice Kenneth Bianchi, connu sous le nom de « The Hillside Stranglers ». jeunes femmes assassinées à Los Angeles"
+    },
+    {
+        "sourceKey": "Miami Strangler|United States - Miami, Florida",
+        "position": "États-Unis - Miami, Floride",
+        "Notes": "Il a assassiné au moins neuf femmes à Miami, en Floride, entre 1964 et 1970."
+    },
+    {
+        "sourceKey": "Pressdee, Heather|United States - Pennsylvania",
+        "Notes": "Infirmière reconnue coupable du meurtre de trois patients dont elle avait la garde et soupçonnée d'en avoir tué quatorze autres.",
+        "position": "États-Unis - Pennsylvanie"
+    },
+    {
+        "sourceKey": "Johnson, Milton|United States - Will County, Illinois",
+        "position": "États-Unis - Comté de Will, Illinois",
+        "Notes": "Il a commis ce qu'on appelle les meurtres du week-end dans le comté de Will, dans l'Illinois. les victimes comprenaient deux shérifs adjoints"
+    },
+    {
+        "sourceKey": "New Bedford Highway Killer|United States - Massachusetts",
+        "Notes": "Meurtres de neuf femmes et disparition de deux autres entre 1988 et 1989.",
+        "position": "États-Unis - Massachusetts"
+    },
+    {
+        "sourceKey": "Jackson, Vickie Dawn|United States - Nocona, Texas",
+        "position": "États-Unis - Nocona, Texas",
+        "Notes": "Il a empoisonné des patients à Nocona, au Texas, avec du Mivacron"
+    },
+    {
+        "sourceKey": "Wuornos, Aileen|United States - Florida",
+        "position": "États-Unis - Floride",
+        "Notes": "Abattu par balle sur sept hommes en Floride entre 1989 et 1990"
+    },
+    {
+        "sourceKey": "Catoe, Jarvis|United States - Washington, D.C",
+        "position": "États-Unis - Washington, D.C.",
+        "Notes": "Parfois appelé « DC Strangler » ; actif à Washington, DC"
+    },
+    {
+        "sourceKey": "Trawick, Jack|United States - Alabama",
+        "position": "États-Unis - Alabama",
+        "Notes": "Exécuté pour le meurtre d'un étudiant en 1992. Il a avoué avoir tué cinq à 14 femmes en Alabama et dans d'autres États, mais seules trois victimes ont été confirmées."
+    },
+    {
+        "sourceKey": "Bladel, Rudy|United States - Michigan",
+        "position": "États-Unis - Michigan",
+        "Notes": "Leur affaire faisait partie de l'affaire Michigan c. Jackson, qui a ensuite été annulée par la Cour suprême."
+    },
+    {
+        "sourceKey": "Levins, Benjamin|United States - Tampa, Florida",
+        "position": "États-Unis - Tampa, Floride",
+        "Notes": "Tué au moins neuf personnes, dont deux familles, à Tampa, en Floride"
+    },
+    {
+        "sourceKey": "Reid, Paul Dennis|United States - Metropolitan Nashville and Clarksville, Tennessee",
+        "Notes": "Il a commis sept meurtres lors de trois vols dans des restaurants fast-food de la région métropolitaine de Nashville et de Clarksville, Tennessee.",
+        "position": "États-Unis – Métropole de Nashville et Clarksville, Tennessee"
+    },
+    {
+        "sourceKey": "Redhead murders|United States - Tennessee, Arkansas",
+        "Notes": "Série d'homicides non résolus attribués à un auteur non identifié dans le Tennessee, l'Arkansas, le Kentucky, le Mississippi, la Pennsylvanie et la Virginie occidentale ; également connu sous le nom de « l'étrangleur de la ceinture biblique ».",
+        "position": "États-Unis - Tennessee et Arkansas"
+    },
+    {
+        "sourceKey": "Lee, Derrick Todd|United States - Baton Rouge, Louisiana",
+        "Notes": "Reconnu coupable de deux meurtres ; Des tests ADN l'ont lié à cinq autres personnes.",
+        "position": "États-Unis - Baton Rouge, Louisiane"
+    },
+    {
+        "sourceKey": "Turner, Douglas|United States - Montana State Prison",
+        "Notes": "Reconnu coupable du meurtre d'une famille de trois personnes ; Il a ensuite tué six détenus en prison.",
+        "position": "États-Unis - Prison d'État du Montana"
+    },
+    {
+        "sourceKey": "Anderson, Stephen Wayne|United States - Utah, Nevada",
+        "position": "États-Unis - Utah, Nevada",
+        "Notes": "Personnes assassinées dans l’Utah, le Nevada et la Californie"
+    },
+    {
+        "sourceKey": "Ellis, Walter E.|United States - Milwaukee, Wisconsin",
+        "position": "États-Unis - Milwaukee, Wisconsin",
+        "Notes": "Connu sous le nom de « l'étrangleur du côté nord de Milwaukee »"
+    },
+    {
+        "sourceKey": "Krajcir, Timothy|United States - Missouri",
+        "position": "États-Unis - Missouri",
+        "Notes": "Il a avoué avoir tué cinq femmes dans le Missouri et quatre autres dans l'Illinois et en Pennsylvanie."
+    },
+    {
+        "sourceKey": "Lewingdon, Thaddeus|United States - Ohio",
+        "position": "États-Unis - Ohio",
+        "Notes": "Avec son frère Gary Lewingdon, connu sous le nom de « The.22 Caliber Killers »"
+    },
+    {
+        "sourceKey": "Dr. No|United States - New York",
+        "Notes": "Soupçonné d'avoir violé et étranglé des prostituées autour de l'Interstate 71 ; Sa première victime présumée identifiée était Marcia King, reconnue en 2018. Samuel Legg III, chauffeur de camion, a été arrêté et inculpé, mais en 2020, il était toujours considéré comme incapable de subir son procès. Il a reçu un traitement psychiatrique tandis que des tentatives étaient faites pour rétablir sa compétence procédurale.",
+        "position": "États-Unis - New York"
+    },
+    {
+        "sourceKey": "Vermilya, Louise|United States - Cook County",
+        "position": "États-Unis - Comté de Cook",
+        "Notes": "Accusations rejetées"
+    },
+    {
+        "sourceKey": "Cook, Anthony|United States - Ohio",
+        "position": "États-Unis - Ohio",
+        "Notes": "Il a commis des crimes avec ses frères Nathaniel Cook"
+    },
+    {
+        "sourceKey": "Richards, Stephen D.|United States - Nebraska",
+        "position": "États-Unis - Nebraska",
+        "Notes": "Connu sous le nom de « The Nebraska Fiend », Richards a assassiné neuf personnes, dont une mère et ses enfants. soupçonné de meurtres supplémentaires."
+    },
+    {
+        "sourceKey": "Pardo, Manuel|United States - Florida",
+        "position": "États-Unis - Floride",
+        "Notes": "Sud de la FlorideUn ancien policier qui a agi en partenariat avec Rolando Garcia ; les deux prétendaient débarrasser le monde des trafiquants de drogue"
+    },
+    {
+        "sourceKey": "Gargiulo, Michael|United States - Cook County, Illinois",
+        "position": "États-Unis - Comté de Cook, Illinois",
+        "Notes": "A poignardé à mort trois femmes"
+    },
+    {
+        "sourceKey": "Jackson, Calvin|United States - Manhattan's East Side",
+        "position": "États-Unis - East Side de Manhattan",
+        "Notes": "Femmes assassinées et volées dans l'East Side de Manhattan, abusant de leurs cadavres post-mortem"
+    },
+    {
+        "sourceKey": "Catherine Monvoisin|France - Paris providing poison",
+        "Nickname": "La Voisine",
+        "Notes": "Dirigeant d'un réseau de cartomancienne parisien qui vendait des poisons et contribua à des milliers de morts.",
+        "position": "France - Paris, réseau de poisons"
+    },
+    {
+        "sourceKey": "Christman Genipperteinga|Germany - Kerpen",
+        "Notes": "Possible bandit légendaire qui tenait un registre de toutes les personnes qu'il prétendait avoir tuées, soit un total de 964.",
+        "position": "Allemagne - Kerpen"
+    },
+    {
+        "sourceKey": "Peter Niers|Germany - Neumarkt in der Oberpfalz",
+        "Notes": "Bandit et chef de gang à la sinistre renommée qui a assassiné de nombreuses personnes avec ses complices.",
+        "position": "Allemagne - Neumarkt in der Oberpfalz"
+    },
+    {
+        "sourceKey": "Gilles de Rais|France - French army during the Hundred Years' War",
+        "Notes": "Compagnon de Jeanne d'Arc qui a avoué avoir assassiné des dizaines d'enfants.",
+        "position": "France - Armée française pendant la guerre de Cent Ans"
+    },
+    {
+        "sourceKey": "Shipman, Harold|United Kingdom - HM Prison Wakefield, West Yorkshire",
+        "Nickname": "Docteur Mort",
+        "Notes": "Médecin généraliste qui a assassiné des patients dont il avait la garde ; Il a été reconnu coupable de 15 meurtres et une enquête lui a attribué 218 morts, même si l'on estime qu'il aurait pu tuer environ 250 personnes.",
+        "position": "Royaume-Uni - Prison HM Wakefield, West Yorkshire"
+    },
+    {
+        "sourceKey": "Pedro López|Colombia - Colombia, Ecuador and Peru",
+        "Nickname": "Le monstre des Andes",
+        "Notes": "Il a violé et assassiné des filles en Colombie, en Équateur et au Pérou.",
+        "position": "Colombie - Colombie, Équateur et Pérou"
+    },
+    {
+        "sourceKey": "Dyer, Amelia|United Kingdom - Reading",
+        "Nickname": "L'Ogresse de la lecture",
+        "Notes": "Éleveuse d'enfants qui a assassiné des bébés dont elle avait la garde.",
+        "position": "Royaume-Uni - Lecture"
+    },
+    {
+        "sourceKey": "Abul Djabar|Afghanistan - Kabul",
+        "Notes": "Il a tué 65 hommes et garçons en les étranglant avec des turbans tout en les agressant sexuellement ; Plus de 300 meurtres lui sont attribués ; Il fut condamné à mort et pendu en 1970.",
+        "position": "Afghanistan - Kaboul"
+    },
+    {
+        "sourceKey": "Luis Garavito|Colombia - Colombia, Ecuador and Venezuela",
+        "Nickname": "La Bête",
+        "Notes": "Il a torturé, violé, mutilé et assassiné des enfants en Colombie, en Équateur et au Venezuela.",
+        "position": "Colombie - Colombie, Équateur et Venezuela"
+    },
+    {
+        "sourceKey": "Briscorn, Olga|Russia - Kursk",
+        "Nickname": "La Saltychikha de Koursk",
+        "Notes": "Dame de la haute société qui a torturé et assassiné des serfs sur ses propriétés.",
+        "position": "Russie - Koursk"
+    },
+    {
+        "sourceKey": "Daniel Camargo Barbosa|Colombia - Colombia and Ecuador",
+        "Nickname": "Le sadique d'El Charquito",
+        "Notes": "Il a violé et assassiné des filles en Colombie et en Équateur.",
+        "position": "Colombie - Colombie et Équateur"
+    },
+    {
+        "sourceKey": "José William Aranguren|Colombia - La Italia",
+        "Notes": "Bandit qui a assassiné des personnes dans trois municipalités avec trois complices.",
+        "position": "Colombie - Italie"
+    },
+    {
+        "sourceKey": "Saltykova, Darya Nikolayevna|Russia - Saltykov family",
+        "Notes": "Il a torturé et assassiné des serfs dans le domaine familial Saltykov, dans la région de Moscou.",
+        "position": "Russie - Famille Saltykov"
+    },
+    {
+        "sourceKey": "Mariam Soulakiotis|Greece - Keratea",
+        "Nickname": "Raspoutine",
+        "Notes": "Connue sous le nom de « La Raspoutine » ; abbesse qui a attiré, torturé et assassiné 177 femmes et enfants riches entre 1939 et 1951 ; il est décédé en 1954.",
+        "position": "Grèce - Keratéa"
+    },
+    {
+        "sourceKey": "Popkov, Mikhail|Russia - Angarsk, Irkutsk and Vladivostok",
+        "Nickname": "Le loup-garou",
+        "Notes": "Il a attaqué et assassiné 85 femmes et un de ses compagnons à Angarsk, Irkoutsk et Vladivostok.",
+        "position": "Russie - Angarsk, Irkoutsk et Vladivostok"
+    },
+    {
+        "sourceKey": "Yang Xinhai|China - Cangzhou, Yang",
+        "Nickname": "tueur de monstre",
+        "Notes": "Surnommé « Tueur de monstres », Yang était un travailleur itinérant qui a purgé plusieurs peines entre 1988 et 1999. Après sa dernière libération, il a parcouru le pays et est entré la nuit dans les maisons rurales, assassinant des familles entières. Il a été arrêté lors d'une inspection de police indépendante et a librement avoué les crimes.",
+        "position": "Chine - Cangzhou, Yang"
+    },
+    {
+        "sourceKey": "Carl Großmann|Germany - Friedrichshain, Berlin",
+        "Nickname": "Le boucher de Berlin",
+        "Notes": "Il assassinait des femmes et vendait plus tard leur chair au marché noir.",
+        "position": "Allemagne - Friedrichshain, Berlin"
+    },
+    {
+        "sourceKey": "Sithole, Moses|South Africa - Atteridgeville, Boksburg and Cleveland",
+        "Nickname": "Le tueur ABC",
+        "Notes": "Il a violé et assassiné des femmes autour d'Atteridgeville, de Boksburg et de Cleveland.",
+        "position": "Afrique du Sud – Atteridgeville, Boksburg et Cleveland"
+    },
+    {
+        "sourceKey": "Pichushkin, Alexander|Russia - Moscow's Bitsa Park",
+        "Nickname": "Le tueur à l'échiquier",
+        "Notes": "Il a tué au moins 49 personnes dans le parc Bitsa à Moscou.",
+        "position": "Russie - Parc Bitsa à Moscou"
+    },
+    {
+        "sourceKey": "Fredy Armando Valencia|Colombia - Monserrate",
+        "Nickname": "Le monstre de Monserrate",
+        "Notes": "Il a étranglé des femmes à Monserrate puis violé leurs corps.",
+        "position": "Colombie - Monserrate"
+    },
+    {
+        "sourceKey": "Chikatilo, Andrei|Russia - Soviet Union",
+        "Nickname": "L'éventreur de Rostov",
+        "Notes": "Il a assassiné des femmes et des enfants dans différents endroits de l'Union soviétique.",
+        "position": "Russie - Union Soviétique"
+    },
+    {
+        "sourceKey": "Spesivtsev, Alexander|Russia - Novokuznetsk",
+        "Nickname": "L'éventreur sibérien",
+        "Notes": "Il a torturé et assassiné des enfants des rues et des jeunes femmes avec l'aide de sa mère, Lyudmila ; Il aurait cannibalisé certaines de ses victimes.",
+        "position": "Russie - Novokouznetsk"
+    },
+    {
+        "sourceKey": "Javed Iqbal|Pakistan - Lahore",
+        "Notes": "Il aurait violé et assassiné 100 enfants ; Il s'est suicidé en prison en 2001.",
+        "position": "Pakistan - Lâhore"
+    },
+    {
+        "sourceKey": "Long Zhimin, Yan Shuxia|China - Shaanxi",
+        "Notes": "Long et sa femme, Yan Shuxia, attiraient les gens chez eux sous prétexte de proposer des emplois bien rémunérés ; Ils les ont ensuite tués et enterré leurs restes sur la propriété.",
+        "position": "Chine - Shaanxi"
+    },
+    {
+        "sourceKey": "Wang Qiang|China - Shenyang",
+        "Notes": "En 1990, il a été battu presque à mort par un groupe de mendiants. Après la sortie de prison, une vague criminelle commence avec plusieurs complices ; Il a été reconnu coupable de 45 meurtres, 10 viols et 34 vols, et est soupçonné d'en avoir commis d'autres.",
+        "position": "Chine - Shenyang"
+    },
+    {
+        "sourceKey": "Marcel Petiot|France - Nazis",
+        "Notes": "Médecin qui a assassiné des réfugiés qui tentaient de fuir les nazis.",
+        "position": "France - Nazis"
+    },
+    {
+        "sourceKey": "Manuel Octavio Bermúdez|Colombia - rural Valle del Cauca",
+        "Nickname": "Le monstre de la canne à sucre",
+        "Notes": "Il a violé et assassiné des enfants dans les zones rurales du Valle del Cauca.",
+        "position": "Colombie - Vallée rurale du Cauca"
+    },
+    {
+        "sourceKey": "Skachevsky, Pavel|Russia - Caucasus and Middle Asia",
+        "Notes": "Chef d'un gang de skinheads racistes qui, avec Artur Ryno, a assassiné des immigrants.",
+        "position": "Russie - Caucase et Asie centrale"
+    },
+    {
+        "sourceKey": "Ryno, Artur|Russia - with Pavel Skachevsky",
+        "Notes": "Chef d'un gang de skinheads racistes qui, avec Pavel Skachevsky, a assassiné des immigrants.",
+        "position": "Russie - avec Pavel Skachevsky"
+    },
+    {
+        "sourceKey": "Karl Denke|Germany - Prussia",
+        "Notes": "Cannibale qui a assassiné des vagabonds et des voyageurs sans abri en Prusse ; Il aurait vendu la viande de ses victimes à des clients sans méfiance.",
+        "position": "Allemagne - Prusse"
+    },
+    {
+        "sourceKey": "Komaroff, Vasili|Russia - Moscow",
+        "Nickname": "Le loup de Moscou",
+        "Notes": "Marchand de chevaux qui a assassiné 33 hommes.",
+        "position": "Russie - Moscou"
+    },
+    {
+        "sourceKey": "Kampatimar Shankariya|India - Jaipur",
+        "Notes": "Il a tué au moins 70 personnes à coups de marteau entre 1977 et 1978 ; Il a été exécuté en 1979.",
+        "position": "Inde - Jaipur"
+    },
+    {
+        "sourceKey": "Yvan Keller|France - France, Germany and Switzerland",
+        "Nickname": "Le tueur d'oreillers",
+        "Notes": "Il a étouffé puis volé des femmes âgées en France, en Allemagne et en Suisse.",
+        "position": "France - France, Allemagne et Suisse"
+    },
+    {
+        "sourceKey": "Kashintsev, Sergey|Russia - Kalach-na-Donu",
+        "Notes": "Misogyne qui a assassiné une femme en 1975 ; Après sa libération, il a violé et assassiné des femmes à travers le pays.",
+        "position": "Russie - Kalach-na-Donu"
+    },
+    {
+        "sourceKey": "Tagirov, Radik|Russia - Volga and Ural Federal Districts, Tagirov",
+        "Nickname": "Le maniaque de la Volga",
+        "Notes": "Entre mars 2011 et septembre 2012, il a assassiné 31 personnes dans les khrouchtchyovkas des districts fédéraux de la Volga et de l'Oural ; Il s’agissait toutes de femmes vivant seules et âgées de 75 à 90 ans.",
+        "position": "Russie - Districts fédéraux de la Volga et de l'Oural"
+    },
+    {
+        "sourceKey": "Luis Gregorio Ramírez Maestre|Colombia - various municipalities and cities in Colombia",
+        "Nickname": "Le monstre de Tenerife",
+        "Notes": "Il a torturé et assassiné les conducteurs qu'il trouvait sur les routes.",
+        "position": "Colombie - diverses municipalités et villes en Colombie"
+    },
+    {
+        "sourceKey": "Tarverdiyeva, Inessa|Russia - North Caucasian Federal",
+        "Notes": "Il a rejoint une famille de voleurs, dirigée par Inessa et son mari Roman Podkopaev, qui ont volé et tué des personnes dans le district fédéral du Caucase du Nord.",
+        "position": "Russie - District fédéral du Caucase du Nord"
+    },
+    {
+        "sourceKey": "Christine Malèvre|France - Mantes-la-Jolie",
+        "Notes": "Il a tué des malades en phase terminale à Mantes-la-Jolie.",
+        "position": "France - Mantes la Jolie"
+    },
+    {
+        "sourceKey": "Podkopaev, Roman|Russia - North Caucasian Federal",
+        "Notes": "Il a rejoint une famille de voleurs, dirigée par Roman et son épouse Inessa Tarverdiyeva, qui ont volé et tué des personnes dans le district fédéral du Caucase du Nord.",
+        "position": "Russie - District fédéral du Caucase du Nord"
+    },
+    {
+        "sourceKey": "Mohammed Bijeh|Iran - Tehran",
+        "Nickname": "Le vampire du désert de Téhéran",
+        "Notes": "Connu sous le nom de « Le vampire du désert de Téhéran » ; Il a tué au moins 54 enfants près de Téhéran et a été exécuté en 2005.",
+        "position": "Iran - Téhéran"
+    },
+    {
+        "sourceKey": "Maake, Cedric|South Africa - Wemmer Pan",
+        "Nickname": "Le tueur de casseroles Wemmer",
+        "Notes": "Violeur en série qui a assassiné ses victimes dans le quartier de Wemmer Pan.",
+        "position": "Afrique du Sud - Wemmer Pan"
+    },
+    {
+        "sourceKey": "Martin Roháč|Czech Republic - Czech",
+        "Notes": "Soldat devenu voleur et tueur en série, à qui l'on attribue le plus grand nombre de victimes en République tchèque.",
+        "position": "République tchèque - Terres tchèques"
+    },
+    {
+        "sourceKey": "Juan Severino Mallari|Philippines - Magalang, Pampanga",
+        "Notes": "Prêtre catholique qui a tué au moins 57 paroissiens à Magalang, Pampanga, entre 1816 et 1826, comme remède supposé à la malédiction de sa mère. Il fut emprisonné pendant 14 ans et exécuté en 1840.",
+        "position": "Philippines - Magalang, Pampanga"
+    },
+    {
+        "sourceKey": "Simon Bingelhelm|Germany - present-day area of Saxony-Anhalt",
+        "Nickname": "Les mille diables de Halberstadt",
+        "Notes": "Voleur qui a avoué plusieurs meurtres dans l'actuelle Saxe-Anhalt.",
+        "position": "Allemagne - aujourd'hui Saxe-Anhalt"
+    },
+    {
+        "sourceKey": "Zhang Jun|China - Suzhou",
+        "Notes": "Il a cambriolé 22 magasins, tuant 28 personnes et en blessant 23 autres lors des vols. Dans certains vols, il a agi avec des complices. En avril 2001, il fut condamné à mort et exécuté un mois plus tard.",
+        "position": "Chine - Suzhou"
+    },
+    {
+        "sourceKey": "Fritz Haarmann|Germany - Hanover",
+        "Nickname": "Le boucher de Hanovre",
+        "Notes": "Il a assassiné des jeunes et des enfants avant de démembrer leurs corps ; Il aurait vendu une partie de la viande en contrebande.",
+        "position": "Allemagne - Hanovre"
+    },
+    {
+        "sourceKey": "van Schoor, Louis|South Africa - East London",
+        "Nickname": "Le meurtrier de l'apartheid",
+        "Notes": "Ancien policier et agent de sécurité qui a tué des Sud-Africains noirs lors de crimes présumés.",
+        "position": "Afrique du Sud - Est de Londres"
+    },
+    {
+        "sourceKey": "Andrés Leonardo Achipiz|Colombia - Bogotá",
+        "Nickname": "Le poisson",
+        "Notes": "Tueur à gages psychopathe qui a tué à Bogota et a été impliqué dans un trafic de drogue.",
+        "position": "Colombie - Bogotá"
+    },
+    {
+        "sourceKey": "Michel Fourniret|France - France and Belgium",
+        "Nickname": "L'Ogre des Ardennes",
+        "Notes": "Avec l'aide de son épouse Monique Olivier, il kidnappe, viole et assassine principalement des filles en France et en Belgique.",
+        "position": "France - France et Belgique"
+    },
+    {
+        "sourceKey": "Thierry Paulin|France - Paris",
+        "Nickname": "La bête de Montmartre",
+        "Notes": "Il a assassiné des femmes âgées à Paris entre 1984 et 1987 ; Il est mort en prison en 1989.",
+        "position": "France - Paris"
+    },
+    {
+        "sourceKey": "Novosyolov, Mikhail|Russia - Tajikistan",
+        "Nickname": "Le rebelle nécrophile",
+        "Notes": "Nécrophile tadjik qui a tué des personnes en Russie et dans son pays d'origine.",
+        "position": "Russie - Tadjikistan"
+    },
+    {
+        "sourceKey": "Tyurin, Philipp|Russia - Leningrad",
+        "Nickname": "Le maniaque de Leningrad / Le semeur de l'enfer",
+        "Notes": "Il a assassiné entre 14 et 29 personnes pour des raisons économiques dans sa cabane de Léningrad.",
+        "position": "Russie - Léningrad"
+    },
+    {
+        "sourceKey": "Shankill Butchers|United Kingdom - Shankill",
+        "Notes": "Gang loyaliste d'Ulster qui a assassiné des personnes lors d'attaques sectaires.",
+        "position": "Royaume-Uni - Shankill"
+    },
+    {
+        "sourceKey": "Liu Mingwu|China - various cities in China",
+        "Notes": "Mendiant vagabond qui tuait d'autres mendiants à cause de sa haine des sans-abri, qu'il qualifiait de « sales et malodorants ». Après avoir été vu avec un couteau taché de sang, il a librement avoué les meurtres, même s'il a déclaré avoir perdu le compte. Les enquêteurs ont réussi à le relier à au moins 23 personnes.",
+        "position": "Chine - différentes villes en Chine"
+    },
+    {
+        "sourceKey": "Sach, Amelia|United Kingdom - Finchley, London",
+        "Nickname": "Les éleveurs de bébés Finchley",
+        "Notes": "Avec sa complice Annie Walters, il a assassiné des bébés placés sous sa garde.",
+        "position": "Royaume-Uni - Finchley, Londres"
+    },
+    {
+        "sourceKey": "Mabhayi, Bulelani|South Africa - village of Tholeni",
+        "Nickname": "Le monstre de Tholeni",
+        "Notes": "Intrus domestique qui a assassiné des femmes et des enfants dans le village de Tholeni.",
+        "position": "Afrique du Sud - Village de Tholeni"
+    },
+    {
+        "sourceKey": "Walters, Annie|United Kingdom - Finchley, London",
+        "Nickname": "Les éleveurs de bébés Finchley",
+        "Notes": "Avec sa complice Amelia Sach, il a assassiné des bébés placés sous sa garde.",
+        "position": "Royaume-Uni - Finchley, Londres"
+    },
+    {
+        "sourceKey": "Murphy, Lenny|United Kingdom - Belfast",
+        "Notes": "Chef de l'escadron de la mort loyaliste Shankill Butchers. Il a tué en tant que membre du groupe, mais aussi seul avant sa création.",
+        "position": "Royaume-Uni - Belfast"
+    },
+    {
+        "sourceKey": "Catalina de los Ríos y Lisperguer|Chile - Santiago",
+        "Nickname": "Quintralá",
+        "Notes": "Membre de la haute société espagnole; Son grand-père maternel était García Hurtado de Mendoza, cinquième marquis de Cañete. Il a tué un nombre indéterminé de serviteurs, recourant fréquemment à la torture comme méthode d'exécution, et est décédé alors que son procès était encore ouvert. Sa silhouette a été utilisée à la fois comme icône féministe et comme symbole de la brutalité espagnole.",
+        "position": "Chili - Santiago"
+    },
+    {
+        "sourceKey": "Balls, Jonathan|United Kingdom - Happisburgh",
+        "Notes": "Il a empoisonné des membres de sa famille et des connaissances à Happisburgh avec de l'arsenic.",
+        "position": "Royaume-Uni - Happisburgh"
+    },
+    {
+        "sourceKey": "Ershov, Vadim|Russia - Krasnoyarsk",
+        "Nickname": "La bête de Krasnoïarsk",
+        "Notes": "Il a commis 70 crimes au total autour de Krasnoïarsk, dont le meurtre de 19 personnes et la tentative de meurtre de 8 autres.",
+        "position": "Russie - Krasnoïarsk"
+    },
+    {
+        "sourceKey": "Luo Shubiao|China - Tianhe, Guangzhou",
+        "Nickname": "Le boucher des nuits pluvieuses",
+        "Notes": "Connu sous le nom de « Boucher des nuits pluvieuses » ; Il a assassiné et mutilé des travailleuses du sexe qu'il avait récupérées à Tianhe, Guangzhou, puis a abandonné les corps dans des endroits éloignés. Il était également lié à un précédent meurtre survenu en 1977.",
+        "position": "Chine - Tianhe, Canton"
+    },
+    {
+        "sourceKey": "Ryakhovsky, Sergei|Russia - Moscow",
+        "Nickname": "l'hippopotame",
+        "Notes": "Il a tué des prostituées et des homosexuels dans le but de « nettoyer » la société.",
+        "position": "Russie - Moscou"
+    },
+    {
+        "sourceKey": "Louay Omar Mohammed al-Taei|Iraq - Kirkuk",
+        "Notes": "Un médecin reconnu coupable du meurtre de 43 policiers, soldats et fonctionnaires blessés à Kirkouk ; Il appartenait à une cellule insurgée.",
+        "position": "Irak - Kirkouk"
+    },
+    {
+        "sourceKey": "Chuplinsky, Yevgeny|Russia - Novosibirsk",
+        "Nickname": "Le maniaque de Novossibirsk",
+        "Notes": "Il a tué des prostituées autour de Novossibirsk.",
+        "position": "Russie - Novossibirsk"
+    },
+    {
+        "sourceKey": "Joseph Vacher|France - southeastern France",
+        "Nickname": "L'éventreur français",
+        "Notes": "Clochard qui a violé, assassiné, démembré et éventré ses victimes dans le sud-est de la France.",
+        "position": "France - sud-est de la France"
+    },
+    {
+        "sourceKey": "Ndlangamandla, Velaphi|South Africa - Mpumalanga",
+        "Nickname": "Le tueur de salon",
+        "Notes": "Il a volé et assassiné des personnes lors de violations de domicile à Mpumalanga.",
+        "position": "Afrique du Sud - Mpumalanga"
+    },
+    {
+        "sourceKey": "Kopytov, Valery|Russia - Altai Krai",
+        "Nickname": "Le Chikatilo de Barnaoul",
+        "Notes": "Un sans-abri qui a tué d'autres sans-abri dans le kraï de l'Altaï.",
+        "position": "Russie - Kraï de l'Altaï"
+    },
+    {
+        "sourceKey": "Nyauza, Richard|South Africa - Rossway Quarry",
+        "Nickname": "Le tueur de carrière",
+        "Notes": "Il a violé et assassiné des femmes après avoir été infectées par le VIH, jetant leurs corps dans une carrière.",
+        "position": "Afrique du Sud - Carrière de Rossway"
+    },
+    {
+        "sourceKey": "Huang Yong|China - Henan",
+        "Notes": "Reconnu coupable du meurtre de 17 adolescents dans le Henan, bien qu'il ait avoué à sa dernière victime potentielle qu'il en avait tué \"au moins 25\". Il a attiré chez lui des garçons des cybercafés et des salles de jeux sous prétexte de leur proposer du travail.",
+        "position": "Chine - Henan"
+    },
+    {
+        "sourceKey": "Cotton, Mary Ann|United Kingdom - Durham",
+        "Notes": "Il a empoisonné des membres de sa famille et des connaissances pour récupérer ses polices d'assurance.",
+        "position": "Royaume-Uni - Durham"
+    },
+    {
+        "sourceKey": "Zikode, Christopher Mhlengwa|South Africa - Donnybrook",
+        "Nickname": "Le tueur en série de Donnybrook",
+        "Notes": "Intrus nécrophile qui a assassiné des gens autour de Donnybrook et a ensuite eu des relations sexuelles avec les cadavres des victimes féminines.",
+        "position": "Afrique du Sud - Donnybrook"
+    },
+    {
+        "sourceKey": "Peter Stumpp|Germany - Bedburg",
+        "Nickname": "Le loup-garou de Bedburg",
+        "Notes": "Fermier et cannibale présumé qui a tué des gens au XVIe siècle.",
+        "position": "Allemagne - Bedbourg"
+    },
+    {
+        "sourceKey": "Hadj Mohammed Mesfewi|Morocco - Marrakesh",
+        "Nickname": "L'archi-meurtrier de Marrakech",
+        "Notes": "Connu sous le nom de « l'archiassassin de Marrakech » ; Il a drogué et tué 36 femmes et a été exécuté en 1906.",
+        "position": "Maroc - Marrakech"
+    },
+    {
+        "sourceKey": "Mirgorod, Vladimir|Russia - Moscow",
+        "Nickname": "L'étrangleur",
+        "Notes": "Il a violé et étranglé 17 femmes à Moscou ; Il a également tué le fils de l'un d'eux.",
+        "position": "Russie - Moscou"
+    },
+    {
+        "sourceKey": "Wang Wanming|China - Shaanxi",
+        "Notes": "Il a commis 52 viols et 20 meurtres dans le Shaanxi dans les années 1990.",
+        "position": "Chine - Shaanxi"
+    },
+    {
+        "sourceKey": "Rudolf Pleil|Germany - Harz",
+        "Nickname": "Le faiseur de cadavres",
+        "Notes": "Il a tué un vendeur et neuf femmes dans les montagnes du Harz ; Il a avoué d'autres meurtres.",
+        "position": "Allemagne - Harz"
+    },
+    {
+        "sourceKey": "Hélène Jégado|France - Rennes",
+        "Notes": "Femme de ménage qui a empoisonné plusieurs personnes avec de l'arsenic.",
+        "position": "France - Rennes"
+    },
+    {
+        "sourceKey": "Diego Alexánder Ruiz Restrepo|Chile - Meiggs neighborhood of Estación Central",
+        "Nickname": "Le psychopathe de Meiggs",
+        "Notes": "Immigré colombien en situation irrégulière qui a tué un certain nombre de sans-abri tout au long de l'année 2020.",
+        "position": "Chili - Quartier Meiggs de la gare centrale"
+    },
+    {
+        "sourceKey": "Tiago Henrique Gomes da Rocha|Brazil - Goiás",
+        "Notes": "Agent de sécurité qui a affirmé avoir tué 39 personnes dans l'État de Goiás.",
+        "position": "Brésil - Goias"
+    },
+    {
+        "sourceKey": "Vygovsky, Alexey|Russia - Moscow railway stations",
+        "Nickname": "L'empoisonneur des saisons",
+        "Notes": "Avec deux complices, il a drogué et volé des voyageurs dans les trains et les gares de Moscou ; certaines victimes sont mortes des suites des attaques.",
+        "position": "Russie - Gares de Moscou"
+    },
+    {
+        "sourceKey": "Astashev, Alexander|Russia - Cheremkhovo",
+        "Nickname": "L'empoisonneur de Cheremkhovo",
+        "Notes": "Avec sa femme et son amant, il a parcouru la Russie pour empoisonner des retraités afin de voler leurs biens.",
+        "position": "Russie - Tcheremkhovo"
+    },
+    {
+        "sourceKey": "Friedrich Schumann|Germany - Berlin",
+        "Nickname": "La terreur du lac Falkenhagen",
+        "Notes": "Criminel qui a tué des gens dans la région de Berlin.",
+        "position": "Allemagne - Berlin"
+    },
+    {
+        "sourceKey": "Vasilyev, Alexander|Russia - Krasnoyarsk",
+        "Nickname": "L'ange noir",
+        "Notes": "Il a torturé, tué et volé des retraités et des chauffeurs de taxi autour de Krasnoïarsk, animé par une obsession meurtrière.",
+        "position": "Russie - Krasnoïarsk"
+    },
+    {
+        "sourceKey": "Gaidamachuk, Irina|Russia - Sverdlovsk Oblast",
+        "Nickname": "Satan en jupe",
+        "Notes": "Il a tué des femmes âgées dans l'oblast de Sverdlovsk pour obtenir de l'argent pour acheter de la vodka et soutenir sa dépendance à l'alcool.",
+        "position": "Russie - Oblast de Sverdlovsk"
+    },
+    {
+        "sourceKey": "Cape Town Prostitute Killer|South Africa - Cape Town",
+        "Notes": "Cap-Occidental : Il a étranglé des prostituées et des servantes autour du Cap.",
+        "position": "Afrique du Sud - Le Cap"
+    },
+    {
+        "sourceKey": "Simeon Fleischer|Germany - Fulda",
+        "Notes": "Tisserand de laine qui aurait assassiné 19 femmes pour de l'argent ; son existence est contestée.",
+        "position": "Allemagne - Fulda"
+    },
+    {
+        "sourceKey": "Jasper Hanebuth|Germany - Eilenriede",
+        "Notes": "Ancien mercenaire et voleur de grands chemins qui a tué des personnes dans la zone forestière d'Eilenriede.",
+        "position": "Allemagne - Eilenriede"
+    },
+    {
+        "sourceKey": "Lee, Bruce George Peter|United Kingdom - Kingston",
+        "Notes": "Incendie responsable de plusieurs décès dans un incendie criminel à Kingston upon Hull ; certaines de leurs condamnations ont été annulées.",
+        "position": "Royaume-Uni - Kingston"
+    },
+    {
+        "sourceKey": "Julio Segundo Pérez Silva|Chile - northern Tarapacá",
+        "Nickname": "Le psychopathe d'Alto Hospicio",
+        "Notes": "Chauffeur de taxi qui a violé et tué au moins 14 femmes et filles dans le nord de la région de Tarapacá. Il était également considéré comme suspect dans cinq autres disparitions.",
+        "position": "Chili - nord de Tarapacá"
+    },
+    {
+        "sourceKey": "Ali Asghar Borujerdi|Iraq - Iraq and Iran",
+        "Nickname": "Asghar l'assassin",
+        "Notes": "Connu sous le nom de « Asghar l'Assassin » ; Il tua 33 jeunes hommes en Irak et en Iran et fut exécuté en juin 1934.",
+        "position": "Irak - Irak et Iran"
+    },
+    {
+        "sourceKey": "Xitavhudzi, Elias|South Africa - Atteridgeville",
+        "Nickname": "L'homme panga",
+        "Notes": "Il a assassiné et mutilé des femmes blanches autour d'Atteridgeville.",
+        "position": "Afrique du Sud - Atteridgeville"
+    },
+    {
+        "sourceKey": "Mogale, Jack|South Africa - southern Johannesburg",
+        "Nickname": "Le tueur du West End",
+        "Notes": "Il a kidnappé, violé et assassiné des femmes dans le sud de Johannesburg.",
+        "position": "Afrique du Sud - au sud de Johannesburg"
+    },
+    {
+        "sourceKey": "Thwala, Sipho|South Africa - sugarcane fields near Phoenix",
+        "Nickname": "L'étrangleur du Phénix",
+        "Notes": "Il a violé et assassiné des femmes dans des champs de canne à sucre près de Phoenix, à Durban.",
+        "position": "Afrique du Sud - champs de canne à sucre près de Phoenix"
+    },
+    {
+        "sourceKey": "Romanov, Vladimir|Russia - Kaliningrad Oblast",
+        "Nickname": "Le maniaque de Kaliningrad",
+        "Notes": "Pédophile qui a violé et assassiné 12 filles et jeunes femmes dans l'oblast de Kaliningrad ; il est soupçonné d'avoir commis d'autres meurtres.",
+        "position": "Russie - Oblast de Kaliningrad"
+    },
+    {
+        "sourceKey": "Maketta, Jimmy|South Africa - Philippi",
+        "Nickname": "Le meurtrier de Jésus",
+        "Notes": "Il a assassiné des ouvriers agricoles à Philippes.",
+        "position": "Afrique du Sud - Philippes"
+    },
+    {
+        "sourceKey": "Pischikov, Denis|Russia - Moscow and Vladimir Oblast",
+        "position": "Russie - Moscou et Oblast de Vladimir",
+        "Notes": "Des personnes âgées volées et tuées à Moscou et dans la région de Vladimir"
+    },
+    {
+        "sourceKey": "Du Runqiong, Tang Youhua|China - Sanyao",
+        "Notes": "Mère et fils superstitieux qui ont procédé à des empoisonnements massifs entre juin et décembre 1995, causant la mort de 18 personnes et de milliers d'animaux.",
+        "position": "Chine - Sanyao"
+    },
+    {
+        "sourceKey": "Petrov, Maxim|Russia - St Petersburg",
+        "Nickname": "Docteur Mort",
+        "Notes": "Médecin en exercice qui a tué ses patients pour vol.",
+        "position": "Russie - Saint-Pétersbourg"
+    },
+    {
+        "sourceKey": "Maistruk, Anatoly|Russia - Irkutsk and Voronezh",
+        "position": "Russie - Irkoutsk et Voronej",
+        "Notes": "Des Centrasiatiques assassinés et décapités à Irkoutsk et à Voronej par haine apparente"
+    },
+    {
+        "sourceKey": "Msomi, Elifasi|South Africa - Umkomaas and Umzimkulu valleys of Natal",
+        "position": "Afrique du Sud - Vallées d'Umkomaas et d'Umzimkulu du Natal",
+        "Notes": "Il a assassiné des gens alors qu'il était soi-disant sous l'influence d'un Tokoloshe."
+    },
+    {
+        "sourceKey": "Labutkin, Alexander|Russia - forest of Prigorodny settlement in Leningrad Oblast with a revolver",
+        "position": "Russie - forêt de la colonie de Prigorodny dans l'oblast de Léningrad avec un revolver",
+        "Notes": "Des personnes ont été tuées avec un revolver dans la forêt de la colonie de Prigorodny, dans l'oblast de Léningrad."
+    },
+    {
+        "sourceKey": "Jaime Iván Martínez|Colombia - Guarne",
+        "Notes": "Il a étranglé de jeunes enfants et sa femme à Guarne ; Il était également soupçonné d'autres meurtres.",
+        "position": "Colombie - Guarne"
+    },
+    {
+        "sourceKey": "Milton Sipalo|Zambia - Lusaka",
+        "position": "Zambie - Lusaka",
+        "Notes": "Connu sous le nom de « l'étrangleur de Lusaka » ; tué 29 femmes et filles à Lusaka entre janvier et septembre 1980 ; il s'est suicidé avant son procès en 1980."
+    },
+    {
+        "sourceKey": "Gong Runbo|China - Jiamusi",
+        "Notes": "Entre 1996 et 2004, Gong a purgé une peine pour avoir violé une jeune fille de 15 ans. Après sa libération, il a assassiné six enfants à Jiamusi pendant onze mois et a abusé sexuellement d'au moins cinq autres. Le 28 février 2006, alors qu'il se trouvait dans un cybercafé où il avait rencontré plusieurs de ses victimes, un garçon s'est échappé de son appartement et a prévenu la police. Dans sa maison, ils ont trouvé les restes décomposés de quatre enfants. Il a été arrêté et exécuté le 31 décembre.",
+        "position": "Chine - Jiamusi"
+    },
+    {
+        "sourceKey": "Chen Fuzhao|China - drinks and gave them to beggars in Longgang",
+        "position": "Chine - boit et les donne aux mendiants à Longgang",
+        "Notes": "Dermatologue qui a mélangé de la mort-aux-rats dans des boissons et les a données à des mendiants à Longgang, Zhejiang."
+    },
+    {
+        "sourceKey": "Kalinin, Denis|Russia - Pskov, Chuvashia and Rostov Oblast",
+        "position": "Russie - Pskov, Tchouvachie et oblast de Rostov",
+        "Notes": "Des retraités volés et tués dans les environs de Pskov, de Tchouvachie et de l'oblast de Rostov"
+    },
+    {
+        "sourceKey": "Golovachyov, Andrei|Russia - Ukhta",
+        "position": "Russie - Oukhta",
+        "Notes": "Fugitif qui a tué plusieurs personnes, principalement des locataires et des propriétaires, dans six régions"
+    },
+    {
+        "sourceKey": "Zamanov, Abdufatto|Russia - Krasnoyarsk",
+        "Notes": "Il a tué 14 personnes à Krasnoïarsk pour son plaisir personnel et a également violé deux adolescentes.",
+        "position": "Russie - Krasnoïarsk"
+    },
+    {
+        "sourceKey": "Shipilov, Sergey|Russia - Velsk, Arkhangelsk Oblast",
+        "position": "Russie - Velsk, oblast d'Arkhangelsk",
+        "Notes": "Tué 14 auto-stoppeuses à Velsk, dans la région d'Arkhangelsk, la plupart alors qu'elles étaient en congé de prison"
+    },
+    {
+        "sourceKey": "Joachim Kroll|Germany - Ruhr",
+        "position": "Allemagne - Ruhr",
+        "Notes": "Il a violé et tué principalement des femmes dans et autour de la région de la Ruhr, mangeant ensuite des parties de leur chair."
+    },
+    {
+        "sourceKey": "Hare, William|United Kingdom - with accomplice William Burke",
+        "Notes": "Immigrant irlandais qui, avec son complice William Burke, a tué des gens et vendu leurs corps contre de l'argent.",
+        "position": "Royaume-Uni - avec son complice William Burke"
+    },
+    {
+        "sourceKey": "Burke, William|United Kingdom - with accomplice William Hare",
+        "Notes": "Immigrant irlandais qui, avec son complice William Hare, a tué des gens et vendu leurs corps contre de l'argent.",
+        "position": "Royaume-Uni - avec son complice William Hare"
+    },
+    {
+        "sourceKey": "Nilsen, Dennis|United Kingdom - London",
+        "position": "Royaume-Uni - Londres",
+        "Notes": "Des jeunes hommes attirés et assassinés dans leur appartement à Londres, disséquant rituellement leurs corps post-mortem"
+    },
+    {
+        "sourceKey": "Baninzi, Asande|South Africa - Cape Flats",
+        "position": "Afrique du Sud - Cape Flats",
+        "Notes": "Avec son complice Mthutuzeli Nombewu, il a volé et assassiné des personnes dans la région de Cape Flats."
+    },
+    {
+        "sourceKey": "Sutcliffe, Peter|United Kingdom - West Yorkshire and Manchester",
+        "Notes": "Il a tué des femmes dans le West Yorkshire et à Manchester ; La perquisition policière visant à le capturer a été l'une des plus vastes et des plus coûteuses de l'histoire britannique.",
+        "position": "Royaume-Uni - West Yorkshire et Manchester"
+    },
+    {
+        "sourceKey": "Bai Baoshan|China - Beijing",
+        "Notes": "En mars 1996, Bai a été libéré de prison après avoir purgé 13 ans de prison pour un vol avec agression commis en 1983. Irrité par son emprisonnement, il s'est lancé dans une série de crimes au cours desquels il a assassiné des policiers, des soldats et des civils tout en commettant des vols. Dans certains de ces crimes, il a bénéficié de l'aide de son complice Wu Ziming, qu'il a ensuite tué lors d'une dispute pour de l'argent. En septembre 1997, il fut arrêté à son domicile de Pékin. Selon ses propres aveux, lors de son premier emprisonnement, il a battu à mort deux détenus avec un marteau.",
+        "position": "Chine - Pékin"
+    },
+    {
+        "sourceKey": "Shubin, Nikolay|Russia - Lipetsk",
+        "Notes": "Tueur en série russe d'origine géorgienne, schizophrène paranoïaque, qui a tué 13 personnes à Lipetsk après avoir perdu contre elles aux échecs.",
+        "position": "Russie - Lipetsk"
+    },
+    {
+        "sourceKey": "Taki, Thozamile|South Africa - KwaZulu-Natal and Eastern Cape",
+        "Notes": "Il a volé et assassiné des femmes autour du KwaZulu-Natal et du Cap oriental, abandonnant leurs corps dans les plantations de canne à sucre et de thé.",
+        "position": "Afrique du Sud - KwaZulu-Natal et Cap oriental"
+    },
+    {
+        "sourceKey": "Michaela Röder|Germany - Wuppertal",
+        "position": "Allemagne - Wuppertal",
+        "Notes": "Tué 9 à 17 patients en injectant de fortes doses de catapresan"
+    },
+    {
+        "sourceKey": "Werner Pinzner|Germany - Hamburg",
+        "position": "Allemagne - Hambourg",
+        "Notes": "Tueur à gages qui a assassiné plusieurs personnes autour de Hambourg"
+    },
+    {
+        "sourceKey": "Guryanov, Vladimir|Russia - religiously motivated attacks in Nizhny Novgorod",
+        "Notes": "Avec sa complice Elvira Egorycheva, il a tué des voyants de bonne aventure et des étrangers lors d'attaques à caractère religieux à Nijni Novgorod.",
+        "position": "Russie – attaques à caractère religieux à Nijni Novgorod"
+    },
+    {
+        "sourceKey": "Mashiane, Johannes|South Africa - Atteridgeville",
+        "Notes": "Il a assassiné sa petite amie ; Après sa libération, il a violé et étranglé 12 enfants autour d'Atteridgeville.",
+        "position": "Afrique du Sud - Atteridgeville"
+    },
+    {
+        "sourceKey": "Samsonova, Tamara|Russia - Uzhur",
+        "position": "Russie - Oujour",
+        "Notes": "Une Saint-Pétersbourg qui a tué et cannibalisé 13 personnes"
+    },
+    {
+        "sourceKey": "Dudin, Nikolai|Russia - an intoxicated state in Furmanov",
+        "position": "Russie - un état d'ébriété à Furmanov",
+        "Notes": "Il a tué son père en 1987 et, après sa libération, il a tué 12 autres personnes alors qu'il était en état d'ébriété à Furmanov, dans la région d'Ivanovo."
+    },
+    {
+        "sourceKey": "Duan Guocheng|China - Wuhan",
+        "Nickname": "Le tueur à la robe rouge",
+        "Notes": "Surnommé « le tueur à la robe rouge » ; commis des dizaines de vols et assassiné des jeunes femmes qui marchaient seules la nuit dans les rues mal éclairées de Wuhan.",
+        "position": "Chine - Wuhan"
+    },
+    {
+        "sourceKey": "Haroyan, Levan|Russia - Krasnodar",
+        "position": "Russie - Krasnodar",
+        "Notes": "Homme schizophrène qui a violé, volé et assassiné des auto-stoppeuses"
+    },
+    {
+        "sourceKey": "Li Wenxiang|China - Guangzhou",
+        "Notes": "Surnommé « l'Éventreur de Guangzhou » ; des travailleuses du sexe pauvres assassinées et mutilées. Il a été capturé après qu'une de ses victimes prévues ait survécu et l'ait identifié à la police.",
+        "position": "Chine - Canton"
+    },
+    {
+        "sourceKey": "Manishin, Vitaly|Russia - Barnaul and Buranovo",
+        "position": "Russie - Barnaoul et Buranovo",
+        "Notes": "Jeunes filles femmes violées et assassinées à Barnaoul et Bouranovo"
+    },
+    {
+        "sourceKey": "Mulaudzi, Mukosi Freddy|South Africa - Siloam and Levubu",
+        "position": "Afrique du Sud - Siloam et Levubu",
+        "Notes": "Il a assassiné deux personnes en 1990, puis s'est évadé de prison et a recommencé à tuer."
+    },
+    {
+        "sourceKey": "Storozhenko, Vladimir|Russia - Smolensk Oblast",
+        "position": "Russie - Oblast de Smolensk",
+        "Notes": "Il a torturé et assassiné des femmes pour le plaisir sexuel dans l'oblast de Smolensk ; Quatre autres hommes innocents ont été arrêtés avant leur capture"
+    },
+    {
+        "sourceKey": "Voitov, Pavel|Russia - Moscow and Yaroslavl Oblasts",
+        "position": "Russie - Oblasts de Moscou et de Iaroslavl",
+        "Notes": "Chef d'un gang néo-nazi qui tuait les pièges alcooliques et les mendiants dans les oblasts de Moscou et de Iaroslavl"
+    },
+    {
+        "sourceKey": "Qian Yongchang|China - Yunnan and Guangxi",
+        "Notes": "En 1959, il a poussé un collègue du haut d'une falaise pour cacher une liaison. En 1974, après avoir été libéré de prison pour de nombreux vols, il commet deux vols avec meurtre. Il s'est ensuite lancé dans une vaste série de crimes au cours desquels il a tué 12 personnes.",
+        "position": "Chine - Yunnan et Guangxi"
+    },
+    {
+        "sourceKey": "West, Fred|United Kingdom - Gloucestershire",
+        "position": "Royaume-Uni - Gloucestershire",
+        "Notes": "Avec sa femme Rose, il a torturé et assassiné des adolescentes et des jeunes femmes du Gloucestershire ; Fred a commis lui-même quelques meurtres distincts"
+    },
+    {
+        "sourceKey": "Lobacheva, Elena|Russia - Moscow Oblast and Yaroslavl Oblast",
+        "position": "Russie - Oblast de Moscou et Oblast de Iaroslavl",
+        "Notes": "Membre principal d'un gang néo-nazi qui a tué des pièges alcooliques et des mendiants dans les oblasts de Moscou et de Iaroslavl"
+    },
+    {
+        "sourceKey": "Kateřina of Komárov|Czech Republic - Prague Castle",
+        "position": "République tchèque - Château de Prague",
+        "Notes": "Noble célèbre pour les rumeurs de mauvais traitements infligés aux serfs des domaines de son époux, dont elle s'occupait pendant ses absences. Jugé en 1533 et reconnu coupable du meurtre de 14 personnes ; aurait assassiné 30 personnes. Condamné à l'emprisonnement dans une tour du château de Prague."
+    },
+    {
+        "sourceKey": "Gesche Gottfried|Germany - Bremen and Hanover",
+        "position": "Allemagne - Brême et Hanovre",
+        "Notes": "Il a empoisonné des gens avec de l'arsenic à Brême et à Hanovre ; dernière personne décapitée publiquement à Brême"
+    },
+    {
+        "sourceKey": "Sedykh, Anatoly|Russia - Lipetsk",
+        "position": "Russie - Lipetsk",
+        "Notes": "Il a violé et assassiné 12 femmes à Lipetsk, puis a volé les cadavres."
+    },
+    {
+        "sourceKey": "John Jairo Moreno Torres|Colombia - Bogotá",
+        "position": "Colombie - Bogotá",
+        "Notes": "Chef de gang de mineurs qui a assassiné des personnes qui interféraient avec ses activités criminelles"
+    },
+    {
+        "sourceKey": "Golovkin, Sergey|Russia - his garage basement or forests around Moscow",
+        "position": "Russie - son sous-sol de garage ou ses forêts autour de Moscou",
+        "Notes": "Il a torturé, violé et tué de jeunes enfants dans le sous-sol de son garage ou dans les forêts autour de Moscou."
+    },
+    {
+        "sourceKey": "Shestakov, Nikolai|Russia - Lyuberetsky District and the Balashikhinsky District, Moscow Oblast",
+        "position": "Russie - District de Lyuberetsky et district de Balashikhinsky, oblast de Moscou",
+        "Notes": "Chauffeur de camion qui a violé et tué des filles et des jeunes femmes dans les districts de Lyuberetsky et Balashikhinsky, oblast de Moscou"
+    },
+    {
+        "sourceKey": "Markov, Anatoly|Russia - American serial drama television series 24",
+        "position": "Russie - Série télévisée dramatique américaine 24",
+        "Notes": "Il a assassiné des connaissances lors de querelles ivres, la plupart avec l'aide de son complice ukrainien Alexandre Lesnoy."
+    },
+    {
+        "sourceKey": "Sleepy Hollow Killer|South Africa - Pietermaritzburg and the Midlands of KwaZulu-Natal",
+        "position": "Afrique du Sud - Pietermaritzburg et les Midlands du KwaZulu-Natal",
+        "Notes": "Kwa-Zulu Natal (confirmé); État libre, Cap-Oriental (suspect) – femmes violées et étranglées, principalement des travailleuses du sexe et des prostituées, en utilisant leur propre culotte"
+    },
+    {
+        "sourceKey": "Francis Heaulme|France - Metz",
+        "position": "France - Metz",
+        "Notes": "Il a assassiné une grande variété de victimes à travers le pays, parfois avec un complice encore non identifié."
+    },
+    {
+        "sourceKey": "Adolf Seefeldt|Germany - Lübeck",
+        "Nickname": "Le marchand de sable",
+        "Notes": "Horloger ambulant qui a empoisonné puis agressé sexuellement des enfants pendant leur sommeil.",
+        "position": "Allemagne - Lübeck"
+    },
+    {
+        "sourceKey": "Gabidullin, Farit|Russia - Chelyabinsk",
+        "Notes": "Avec son frère Timur, il a agressé sexuellement et assassiné des enfants et des sans-abri autour de Tcheliabinsk.",
+        "position": "Russie - Tcheliabinsk"
+    },
+    {
+        "sourceKey": "Hua Ruizhuo|China - Beijing",
+        "Notes": "Il a assassiné quatorze travailleuses du sexe à Pékin après avoir découvert que sa petite amie se prostituait secrètement.",
+        "position": "Chine - Pékin"
+    },
+    {
+        "sourceKey": "David Thabo Simelane|Eswatini - Malkerns",
+        "position": "Eswatini - Malkerns",
+        "Notes": "Il a violé et tué 28 femmes entre 2000 et 2001, dont 45 soupçonnés ; condamné à mort."
+    },
+    {
+        "sourceKey": "Guo Longhai|China - Guizhou and Guangxi as revenge for being imprisoned for rape",
+        "Notes": "Il a purgé une peine de prison entre 1983 et 1990 pour avoir violé une collègue. À sa libération, il a commencé à assassiner des femmes après avoir gagné leur confiance, puis il a ensuite violé et assassiné des jeunes filles et des travailleuses du sexe.",
+        "position": "Chine - Guizhou et Guangxi"
+    },
+    {
+        "sourceKey": "Henri Désiré Landru|France - Gambais and a prolific marriage fraudster",
+        "position": "France - Gambais et un fraudeur matrimonial prolifique",
+        "Notes": "Il tuait les maîtresses et les amants pendant la guerre ; a inspiré le personnage de Monsieur Verdoux joué par Charlie Chaplin"
+    },
+    {
+        "sourceKey": "Zakharchenko, Andrei|Russia - Kartaly",
+        "position": "Russie - Kartaly",
+        "Notes": "Il a tué dix connaissances à Kartaly lors de petites disputes après avoir été libéré d'une précédente condamnation pour meurtre."
+    },
+    {
+        "sourceKey": "Petrov, Yevgeny|Russia - Novouralsk, Sverdlovsk Oblast",
+        "position": "Russie - Novouralsk, Oblast de Sverdlovsk",
+        "Notes": "Pédophile qui a kidnappé, violé et tué des jeunes filles autour de Novouralsk, dans l'oblast de Sverdlovsk, mutilant et brûlant ensuite leurs cadavres"
+    },
+    {
+        "sourceKey": "Gao Chengyong|China - Chinese media",
+        "Nickname": "Jack l'éventreur chinois",
+        "Notes": "Connu sous le nom de « Jack l'éventreur chinois » ; Il a violé et assassiné 11 femmes en 14 ans. Dans certains cas, il a mutilé les corps après la mort, amputant les mains, les seins et les organes reproducteurs. Il a été arrêté en 2016 après 14 ans d'inactivité grâce à des tests ADN.",
+        "position": "Chine - Médias chinois"
+    },
+    {
+        "sourceKey": "Fosaville serial killer|South Africa - Newlands East",
+        "position": "Afrique du Sud - Newlands Est",
+        "Notes": "KwaZulu-Natal — Des femmes enlevées, liées et étranglées autour de Newlands East"
+    },
+    {
+        "sourceKey": "Cristopher Chávez Cuellar|Colombia - Ibagué",
+        "position": "Colombie - Ibagué",
+        "Notes": "Il a assassiné plusieurs personnes autour de trois communes, dont trois frères mineurs"
+    },
+    {
+        "sourceKey": "Petr Zelenka|Czech Republic - Havlíčkův Brod",
+        "position": "République tchèque - Havlíčkův Brod",
+        "Notes": "Infirmier à Havlíčkův Brod qui a assassiné sept patients par injection mortelle."
+    },
+    {
+        "sourceKey": "Kulik, Vasiliy|Russia - Irkutsk",
+        "position": "Russie - Irkoutsk",
+        "Notes": "Il a violé plus de 30 jeunes enfants et femmes âgées à Irkoutsk, tuant 13 d'entre eux."
+    },
+    {
+        "sourceKey": "Chyorny, Sergey|Russia - Smolensk",
+        "position": "Russie - Smolensk",
+        "Notes": "Il a étranglé 10 femmes à Smolensk et est soupçonné d'en avoir noyé une autre.",
+        "Nickname": "La Bête"
+    },
+    {
+        "sourceKey": "Mursalimov, Yakhiya|Russia - Orenburg Oblast",
+        "position": "Russie - Oblast d'Orenbourg",
+        "Notes": "Treize personnes ont été assassinées lors de vols dans l'oblast d'Orenbourg"
+    },
+    {
+        "sourceKey": "West, Rose|United Kingdom - Gloucestershire",
+        "position": "Royaume-Uni - Gloucestershire",
+        "Notes": "Avec son mari Fred, elle a torturé et assassiné des adolescentes et des jeunes femmes dans le Gloucestershire."
+    },
+    {
+        "sourceKey": "Matyakubov, Bakhtiyor|Russia - Russia, Uzbekistan and Ukraine",
+        "position": "Russie - Russie, Ouzbékistan et Ukraine",
+        "Notes": "Un migrant ouzbek qui a poignardé à mort des femmes en Russie, en Ouzbékistan et en Ukraine"
+    },
+    {
+        "sourceKey": "Pedro María Ñancúpel Alarcón|Chile - Chiloé of Huilliche origin",
+        "Notes": "Pirate Chilote d'origine Huilliche. Après avoir été arrêté, il a été reconnu coupable de quelque 200 crimes, dont plus de 20 meurtres. Il fut fusillé en 1888.",
+        "position": "Chili - Chiloé, d'origine Huilliche"
+    },
+    {
+        "sourceKey": "Litvin, Nikolai|Russia - Prokopyevsk, Kemerovo Oblast",
+        "position": "Russie - Prokopyevsk, Oblast de Kemerovo",
+        "Notes": "Jeunes filles et femmes violées et assassinées autour de Prokopyevsk, oblast de Kemerovo, dont une femme enceinte"
+    },
+    {
+        "sourceKey": "Wilken, Stewart|South Africa - Port Elizabeth",
+        "position": "Afrique du Sud - Port Elizabeth",
+        "Notes": "Il a violé et assassiné des prostituées, de jeunes enfants et sa propre fille autour de Port Elizabeth."
+    },
+    {
+        "sourceKey": "Kgabi, John Phuko|South Africa - Atteridgeville and Limpopo",
+        "position": "Afrique du Sud - Atteridgeville et Limpopo",
+        "Notes": "Ancien policier qui a garrotté et mutilé des jeunes filles à Atteridgeville et Limpopo"
+    },
+    {
+        "sourceKey": "Bychkov, Alexander|Russia - Belinsky, Penza Oblast",
+        "Notes": "Cannibale présumé qui a tué 9 personnes à Belinsky, oblast de Penza ; Il était également soupçonné de 11 autres décès sur la base de preuves trouvées à son domicile.",
+        "position": "Russie - Belinsky, Oblast de Penza"
+    },
+    {
+        "sourceKey": "Retunsky, Vladimir|Russia - Povorino",
+        "position": "Russie - Povorino",
+        "Notes": "Des auto-stoppeurs kidnappés, violés et tués dans leur ville natale de Povorino, oblast de Voronej ; également soupçonné d'avoir abusé des cadavres ; initialement condamné à mort, mais commué en 15 ans d'emprisonnement puis libéré en 2015"
+    },
+    {
+        "sourceKey": "Shemyakov, Eduard|Russia - St. Petersburg",
+        "position": "Russie - Saint-Pétersbourg",
+        "Notes": "Il a violé, tué et démembré 10 femmes à Saint-Pétersbourg, prétendument cannibalisant l'une des victimes."
+    },
+    {
+        "sourceKey": "Hernando Arturo Prada|Colombia - Bucaramanga",
+        "position": "Colombie - Bucaramanga",
+        "Notes": "Chef de gang qui a tué des gens à Bucaramanga",
+        "Nickname": "L'ange de la mort"
+    },
+    {
+        "sourceKey": "Kurt-Werner Wichmann|Germany - Justizvollzugsanstalt Heimsheim",
+        "Notes": "Jardinier du cimetière tenu pour responsable des meurtres de Göhrde et d'autres crimes.",
+        "position": "Allemagne - Justizvollzugsanstalt Heimsheim"
+    },
+    {
+        "sourceKey": "Pierre Chanal|France - Marne",
+        "position": "France - Marne",
+        "Notes": "Un militaire soupçonné de viols et de meurtres sur des jeunes hommes dans la Marne"
+    },
+    {
+        "sourceKey": "Ludivine Chambet|France - Chambéry",
+        "position": "France - Chambéry",
+        "Notes": "Aide-infirmière qui a empoisonné des personnes âgées avec des antidépresseurs"
+    },
+    {
+        "sourceKey": "Randitsheni, David|South Africa - Modimolle",
+        "position": "Afrique du Sud - Modimolle",
+        "Notes": "Enfants enlevés, violés et assassinés à Modimolle"
+    },
+    {
+        "sourceKey": "Melyukh, Andrei|Russia - Chelyabinsk",
+        "position": "Russie - Tcheliabinsk",
+        "Notes": "Des femmes âgées volées et assassinées à Tcheliabinsk en les frappant à la tête avec une brique"
+    },
+    {
+        "sourceKey": "Zhang Yongming|China - what became known as the Jinning serial murder case",
+        "Notes": "Cannibale qui a assassiné onze hommes près de chez lui entre 2008 et 2012, a donné une partie des restes à ses chiens et a vendu de la chair humaine à des acheteurs peu méfiants sur un marché local en la faisant passer pour de la viande d'autruche. Dans sa maison, la police a trouvé de la chair humaine en train de sécher et des globes oculaires conservés dans des bouteilles de vin. Il avait déjà purgé une peine pour homicide volontaire en 1979.",
+        "position": "Chine - Affaire des meurtres en série de Jinning"
+    },
+    {
+        "sourceKey": "Beloruscev, Stanislav|Russia - Krasnokamsk",
+        "Notes": "Il a assassiné des personnes âgées et des connaissances à Krasnokamsk ; Parfois, il a agi avec l'aide de complices.",
+        "position": "Russie - Krasnokamsk"
+    },
+    {
+        "sourceKey": "Antoinette Scieri|France - Italy",
+        "position": "France - Italie",
+        "Notes": "Infirmière d'origine italienne qui a empoisonné des patients âgés avec l'herbicide pyralion"
+    },
+    {
+        "sourceKey": "Fokin, Viktor|Russia - Novosibirsk",
+        "position": "Russie - Novossibirsk",
+        "Notes": "Des prostituées et des alcooliques ont été attirés, tués et démembrés chez eux, puis jetés leurs restes dans des poubelles."
+    },
+    {
+        "sourceKey": "Jia Jianhu|China - China as revenge for perceived wrongs society had done to him",
+        "position": "Chine - La Chine comme vengeance pour les torts perçus par la société contre lui",
+        "Notes": "Il a assassiné douze travailleuses du sexe en Chine pour se venger des torts perçus par la société."
+    },
+    {
+        "sourceKey": "Bernhard Prigan|Germany - a village near Mannheim",
+        "position": "Allemagne - un village près de Mannheim",
+        "Notes": "Femmes tuées près des autoroutes à accès contrôlé et des routes principales"
+    },
+    {
+        "sourceKey": "Cheng Ruilong|China - Lianzhou",
+        "position": "Chine - Lianzhou",
+        "Notes": "Il a volé, violé et assassiné des personnes pendant neuf ans en Chine, parfois avec des complices, tout en vivant sous une fausse identité."
+    },
+    {
+        "sourceKey": "Yang Shuming|China - Kuangqu, Yangquan",
+        "Notes": "Surnommé « le tueur habillé en rouge » parce que beaucoup de ses victimes portaient des vêtements rouges lorsqu'elles sont mortes. Il a assassiné neuf femmes à Kuangqu, Yangquan, a pris une pause de quatre ans et demi après la naissance de sa fille et a pris pour cible les femmes qui marchaient seules la nuit, qu'il a poignardées dans le dos. Sa dernière victime prévue a survécu et il a été arrêté après s'être comporté de manière suspecte lors de son interrogatoire.",
+        "position": "Chine - Kuangqu, Yangquan"
+    },
+    {
+        "sourceKey": "Mukhankin, Vladimir|Russia - Rostov Oblast",
+        "position": "Russie - Oblast de Rostov",
+        "Notes": "Femmes tuées dans l'oblast de Rostov"
+    },
+    {
+        "sourceKey": "Basson, Pierre|South Africa - Claremont, Cape Town",
+        "Notes": "Il a tué des gens à Claremont, au Cap, pour récupérer leur assurance-vie ; Il est considéré comme le premier tueur en série documenté d'Afrique du Sud.",
+        "position": "Afrique du Sud - Claremont, Le Cap"
+    },
+    {
+        "sourceKey": "Serebryakov, Boris|Russia - present-day Samara",
+        "position": "Russie - Samara actuelle",
+        "Notes": "Il a assassiné et mutilé 9 personnes dans l'actuelle Samara, dont une famille de quatre personnes ; Il a également violé les cadavres des victimes féminines."
+    },
+    {
+        "sourceKey": "Afzal Simons, Norman|South Africa - Station",
+        "Notes": "Le Cap : De jeunes enfants violés et étranglés avec des morceaux de leurs propres vêtements, les mains liées derrière le dos, leurs chaussures enlevées et leur visage enfoui dans le sable.",
+        "position": "Afrique du Sud - Gare"
+    },
+    {
+        "sourceKey": "Belov, Vladimir|Russia - Moscow",
+        "Notes": "Bandit qui a volé et tué huit personnes à Moscou avec son complice Sergueï Shabanov ; il est soupçonné d'avoir commis d'autres meurtres.",
+        "position": "Russie - Moscou"
+    },
+    {
+        "sourceKey": "Zaikin, Oleg|Russia - several regions across Russia",
+        "position": "Russie - plusieurs régions de Russie",
+        "Notes": "Il a commis de nombreux viols et au moins 9 meurtres dans plusieurs régions de Russie"
+    },
+    {
+        "sourceKey": "Shayakhmetov, Artur|Russia - Astrakhan",
+        "position": "Russie - Astrakhan",
+        "Notes": "Il assassinait des gens lors de disputes et de braquages, parfois avec deux complices"
+    },
+    {
+        "sourceKey": "Utkin, Anatoly|Russia - Ulyanovsk Oblast",
+        "position": "Russie - Oblast d'Oulianovsk",
+        "Notes": "Tué 8 filles et 1 homme dans la région d'Oulianovsk"
+    },
+    {
+        "sourceKey": "Rubén Villalobos Herrera|Colombia - Villavicencio",
+        "position": "Colombie - Villavicencio",
+        "Notes": "Il a violé et assassiné des femmes à Villavicencio, puis a eu des relations sexuelles avec leurs corps post-mortem."
+    },
+    {
+        "sourceKey": "Martynov, Sergei|Russia - western and central Russia",
+        "position": "Russie - Russie occidentale et centrale",
+        "Notes": "Femmes tuées en Russie occidentale et centrale"
+    },
+    {
+        "sourceKey": "Erskine, Kenneth|United Kingdom - London",
+        "position": "Royaume-Uni - Londres",
+        "Notes": "Gérontophile qui a assassiné des personnes âgées à Londres"
+    },
+    {
+        "sourceKey": "Skoptsov, Valery|Russia - Oryol and Bryansk Oblasts",
+        "position": "Russie - Oblasts d'Orel et de Briansk",
+        "Notes": "Carrière criminelle prolifique connue pour sa grande variété de crimes, notamment des meurtres dans les oblasts d'Orel et de Briansk"
+    },
+    {
+        "sourceKey": "Peter Kürten|Germany - Düsseldorf",
+        "position": "Allemagne - Düsseldorf",
+        "Notes": "Responsable de nombreuses agressions sexuelles, meurtres et tentatives de meurtre à Düsseldorf"
+    },
+    {
+        "sourceKey": "Evseev, Andrei|Russia - Moscow Oblast",
+        "position": "Russie - Oblast de Moscou",
+        "Notes": "Personnes tuées dans l'oblast de Moscou, principalement des femmes vêtues de vêtements rouges"
+    }
+]

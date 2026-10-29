@@ -1,0 +1,101 @@
+/*
+  Shared Theme Tokens (SK multi apps)
+  - Keep this file loaded BEFORE app CSS.
+  - Contains canonical tokens (--sk-*) + legacy mappings (--color-*, --font-*, --kiosk-*).
+*/
+
+@font-face {
+  font-family: "Copycat";
+  src: url("../ressource/theme/Copycat%20759.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Typewriter";
+  src: url("../ressource/theme/rough_typewriter.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  /* Typography */
+  --sk-font-title: "Copycat", serif;
+  --sk-font-text: "Typewriter", Arial, Helvetica, sans-serif;
+
+  /* Core palette (dark + deep red) */
+  --sk-color-black: #000000;
+  --sk-color-white: #ffffff;
+
+  --sk-color-gray-900: #0b0b0b;
+  --sk-color-gray-800: #111111;
+  --sk-color-gray-700: #1a1a1a;
+  --sk-color-gray-600: #333333;
+
+  --sk-color-red-900: #8b0000;
+  --sk-color-red-700: #b22222;
+
+  /* Status colors (kept muted for theme consistency) */
+  --sk-color-success-700: #2e7d32;
+  --sk-color-success-200: #a5d6a7;
+  --sk-color-success-bg: #102015;
+
+  /* App accent (slightly more modern/red for gradients) */
+  --sk-accent: rgba(204, 24, 44, 0.92);
+  --sk-accent-2: rgba(240, 60, 72, 0.92);
+  --sk-accent-border: rgba(204, 24, 44, 0.44);
+
+  /* Surfaces */
+  --sk-panel-bg-1: rgba(22, 8, 10, 0.95);
+  --sk-panel-bg-2: rgba(10, 4, 6, 0.95);
+
+  /* Text */
+  --sk-text-on-dark: #f6e9eb;
+  --sk-text-on-accent: #1a070a;
+
+  /* Misc UI */
+  --sk-border-subtle: rgba(255, 255, 255, 0.18);
+  --sk-focus-ring: rgba(240, 60, 72, 0.55);
+
+  /* Background helper */
+  --sk-bg-radial: radial-gradient(
+    900px 500px at 50% 20%,
+    rgba(139, 0, 0, 0.18),
+    transparent 62%
+  );
+
+  /* ===== Legacy mappings (keep existing apps working) ===== */
+
+  /* Menu + Quiz legacy */
+  --color-black: var(--sk-color-black);
+  --color-white: var(--sk-color-white);
+  --color-red: var(--sk-color-red-900);
+  --color-red-light: var(--sk-color-red-700);
+  --color-green: var(--sk-color-success-700);
+  --color-green-soft: var(--sk-color-success-200);
+  --color-green-bg: var(--sk-color-success-bg);
+  --color-gray-dark: var(--sk-color-gray-700);
+  --color-gray-medium: var(--sk-color-gray-600);
+
+  --font-title: var(--sk-font-title);
+  --font-text: var(--sk-font-text);
+
+  /* Kiosk legacy */
+  --kiosk-font-text: var(--sk-font-text);
+  --kiosk-black: var(--sk-color-black);
+  --kiosk-white: var(--sk-color-white);
+  --kiosk-red: var(--sk-color-red-900);
+  --kiosk-red-light: var(--sk-color-red-700);
+  --kiosk-border: var(--sk-border-subtle);
+
+  /* Map legacy */
+  --accent: var(--sk-accent);
+  --accent-2: var(--sk-accent-2);
+  --accent-border: var(--sk-accent-border);
+  --panel-bg-1: var(--sk-panel-bg-1);
+  --panel-bg-2: var(--sk-panel-bg-2);
+  --text-on-dark: var(--sk-text-on-dark);
+  --text-on-accent: var(--sk-text-on-accent);
+}

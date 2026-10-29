@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Bauchgefühl"
+  },
+  "branding": {
+    "eyebrow": "Interaktive Reise",
+    "title": "Bauchgefühl"
+  },
+  "intro": {
+    "heroTitle": "Dein Bauchgefühl im Umgang mit Fremden.",
+    "heroCopy": "Jede Beschreibung entspricht einer Zusammenfassung der frühen Jahre und Warnzeichen einer realen Person ohne Angabe des Namens. Deine Entscheidung: Wird das Ganze bis zum Mord eskalieren?",
+    "howTitle": "So funktioniert es.",
+    "howSteps": [
+      "Überprüfe die wichtigsten Fakten: Familie, Verhalten, erste Straftaten.",
+      "Entscheide mit einem Fingertipp, ob diese Person einen Mord begehen wird.",
+      "Lass dir die Identität anzeigen und vergleiche dein Bauchgefühl mit dem tatsächlichen Ausgang."
+    ],
+    "goalTitle": "Ziel",
+    "goalCopy": "Bewerte deine Vorurteile und Überzeugungen auf der Basis einer Reihe voneinander abweichender Profile. Das Endergebnis fasst deine Vorhersagen zusammen und liefert Anknüpfungspunkte für Diskussionen."
+  },
+  "profile": {
+    "progressLabel": "Profil",
+    "progressConnector": "von",
+    "taglineFallback": "Anonymes Profil",
+    "aliasFallback": "Alias",
+    "decisionTitle": "Deine Einschätzung.",
+    "decisionPrompt": "Wird diese Person unter Berücksichtigung der Hinweise jemanden töten?",
+    "choiceYes": "Ja, sie werden töten.",
+    "choiceNo": "Nein, sie werden innehalten.",
+    "revealPlaceholder": "Wähle „Ja“ oder „Nein“, um die wahre Identität und den Tathergang aufzudecken.",
+    "revealLabel": "Identität offengelegt.",
+    "outcomeYes": "Sie haben getötet.",
+    "outcomeNo": "Kein Mord.",
+    "revealNext": "Nächstes Profil",
+    "revealFinal": "Endergebnis anzeigen.",
+    "verdictTitle": "Was ist passiert?",
+    "detailTitle": "Warum wir es wissen.",
+    "yourCallLabel": "Deine Entscheidung.",
+    "realityLabel": "Realität",
+    "correctLabel": "Richtig",
+    "incorrectLabel": "Falsch",
+    "choiceYesShort": "Ja",
+    "choiceNoShort": "Nein",
+    "fallbackImage": "??",
+    "profileLabelDefault": "Profil",
+    "defaultProfilePrefix": "Profil "
+  },
+  "score": {
+    "eyebrow": "Endergebnis",
+    "title": "Wie du Risikofaktoren einschätzt.",
+    "dialLabel": "Richtige Entscheidungen",
+    "calculating": "Berechnung deiner Punktzahl...",
+    "summaryTemplate": "Du hast {count} anonymisierte Profile geprüft und jedes Mal Stellung bezogen.",
+    "notes": {
+      "perfect": "Fehlerfreie Einschätzung: Du hast jede Entwicklung vorausgesehen. Liste deine Kriterien auf und gib diese an die Gruppe weiter.",
+      "high": "Starke Intuition: Du hast die meisten Risikofaktoren erkannt. Welche Anzeichen haben dich in den übrigen Fällen in die Irre geführt?",
+      "medium": "Ausgewogenes Ergebnis: Dein Bauchgefühl ist schwankend. Sieh dir die Profile noch einmal an, um deine Vorurteile zu überprüfen und fehlende Zusammenhänge zu ergänzen.",
+      "low": "Diese Profile sind auf den ersten Blick nicht einzuschätzen. Analysiere die fehlenden Details und den Kontext, um deine Einschätzung zu verfeinern."
+    },
+    "discussionTitle": "Diskussionsanregungen",
+    "peerYes": "Ja",
+    "peerNo": "Nein",
+    "separator": "·"
+  },
+  "navigation": {
+    "start": "Start",
+    "languageSelector": "Sprachauswahl",
+    "continue": "Weiter",
+    "restart": "Neu starten",
+    "viewFinal": "Endergebnis anzeigen",
+    "nextProfile": "Nächstes Profil"
+  },
+  "errors": {
+    "bootstrap": "Erlebnis konnte nicht initialisiert werden:",
+    "profiles": "Erlebnisdaten konnten nicht geladen werden. Bitte lade die Seite neu.",
+    "fetchFailed": "{path} konnte nicht geladen werden (Status {status})",
+    "storageWarning": "Gespeicherter Wert für {key} konnte nicht verarbeitet werden:"
+  },
+  "experience": {
+    "progressAria": "Erlebnis fortsetzen"
+  },
+  "formatAnswer": {
+    "yes": "Ja – Sie werden töten.",
+    "no": "Nein – Kein Tötungsdelikt.",
+    "none": "Keine Antwort"
+  },
+  "peer": {
+    "ariaLabel": "{name}: {yes}% antworteten {yesLabel}, {no}% antworteten {noLabel}"
+  },
+  "profiles": {
+    "p01": {
+      "label": "Profil 01",
+      "alias": "Profil 01 – Die Interstate-Vagabundin",
+      "tagline": "Verlassensein eskaliert zu Hinterhaltangriffen am Straßenrand",
+      "era": "Florida, Vereinigte Staaten – Ende der 1980er Jahre",
+      "summary": "Als Teenagerin aus ihrem Zuhause verstoßen, schlug sie sich entlang der US 1 mit Trampen und Sexarbeit durch und erhielt dabei zahlreiche Vorstrafen wegen ordnungswidrigen Verhaltens und Diebstahls.",
+      "highlights": [
+        "Nachbarn erinnerten sich an ihre Schießübungen mit einer Pistole des Kalibers .22 im Wald hinter Billigmotels.",
+        "Sie stahl regelmäßig die Autos ihrer Kunden und stellte sie Stunden später ab, wobei sie Brieftaschen und Ausweise in Müllcontainern zurückließ.",
+        "Ihrer Freundin erzählte sie, sie „hasse“ Freier und träume davon, sie alle umzubringen."
+      ],
+      "reveal": {
+        "identity": "Aileen Wuornos",
+        "verdict": "Sie gestand den Mord von sieben Männern, bei denen sie sich als gestrandete Anhalterin ausgab; wurde 2002 hingerichtet.",
+        "detail": "Die Ermittler konnten sie mit abgestellten Fahrzeugen, leeren Patronenhülsen und Pfandscheinen für Wertgegenstände ihrer Opfer in Verbindung bringen."
+      }
+    },
+    "p02": {
+      "label": "Profil 02",
+      "alias": "Profil 02 – Der Schachbrettmörder",
+      "tagline": "Ein rätsel-begeisterter Angestellter führt heimlich Buch.",
+      "era": "Moskau, Russland – 1990er bis 2000er Jahre",
+      "summary": "Als Hilfskraft in einem Supermarkt prahlte er vor seinen Klassenkameraden damit, das Leben sei ein riesiges Schachspiel und er wolle vor seiner Pensionierung „das ganze Brett füllen“.",
+      "highlights": [
+        "Er erzählte Freunden, er wolle ein Opfer für jedes der 64 Felder seines geliebten Schachbretts.",
+        "Er lud Arbeitskollegen zum Wodkatrinken in den Bitza-Park ein, erschlug sie dann mit einem Hammer und warf sie in Brunnen.",
+        "Er filmte sich beim Quälen von streunenden Hunden und bewahrte diese Aufnahmen als Anschauungsmaterial auf."
+      ],
+      "reveal": {
+        "identity": "Alexander Pichushkin",
+        "verdict": "2007 wegen Mordes an 48 Menschen verurteilt, obwohl er behauptete über 60 Opfer getötet zu haben.",
+        "detail": "Anhand des unter den Bodendielen versteckten gekennzeichneten Schachbretts konnte die Polizei seine Opfer zuordnen."
+      }
+    },
+    "p03": {
+      "label": "Profil 03",
+      "alias": "Profil 03 – Der zurückgezogene Pilot",
+      "tagline": "Technische Genialität, die der Angst vor Keimen zum Opfer fiel.",
+      "era": "Vereinigte Staaten – 1930er bis 1970er Jahre",
+      "summary": "Nach dem Aufbau von Filmstudios und Flugzeugfirmen zog sich der Erbe hinter Verdunkelungsvorhängen zurück und verfasste seine Anweisungen mit in Taschentücher gewickelten Stiften. ",
+      "highlights": [
+        "Er schloss sich monatelang in einem Vorführraum ein, ernährte sich von Milch und Schokoriegeln und verfasste stündlich Anweisungen.",
+        "Er befahl seinen Hilfskräften, seiner Meinung nach kontaminierte Kleidung zu verbrennen, und bestand bei Kontakt auf das Tragen von OP-Masken.",
+        "Trotz mehrerer beinahe tödlicher Abstürze investierte er Millionen in Testflugzeuge wie die H-4 Hercules."
+      ],
+      "reveal": {
+        "identity": "Howard Hughes",
+        "verdict": "Ein exzentrischer Milliardär und Pilot, dessen Paranoia nie in Mord eskalierte.",
+        "detail": "Er ist bekannt für seine Luftfahrt-Rekorde, Spenden an Krankenhäuser und die Gründung des Hughes Medical Institute."
+      }
+    },
+    "p04": {
+      "label": "Profil 04",
+      "alias": "Profil 04 – Der engagierte Sunnyboy",
+      "tagline": "Ein Jurastudent, der seine Zwänge mit Charme kaschierte.",
+      "era": "Washington State & Utah, Vereinigte Staaten – Mitte der 1970er Jahre",
+      "summary": "Der Stipendiat engagierte sich ehrenamtlich in Wahlkampagnen und bei einer Selbstmord-Hotline, während er seine immer stärker werdenden Dominanzfantasien verbarg.",
+      "highlights": [
+        "Sammelte Gipsverbände für den Arm und täuschte Verletzungen vor, um Frauen zu seinem VW Käfer zu locken.",
+        "Er suchte Tatorte als vermeintlicher Ermittler auf, um die Beamten auszuspionieren. ",
+        "Floh 1977 zweimal aus der Haft und setzte ohne Information seiner Familie seine ziellosen Roadtrips fort."
+      ],
+      "reveal": {
+        "identity": "Ted Bundy",
+        "verdict": "Bundy wurde wegen mehrfachen Mordes in Florida verurteilt und mit mindestens 30 weiteren Tötungsdelikten in den USA in Verbindung gebracht.",
+        "detail": "Aufgrund von Zeugenaussagen, Bissspurenanalysen und forensischen Faservergleichen wurde er 1989 hingerichtet."
+      }
+    },
+    "p05": {
+      "label": "Profil 05",
+      "alias": "Profil 05 – Die unermüdliche Verfechterin",
+      "tagline": "Politik als Unterricht in Menschenrechten.",
+      "era": "Washington, D.C. und New York, USA – 1930er bis 1950er Jahre",
+      "summary": "Die aus einer Patrizierfamilie stammende Roosevelt wandelte die repräsentative Rolle der First Lady in einen unermüdlichen Kampf für Arbeiter, Frauen und Flüchtlinge um. ",
+      "highlights": [
+        "Sie organisierte ausschließlich für Reporterinnen bestimmte Pressekonferenzen und zwang die Zeitungen so zur Einstellung von Frauen.",
+        "Trotz der Drohungen von Befürwortern der Rassentrennung besuchte sie Kohlebergwerke, Gefängnisse und nach Rassen getrennte Krankenhäuser.",
+        "Sie leitete den UN-Ausschuss, der die \"Allgemeine Erklärung der Menschenrechte“ ausarbeitete."
+      ],
+      "reveal": {
+        "identity": "Eleanor Roosevelt",
+        "verdict": "Sozialreformerin und Diplomatin; keine Beteiligung an Gewaltverbrechen.",
+        "detail": "Sie setzte ihre Bekanntheit dafür ein, während des Zweiten Weltkriegs Bürgerrechte und humanitäre Korridore auszuweiten."
+      }
+    },
+    "p06": {
+      "label": "Profil 06",
+      "alias": "Profil 06 – Der vertrauenswürdige Landarzt",
+      "tagline": "Hausbesuche, gefälschte Unterschriften.",
+      "era": "Hyde, England – 1970er bis 1990er Jahre",
+      "summary": "Ein für seine verlässlichen Hausbesuche geschätzter und angesehener Allgemeinmediziner, der Krankenakten und Unterlagen zur Einäscherung ungewöhnlich akribisch kontrollierte.",
+      "highlights": [
+        "Seine Patienten starben Minuten nach einer ohne dokumentierte Symptome verabreichten routinemäßigen Morphiuminjektion.",
+        "Er fälschte das Testament von Kathleen Grundy, um sich als Alleinerbe einzusetzen.",
+        "Bereits 1975 war er wegen gefälschter Pethidinrezepte zur Finanzierung seiner eigenen Sucht disziplinarisch belangt worden."
+      ],
+      "reveal": {
+        "identity": "Harold Shipman",
+        "verdict": "Shipman wurde wegen Mordes an 15 Patienten verurteilt; spätere Ermittlungen brachten über 200 Todesfälle mit seiner Praxis in Verbindung.",
+        "detail": "Nachdem statistische Überprüfungen der Sterbeurkunden das Muster aufgedeckt hatten, wurde er im Jahr 2000 zu 15 lebenslangen Haftstrafen verurteilt."
+      }
+    },
+    "p07": {
+      "label": "Profil 07",
+      "alias": "Profil 07 – Die Ballerina in Kriegszeiten",
+      "tagline": "Unterernährte Jugendliche und spätere UNICEF-Botschafterin.",
+      "era": "Niederlande & weltweit – 1940er bis 1990er Jahre",
+      "summary": "Die junge Tänzerin verbreitete während der Nazi-Besatzung Widerstandsbotschaften, bevor sie später Filmstar und eine international engagierte humanitäre Aktivistin wurde.",
+      "highlights": [
+        "Überlebte den niederländischen Hungerwinter, indem sie mit Tanzaufführungen in der Dunkelheit heimlich Geld sammelte.",
+        "Aufgrund der durch die Kriegsjahre verursachten gesundheitlichen Beeinträchtigungen gab sie ihre professionelle Ballettkarriere auf und widmete sich der Schauspielerei.",
+        "Hepburn besuchte in ihren letzten Lebensjahrzehnten als UNICEF-Botschafterin Hungergebiete in Afrika und Asien."
+      ],
+      "reveal": {
+        "identity": "Audrey Hepburn",
+        "verdict": "Oscargekrönte Schauspielerin und humanitäre Aktivistin; nie mit Gewaltverbrechen in Verbindung gebracht worden.",
+        "detail": "Unvergessen bleiben ihre Rollen in „Ein Herz und eine Krone“, „Frühstück bei Tiffany“ und ihre tatkräftige Unterstützung von Hilfsaktionen."
+      }
+    },
+    "p08": {
+      "label": "Profil 08",
+      "alias": "Profil 08 – Der Jet-Set-Betrüger",
+      "tagline": "Luxuriöses Frühstück, verschwundene Rucksacktouristen.",
+      "era": "Süd- und Südostasien – Mitte der 1970er Jahre",
+      "summary": "Der polyglotte Pendler zwischen Bangkok, Kathmandu und Mumbai verkaufte gefälschte Edelsteine und scharte einen ständig wechselnden Kreis bewundernder Touristen um sich.",
+      "highlights": [
+        "Sobhraj nutzte gestohlene Pässe und gab sich als wohlhabender Drogenhändler aus, um Opfer in private Villen zu locken.",
+        "Er betäubte Gäste mit angeblichen Medikamenten gegen Ruhr und machte sie so handlungsunfähig, um sie auszurauben oder Schlimmeres anzurichten.",
+        "1986 floh er aus dem Tihar-Gefängnis, indem er die Wärter mit einem Abschiedskuchen betäubte und einfach durch das Tor spazierte."
+      ],
+      "reveal": {
+        "identity": "Charles Sobhraj",
+        "verdict": "Sobhraj wird mit mindestens einem Dutzend Morden an Rucksacktouristen in Thailand, Nepal und Indien in Verbindung gebracht.",
+        "detail": "Sobharj erhielt den Spitznamen „Bikini-Killer“ und verbüßt seit seiner Festnahme im Jahr 2003 eine lebenslange Haftstrafe in Nepal."
+      }
+    },
+    "p09": {
+      "label": "Profil 09",
+      "alias": "Profil 09 – Die unbestechliche Kongressabgeordnete",
+      "tagline": "Die Pädagogin eroberte das Kapitol ausschließlich mit Freiwilligen.",
+      "era": "Brooklyn & Washington, D.C. – 1960er bis 1970er Jahre",
+      "summary": "Die willensstarke Lehrerin eröffnete Kindertagesstätten, bevor sie mit dem Versprechen für den Kongress kandidierte, die Machteliten beider Parteien herauszufordern.",
+      "highlights": [
+        "Chisholm lehnte Firmenspenden ab und verließ sich auf kleine Spenden von Kirchengemeinden und Lehrern.",
+        "Unter rassistischer Bedrohung und Beschimpfung setzte sie sich für Gesetze für hungerleidende Kinder und zur Erhöhung des Mindestlohns ein.",
+        "1972 kündigte sie ihre Präsidentschaftskandidatur an, um Bürgerrechtsthemen in die Fernsehdebatten einzubringen."
+      ],
+      "reveal": {
+        "identity": "Shirley Chisholm",
+        "verdict": "Erste Schwarze Kongressabgeordnete der Vereinigten Staaten; eine Pionierin ohne Vorstrafen wegen Gewalttaten.",
+        "detail": "Mit ihrem Programm „Unbestechlich und unabhängig“ inspirierte sie spätere Generationen von Beamten."
+      }
+    },
+    "p10": {
+      "label": "Profil 10",
+      "alias": "Profil 10 – Der ruhige Mieter",
+      "tagline": "Üble Gerüche aus dem Keller wurden als Folge defekter Sanitäranlagen abgetan.",
+      "era": "Milwaukee, USA – Ende der 1980er Jahre",
+      "summary": "Ein zurückgezogener Schokoladenfabrikarbeiter, der seine Miete pünktlich zahlte und Nachbarn zum Bier einlud, selbst als bei der Polizei wiederholt Anrufe wegen Ruhestörung in seiner Wohnung eingingen. ",
+      "highlights": [
+        "Andere Mieter meldeten der Hausverwaltung üble Gerüche, Sägegeräusche und aus den Lüftungsschächten austretende dunkle Flüssigkeit.",
+        "Obwohl Dahmer bereits wegen sexueller Belästigung eines 13-jährigen Jungen verurteilt worden war, wurde er mit geringen Auflagen vorzeitig entlassen.",
+        "Seinen Freunden aus Kindertagen erzählte er, er sammle gerne überfahrene Tiere und bleiche deren Knochen in Säuregläsern."
+      ],
+      "reveal": {
+        "identity": "Jeffrey Dahmer",
+        "verdict": "Dahmer gestand, zwischen 1978 und 1991 17 Männer und Jungen ermordet und zerstückelt zu haben.",
+        "detail": "In seiner Wohnung fand die Polizei Leichenteile, Fotos und schriftliche Pläne für weitere Morde."
+      }
+    },
+    "p11": {
+      "label": "Profil 11",
+      "alias": "Profil 11 – Der Kandidat in Gefangenschaft",
+      "tagline": "Sabotageausbildung, die auf Versöhnung ausgerichtet wurde.",
+      "era": "Südafrika – 1960er bis 1990er Jahre",
+      "summary": "Als Anwalt war er an der Gründung eines bewaffneten Flügels gegen die Apartheid beteiligt, lernte Afrikaans in der Gefangenschaft und setzte sich später für Wahlen anstelle von Rache ein.",
+      "highlights": [
+        "Mandela unterstützte den Aufbau von Sabotagezellen der Organisation „Umkhonto We Sizwe“, die Infrastruktur und nicht Zivilisten angriffen.",
+        "Er verbrachte 27 Jahre in Haft auf Robben Island, wo er Rechtslehrbücher las und zwischen Häftlingen schlichtete.",
+        "Nach seiner Freilassung setzte er sich für eine „Wahrheits- und Versöhnungskommission“ anstelle von Säuberungsaktionen ein. "
+      ],
+      "reveal": {
+        "identity": "Nelson Mandela",
+        "verdict": "Mandela führte Südafrika in eine multiethnische Demokratie und wurde mit dem Friedensnobelpreis ausgezeichnet.",
+        "detail": "Er befürwortete Versöhnung und wurde trotz seiner militanten Ausbildung nie wegen Mordes angeklagt."
+      }
+    },
+    "p12": {
+      "label": "Profil 12",
+      "alias": "Profil 12 – Die wandlungsfähige Pop-Ikone",
+      "tagline": "Mit jedem Albumzyklus werden es mehr Rollenidentitäten.",
+      "era": "London, Berlin & New York – 1970er bis 2010er Jahre",
+      "summary": "Bowie war ein rastloser Performer, der sich in außerirdischen Alter Egos, esoterischen Lektüreexzessen und akribisch choreografierten Bühneninszenierungen immer wieder neu erfand.",
+      "highlights": [
+        "Er isolierte sich über Wochen, um zu fasten und Rollen wie Ziggy Stardust und den Thin White Duke zu entwickeln.",
+        "Während der Jahre der „Berlin-Trilogie“ vertiefte er sich in Überwachungsbilder und expressionistische Kunst.",
+        "Er kooperierte mit Pantomimen, Modedesignern und Filmregisseuren, um das Publikum nicht zur Ruhe kommen zu lassen."
+      ],
+      "reveal": {
+        "identity": "David Bowie",
+        "verdict": "Genreübergreifender Musiker ohne Vorstrafen für Gewalttaten.",
+        "detail": "Bowie hinterließ ein Vermächtnis an Innovationen und philanthropischem Engagement für HIV/AIDS-Hilfsprojekte."
+      }
+    }
+  }
+}

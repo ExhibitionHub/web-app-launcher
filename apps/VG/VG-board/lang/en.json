@@ -1,0 +1,201 @@
+{
+  "app": {
+    "title": "Van Gogh Board"
+  },
+  "home": {
+    "title": "Van Gogh often painted the same subjects… differently.",
+    "text": "Which version speaks to you?",
+    "button": "Start"
+  },
+  "errors": {
+    "experienceLoad": {
+      "title": "Unable to load experience",
+      "text": "The experience could not be loaded right now. Please try again."
+    }
+  },
+  "final": {
+    "title": "What the world feels.",
+    "text": "Here is how visitors ranked their favorite themes.",
+    "empty": "The ranking appears after the first selections."
+  },
+  "categoryChoice": {
+    "title": "What stays with you most?",
+    "text": "Across all these paintings, which category speaks to you the most?"
+  },
+  "years": {
+    "1888": "1888",
+    "1889": "1889",
+    "1890": "1890"
+  },
+  "steps": {
+    "sunflowers": {
+      "title": "Sunflowers",
+      "text": "Van Gogh painted sunflowers multiple times. Which one speaks to you?",
+      "options": {
+        "sunflowers": "Sunflowers"
+      },
+      "results": {
+        "1888": [
+          "You chose a Sunflowers painting from 1888.",
+          "This version was painted in Arles, during a period of hope and anticipation.",
+          "Van Gogh used bright yellows and fuller flowers to express warmth and friendship."
+        ],
+        "1889": [
+          "You chose a Sunflowers painting from 1889.",
+          "This version was painted in Arles, during a period of hope and anticipation.",
+          "Van Gogh used bright yellows and fuller flowers to express warmth and friendship."
+        ]
+      }
+    },
+    "bedroom": {
+      "title": "Bedroom in Arles",
+      "text": "Van Gogh painted his bedroom three times. Which room feels more peaceful to you?",
+      "options": {
+        "bedroom": "Bedroom"
+      },
+      "results": {
+        "1888": [
+          "You chose the 1888 version.",
+          "This was the original painting of his room in Arles.",
+          "Bold colors and simplified shapes were meant to create a sense of rest and calm."
+        ],
+        "1889": [
+          "You chose the 1889 version.",
+          "This was the original painting of his room in Arles.",
+          "Bold colors and simplified shapes were meant to create a sense of rest and calm."
+        ]
+      }
+    },
+    "night": {
+      "title": "Night",
+      "text": "Van Gogh painted the night in different ways. Which one feels closest to you?",
+      "options": {
+        "theStarryNight": "The Starry Night",
+        "starryNightOverTheRhone": "Starry Night Over the Rhône",
+        "cafeTerraceAtNight": "Café Terrace at Night",
+        "roadWithCypressAndStar": "Road with Cypress and Star"
+      },
+      "results": {
+        "1888": [
+          "You chose a night scene from 1888.",
+          "Some of Van Gogh’s night paintings reflect imagination, while others capture real places.",
+          "Each one expresses a different way of seeing the night."
+        ],
+        "1889": [
+          "You chose a night scene from 1889.",
+          "Some of Van Gogh’s night paintings reflect imagination, while others capture real places.",
+          "Each one expresses a different way of seeing the night."
+        ],
+        "1890": [
+          "You chose a night scene from 1890.",
+          "Some of Van Gogh’s night paintings reflect imagination, while others capture real places.",
+          "Each one expresses a different way of seeing the night."
+        ]
+      }
+    },
+    "wheatfields": {
+      "title": "Wheatfields",
+      "text": "Van Gogh painted wheatfields many times. Which landscape feels more peaceful to you?",
+      "options": {
+        "wheatfieldWithCrows": "Wheatfield with Crows",
+        "wheatfieldUnderThunderclouds": "Wheatfield under Thunderclouds",
+        "greenWheatfieldWithCypress": "Green Wheatfield with Cypress",
+        "wheatfieldsNearAuvers": "Wheatfields near Auvers"
+      },
+      "results": {
+        "1889": [
+          "You chose a wheatfield from 1889.",
+          "Van Gogh used landscapes to express emotion.",
+          "Some feel calm, while others carry tension and movement."
+        ],
+        "1890": [
+          "You chose a wheatfield from 1890.",
+          "Van Gogh used landscapes to express emotion.",
+          "Some feel calm, while others carry tension and movement."
+        ]
+      }
+    },
+    "flowers": {
+      "title": "Flowers",
+      "text": "Van Gogh painted flowers as symbols of life and renewal. Which feels the most delicate to you?",
+      "options": {
+        "almondBlossom": "Almond Blossom",
+        "irises": "Irises",
+        "roses": "Roses"
+      },
+      "results": {
+        "1889": [
+          "You chose a floral painting from 1889.",
+          "These works often represent new beginnings, balance, and fragility."
+        ],
+        "1890": [
+          "You chose a floral painting from 1890.",
+          "These works often represent new beginnings, balance, and fragility."
+        ]
+      }
+    },
+    "portraits": {
+      "title": "Portraits",
+      "text": "Van Gogh painted the same person multiple times. Which portrait feels more human to you?",
+      "options": {
+        "portrait": "Portrait"
+      },
+      "details": {
+        "blueBackground": "(blue background)",
+        "floralBackground": "(floral background)",
+        "greenTones": "(green tones)"
+      },
+      "results": {
+        "1888": [
+          "You chose a portrait from 1888.",
+          "Van Gogh explored emotion through color, background, and expression."
+        ],
+        "1889": [
+          "You chose a portrait from 1889.",
+          "Van Gogh explored emotion through color, background, and expression."
+        ]
+      }
+    },
+    "chairs": {
+      "title": "Chairs",
+      "text": "Van Gogh painted two chairs. Each one represents a different personality. Which one feels more present to you?",
+      "options": {
+        "vanGoghChair": "Van Gogh’s Chair",
+        "gauguinChair": "Gauguin’s Chair"
+      },
+      "results": {
+        "shared": [
+          "These chairs represent two different people.",
+          "Van Gogh’s chair is simple and grounded.",
+          "Gauguin’s chair is darker and more symbolic."
+        ]
+      }
+    }
+  },
+  "ranking": {
+    "sunflowers1888": "Sunflowers (1888)",
+    "sunflowers1889": "Sunflowers (1889)",
+    "bedroom1888": "Bedroom (1888)",
+    "bedroom1889": "Bedroom (1889)",
+    "theStarryNight": "The Starry Night",
+    "starryNightOverTheRhone": "Starry Night Over the Rhône",
+    "cafeTerraceAtNight": "Café Terrace at Night",
+    "roadWithCypressAndStar": "Road with Cypress and Star",
+    "wheatfieldWithCrows": "Wheatfield with Crows",
+    "wheatfieldUnderThunderclouds": "Wheatfield under Thunderclouds",
+    "greenWheatfieldWithCypress": "Green Wheatfield with Cypress",
+    "wheatfieldsNearAuvers": "Wheatfields near Auvers",
+    "almondBlossom": "Almond Blossom",
+    "irises": "Irises",
+    "roses": "Roses",
+    "portrait1888Blue": "Portrait (1888)",
+    "portrait1888Floral": "Portrait (1888)",
+    "portrait1889Green": "Portrait (1889)",
+    "vanGoghChair": "Van Gogh’s Chair",
+    "gauguinChair": "Gauguin’s Chair"
+  },
+  "aria": {
+    "home": "Home",
+    "next": "Next"
+  }
+}

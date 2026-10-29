@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="meta.title" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <title data-i18n="meta.title"></title>
+    <link rel="stylesheet" href="style/app.css">
+</head>
+<body>
+    <main class="experience" data-step="intro">
+        <header class="experience__branding">
+            <div>
+                <p class="branding__eyebrow" data-i18n="branding.eyebrow"></p>
+                <p class="branding__title" data-i18n="branding.title"></p>
+            </div>
+            <nav class="lang-switcher lang-switcher--profiles" data-lang-switcher data-i18n-attr="aria-label:navigation.languageSelector" aria-label="Language selector"></nav>
+        </header>
+
+        <section class="experience__viewport">
+            <article class="screen screen--intro" data-screen="intro" data-active="true">
+                <div class="intro__hero">
+                    <h1 id="intro-hero-title"></h1>
+                    <p id="intro-hero-copy"></p>
+                </div>
+                <div class="intro__guide">
+                    <div class="guide-card">
+                        <h2 id="intro-how-title"></h2>
+                        <ol id="intro-how-steps"></ol>
+                    </div>
+                    <div class="guide-card">
+                        <h2 id="intro-goal-title"></h2>
+                        <p id="intro-goal-copy"></p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="screen screen--profile" data-screen="profile" data-active="false" aria-live="polite">
+                <header class="profile__header">
+                    <p class="profile__progress">
+                        <span id="profile-progress-label"></span>
+                        <span id="profile-index">1</span>
+                        <span id="profile-progress-connector"></span>
+                        <span id="profile-total">4</span>
+                    </p>
+                    <h2 id="profile-tagline"></h2>
+                </header>
+                <div class="profile__layout">
+                    <section class="profile__card">
+                        <div class="profile__photo" aria-hidden="true">
+                            <img id="profile-photo-img" alt="" loading="lazy" decoding="async" />
+                            <span id="profile-photo-fallback" class="profile__photo-fallback">??</span>
+                        </div>
+                        <div class="profile__content">
+                            <div class="profile__alias">
+                                <h3 id="profile-alias"></h3>
+                                <span id="profile-era" class="profile__era"></span>
+                            </div>
+                            <p id="profile-summary" class="profile__summary"></p>
+                            <ul id="profile-highlights" class="profile__highlights"></ul>
+                        </div>
+                    </section>
+                    <aside class="profile__decision">
+                        <h3 class="decision__title" id="decision-title"></h3>
+                        <p class="decision__prompt" id="decision-prompt"></p>
+                        <div class="decision__actions">
+                            <button type="button" class="decision-button" data-choice="yes"></button>
+                            <button type="button" class="decision-button" data-choice="no"></button>
+                        </div>
+                        <div id="profile-reveal" class="profile__reveal" aria-live="polite"></div>
+                    </aside>
+                </div>
+            </article>
+
+            <article class="screen screen--score" data-screen="score" data-active="false">
+                <div class="score__layout">
+                    <section class="score__hero">
+                        <p class="score__eyebrow" id="score-eyebrow"></p>
+                        <h2 id="score-title"></h2>
+                        <p id="score-summary"></p>
+                        <div class="score__dial" aria-live="polite">
+                            <span class="score__value" id="score-total"></span>
+                            <span class="score__dial-label" id="score-dial-label"></span>
+                        </div>
+                        <p class="score__note" id="score-note"></p>
+                    </section>
+                    <section class="score__stack">
+                        <div class="score__card score__card--peers">
+                            <div class="score__card-head">
+                                <h3 id="score-discussion-title"></h3>
+                            </div>
+                            <div class="peer-chart" aria-live="polite">
+                                <div class="peer-chart__legend">
+                                    <span data-choice="yes" id="peer-label-yes"></span>
+                                    <span data-choice="no" id="peer-label-no"></span>
+                                </div>
+                                <ol id="peer-chart" class="peer-chart__list"></ol>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </section>
+
+        <footer class="experience__controls">
+            <div class="experience__controls-left">
+                <button type="button" class="nav-button nav-button--reset experience__restart" data-action="reset"></button>
+                <div
+                    class="experience__progress"
+                    id="experience-progress"
+                    role="progressbar"
+                    aria-valuemin="1"
+                    aria-valuemax="1"
+                    aria-valuenow="1"
+                    aria-label=""
+                >
+                    <span class="experience__progress-fill"></span>
+                </div>
+            </div>
+            <button type="button" class="nav-button nav-button--next" data-action="next"></button>
+        </footer>
+    </main>
+
+    <script src="./lib/i18n.js"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script src="src/app.js" defer></script>
+</body>
+</html>

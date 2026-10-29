@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "languageName": "Nederlands"
+  },
+  "common": {
+    "home": "Start",
+    "map": "Kaart",
+    "quiz": "Quiz",
+    "languageSelector": "Taalkiezer",
+    "embeddedExperienceTitle": "Ingesloten ervaring",
+    "backToMainMenu": "Terug naar het hoofdmenu",
+    "mainMenu": "Hoofdmenu",
+    "selection": "Selectie",
+    "openMap": "Kaart openen",
+    "openQuiz": "Quiz openen"
+  },
+  "menu": {
+    "title": "Tentoonstelling",
+    "subtitle": "Seriemoordenaar",
+    "pageTitle": "Tentoonstelling - Menu",
+    "homeSubtitle": "Ontdek. Begrijp. Stel vragen.",
+    "introHtml": "<p>Dit interactieve station nodigt je uit om verder te kijken dan individuele gevallen en seriële misdaad te onderzoeken aan de hand van patronen, gegevens en geografie.</p><p>Kies de kaart om geografie en beweging te onderzoeken, of doe de quiz om algemene aannames te betwisten met behulp van echte statistieken.</p>",
+    "exploreMap": "Verken de kaart",
+    "startQuiz": "Start de gegevensquiz"
+  }
+}

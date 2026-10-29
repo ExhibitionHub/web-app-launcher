@@ -1,0 +1,26 @@
+{
+  "appKey": "app-maps",
+  "displayName": "World Map",
+  "entryPath": "/apps/SK/app-maps/index.html",
+  "idleTimeoutSec": 90,
+  "launchQuery": {
+    "keyboardLayout": "qwerty"
+  },
+  "launchOptions": [
+    {
+      "key": "keyboardLayout",
+      "label": "Keyboard layout",
+      "defaultValue": "qwerty",
+      "choices": [
+        {
+          "value": "qwerty",
+          "label": "QWERTY"
+        },
+        {
+          "value": "azerty",
+          "label": "AZERTY"
+        }
+      ]
+    }
+  ]
+}

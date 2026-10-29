@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "languageName": "English"
+  },
+  "common": {
+    "home": "Home",
+    "map": "Map",
+    "quiz": "Quiz",
+    "languageSelector": "Language selector",
+    "controls": "Controls",
+    "toggleControls": "Toggle controls",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "reset": "Home",
+    "all": "All",
+    "solved": "Solved",
+    "unsolved": "Unsolved",
+    "backToMainMenu": "Back to main menu",
+    "mainMenu": "Main menu",
+    "selection": "Selection",
+    "openMap": "Open map",
+    "openQuiz": "Open quiz"
+  },
+  "mapApp": {
+    "pageTitle": "Serial Killer Map",
+    "search": {
+      "title": "Search",
+      "panelAria": "Search panel",
+      "placeholder": "Search (name, place, description…)",
+      "hint": "Search by name, place, description…",
+      "resultsAria": "Search results",
+      "keyboardAria": "On-screen keyboard",
+      "countryAria": "Filter by country",
+      "countryAll": "All countries",
+      "countryUnknown": "Unknown country",
+      "startTyping": "Start typing to search",
+      "noResults": "No results",
+      "unnamed": "Unnamed",
+      "toggleAria": "Toggle search panel",
+      "clearAria": "Clear search",
+      "layoutAria": "Toggle keyboard layout",
+      "keys": {
+        "space": "Space",
+        "backspace": "Back",
+        "clear": "Clear",
+        "shift": "Shift"
+      }
+    },
+    "idle": {
+      "logoAlt": "Serial Killer Map",
+      "subtitle": "Explore case profiles around the world",
+      "loading": "Loading…"
+    },
+    "loading": {
+      "returningHome": "Returning to menu…",
+      "stuckMessage": "Loading is stuck ({{stages}}). Check the resources.",
+      "startFailure": "Unable to start the map. Check the kiosk runtime or asset paths.",
+      "modelParseFailure": "Unable to read the map model.",
+      "modelLoadFailure": "Unable to load the map model.",
+      "errorPrefix": "Error",
+      "stages": {
+        "texture": "texture",
+        "model": "model",
+        "data": "data",
+        "markers": "markers"
+      }
+    }
+  },
+  "popup": {
+    "tagsLabel": "Tags",
+    "imageUnavailable": "Image unavailable",
+    "profile": "Profile",
+    "profileDetails": "Profile details",
+    "imageAlt": "Image",
+    "close": "Close",
+    "closeCard": "Close the card",
+    "detailsToBeConfirmed": "Details to be confirmed.",
+    "pressPlay": "Press play to discover the animation.",
+    "video": "Video",
+    "meta": {
+      "yearsActive": "Years active",
+      "provenVictims": "Proven victims",
+      "possibleVictims": "Possible victims",
+      "status": "Status"
+    }
+  }
+}

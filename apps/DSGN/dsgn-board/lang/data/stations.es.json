@@ -1,0 +1,202 @@
+{
+  "suspects": {
+    "karim": {
+      "role": "El asesino"
+    },
+    "samir": {
+      "role": "El amigo"
+    }
+  },
+  "stations": [
+    {
+      "id": "toxicology",
+      "title": "Informes forenses y de sustancias",
+      "kicker": "TOXICOLOGIA",
+      "conclusion": "Forense: alcohol y cocaina en el organismo de la victima. Hora estimada de muerte entre 22:00 y 00:00. Analisis de sustancia: rastros de cocaina real en la mesa, pero el bloque sobre la encimera es cocaina FALSA (adulterante desconocido)."
+    },
+    {
+      "id": "fingerprints",
+      "title": "Analisis de huellas",
+      "kicker": "HUELLAS",
+      "conclusion": "Huellas levantadas de la mesa del comedor, la silla de cocina y la tetera. La silla junto a la mesa de te fue limpiada. Sin coincidencias de ADN aun no podemos atribuir las huellas, pero la silla limpiada es sospechosa."
+    },
+    {
+      "id": "fiber",
+      "title": "Analisis de fibras",
+      "kicker": "FIBRA",
+      "conclusion": "La fibra del boton caido coincide con la fibra atrapada en la rama rota afuera. La fibra del boton no pudo vincularse con ninguna chaqueta recuperada en la escena."
+    },
+    {
+      "id": "dna",
+      "title": "Comparacion de ADN",
+      "kicker": "ANALISIS DE SANGRE",
+      "conclusion": "Las muestras 1+2 coinciden con la victima. Las muestras 3+4 coinciden con la persona que perdio el boton de la camisa Y tambien escondio la taza rota afuera. La muestra 5 pertenece a una tercera persona que durmio en la cama de arriba y es poco probable que haya escondido el vidrio."
+    },
+    {
+      "id": "network",
+      "title": "Datos celulares y de red",
+      "kicker": "RED",
+      "conclusion": "El mapa celular y las impresiones de mensajes muestran que Karim intento borrar remotamente el telefono de la victima via Google. La jaula de Faraday impidio el borrado y preservo la evidencia."
+    },
+    {
+      "id": "light",
+      "title": "Longitud de onda luminica / Espectro",
+      "kicker": "ONDA LUMINICA",
+      "conclusion": "Bajo UV, el bloque de cocaina revela una marca oculta vinculada a Karim. El cuerpo de la victima muestra hematomas internos en las yemas de los dedos, compatibles con una pelea."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "La hora estimada de muerte fue entre 22:00 y 00:00, basada en la temperatura del cuerpo, fue precisa?",
+      "options": []
+    },
+    {
+      "id": "q2",
+      "prompt": "Cual es el principal motivo de Samir para haber matado o peleado con la victima?",
+      "options": [
+        { "label": "A - Trato de drogas que salio mal" },
+        { "label": "B - Pelea por una chica" },
+        { "label": "C - No era su amigo" },
+        { "label": "D - Vendio drogas falsas" }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Cual es el principal motivo de Karim para haber matado o peleado con la victima?",
+      "options": [
+        { "label": "A - Trato de drogas que salio mal" },
+        { "label": "B - Pelea por una chica" },
+        { "label": "C - No era su amigo" },
+        { "label": "D - Vendio drogas falsas" }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Por que es importante una jaula de Faraday en este caso?",
+      "options": [
+        { "label": "A - KARIM intento rastrear el telefono" },
+        { "label": "B - Bloquear el borrado remoto de Google por KARIM" },
+        { "label": "C - SAMIR intento rastrear el telefono" },
+        { "label": "D - Bloquear el borrado remoto de Google por SAMIR" }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "Fue util recoger ADN en este caso?",
+      "options": [
+        { "label": "A - No, sin coincidencias no se obtiene informacion" },
+        { "label": "B - Si, dio la identidad de la victima" },
+        { "label": "C - Si, podemos solicitar pruebas de ADN a los sospechosos y comparar" },
+        { "label": "D - Si, dio la identidad del asesino" }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "Que dos evidencias muestran que Samir, el amigo, durmio en la cama de arriba?",
+      "options": [
+        { "label": "A - Conversacion de texto / celular" },
+        { "label": "B - Analisis de huellas" },
+        { "label": "C - Analisis de ADN" },
+        { "label": "D - Longitud de onda luminica" }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "Las huellas de Karim fueron encontradas en la escena. Que otra evidencia podria bastar para obtener una orden de prueba de ADN?",
+      "options": [
+        { "label": "A - Analisis del espectro luminico" }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "A quien pertenecia el bloque sobre la encimera y que era?",
+      "options": [
+        { "label": "A - Cocaina / KARIM" },
+        { "label": "B - No era cocaina, sustancia desconocida / KARIM" },
+        { "label": "C - Cocaina / SAMIR" },
+        { "label": "D - No era cocaina, sustancia desconocida / SAMIR" }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "Si Samir mato a Youssef, por que Karim intentaria borrar los datos del telefono de la victima?",
+      "options": [
+        { "label": "Karim y Samir eran un equipo" },
+        { "label": "Karim y Youssef vendian drogas" },
+        { "label": "Karim encontro muerto a Youssef y sabia que venia la policia" },
+        { "label": "No hay suficientes pruebas" }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "Que evidencia clave se aprendio de la limpiadora? (Elige todas las que correspondan)",
+      "options": [
+        { "label": "la hora a la que llego el primer visitante" },
+        { "label": "el primer visitante estaba borracho" },
+        { "label": "el primer visitante era bajo" },
+        { "label": "ella no reconocio al primer visitante" }
+      ]
+    },
+    {
+      "id": "q11",
+      "prompt": "No se recuperaron huellas del bloque en la cocina... (Elige 2)",
+      "options": [
+        { "label": "Se necesitan huellas directas como evidencia" },
+        { "label": "Las huellas en la silla cercana son suficientes" },
+        { "label": "Las huellas cercanas pueden hacer avanzar el caso" },
+        { "label": "Se encontro otra evidencia clave en el bloque" }
+      ]
+    },
+    {
+      "id": "q12",
+      "prompt": "Como podrian Karim o Samir haber parecido mas inocentes ante la policia?",
+      "options": [
+        { "label": "llamar a la policia cuando vieron el cuerpo" },
+        { "label": "quitar sus huellas de la escena" },
+        { "label": "borrar conversaciones de texto de la victima" },
+        { "label": "matar tambien a la vecina" }
+      ]
+    },
+    {
+      "id": "q13",
+      "prompt": "Que sustancias habia en el cuerpo de la victima?",
+      "options": [
+        { "label": "cocaina" },
+        { "label": "alcohol" },
+        { "label": "la misma sustancia que el bloque de la encimera de la cocina" },
+        { "label": "anfetaminas" }
+      ]
+    },
+    {
+      "id": "q14",
+      "prompt": "No pudimos vincular la fibra del boton con una chaqueta...",
+      "options": [
+        { "label": "A - pero aprendimos la identidad del asesino" },
+        { "label": "B - pero es probable que el asesino no durmiera en la cama" },
+        { "label": "C - entonces sabemos que el asesino durmio en la cama" },
+        { "label": "D - entonces no fue evidencia util" }
+      ]
+    },
+    {
+      "id": "q15",
+      "prompt": "Que informacion util NO se obtuvo del informe del forense?",
+      "options": [
+        { "label": "Hora de muerte" },
+        { "label": "Causa de muerte" },
+        { "label": "De donde venian las drogas" },
+        { "label": "Drogas consumidas" }
+      ]
+    },
+    {
+      "id": "q16",
+      "prompt": "Que evidencia clave se obtuvo con la longitud de onda de luz azul?",
+      "options": [
+        { "label": "Mucho transito de pies alrededor del cuerpo" },
+        { "label": "Sangre limpiada de un sospechoso" },
+        { "label": "Hematomas internos / lucha de la victima" },
+        { "label": "Cabello y fibras del asesino" }
+      ]
+    }
+  ]
+}

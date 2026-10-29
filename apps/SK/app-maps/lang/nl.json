@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "languageName": "Nederlands"
+  },
+  "common": {
+    "home": "Start",
+    "map": "Kaart",
+    "quiz": "Quiz",
+    "languageSelector": "Taalkiezer",
+    "controls": "Bediening",
+    "toggleControls": "Bediening tonen of verbergen",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Uitzoomen",
+    "reset": "Start",
+    "all": "Allemaal",
+    "solved": "Opgelost",
+    "unsolved": "Onopgelost",
+    "backToMainMenu": "Terug naar het hoofdmenu",
+    "mainMenu": "Hoofdmenu",
+    "selection": "Selectie",
+    "openMap": "Kaart openen",
+    "openQuiz": "Quiz openen"
+  },
+  "mapApp": {
+    "pageTitle": "Kaart van seriemoordenaars",
+    "search": {
+      "title": "Zoeken",
+      "panelAria": "Zoekpaneel",
+      "placeholder": "Zoeken (naam, plaats, beschrijving…)",
+      "hint": "Zoek op naam, plaats, beschrijving…",
+      "resultsAria": "Zoekresultaten",
+      "keyboardAria": "Schermtoetsenbord",
+      "countryAria": "Filter op land",
+      "countryAll": "Alle landen",
+      "countryUnknown": "Onbekend land",
+      "startTyping": "Begin met typen om te zoeken",
+      "noResults": "Geen resultaten",
+      "unnamed": "Naamloos",
+      "toggleAria": "Schakel zoekpaneel in of uit",
+      "clearAria": "Zoekopdracht wissen",
+      "layoutAria": "Toetsenbordindeling wijzigen",
+      "keys": {
+        "space": "Spatie",
+        "backspace": "Backspace",
+        "clear": "Wissen",
+        "shift": "Shift"
+      }
+    },
+    "idle": {
+      "logoAlt": "Kaart van seriemoordenaars",
+      "subtitle": "Ontdek caseprofielen over de hele wereld",
+      "loading": "Laden…"
+    },
+    "loading": {
+      "returningHome": "Terugkeren naar menu…",
+      "stuckMessage": "Laden loopt vast ({{stages}}). Controleer de bronnen.",
+      "startFailure": "Kan de kaart niet starten. Controleer de kioskruntime of itempaden.",
+      "modelParseFailure": "Kan het kaartmodel niet lezen.",
+      "modelLoadFailure": "Kan het kaartmodel niet laden.",
+      "errorPrefix": "Fout",
+      "stages": {
+        "texture": "textuur",
+        "model": "model",
+        "data": "gegevens",
+        "markers": "markeringen"
+      }
+    }
+  },
+  "popup": {
+    "tagsLabel": "Trefwoorden",
+    "imageUnavailable": "Afbeelding niet beschikbaar",
+    "profile": "Profiel",
+    "profileDetails": "Profielgegevens",
+    "imageAlt": "Afbeelding",
+    "close": "Sluiten",
+    "closeCard": "Profielkaart sluiten",
+    "detailsToBeConfirmed": "Details moeten worden bevestigd.",
+    "pressPlay": "Druk op play om de animatie te ontdekken.",
+    "video": "Video",
+    "meta": {
+      "yearsActive": "Jaren actief",
+      "provenVictims": "Bewezen slachtoffers",
+      "possibleVictims": "Mogelijke slachtoffers",
+      "status": "Status"
+    }
+  }
+}

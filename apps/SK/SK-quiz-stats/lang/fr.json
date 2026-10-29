@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "languageName": "Français"
+  },
+  "common": {
+    "home": "Accueil",
+    "languageSelector": "Sélecteur de langue",
+    "backToMainMenu": "Retour au menu principal"
+  },
+  "quizApp": {
+    "pageTitle": "Quiz sur les tueurs en série - Mode kiosque",
+    "welcome": {
+      "title": "QUIZ INTERACTIF",
+      "subtitle": "STATISTIQUES CRIMINELLES",
+      "descriptionHtml": "Testez vos connaissances sur des données réelles de tueurs en série.<br>12 questions basées sur la base de données Radford/FGCU (FGCU = Florida Gulf Coast University).",
+      "start": "DÉBUT"
+    },
+    "nav": {
+      "previous": "PRÉCÉDENT",
+      "next": "SUIVANT",
+      "seeResult": "VOIR LE RÉSULTAT",
+      "nextQuestion": "QUESTION SUIVANTE",
+      "seeResults": "VOIR LES RÉSULTATS"
+    },
+    "questionCounter": "Question {{current}} / {{total}}",
+    "insight": {
+      "title": "EXPLICATION",
+      "continue": "CONTINUER",
+      "answerCorrect": "VRAI",
+      "answerIncorrect": "FAUX"
+    },
+    "result": {
+      "title": "RÉSULTAT",
+      "correctAnswers": "RÉPONSES CORRECTES",
+      "restart": "REDÉMARRER"
+    },
+    "error": {
+      "title": "ERREUR",
+      "subtitle": "ÉCHEC DU CHARGEMENT",
+      "helpHtml": "Vérifiez que le serveur local est en cours d'exécution et que le fichier questions.json est accessible.",
+      "reload": "RECHARGER",
+      "unableToLoadQuestions": "Impossible de charger les questions. Vérifiez que le fichier questions.json est accessible."
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Criminologie Débutant",
+        "message": "Votre connaissance des statistiques criminelles est encore limitée. Ces données révèlent des tendances importantes qui remettent en question de nombreux mythes populaires sur les tueurs en série. Continuez à en apprendre davantage sur la criminologie fondée sur des preuves !"
+      },
+      "student": {
+        "title": "Étudiant informé",
+        "message": "Vous avez une bonne compréhension des données criminelles. Vous commencez à comprendre que la réalité des tueurs en série diffère souvent des représentations médiatiques. Les statistiques montrent des modèles complexes influencés par des facteurs sociaux et historiques."
+      },
+      "connoisseur": {
+        "title": "Connaisseur avisé",
+        "message": "Excellente maîtrise des statistiques criminelles ! Vous comprenez que les données révèlent des tendances contre-intuitives : le QI moyen des tueurs en série est normal, la plupart utilisent des armes à feu et les pics historiques correspondent à des facteurs sociétaux spécifiques."
+      },
+      "expert": {
+        "title": "Expert en criminologie",
+        "message": "Remarquable ! Votre connaissance des statistiques criminelles est exceptionnelle. Vous savez que les données de Radford révèlent comment l’amélioration des bases de données, de la médecine légale et de la communication entre les juridictions a considérablement réduit l’activité des tueurs en série depuis les années 1990."
+      },
+      "undetermined": {
+        "title": "Profil indéterminé",
+        "message": "Impossible de déterminer votre profil avec les données disponibles."
+      }
+    },
+    "questions": {
+      "1": {
+        "question": "Combien de tueurs en série figuraient dans la base de données Radford en 2016 ?",
+        "answers": {
+          "0": {
+            "text": "R. 1 452"
+          },
+          "1": {
+            "text": "B. 2 112"
+          },
+          "2": {
+            "text": "C. 4 743"
+          },
+          "3": {
+            "text": "D. 6 235"
+          }
+        },
+        "insight": "Au 4 septembre 2016, la base de données Radford/FGCU contenait 4 743 tueurs en série et 13 105 victimes, ce qui en fait l'ensemble de données le plus complet de ce type."
+      },
+      "2": {
+        "question": "Au cours de quelle décennie les États-Unis ont-ils vu le plus grand nombre de nouveaux tueurs en série commencer à tuer ?",
+        "answers": {
+          "0": {
+            "text": "A. Années 1960"
+          },
+          "1": {
+            "text": "B. Années 1970"
+          },
+          "2": {
+            "text": "Vers les années 1980"
+          },
+          "3": {
+            "text": "D. Années 1990"
+          }
+        },
+        "insight": "Les années 1970 marquent l'âge d'or des meurtres en série, avec 605 tueurs qui ont commencé leurs crimes – alimentés par une mobilité accrue, des bouleversements sociaux et l'absence de bases de données centralisées des forces de l'ordre."
+      },
+      "3": {
+        "question": "Quel pourcentage des tueurs en série américains sont des hommes ?",
+        "answers": {
+          "0": {
+            "text": "R. 70 %"
+          },
+          "1": {
+            "text": "B. 80 %"
+          },
+          "2": {
+            "text": "C. 90 %"
+          },
+          "3": {
+            "text": "D.95%"
+          }
+        },
+        "insight": "Environ 9 tueurs en série sur 10 sont des hommes. La part des femmes (≈ 9 %) est faible mais persistante au fil des décennies."
+      },
+      "4": {
+        "question": "Quelle ethnie représente actuellement la plus grande part des tueurs en série américains ?",
+        "answers": {
+          "0": {
+            "text": "A. Blanc"
+          },
+          "1": {
+            "text": "B. Noir"
+          },
+          "2": {
+            "text": "C. Hispanique"
+          },
+          "3": {
+            "text": "D. Asiatique"
+          }
+        },
+        "insight": "Le stéréotype de « l’homme blanc » tant cité est dépassé. Alors que les délinquants blancs représentent encore environ la moitié, les délinquants noirs représentent désormais près de 40 %, ce qui reflète des facteurs démographiques et socio-économiques et non une causalité fondée sur la race."
+      },
+      "5": {
+        "question": "Quel est le mobile le plus courant chez les tueurs en série ?",
+        "answers": {
+          "0": {
+            "text": "A. La colère"
+          },
+          "1": {
+            "text": "B. Gain financier"
+          },
+          "2": {
+            "text": "C. Plaisir"
+          },
+          "3": {
+            "text": "D. Éviter l'arrestation"
+          }
+        },
+        "insight": "Plus de 36 % des tueurs en série tuent pour le plaisir – un mélange de luxure, de domination et de pouvoir – ce qui fait du « plaisir » le moteur le plus souvent évoqué des meurtres en série."
+      },
+      "6": {
+        "question": "Quel est le QI moyen d'un tueur en série ?",
+        "answers": {
+          "0": {
+            "text": "R. 76"
+          },
+          "1": {
+            "text": "B.94"
+          },
+          "2": {
+            "text": "C.109"
+          },
+          "3": {
+            "text": "D.127"
+          }
+        },
+        "insight": "Malgré les mythes du « génie criminel », les tueurs en série ont un QI moyen de 94,5, légèrement inférieur à la moyenne de la population générale. L’intelligence est rarement le secret de la longévité ; la planification et les circonstances le sont."
+      },
+      "7": {
+        "question": "Quelle est la méthode de meurtre la plus courante parmi les tueurs en série ?",
+        "answers": {
+          "0": {
+            "text": "A. Étranglement"
+          },
+          "1": {
+            "text": "B. Coup de couteau"
+          },
+          "2": {
+            "text": "C. Armes à feu"
+          },
+          "3": {
+            "text": "D. Empoisonnement"
+          }
+        },
+        "insight": "Les armes à feu représentent environ 43 % de tous les meurtres connus liés à des tueurs en série, suivis par l'étranglement (≈ 22 %). Le choix reflète l’accessibilité et le contrôle plutôt que la sophistication."
+      },
+      "8": {
+        "question": "Quel État américain a enregistré le plus de victimes de tueurs en série ?",
+        "answers": {
+          "0": {
+            "text": "A. Floride"
+          },
+          "1": {
+            "text": "B.Texas"
+          },
+          "2": {
+            "text": "C. Californie"
+          },
+          "3": {
+            "text": "D. New York"
+          }
+        },
+        "insight": "La Californie arrive en tête avec 1 628 victimes, suivie par le Texas et la Floride – un reflet de la taille et de la mobilité de la population plutôt que d'une différence régionale innée."
+      },
+      "9": {
+        "question": "Quel âge ont la plupart des victimes de tueurs en série ?",
+        "answers": {
+          "0": {
+            "text": "A. Moins de 10 ans"
+          },
+          "1": {
+            "text": "B.18 – 35 ans"
+          },
+          "2": {
+            "text": "C.40 – 60 ans"
+          },
+          "3": {
+            "text": "D. Plus de 60 ans"
+          }
+        },
+        "insight": "L'âge moyen des victimes est de 33,8 ans, avec une médiane de 29 ans – de jeunes adultes qui équilibrent mobilité et vulnérabilité."
+      },
+      "10": {
+        "question": "Quel sexe représente la plupart des victimes de tueurs en série ?",
+        "answers": {
+          "0": {
+            "text": "A. Homme"
+          },
+          "1": {
+            "text": "B. Femme"
+          },
+          "2": {
+            "text": "C. Mixte/Inconnu"
+          },
+          "3": {
+            "text": "D. Égalité"
+          }
+        },
+        "insight": "Environ sept victimes de tueurs en série sur dix sont des femmes, selon la base de données Radford/FGCU. Cette tendance reflète la sélection des cibles, et non seulement l'opportunité : les femmes sont plus souvent ciblées parce qu'elles sont perçues par les délinquants comme plus faciles à isoler ou à manipuler."
+      },
+      "11": {
+        "question": "Quelle décennie a vu le plus grand nombre de tueurs en série actifs aux États-Unis au cours d’une année donnée ?",
+        "answers": {
+          "0": {
+            "text": "A. Années 1960"
+          },
+          "1": {
+            "text": "B. Années 1970"
+          },
+          "2": {
+            "text": "Vers les années 1980"
+          },
+          "3": {
+            "text": "D. Années 1990"
+          }
+        },
+        "insight": "Au cours des années 1980, les États-Unis comptaient en moyenne 145 tueurs en série actifs par an (définis comme ceux qui tuaient au moins une fois cette année-là). Depuis, l’amélioration de la médecine légale et des bases de données a considérablement réduit ce nombre."
+      },
+      "12": {
+        "question": "Quel pourcentage de tueurs en série américains ont servi dans l’armée ?",
+        "answers": {
+          "0": {
+            "text": "R. 11 %"
+          },
+          "1": {
+            "text": "B.18%"
+          },
+          "2": {
+            "text": "C. 32%"
+          },
+          "3": {
+            "text": "D.46%"
+          }
+        },
+        "insight": "Environ un tueur en série masculin sur cinq a une formation militaire, soit un chiffre légèrement supérieur à la moyenne nationale. L'entraînement militaire ne provoque pas de violence mais peut renforcer la structure, le contrôle et la désensibilisation."
+      }
+    }
+  }
+}

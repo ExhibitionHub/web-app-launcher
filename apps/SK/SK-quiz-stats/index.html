@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Serial Killer Quiz - Kiosk Mode</title>
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="quizApp.pageTitle" />
+        <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,embed" />
+    <meta name="kiosk-home" content="../Multi-app/index.html" />
+    <meta name="kiosk-timeout-ms" content="90000" />
+    <link rel="stylesheet" href="./style/theme.css?v=20260129c" />
+    <link rel="stylesheet" href="./style/app.css?v=20260116b">
+    <link rel="stylesheet" href="./style/kiosk.css?v=20260116b" />
+        <style>
+            html.is-embedded .lang-switcher--quiz {
+                display: none;
+            }
+        </style>
+        <script>
+            if (new URL(window.location.href).searchParams.get('embed') === '1') {
+                document.documentElement.classList.add('is-embedded');
+            }
+        </script>
+</head>
+<body>
+    <div id="app">
+        <!-- Welcome screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="container">
+                <nav class="lang-switcher lang-switcher--quiz" data-lang-switcher data-i18n-attr="aria-label:common.languageSelector" aria-label="Language selector"></nav>
+                <h1 class="title" data-i18n="quizApp.welcome.title">INTERACTIVE QUIZ</h1>
+                <div class="subtitle" data-i18n="quizApp.welcome.subtitle">CRIMINAL STATISTICS</div>
+                <p class="description">
+                    <span data-i18n-html="quizApp.welcome.descriptionHtml">Test your knowledge on real serial killer data.<br>12 questions based on the Radford/FGCU database (FGCU = Florida Gulf Coast University).</span>
+                </p>
+                <button id="start-btn" class="btn-primary" data-i18n="quizApp.welcome.start">START</button>
+            </div>
+        </div>
+
+        <!-- Question screen -->
+        <div id="question-screen" class="screen">
+            <div class="container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="question-counter" class="question-counter">Question 1 / 12</div>
+                
+                <div id="question-container">
+                    <h2 id="question-text" class="question-text"></h2>
+                    <div id="answers-container" class="answers-container"></div>
+                </div>
+
+                <div class="navigation">
+                    <button id="prev-btn" class="btn-secondary is-disabled" aria-disabled="true" data-i18n="quizApp.nav.previous">PREVIOUS</button>
+                    <button id="next-btn" class="btn-primary is-disabled" aria-disabled="true" data-i18n="quizApp.nav.next">NEXT</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Insight screen -->
+        <div id="insight-screen" class="screen">
+            <div class="container">
+                <div class="progress-bar">
+                    <div id="insight-progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="insight-counter" class="question-counter"></div>
+                
+
+                
+                <h2 class="insight-title" data-i18n="quizApp.insight.title">EXPLANATION</h2>
+                <div id="answer-result" class="answer-result"></div>
+                <div id="insight-text" class="insight-text"></div>
+                
+                <button id="continue-btn" class="btn-primary" data-i18n="quizApp.insight.continue">CONTINUE</button>
+            </div>
+        </div>
+
+        <!-- Results screen -->
+        <div id="result-screen" class="screen">
+            <div class="container">
+                <h1 class="title" data-i18n="quizApp.result.title">RESULT</h1>
+                <div id="score-display" class="score-display">
+                    <div id="score-percentage" class="score-percentage">0%</div>
+                    <div class="score-label" data-i18n="quizApp.result.correctAnswers">CORRECT ANSWERS</div>
+                </div>
+                <div id="conclusion-text" class="conclusion-text"></div>
+                <button id="restart-btn" class="btn-primary" data-i18n="quizApp.result.restart">RESTART</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/i18n.js?v=20260123a"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script src="./src/questionnaire.js?v=20260126a"></script>
+    <script src="./src/app.js?v=20260126a"></script>
+    <script src="./lib/kiosk.js?v=20260116c" defer></script>
+</body>
+</html>

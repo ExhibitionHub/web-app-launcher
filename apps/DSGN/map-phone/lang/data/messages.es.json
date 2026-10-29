@@ -1,0 +1,139 @@
+{
+  "details": {
+    "conversations": {
+      "threads": {
+        "neighbor": {
+          "label": "Hilo del ama de llaves",
+          "badge": "Ama de llaves - madrugada",
+          "summary": "El ama de llaves, Fatima, llega temprano, nota que algo no va bien, intenta contactar a Youssef varias veces y luego llama a la policia.",
+          "insights": [
+            "Llega a la casa antes del amanecer y ve un patron de luces inusual.",
+            "Quedan dos llamadas perdidas sin respuesta.",
+            "Escala la situacion y llama a la policia a las 6:30am."
+          ],
+          "messages": [
+            {
+              "author": "Fatima",
+              "time": "05:48",
+              "text": "Estoy afuera. Estas bien? Tus luces nunca estan encendidas a esta hora."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:12",
+              "text": "Estoy tocando el timbre y no hay respuesta."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:24",
+              "text": "Te llamo otra vez. Contesta por favor."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:30",
+              "text": "Voy a llamar a la policia."
+            }
+          ]
+        },
+        "karim": {
+          "label": "Hilo de Karim",
+          "badge": "Trato de drogas - invitado",
+          "summary": "Karim esta molesto por el trato y dice que va a venir. Youssef lo invita a entrar para hablar.",
+          "insights": [
+            "Tension por la transaccion.",
+            "Karim anuncia explicitamente su visita.",
+            "Youssef lo invita claramente a venir."
+          ],
+          "messages": [
+            {
+              "author": "Karim",
+              "time": "23:18",
+              "text": "Que demonios, tio"
+            },
+            {
+              "author": "Karim",
+              "time": "23:19",
+              "text": "Voy para alla, no se a que estas jugando"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:22",
+              "text": "Todo bien, tranquilo. Ven a tomar algo y hablamos"
+            },
+            {
+              "author": "Karim",
+              "time": "23:24",
+              "text": "Voy, nos vemos pronto"
+            }
+          ]
+        },
+        "samir": {
+          "label": "Hilo de Samir",
+          "badge": "Borracho - no invitado",
+          "summary": "Una semana antes, Samir esta molesto por una chica. La noche del incidente esta borracho, no fue invitado y aparece de todos modos. A la manana siguiente no recuerda.",
+          "insights": [
+            "Viejo resentimiento por un interes compartido en una chica.",
+            "Borracho e insistente la noche del incidente.",
+            "Los mensajes de la manana muestran lagunas de memoria."
+          ],
+          "messages": [
+            {
+              "author": "Samir",
+              "time": "10 de mayo",
+              "text": "Tio, te dije que no la besaras - ME gusta mucho"
+            },
+            {
+              "author": "Samir",
+              "time": "10 de mayo",
+              "text": "En serio, me cabrea... confiaba en ti"
+            },
+            {
+              "author": "Youssef",
+              "time": "10 de mayo",
+              "text": "Ni siquiera le gustas, Sam, calmate."
+            },
+            {
+              "author": "Youssef",
+              "time": "10 de mayo",
+              "text": "Ven por una raya, relajate"
+            },
+            {
+              "author": "Samir",
+              "time": "23:41",
+              "text": "Hermanoo, estoy bastante borracho.. Sigo molesto!"
+            },
+            {
+              "author": "Samir",
+              "time": "23:46",
+              "text": "Vamos a festejarr un poco, necesito una rayita. Algo que me levante"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:48",
+              "text": "No es buen momento, manana"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:49",
+              "text": "NO, esta noche no"
+            },
+            {
+              "author": "Samir",
+              "time": "23:55",
+              "text": "No seas asii, voy para allaa"
+            },
+            {
+              "author": "Samir",
+              "time": "06:30",
+              "text": "Hermano, me quede dormido, voy a ducharme y bajo"
+            },
+            {
+              "author": "Samir",
+              "time": "07:12",
+              "text": "Dime que paso, si estas despierto"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

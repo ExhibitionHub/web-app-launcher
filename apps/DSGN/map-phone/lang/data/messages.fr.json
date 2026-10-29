@@ -1,0 +1,63 @@
+{
+	"details": {
+		"conversations": {
+			"threads": {
+				"neighbor": {
+					"label": "Fil gouvernante",
+					"badge": "Gouvernante — petit matin",
+					"summary": "La gouvernante, Fatima, arrive tôt, remarque une anomalie, tente plusieurs fois de joindre Youssef, puis appelle la police.",
+					"insights": [
+						"Elle arrive avant l'aube et remarque un éclairage inhabituel.",
+						"Deux appels manqués restent sans réponse.",
+						"Elle escalade et appelle la police à 6 h 30."
+					],
+					"messages": [
+						{ "author": "Fatima", "time": "05:48", "text": "Je suis dehors. Ça va ? Tes lumières ne sont jamais allumées à cette heure." },
+						{ "author": "Fatima", "time": "06:12", "text": "Je sonne et personne ne répond." },
+						{ "author": "Fatima", "time": "06:24", "text": "Je t'appelle encore. Réponds s'il te plaît." },
+						{ "author": "Fatima", "time": "06:30", "text": "J'appelle la police." }
+					]
+				},
+				"karim": {
+					"label": "Fil Karim",
+					"badge": "Transaction de drogue — invité",
+					"summary": "Karim est contrarié par la transaction et dit qu'il vient. Youssef l'invite à entrer pour discuter.",
+					"insights": [
+						"Tension autour de la transaction.",
+						"Karim annonce explicitement sa visite.",
+						"Youssef l'invite clairement à venir."
+					],
+					"messages": [
+						{ "author": "Karim", "time": "23:18", "text": "C'est quoi ce délire ?" },
+						{ "author": "Karim", "time": "23:19", "text": "Je viens, je ne sais pas à quoi tu joues." },
+						{ "author": "Youssef", "time": "23:22", "text": "Tout va bien, calme-toi. Passe boire un verre et on discute." },
+						{ "author": "Karim", "time": "23:24", "text": "J'arrive, à tout de suite." }
+					]
+				},
+				"samir": {
+					"label": "Fil Samir",
+					"badge": "Ivre — non invité",
+					"summary": "Une semaine plus tôt, Samir est contrarié à propos d'une fille. La nuit des faits, il est ivre, non invité et vient quand même. Le lendemain matin, il dit ne plus se souvenir.",
+					"insights": [
+						"Ancienne rancœur autour d'une fille.",
+						"Ivre et insistant la nuit des faits.",
+						"Les messages du lendemain montrent des trous de mémoire."
+					],
+					"messages": [
+						{ "author": "Samir", "time": "10 mai", "text": "Mec, je t'avais dit de ne pas l'embrasser - elle me plaît beaucoup." },
+						{ "author": "Samir", "time": "10 mai", "text": "Franchement ça me rend fou… je te faisais confiance." },
+						{ "author": "Youssef", "time": "10 mai", "text": "Elle ne t'aime même pas Sam, calme-toi." },
+						{ "author": "Youssef", "time": "10 mai", "text": "Passe prendre une ligne, détends-toi." },
+						{ "author": "Samir", "time": "23:41", "text": "Frère, je suis bien déchiré… toujours énervé !" },
+						{ "author": "Samir", "time": "23:46", "text": "On fête un peu, j'ai besoin d'un petit remontant." },
+						{ "author": "Youssef", "time": "23:48", "text": "Ce n'est pas le bon moment, demain." },
+						{ "author": "Youssef", "time": "23:49", "text": "NON, pas ce soir." },
+						{ "author": "Samir", "time": "23:55", "text": "Ne sois pas comme ça, j'arrive." },
+						{ "author": "Samir", "time": "06:30", "text": "Frère, je me suis écroulé, je vais me doucher et descendre." },
+						{ "author": "Samir", "time": "07:12", "text": "Dis-moi ce qui s'est passé, si tu es réveillé." }
+					]
+				}
+			}
+		}
+	}
+}

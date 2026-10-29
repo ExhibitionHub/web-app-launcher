@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "languageName": "Português (Brasil)"
+  },
+  "common": {
+    "home": "Início",
+    "map": "Mapa",
+    "quiz": "Quiz",
+    "languageSelector": "Seletor de idioma",
+    "controls": "Controles",
+    "toggleControls": "Mostrar ou ocultar os controles",
+    "zoomIn": "Aumentar zoom",
+    "zoomOut": "Diminuir zoom",
+    "reset": "Início",
+    "all": "Todos",
+    "solved": "Resolvidos",
+    "unsolved": "Não resolvidos",
+    "backToMainMenu": "Voltar ao menu principal",
+    "mainMenu": "Menu principal",
+    "selection": "Seleção",
+    "openMap": "Abrir o mapa",
+    "openQuiz": "Abrir o quiz"
+  },
+  "mapApp": {
+    "pageTitle": "Mapa de assassinos em série",
+    "search": {
+      "title": "Pesquisar",
+      "panelAria": "Painel de pesquisa",
+      "placeholder": "Pesquisar (nome, local, descrição…)",
+      "hint": "Pesquise por nome, local, descrição…",
+      "resultsAria": "Resultados da pesquisa",
+      "keyboardAria": "Teclado virtual",
+      "countryAria": "Filtrar por país",
+      "countryAll": "Todos os países",
+      "countryUnknown": "País desconhecido",
+      "startTyping": "Comece a digitar para pesquisar",
+      "noResults": "Nenhum resultado encontrado",
+      "unnamed": "Sem nome",
+      "toggleAria": "Mostrar ou ocultar o painel de pesquisa",
+      "clearAria": "Limpar pesquisa",
+      "layoutAria": "Alternar o layout do teclado",
+      "keys": {
+        "space": "Espaço",
+        "backspace": "Apagar",
+        "clear": "Limpar",
+        "shift": "Shift"
+      }
+    },
+    "idle": {
+      "logoAlt": "Mapa de assassinos em série",
+      "subtitle": "Explore perfis de casos no mundo todo",
+      "loading": "Carregando…"
+    },
+    "loading": {
+      "returningHome": "Voltando ao menu…",
+      "stuckMessage": "O carregamento travou ({{stages}}). Verifique os recursos.",
+      "startFailure": "Não foi possível iniciar o mapa. Verifique o ambiente de execução do quiosque ou os caminhos dos recursos.",
+      "modelParseFailure": "Não foi possível ler o modelo do mapa.",
+      "modelLoadFailure": "Não foi possível carregar o modelo do mapa.",
+      "errorPrefix": "Erro",
+      "stages": {
+        "texture": "textura",
+        "model": "modelo",
+        "data": "dados",
+        "markers": "marcadores"
+      }
+    }
+  },
+  "popup": {
+    "tagsLabel": "Tags",
+    "imageUnavailable": "Imagem indisponível",
+    "profile": "Perfil",
+    "profileDetails": "Detalhes do perfil",
+    "imageAlt": "Imagem",
+    "close": "Fechar",
+    "closeCard": "Fechar a ficha",
+    "detailsToBeConfirmed": "Detalhes a confirmar.",
+    "pressPlay": "Pressione o botão Reproduzir para descobrir a animação.",
+    "video": "Vídeo",
+    "meta": {
+      "yearsActive": "Anos de atividade",
+      "provenVictims": "Vítimas comprovadas",
+      "possibleVictims": "Possíveis vítimas",
+      "status": "Status"
+    }
+  }
+}

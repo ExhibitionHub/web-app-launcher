@@ -1,0 +1,1201 @@
+{
+  "meta": {
+    "documentTitle": "Quiz sur les scénarios de personnalité"
+  },
+  "ui": {
+    "welcome": {
+      "tag": "Quiz de personnalité situationnelle",
+      "title": "APERÇU DE LA PERSONNALITÉ",
+      "subtitle": "15 scénarios courts pour cartographier votre réaction",
+      "description": "Parcourez des situations rapides et choisissez la réaction qui vous semble naturelle. Chaque choix instinctif crée votre profil personnel, aucun autre profil à l'écran.",
+      "howTitle": "Comment ça marche",
+      "howSteps": [
+        "Lisez le bref contexte du scénario.",
+        "Choisissez la réponse qui correspond à la façon dont vous réagiriez.",
+        "Regardez la mise à jour de votre profil avec un dossier en direct."
+      ],
+      "whyTitle": "Pourquoi",
+      "whyCopy": "Découvrez votre équilibre naturel entre structure, spontanéité, agence et aisance sociale. Il s'agit d'un outil d'auto-réflexion : vous regardez uniquement votre propre modèle.",
+      "disclaimer": "Expérience amusante et romancée pour un aperçu personnel. Pas une évaluation clinique.",
+      "start": "Commencer"
+    },
+    "question": {
+      "sectionLabel": "Parcours situationnel",
+      "metaLabel": "Résumé du scénario",
+      "counterPrefix": "Cas",
+      "answersLabel": "Votre réaction",
+      "statusLocked": "Choix enregistré. Passez au scénario suivant.",
+      "statusOpen": "Choisissez la réponse qui vous convient le mieux.",
+      "visualAlt": "Indice visuel {index}"
+    },
+    "result": {
+      "title": "VOTRE PROFIL DE PERSONNALITÉ",
+      "profileTypeTitle": "VOTRE TYPOLOGIE",
+      "populationTitle": "Votre modèle de réponse",
+      "traits": {
+        "organized": "Structure",
+        "impulsive": "Spontanéité",
+        "control": "Agence",
+        "social": "Facilité sociale"
+      },
+      "highlightsTitle": "Tendances clés",
+      "profileSummaryShare": "Force du profil : {value}%",
+      "profileSummaryLabel": "Vous vous alignez sur : {type}"
+    },
+    "buttons": {
+      "restart": "Redémarrer",
+      "back": "Retour",
+      "send": "Partager",
+      "sendWide": "Envoyer mon profil",
+      "sendModalClose": "Retour au début"
+    },
+    "accessibility": {
+      "languageSelector": "Sélecteur de langue"
+    },
+    "research": {
+      "title": "DOSSIER DE PROFIL",
+      "emailTitle": "Envoyez votre instantané",
+      "emailHint": "Clavier à l'écran",
+      "recipientLabel": "Destinataire",
+      "placeholder": "par ex. vous@exemple.com",
+      "statusMissing": "Ajoutez un e-mail pour partager votre profil.",
+      "statusInvalid": "Entrez une adresse e-mail valide.",
+      "statusSending": "Envoi...",
+      "statusQueued": "Profil en file d'attente pour livraison.",
+      "statusSuccess": "Profil envoyé.",
+      "statusError": "Impossible d'envoyer votre dossier.",
+      "statusNoCamera": "Photo en direct indisponible sur cette connexion. Le dossier peut toujours être envoyé.",
+      "sendStatus": "Profil prêt pour {email}. (Envoi simulé)",
+      "liveLabel": "Affiche de profil en direct",
+      "sendAria": "Envoyez votre profil",
+      "keyboardBackspace": "Supprimer",
+      "keyboardClear": "Effacer",
+      "mailSubject": "Dossier ci-joint : Dossier de personnalité",
+      "mailBody": "Votre dossier confidentiel est joint.\n\nCompilé à partir de vos réponses lors de l'enquête Personality Snapshot, ce fichier enregistre le profil comportemental identifié lors de votre session.\n\nMerci d'avoir participé à l'enquête.\n\nCentre d'exposition"
+    },
+    "modal": {
+      "title": "Profil envoyé",
+      "body": "Votre instantané est en route."
+    },
+    "error": {
+      "title": "ERREUR",
+      "subtitle": "Impossible de charger les données du quiz",
+      "message": "Assurez-vous que votre serveur local est en cours d'exécution et que lang/en.json est accessible.",
+      "reload": "Recharger",
+      "loadQuestions": "Impossible de charger les questions. Vérifiez que le fichier de langue est accessible."
+    },
+    "chart": {
+      "you": "Vous",
+      "average": "Référence"
+    },
+    "camera": {
+      "permissionError": "Impossible d'accéder à la caméra. Veuillez vous assurer que vous disposez d'une caméra connectée et que vous avez accordé l'autorisation.\n\nDétails : {error}",
+      "errors": {
+        "secureContext": "L'accès à la caméra nécessite HTTPS ou localhost sur le navigateur du kiosque.",
+        "notAllowed": "L'autorisation de la caméra a été refusée.",
+        "notFound": "Aucune caméra n'a été détectée.",
+        "notReadable": "La caméra est déjà utilisée ou indisponible.",
+        "overconstrained": "La caméra ne prend pas en charge les paramètres vidéo demandés.",
+        "generic": "L'accès à la caméra a échoué."
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Lorsque vous vous sentez lésé ou blessé, comment réagissez-vous généralement ?",
+      "answers": [
+        {
+          "text": "J'en parle et j'essaie de comprendre le point de vue de l'autre personne",
+          "organized": 1,
+          "impulsive": 1,
+          "control": 1,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je me retire et planifie soigneusement mon prochain mouvement",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je les affronte immédiatement et avec émotion",
+          "organized": 1,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Je garde rancune et j'attends le bon moment",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Votre réponse au conflit révèle la façon dont vous traitez la colère et contrôlez vos impulsions. Les planificateurs organisés ont tendance à adopter des approches méthodiques, tandis que les types impulsifs réagissent émotionnellement sur le moment.",
+      "image": "images/questions/q01.jpg"
+    },
+    {
+      "id": 2,
+      "question": "Que pensez-vous du fait de garder des secrets ?",
+      "answers": [
+        {
+          "text": "Je suis un livre ouvert - les secrets me mettent mal à l'aise",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je garde certaines choses privées mais je les partage avec des amis proches",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "J'ai beaucoup de secrets et j'apprécie le pouvoir de savoir des choses que les autres ne connaissent pas",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "J'entretiens une double vie élaborée et compartimente soigneusement les informations",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Le compartimentage et le secret sont des traits clés des personnalités manipulatrices. Ceux qui aiment contrôler l’information recherchent souvent le pouvoir grâce à l’asymétrie des connaissances.",
+      "image": "images/questions/q02.jpg"
+    },
+    {
+      "id": 3,
+      "question": "Qu’est-ce qui vous attire vers les autres ?",
+      "answers": [
+        {
+          "text": "Véritable connexion et intérêts partagés",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Des personnes qui peuvent m'aider à atteindre mes objectifs",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Le frisson des nouvelles interactions et conquêtes",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Personnes vulnérables que je peux influencer ou contrôler",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La motivation pour les relations révèle les niveaux d'empathie. Les personnalités prédatrices considèrent les autres comme des outils ou des cibles plutôt que comme des égaux méritant le respect.",
+      "image": "images/questions/q03.jpg"
+    },
+    {
+      "id": 4,
+      "question": "Comment décririez-vous votre espace de vie ou de travail ?",
+      "answers": [
+        {
+          "text": "Chaos confortable - je sais où tout est",
+          "organized": 1,
+          "impulsive": 4,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Relativement organisé avec quelques touches personnelles",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Méticuleusement agencé - chaque chose a sa place",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Stérile et contrôlé – je purge régulièrement les éléments inutiles",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Le contrôle de l'environnement reflète un besoin psychologique d'ordre. Une organisation extrême est souvent corrélée au besoin de contrôler d’autres aspects de la vie.",
+      "image": "images/questions/q04.jpg"
+    },
+    {
+      "id": 5,
+      "question": "Comment réagissez-vous aux changements inattendus dans vos projets ?",
+      "answers": [
+        {
+          "text": "Je suis le courant et je m'adapte facilement",
+          "organized": 1,
+          "impulsive": 3,
+          "control": 1,
+          "social": 4,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je me sens frustré mais j'ajuste mes plans",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je m'énerve et j'essaie de restaurer mon plan initial",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Je ressens une rage intense face à la perte de contrôle",
+          "organized": 5,
+          "impulsive": 5,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La réaction aux perturbations mesure la flexibilité et les déclencheurs de rage. Les personnalités rigides luttent contre l’imprévisibilité et peuvent réagir avec une colère disproportionnée.",
+      "image": "images/questions/q05.jpg"
+    },
+    {
+      "id": 6,
+      "question": "Quel rôle jouez-vous généralement dans les groupes ?",
+      "answers": [
+        {
+          "text": "Le collaborateur qui aide tout le monde à travailler ensemble",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "L'observateur qui regarde de côté",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Le leader qui dirige et prend les décisions",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Le manipulateur qui tire les ficelles en coulisses",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La préférence en matière de rôle social révèle des besoins de domination. Ceux qui recherchent un contrôle secret préfèrent souvent manipuler dans l’ombre plutôt qu’un leadership manifeste.",
+      "image": "images/questions/q06.jpg"
+    },
+    {
+      "id": 7,
+      "question": "Quand vous faites une erreur, comment la gérez-vous ?",
+      "answers": [
+        {
+          "text": "Je le reconnais, je m'excuse et j'en tire des leçons",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "J'essaie de le réparer tranquillement sans attirer l'attention",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je rejette le blâme sur les circonstances ou sur d'autres",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Je le nie complètement ou je réécris le récit",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La responsabilité révèle des tendances narcissiques. L’incapacité à accepter la faute et la tendance à manipuler la réalité sont des marqueurs d’autoprotection pathologique.",
+      "image": "images/questions/q07.jpg"
+    },
+    {
+      "id": 8,
+      "question": "Quel est votre rapport aux règles et à l'autorité ?",
+      "answers": [
+        {
+          "text": "Je respecte les règles et les suis pour l'harmonie sociale",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je suis la plupart des règles mais je remets en question celles qui sont injustes",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je ne respecte les règles que lorsque cela me profite",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Les règles ne s'appliquent pas à moi - je suis au-dessus de ces contraintes",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "L'attitude envers l'autorité révèle des tendances antisociales. La croyance en une exemption personnelle des règles est un trait essentiel des personnalités sociopathes.",
+      "image": "images/questions/q08.jpg"
+    },
+    {
+      "id": 9,
+      "question": "Comment occupez-vous votre temps libre ?",
+      "answers": [
+        {
+          "text": "Socialiser avec les amis et la famille",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Poursuivre des loisirs et des projets créatifs",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Planifier les objectifs et les stratégies futurs",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Observer les autres ou se livrer à des activités solitaires et intenses",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Les choix de loisirs reflètent le lien social plutôt que l’isolement. La préférence pour les activités solitaires et voyeuristes peut indiquer un détachement des liens sociaux normaux.",
+      "image": "images/questions/q09.jpg"
+    },
+    {
+      "id": 10,
+      "question": "Que ressentez-vous lorsque vous voyez quelqu’un d’autre réussir ?",
+      "answers": [
+        {
+          "text": "Heureux pour eux et inspiré",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Motivé pour réaliser mon propre succès",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Envieux et compétitif",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ressenti et déterminé à les saper",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La réponse au succès des autres mesure l’empathie et l’ego. L’envie maligne et le désir de sabotage révèlent une profonde insécurité et un manque de véritable estime de soi.",
+      "image": "images/questions/q10.jpg"
+    },
+    {
+      "id": 11,
+      "question": "Par quel type de média ou de contenu êtes-vous attiré ?",
+      "answers": [
+        {
+          "text": "Comédies, romances et histoires de bien-être",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Documentaires et contenus pédagogiques",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Action, thrillers et vrai crime",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Contenu sombre, violent ou dérangeant",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Les préférences médiatiques peuvent refléter des besoins psychologiques. Un intérêt soutenu pour un contenu violent peut indiquer une désensibilisation ou la réalisation indirecte d’impulsions plus sombres.",
+      "image": "images/questions/q11.jpg"
+    },
+    {
+      "id": 12,
+      "question": "Comment gérer l’ennui ?",
+      "answers": [
+        {
+          "text": "Je contacte des amis ou trouve une activité simple",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je travaille sur une tâche productive ou j'apprends quelque chose de nouveau",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je recherche une excitation ou une stimulation immédiate",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Je crée le chaos ou manipule des situations pour me divertir",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La tolérance à l’ennui révèle l’impulsivité et le besoin de stimulation. Ceux qui créent un drame ou un danger lorsqu’ils sont sous-stimulés peuvent souffrir de pathologies de recherche de sensations.",
+      "image": "images/questions/q12.jpg"
+    },
+    {
+      "id": 13,
+      "question": "Quelle est votre approche pour atteindre vos objectifs à long terme ?",
+      "answers": [
+        {
+          "text": "Je travaille régulièrement avec le soutien de ma communauté",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Je crée des plans détaillés et je m'y tiens",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Je prends des raccourcis et exploite les opportunités",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "J'élimine les obstacles par tous les moyens nécessaires",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Les méthodes de poursuite d’objectifs révèlent une flexibilité morale. La volonté de nuire aux autres pour un gain personnel est une caractéristique de l'agression instrumentale psychopathique.",
+      "image": "images/questions/q13.jpg"
+    },
+    {
+      "id": 14,
+      "question": "Comment décririez-vous votre vie affective ?",
+      "answers": [
+        {
+          "text": "Riche et varié - je ressens profondément",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Équilibré : je vis des hauts et des bas normaux",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Intense et parfois bouleversant",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Peu profondes et sourdes : les émotions semblent distantes ou performatives",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "La profondeur émotionnelle sépare les personnalités empathiques des personnalités insensibles. Les émotions superficielles et les émotions vécues sont des marqueurs classiques de la psychopathie.",
+      "image": "images/questions/q14.jpg"
+    },
+    {
+      "id": 15,
+      "question": "Si vous pouviez avoir un super pouvoir, lequel serait-il ?",
+      "answers": [
+        {
+          "text": "Guérir les autres ou apporter du bonheur",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Super intelligence ou capacités améliorées",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Lecture dans les pensées ou invisibilité",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Contrôle total sur les autres",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Les préférences fantastiques révèlent les désirs les plus profonds. Ceux qui sont obsédés par la domination et le contrôle des autres présentent le noyau de personnalités prédatrices en quête de pouvoir.",
+      "image": "images/questions/q15.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "type": "LE STRATÉGISTE",
+      "label": "ORGANISÉ",
+      "icon": "🧬",
+      "description": "Dans les typologies classiques de la criminologie, un modèle « organisé » est associé à la planification, à la retenue et à la prise de décision délibérée. Vos réponses penchent vers un contrôle structurel d’abord plutôt que vers des réactions impulsives.",
+      "traits": {
+        "organized": "95%",
+        "impulsive": "90%",
+        "control": "95%",
+        "social": "60%"
+      },
+      "characteristics": [
+        "Planifier avant d'agir",
+        "Préfère le contrôle par la préparation",
+        "Reste calme sous la pression",
+        "Suit les détails et le suivi",
+        "Anticipe les conséquences",
+        "Choisit la méthode plutôt que le chaos"
+      ],
+      "minScore": {
+        "organized": 60,
+        "impulsive": 0,
+        "control": 60,
+        "social": 0
+      },
+      "realWorldPattern": "Cette étiquette est une référence thématique et fictive à des typologies bien connues utilisées dans les médias criminels et l'éducation, destinées à correspondre au ton de l'exposition et non à diagnostiquer un comportement."
+    },
+    {
+      "type": "LE SPONTANÉ",
+      "label": "DÉSORGANISÉ",
+      "icon": "⚡",
+      "description": "Dans les typologies classiques de la criminologie, un comportement « désorganisé » est associé à une réactivité et à une faible retenue. Vos réponses tendent à agir sur le moment plutôt qu’à planifier soigneusement.",
+      "traits": {
+        "organized": "25%",
+        "impulsive": "15%",
+        "control": "40%",
+        "social": "30%"
+      },
+      "characteristics": [
+        "Réagit rapidement aux facteurs de stress",
+        "Improvise au lieu de planifier",
+        "Agit par émotion et impulsion",
+        "Change rapidement de direction",
+        "Accepte l'imprévisibilité",
+        "Se penche sur la spontanéité"
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 55,
+        "control": 0,
+        "social": 0
+      },
+      "realWorldPattern": "Cette étiquette est une référence thématique et fictionnelle pour l'exposition. Il décrit un modèle de style de réponse, et non un risque ou une intention du monde réel."
+    },
+    {
+      "type": "LE CHERCHEUR D'EXPÉRIENCE",
+      "label": "HÉDONISTE",
+      "icon": "🌠",
+      "description": "Dans les typologies classiques, les modèles « hédonistes » s’articulent autour de la recherche de sensations et de la gratification. Vos réponses suggèrent que la nouveauté et la stimulation sont de puissants facteurs de motivation.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "45%",
+        "control": "70%",
+        "social": "50%"
+      },
+      "characteristics": [
+        "Cherche la nouveauté et la stimulation",
+        "S'ennuie à cause de la routine",
+        "Intensité et variété des poursuites",
+        "Équilibre le contrôle et la curiosité",
+        "Prend des risques calculés",
+        "Préfère les expériences à la retenue"
+      ],
+      "minScore": {
+        "organized": 40,
+        "impulsive": 40,
+        "control": 50,
+        "social": 0
+      },
+      "realWorldPattern": "Il s'agit d'une étiquette de style exposition inspirée de typologies bien connues ; ce n’est pas un jugement clinique ni moral."
+    },
+    {
+      "type": "LE DIRECTEUR",
+      "label": "PUISSANCE / CONTRÔLE",
+      "icon": "🎯",
+      "description": "Dans les typologies classiques, les modèles « pouvoir/contrôle » mettent l'accent sur la domination, la définition d'une direction et le contrôle des résultats. Vos réponses tendent à piloter les situations plutôt qu’à s’y adapter.",
+      "traits": {
+        "organized": "80%",
+        "impulsive": "70%",
+        "control": "95%",
+        "social": "40%"
+      },
+      "characteristics": [
+        "Veut orienter les résultats",
+        "Pousse pour un contrôle clair",
+        "Définit les rôles, les règles et la direction",
+        "Préfère une action décisive",
+        "N'aime pas perdre de l'effet de levier",
+        "Mesure le succès par l’influence"
+      ],
+      "minScore": {
+        "organized": 45,
+        "impulsive": 0,
+        "control": 65,
+        "social": 0
+      },
+      "realWorldPattern": "Il s'agit d'une étiquette thématique pour l'exposition qui reflète des réponses orientées vers le contrôle, et non un comportement du monde réel."
+    },
+    {
+      "type": "L'idéaliste déterminé",
+      "label": "ORIENTÉ MISSION",
+      "icon": "🚀",
+      "description": "Dans les typologies classiques, les modèles « axés sur la mission » s'articulent autour d'un objectif ou d'une cause auto-justifiés. Vos réponses penchent vers des décisions fondées sur des principes et une idée du « pourquoi » derrière l'action.",
+      "traits": {
+        "organized": "75%",
+        "impulsive": "65%",
+        "control": "60%",
+        "social": "55%"
+      },
+      "characteristics": [
+        "Agit dans un but défini",
+        "Encadre les choix comme \"nécessaires\"",
+        "Préfère la discipline à l'impulsion",
+        "Justifie les décisions avec des principes",
+        "Pense aux résultats à long terme",
+        "Reste engagé une fois décidé"
+      ],
+      "minScore": {
+        "organized": 50,
+        "impulsive": 0,
+        "control": 45,
+        "social": 35
+      },
+      "realWorldPattern": "Cette étiquette est utilisée uniquement pour la narration d'expositions, inspirée du langage typologique souvent référencé dans l'enseignement de la criminologie."
+    },
+    {
+      "type": "L'INDIVIDU ÉQUILIBRÉ",
+      "label": "VISIONNAIRE",
+      "icon": "⚖️",
+      "description": "Dans les typologies classiques, le terme « visionnaire » s’articule autour d’un récit interne qui semble convaincant ou primordial. Vos réponses suggèrent que les décisions sont influencées par l’instinct, l’histoire et l’interprétation plutôt que par une structure externe stricte.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "65%",
+        "control": "40%",
+        "social": "85%"
+      },
+      "characteristics": [
+        "Suit un récit interne",
+        "Lit le sens des événements",
+        "S'appuie sur l'intuition et l'interprétation",
+        "Alterne entre calme et intensité",
+        "Adapte l'histoire pour s'adapter aux nouvelles informations",
+        "Se déplace quand \"cela semble inévitable\""
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 0,
+        "control": 0,
+        "social": 50
+      },
+      "realWorldPattern": "Étiquette de style exposition uniquement. Il décrit un modèle de réponse utilisé pour le cadrage narratif et non pour l’évaluation de la santé mentale."
+    }
+  ],
+  "researchProfiles": {
+    "THE STRATEGIST": {
+      "notes": [
+        "Préfère les listes de contrôle et les jalons clairs.",
+        "Garde un ton calme lorsque les décisions sont urgentes.",
+        "Utilise des plans de sauvegarde avant de s’engager.",
+        "Cartographie visuellement les risques et les options.",
+        "Partage tôt ses attentes avec les autres."
+      ],
+      "locations": [
+        "Tableaux de projet",
+        "Bureaux silencieux",
+        "Séances de planification"
+      ],
+      "alias": [
+        "Organisé",
+        "Méthodique",
+        "Le planificateur"
+      ]
+    },
+    "THE SPONTANEOUS": {
+      "notes": [
+        "Dynamisé par un changement rapide.",
+        "Parle librement de ses sentiments.",
+        "Adapte les plans sur place.",
+        "Trouve rapidement des angles créatifs.",
+        "Privilégie la liberté à la routine."
+      ],
+      "locations": [
+        "Événements pop-up",
+        "Places occupées",
+        "Studios de création"
+      ],
+      "alias": [
+        "Désorganisé",
+        "Le réacteur",
+        "Imprévisible"
+      ]
+    },
+    "THE EXPERIENCE SEEKER": {
+      "notes": [
+        "Recherche de nouvelles expériences chaque semaine.",
+        "Préfère les activités immersives.",
+        "Les soldes se préparent avec surprise.",
+        "Cherche des histoires mémorables.",
+        "Excité par les détails sensoriels."
+      ],
+      "locations": [
+        "Marchés nocturnes",
+        "Lieux en direct",
+        "Centres de voyage"
+      ],
+      "alias": [
+        "Hédoniste",
+        "Chercheur de sensations fortes",
+        "Chasseur de sensations"
+      ]
+    },
+    "THE DIRECTOR": {
+      "notes": [
+        "Fixe les priorités du groupe.",
+        "Garde les rôles et les délais clairs.",
+        "Confortable pour passer des appels.",
+        "Valorise la responsabilité.",
+        "Cherche des chemins efficaces."
+      ],
+      "locations": [
+        "Salles de réunion",
+        "Studios en production",
+        "Réunions d'équipe"
+      ],
+      "alias": [
+        "Alimentation/Contrôle",
+        "Le contrôleur",
+        "Le dominateur"
+      ]
+    },
+    "THE PURPOSEFUL IDEALIST": {
+      "notes": [
+        "Fonder les décisions sur des principes.",
+        "Lie les tâches à une mission.",
+        "Investit dans des causes significatives.",
+        "Recherche un impact à long terme.",
+        "Inspire les autres avec un but."
+      ],
+      "locations": [
+        "Espaces communautaires",
+        "Ateliers",
+        "Retraites stratégiques"
+      ],
+      "alias": [
+        "Orienté vers la mission",
+        "Le croisé",
+        "Le puriste"
+      ]
+    },
+    "THE BALANCED INDIVIDUAL": {
+      "notes": [
+        "Écoute avant d'agir.",
+        "Maintient les émotions et la logique alignées.",
+        "Maintient des routines stables.",
+        "Fait preuve d’une empathie constante.",
+        "Changement de vitesse confortable."
+      ],
+      "locations": [
+        "Centres communautaires",
+        "Bureaux",
+        "Maisons"
+      ],
+      "alias": [
+        "Visionnaire",
+        "L'interprète",
+        "Le Prophète"
+      ]
+    }
+  },
+  "poster": {
+    "header": "DÉPARTEMENT D'ENQUÊTE",
+    "subHeader": "DOSSIER DE RÉFLEXION",
+    "sealCode": "UFPD07OFF002274",
+    "intended": "Pour un aperçu personnel uniquement.",
+    "separatorCode": "P034",
+    "labels": {
+      "fileNumber": "ID DE SESSION",
+      "purposeCode": "CODE DE CONCENTRATION",
+      "sruId": "ID D'EXÉCUTION",
+      "name": "NOM",
+      "aliases": "AKA",
+      "recordId": "ID DE PROFIL",
+      "nationality": "CONTEXTE",
+      "citizen": "RÉGLAGE",
+      "gender": "MODÈLE",
+      "race": "ÉQUILIBRE DES CARACTÉRISTIQUES",
+      "height": "ÉNERGIE",
+      "weight": "RYTHME",
+      "eyeColor": "POINT DE VUE",
+      "hairColor": "VIBE",
+      "dob": "DÉBUT",
+      "age": "ÉTAT",
+      "arrestSection": "APERÇU DE LA SÉANCE",
+      "date": "SCÈNE",
+      "offenseCode": "ÉTIQUETTE",
+      "institution": "CONTEXTE",
+      "charge": "NOTE DE RÉACTION",
+      "term": "ÉNERGIE",
+      "fingerprints": "REMARQUES",
+      "otherInfo": "AUTRES INFORMATIONS",
+      "stampFiled": "ENREGISTRÉ",
+      "exhibitionFallback": "EXPOSITION"
+    },
+    "defaults": {
+      "name": "[SUPPRIMÉ]",
+      "aliases": "[SUPPRIMÉ]",
+      "nationality": "[SUPPRIMÉ]",
+      "citizen": "[SUPPRIMÉ]",
+      "gender": "[SUPPRIMÉ]",
+      "race": "[SUPPRIMÉ]",
+      "height": "[SUPPRIMÉ]",
+      "weight": "[SUPPRIMÉ]",
+      "eyeColor": "[SUPPRIMÉ]",
+      "hairColor": "[SUPPRIMÉ]",
+      "dob": "[SUPPRIMÉ]",
+      "age": "[SUPPRIMÉ]",
+      "arrests": [
+        {
+          "institution": "SÉANCE",
+          "charge": "En attente de réponses",
+          "term": "N/A"
+        }
+      ],
+      "defaultRedaction": "[CACHÉ]",
+      "defaultUnknown": "INCONNU"
+    },
+    "otherInfoFallback": [
+      "* Profil en construction",
+      "en attente d'un instantané de la caméra.",
+      "Les notes de session seront actualisées",
+      "après vos réponses.",
+      "Conçu pour l’introspection.",
+      "Partagez ou téléchargez lorsque vous êtes prêt."
+    ],
+    "notes": {
+      "subjectProfile": "PROFIL : {type}",
+      "divider": "--------------------------------",
+      "psychEval": "SENSATION DE CONTRÔLE : {control}"
+    },
+    "compose": {
+      "subjectProfile": "PROFIL : {type}",
+      "knownLocations": "POINTS D'ANCRAGE",
+      "stats": "STYLE O:{o}% I:{i}% C:{c}% S:{s}%"
+    },
+    "charges": {
+      "THE STRATEGIST": [
+        {
+          "charge": "PLANS STRUCTURÉS",
+          "term": "NOYAU"
+        },
+        {
+          "charge": "DES DÉCISIONS CALMES",
+          "term": "ÉLEVÉ"
+        },
+        {
+          "charge": "CHEMINS DE SAUVEGARDE",
+          "term": "PRÊT"
+        },
+        {
+          "charge": "SUIVI DE DÉTAILS",
+          "term": "SOLIDE"
+        },
+        {
+          "charge": "SIGNAUX CLAIRS",
+          "term": "FORT"
+        }
+      ],
+      "THE SPONTANEOUS": [
+        {
+          "charge": "RÉAGIR INSTANTANÉMENT",
+          "term": "ALLER"
+        },
+        {
+          "charge": "LED ÉMOTION",
+          "term": "ÉLEVÉ"
+        },
+        {
+          "charge": "AIME LE CHANGEMENT",
+          "term": "MAXIMUM"
+        },
+        {
+          "charge": "RÉGIME FLEXIBLE",
+          "term": "LUMIÈRE"
+        },
+        {
+          "charge": "ÉTINCELLE CRÉATIVE",
+          "term": "LUMINEUX"
+        }
+      ],
+      "THE EXPERIENCE SEEKER": [
+        {
+          "charge": "RECHERCHE LA NOUVEAUTÉ",
+          "term": "AUDACIEUX"
+        },
+        {
+          "charge": "RISQUE LUDIQUE",
+          "term": "ÉPICES"
+        },
+        {
+          "charge": "CRÉATEUR D'HISTOIRE",
+          "term": "EN DIRECT"
+        },
+        {
+          "charge": "MIXES PLAN/JOUER",
+          "term": "HYBRIDE"
+        },
+        {
+          "charge": "CONCENTRATION SENSORIELLE",
+          "term": "ÉLEVÉ"
+        }
+      ],
+      "THE DIRECTOR": [
+        {
+          "charge": "FIXE LA DIRECTION",
+          "term": "CHEF"
+        },
+        {
+          "charge": "ÉQUIPE DE COORDONNÉES",
+          "term": "SYNCHRONISATION"
+        },
+        {
+          "charge": "APPELS DÉCISIFS",
+          "term": "RAPIDE"
+        },
+        {
+          "charge": "GARDE UNE VUE D'ENSEMBLE",
+          "term": "CLAIR"
+        },
+        {
+          "charge": "TIENT RESPONSABLE",
+          "term": "STABLE"
+        }
+      ],
+      "THE PURPOSEFUL IDEALIST": [
+        {
+          "charge": "MISSION D'ABORD",
+          "term": "NOYAU"
+        },
+        {
+          "charge": "AXÉS SUR LES VALEURS",
+          "term": "ANCRE"
+        },
+        {
+          "charge": "VUE LONGUE",
+          "term": "LOIN"
+        },
+        {
+          "charge": "CONSTRUCTEUR DE CAUSE",
+          "term": "CONSTRUIRE"
+        },
+        {
+          "charge": "INSPIRE LES AUTRES",
+          "term": "ASCENSEUR"
+        }
+      ],
+      "THE BALANCED INDIVIDUAL": [
+        {
+          "charge": "HUMEUR STABLE",
+          "term": "CALME"
+        },
+        {
+          "charge": "EMPATHIQUE",
+          "term": "CHAUD"
+        },
+        {
+          "charge": "RÉPONSE ÉQUILIBRÉE",
+          "term": "NIVEAU"
+        },
+        {
+          "charge": "DES LIMITES SAINES",
+          "term": "CLAIR"
+        },
+        {
+          "charge": "ÉNERGIE CENTRÉE",
+          "term": "STABLE"
+        }
+      ],
+      "DEFAULT": [
+        {
+          "charge": "NOTE DE SÉANCE",
+          "term": "EN ATTENTE"
+        }
+      ]
+    }
+  }
+}

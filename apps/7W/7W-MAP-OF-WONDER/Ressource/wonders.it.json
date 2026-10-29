@@ -1,0 +1,776 @@
+[
+  {
+    "id": "great_pyramid_giza",
+    "name": "Grande Piramide di Giza",
+    "cat": "Ancient",
+    "xy": [
+      1295,
+      405
+    ],
+    "location": "Altopiano di Giza, Egitto",
+    "dateBuilt": "2560 a.C.",
+    "dateDestroyed": "Oggi",
+    "history": "La Grande Piramide di Giza, costruita per il faraone Cheope intorno al 2560 a.C., è l'unica Meraviglia del Mondo Antico giunta fino a noi. Un tempo rivestita di lucente calcare bianco e sormontata da un apice dorato, svettava oltre i 146 metri (480 piedi): per quasi 4.000 anni è stata la struttura più alta della Terra. Composta da circa 2,3 milioni di blocchi posati con estrema precisione, simboleggiava la regalità divina e la maestria egizia nell'ingegneria, nell'astronomia e nell'organizzazione del lavoro. La sua geometria perfetta, allineata alle stelle, rifletteva la fede degli Egizi nell'eternità, guidando l'anima del re verso i cieli. Millenni dopo, continua a incarnare l'ambizione umana scolpita nella pietra.",
+    "overview": "La Grande Piramide di Giza, costruita per il faraone Cheope intorno al 2560 a.C., è l'unica Meraviglia del Mondo Antico giunta fino a noi. Un tempo rivestita di lucente calcare bianco e sormontata da un apice dorato, svettava oltre i 146 metri (480 piedi): per quasi 4.000 anni è stata la struttura più alta della Terra. Composta da circa 2,3 milioni di blocchi posati con estrema precisione, simboleggiava la regalità divina e la maestria egizia nell'ingegneria, nell'astronomia e nell'organizzazione del lavoro. La sua geometria perfetta, allineata alle stelle, rifletteva la fede degli Egizi nell'eternità, guidando l'anima del re verso i cieli. Millenni dopo, continua a incarnare l'ambizione umana scolpita nella pietra.",
+    "primaryImage": {
+      "ref": "BXMAT5",
+      "caption": null,
+      "asset": "Ressource/wonder-images/PYRAMID/BXMAT5.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Ha detenuto il titolo di struttura costruita dall'uomo più alta del mondo per oltre 3.800 anni, fino alla costruzione della cattedrale di Lincoln, in Inghilterra.",
+        "imageRef": "K34AXP",
+        "caption": "Veduta della piramide e del Nilo: un tempo la piramide sorgeva accanto alla antica piana alluvionale del Nilo, incorniciata dal fiume e dal deserto. Il Nilo fu essenziale per trasportare le pietre con cui furono costruite le piramidi.",
+        "asset": "Ressource/wonder-images/PYRAMID/K34AXP.jpg"
+      },
+      {
+        "text": "Ogni lato della base misurava in origine circa 230 metri (755 piedi) e copriva più di 5 ettari.",
+        "imageRef": "2AAP5FE",
+        "caption": "Ricostruzione di una pietra del rivestimento originale: il liscio rivestimento in calcare e il vertice dorato riflettevano la luce del sole, rendendo la struttura visibile a chilometri di distanza.",
+        "asset": "Ressource/wonder-images/PYRAMID/2AAP5FE.jpg"
+      },
+      {
+        "text": "Si stima che la piramide sia costruita con 2,3 milioni di blocchi di pietra, molti dei quali pesano da 2 a 15 tonnellate ciascuno.",
+        "imageRef": "BC671N",
+        "caption": "Scavo dell'insediamento degli operai: gli archeologi hanno portato alla luce un villaggio di operai ben pianificato, che dimostra come la manodopera fosse organizzata, nutrita e alloggiata, e non composta da schiavi.",
+        "asset": "Ressource/wonder-images/PYRAMID/BC671N.jpg"
+      },
+      {
+        "text": "La precisione della costruzione è sbalorditiva: la base è livellata con una tolleranza di ±21 mm e i quattro lati differiscono in lunghezza di pochi centimetri.",
+        "imageRef": "K34AXP",
+        "caption": "Interno della Camera del Re: enormi travi di granito dal peso di decine di tonnellate formano il soffitto della camera funeraria di Cheope, un'impresa ingegneristica ancora non del tutto spiegata.",
+        "asset": "Ressource/wonder-images/PYRAMID/K34AXP.jpg"
+      },
+      {
+        "text": "Per secoli si è creduto che fosse stata costruita da schiavi, ma gli scavi dei villaggi degli operai dimostrano che a edificarla furono lavoratori specializzati e retribuiti.",
+        "imageRef": "2X75GGP",
+        "caption": "Schema dell'orientamento: i lati della piramide si discostano dal vero nord per meno di un ventesimo di grado, a testimonianza dell'abilità degli antichi agrimensori.",
+        "asset": "Ressource/wonder-images/PYRAMID/2X75GGP.jpg"
+      }
+    ],
+    "video": "videos/giza_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/PYRAMID/BXMAT5.jpg"
+  },
+  {
+    "id": "hanging_gardens_babylon",
+    "name": "Giardini Pensili di Babilonia",
+    "cat": "Ancient",
+    "xy": [
+      1385,
+      380
+    ],
+    "location": "Governatorato di Babilonia, Iraq",
+    "dateBuilt": "600 a.C.",
+    "dateDestroyed": "200 a.C. (circa)",
+    "history": "I Giardini Pensili di Babilonia furono descritti dagli autori classici come una rigogliosa montagna terrazzata di verde sospesa sull'arida pianura mesopotamica. Secondo la leggenda, furono fatti costruire dal re Nabucodonosor II intorno al 600 a.C. per la moglie meda, la regina Amitis, che sentiva nostalgia dei paesaggi montuosi e dei boschi. Le terrazze a cascata, gli alberi esotici, i rampicanti in fiore e il sofisticato sistema di irrigazione ne fecero una delle Meraviglie più celebri del Mondo Antico. Tuttavia non è mai stata trovata alcuna prova archeologica definitiva del sito, e gli studiosi moderni ipotizzano persino che i giardini si trovassero nella vicina Ninive e non a Babilonia. È anche possibile che siano stati immaginati da autori che si basavano su altri racconti apocrifi. Al di là della questione della loro esistenza, rappresentano l'ambizione del mondo antico di imbrigliare la forza della natura e restano ancora oggi la meraviglia più affascinante e misteriosa del mondo.",
+    "overview": "I Giardini Pensili di Babilonia furono descritti dagli autori classici come una rigogliosa montagna terrazzata di verde sospesa sull'arida pianura mesopotamica. Secondo la leggenda, furono fatti costruire dal re Nabucodonosor II intorno al 600 a.C. per la moglie meda, la regina Amitis, che sentiva nostalgia dei paesaggi montuosi e dei boschi. Le terrazze a cascata, gli alberi esotici, i rampicanti in fiore e il sofisticato sistema di irrigazione ne fecero una delle Meraviglie più celebri del Mondo Antico. Tuttavia non è mai stata trovata alcuna prova archeologica definitiva del sito, e gli studiosi moderni ipotizzano persino che i giardini si trovassero nella vicina Ninive e non a Babilonia. È anche possibile che siano stati immaginati da autori che si basavano su altri racconti apocrifi. Al di là della questione della loro esistenza, rappresentano l'ambizione del mondo antico di imbrigliare la forza della natura e restano ancora oggi la meraviglia più affascinante e misteriosa del mondo.",
+    "primaryImage": {
+      "ref": "HM3BMX",
+      "caption": null,
+      "asset": "Ressource/wonder-images/BABYLONE/HM3BMX.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "La parola greca «kremastos», usata per descrivere i giardini, significa «sporgente» o «sospeso», non «appeso a delle viti».",
+        "imageRef": "H2PKM2",
+        "caption": "Ricostruzione artistica dei Giardini Pensili: una visione di terrazze a gradoni coronate di verde, che evoca una montagna artificiale di piante creata per il piacere dei sovrani.",
+        "asset": "Ressource/wonder-images/BABYLONE/H2PKM2.jpg"
+      },
+      {
+        "text": "Le fonti classiche descrivono i giardini di forma approssimativamente quadrata, con lati di circa quattro pletri (circa 100-120 metri, ovvero 330-393 piedi) e mura spesse oltre 6,5 metri (22 piedi).",
+        "imageRef": "J3T1HC",
+        "caption": "Schema del sistema di irrigazione: gli autori classici descrivono macchine e viti idrauliche che sollevavano l'acqua dell'Eufrate per irrigare il giardino in quota, un'innovazione idraulica dell'antichità.",
+        "asset": "Ressource/wonder-images/BABYLONE/J3T1HC.jpg"
+      },
+      {
+        "text": "Secondo le fonti, l'irrigazione dei giardini si serviva di macchine idrauliche che pompavano l'acqua dal fiume Eufrate fino alle terrazze sopraelevate.",
+        "imageRef": "2BTPAG6",
+        "caption": "Veduta aerea delle rovine di Babilonia: il sito moderno di Babilonia, in Iraq. Pur non indicando l'esatta posizione dei giardini, aiuta a dare un'idea della scala della città antica.",
+        "asset": "Ressource/wonder-images/BABYLONE/2BTPAG6.jpg"
+      },
+      {
+        "text": "Gli archeologi non hanno mai individuato con certezza i giardini a Babilonia, e un'autorevole teoria li attribuisce invece al re assiro Sennacherib a Ninive.",
+        "imageRef": "G15HGN",
+        "caption": "Illustrazione della struttura terrazzata ad archi: le descrizioni parlano di archi a volta che sostenevano il peso della terra e delle piantagioni, un'opera ingegneristica pensata per far crescere una vegetazione rigogliosa sopra il suolo.",
+        "asset": "Ressource/wonder-images/BABYLONE/G15HGN.jpg"
+      },
+      {
+        "text": "I giardini facevano parte dell'elenco canonico delle Sette Meraviglie del Mondo Antico, ma sono l'unica voce la cui stessa esistenza resta incerta.",
+        "imageRef": "2FM19K3",
+        "caption": "Rilievo classico con scena di giardino di palazzo: pur non raffigurando con certezza i Giardini Pensili, alcuni rilievi assiri e babilonesi mostrano giardini rigogliosi e sopraelevati.",
+        "asset": "Ressource/wonder-images/BABYLONE/2FM19K3 (1).jpg"
+      }
+    ],
+    "video": "videos/babylon_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/BABYLONE/HM3BMX.jpg"
+  },
+  {
+    "id": "temple_artemis_ephesus",
+    "name": "Tempio di Artemide a Efeso",
+    "cat": "Ancient",
+    "xy": [
+      1285,
+      340
+    ],
+    "location": "Selçuk, Turchia",
+    "dateBuilt": "550 a.C.",
+    "dateDestroyed": "401 d.C.",
+    "history": "Il Tempio di Artemide a Efeso era un monumentale omaggio alla dea Artemide, protettrice della natura, del parto e delle bestie selvatiche. Fu edificato sulla costa ionica intorno al 550 a.C. con il patrocinio di Creso di Lidia. Esteso su un'area quasi doppia rispetto al Partenone, con i suoi lucenti colonnati di marmo, le decorazioni scolpite e la ricca statua di culto, era un santuario splendente di fede e orgoglio civico. Ricostruito più volte dopo incendi e invasioni, il suo prestigio sopravvisse fino all'età romana, prima della distruzione definitiva all'inizio del V secolo. Una delle poche meraviglie aperte a tutti e l'unica a celebrare le donne, il tempio è ricordato come il più magnifico esempio di architettura ellenistica mai costruito.",
+    "overview": "Il Tempio di Artemide a Efeso era un monumentale omaggio alla dea Artemide, protettrice della natura, del parto e delle bestie selvatiche. Fu edificato sulla costa ionica intorno al 550 a.C. con il patrocinio di Creso di Lidia. Esteso su un'area quasi doppia rispetto al Partenone, con i suoi lucenti colonnati di marmo, le decorazioni scolpite e la ricca statua di culto, era un santuario splendente di fede e orgoglio civico. Ricostruito più volte dopo incendi e invasioni, il suo prestigio sopravvisse fino all'età romana, prima della distruzione definitiva all'inizio del V secolo. Una delle poche meraviglie aperte a tutti e l'unica a celebrare le donne, il tempio è ricordato come il più magnifico esempio di architettura ellenistica mai costruito.",
+    "primaryImage": {
+      "ref": "2PPXMMK",
+      "caption": null,
+      "asset": "Ressource/wonder-images/ARTEMIS/2PPXMMK.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Il tempio era interamente in marmo e misurava fino a circa 129,5 m (425 piedi) di lunghezza, il che lo rendeva uno dei più grandi templi greci mai eretti.",
+        "imageRef": "2AGNWGF",
+        "caption": "L'unica colonna ancora in piedi a Selçuk: l'unico pilastro che si innalza tra le canne segna l'impronta originaria del tempio, evocandone l'antica grandezza.",
+        "asset": "Ressource/wonder-images/ARTEMIS/2JC52GC.jpg"
+      },
+      {
+        "text": "Aveva circa 127 colonne ioniche, ciascuna alta circa 18 m (60 piedi), disposte su una doppia fila attorno alla cella.",
+        "imageRef": "2YKNY2K",
+        "caption": "Frammento di fregio: un rilievo in marmo raffigurante le Amazzoni, un richiamo alla natura selvaggia e protettrice di Artemide.",
+        "asset": "Ressource/wonder-images/ARTEMIS/2JMMY2P.jpg"
+      },
+      {
+        "text": "Nel 356 a.C. il tempio fu deliberatamente incendiato da un piromane di nome Erostrato, che cercava la fama attraverso la distruzione: il suo nome fu condannato a non essere pronunciato.",
+        "imageRef": "PJE9HM",
+        "caption": "Capitelli di colonne in rovina: tamburi e capitelli sparsi rivelano la raffinata maestria che caratterizzava l'architettura ionica.",
+        "asset": "Ressource/wonder-images/ARTEMIS/ChatGPT Image 7 nov. 2025, 15_27_49.png"
+      },
+      {
+        "text": "Il sito non aveva solo scopi religiosi, ma fungeva anche da mercato e da banca: il tesoro del tempio accettava depositi e offriva asilo ai supplici.",
+        "imageRef": "2JNFJ7M",
+        "caption": "Fondamenta archeologiche: gli scavi moderni mostrano l'ingegneria nascosta sotto il tempio, con fondazioni a strati costruite per resistere alle inondazioni e ai terremoti.",
+        "asset": "Ressource/wonder-images/ARTEMIS/G1CT34.jpg"
+      },
+      {
+        "text": "Oggi a Efeso rimane in piedi, nella sua posizione originaria, una sola colonna; il resto è andato perduto a causa di terremoti, incendi, saccheggi e del passare del tempo.",
+        "imageRef": null,
+        "caption": null,
+        "asset": "Ressource/wonder-images/ARTEMIS/HR1WYW.jpg"
+      }
+    ],
+    "video": "videos/artemis_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/ARTEMIS/2PPXMMK.jpg"
+  },
+  {
+    "id": "statue_zeus_olympia",
+    "name": "Statua di Zeus a Olimpia",
+    "cat": "Ancient",
+    "xy": [
+      1240,
+      350
+    ],
+    "location": "Elide, Grecia",
+    "dateBuilt": "435 a.C.",
+    "dateDestroyed": "450 d.C. circa",
+    "history": "La Statua di Zeus a Olimpia era un capolavoro monumentale. Realizzata con la tecnica crisoelefantina, con oro e avorio su un'anima di legno, fu eseguita dallo scultore Fidia intorno al 435 a.C. per il grande Tempio di Zeus a Olimpia. Alta circa 12 m (40 piedi), la figura del re degli dèi, seduto in trono, reggeva nella mano destra una statuetta della Nike e nella sinistra uno scettro sormontato da un'aquila. Indossava sandali d'oro e il suo manto era decorato con gigli e animali.\nLa statua è un simbolo eterno della potenza di Zeus nella cultura greca e il massimo traguardo dell'arte ellenica. Benché perduta da tempo, la sua eredità continua a vivere.",
+    "overview": "La Statua di Zeus a Olimpia era un capolavoro monumentale. Realizzata con la tecnica crisoelefantina, con oro e avorio su un'anima di legno, fu eseguita dallo scultore Fidia intorno al 435 a.C. per il grande Tempio di Zeus a Olimpia. Alta circa 12 m (40 piedi), la figura del re degli dèi, seduto in trono, reggeva nella mano destra una statuetta della Nike e nella sinistra uno scettro sormontato da un'aquila. Indossava sandali d'oro e il suo manto era decorato con gigli e animali.\nLa statua è un simbolo eterno della potenza di Zeus nella cultura greca e il massimo traguardo dell'arte ellenica. Benché perduta da tempo, la sua eredità continua a vivere.",
+    "primaryImage": {
+      "ref": "2HAN0KW",
+      "caption": null,
+      "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+    },
+    "quickFacts": [
+      {
+        "text": "La statua era alta circa 12 m (40 piedi): una figura seduta così imponente che, stando alle descrizioni, se Zeus si fosse alzato in piedi avrebbe sfondato il tetto del tempio.",
+        "imageRef": "HRKRMR",
+        "caption": "Disegno ricostruttivo della statua nella sua collocazione originaria: la rappresentazione di un artista moderno di Zeus in trono nella cella del tempio, che sovrasta i fedeli, rivestito di oro e avorio.",
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      },
+      {
+        "text": "La statua fu realizzata con la tecnica crisoelefantina: avorio per la pelle, oro per le vesti e gli accessori, montati su un trono di cedro decorato con ebano, avorio, oro e pietre preziose.",
+        "imageRef": "PDFYED",
+        "caption": "Monete e gemme incise raffiguranti la statua: la moneta antica rappresentava Zeus in trono, fornendo prove fondamentali sull'aspetto della statua, dato che l'originale è andato perduto.",
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      },
+      {
+        "text": "Nella mano destra Zeus reggeva una statuetta della dea Nike, dea della Vittoria, simbolo del suo trionfo.",
+        "imageRef": "2BC1FC0",
+        "caption": "Resti del Tempio di Zeus a Olimpia: la camera interna in cui sorgeva la statua, oggi un silenzioso rudere, ma carico del peso della meraviglia e della storia.",
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      },
+      {
+        "text": "Nella mano sinistra Zeus reggeva uno scettro sormontato da un'aquila, simbolo del suo potere.",
+        "imageRef": "MANRD6",
+        "caption": "L'officina di Fidia a Olimpia: gli archeologi hanno individuato lo studio dello scultore vicino al santuario, dove probabilmente furono assemblate parti della statua.",
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      },
+      {
+        "text": "La statua fu realizzata per il Tempio di Zeus (costruito intorno al 466-456 a.C.), ma fu creata un po' più tardi, circa un decennio dopo il completamento del tempio.",
+        "imageRef": "3CEY56D",
+        "caption": "Ricostruzione di un dettaglio crisoelefantino in avorio e oro: primo piano che mostra come gli antichi scultori sovrapponessero avorio e oro per rendere in un'unica figura la carne, le vesti e la divinità.",
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      },
+      {
+        "text": "Benché un tempo attirasse pellegrini da tutto il mondo greco, la statua fu distrutta da un incendio o da un terremoto nella tarda antichità.",
+        "imageRef": null,
+        "caption": null,
+        "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+      }
+    ],
+    "video": "videos/zeus_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/ZEUS/zeus.png"
+  },
+  {
+    "id": "mausoleum_halicarnassus",
+    "name": "Mausoleo di Alicarnasso",
+    "cat": "Ancient",
+    "xy": [
+      1290,
+      360
+    ],
+    "location": "Bodrum, Turchia",
+    "dateBuilt": "351 a.C.",
+    "dateDestroyed": "1400 d.C. circa",
+    "history": "Il Mausoleo di Alicarnasso fu costruito come tomba di Mausolo, sovrano della Caria. Fu voluto dalla sorella e sposa Artemisia II di Caria e completato intorno al 351 a.C. Alto circa 45 metri (~150 piedi), l'imponente edificio di marmo a più livelli univa colonnati ionici, un tetto a gradoni a forma di piramide e una grande scultura di una quadriga sulla sommità. Fondeva influenze architettoniche greche, licie e persiane, ed era ornato di rilievi e statue dei maggiori scultori dell'epoca. Per oltre 1.600 anni dominò il porto di Alicarnasso, e la sua fama fu tale che la parola «mausoleo» è entrata nell'uso comune per indicare le grandi tombe.",
+    "overview": "Il Mausoleo di Alicarnasso fu costruito come tomba di Mausolo, sovrano della Caria. Fu voluto dalla sorella e sposa Artemisia II di Caria e completato intorno al 351 a.C. Alto circa 45 metri (~150 piedi), l'imponente edificio di marmo a più livelli univa colonnati ionici, un tetto a gradoni a forma di piramide e una grande scultura di una quadriga sulla sommità. Fondeva influenze architettoniche greche, licie e persiane, ed era ornato di rilievi e statue dei maggiori scultori dell'epoca. Per oltre 1.600 anni dominò il porto di Alicarnasso, e la sua fama fu tale che la parola «mausoleo» è entrata nell'uso comune per indicare le grandi tombe.",
+    "primaryImage": {
+      "ref": "KR5JXX",
+      "caption": null,
+      "asset": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "La tomba fu costruita dagli architetti greci Satiro e Piteo di Priene e decorata dagli scultori Leocare, Briasside, Scopa e Timoteo.",
+        "imageRef": "J235H6",
+        "caption": "Ricostruzione del Mausoleo di Alicarnasso: una rappresentazione moderna che mostra la struttura a più livelli sopra il porto della città, unendo la forma del tempio al monumento funebre.",
+        "asset": "Ressource/wonder-images/MAUSOLEUM/BT5F2P.jpg"
+      },
+      {
+        "text": "Sorgeva su un grande podio, circondato da 36 colonne ioniche, ed era coronato da una piramide a 24 gradini sormontata da una quadriga con le sculture di Mausolo e Artemisia.",
+        "imageRef": "BT5K8C",
+        "caption": "Frammenti di rilievo dal Mausoleo (British Museum): primo piano delle scene di Amazzonomachia e di battaglia tra centauri e lapiti che un tempo decoravano le pareti del podio.",
+        "asset": "Ressource/wonder-images/MAUSOLEUM/BT5K8C.jpg"
+      },
+      {
+        "text": "Il monumento era così celebre che il termine «mausoleo» (derivato dal nome di Mausolo) designa oggi in generale qualsiasi grande tomba fuori terra.",
+        "imageRef": "AHNR67",
+        "caption": "Rovine di Bodrum, Turchia: il sito archeologico oggi, dove fondamenta e blocchi sparsi segnano l'impronta dell'un tempo colossale monumento.",
+        "asset": "Ressource/wonder-images/MAUSOLEUM/ChatGPT Image 7 nov. 2025, 15_12_28.png"
+      },
+      {
+        "text": "Pur rimasto intatto per secoli, il Mausoleo fu smantellato dopo una serie di terremoti tra il XII e il XV secolo, e gran parte del suo marmo fu riutilizzata dai Cavalieri di San Giovanni per il castello di Bodrum.",
+        "imageRef": "MF6C2G",
+        "caption": "Cavallo del gruppo della quadriga: oggi al British Museum, questo cavallo faceva parte della quadriga che coronava il mausoleo e trainava Mausolo e Artemisia sul carro.",
+        "asset": "Ressource/wonder-images/MAUSOLEUM/D98896.jpg"
+      },
+      {
+        "text": "I suoi rilievi decorativi, che raffigurano battaglie mitiche come l'Amazzonomachia, sono oggi conservati nei musei (ad esempio il British Museum) e sono fonti essenziali per ricostruirne l'aspetto.",
+        "imageRef": "F7NFTH",
+        "caption": "Tamburi e capitelli di colonne in marmo: i resti mostrano la raffinata lavorazione del marmo e la scala ambiziosa della facciata originale.",
+        "asset": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+      }
+    ],
+    "video": "videos/mausoleum_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+  },
+  {
+    "id": "colossus_rhodes",
+    "name": "Colosso di Rodi",
+    "cat": "Ancient",
+    "xy": [
+      1291,
+      365
+    ],
+    "location": "Rodi, Grecia",
+    "dateBuilt": "280 a.C.",
+    "dateDestroyed": "226 a.C.",
+    "history": "Il Colosso di Rodi era una monumentale statua in bronzo del dio del sole Elio, alta circa 32 metri (105 piedi), realizzata dallo scultore Carete di Lindo ed eretta sull'isola di Rodi intorno al 280 a.C., dopo che la città aveva resistito con successo a un assedio.\nFuso in bronzo e ferro e assemblato pezzo per pezzo con l'aiuto di una struttura di terra, il Colosso era così grande che gli abitanti di Rodi dovettero trovare una nuova parola per descriverlo. Scelsero la parola «colosso», che a volte era usata anche per indicare qualcosa di meraviglioso.\nSi ergeva sul porto per soli 54 anni circa, prima che un terremoto lo abbattesse, ma anche in frantumi la sua fama è giunta fino a noi.",
+    "overview": "Il Colosso di Rodi era una monumentale statua in bronzo del dio del sole Elio, alta circa 32 metri (105 piedi), realizzata dallo scultore Carete di Lindo ed eretta sull'isola di Rodi intorno al 280 a.C., dopo che la città aveva resistito con successo a un assedio.\nFuso in bronzo e ferro e assemblato pezzo per pezzo con l'aiuto di una struttura di terra, il Colosso era così grande che gli abitanti di Rodi dovettero trovare una nuova parola per descriverlo. Scelsero la parola «colosso», che a volte era usata anche per indicare qualcosa di meraviglioso.\nSi ergeva sul porto per soli 54 anni circa, prima che un terremoto lo abbattesse, ma anche in frantumi la sua fama è giunta fino a noi.",
+    "primaryImage": {
+      "ref": "MMWM7J",
+      "caption": null,
+      "asset": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "La statua richiese circa 12 anni di lavoro: iniziata intorno al 294 a.C., fu completata verso il 282-280 a.C.",
+        "imageRef": "RY4TNY",
+        "caption": "Ricostruzione artistica: una visualizzazione contemporanea del Colosso come guardiano rivestito di bronzo che sovrasta il porto, simbolo del trionfo di Rodi e del favore divino.",
+        "asset": "Ressource/wonder-images/COLOSSUS/2JDY3CW.jpg"
+      },
+      {
+        "text": "Fu costruito per celebrare la vittoria di Rodi su Demetrio I di Macedonia durante l'assedio del 305-304 a.C., utilizzando le macchine da guerra abbandonate dal nemico.",
+        "imageRef": "R0R10P",
+        "caption": "Veduta moderna del porto di Mandraki: il luogo tradizionalmente associato al Colosso; la leggenda immaginava navi che passavano sotto i suoi piedi, ma oggi gli storici la considerano un mito.",
+        "asset": "Ressource/wonder-images/COLOSSUS/EC5CG3.jpg"
+      },
+      {
+        "text": "Il Colosso era alto circa 32 m (105 piedi), il che ne faceva una delle statue più alte del mondo antico.",
+        "imageRef": "C6P7HF",
+        "caption": "Rovine delle mura dell'antica Rodi: le fortificazioni della città giunte fino a noi evocano l'epoca dell'assedio che il Colosso doveva commemorare.",
+        "asset": "Ressource/wonder-images/COLOSSUS/EC8EHD.jpg"
+      },
+      {
+        "text": "Intorno al 226 a.C. un violento terremoto fece crollare la statua all'altezza delle ginocchia, e questa rimase a terra per molti secoli.",
+        "imageRef": "Coin_Rhodes_Didrachm_Helios_305-275_BCE",
+        "caption": "Moneta antica con l'immagine di Elio: una moneta d'argento di Rodi con l'effigie del dio del sole, una delle poche fonti visive sull'aspetto della statua.",
+        "asset": "Ressource/wonder-images/COLOSSUS/G1CT37.jpg"
+      },
+      {
+        "text": "Il termine «colosso» (statua di grandi dimensioni) deriva da questo monumento; la sua fama ha plasmato il modo in cui le culture successive hanno immaginato la scultura monumentale.",
+        "imageRef": "DBXC95",
+        "caption": "Impressione del gigante caduto: una rappresentazione artistica del Colosso in rovina dopo il terremoto, ancora visitato da viaggiatori che raccontarono di essersi arrampicati sui suoi arti spezzati.",
+        "asset": "Ressource/wonder-images/COLOSSUS/Generated Image November 07, 2025 - 3_30PM.png"
+      },
+      {
+        "text": "Sebbene la mostra raffiguri il Colosso a cavallo dell'ingresso del porto di Rodi, è molto probabile che fosse in piedi con i piedi uniti.",
+        "imageRef": null,
+        "caption": null,
+        "asset": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+      }
+    ],
+    "video": "videos/colossus_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+  },
+  {
+    "id": "lighthouse_alexandria",
+    "name": "Faro di Alessandria",
+    "cat": "Ancient",
+    "xy": [
+      1275,
+      390
+    ],
+    "location": "Alessandria d'Egitto",
+    "dateBuilt": "280 a.C.",
+    "dateDestroyed": "1350 d.C. circa",
+    "history": "Il Faro di Alessandria rimase per 1.500 anni un faro luminoso sul Mediterraneo, guidando le navi verso uno dei porti più trafficati del mondo antico. Costruito sull'isolotto di Faro, vicino ad Alessandria, la sua struttura a più livelli, con una base quadrata, una sezione centrale ottagonale e una torre circolare, si innalzava per oltre 100 metri dominando il mare e il cielo. Serviva non solo come ausilio alla navigazione, ma anche come simbolo duraturo dell'ambizione umana e della maestria tecnica.",
+    "overview": "Il Faro di Alessandria rimase per 1.500 anni un faro luminoso sul Mediterraneo, guidando le navi verso uno dei porti più trafficati del mondo antico. Costruito sull'isolotto di Faro, vicino ad Alessandria, la sua struttura a più livelli, con una base quadrata, una sezione centrale ottagonale e una torre circolare, si innalzava per oltre 100 metri dominando il mare e il cielo. Serviva non solo come ausilio alla navigazione, ma anche come simbolo duraturo dell'ambizione umana e della maestria tecnica.",
+    "primaryImage": {
+      "ref": "2D137JR",
+      "caption": null,
+      "asset": "Ressource/wonder-images/ALEXANDRIE/2D137JR.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Fu progettato da Sostrato di Cnido (forse sotto il nome della dinastia tolemaica) e costruito intorno al 300-280 a.C. sull'isola di Faro.",
+        "imageRef": "K51GY6",
+        "caption": "Ricostruzione del Faro sull'isola di Faro: una moderna rappresentazione digitale che mostra la struttura a più livelli e la grandiosità dell'antica torre.",
+        "asset": "Ressource/wonder-images/ALEXANDRIE/K51GY6.jpg"
+      },
+      {
+        "text": "Si dice che la struttura fosse alta tra i 100 e i 140 metri, il che ne faceva uno degli edifici costruiti dall'uomo più alti della sua epoca.",
+        "imageRef": "AlexLighthouse01",
+        "caption": "Rovine sommerse al largo del porto di Alessandria: blocchi di pietra e resti di fondazioni sommersi che si ritiene appartengano alla base del faro. Foto: Roland Unger",
+        "asset": "Ressource/wonder-images/ALEXANDRIE/2H92B5Y.jpg"
+      },
+      {
+        "text": "La sua architettura era composta da tre parti sovrapposte: un blocco inferiore quadrato, una sezione centrale ottagonale e una sommità circolare con il fuoco del faro.",
+        "imageRef": "Philip_Galle_-_Lighthouse_of_Alexandria_(Pharos_of_Alexandria)_-_1572",
+        "caption": "Illustrazione rinascimentale che mostra l'isola di Faro e la diga dell'Heptastadion: illustra la posizione geografica e strategica del faro.",
+        "asset": "Ressource/wonder-images/ALEXANDRIE/2HAN0M2.jpg"
+      },
+      {
+        "text": "Il faro rimase in uso, e visibile, per circa 1.500 anni, finché i terremoti del 956, del 1303 e del 1323 d.C. non gli inflissero danni fatali.",
+        "imageRef": "_Diagram",
+        "caption": "Schema del progetto architettonico a tre livelli: base quadrata, sezione centrale ottagonale e lanterna circolare, per evidenziarne la costruzione a strati.",
+        "asset": "Ressource/wonder-images/ALEXANDRIE/2R217H7.jpg"
+      },
+      {
+        "text": "La parola «pharos», nome greco dell'isola, è diventata la radice del termine «faro» in molte lingue.",
+        "imageRef": "Coin_PhareAlexandrie",
+        "caption": "Moneta storica che mostra navi in ingresso nel porto di Alessandria di notte: sottolinea il ruolo di guida del faro per i naviganti dell'antichità.",
+        "asset": "Ressource/wonder-images/ALEXANDRIE/AYK6EM.jpg"
+      }
+    ],
+    "video": "videos/alexandria_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/ALEXANDRIE/2D137JR.jpg"
+  },
+  {
+    "id": "great_wall",
+    "name": "Grande Muraglia Cinese",
+    "cat": "Modern",
+    "xy": [
+      1820,
+      320
+    ],
+    "location": "Cina settentrionale",
+    "dateBuilt": "600 a.C.",
+    "dateDestroyed": "Oggi",
+    "history": "La Grande Muraglia Cinese è una vasta rete di fortificazioni costruita nel corso dei secoli per proteggere gli stati e gli imperi cinesi dalle incursioni dei nomadi del nord. Serpeggiando tra montagne, deserti e pianure, nella sua forma più nota, quella dell'epoca Ming, si estende per circa 8.850 km (5.499 miglia) di vere e proprie fortificazioni da est a ovest.\nCostruita in terra battuta, mattoni, pietra e legno a seconda della regione e dell'epoca, serviva come difesa militare, rete di comunicazione e simbolo del potere imperiale. Benché molti tratti siano oggi consumati o in rovina, la Muraglia resiste.",
+    "overview": "La Grande Muraglia Cinese è una vasta rete di fortificazioni costruita nel corso dei secoli per proteggere gli stati e gli imperi cinesi dalle incursioni dei nomadi del nord. Serpeggiando tra montagne, deserti e pianure, nella sua forma più nota, quella dell'epoca Ming, si estende per circa 8.850 km (5.499 miglia) di vere e proprie fortificazioni da est a ovest.\nCostruita in terra battuta, mattoni, pietra e legno a seconda della regione e dell'epoca, serviva come difesa militare, rete di comunicazione e simbolo del potere imperiale. Benché molti tratti siano oggi consumati o in rovina, la Muraglia resiste.",
+    "primaryImage": {
+      "ref": "C71JJ3",
+      "caption": "La muraglia segue il terreno accidentato per sfruttare al massimo il vantaggio difensivo.",
+      "asset": "Ressource/wonder-images/CHINA/1.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "La lunghezza totale di tutti i tratti di muro, delle diramazioni e dei fossati conosciuti è di circa 21.196 km (13.170 miglia), secondo l'ultimo rilevamento ufficiale.",
+        "imageRef": "C71JJ3",
+        "caption": "La muraglia segue il terreno accidentato per sfruttare al massimo il vantaggio difensivo.",
+        "asset": "Ressource/wonder-images/CHINA/2.jpg"
+      },
+      {
+        "text": "L'altezza del muro variava in genere da 5 a 8 metri (16-26 piedi) in molte zone, con basi più larghe nei terreni più strategici.",
+        "imageRef": "CRE1TR",
+        "caption": "Primo piano di una torre di guardia lungo la Grande Muraglia",
+        "asset": "Ressource/wonder-images/CHINA/3.jpg"
+      },
+      {
+        "text": "La Muraglia non fu costruita in un'unica fase: costruzione, riparazione e ampliamento si sono susseguiti sotto più di 9 dinastie e nell'arco di oltre 2.000 anni di storia.",
+        "imageRef": "T2HNAN",
+        "caption": "La Grande Muraglia Cinese attraversa le montagne della Cina settentrionale",
+        "asset": "Ressource/wonder-images/CHINA/4.jpg"
+      },
+      {
+        "text": "I materiali variavano da regione a regione: i primi tratti usavano terra battuta, mentre quelli dell'epoca Ming erano spesso in mattoni legati con una malta di riso glutinoso e calce.",
+        "imageRef": "RPXXCR",
+        "caption": "Dettaglio della muratura: grazie a ingegnose tecniche costruttive locali, la malta originale era a base di riso.",
+        "asset": "Ressource/wonder-images/CHINA/5.jpg"
+      },
+      {
+        "text": "Contrariamente al mito popolare, la Grande Muraglia non è facilmente visibile a occhio nudo dalla Luna: la sua larghezza e i suoi materiali la rendono molto difficile da individuare senza strumenti.",
+        "imageRef": "HDRNM9",
+        "caption": "Il capolinea orientale al Passo di Shanhai, la «Testa del Vecchio Drago», dove la muraglia incontra il mare: un evocativo simbolo dell'estensione della Muraglia dal mare al deserto.",
+        "asset": "Ressource/wonder-images/CHINA/6.jpg"
+      }
+    ],
+    "video": "videos/greatwall_loop.mp4",
+    "model": "./Ressource/GreatWall.obj",
+    "img": "Ressource/wonder-images/CHINA/1.jpg"
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "cat": "Modern",
+    "xy": [
+      1315,
+      390
+    ],
+    "location": "Wadi Musa, Giordania",
+    "dateBuilt": "300 a.C. circa",
+    "dateDestroyed": "Oggi",
+    "history": "Petra, la città rosa scolpita nelle pareti di arenaria dai Nabatei, prosperò come snodo commerciale tra l'Arabia, l'Egitto e il Mediterraneo. Le sue grandiose facciate, la più famosa delle quali è il Tesoro, si ergono magnificamente contro le pareti del canyon e testimoniano una maestria idraulica fatta di dighe, cisterne e canali, che trasformò un territorio arido in una vivace metropoli. Annessa da Roma nel 106 d.C. e poi ridimensionata da un terremoto e dal cambiamento delle rotte commerciali, Petra cadde nell'oblio fino alla sua «riscoperta» in epoca moderna. Oggi è una testimonianza dell'ingegno umano, scolpita in profondità in rocce imponenti e impregnata degli echi di commercio, fede e arte dell'antichità.",
+    "overview": "Petra, la città rosa scolpita nelle pareti di arenaria dai Nabatei, prosperò come snodo commerciale tra l'Arabia, l'Egitto e il Mediterraneo. Le sue grandiose facciate, la più famosa delle quali è il Tesoro, si ergono magnificamente contro le pareti del canyon e testimoniano una maestria idraulica fatta di dighe, cisterne e canali, che trasformò un territorio arido in una vivace metropoli. Annessa da Roma nel 106 d.C. e poi ridimensionata da un terremoto e dal cambiamento delle rotte commerciali, Petra cadde nell'oblio fino alla sua «riscoperta» in epoca moderna. Oggi è una testimonianza dell'ingegno umano, scolpita in profondità in rocce imponenti e impregnata degli echi di commercio, fede e arte dell'antichità.",
+    "primaryImage": {
+      "ref": "E9Y272",
+      "caption": "Facciata del Tesoro (Al-Khazneh): il tempio-tomba scolpito nell'arenaria rivela la fusione dei Nabatei tra dettagli ellenistici e maestria autoctona nella scultura della roccia.",
+      "asset": "Ressource/wonder-images/PETRA/1.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "I Nabatei crearono un sofisticato sistema di gestione dell'acqua fatto di dighe, canali e cisterne, che permise alla città di prosperare nel deserto.",
+        "imageRef": "E9Y272",
+        "caption": "Facciata del Tesoro (Al-Khazneh): il tempio-tomba scolpito nell'arenaria rivela la fusione dei Nabatei tra dettagli ellenistici e maestria autoctona nella scultura della roccia.",
+        "asset": "Ressource/wonder-images/PETRA/2.jpg"
+      },
+      {
+        "text": "L'iconica facciata del Tesoro di Petra (Al-Khazneh) è scolpita direttamente nella parete rocciosa e risale agli inizi del I secolo d.C.",
+        "imageRef": "MBDD48",
+        "caption": "L'ingresso del canyon del Siq: uno stretto canyon sinuoso che si apre in modo spettacolare sulla città nascosta.",
+        "asset": "Ressource/wonder-images/PETRA/3.jpg"
+      },
+      {
+        "text": "La città occupa una posizione scenografica: si trova all'interno di un canyon (il Siq) e dietro pareti rocciose rossastre che le hanno dato il soprannome di «città rosa».",
+        "imageRef": "H17M3T",
+        "caption": "Tombe scavate nella roccia lungo la parete: massicce camere funerarie scolpite direttamente nella pietra rivelano la venerazione dei Nabatei per i defunti.",
+        "asset": "Ressource/wonder-images/PETRA/4.jpg"
+      },
+      {
+        "text": "Petra fu la capitale del Regno nabateo fino all'annessione romana nel 106 d.C.; dopo un potente terremoto nel 363 d.C., la sua importanza declinò.",
+        "imageRef": "KHNPTY",
+        "caption": "Canale idraulico scavato nella roccia: una delle straordinarie installazioni per la gestione dell'acqua che permettevano agli abitanti di Petra di raccogliere, conservare e distribuire l'acqua in un paesaggio desertico.",
+        "asset": "Ressource/wonder-images/PETRA/5.jpg"
+      },
+      {
+        "text": "Nel 2007 Petra è stata proclamata una delle Nuove 7 Meraviglie del Mondo per la sua eccezionale bellezza e il suo valore patrimoniale.",
+        "imageRef": "2F7M0GC",
+        "caption": "La facciata del Monastero (Ad-Dayr) al tramonto: scolpita nella roccia e raggiungibile con una ripida scalinata, la sua posizione remota e la sua vasta scala evocano la dimensione spirituale della città.",
+        "asset": "Ressource/wonder-images/PETRA/6.jpg"
+      }
+    ],
+    "video": "videos/petra_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/PETRA/1.jpg"
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseo",
+    "cat": "Modern",
+    "xy": [
+      1180,
+      320
+    ],
+    "location": "Roma, Italia",
+    "dateBuilt": "80 d.C.",
+    "dateDestroyed": "Oggi",
+    "history": "Il Colosseo di Roma è il più grande anfiteatro antico mai costruito e rimane uno dei simboli più iconici dell'Impero romano. Costruito in travertino, tufo e calcestruzzo rivestito di mattoni, misurava 189 m per 156 m e raggiungeva un'altezza di circa 48 m.\nEdificato per ospitare combattimenti tra gladiatori, cacce agli animali, finte battaglie navali e spettacoli pubblici, poteva contenere tra i 50.000 e gli 80.000 spettatori.\nLa sua ingegneria, con volte a botte, volte a crociera e grandi archi, e il suo ruolo nella vita civile ne fanno al tempo stesso un'impresa architettonica e uno specchio della cultura romana.\nBenché danneggiato nei secoli da terremoti e saccheggiatori di pietre, il Colosseo continua a richiamare l'attenzione e le folle.",
+    "overview": "Il Colosseo di Roma è il più grande anfiteatro antico mai costruito e rimane uno dei simboli più iconici dell'Impero romano. Costruito in travertino, tufo e calcestruzzo rivestito di mattoni, misurava 189 m per 156 m e raggiungeva un'altezza di circa 48 m.\nEdificato per ospitare combattimenti tra gladiatori, cacce agli animali, finte battaglie navali e spettacoli pubblici, poteva contenere tra i 50.000 e gli 80.000 spettatori.\nLa sua ingegneria, con volte a botte, volte a crociera e grandi archi, e il suo ruolo nella vita civile ne fanno al tempo stesso un'impresa architettonica e uno specchio della cultura romana.\nBenché danneggiato nei secoli da terremoti e saccheggiatori di pietre, il Colosseo continua a richiamare l'attenzione e le folle.",
+    "primaryImage": {
+      "ref": "G3FCXD",
+      "caption": "Facciata esterna all'alba",
+      "asset": "Ressource/wonder-images/COLISEUM/1.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Il suo nome ufficiale era Amphitheatrum Flavium, dal nome della dinastia Flavia che lo commissionò, ma oggi lo conosciamo semplicemente come il Colosseo.",
+        "imageRef": "G3FCXD",
+        "caption": "Facciata esterna all'alba",
+        "asset": "Ressource/wonder-images/COLISEUM/2.jpg"
+      },
+      {
+        "text": "La struttura utilizzò oltre 100.000 m³ di travertino, inizialmente tenuto insieme senza malta, con grappe di ferro: una meraviglia ingegneristica per la sua epoca.",
+        "imageRef": "JABX6R",
+        "caption": "Veduta dell'arena interna verso la cavea ovale: mostra dove sedevano gli spettatori e dove combattevano gladiatori e animali, riportando in primo piano la cruda realtà dello spettacolo pubblico.",
+        "asset": "Ressource/wonder-images/COLISEUM/3.jpg"
+      },
+      {
+        "text": "Il pavimento dell'arena poteva essere allagato per mettere in scena finte battaglie navali («naumachie»), anche se la frequenza e l'entità esatte sono ancora dibattute.",
+        "imageRef": "2AR52AK",
+        "caption": "Gallerie e gabbie sotterranee dell'ipogeo: sotto il piano dell'arena si estende una rete di volte in cui venivano tenuti animali, combattenti e macchinari scenici, un'architettura di drammi nascosti.",
+        "asset": "Ressource/wonder-images/COLISEUM/4.jpg"
+      },
+      {
+        "text": "Dopo la caduta dell'Impero romano, il Colosseo fu riutilizzato come fortezza, cava di pietre, santuario cristiano e luogo di sepoltura, e solo tra il XVIII e il XIX secolo iniziò una vera opera di conservazione.",
+        "imageRef": "JKGG7A",
+        "caption": "Gradinate e corridoi a volta: mostrano come i Romani organizzassero lo spazio per classe sociale e studiassero il flusso della folla, tra le prime forme di logistica per grandi spettacoli.",
+        "asset": "Ressource/wonder-images/COLISEUM/5.jpg"
+      },
+      {
+        "text": "Nel 2007 il Colosseo è stato ufficialmente designato una delle Nuove 7 Meraviglie del Mondo, a conferma del suo status di icona del patrimonio mondiale.",
+        "imageRef": "R9PGMC",
+        "caption": "Sagoma illuminata del Colosseo di notte: gli archi illuminati evocano insieme grandiosità e rovina; il monumento sorge ancora nella città moderna, carico di storia.",
+        "asset": "Ressource/wonder-images/COLISEUM/6.jpg"
+      }
+    ],
+    "video": "videos/colosseum_loop.mp4",
+    "model": "cube",
+    "img": "Ressource/wonder-images/COLISEUM/1.jpg"
+  },
+  {
+    "id": "chichen_itza",
+    "name": "Chichén Itzá",
+    "cat": "Modern",
+    "xy": [
+      555,
+      460
+    ],
+    "location": "Yucatán, Messico",
+    "dateBuilt": "600 d.C.",
+    "dateDestroyed": "Oggi",
+    "history": "Chichén Itzá si affermò come potente città dei Maya nello Yucatán settentrionale, riunendo funzioni religiose, commerciali e politiche in un fitto complesso archeologico. Dall'iconica piramide a gradoni di El Castillo (dedicata alla divinità del serpente piumato Kukulkan) all'immenso Grande Campo da Gioco della Palla, fino alla precisione dell'osservatorio del Caracol, il sito riflette sia le tradizioni indigene maya sia le più ampie influenze mesoamericane. Il suo nome, «alla bocca del pozzo degli Itzá», richiama i cenotes sacri che qui alimentavano la vita. Abbandonata secoli fa, fu riscoperta e oggi è una delle Nuove 7 Meraviglie del Mondo: un vivo ricordo della maestria architettonica e astronomica dei Maya.",
+    "overview": "Chichén Itzá si affermò come potente città dei Maya nello Yucatán settentrionale, riunendo funzioni religiose, commerciali e politiche in un fitto complesso archeologico. Dall'iconica piramide a gradoni di El Castillo (dedicata alla divinità del serpente piumato Kukulkan) all'immenso Grande Campo da Gioco della Palla, fino alla precisione dell'osservatorio del Caracol, il sito riflette sia le tradizioni indigene maya sia le più ampie influenze mesoamericane. Il suo nome, «alla bocca del pozzo degli Itzá», richiama i cenotes sacri che qui alimentavano la vita. Abbandonata secoli fa, fu riscoperta e oggi è una delle Nuove 7 Meraviglie del Mondo: un vivo ricordo della maestria architettonica e astronomica dei Maya.",
+    "primaryImage": {
+      "ref": "2M5PY6T",
+      "caption": "La piramide di El Castillo al tramonto: la piramide a gradoni cattura le lunghe ombre che durante gli equinozi creano l'illusione di un serpente che scende, una spettacolare fusione di architettura ed evento celeste.",
+      "asset": "Ressource/wonder-images/MAYA/1.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Il nome «Chichén Itzá» deriva dal maya yucateco e significa «alla bocca del pozzo degli Itzá», in riferimento ai cenotes sacri da cui la città dipendeva.",
+        "imageRef": "2M5PY6T",
+        "caption": "La piramide di El Castillo al tramonto: la piramide a gradoni cattura le lunghe ombre che durante gli equinozi creano l'illusione di un serpente che scende, una spettacolare fusione di architettura ed evento celeste.",
+        "asset": "Ressource/wonder-images/MAYA/2.jpg"
+      },
+      {
+        "text": "All'apice del suo sviluppo la città potrebbe aver ospitato fino a 35.000 persone, il che la rende uno dei più grandi centri urbani maya della penisola settentrionale.",
+        "imageRef": "2PPGXXA",
+        "caption": "L'osservatorio («El Caracol»): una torre circolare su una piattaforma rettangolare, a testimonianza della raffinata conoscenza maya dell'astronomia e dell'osservazione del cielo.",
+        "asset": "Ressource/wonder-images/MAYA/2BFFCKE.jpg"
+      },
+      {
+        "text": "La piramide di El Castillo ha 365 gradini, uno per ogni giorno dell'anno solare, che collegano la struttura all'astronomia maya e al ciclo del calendario.",
+        "imageRef": "F66261",
+        "caption": "Il Grande Campo da Gioco della Palla: uno dei più grandi della Mesoamerica, circondato da pannelli scolpiti che raffigurano il gioco rituale della vita, della morte e del cosmo.",
+        "asset": "Ressource/wonder-images/MAYA/3.jpg"
+      },
+      {
+        "text": "Lo stile architettonico unisce influenze maya e tolteche, a indicare uno scambio culturale o lo spostamento di popolazioni dal Messico centrale allo Yucatán tra il X e il XII secolo.",
+        "imageRef": "2HARN4B",
+        "caption": "Veduta di un cenote e della foresta circostante: le voragini naturali (cenotes) fornivano alla città la sua linfa vitale e ne ancoravano la geografia spirituale.",
+        "asset": "Ressource/wonder-images/MAYA/4.jpg"
+      },
+      {
+        "text": "Dichiarata Patrimonio dell'Umanità dall'UNESCO nel 1988 ed eletta una delle Nuove 7 Meraviglie del Mondo nel 2007, Chichén Itzá resta uno dei siti archeologici più visitati del Messico.",
+        "imageRef": "2RBNTHW",
+        "caption": "Tempio dei Guerrieri e colonnato: un complesso di grandi sale e rilievi scolpiti in cui si intrecciavano la sfera militare, quella religiosa e quella civile.",
+        "asset": "Ressource/wonder-images/MAYA/5.jpg"
+      }
+    ],
+    "video": "videos/chichen_loop.mp4",
+    "model": "./Ressource/ChichenItza.obj",
+    "img": "Ressource/wonder-images/MAYA/1.jpg"
+  },
+  {
+    "id": "machu_picchu",
+    "name": "Machu Picchu",
+    "cat": "Modern",
+    "xy": [
+      650,
+      680
+    ],
+    "location": "Cusco, Perù",
+    "dateBuilt": "1450 d.C.",
+    "dateDestroyed": "Oggi",
+    "history": "Machu Picchu è una mozzafiato cittadella inca situata a circa 2.430 metri sul livello del mare, sulle Ande, costruita intorno al 1450 d.C. come residenza reale e santuario religioso per Pachacútec.\nScolpita in un terreno accidentato tra due spettacolari vette, presenta mura a secco finemente lavorate, coltivazioni a terrazze e sofisticati sistemi di gestione dell'acqua.\nBenché la sua funzione esatta rimanga in parte misteriosa, il sito riflette la maestria degli Inca nell'architettura, nell'astronomia e nell'uso del paesaggio. Nascosta per secoli ai conquistadores spagnoli e riscoperta all'inizio del XX secolo, Machu Picchu è diventata uno dei tesori archeologici più iconici del mondo e un simbolo dell'ingegno umano.",
+    "overview": "Machu Picchu è una mozzafiato cittadella inca situata a circa 2.430 metri sul livello del mare, sulle Ande, costruita intorno al 1450 d.C. come residenza reale e santuario religioso per Pachacútec.\nScolpita in un terreno accidentato tra due spettacolari vette, presenta mura a secco finemente lavorate, coltivazioni a terrazze e sofisticati sistemi di gestione dell'acqua.\nBenché la sua funzione esatta rimanga in parte misteriosa, il sito riflette la maestria degli Inca nell'architettura, nell'astronomia e nell'uso del paesaggio. Nascosta per secoli ai conquistadores spagnoli e riscoperta all'inizio del XX secolo, Machu Picchu è diventata uno dei tesori archeologici più iconici del mondo e un simbolo dell'ingegno umano.",
+    "primaryImage": {
+      "ref": "ADRG7H",
+      "caption": "Veduta aerea di Machu Picchu all'alba:",
+      "asset": "Ressource/wonder-images/MACHU_PICCHU/1.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Machu Picchu sorge su una sella tra due vette, il Machu Picchu («Vecchia Vetta») e l'Huayna Picchu («Nuova Vetta»), sopra la valle del fiume Urubamba, nella Cordigliera Orientale delle Ande.",
+        "imageRef": "ADRG7H",
+        "caption": "Veduta aerea di Machu Picchu all'alba:",
+        "asset": "Ressource/wonder-images/MACHU_PICCHU/2.jpg"
+      },
+      {
+        "text": "Le pietre furono tagliate con tale precisione che molte mura non hanno malta e tra i blocchi non si riesce a inserire nemmeno la lama di un coltello.",
+        "imageRef": "C966GK",
+        "caption": "Tempio del Sole dalla forma circolare: un raffinato esempio di architettura religiosa inca, orientato verso il sole nascente, che proietta ombre allineate con eventi astronomici.",
+        "asset": "Ressource/wonder-images/MACHU_PICCHU/2AJRD66.jpg"
+      },
+      {
+        "text": "Il sito comprende la pietra Intihuatana, che si ritiene fosse un orologio astronomico o una pietra rituale del calendario allineata con i solstizi.",
+        "imageRef": "R8PA4K",
+        "caption": "Campi agricoli a terrazze scavati nella montagna: mostrano come gli Inca adattassero un terreno difficile per nutrire la città e gestire il flusso dell'acqua dalle vette.",
+        "asset": "Ressource/wonder-images/MACHU_PICCHU/2RD0EA1.jpg"
+      },
+      {
+        "text": "Pur costruita verso la metà del XV secolo, Machu Picchu fu abbandonata poco dopo la conquista spagnola e rimase relativamente sconosciuta fino alla sua «riscoperta» da parte di Hiram Bingham nel 1911.",
+        "imageRef": "2TB954Y",
+        "caption": "La pietra rituale Intihuatana nella sua nicchia scolpita: il «palo a cui è legato il sole», posizionato per collegare il cosmo inca al mondo delle vette che lo sovrasta.",
+        "asset": "Ressource/wonder-images/MACHU_PICCHU/2Y2Y6B5.jpg"
+      },
+      {
+        "text": "Dichiarata Patrimonio dell'Umanità dall'UNESCO nel 1983 ed eletta nel 2007 una delle Nuove 7 Meraviglie del Mondo per la sua straordinaria eredità.",
+        "imageRef": "C9BR0D",
+        "caption": "Veduta dall'Huayna Picchu sulla cittadella: un percorso lungo ripide scalinate fino a un punto panoramico da cui si colgono le dimensioni dell'insediamento e del canyon.",
+        "asset": "Ressource/wonder-images/MACHU_PICCHU/3.jpg"
+      }
+    ],
+    "video": "videos/machu_loop.mp4",
+    "model": "./Ressource/MachtuPicchtu.obj",
+    "img": "Ressource/wonder-images/MACHU_PICCHU/1.jpg"
+  },
+  {
+    "id": "taj_mahal",
+    "name": "Taj Mahal",
+    "cat": "Modern",
+    "xy": [
+      1585,
+      435
+    ],
+    "location": "Agra, India",
+    "dateBuilt": "1643 d.C.",
+    "dateDestroyed": "Oggi",
+    "history": "Il Taj Mahal è un mausoleo di marmo bianco avorio fatto costruire dall'imperatore Shah Jahan in memoria dell'amata moglie Mumtaz Mahal, morta nel 1631. Situato sulle rive del fiume Yamuna ad Agra, rappresenta il culmine dell'architettura moghul, fondendo stili persiani, indiani e islamici in perfetta simmetria e proporzione.\nIl complesso comprende un monumentale portale d'ingresso, giardini, una moschea, una foresteria e il mausoleo centrale con la sua grande cupola e quattro minareti. Oltre 20.000 artigiani e maestranze provenienti da tutto l'impero e oltre vi lavorarono per più di vent'anni.\nOggi il Taj resta un'icona mondiale dell'amore, dell'artigianato e dello splendore di un impero all'apice della sua potenza.",
+    "overview": "Il Taj Mahal è un mausoleo di marmo bianco avorio fatto costruire dall'imperatore Shah Jahan in memoria dell'amata moglie Mumtaz Mahal, morta nel 1631. Situato sulle rive del fiume Yamuna ad Agra, rappresenta il culmine dell'architettura moghul, fondendo stili persiani, indiani e islamici in perfetta simmetria e proporzione.\nIl complesso comprende un monumentale portale d'ingresso, giardini, una moschea, una foresteria e il mausoleo centrale con la sua grande cupola e quattro minareti. Oltre 20.000 artigiani e maestranze provenienti da tutto l'impero e oltre vi lavorarono per più di vent'anni.\nOggi il Taj resta un'icona mondiale dell'amore, dell'artigianato e dello splendore di un impero all'apice della sua potenza.",
+    "primaryImage": {
+      "ref": "CTAGM3",
+      "caption": "Il mausoleo principale con la sua grande cupola: la struttura centrale in marmo bianco coronata da una cupola bulbosa e affiancata da quattro minareti, che simboleggia l'unione di cielo e terra.",
+      "asset": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "La costruzione impiegò circa 22.000 operai e richiese circa 22 anni per completare il mausoleo principale.",
+        "imageRef": "CTAGM3",
+        "caption": "Il mausoleo principale con la sua grande cupola: la struttura centrale in marmo bianco coronata da una cupola bulbosa e affiancata da quattro minareti, che simboleggia l'unione di cielo e terra.",
+        "asset": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+      },
+      {
+        "text": "La facciata di marmo bianco è intarsiata con pietre semipreziose, oltre 28 tipi diversi, tra cui diaspro, turchese, giada e cristallo.",
+        "imageRef": "D6KXYH",
+        "caption": "Vasca riflettente e viale d'accesso del giardino: la lunga vasca guida lo sguardo del visitatore verso il mausoleo, incarnando gli ideali del giardino moghul e il concetto di paradiso.",
+        "asset": "Ressource/wonder-images/TAJ/D6KXYH.jpg"
+      },
+      {
+        "text": "I quattro minareti sono volutamente inclinati leggermente verso l'esterno, in modo che, se crollassero (ad esempio per un terremoto), cadrebbero lontano dal mausoleo principale.",
+        "imageRef": "F76DG8",
+        "caption": "Primo piano di un intarsio in pietra dura: un dettaglio delle pareti di marmo che mostra gli intricati motivi floreali e gli intarsi di pietre semipreziose, a sottolineare la lavorazione laboriosa del monumento.",
+        "asset": "Ressource/wonder-images/TAJ/F76DG8.jpg"
+      },
+      {
+        "text": "Il marmo sembra cambiare colore a seconda dell'ora del giorno: rosato al mattino, bianco brillante a mezzogiorno, dorato al chiaro di luna.",
+        "imageRef": "FJD4B8",
+        "caption": "Interno della camera del mausoleo: i cenotafi di Mumtaz Mahal e di Shah Jahan, circondati da paraventi di marmo scolpito, ricordano la funzione funeraria e monumentale del sito.",
+        "asset": "Ressource/wonder-images/TAJ/FJD4B8.jpg"
+      },
+      {
+        "text": "Il Taj Mahal è stato dichiarato Patrimonio dell'Umanità dall'UNESCO nel 1983 ed è inserito tra le Nuove 7 Meraviglie del Mondo.",
+        "imageRef": "D6XHWF",
+        "caption": "Veduta attraverso il fiume Yamuna al tramonto: la sagoma del Taj nella luce della sera sottolinea la sua posizione sul fiume e la simmetria del complesso contro il cielo.",
+        "asset": "Ressource/wonder-images/TAJ/D6XHWF.jpg"
+      }
+    ],
+    "video": "videos/tajmahal_loop.mp4",
+    "model": "./Ressource/TajMahal.obj",
+    "img": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+  },
+  {
+    "id": "christ_redeemer",
+    "name": "Cristo Redentore",
+    "cat": "Modern",
+    "xy": [
+      830,
+      750
+    ],
+    "location": "Rio de Janeiro, Brasile",
+    "dateBuilt": "1931 d.C.",
+    "dateDestroyed": "Oggi",
+    "history": "La statua del Cristo Redentore veglia su Rio de Janeiro dalla cima del monte Corcovado, con le braccia aperte in un gesto di accoglienza e di benedizione. Realizzata in cemento armato e rivestita di pietra ollare, la figura alta 38 metri (125 piedi) fu progettata dallo scultore franco-polacco Paul Landowski e dall'ingegnere brasiliano Heitor da Silva Costa e fu completata nel 1931.\nPiù che un monumento, è diventata un simbolo della fede, della cultura e dell'identità brasiliane, visibile da tutta la città e dal mondo intero. Immersa nella rigogliosa foresta del Parco Nazionale di Tijuca, la statua fonde l'artigianato umano con lo splendore della natura: la sua figura serena guarda oltre la baia di Guanabara, la città e l'orizzonte dell'Atlantico.",
+    "overview": "La statua del Cristo Redentore veglia su Rio de Janeiro dalla cima del monte Corcovado, con le braccia aperte in un gesto di accoglienza e di benedizione. Realizzata in cemento armato e rivestita di pietra ollare, la figura alta 38 metri (125 piedi) fu progettata dallo scultore franco-polacco Paul Landowski e dall'ingegnere brasiliano Heitor da Silva Costa e fu completata nel 1931.\nPiù che un monumento, è diventata un simbolo della fede, della cultura e dell'identità brasiliane, visibile da tutta la città e dal mondo intero. Immersa nella rigogliosa foresta del Parco Nazionale di Tijuca, la statua fonde l'artigianato umano con lo splendore della natura: la sua figura serena guarda oltre la baia di Guanabara, la città e l'orizzonte dell'Atlantico.",
+    "primaryImage": {
+      "ref": "2EFAE8N",
+      "caption": "Veduta aerea del Cristo Redentore sopra Rio de Janeiro.",
+      "asset": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+    },
+    "quickFacts": [
+      {
+        "text": "Le braccia della statua si estendono per circa 28 metri (92 piedi) e la figura si innalza di circa 30 metri (98 piedi) da terra, piedistallo escluso.",
+        "imageRef": "2EFAE8N",
+        "caption": "Veduta aerea del Cristo Redentore sopra Rio de Janeiro.",
+        "asset": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+      },
+      {
+        "text": "Costruita in cemento armato e rivestita di tessere triangolari di pietra ollare, la statua fu concepita per resistere ai forti venti, ai fulmini e al clima costiero del Corcovado.",
+        "imageRef": "CRR60E",
+        "caption": "La figura a braccia aperte vista più da vicino: una forma Art Déco stilizzata che si allarga, simbolo di abbraccio e apertura verso la città sottostante.",
+        "asset": "Ressource/wonder-images/REDEEMER/CRR60E.jpg"
+      },
+      {
+        "text": "L'idea del monumento nacque negli anni Cinquanta dell'Ottocento; il finanziamento e la progettazione formali iniziarono intorno al 1920 grazie a gruppi cattolici locali, con una costruzione ufficialmente compresa tra il 1922 e il 1931.",
+        "imageRef": "2J9TMRW",
+        "caption": "Dettaglio delle tessere di pietra ollare sulla superficie della statua: un primo piano che rivela il rivestimento triangolare e la lavorazione resistente alle intemperie, in condizioni di montagna difficili.",
+        "asset": "Ressource/wonder-images/REDEEMER/2J9TMRW.jpg"
+      },
+      {
+        "text": "La statua è la più grande statua in stile Art Déco del mondo e nel 2007 è stata dichiarata una delle Nuove 7 Meraviglie del Mondo.",
+        "imageRef": "2G79JDD",
+        "caption": "Veduta dall'alto della statua sulla baia di Guanabara e sul panorama cittadino: sottolinea la collocazione panoramica e il simbolico belvedere sulla «Città Meravigliosa» del Brasile.",
+        "asset": "Ressource/wonder-images/REDEEMER/2G79JDD.jpg"
+      },
+      {
+        "text": "La statua si trova a un'altitudine di circa 710 metri (2.330 piedi) sul livello del mare, sul monte Corcovado.",
+        "imageRef": "2G79JG1",
+        "caption": "Visitatori sulla piattaforma panoramica del piedistallo all'alba: la scala umana nel contesto del monumento e il modo in cui i visitatori vivono oggi il sito.",
+        "asset": "Ressource/wonder-images/REDEEMER/2G79JG1.jpg"
+      },
+      {
+        "text": "I visitatori possono raggiungerla con la ferrovia a cremagliera, con l'ascensore e il percorso pedonale o a piedi lungo un sentiero nella foresta pluviale circostante.",
+        "imageRef": ":TCW73H",
+        "caption": "La ferrovia del monte Corcovado che sale attraverso la foresta di Tijuca fino alla statua: la salita e il paesaggio contribuiscono a creare un senso di pellegrinaggio e di arrivo.",
+        "asset": "Ressource/wonder-images/REDEEMER/TCW73H.jpg"
+      }
+    ],
+    "video": "videos/christ_loop.mp4",
+    "model": "./Ressource/ChristRedeemer.obj",
+    "img": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+  }
+]

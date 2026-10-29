@@ -1,0 +1,1201 @@
+{
+  "meta": {
+    "documentTitle": "Personality Scenario Quiz"
+  },
+  "ui": {
+    "welcome": {
+      "tag": "Situational Personality Quiz",
+      "title": "PERSONALITY SNAPSHOT",
+      "subtitle": "15 short scenarios to map how you react",
+      "description": "Step through quick situations and choose the reaction that feels natural. Each instinctive pick builds your personal profile—no other profiles on screen.",
+      "howTitle": "How it works",
+      "howSteps": [
+        "Read the brief scenario context.",
+        "Pick the response that matches how you'd react.",
+        "Watch your profile update with a live dossier."
+      ],
+      "whyTitle": "Why",
+      "whyCopy": "See your natural balance between structure, spontaneity, agency, and social ease. This is a self-reflection tool—you're only looking at your own pattern.",
+      "disclaimer": "Fun, fictionalized experience for personal insight. Not a clinical assessment.",
+      "start": "Start"
+    },
+    "question": {
+      "sectionLabel": "Situational Journey",
+      "metaLabel": "Scenario brief",
+      "counterPrefix": "Case",
+      "answersLabel": "Your reaction",
+      "statusLocked": "Choice saved. Move to the next scenario.",
+      "statusOpen": "Choose the response that fits you best.",
+      "visualAlt": "Visual clue {index}"
+    },
+    "result": {
+      "title": "YOUR PERSONALITY PROFILE",
+      "profileTypeTitle": "YOUR TYPOLOGY",
+      "populationTitle": "Your response pattern",
+      "traits": {
+        "organized": "Structure",
+        "impulsive": "Spontaneity",
+        "control": "Agency",
+        "social": "Social Ease"
+      },
+      "highlightsTitle": "Key tendencies",
+      "profileSummaryShare": "Profile strength: {value}%",
+      "profileSummaryLabel": "You align with: {type}"
+    },
+    "buttons": {
+      "restart": "Restart",
+      "back": "Back",
+      "send": "Share",
+      "sendWide": "Send my profile",
+      "sendModalClose": "Back to start"
+    },
+    "accessibility": {
+      "languageSelector": "Language selector"
+    },
+    "research": {
+      "title": "PROFILE DOSSIER",
+      "emailTitle": "Send your snapshot",
+      "emailHint": "On-screen keyboard",
+      "recipientLabel": "Recipient",
+      "placeholder": "e.g. you@example.com",
+      "statusMissing": "Add an email to share your profile.",
+      "statusInvalid": "Enter a valid email address.",
+      "statusSending": "Sending...",
+      "statusQueued": "Profile queued for delivery.",
+      "statusSuccess": "Profile sent.",
+      "statusError": "Unable to send your dossier.",
+      "statusNoCamera": "Live photo unavailable on this connection. The dossier can still be sent.",
+      "sendStatus": "Profile ready for {email}. (Simulated send)",
+      "liveLabel": "Live profile poster",
+      "sendAria": "Send your profile",
+      "keyboardBackspace": "Delete",
+      "keyboardClear": "Clear",
+      "mailSubject": "Case File Attached: Personality Dossier",
+      "mailBody": "Your confidential dossier is attached.\n\nCompiled from your responses during the Personality Snapshot investigation, this file records the behavioural profile identified during your session.\n\nThank you for taking part in the investigation.\n\nExhibition Hub"
+    },
+    "modal": {
+      "title": "Profile sent",
+      "body": "Your snapshot is on the way."
+    },
+    "error": {
+      "title": "ERROR",
+      "subtitle": "Unable to load quiz data",
+      "message": "Make sure your local server is running and that lang/en.json is accessible.",
+      "reload": "Reload",
+      "loadQuestions": "Unable to load questions. Check that the language file is accessible."
+    },
+    "chart": {
+      "you": "You",
+      "average": "Reference"
+    },
+    "camera": {
+      "permissionError": "Could not access camera. Please ensure you have a camera connected and have granted permission.\n\nDetails: {error}",
+      "errors": {
+        "secureContext": "Camera access requires HTTPS or localhost on the kiosk browser.",
+        "notAllowed": "Camera permission was denied.",
+        "notFound": "No camera was detected.",
+        "notReadable": "The camera is already in use or unavailable.",
+        "overconstrained": "The camera does not support the requested video settings.",
+        "generic": "Camera access failed."
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "When you feel wronged or hurt, how do you typically respond?",
+      "answers": [
+        {
+          "text": "I talk it out and try to understand the other person's perspective",
+          "organized": 1,
+          "impulsive": 1,
+          "control": 1,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I withdraw and plan my next move carefully",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I confront them immediately and emotionally",
+          "organized": 1,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I hold a grudge and wait for the right moment",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Your response to conflict reveals how you process anger and control impulses. Organized planners tend toward methodical approaches, while impulsive types react emotionally in the moment.",
+      "image": "images/questions/q01.jpg"
+    },
+    {
+      "id": 2,
+      "question": "How do you feel about keeping secrets?",
+      "answers": [
+        {
+          "text": "I'm an open book - secrets make me uncomfortable",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I keep some things private but share with close friends",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I have many secrets and enjoy the power of knowing things others don't",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I maintain elaborate double lives and carefully compartmentalize information",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Compartmentalization and secretiveness are key traits in manipulative personalities. Those who enjoy controlling information often seek power through knowledge asymmetry.",
+      "image": "images/questions/q02.jpg"
+    },
+    {
+      "id": 3,
+      "question": "What draws you to other people?",
+      "answers": [
+        {
+          "text": "Genuine connection and shared interests",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "People who can help me achieve my goals",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "The thrill of new interactions and conquests",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Vulnerable individuals I can influence or control",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Motivation for relationships reveals empathy levels. Predatory personalities view others as tools or targets rather than equals deserving respect.",
+      "image": "images/questions/q03.jpg"
+    },
+    {
+      "id": 4,
+      "question": "How would you describe your living or working space?",
+      "answers": [
+        {
+          "text": "Comfortable chaos - I know where everything is",
+          "organized": 1,
+          "impulsive": 4,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Relatively organized with some personal touches",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Meticulously arranged - everything has its place",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Sterile and controlled - I regularly purge unnecessary items",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Environmental control reflects psychological need for order. Extreme organization often correlates with need to control other aspects of life.",
+      "image": "images/questions/q04.jpg"
+    },
+    {
+      "id": 5,
+      "question": "How do you react to unexpected changes in your plans?",
+      "answers": [
+        {
+          "text": "I go with the flow and adapt easily",
+          "organized": 1,
+          "impulsive": 3,
+          "control": 1,
+          "social": 4,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I feel frustrated but adjust my plans",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I become irritated and try to restore my original plan",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I feel intense rage at the loss of control",
+          "organized": 5,
+          "impulsive": 5,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Reaction to disruption measures flexibility and rage triggers. Rigid personalities struggle with unpredictability and may respond with disproportionate anger.",
+      "image": "images/questions/q05.jpg"
+    },
+    {
+      "id": 6,
+      "question": "What role do you typically take in group settings?",
+      "answers": [
+        {
+          "text": "The collaborator who helps everyone work together",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "The observer who watches from the sidelines",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "The leader who directs and makes decisions",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "The manipulator who pulls strings from behind the scenes",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Social role preference reveals dominance needs. Those who seek covert control often prefer manipulating from the shadows rather than overt leadership.",
+      "image": "images/questions/q06.jpg"
+    },
+    {
+      "id": 7,
+      "question": "When you make a mistake, how do you handle it?",
+      "answers": [
+        {
+          "text": "I acknowledge it, apologize, and learn from it",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I try to fix it quietly without drawing attention",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I deflect blame onto circumstances or others",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I deny it completely or rewrite the narrative",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Accountability reveals narcissistic tendencies. Inability to accept fault and tendency to manipulate reality are markers of pathological self-protection.",
+      "image": "images/questions/q07.jpg"
+    },
+    {
+      "id": 8,
+      "question": "What's your relationship with rules and authority?",
+      "answers": [
+        {
+          "text": "I respect rules and follow them for social harmony",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I follow most rules but question unjust ones",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I follow rules only when it benefits me",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Rules don't apply to me - I'm above such constraints",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Attitude toward authority reveals antisocial tendencies. Belief in personal exemption from rules is a core trait of sociopathic personalities.",
+      "image": "images/questions/q08.jpg"
+    },
+    {
+      "id": 9,
+      "question": "How do you spend your free time?",
+      "answers": [
+        {
+          "text": "Socializing with friends and family",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Pursuing hobbies and creative projects",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Planning future goals and strategies",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Observing others or engaging in solitary, intense activities",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Leisure choices reflect social connection versus isolation. Preference for solitary, voyeuristic activities can indicate detachment from normal social bonds.",
+      "image": "images/questions/q09.jpg"
+    },
+    {
+      "id": 10,
+      "question": "How do you feel when you see someone else succeed?",
+      "answers": [
+        {
+          "text": "Happy for them and inspired",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Motivated to achieve my own success",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Envious and competitive",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Resentful and driven to undermine them",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Response to others' success measures empathy and ego. Malignant envy and desire to sabotage reveals deep insecurity and lack of genuine self-worth.",
+      "image": "images/questions/q10.jpg"
+    },
+    {
+      "id": 11,
+      "question": "What kind of media or content are you drawn to?",
+      "answers": [
+        {
+          "text": "Comedies, romances, and feel-good stories",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Documentaries and educational content",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Action, thrillers, and true crime",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Dark, violent, or disturbing content",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Media preferences can reflect psychological needs. Sustained interest in violent content may indicate desensitization or vicarious fulfillment of darker impulses.",
+      "image": "images/questions/q11.jpg"
+    },
+    {
+      "id": 12,
+      "question": "How do you handle boredom?",
+      "answers": [
+        {
+          "text": "I reach out to friends or find a simple activity",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I work on a productive task or learn something new",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I seek immediate excitement or stimulation",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I create chaos or manipulate situations for entertainment",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Boredom tolerance reveals impulsivity and need for stimulation. Those who create drama or danger when under-stimulated may have sensation-seeking pathologies.",
+      "image": "images/questions/q12.jpg"
+    },
+    {
+      "id": 13,
+      "question": "What's your approach to achieving long-term goals?",
+      "answers": [
+        {
+          "text": "I work steadily with support from my community",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "I create detailed plans and stick to them",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "I take shortcuts and exploit opportunities",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "I eliminate obstacles by any means necessary",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Goal pursuit methods reveal moral flexibility. Willingness to harm others for personal gain is a hallmark of psychopathic instrumental aggression.",
+      "image": "images/questions/q13.jpg"
+    },
+    {
+      "id": 14,
+      "question": "How would you describe your emotional life?",
+      "answers": [
+        {
+          "text": "Rich and varied - I feel deeply",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Balanced - I experience normal ups and downs",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Intense and sometimes overwhelming",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Shallow and muted - emotions feel distant or performative",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Emotional depth separates empathic from callous personalities. Shallow affect and performed emotions are classic markers of psychopathy.",
+      "image": "images/questions/q14.jpg"
+    },
+    {
+      "id": 15,
+      "question": "If you could have any superpower, what would it be?",
+      "answers": [
+        {
+          "text": "Healing others or bringing happiness",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Super intelligence or enhanced abilities",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Mind reading or invisibility",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Complete control over others",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Fantasy preferences reveal deepest desires. Those fixated on domination and control of others display the power-seeking core of predatory personalities.",
+      "image": "images/questions/q15.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "type": "THE STRATEGIST",
+      "label": "ORGANIZED",
+      "icon": "\ud83e\uddec",
+      "description": "In classic criminology typologies, an \"organized\" pattern is associated with planning, restraint, and deliberate decision-making. Your answers lean toward structure-first control rather than impulsive reactions.",
+      "traits": {
+        "organized": "95%",
+        "impulsive": "90%",
+        "control": "95%",
+        "social": "60%"
+      },
+      "characteristics": [
+        "Plans before acting",
+        "Prefers control through preparation",
+        "Stays composed under pressure",
+        "Tracks details and follow-through",
+        "Anticipates consequences",
+        "Chooses method over chaos"
+      ],
+      "minScore": {
+        "organized": 60,
+        "impulsive": 0,
+        "control": 60,
+        "social": 0
+      },
+      "realWorldPattern": "This label is a thematic, fictional reference to well-known typologies used in crime media and education—meant to match the exhibition tone, not diagnose behavior."
+    },
+    {
+      "type": "THE SPONTANEOUS",
+      "label": "DISORGANIZED",
+      "icon": "\u26a1",
+      "description": "In classic criminology typologies, a \"disorganized\" pattern is associated with reactivity and low restraint. Your answers lean toward acting in-the-moment rather than carefully planning.",
+      "traits": {
+        "organized": "25%",
+        "impulsive": "15%",
+        "control": "40%",
+        "social": "30%"
+      },
+      "characteristics": [
+        "Responds fast to stressors",
+        "Improvises instead of planning",
+        "Acts from emotion and impulse",
+        "Changes direction quickly",
+        "Accepts unpredictability",
+        "Leans into spontaneity"
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 55,
+        "control": 0,
+        "social": 0
+      },
+      "realWorldPattern": "This label is a thematic, fictional reference for the exhibition. It describes an answer-style pattern, not real-world risk or intent."
+    },
+    {
+      "type": "THE EXPERIENCE SEEKER",
+      "label": "HEDONISTIC",
+      "icon": "\ud83c\udf20",
+      "description": "In classic typologies, \"hedonistic\" patterns are framed around sensation-seeking and gratification. Your answers suggest novelty and stimulation are strong motivators.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "45%",
+        "control": "70%",
+        "social": "50%"
+      },
+      "characteristics": [
+        "Seeks novelty and stimulation",
+        "Gets bored by routine",
+        "Chases intensity and variety",
+        "Balances control with curiosity",
+        "Takes calculated risks",
+        "Prefers experiences over restraint"
+      ],
+      "minScore": {
+        "organized": 40,
+        "impulsive": 40,
+        "control": 50,
+        "social": 0
+      },
+      "realWorldPattern": "This is an exhibit-style label inspired by well-known typologies; it is not clinical and not a moral judgment."
+    },
+    {
+      "type": "THE DIRECTOR",
+      "label": "POWER / CONTROL",
+      "icon": "\ud83c\udfaf",
+      "description": "In classic typologies, \"power/control\" patterns emphasize dominance, direction-setting, and control of outcomes. Your answers lean toward steering situations rather than adapting to them.",
+      "traits": {
+        "organized": "80%",
+        "impulsive": "70%",
+        "control": "95%",
+        "social": "40%"
+      },
+      "characteristics": [
+        "Wants to steer outcomes",
+        "Pushes for clear control",
+        "Sets roles, rules, and direction",
+        "Prefers decisive action",
+        "Dislikes losing leverage",
+        "Measures success by influence"
+      ],
+      "minScore": {
+        "organized": 45,
+        "impulsive": 0,
+        "control": 65,
+        "social": 0
+      },
+      "realWorldPattern": "This is a thematic label for the exhibit that reflects control-oriented answers, not real-world behavior."
+    },
+    {
+      "type": "THE PURPOSEFUL IDEALIST",
+      "label": "MISSION-ORIENTED",
+      "icon": "\ud83d\ude80",
+      "description": "In classic typologies, \"mission-oriented\" patterns are framed around a self-justified purpose or cause. Your answers lean toward principle-driven decisions and a sense of \"why\" behind action.",
+      "traits": {
+        "organized": "75%",
+        "impulsive": "65%",
+        "control": "60%",
+        "social": "55%"
+      },
+      "characteristics": [
+        "Acts from a defined purpose",
+        "Frames choices as \"necessary\"",
+        "Prefers discipline over impulse",
+        "Justifies decisions with principles",
+        "Thinks in long-term outcomes",
+        "Stays committed once decided"
+      ],
+      "minScore": {
+        "organized": 50,
+        "impulsive": 0,
+        "control": 45,
+        "social": 35
+      },
+      "realWorldPattern": "This label is used for exhibition storytelling only, inspired by typology language often referenced in criminology education."
+    },
+    {
+      "type": "THE BALANCED INDIVIDUAL",
+      "label": "VISIONARY",
+      "icon": "\u2696\ufe0f",
+      "description": "In classic typologies, \"visionary\" is framed around an internal narrative that feels compelling or overriding. Your answers suggest decisions are influenced by instinct, story, and interpretation rather than strict external structure.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "65%",
+        "control": "40%",
+        "social": "85%"
+      },
+      "characteristics": [
+        "Follows an internal narrative",
+        "Reads meaning into events",
+        "Relies on intuition and interpretation",
+        "Switches between calm and intensity",
+        "Adapts story to fit new information",
+        "Moves when \"it feels inevitable\""
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 0,
+        "control": 0,
+        "social": 50
+      },
+      "realWorldPattern": "Exhibit-style label only. It describes a response pattern used for narrative framing, not mental health assessment."
+    }
+  ],
+  "researchProfiles": {
+    "THE STRATEGIST": {
+      "notes": [
+        "Prefers checklists and clear milestones.",
+        "Keeps calm tone when decisions are urgent.",
+        "Uses backup plans before committing.",
+        "Maps risks and options visually.",
+        "Shares expectations early with others."
+      ],
+      "locations": [
+        "Project Boards",
+        "Quiet Offices",
+        "Planning Sessions"
+      ],
+      "alias": [
+        "Organized",
+        "Methodical",
+        "The Planner"
+      ]
+    },
+    "THE SPONTANEOUS": {
+      "notes": [
+        "Energized by rapid change.",
+        "Speaks freely about feelings.",
+        "Adapts plans on the spot.",
+        "Finds creative angles quickly.",
+        "Values freedom over routine."
+      ],
+      "locations": [
+        "Pop-up Events",
+        "Busy Plazas",
+        "Creative Studios"
+      ],
+      "alias": [
+        "Disorganized",
+        "The Reactor",
+        "Unpredictable"
+      ]
+    },
+    "THE EXPERIENCE SEEKER": {
+      "notes": [
+        "Scans for new experiences weekly.",
+        "Prefers immersive activities.",
+        "Balances prep with surprise.",
+        "Chases memorable stories.",
+        "Excited by sensory detail."
+      ],
+      "locations": [
+        "Night Markets",
+        "Live Venues",
+        "Travel Hubs"
+      ],
+      "alias": [
+        "Hedonistic",
+        "Thrill Seeker",
+        "Sensation Chaser"
+      ]
+    },
+    "THE DIRECTOR": {
+      "notes": [
+        "Sets priorities for the group.",
+        "Keeps roles and timelines clear.",
+        "Comfortable making calls.",
+        "Values accountability.",
+        "Seeks efficient paths."
+      ],
+      "locations": [
+        "Meeting Rooms",
+        "Studios in Production",
+        "Team Huddles"
+      ],
+      "alias": [
+        "Power/Control",
+        "The Controller",
+        "The Dominator"
+      ]
+    },
+    "THE PURPOSEFUL IDEALIST": {
+      "notes": [
+        "Grounds decisions in principles.",
+        "Links tasks to a mission.",
+        "Invests in meaningful causes.",
+        "Looks for long-term impact.",
+        "Inspires others with purpose."
+      ],
+      "locations": [
+        "Community Spaces",
+        "Workshops",
+        "Strategy Retreats"
+      ],
+      "alias": [
+        "Mission-Oriented",
+        "The Crusader",
+        "The Purist"
+      ]
+    },
+    "THE BALANCED INDIVIDUAL": {
+      "notes": [
+        "Listens before acting.",
+        "Keeps emotions and logic aligned.",
+        "Maintains steady routines.",
+        "Shows consistent empathy.",
+        "Comfortable shifting gears."
+      ],
+      "locations": [
+        "Community Centers",
+        "Offices",
+        "Homes"
+      ],
+      "alias": [
+        "Visionary",
+        "The Interpreter",
+        "The Prophet"
+      ]
+    }
+  },
+  "poster": {
+    "header": "INVESTIGATION DEPARTMENT",
+    "subHeader": "REFLECTION DOSSIER",
+    "sealCode": "UFPD07OFF002274",
+    "intended": "For personal insight only.",
+    "separatorCode": "P034",
+    "labels": {
+      "fileNumber": "SESSION ID",
+      "purposeCode": "FOCUS CODE",
+      "sruId": "RUN ID",
+      "name": "NAME",
+      "aliases": "AKA",
+      "recordId": "PROFILE ID#",
+      "nationality": "CONTEXT",
+      "citizen": "SETTING",
+      "gender": "STYLE",
+      "race": "TRAIT BALANCE",
+      "height": "ENERGY",
+      "weight": "PACE",
+      "eyeColor": "VIEWPOINT",
+      "hairColor": "VIBE",
+      "dob": "START",
+      "age": "STATE",
+      "arrestSection": "SESSION SNAPSHOT",
+      "date": "SCENE",
+      "offenseCode": "TAG",
+      "institution": "CONTEXT",
+      "charge": "REACTION NOTE",
+      "term": "ENERGY",
+      "fingerprints": "NOTES",
+      "otherInfo": "OTHER INFO",
+      "stampFiled": "LOGGED",
+      "exhibitionFallback": "EXHIBITION"
+    },
+    "defaults": {
+      "name": "[REDACTED]",
+      "aliases": "[REDACTED]",
+      "nationality": "[REDACTED]",
+      "citizen": "[REDACTED]",
+      "gender": "[REDACTED]",
+      "race": "[REDACTED]",
+      "height": "[REDACTED]",
+      "weight": "[REDACTED]",
+      "eyeColor": "[REDACTED]",
+      "hairColor": "[REDACTED]",
+      "dob": "[REDACTED]",
+      "age": "[REDACTED]",
+      "arrests": [
+        {
+          "institution": "SESSION",
+          "charge": "Awaiting responses",
+          "term": "N/A"
+        }
+      ],
+      "defaultRedaction": "[HIDDEN]",
+      "defaultUnknown": "UNKNOWN"
+    },
+    "otherInfoFallback": [
+      "* Profile in construction",
+      "waiting for camera snapshot.",
+      "Session notes will refresh",
+      "after your responses.",
+      "Designed for self-reflection.",
+      "Share or download when ready."
+    ],
+    "notes": {
+      "subjectProfile": "PROFILE: {type}",
+      "divider": "--------------------------------",
+      "psychEval": "CONTROL FEEL: {control}"
+    },
+    "compose": {
+      "subjectProfile": "PROFILE: {type}",
+      "knownLocations": "ANCHOR SPOTS",
+      "stats": "STYLE O:{o}% I:{i}% C:{c}% S:{s}%"
+    },
+    "charges": {
+      "THE STRATEGIST": [
+        {
+          "charge": "STRUCTURED PLANS",
+          "term": "CORE"
+        },
+        {
+          "charge": "CALM DECISIONS",
+          "term": "HIGH"
+        },
+        {
+          "charge": "BACKUP PATHS",
+          "term": "READY"
+        },
+        {
+          "charge": "DETAIL TRACKER",
+          "term": "SOLID"
+        },
+        {
+          "charge": "CLEAR SIGNALS",
+          "term": "STRONG"
+        }
+      ],
+      "THE SPONTANEOUS": [
+        {
+          "charge": "INSTANT REACT",
+          "term": "GO"
+        },
+        {
+          "charge": "EMOTION-LED",
+          "term": "HIGH"
+        },
+        {
+          "charge": "LOVES CHANGE",
+          "term": "MAX"
+        },
+        {
+          "charge": "FLEXIBLE PLAN",
+          "term": "LIGHT"
+        },
+        {
+          "charge": "CREATIVE SPARK",
+          "term": "BRIGHT"
+        }
+      ],
+      "THE EXPERIENCE SEEKER": [
+        {
+          "charge": "SEEKS NOVELTY",
+          "term": "BOLD"
+        },
+        {
+          "charge": "PLAYFUL RISK",
+          "term": "SPICE"
+        },
+        {
+          "charge": "STORY MAKER",
+          "term": "LIVE"
+        },
+        {
+          "charge": "MIXES PLAN/PLAY",
+          "term": "HYBRID"
+        },
+        {
+          "charge": "SENSORY FOCUS",
+          "term": "HIGH"
+        }
+      ],
+      "THE DIRECTOR": [
+        {
+          "charge": "SETS DIRECTION",
+          "term": "LEAD"
+        },
+        {
+          "charge": "COORDINATES TEAM",
+          "term": "SYNC"
+        },
+        {
+          "charge": "DECISIVE CALLS",
+          "term": "FAST"
+        },
+        {
+          "charge": "KEEPS OVERVIEW",
+          "term": "CLEAR"
+        },
+        {
+          "charge": "HOLDS ACCOUNTABLE",
+          "term": "STEADY"
+        }
+      ],
+      "THE PURPOSEFUL IDEALIST": [
+        {
+          "charge": "MISSION FIRST",
+          "term": "CORE"
+        },
+        {
+          "charge": "VALUES-DRIVEN",
+          "term": "ANCHOR"
+        },
+        {
+          "charge": "LONG VIEW",
+          "term": "FAR"
+        },
+        {
+          "charge": "CAUSE BUILDER",
+          "term": "BUILD"
+        },
+        {
+          "charge": "INSPIRES OTHERS",
+          "term": "LIFT"
+        }
+      ],
+      "THE BALANCED INDIVIDUAL": [
+        {
+          "charge": "STEADY MOOD",
+          "term": "CALM"
+        },
+        {
+          "charge": "EMPATHETIC",
+          "term": "WARM"
+        },
+        {
+          "charge": "BALANCED RESPONSE",
+          "term": "LEVEL"
+        },
+        {
+          "charge": "HEALTHY BOUNDARIES",
+          "term": "CLEAR"
+        },
+        {
+          "charge": "CENTERED ENERGY",
+          "term": "STEADY"
+        }
+      ],
+      "DEFAULT": [
+        {
+          "charge": "SESSION NOTE",
+          "term": "PENDING"
+        }
+      ]
+    }
+  }
+}

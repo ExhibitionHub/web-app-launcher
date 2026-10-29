@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "languageName": "Français"
+  },
+  "common": {
+    "home": "Accueil",
+    "map": "Carte",
+    "quiz": "Quiz",
+    "languageSelector": "Sélecteur de langue",
+    "embeddedExperienceTitle": "Expérience intégrée",
+    "backToMainMenu": "Retour au menu principal",
+    "mainMenu": "Menu principal",
+    "selection": "Sélection",
+    "openMap": "Ouvrir la carte",
+    "openQuiz": "Ouvrir le quiz"
+  },
+  "menu": {
+    "title": "Exposition",
+    "subtitle": "Tueur en série",
+    "pageTitle": "Exposition - Menu",
+    "homeSubtitle": "Explorez. Comprendre. Question.",
+    "introHtml": "<p>Cette station interactive vous invite à regarder au-delà des cas individuels et à examiner la criminalité en série à travers des modèles, des données et la géographie.</p><p>Choisissez la carte pour examiner la géographie et les mouvements, ou répondez au quiz pour remettre en question les hypothèses courantes à l'aide de statistiques réelles.</p>",
+    "exploreMap": "Explorez la carte",
+    "startQuiz": "Commencez le quiz sur les données"
+  }
+}

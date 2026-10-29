@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "languageName": "Español"
+  },
+  "common": {
+    "home": "Inicio",
+    "map": "Mapa",
+    "quiz": "Quiz",
+    "languageSelector": "Selector de idioma",
+    "embeddedExperienceTitle": "Experiencia integrada",
+    "backToMainMenu": "Volver al menú principal",
+    "mainMenu": "Menú principal",
+    "selection": "Selección",
+    "openMap": "Abrir el mapa",
+    "openQuiz": "Abrir el quiz"
+  },
+  "menu": {
+    "title": "Exposición",
+    "subtitle": "Asesinos en serie",
+    "pageTitle": "Exposición - Menú",
+    "homeSubtitle": "Explora. Comprende. Cuestiona.",
+    "introHtml": "<p>Esta estación interactiva te invita a mirar más allá de los casos individuales y a examinar el crimen serial a través de patrones, datos y geografía.</p><p>Elige el mapa para explorar la geografía y los desplazamientos, o haz el quiz para poner a prueba las ideas más comunes con estadísticas reales.</p>",
+    "exploreMap": "Explorar el mapa",
+    "startQuiz": "Iniciar el quiz de datos"
+  }
+}

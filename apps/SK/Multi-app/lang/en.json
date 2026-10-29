@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "languageName": "English"
+  },
+  "common": {
+    "home": "Home",
+    "map": "Map",
+    "quiz": "Quiz",
+    "languageSelector": "Language selector",
+    "embeddedExperienceTitle": "Embedded experience",
+    "backToMainMenu": "Back to main menu",
+    "mainMenu": "Main menu",
+    "selection": "Selection",
+    "openMap": "Open map",
+    "openQuiz": "Open quiz"
+  },
+  "menu": {
+    "title": "Exhibition",
+    "subtitle": "Serial Killer",
+    "pageTitle": "Exhibition - Menu",
+    "homeSubtitle": "Explore. Understand. Question.",
+    "introHtml": "<p>This interactive station invites you to look beyond individual cases and examine serial crime through patterns, data, and geography.</p><p>Choose the map to examine geography and movement, or take the quiz to challenge common assumptions using real statistics.</p>",
+    "exploreMap": "Explore the Map",
+    "startQuiz": "Start the Data Quiz"
+  }
+}

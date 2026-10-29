@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "documentTitle": "Wissensquiz – Ausstellung Serienmörder"
+  },
+  "ui": {
+    "welcome": {
+      "title": "WISSENSQUIZ",
+      "subtitle": "Teste, was du gelernt hast",
+      "descriptionHtml": "Basierend auf den Ausstellungsdaten und der Radford/FGCU-Datenbank (FGCU = Florida Gulf Coast University)<br><strong>12 Fragen</strong> mit Diagrammen und visuellen Einblicken<br>Finde heraus, woran du dich von deinem Besuch erinnerst.",
+      "start": "QUIZ STARTEN"
+    },
+    "stats": {
+      "serialKillers": "Serienmörder",
+      "victims": "Opfer",
+      "years": "Jahre"
+    },
+    "question": {
+      "counterTemplate": "Frage {{current}} von {{total}}"
+    },
+    "buttons": {
+      "restart": "NEUSTART",
+      "continue": "WEITER",
+      "nextQuestion": "NÄCHSTE FRAGE",
+      "viewResults": "ERGEBNISSE ANZEIGEN"
+    },
+    "accessibility": {
+      "languageSelector": "Sprachauswahl"
+    },
+    "insight": {
+      "title": "WICHTIGE ERKENNTNIS"
+    },
+    "result": {
+      "title": "DEIN ERGEBNIS",
+      "correctAnswers": "RICHTIGE ANTWORTEN",
+      "chartLabels": {
+        "correct": "Richtig",
+        "incorrect": "Falsch"
+      }
+    },
+    "feedback": {
+      "correct": "Richtig",
+      "incorrect": "Falsch",
+      "incorrectWithAnswer": "Falsch – Richtig: {{answer}}"
+    },
+    "error": {
+      "title": "FEHLER",
+      "subtitle": "LADEN NICHT MÖGLICH",
+      "description": "Stelle sicher, dass ein lokaler Server läuft und `ressource/data/questions.json` erreichbar ist.",
+      "reload": "NEU LADEN",
+      "loadQuestions": "Quizinhalte konnten nicht geladen werden."
+    }
+  },
+  "content": {
+    "questions": {
+      "1": {
+        "question": "Wie viele Serienmörder waren 2016 in der Radford-Datenbank verzeichnet?",
+        "answers": [
+          { "text": "A. 1,400" },
+          { "text": "B. 2,100" },
+          { "text": "C. 4,743" },
+          { "text": "D. 6,200" }
+        ],
+        "insight": "2016 listete die Radford/FGCU-Datenbank 4.743 Serienmörder und 13.105 Opfer."
+      },
+      "2": {
+        "question": "In welchem Jahrzehnt begannen in den USA die meisten neuen Serienmörder zu töten?",
+        "answers": [
+          { "text": "A. 1960er" },
+          { "text": "B. 1970er" },
+          { "text": "C. 1980er" },
+          { "text": "D. 1990er" }
+        ],
+        "insight": "Die 1970er bilden hier den Höhepunkt: 605 neue Täter begannen, oft begünstigt durch höhere Mobilität und schwächeren Datenaustausch.",
+        "chartData": {
+          "title": "Neue Serienmörder nach Jahrzehnt",
+          "labels": ["1960er", "1970er", "1980er", "1990er", "2000er"]
+        }
+      },
+      "3": {
+        "question": "Wie viel Prozent der US-Serienmörder sind Männer?",
+        "answers": [
+          { "text": "A. 70%" },
+          { "text": "B. 80%" },
+          { "text": "C. 90,8%" },
+          { "text": "D. 95%" }
+        ],
+        "insight": "Etwa 90,8 % sind Männer; Frauen machen rund 9 % aus.",
+        "insightChart": {
+          "title": "Geschlechterverteilung",
+          "labels": ["Männer", "Frauen"]
+        }
+      },
+      "4": {
+        "question": "Welche Ethnie stellt derzeit den größten Anteil der US-Serienmörder?",
+        "answers": [
+          { "text": "A. Weiß (≈ 52 %)" },
+          { "text": "B. Schwarz" },
+          { "text": "C. Hispanisch" },
+          { "text": "D. Asiatisch" }
+        ],
+        "insight": "In diesem Datensatz machen weiße Täter etwa 52 % aus, schwarze Täter etwa 38 %.",
+        "insightChart": {
+          "title": "Ethnische Verteilung",
+          "labels": ["Weiße", "Schwarze", "Hispanische", "Asiatische", "Andere"]
+        }
+      },
+      "5": {
+        "question": "Was ist das häufigste Motiv unter Serienmördern?",
+        "answers": [
+          { "text": "A. Wut" },
+          { "text": "B. Finanzieller Gewinn" },
+          { "text": "C. Vergnügen (Lust, Thrill, Macht)" },
+          { "text": "D. Verhaftung vermeiden" }
+        ],
+        "insight": "Vergnügen (Lust, Thrill, Macht) ist mit etwa 36 % das am häufigsten genannte Motiv.",
+        "insightChart": {
+          "title": "Motive",
+          "labels": ["Vergnügen", "Finanzieller Gewinn", "Wut", "Verhaftung vermeiden", "Andere"]
+        }
+      },
+      "6": {
+        "question": "Wie hoch ist der durchschnittliche IQ eines Serienmörders?",
+        "answers": [
+          { "text": "A. 75" },
+          { "text": "B. 94,5" },
+          { "text": "C. 110" },
+          { "text": "D. 130" }
+        ],
+        "insight": "Der durchschnittliche IQ liegt bei etwa 94,5 - also nahe am Normalbereich und nicht beim Stereotyp des genialen Masterminds."
+      },
+      "7": {
+        "question": "Welche Tötungsmethode ist unter Serienmördern am häufigsten?",
+        "answers": [
+          { "text": "A. Strangulation" },
+          { "text": "B. Erstechen" },
+          { "text": "C. Schusswaffen" },
+          { "text": "D. Vergiftung" }
+        ],
+        "insight": "Schusswaffen sind am häufigsten (etwa 43 %), gefolgt von Strangulation (etwa 22 %).",
+        "insightChart": {
+          "title": "Tötungsmethoden",
+          "labels": ["Schusswaffen", "Strangulation", "Erstechen", "Vergiftung", "Andere"]
+        }
+      },
+      "8": {
+        "question": "Welcher US-Bundesstaat verzeichnet die meisten Opfer von Serienmördern?",
+        "answers": [
+          { "text": "A. Florida" },
+          { "text": "B. Texas" },
+          { "text": "C. Kalifornien" },
+          { "text": "D. New York" }
+        ],
+        "insight": "Kalifornien verzeichnet mit 1.628 die meisten Opfer, gefolgt von Texas und Florida.",
+        "insightChart": {
+          "title": "Top 5 Bundesstaaten nach Opferzahl",
+          "labels": ["Kalifornien", "Texas", "Florida", "New York", "Illinois"]
+        }
+      },
+      "9": {
+        "question": "Wie alt sind die meisten Opfer von Serienmördern?",
+        "answers": [
+          { "text": "A. Unter 10" },
+          { "text": "B. 18–35" },
+          { "text": "C. 40–60" },
+          { "text": "D. Über 60" }
+        ],
+        "insight": "Die meisten Opfer sind junge Erwachsene; das Durchschnittsalter liegt bei etwa 33,8 Jahren, der Median bei etwa 29.",
+        "insightChart": {
+          "title": "Altersverteilung der Opfer",
+          "labels": ["0-17", "18-35", "36-50", "51-65", "65+"]
+        }
+      },
+      "10": {
+        "question": "Welches Geschlecht stellt die Mehrheit der Opfer von Serienmördern?",
+        "answers": [
+          { "text": "A. Männlich" },
+          { "text": "B. Weiblich" },
+          { "text": "C. Gemischt/Unbekannt" },
+          { "text": "D. Gleich viele" }
+        ],
+        "insight": "Frauen machen in der Radford/FGCU-Datenbank etwa 70 % der Opfer aus.",
+        "insightChart": {
+          "title": "Geschlechterverteilung der Opfer",
+          "labels": ["Frauen", "Männer"]
+        }
+      },
+      "11": {
+        "question": "In welchem Jahrzehnt gab es in den USA in einem bestimmten Jahr die meisten aktiven Serienmörder?",
+        "answers": [
+          { "text": "A. 1960er" },
+          { "text": "B. 1970er" },
+          { "text": "C. 1980er" },
+          { "text": "D. 1990er" }
+        ],
+        "insight": "In den 1980ern gab es im Schnitt etwa 145 aktive Serienmörder pro Jahr; spätere Jahrzehnte gingen dank besserer Forensik und Datenbanken zurück.",
+        "chartData": {
+          "title": "Aktive Serienmörder nach Jahrzehnt",
+          "labels": ["1960er", "1970er", "1980er", "1990er", "2000er", "2010er"]
+        }
+      },
+      "12": {
+        "question": "Wie viel Prozent der US-Serienmörder haben beim Militär gedient?",
+        "answers": [
+          { "text": "A. 10%" },
+          { "text": "B. 18%" },
+          { "text": "C. 30%" },
+          { "text": "D. 45%" }
+        ],
+        "insight": "Etwa 18 % der männlichen Serienmörder haben Militärdienst geleistet."
+      }
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Kriminologie-Einsteiger",
+        "message": "Du stehst noch am Anfang. Diese Statistiken widerlegen viele verbreitete Mythen. Schau dir die Muster noch einmal genauer an."
+      },
+      "student": {
+        "title": "Informierter Besucher",
+        "message": "Gute Basis: Du erkennst bereits, wie stark sich Daten von medialen Erzählungen unterscheiden."
+      },
+      "observer": {
+        "title": "Scharfer Beobachter",
+        "message": "Stark: Du behältst die zentralen Muster bei Methoden, Jahrzehnten und Demografie im Blick."
+      },
+      "expert": {
+        "title": "Kriminologie-Experte",
+        "message": "Hervorragend: Dein Verständnis der Statistiken ist auf Expertenniveau."
+      }
+    }
+  }
+}

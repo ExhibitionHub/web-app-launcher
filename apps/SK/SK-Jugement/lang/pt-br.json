@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "pageTitle": "Aileen Wuornos - Você a teria condenado?"
+  },
+  "branding": {
+    "eyebrow": "Experiência interativa de aplicação da pena",
+    "title": "Aileen Wuornos - Você a teria condenado?"
+  },
+  "hero": {
+    "title": "Aileen Wuornos",
+    "tagline": "Você faria parte deste júri? Analise os autos, pondere a violência que ela sofreu e dê seu veredito."
+  },
+  "background": {
+    "title": "Contexto",
+    "copy": "Aileen Wuornos, profissional do sexo em situação de rua, foi condenada pelo assassinato de seis homens na Flórida entre 1989 e 1990. Sobrevivente de abusos incessantes, ela sustentou que agiu em legítima defesa em cada uma das mortes."
+  },
+  "howTo": {
+    "title": "Como usar este quiosque",
+    "steps": [
+      "Analise trechos importantes do julgamento e da estratégia da defesa.",
+      "Acompanhe os fatores atenuantes: trauma, pressão policial e avaliações psiquiátricas.",
+      "Dê seu veredito e compare-o com o de visitantes anteriores."
+    ]
+  },
+  "charges": {
+    "title": "Acusações e denúncias",
+    "intro": "As peças apresentadas pelo estado enumeram seis homicídios distintos, além de roubos ligados aos bens desaparecidos das vítimas. Leia a linguagem usada pela promotoria para retratar Wuornos como uma predadora.",
+    "items": [
+      {
+        "label": "Acusações de homicídio capital",
+        "title": "Mallory, Spears e Carskaddon",
+        "image": "ressource/images/charge_1.png",
+        "summary": "As acusações descrevem como ela fazia motoristas pararem, sacava primeiro o revólver calibre .22 e levava objetos de valor antes de deixar os corpos à beira da estrada.",
+        "facts": [
+          { "label": "Tiros", "text": "As autópsias apontam agrupamentos cerrados de tiros à queima-roupa no peito e na cabeça, compatíveis com execuções em emboscadas." },
+          { "label": "Provas", "text": "Luvas de látex, uma corda e o revólver apreendidos em seu armário a ligam diretamente às três cenas." },
+          { "label": "Padrão", "text": "As denúncias descrevem o mesmo método: atrair, desarmar, roubar e abandonar os corpos em valas." }
+        ]
+      },
+      {
+        "label": "Denúncias de furto e fraude",
+        "title": "Famílias de Burress e Humphreys",
+        "image": "ressource/images/charge_2.png",
+        "summary": "As famílias apresentaram denúncias de fraude depois que recibos de penhor, assinaturas falsificadas e documentos de identidade desaparecidos vieram à tona poucos dias após cada sumiço.",
+        "facts": [
+          { "label": "Rastro dos penhores", "text": "A câmera, o distintivo e as joias de Burress foram penhorados sob nomes falsos, com a impressão digital dela no recibo." },
+          { "label": "Cartões", "text": "Contas de motel e recibos de combustível mostram que os cartões de crédito de Humphreys foram usados por Wuornos poucas horas depois de seu desaparecimento." },
+          { "label": "Falsificação", "text": "Investigadores bancários testemunharam que as assinaturas em cheques e formulários do DMV correspondiam à caligrafia dela, não à das vítimas." }
+        ]
+      },
+      {
+        "label": "Pedidos de reconhecimento de agravantes",
+        "title": "Desaparecimento de Peter Siems",
+        "image": "ressource/images/charge_3.png",
+        "summary": "Moore e a irmã de Siems declararam sob juramento que confissões gravadas falavam em \"não deixar testemunhas\" durante sequências de roubos.",
+        "facts": [
+          { "label": "Confissão", "text": "Moore disse aos investigadores que Wuornos se gabou de atirar nele duas vezes \"para que ele não pudesse falar\"." },
+          { "label": "Carro", "text": "O Oldsmobile dele foi encontrado abandonado e limpo, enquanto uma impressão da palma da mão dela permaneceu no vidro da porta." },
+          { "label": "Depois do crime", "text": "Funcionários de bares relataram que ela exibiu dinheiro novo naquela mesma noite, reforçando a motivação de roubo." }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "heading": "Dossiês para análise",
+    "subheading": "Abra cada prova para liberar o veredito.",
+    "status": {
+      "loading": "Carregando dossiês...",
+      "error": "Não foi possível carregar o dossiê de provas. Prossiga com cautela.",
+      "empty": "Nenhum dossiê de provas disponível.",
+      "complete": "Todos os dossiês foram analisados. Prossiga para o veredito.",
+      "incomplete": "Você analisou {reviewed} de {total} dossiês. Analise mais {remaining} para liberar o veredito."
+    },
+    "nav": {
+      "ariaLabel": "Lista de provas",
+      "loading": "Carregando dossiês...",
+      "error": "Não foi possível carregar os dossiês.",
+      "empty": "Nenhum dossiê disponível.",
+      "selectPrompt": "Selecione uma prova para carregar todos os detalhes."
+    }
+  },
+  "verdict": {
+    "title": "Veredito do júri",
+    "prompt": "Escolha a pena que considera justa depois de analisar as provas e os fatores atenuantes. Seu voto revelará os resultados imediatamente.",
+    "choices": {
+      "death": "Culpada - pena de morte",
+      "life": "Culpada - prisão perpétua",
+      "insanity": "Inocente por motivo de insanidade mental"
+    },
+    "hint": "Você pode ver o impacto da sua decisão nos resultados abaixo.",
+    "feedback": {
+      "preVote": "Dê seu voto para revelar como ele altera os resultados.",
+      "verdictStep": "Escolha uma pena para exibir imediatamente os resultados acumulados.",
+      "otherStep": "Analise os dossiês antes de dar seu veredito e ver a contagem.",
+      "template": "Seu voto representa {percentage}% das decisões registradas neste quiosque. {alignment}",
+      "alignmentMatch": "Sua decisão coincide com a maioria atual.",
+      "alignmentDifferent": "Sua decisão difere da tendência predominante."
+    }
+  },
+  "results": {
+    "title": "Resultados acumulados",
+    "description": "Descubra como seu julgamento se compara ao dos outros visitantes deste quiosque interativo.",
+    "footer": "Os dados são reunidos localmente neste dispositivo e zerados periodicamente. Conteúdo elaborado a partir de transcrições judiciais de 1992 e arquivos da defesa."
+  },
+  "navigation": {
+    "languageSelector": "Seletor de idioma",
+    "back": "Voltar",
+    "continue": "Continuar",
+    "alerts": {
+      "reviewEvidenceFirst": "Analise todos os dossiês antes de dar um veredito.",
+      "castVoteToSeeResults": "Dê seu voto para revelar os resultados."
+    },
+    "nextLabels": {
+      "restart": "Recomeçar",
+      "seeCharges": "Ver as acusações",
+      "reviewEvidence": "Analisar as provas",
+      "goToVerdict": "Ir para o veredito",
+      "continue": "Continuar"
+    }
+  },
+  "placeholders": {
+    "detailPrompt": "Selecione uma prova para carregar todos os detalhes."
+  },
+  "tally": {
+    "countLabel": "{count} votos"
+  },
+  "evidenceData": [
+    {
+      "id": "abuse-history",
+      "title": "Abusos na infância documentados",
+      "image": "ressource/images/evidence_abuse-history.png",
+      "type": "Depoimento dos serviços sociais",
+      "summary": "Assistentes sociais e entrevistas com familiares descrevem abusos contínuos desde a primeira infância.",
+      "details": [
+        "Entregue aos cuidados de avós alcoólatras aos quatro anos, Wuornos relatou espancamentos, estupros e uma agressão coletiva aos catorze anos, registrada em um relatório de 1970.",
+        "Professores descreveram uma adolescente que dormia nos corredores da escola e trocava sexo por comida e roupas.",
+        "Em 1976, um psiquiatra nomeado pelo tribunal concluiu que ela apresentava estresse pós-traumático grave e sintomas dissociativos decorrentes de trauma crônico.",
+        "A defesa observou que vários homens que a acusavam já tinham condenações por violência ou agressão sexual."
+      ],
+      "quote": "Ela nunca teve um lugar seguro. Todo homem que conheceu queria comprar ou tomar o corpo dela.",
+      "attribution": "Testemunho de especialista em vitimologia - audiência de 14 de janeiro de 1992"
+    },
+    {
+      "id": "forensic-proof",
+      "title": "Provas forenses e itens roubados",
+      "image": "ressource/images/evidence_forensic-proof.png",
+      "type": "Conclusões do laboratório criminal",
+      "summary": "Especialistas do estado apresentaram as provas materiais que ligavam Wuornos a cada vítima.",
+      "details": [
+        "Um revólver calibre .22 recuperado de um depósito alugado por ela disparou cartuchos compatíveis com os encontrados nas cenas dos seis homicídios.",
+        "As impressões digitais dela foram encontradas dentro dos veículos de várias vítimas, junto com estojos de munição deflagrada enrolados em uma toalha rastreada até seu acampamento.",
+        "Recibos de penhor mostraram que ela vendeu uma câmera, ferramentas e joias poucas horas após os assassinatos, além de fotocópias dos documentos de identidade das vítimas.",
+        "A patrulha rodoviária encontrou a bolsa de Peter Siems em uma lixeira perto de um bar onde testemunhas viram Wuornos comemorando com dinheiro."
+      ],
+      "quote": "A cadeia balística é ininterrupta: uma arma, seis assassinatos, e todos os vestígios levavam de volta à ré.",
+      "attribution": "Relatório balístico do FDLE (Florida Department of Law Enforcement) - Prova 137"
+    },
+    {
+      "id": "tyra-testimony",
+      "title": "Declaração de Tyra Moore",
+      "image": "ressource/images/evidence_tyra-testimony.png",
+      "type": "Depoimento de testemunha-chave",
+      "summary": "Moore detalhou as confissões que convenceram os jurados de que um roubo planejado terminou em assassinato.",
+      "details": [
+        "Moore disse aos jurados que Wuornos admitiu sacar a arma primeiro quando os clientes resistiam a entregar dinheiro ou veículos.",
+        "Ela descreveu como Wuornos avaliava quais caminhoneiros pareciam mais isolados e ensaiava versões de cobertura que combinassem.",
+        "Gravações telefônicas registraram Wuornos implorando para que Moore mantivesse a versão de legítima defesa e depois admitindo que atirou 'para não deixar testemunhas'.",
+        "A promotoria argumentou que Moore não tinha nada a ganhar mentindo depois de receber imunidade por acusações de fraude sem relação com o caso."
+      ],
+      "quote": "Ela disse que a única saída era tomar o que eles tinham e garantir que não pudessem segui-la.",
+      "attribution": "Tyra Moore, 18º dia da transcrição do julgamento"
+    },
+    {
+      "id": "mental-health",
+      "title": "Avaliações psiquiátricas",
+      "image": "ressource/images/evidence_mental-health.png",
+      "type": "Avaliação clínica especializada",
+      "summary": "Avaliações de saúde mental elaboradas antes e durante o julgamento.",
+      "details": [
+        "Três psiquiatras forenses diagnosticaram transtorno de personalidade borderline agravado por TEPT complexo.",
+        "Testes projetivos revelaram episódios dissociativos, hipervigilância extrema e uma percepção distorcida do perigo representado por homens.",
+        "Durante as entrevistas, ela descreveu flashbacks em que os rostos dos clientes se confundiam com os de antigos agressores.",
+        "Especialistas da defesa argumentaram que, em momentos de crise, ela já não conseguia distinguir ameaças reais das que previa."
+      ],
+      "quote": "Sua psique é a de uma sobrevivente em guerra permanente, convencida de que matar era a única saída.",
+      "attribution": "Dra. L. Morgan, especialista em psiquiatria - página 572 da transcrição"
+    },
+    {
+      "id": "exploitation",
+      "title": "Exploração e cafetões",
+      "image": "ressource/images/evidence_exploitation.png",
+      "type": "Entrevistas gravadas",
+      "summary": "Os trechos mostram como intermediários violentos controlavam o trabalho de Wuornos.",
+      "details": [
+        "Ex-profissionais do sexo disseram que vários cafetões ficavam com até setenta por cento dos ganhos dela e a espancavam quando recusava clientes.",
+        "O dono de um bar admitiu esconder agressões cometidas por frequentadores habituais para não contrariar a polícia local.",
+        "Uma vizinha testemunhou que Wuornos voltava para casa coberta de hematomas e os escondia sob mangas compridas até no verão.",
+        "A defesa ressaltou que ela temia tanto as represálias que não denunciava a violência sofrida."
+      ],
+      "quote": "Ela dizia a si mesma: se eu recusar, morro. Se aceitar, talvez morra mesmo assim.",
+      "attribution": "T. Daniels, ex-colega - documentário investigativo"
+    },
+    {
+      "id": "police-interview",
+      "title": "Interrogatório policial questionável",
+      "image": "ressource/images/evidence_police-interview.png",
+      "type": "Gravação de áudio",
+      "summary": "Sequência gravada que mostra a pressão exercida durante a confissão inicial.",
+      "details": [
+        "Os investigadores a mantiveram por dez horas sem advogado, prometendo clemência caso incriminasse a ex-companheira Tyra Moore.",
+        "Os policiais ofereceram refrigerantes e cigarros enquanto repetiam que o corredor da morte seria inevitável sem sua cooperação.",
+        "A transcrição mostra que ela repetiu versões sugeridas pela polícia, incluindo a de roubo premeditado.",
+        "A defesa argumenta que ela confessou para proteger Moore de um processo criminal."
+      ],
+      "quote": "Vou dizer o que vocês quiserem, apenas deixem Tyra ir.",
+      "attribution": "Interrogatório de 16 de janeiro de 1991 - transcrição oficial"
+    },
+    {
+      "id": "sentencing",
+      "title": "Fase de aplicação da pena",
+      "image": "ressource/images/evidence_sentencing.png",
+      "type": "Anotações da deliberação do júri",
+      "summary": "Alegações finais e questões jurídicas da fase de definição da pena.",
+      "details": [
+        "O promotor enfatizou a premeditação e as várias vítimas para justificar a pena de morte.",
+        "A defesa citou a falta de apoio social e médico, além das recomendações de internação psiquiátrica em regime de segurança.",
+        "O juiz limitou o peso que os abusos anteriores poderiam ter, decidindo que não constituíam justificativa jurídica suficiente.",
+        "Dois jurados hesitaram quanto à pena de morte, mas acompanharam a maioria depois de três horas de deliberação."
+      ],
+      "quote": "Ponderamos a lei, mas quem pondera o sofrimento que ela carregava?",
+      "attribution": "Anotação de jurado preservada nos arquivos da defesa"
+    }
+  ]
+}

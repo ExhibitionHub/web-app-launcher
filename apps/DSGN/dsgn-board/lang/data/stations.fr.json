@@ -1,0 +1,202 @@
+{
+  "suspects": {
+    "karim": {
+      "role": "Le meurtrier"
+    },
+    "samir": {
+      "role": "L'ami"
+    }
+  },
+  "stations": [
+    {
+      "id": "toxicology",
+      "title": "Rapports du légiste et des substances",
+      "kicker": "TOXICOLOGIE",
+      "conclusion": "Médecin légiste : alcool + cocaïne dans l'organisme de la victime. Heure estimée du décès entre 22:00 et 00:00. Analyse de substance : traces de cocaïne réelle sur la table, mais le bloc sur le comptoir est de la FAUSSE cocaïne (adultérant inconnu)."
+    },
+    {
+      "id": "fingerprints",
+      "title": "Analyse des empreintes",
+      "kicker": "EMPREINTES",
+      "conclusion": "Empreintes relevées sur la table de salle à manger, la chaise de cuisine et la théière. La chaise près de la table à thé a été essuyée. Sans correspondance ADN, nous ne pouvons pas encore attribuer les empreintes, mais la chaise essuyée est suspecte."
+    },
+    {
+      "id": "fiber",
+      "title": "Analyse des fibres",
+      "kicker": "FIBRE",
+      "conclusion": "La fibre sur le bouton tombé correspond à la fibre prise dans la branche cassée à l'extérieur. La fibre du bouton n'a pu être associée à aucune veste retrouvée sur place."
+    },
+    {
+      "id": "dna",
+      "title": "Comparaison ADN",
+      "kicker": "ANALYSES SANGUINES",
+      "conclusion": "Les échantillons 1+2 correspondent à la victime. Les échantillons 3+4 correspondent à la personne qui a perdu le bouton de chemise ET a caché la tasse cassée dehors. L'échantillon 5 appartient à une troisième personne qui a dormi dans le lit à l'étage et a peu de chances d'avoir caché le verre."
+    },
+    {
+      "id": "network",
+      "title": "Données cellulaires et réseau",
+      "kicker": "RÉSEAU",
+      "conclusion": "La carte cellulaire et les impressions de messages montrent que Karim a tenté d'effacer à distance le téléphone de la victime via Google. La cage de Faraday a empêché la suppression et préservé les preuves."
+    },
+    {
+      "id": "light",
+      "title": "Longueur d'onde lumineuse / Spectre",
+      "kicker": "ONDE LUMINEUSE",
+      "conclusion": "Sous UV, le bloc de cocaïne révèle une marque cachée liée à Karim. Le corps de la victime montre des ecchymoses internes au bout des doigts, compatibles avec une lutte."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "prompt": "L'heure estimée du décès était entre 22:00 et 00:00, selon la température du corps, était-ce exact ?",
+      "options": []
+    },
+    {
+      "id": "q2",
+      "prompt": "Quel est le mobile principal de Samir pour avoir tué ou affronté la victime ?",
+      "options": [
+        { "label": "A - Une transaction de drogue qui a mal tourné" },
+        { "label": "B - Une dispute au sujet d'une fille" },
+        { "label": "C - Il n'était pas son ami" },
+        { "label": "D - Il a vendu de fausses drogues" }
+      ]
+    },
+    {
+      "id": "q3",
+      "prompt": "Quel est le mobile principal de Karim pour avoir tué ou affronté la victime ?",
+      "options": [
+        { "label": "A - Une transaction de drogue qui a mal tourné" },
+        { "label": "B - Une dispute au sujet d'une fille" },
+        { "label": "C - Il n'était pas son ami" },
+        { "label": "D - Il a vendu de fausses drogues" }
+      ]
+    },
+    {
+      "id": "q4",
+      "prompt": "Pourquoi une cage de Faraday est-elle importante dans cette affaire ?",
+      "options": [
+        { "label": "A - KARIM a essayé de localiser le téléphone" },
+        { "label": "B - Bloquer la suppression à distance Google par KARIM" },
+        { "label": "C - SAMIR a essayé de localiser le téléphone" },
+        { "label": "D - Bloquer la suppression à distance Google par SAMIR" }
+      ]
+    },
+    {
+      "id": "q5",
+      "prompt": "La collecte d'ADN a-t-elle été utile dans cette affaire ?",
+      "options": [
+        { "label": "A - Non, sans correspondance, aucune information n'est obtenue" },
+        { "label": "B - Oui, elle a donné l'identité de la victime" },
+        { "label": "C - Oui, nous pouvons demander des tests ADN des suspects et comparer" },
+        { "label": "D - Oui, elle a donné l'identité du meurtrier" }
+      ]
+    },
+    {
+      "id": "q6",
+      "prompt": "Quelles sont les deux preuves qui montrent que Samir, l'ami, a dormi dans le lit à l'étage ?",
+      "options": [
+        { "label": "A - Conversation texte / cellulaire" },
+        { "label": "B - Analyse des empreintes" },
+        { "label": "C - Analyse ADN" },
+        { "label": "D - Longueur d'onde lumineuse" }
+      ]
+    },
+    {
+      "id": "q7",
+      "prompt": "Les empreintes de Karim ont été trouvées sur la scène, quelle autre preuve pourrait suffire à obtenir un mandat pour un test ADN ?",
+      "options": [
+        { "label": "A - Analyse du spectre lumineux" }
+      ]
+    },
+    {
+      "id": "q8",
+      "prompt": "À qui appartenait le bloc sur le comptoir et qu'était-ce ?",
+      "options": [
+        { "label": "A - Cocaïne / KARIM" },
+        { "label": "B - Pas de cocaïne, substance inconnue / KARIM" },
+        { "label": "C - Cocaïne / SAMIR" },
+        { "label": "D - Pas de cocaïne, substance inconnue / SAMIR" }
+      ]
+    },
+    {
+      "id": "q9",
+      "prompt": "Si Samir avait tué Youssef, pourquoi Karim aurait-il quand même essayé de supprimer les données du téléphone de la victime ?",
+      "options": [
+        { "label": "Karim et Samir formaient une équipe" },
+        { "label": "Karim et Youssef vendaient de la drogue" },
+        { "label": "Karim a trouvé Youssef mort et savait que la police arrivait" },
+        { "label": "Pas assez de preuves" }
+      ]
+    },
+    {
+      "id": "q10",
+      "prompt": "Quelle preuve clé a été apprise par la femme de ménage ? (Choisissez toutes les réponses qui s'appliquent)",
+      "options": [
+        { "label": "l'heure d'arrivée du premier visiteur" },
+        { "label": "le premier visiteur était ivre" },
+        { "label": "le premier visiteur était petit" },
+        { "label": "elle n'a pas reconnu le premier visiteur" }
+      ]
+    },
+    {
+      "id": "q11",
+      "prompt": "Aucune empreinte n'a été récupérée sur le bloc dans la cuisine... (Choisissez 2)",
+      "options": [
+        { "label": "Des empreintes directes sont nécessaires comme preuve" },
+        { "label": "Les empreintes sur la chaise voisine suffisent" },
+        { "label": "Des empreintes proches peuvent faire avancer l'affaire" },
+        { "label": "Une autre preuve clé a été trouvée sur le bloc" }
+      ]
+    },
+    {
+      "id": "q12",
+      "prompt": "Comment Karim ou Samir auraient-ils pu paraître plus innocents aux yeux de la police ?",
+      "options": [
+        { "label": "appeler la police lorsqu'ils ont vu le corps" },
+        { "label": "retirer leurs empreintes de la scène" },
+        { "label": "supprimer les conversations texte de la victime" },
+        { "label": "tuer aussi la voisine" }
+      ]
+    },
+    {
+      "id": "q13",
+      "prompt": "Quelles substances étaient dans le corps de la victime ?",
+      "options": [
+        { "label": "cocaïne" },
+        { "label": "alcool" },
+        { "label": "même substance que le bloc sur le comptoir de la cuisine" },
+        { "label": "amphétamines" }
+      ]
+    },
+    {
+      "id": "q14",
+      "prompt": "Nous n'avons pas pu associer la fibre du bouton à une veste...",
+      "options": [
+        { "label": "A - mais nous avons appris l'identité du meurtrier" },
+        { "label": "B - mais il est probable que le meurtrier n'ait pas dormi dans le lit" },
+        { "label": "C - donc nous savons que le meurtrier a dormi dans le lit" },
+        { "label": "D - donc ce n'était pas une preuve utile" }
+      ]
+    },
+    {
+      "id": "q15",
+      "prompt": "Quelle information utile n'a PAS été obtenue dans le rapport du légiste ?",
+      "options": [
+        { "label": "Heure du décès" },
+        { "label": "Cause du décès" },
+        { "label": "Origine des drogues" },
+        { "label": "Drogues consommées" }
+      ]
+    },
+    {
+      "id": "q16",
+      "prompt": "Quelle preuve clé a été obtenue grâce à la longueur d'onde de lumière bleue ?",
+      "options": [
+        { "label": "Forte circulation de pas autour du corps" },
+        { "label": "Sang nettoyé d'un suspect" },
+        { "label": "Ecchymoses internes / lutte de la victime" },
+        { "label": "Cheveux et fibres du meurtrier" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "case": {
+    "id": "RB-17-042",
+    "location": "Rabat, Morocco"
+  },
+  "intro": {
+    "description": [
+      "On the night of May 17, 2024, Youssef was found dead in his home in the Medina district of Rabat.",
+      "His phone was recovered at the scene and immediately placed inside a Faraday container — a shielded enclosure that blocks all wireless signals so the device cannot be tracked, accessed, or wiped remotely.",
+      "Two suspects were near the house that night. It is up to you to cross-reference the digital traces and decide what each of them came to do."
+    ],
+    "objectives": [
+      "How digital forensics connects different types of data to solve a real case.",
+      "The importance of isolating a device to preserve evidence.",
+      "How phone data, network data, and account data can be cross-referenced.",
+      "How timelines, locations, and behavior help identify suspects.",
+      "That even when someone tries to destroy evidence, digital traces can reveal the truth."
+    ],
+    "peopleOrder": [
+      "victim",
+      "witness",
+      "karim",
+      "samir"
+    ],
+    "people": {
+      "victim": {
+        "summary": "Found dead in his home."
+      },
+      "witness": {
+        "summary": "The housekeeper arrives early, notices unusual lights and no answer, then calls the police."
+      },
+      "karim": {
+        "summary": "Drug deal contact. Upset about the deal, says he is coming over. Was invited in to talk."
+      },
+      "samir": {
+        "summary": "Victim's friend. Drunk that night, not invited, came over anyway."
+      }
+    },
+    "evidence": [
+      {
+        "tone": "phone",
+        "title": "Victim's Phone",
+        "meta": "Physical device",
+        "body": "Recovered at crime scene (Victim's house). Placed at police station."
+      },
+      {
+        "tone": "conversations",
+        "title": "Conversations",
+        "meta": "Messages & calls",
+        "body": "Threads with the housekeeper, Karim, and Samir reveal motive, invitations and the early-morning alert."
+      },
+      {
+        "tone": "cellular",
+        "title": "Cellular Network Data",
+        "body": "Provided by telecom provider. Includes call logs, SMS metadata, and cell tower triangulation."
+      },
+      {
+        "tone": "google",
+        "title": "Google Account Data",
+        "meta": "Laptop",
+        "body": "From the victim's laptop found at the house. Shows logins and remote deletion attempts."
+      }
+    ],
+    "secureCard": {
+      "paragraphs": [
+        "The victim's phone was placed in a Faraday container immediately after recovery to block all wireless signals.",
+        "During transport to the police station, two remote deletion attempts were made via the Google account. Both attempts were blocked.",
+        "Faraday isolation preserves evidence by preventing remote access, tracking, and data deletion."
+      ],
+      "status": "Faraday container active"
+    }
+  },
+  "conclusion": {
+    "cards": [
+      {
+        "title": "Two suspects entered the house",
+        "body": "Karim came over after an argument about a drug deal — he was upset, but he was invited in to talk it out."
+      },
+      {
+        "title": "And the other one came drunk",
+        "body": "Samir was drunk, not invited, and came over anyway. He was looking for drugs and may still have been upset about a girl."
+      },
+      {
+        "title": "It's up to you to decide",
+        "body": "Forensic isolation preserved the phone, the cellular pings placed both men on site, and the blocked Google attempts came from Karim's area. The traces are clear — the motive is yours to interpret."
+      }
+    ]
+  }
+}

@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopt This Species</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #04152f;
+      --panel: #0a2a57;
+      --accent: #e3d000;
+      --accent2: #da291c;
+      --text: #ffffff;
+      --muted: #b8c7e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background: radial-gradient(circle at top, #0a3b7a 0%, var(--bg) 60%);
+      color: var(--text);
+      height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 12px;
+      overflow: hidden;
+    }
+    .wrap {
+      width: min(460px, 100%);
+      height: calc(100dvh - 24px);
+      max-height: calc(100dvh - 24px);
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto auto;
+      gap: 10px;
+      overflow: hidden;
+    }
+    .title {
+      margin: 0;
+      font-size: clamp(24px, 4vw, 42px);
+      line-height: 1.15;
+      text-align: center;
+    }
+    .card {
+      background: linear-gradient(140deg, #0b3f84 0%, var(--panel) 100%);
+      border: 2px solid rgba(227, 208, 0, 0.35);
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+      display: grid;
+      grid-template-columns: 1fr;
+      min-height: 0;
+      height: 100%;
+    }
+    .card img {
+      width: 100%;
+      height: clamp(160px, 32dvh, 360px);
+      object-fit: cover;
+      background: #091a34;
+      flex: 0 0 auto;
+    }
+    .content {
+      padding: 14px 16px;
+      display: grid;
+      gap: 8px;
+      align-content: start;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .name {
+      margin: 0;
+      font-size: clamp(24px, 3.2vw, 36px);
+      letter-spacing: .02em;
+    }
+    .meta {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      display: grid;
+      gap: 4px;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .notes {
+      margin: 4px 0 0;
+      color: #edf3ff;
+      line-height: 1.36;
+      font-size: 14px;
+      white-space: normal;
+      display: grid;
+      gap: 6px;
+      min-height: 0;
+      overflow: hidden;
+    }
+    .notes p {
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .notes strong {
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      min-height: 0;
+    }
+    button, a.btn {
+      appearance: none;
+      border: none;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding: 12px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      color: #111;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+    }
+    .hint { margin: 0; text-align: center; color: var(--muted); font-size: 13px; }
+    @media (min-width: 860px) {
+      .wrap {
+        width: min(520px, 100%);
+      }
+    }
+
+    html {
+      height: 100dvh;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1 class="title" id="pageTitle">Adopt This Species</h1>
+    <section class="card" id="speciesCard" hidden>
+      <img id="speciesImage" alt="Species" />
+      <div class="content">
+        <h2 class="name" id="speciesName"></h2>
+        <div class="meta" id="speciesMeta"></div>
+        <p class="notes" id="speciesNotes"></p>
+      </div>
+    </section>
+    <p id="status" class="hint">Loading…</p>
+    <div class="actions">
+      <button id="downloadBtn" type="button" hidden>Download card as image</button>
+      <button id="shareBtn" type="button" hidden>Share</button>
+    </div>
+    <canvas id="canvas" width="1080" height="1920" hidden></canvas>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    const slug = String(params.get('species') || '').trim();
+    const langParam = String(params.get('lang') || '').trim().toLowerCase();
+    const storedLang = (() => {
+      try { return String(localStorage.getItem('lang') || '').trim().toLowerCase(); } catch { return ''; }
+    })();
+    const uiLang = (langParam || storedLang || navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+
+    const statusEl = document.getElementById('status');
+    const cardEl = document.getElementById('speciesCard');
+    const imgEl = document.getElementById('speciesImage');
+    const nameEl = document.getElementById('speciesName');
+    const metaEl = document.getElementById('speciesMeta');
+    const notesEl = document.getElementById('speciesNotes');
+    const canvas = document.getElementById('canvas');
+    const downloadBtn = document.getElementById('downloadBtn');
+    const shareBtn = document.getElementById('shareBtn');
+    const pageTitle = document.getElementById('pageTitle');
+
+    const UI = {
+      en: {
+        pageTitle: 'Adopt This Species',
+        status: 'Status',
+        population: 'Population',
+        habitat: 'Habitat',
+        decline: 'Decline',
+        download: 'Download card as image',
+        share: 'Share',
+        back: 'Back to map',
+        loading: 'Loading…',
+        noSpecies: 'No species provided in URL.',
+        notFound: 'Species not found.',
+        copied: 'Link copied.',
+        unable: 'Unable to build card.'
+      },
+      fr: {
+        pageTitle: 'Adopter cette espèce',
+        status: 'Statut',
+        population: 'Population',
+        habitat: 'Habitat',
+        decline: 'Déclin',
+        download: 'Télécharger la carte en image',
+        share: 'Partager',
+        back: 'Retour à la carte',
+        loading: 'Chargement…',
+        noSpecies: 'Aucune espèce fournie dans l’URL.',
+        notFound: 'Espèce introuvable.',
+        copied: 'Lien copié.',
+        unable: 'Impossible de générer la carte.'
+      }
+    };
+
+    const T = UI[uiLang];
+
+    const toSlug = (v) => String(v || '')
+      .trim()
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+
+    function text(v) { return String(v || '').trim(); }
+
+    function readI18nField(species, baseKey) {
+      if (uiLang === 'fr') {
+        const frKey = `${baseKey}_fr`;
+        const frValue = text(species[frKey]);
+        if (frValue) return frValue;
+      }
+      return text(species[baseKey]);
+    }
+
+    function escapeHtml(value) {
+      return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function parseRichText(value) {
+      const normalized = String(value || '')
+        .replace(/\r\n/g, '\n')
+        .replace(/\r/g, '\n')
+        .trim();
+
+      if (!normalized) return [];
+
+      const withMdBold = normalized
+        .replace(/<\s*(strong|b)\s*>/gi, '**')
+        .replace(/<\s*\/\s*(strong|b)\s*>/gi, '**')
+        .replace(/__(.+?)__/g, '**$1**');
+
+      let parts = withMdBold
+        .split(/\n\s*\n/g)
+        .map((p) => p.trim())
+        .filter(Boolean);
+
+      // FR content can use one newline per paragraph.
+      if (uiLang === 'fr' && parts.length <= 1 && /\n/.test(withMdBold)) {
+        parts = withMdBold
+          .split(/\n/g)
+          .map((p) => p.trim())
+          .filter(Boolean);
+      }
+
+      return parts
+        .map((p) => p.trim())
+        .filter(Boolean)
+        .map((p) => {
+          const tokens = [];
+          const re = /\*\*([^*]+)\*\*/g;
+          let last = 0;
+          let m;
+          while ((m = re.exec(p))) {
+            if (m.index > last) tokens.push({ text: p.slice(last, m.index), bold: false });
+            tokens.push({ text: m[1], bold: true });
+            last = re.lastIndex;
+          }
+          if (last < p.length) tokens.push({ text: p.slice(last), bold: false });
+          return tokens;
+        });
+    }
+
+    function renderRichHtml(paragraphs) {
+      return paragraphs
+        .map((tokens) => {
+          const html = tokens.map((t) => t.bold ? `<strong>${escapeHtml(t.text)}</strong>` : escapeHtml(t.text)).join('');
+          return `<p>${html}</p>`;
+        })
+        .join('');
+    }
+
+    function wrapStyledParagraph(ctx, tokens, maxWidth) {
+      const lines = [];
+      let line = [];
+      let lineWidth = 0;
+
+      const pushLine = () => {
+        if (!line.length) return;
+        lines.push(line);
+        line = [];
+        lineWidth = 0;
+      };
+
+      for (const token of tokens) {
+        const parts = String(token.text || '').split(/(\s+)/).filter((w) => w.length > 0);
+        for (const part of parts) {
+          const isSpace = /^\s+$/.test(part);
+          ctx.font = token.bold ? '700 30px Inter, Arial, sans-serif' : '500 30px Inter, Arial, sans-serif';
+          const w = ctx.measureText(part).width;
+
+          if (!isSpace && lineWidth + w > maxWidth && line.length) {
+            pushLine();
+          }
+
+          if (!(isSpace && line.length === 0)) {
+            line.push({ text: part, bold: token.bold, width: w });
+            lineWidth += w;
+          }
+        }
+      }
+      pushLine();
+      return lines;
+    }
+
+    function wrapPlainText(ctx, textValue, maxWidth, maxLines = 3) {
+      const words = String(textValue || '').split(/\s+/).filter(Boolean);
+      if (!words.length) return [];
+      const lines = [];
+      let line = '';
+      let truncated = false;
+
+      for (const w of words) {
+        const next = line ? `${line} ${w}` : w;
+        if (ctx.measureText(next).width > maxWidth && line) {
+          lines.push(line);
+          line = w;
+          if (lines.length >= maxLines) {
+            truncated = true;
+            break;
+          }
+        } else {
+          line = next;
+        }
+      }
+
+      if (line && lines.length < maxLines) lines.push(line);
+      if (truncated && lines.length >= maxLines) {
+        const last = lines[maxLines - 1] || '';
+        lines[maxLines - 1] = last.length > 2 ? `${last}…` : last;
+      }
+      return lines;
+    }
+
+    async function loadData() {
+      const res = await fetch('./Ressource/data/perniciem.points.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('Unable to load data');
+      return res.json();
+    }
+
+    function buildMeta(species) {
+      const rows = [
+        [T.status, readI18nField(species, 'conservationStatus')],
+        [T.population, readI18nField(species, 'population')],
+        [T.habitat, readI18nField(species, 'cat')],
+        [T.decline, readI18nField(species, 'declineRate')]
+      ].filter(([, v]) => text(v));
+      metaEl.innerHTML = rows.map(([k, v]) => `<div><strong>${k}:</strong> ${v}</div>`).join('');
+    }
+
+    function drawCard(species) {
+      const ctx = canvas.getContext('2d');
+      const W = canvas.width;
+      const H = canvas.height;
+
+      ctx.clearRect(0, 0, W, H);
+
+      const bg = ctx.createLinearGradient(0, 0, W, H);
+      bg.addColorStop(0, '#0b3f84');
+      bg.addColorStop(1, '#0a2a57');
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, W, H);
+
+      const cardX = 52;
+      const cardY = 52;
+      const cardW = W - 104;
+      const cardH = H - 104;
+      const radius = 56;
+
+      const roundedRectPath = (x, y, w, h, r) => {
+        const rr = Math.min(r, w * 0.5, h * 0.5);
+        ctx.beginPath();
+        ctx.moveTo(x + rr, y);
+        ctx.arcTo(x + w, y, x + w, y + h, rr);
+        ctx.arcTo(x + w, y + h, x, y + h, rr);
+        ctx.arcTo(x, y + h, x, y, rr);
+        ctx.arcTo(x, y, x + w, y, rr);
+        ctx.closePath();
+      };
+
+      roundedRectPath(cardX, cardY, cardW, cardH, radius);
+      ctx.fillStyle = 'rgba(6, 25, 60, 0.74)';
+      ctx.fill();
+      ctx.strokeStyle = 'rgba(227,208,0,0.55)';
+      ctx.lineWidth = 6;
+      ctx.stroke();
+
+      const img = new Image();
+      img.crossOrigin = 'anonymous';
+      const paintCardContent = (withImage) => {
+        const imageX = cardX + 24;
+        const imageY = cardY + 24;
+        const imageW = cardW - 48;
+        const imageH = Math.round(cardH * 0.46);
+
+        roundedRectPath(imageX, imageY, imageW, imageH, 34);
+        ctx.fillStyle = '#0b2048';
+        ctx.fill();
+
+        if (withImage) {
+          ctx.save();
+          roundedRectPath(imageX, imageY, imageW, imageH, 34);
+          ctx.clip();
+          ctx.drawImage(img, imageX, imageY, imageW, imageH);
+          ctx.restore();
+        }
+
+        const contentX = cardX + 44;
+        const contentW = cardW - 88;
+        let y = imageY + imageH + 62;
+
+        ctx.fillStyle = '#ffffff';
+        ctx.font = '700 64px Inter, Arial, sans-serif';
+        const name = readI18nField(species, 'Name');
+        const maxNameWidth = contentW;
+        if (ctx.measureText(name).width <= maxNameWidth) {
+          ctx.fillText(name, contentX, y);
+          y += 58;
+        } else {
+          const nameWords = name.split(' ');
+          let line = '';
+          for (const w of nameWords) {
+            const test = line ? `${line} ${w}` : w;
+            if (ctx.measureText(test).width > maxNameWidth && line) {
+              ctx.fillText(line, contentX, y);
+              y += 58;
+              line = w;
+            } else {
+              line = test;
+            }
+          }
+          if (line) {
+            ctx.fillText(line, contentX, y);
+            y += 58;
+          }
+        }
+
+        ctx.font = '600 38px Inter, Arial, sans-serif';
+        const lines = [
+          [T.status, readI18nField(species, 'conservationStatus')],
+          [T.population, readI18nField(species, 'population')],
+          [T.habitat, readI18nField(species, 'cat')],
+          [T.decline, readI18nField(species, 'declineRate')]
+        ].filter(([, v]) => text(v));
+
+        lines.forEach(([k, v]) => {
+          const rowTop = y;
+          ctx.fillStyle = '#e3d000';
+          ctx.font = '700 30px Inter, Arial, sans-serif';
+          ctx.fillText(`${k}:`, contentX, rowTop);
+
+          ctx.fillStyle = '#ffffff';
+          ctx.font = '600 31px Inter, Arial, sans-serif';
+          const valueX = contentX + 210;
+          const valueW = Math.max(120, contentW - 210);
+          const wrapped = wrapPlainText(ctx, text(v), valueW, 3);
+          wrapped.forEach((line, idx) => {
+            ctx.fillText(line, valueX, rowTop + idx * 35);
+          });
+
+          y = rowTop + Math.max(44, wrapped.length * 35 + 8);
+        });
+
+        ctx.fillStyle = '#eaf1ff';
+        const noteParagraphs = parseRichText(readI18nField(species, 'Notes'));
+        y += 24;
+
+        const maxBottomY = cardY + cardH - 40;
+        for (let p = 0; p < noteParagraphs.length; p += 1) {
+          const linesStyled = wrapStyledParagraph(ctx, noteParagraphs[p], contentW);
+          for (const lineTokens of linesStyled) {
+            if (y > maxBottomY) break;
+            let x = contentX;
+            for (const seg of lineTokens) {
+              ctx.font = seg.bold ? '700 30px Inter, Arial, sans-serif' : '500 30px Inter, Arial, sans-serif';
+              ctx.fillText(seg.text, x, y);
+              x += seg.width;
+            }
+            y += 42;
+          }
+          y += 18;
+          if (y > maxBottomY) break;
+        }
+
+        downloadBtn.hidden = false;
+        shareBtn.hidden = false;
+      };
+
+      img.onload = () => paintCardContent(true);
+      img.onerror = () => paintCardContent(false);
+      img.src = species.img || '';
+    }
+
+    downloadBtn.addEventListener('click', () => {
+      const a = document.createElement('a');
+      a.download = `${slug || 'species'}-card.png`;
+      a.href = canvas.toDataURL('image/png');
+      a.click();
+    });
+
+    shareBtn.addEventListener('click', async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({ title: document.title, url: location.href });
+          return;
+        } catch {}
+      }
+      try {
+        await navigator.clipboard.writeText(location.href);
+        statusEl.textContent = T.copied;
+      } catch {
+        statusEl.textContent = location.href;
+      }
+    });
+
+    pageTitle.textContent = T.pageTitle;
+    downloadBtn.textContent = T.download;
+    shareBtn.textContent = T.share;
+    statusEl.textContent = T.loading;
+
+    (async () => {
+      if (!slug) {
+        statusEl.textContent = T.noSpecies;
+        return;
+      }
+
+      try {
+        const data = await loadData();
+        const species = data.find((item) => {
+          const candidates = [item.key, item.Name, item.Name_fr]
+            .map((v) => toSlug(v))
+            .filter(Boolean);
+          return candidates.includes(slug);
+        });
+        if (!species) {
+          statusEl.textContent = T.notFound;
+          return;
+        }
+
+        nameEl.textContent = readI18nField(species, 'Name');
+        notesEl.innerHTML = renderRichHtml(parseRichText(readI18nField(species, 'Notes')));
+        imgEl.src = text(species.img);
+        buildMeta(species);
+        drawCard(species);
+
+        cardEl.hidden = false;
+        statusEl.textContent = '';
+      } catch (err) {
+        statusEl.textContent = err && err.message ? err.message : T.unable;
+      }
+    })();
+  </script>
+</body>
+</html>

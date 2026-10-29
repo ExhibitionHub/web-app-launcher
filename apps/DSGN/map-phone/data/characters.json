@@ -1,0 +1,45 @@
+{
+  "characters": {
+    "victim": {
+      "name": "Youssef",
+      "age": 34,
+      "role": "Victim",
+      "details": [
+        "Found dead in his home.",
+        "Known to sell drugs."
+      ]
+    },
+    "karim": {
+      "name": "Karim",
+      "age": 29,
+      "role": "Buyer / Visitor",
+      "details": [
+        "Purchased drugs from the victim.",
+        "Believed they were fake.",
+        "Became aggressive and threatened to come over.",
+        "Attempted remote deletion of phone data."
+      ]
+    },
+    "samir": {
+      "name": "Samir",
+      "age": 32,
+      "role": "Friend",
+      "details": [
+        "Close relationship with the victim.",
+        "Arrived drunk on the night of the incident.",
+        "Claims memory loss.",
+        "Present at the house but without a clear motive."
+      ]
+    },
+    "witness": {
+      "name": "Fatima Zahra El Idrissi",
+      "age": 51,
+      "role": "Housekeeper / Witness",
+      "details": [
+        "Works regularly at the victim's house.",
+        "Arrived early and noticed something was wrong.",
+        "Called police."
+      ]
+    }
+  }
+}

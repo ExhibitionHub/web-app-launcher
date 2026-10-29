@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,et" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <title>Van Gogh Board</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2308111d'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%23efbc5b' fill-opacity='.9'/%3E%3Cpath d='M20 34c5-10 19-12 24-4-7-2-12 2-14 8 4-2 8-2 12 0-8 4-17 3-22-4Z' fill='%23050a12'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./style/app.css?v=20260824k" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="app-stage" id="appStage">
+        <div class="ambient ambient-a"></div>
+        <div class="ambient ambient-b"></div>
+        <header class="topbar">
+          <div class="topbar-actions">
+            <nav class="lang-switcher" data-lang-switcher aria-label="Language selector"></nav>
+            <button class="home-pill hidden" id="homeButton" type="button" aria-label="Home">
+              <span class="home-pill-arrow" aria-hidden="true"></span>
+              <span class="home-pill-label"></span>
+            </button>
+          </div>
+        </header>
+
+        <main class="scene-host">
+          <section class="scene-frame scene-frame-ready" id="sceneFrame"></section>
+        </main>
+      </div>
+    </div>
+
+    <script src="./lib/i18n.js?v=20260824k"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script type="module" src="./src/app.js?v=20260824k"></script>
+  </body>
+</html>

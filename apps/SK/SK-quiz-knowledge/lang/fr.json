@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "documentTitle": "Quiz de connaissances — Exposition sur les tueurs en série"
+  },
+  "ui": {
+    "welcome": {
+      "title": "QUIZ DE CONNAISSANCES",
+      "subtitle": "Testez ce que vous avez appris",
+      "descriptionHtml": "Basé sur les données de l'exposition et la base de données Radford/FGCU (FGCU = Florida Gulf Coast University)<br><strong>12 questions</strong> avec des graphiques et des informations visuelles<br>Voir ce dont vous vous souvenez de votre visite.",
+      "start": "COMMENCER LE QUIZ"
+    },
+    "stats": {
+      "serialKillers": "Tueurs en série",
+      "victims": "Victimes",
+      "years": "Années"
+    },
+    "question": {
+      "counterTemplate": "Question {{current}} de {{total}}"
+    },
+    "buttons": {
+      "restart": "REDÉMARRER",
+      "continue": "CONTINUER",
+      "nextQuestion": "QUESTION SUIVANTE",
+      "viewResults": "VOIR LES RÉSULTATS"
+    },
+    "accessibility": {
+      "languageSelector": "Sélecteur de langue"
+    },
+    "insight": {
+      "title": "PRINCIPAUX À RETENIR"
+    },
+    "result": {
+      "title": "VOS RÉSULTATS",
+      "correctAnswers": "RÉPONSES CORRECTES",
+      "chartLabels": {
+        "correct": "Bonne réponse",
+        "incorrect": "Incorrect"
+      }
+    },
+    "feedback": {
+      "correct": "Bonne réponse",
+      "incorrect": "Incorrect",
+      "incorrectWithAnswer": "Incorrect — Bonne réponse : {{answer}}"
+    },
+    "error": {
+      "title": "ERREUR",
+      "subtitle": "IMPOSSIBLE DE CHARGER",
+      "description": "Assurez-vous qu'un serveur local est en cours d'exécution et que ressource/data/questions.json est accessible.",
+      "reload": "RECHARGER",
+      "loadQuestions": "Impossible de charger le contenu du quiz."
+    }
+  },
+  "content": {
+    "questions": {
+      "1": {
+        "question": "Combien de tueurs en série figuraient dans la base de données Radford en 2016 ?",
+        "answers": [
+          {
+            "text": "R. 1 400"
+          },
+          {
+            "text": "B. 2 100"
+          },
+          {
+            "text": "C. 4 743"
+          },
+          {
+            "text": "D. 6 200"
+          }
+        ],
+        "insight": "En 2016, la base de données Radford/FGCU recensait 4 743 tueurs en série et 13 105 victimes."
+      },
+      "2": {
+        "question": "Au cours de quelle décennie les États-Unis ont-ils vu le plus grand nombre de nouveaux tueurs en série commencer à tuer ?",
+        "answers": [
+          {
+            "text": "A. Années 1960"
+          },
+          {
+            "text": "B. Années 1970"
+          },
+          {
+            "text": "Vers les années 1980"
+          },
+          {
+            "text": "D. Années 1990"
+          }
+        ],
+        "insight": "Les années 1970 constituent ici la décennie la plus importante : 605 nouveaux décès ont commencé, souvent liés à la mobilité et à un partage de données plus faible.",
+        "chartData": {
+          "title": "Nouveaux tueurs en série par décennie",
+          "labels": [
+            "années 1960",
+            "années 1970",
+            "années 1980",
+            "années 1990",
+            "années 2000"
+          ]
+        }
+      },
+      "3": {
+        "question": "Quel pourcentage des tueurs en série américains sont des hommes ?",
+        "answers": [
+          {
+            "text": "R. 70 %"
+          },
+          {
+            "text": "B. 80 %"
+          },
+          {
+            "text": "C.90,8%"
+          },
+          {
+            "text": "D.95%"
+          }
+        ],
+        "insight": "Environ 90,8 % sont des hommes ; les femmes représentent environ 9 %.",
+        "insightChart": {
+          "title": "Répartition par sexe",
+          "labels": [
+            "Hommes",
+            "Femmes"
+          ]
+        }
+      },
+      "4": {
+        "question": "Quelle ethnie représente actuellement la plus grande part des tueurs en série aux États-Unis ?",
+        "answers": [
+          {
+            "text": "A. Blanc (≈ 52%)"
+          },
+          {
+            "text": "B. Noir"
+          },
+          {
+            "text": "C. Hispanique"
+          },
+          {
+            "text": "D. Asiatique"
+          }
+        ],
+        "insight": "Dans cet ensemble de données, les délinquants blancs représentent environ 52 % et les délinquants noirs environ 38 %.",
+        "insightChart": {
+          "title": "Répartition ethnique",
+          "labels": [
+            "Blanc",
+            "Noir",
+            "Hispanique",
+            "Asiatique",
+            "Autre"
+          ]
+        }
+      },
+      "5": {
+        "question": "Quel est le mobile le plus courant chez les tueurs en série ?",
+        "answers": [
+          {
+            "text": "A. La colère"
+          },
+          {
+            "text": "B. Gain financier"
+          },
+          {
+            "text": "C. Plaisir (désir, frisson, pouvoir)"
+          },
+          {
+            "text": "D. Éviter l'arrestation"
+          }
+        ],
+        "insight": "Le plaisir (désir/frisson/pouvoir) est le motif le plus cité, soit environ 36 %.",
+        "insightChart": {
+          "title": "Motifs",
+          "labels": [
+            "Plaisir",
+            "Gain financier",
+            "Colère",
+            "Éviter l'arrestation",
+            "Autre"
+          ]
+        }
+      },
+      "6": {
+        "question": "Quel est le QI moyen d'un tueur en série ?",
+        "answers": [
+          {
+            "text": "R. 75"
+          },
+          {
+            "text": "B. 94,5"
+          },
+          {
+            "text": "C.110"
+          },
+          {
+            "text": "D.130"
+          }
+        ],
+        "insight": "Le QI moyen est d'environ 94,5, ce qui est presque normal et ne correspond pas au stéréotype du « cerveau génial »."
+      },
+      "7": {
+        "question": "Quelle méthode de meurtre est la plus courante parmi les tueurs en série ?",
+        "answers": [
+          {
+            "text": "A. Étranglement"
+          },
+          {
+            "text": "B. Coup de couteau"
+          },
+          {
+            "text": "C. Armes à feu"
+          },
+          {
+            "text": "D. Empoisonnement"
+          }
+        ],
+        "insight": "Les armes à feu sont les plus courantes (~ 43 %), suivies par l'étranglement (~ 22 %).",
+        "insightChart": {
+          "title": "Méthodes",
+          "labels": [
+            "Armes à feu",
+            "Strangulation",
+            "Poignarder",
+            "Empoisonnement",
+            "Autre"
+          ]
+        }
+      },
+      "8": {
+        "question": "Quel État américain a enregistré le plus de victimes de tueurs en série ?",
+        "answers": [
+          {
+            "text": "A. Floride"
+          },
+          {
+            "text": "B.Texas"
+          },
+          {
+            "text": "C. Californie"
+          },
+          {
+            "text": "D. New York"
+          }
+        ],
+        "insight": "La Californie compte le plus grand nombre de victimes (1 628), suivie du Texas et de la Floride.",
+        "insightChart": {
+          "title": "Top 5 des États par nombre de victimes",
+          "labels": [
+            "Californie",
+            "Texas",
+            "Floride",
+            "New York",
+            "Illinois"
+          ]
+        }
+      },
+      "9": {
+        "question": "Quel âge ont la plupart des victimes de tueurs en série ?",
+        "answers": [
+          {
+            "text": "A. Moins de 10 ans"
+          },
+          {
+            "text": "B. 18-35"
+          },
+          {
+            "text": "Vers 40-60"
+          },
+          {
+            "text": "D. Plus de 60 ans"
+          }
+        ],
+        "insight": "La plupart des victimes sont de jeunes adultes ; l'âge moyen est d'environ 33,8 ans (médiane d'environ 29 ans).",
+        "insightChart": {
+          "title": "Répartition par âge des victimes",
+          "labels": [
+            "0-17",
+            "18-35",
+            "36-50",
+            "51-65",
+            "65+"
+          ]
+        }
+      },
+      "10": {
+        "question": "Quel sexe représente la plupart des victimes de tueurs en série ?",
+        "answers": [
+          {
+            "text": "A. Homme"
+          },
+          {
+            "text": "B. Femme"
+          },
+          {
+            "text": "C. Mixte/Inconnu"
+          },
+          {
+            "text": "D. Égalité"
+          }
+        ],
+        "insight": "Les femmes représentent environ 70 % des victimes dans la base de données Radford/FGCU.",
+        "insightChart": {
+          "title": "Répartition par sexe des victimes",
+          "labels": [
+            "Femmes",
+            "Hommes"
+          ]
+        }
+      },
+      "11": {
+        "question": "Quelle décennie a vu le plus grand nombre de tueurs en série actifs aux États-Unis au cours d'une année donnée ?",
+        "answers": [
+          {
+            "text": "A. Années 1960"
+          },
+          {
+            "text": "B. Années 1970"
+          },
+          {
+            "text": "Vers les années 1980"
+          },
+          {
+            "text": "D. Années 1990"
+          }
+        ],
+        "insight": "Les années 1980 comptaient en moyenne environ 145 tueurs en série actifs par an ; les décennies suivantes chutent avec de meilleures analyses médico-légales et de meilleures bases de données.",
+        "chartData": {
+          "title": "Tueurs en série actifs par décennie",
+          "labels": [
+            "années 1960",
+            "années 1970",
+            "années 1980",
+            "années 1990",
+            "années 2000",
+            "années 2010"
+          ]
+        }
+      },
+      "12": {
+        "question": "Quel pourcentage de tueurs en série américains ont servi dans l’armée ?",
+        "answers": [
+          {
+            "text": "R. 10 %"
+          },
+          {
+            "text": "B.18%"
+          },
+          {
+            "text": "C.30%"
+          },
+          {
+            "text": "D.45%"
+          }
+        ],
+        "insight": "Environ 18 % des tueurs en série masculins ont servi dans l’armée."
+      }
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Criminologie Débutant",
+        "message": "Stade précoce : ces statistiques remettent en question les mythes courants. Continuez à explorer."
+      },
+      "student": {
+        "title": "Étudiant informé",
+        "message": "Bonne base de référence : vous voyez en quoi les données diffèrent des récits médiatiques."
+      },
+      "observer": {
+        "title": "Observateur pointu",
+        "message": "Fort : vous suivez les tendances clés à travers les méthodes, les décennies et les données démographiques."
+      },
+      "expert": {
+        "title": "Expert en criminologie",
+        "message": "Exceptionnel : votre compréhension des statistiques est de niveau expert."
+      }
+    }
+  }
+}

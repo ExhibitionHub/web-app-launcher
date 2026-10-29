@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "languageName": "Nederlands"
+  },
+  "common": {
+    "home": "Start",
+    "languageSelector": "Taalkiezer",
+    "backToMainMenu": "Terug naar het hoofdmenu"
+  },
+  "quizApp": {
+    "pageTitle": "Seriemoordenaarquiz - Kioskmodus",
+    "welcome": {
+      "title": "INTERACTIEVE QUIZ",
+      "subtitle": "CRIMINELE STATISTIEKEN",
+      "descriptionHtml": "Test je kennis over echte seriemoordenaargegevens.<br>12 vragen gebaseerd op de Radford/FGCU-database (FGCU = Florida Gulf Coast University).",
+      "start": "BEGIN"
+    },
+    "nav": {
+      "previous": "VORIGE",
+      "next": "VOLGENDE",
+      "seeResult": "BEKIJK RESULTAAT",
+      "nextQuestion": "VOLGENDE VRAAG",
+      "seeResults": "BEKIJK RESULTATEN"
+    },
+    "questionCounter": "Vraag {{current}} / {{total}}",
+    "insight": {
+      "title": "UITLEG",
+      "continue": "GA DOOR",
+      "answerCorrect": "WAAR",
+      "answerIncorrect": "ONWAAR"
+    },
+    "result": {
+      "title": "RESULTAAT",
+      "correctAnswers": "JUISTE ANTWOORDEN",
+      "restart": "OPNIEUW BEGINNEN"
+    },
+    "error": {
+      "title": "FOUT",
+      "subtitle": "LADEN MISLUKT",
+      "helpHtml": "Controleer of de lokale server actief is en of het bestand questions.json toegankelijk is.",
+      "reload": "HERLADEN",
+      "unableToLoadQuestions": "Kan vragen niet laden. Controleer of het bestand questions.json toegankelijk is."
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Beginner in de criminologie",
+        "message": "Uw kennis van strafrechtstatistieken is nog steeds beperkt. Deze gegevens onthullen belangrijke trends die veel populaire mythen over seriemoordenaars ter discussie stellen. Blijf leren over op bewijs gebaseerde criminologie!"
+      },
+      "student": {
+        "title": "Geïnformeerde student",
+        "message": "Je hebt een goed inzicht in strafrechtelijke gegevens. Je begint te begrijpen dat de realiteit van seriemoordenaars vaak verschilt van de afbeeldingen in de media. Statistieken laten complexe patronen zien die worden beïnvloed door sociale en historische factoren."
+      },
+      "connoisseur": {
+        "title": "Slimme kenner",
+        "message": "Uitstekende beheersing van criminele statistieken! U begrijpt dat gegevens contra-intuïtieve trends onthullen: het gemiddelde IQ van seriemoordenaars is normaal, de meesten gebruiken vuurwapens en historische pieken komen overeen met specifieke maatschappelijke factoren."
+      },
+      "expert": {
+        "title": "Criminologie-expert",
+        "message": "Opmerkelijk! Jouw kennis van strafrechtstatistieken is uitzonderlijk. U weet dat gegevens uit Radford laten zien hoe verbeterde databases, forensisch onderzoek en communicatie tussen rechtsgebieden de activiteit van seriemoordenaars sinds de jaren negentig aanzienlijk hebben verminderd."
+      },
+      "undetermined": {
+        "title": "Onbepaald profiel",
+        "message": "Kan uw profiel niet bepalen met de beschikbare gegevens."
+      }
+    },
+    "questions": {
+      "1": {
+        "question": "Hoeveel seriemoordenaars stonden er in 2016 in de Radford-database?",
+        "answers": {
+          "0": {
+            "text": "A. 1.452"
+          },
+          "1": {
+            "text": "B. 2.112"
+          },
+          "2": {
+            "text": "C. 4.743"
+          },
+          "3": {
+            "text": "D. 6.235"
+          }
+        },
+        "insight": "Op 4 september 2016 bevatte de Radford/FGCU-database 4.743 seriemoordenaars en 13.105 slachtoffers, waardoor het de meest uitgebreide dataset in zijn soort is."
+      },
+      "2": {
+        "question": "In welk decennium zagen de Verenigde Staten het grootste aantal nieuwe seriemoordenaars beginnen met moorden?",
+        "answers": {
+          "0": {
+            "text": "A. Jaren 60"
+          },
+          "1": {
+            "text": "B. Jaren 70"
+          },
+          "2": {
+            "text": "C. Jaren 80"
+          },
+          "3": {
+            "text": "D. Jaren negentig"
+          }
+        },
+        "insight": "De jaren zeventig markeren het gouden tijdperk van seriemoorden, waarbij 605 moordenaars hun misdaden begonnen - aangewakkerd door de toegenomen mobiliteit, sociale onrust en het ontbreken van gecentraliseerde databases voor wetshandhaving."
+      },
+      "3": {
+        "question": "Hoeveel procent van de Amerikaanse seriemoordenaars is man?",
+        "answers": {
+          "0": {
+            "text": "A. 70%"
+          },
+          "1": {
+            "text": "B. 80%"
+          },
+          "2": {
+            "text": "C. 90%"
+          },
+          "3": {
+            "text": "D. 95%"
+          }
+        },
+        "insight": "Ongeveer 9 op de 10 seriemoordenaars zijn mannen. Het aandeel vrouwen (≈ 9%) is klein maar persistent over alle decennia heen."
+      },
+      "4": {
+        "question": "Welke etniciteit vertegenwoordigt momenteel het grootste aandeel Amerikaanse seriemoordenaars?",
+        "answers": {
+          "0": {
+            "text": "A. Wit"
+          },
+          "1": {
+            "text": "B. Zwart"
+          },
+          "2": {
+            "text": "C. Spaans"
+          },
+          "3": {
+            "text": "D. Aziatisch"
+          }
+        },
+        "insight": "Het lang aangehaalde stereotype van de ‘blanke man’ is achterhaald. Terwijl blanke delinquenten nog steeds ongeveer de helft uitmaken, zijn zwarte delinquenten nu goed voor bijna 40%, wat demografische en sociaal-economische factoren weerspiegelt, en niet de op ras gebaseerde causaliteit."
+      },
+      "5": {
+        "question": "Wat is het meest voorkomende motief onder seriemoordenaars?",
+        "answers": {
+          "0": {
+            "text": "A. Woede"
+          },
+          "1": {
+            "text": "B. Financieel gewin"
+          },
+          "2": {
+            "text": "C. Plezier"
+          },
+          "3": {
+            "text": "D. Het vermijden van arrestatie"
+          }
+        },
+        "insight": "Ruim 36% van de seriemoordenaars moorden voor hun plezier – een mix van lust, overheersing en macht – waardoor 'plezier' de meest gerapporteerde oorzaak van seriemoord is."
+      },
+      "6": {
+        "question": "Wat is het gemiddelde IQ van een seriemoordenaar?",
+        "answers": {
+          "0": {
+            "text": "A. 76"
+          },
+          "1": {
+            "text": "B. 94"
+          },
+          "2": {
+            "text": "C. 109"
+          },
+          "3": {
+            "text": "D. 127"
+          }
+        },
+        "insight": "Ondanks de mythen over het ‘criminele genie’ hebben seriemoordenaars een gemiddeld IQ van 94,5 – iets onder het algemene bevolkingsgemiddelde. Intelligentie is zelden het geheim van een lang leven; planning en omstandigheden zijn."
+      },
+      "7": {
+        "question": "Wat is de meest voorkomende moordmethode onder seriemoordenaars?",
+        "answers": {
+          "0": {
+            "text": "A. Wurging"
+          },
+          "1": {
+            "text": "B. Steekpartij"
+          },
+          "2": {
+            "text": "C. Vuurwapens"
+          },
+          "3": {
+            "text": "D. Vergiftiging"
+          }
+        },
+        "insight": "Vuurwapens zijn verantwoordelijk voor ongeveer 43% van alle bekende moorden op seriemoordenaars, met wurging op de tweede plaats (≈ 22%). De keuze weerspiegelt toegankelijkheid en controle in plaats van verfijning."
+      },
+      "8": {
+        "question": "Welke Amerikaanse staat heeft de meeste slachtoffers van seriemoordenaars geregistreerd?",
+        "answers": {
+          "0": {
+            "text": "A. Florida"
+          },
+          "1": {
+            "text": "B. Texas"
+          },
+          "2": {
+            "text": "C. Californië"
+          },
+          "3": {
+            "text": "D. New York"
+          }
+        },
+        "insight": "Californië leidt met 1.628 slachtoffers, gevolgd door Texas en Florida – eerder een weerspiegeling van de bevolkingsomvang en mobiliteit dan een aangeboren regionaal verschil."
+      },
+      "9": {
+        "question": "Op welke leeftijd zijn de meeste slachtoffers van seriemoordenaars?",
+        "answers": {
+          "0": {
+            "text": "A. Minder dan 10 jaar"
+          },
+          "1": {
+            "text": "B. 18 – 35 jaar"
+          },
+          "2": {
+            "text": "C. 40 – 60 jaar"
+          },
+          "3": {
+            "text": "D. Meer dan 60 jaar"
+          }
+        },
+        "insight": "De gemiddelde leeftijd van de slachtoffers is 33,8 jaar, met een mediaan van 29 jaar: jongvolwassenen die mobiliteit en kwetsbaarheid in evenwicht houden."
+      },
+      "10": {
+        "question": "Welk geslacht vertegenwoordigt de meeste slachtoffers van seriemoordenaars?",
+        "answers": {
+          "0": {
+            "text": "A. Mannetje"
+          },
+          "1": {
+            "text": "B. Vrouw"
+          },
+          "2": {
+            "text": "C. Gemengd/Onbekend"
+          },
+          "3": {
+            "text": "D. Gelijk"
+          }
+        },
+        "insight": "Volgens de Radford/FGCU-database zijn ongeveer zeven op de tien slachtoffers van seriemoordenaars vrouwen. Dit patroon weerspiegelt de selectie van doelwitten, en niet alleen kansen; vrouwen zijn vaker het doelwit omdat daders hen beschouwen als gemakkelijker te isoleren of te manipuleren."
+      },
+      "11": {
+        "question": "In welk decennium was het hoogste aantal actieve seriemoordenaars in de Verenigde Staten in een bepaald jaar?",
+        "answers": {
+          "0": {
+            "text": "A. Jaren 60"
+          },
+          "1": {
+            "text": "B. Jaren 70"
+          },
+          "2": {
+            "text": "C. Jaren 80"
+          },
+          "3": {
+            "text": "D. Jaren negentig"
+          }
+        },
+        "insight": "In de jaren tachtig telden de Verenigde Staten gemiddeld 145 actieve seriemoordenaars per jaar (gedefinieerd als degenen die dat jaar minstens één keer moorden). Verbeterd forensisch onderzoek en databases hebben dit aantal sindsdien drastisch verminderd."
+      },
+      "12": {
+        "question": "Hoeveel procent van de Amerikaanse seriemoordenaars heeft in het leger gediend?",
+        "answers": {
+          "0": {
+            "text": "A. 11%"
+          },
+          "1": {
+            "text": "B. 18%"
+          },
+          "2": {
+            "text": "C. 32%"
+          },
+          "3": {
+            "text": "D. 46%"
+          }
+        },
+        "insight": "Ongeveer 1 op de 5 mannelijke seriemoordenaars heeft een militaire achtergrond – iets boven het nationale gemiddelde. Militaire training veroorzaakt geen geweld, maar kan de structuur, controle en desensibilisatie versterken."
+      }
+    }
+  }
+}

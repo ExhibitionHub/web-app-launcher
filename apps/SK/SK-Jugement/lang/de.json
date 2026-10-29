@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "pageTitle": "Aileen Wuornos – Hättest du sie verurteilt?"
+  },
+  "branding": {
+    "eyebrow": "Interaktion im Rahmen der Urteilsverkündung",
+    "title": "Aileen Wuornos – Hättest du sie verurteilt?"
+  },
+  "hero": {
+    "title": "Aileen Wuornos",
+    "tagline": "Würdest du in dieser Jury sitzen wollen? Prüfe die Fallakte, bewerte die von Wournos erlittene Gewalt und fälle ein Urteil."
+  },
+  "background": {
+    "title": "Hintergrund",
+    "copy": "Die obdachlose Sexarbeiterin Aileen Wuornos wurde wegen Mordes an sechs Männern zwischen 1989 und 1990 in Florida verurteilt. Als Opfer gnadenloser Misshandlungen behauptete sie, dass jeder Mord aus Notwehr geschehen sei."
+  },
+  "howTo": {
+    "title": "So nutzt du diese Station.",
+    "steps": [
+      "Lies wichtige Auszüge aus dem Prozess und der Verteidigungsstrategie.",
+      "Berücksichtige mildernde Umstände: Trauma, Polizeidruck und psychiatrische Gutachten.",
+      "Gib dein Urteil ein und vergleiche es mit dem vorheriger Ausstellungsbesucher. "
+    ]
+  },
+  "charges": {
+    "title": "Strafanzeigen & Anklagen",
+    "intro": "In den Gerichtsakten sind sechs separate Tötungsdelikte sowie Raubüberfälle im Zusammenhang mit verschwundenen Wertsachen der Opfer aufgeführt. Lies selbst, mit welchen Worten die Staatsanwaltschaft Wuornos als Straftäterin dargestellt hat.",
+    "items": [
+      {
+        "label": "Anklagen wegen Mordes",
+        "title": "Mallory, Spears & Carskaddon",
+        "image": "ressource/images/charge_1.png",
+        "summary": "In den Anklageschriften wird beschrieben, wie sie Autofahrer anhielt, zuerst die Pistole vom Kaliber .22 zog und die Wertsachen raubte, bevor sie die Opfer am Straßenrand zurückließ.",
+        "facts": [
+          {
+            "label": "Schüsse",
+            "text": "Laut der Autopsieberichte erfolgten die Schüsse in Brust und Kopf aus nächster Nähe wie bei einem Angriff aus dem Hinterhalt."
+          },
+          {
+            "label": "Beweise",
+            "text": "Die in ihrem Spind sichergestellten Latexhandschuhe, das Seil und die Pistole konnten direkt drei Tatorten zugeordnet werden."
+          },
+          {
+            "label": "Muster",
+            "text": "In den Anklagen geht es jeweils um dieselbe Vorgehensweise: Anlocken, Entwaffnen, Ausrauben und Entsorgen der Leichen in Gräben."
+          }
+        ]
+      },
+      {
+        "label": "Anzeigen wegen Diebstahls & Betrugs",
+        "title": "Familien Burress & Humphreys",
+        "image": "ressource/images/charge_2.png",
+        "summary": "Nachdem innerhalb weniger Tage nach dem Verschwinden der Opfer Pfandscheine, gefälschte Unterschriften und fehlende Ausweise aufgetaucht waren, erstatteten die Familien Anzeige wegen Betrugs.",
+        "facts": [
+          {
+            "label": "Pfandscheinspur",
+            "text": "Kamera, Ausweis und Schmuck von Burress wurden unter Aliasnamen verpfändet, wobei auf dem Pfandschein Wuornos‘ Daumenabdruck gefunden wurde."
+          },
+          {
+            "label": "Kreditkarten",
+            "text": "Anhand von Motelrechnungen und Tankquittungen wurde ermittelt, dass Humphreys' Kreditkarten noch Stunden nach seinem Verschwinden von Wuornos benutzt worden waren."
+          },
+          {
+            "label": "Fälschung",
+            "text": "Laut Aussagen von Bankermittlern stimmten die Unterschriften auf Schecks und Fahrzeug-Formularen mit ihrer Handschrift überein und nicht mit der der Opfer."
+          }
+        ]
+      },
+      {
+        "label": "Erschwerende Umstände",
+        "title": "Verschwinden von Peter Siems",
+        "image": "ressource/images/charge_3.png",
+        "summary": "Moore und Siems' Schwester sagten aus, dass auf Tonband aufgezeichnete Geständnisse beschrieben, wie sie bei Raubzügen „keine Zeugen zurücklassen“ wollte.",
+        "facts": [
+          {
+            "label": "Geständnis",
+            "text": "Moore sagte den Ermittlern, Wuornos habe damit geprahlt, zweimal auf ihn geschossen zu haben, „damit er nicht reden konnte“."
+          },
+          {
+            "label": "Fahrzeug",
+            "text": "Sein Oldsmobile wurde verlassen und gereinigt aufgefunden, ihr Handabdruck befand sich auf der Seitenscheibe."
+          },
+          {
+            "label": "Nachspiel",
+            "text": "Barkeeper sagten aus, dass sie in derselben Nacht mit neuem Bargeld geprahlt habe, was das Raubmotiv untermauerte."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "heading": "Zu prüfende Unterlagen",
+    "subheading": "Öffne jedes Exponat, um das Urteil freizuschalten.",
+    "status": {
+      "loading": "Unterlagen werden geladen...",
+      "error": "Beweisakte konnte nicht geladen werden. Bitte mit Vorsicht fortfahren.",
+      "empty": "Keine Beweisunterlagen vorhanden.",
+      "complete": "Alle Unterlagen wurden geprüft. Weiter zum Urteil.",
+      "incomplete": "{reviewed} von {total} Unterlagen geprüft. Prüfe noch {remaining}, um das Urteil freizuschalten."
+    },
+    "nav": {
+      "ariaLabel": "Beweisliste",
+      "loading": "Unterlagen werden geladen...",
+      "error": "Unterlagen konnten nicht geladen werden.",
+      "empty": "Keine Unterlagen verfügbar.",
+      "selectPrompt": "Wähle ein Exponat, um die vollständigen Details zu laden."
+    }
+  },
+  "verdict": {
+    "title": "Urteil der Geschworenen",
+    "prompt": "Wähle das Urteil aus, das du unter Berücksichtigung der Beweise und mildernden Umstände für gerecht hältst. Sobald du deine Entscheidung eingibst, wird das Ergebnis direkt angezeigt.",
+    "choices": {
+      "death": "Schuldig – Todesstrafe",
+      "life": "Schuldig – Lebenslange Haftstrafe",
+      "insanity": "Nicht schuldig aufgrund von Unzurechnungsfähigkeit"
+    },
+    "hint": "Du kannst die Auswirkungen deiner Entscheidung in den nachstehenden Ergebnissen sehen.",
+    "feedback": {
+      "preVote": "Gib dein Urteil ab, um zu ermitteln, wie dieses das Ergebnis verändert.",
+      "verdictStep": "Wähle ein Urteil aus, um das Gesamtergebnis sofort anzeigen zu lassen.",
+      "otherStep": "Lies die Unterlagen, bevor du dein Urteil fällst und das Ergebnis einsiehst.",
+      "template": "Deine Stimme entspricht {percentage}% der aufgezeichneten Entscheidungen an diesem Kiosk. {alignment}",
+      "alignmentMatch": "Deine Entscheidung entspricht der aktuellen Mehrheit.",
+      "alignmentDifferent": "Deine Entscheidung weicht vom vorherrschenden Trend ab."
+    }
+  },
+  "results": {
+    "title": "Gesamtergebnis",
+    "description": "Erfahre, wie dein Urteil im Vergleich zu anderen Besuchern dieser interaktiven Station ausfällt.",
+    "footer": "Die Daten werden auf diesem System live erfasst und regelmäßig zurückgesetzt. Basierend auf Gerichtsprotokollen und Verteidigungsakten aus dem Jahr 1992."
+  },
+  "navigation": {
+    "languageSelector": "Sprachauswahl",
+    "back": "Zurück",
+    "continue": "Weiter",
+    "alerts": {
+      "reviewEvidenceFirst": "Prüfe alle Unterlagen, bevor du ein Urteil abgibst.",
+      "castVoteToSeeResults": "Gib dein Urteil ab, um die Ergebnisse zu sehen."
+    },
+    "nextLabels": {
+      "restart": "Neu starten",
+      "seeCharges": "Anklagen ansehen",
+      "reviewEvidence": "Beweise prüfen",
+      "goToVerdict": "Zum Urteil",
+      "continue": "Weiter"
+    }
+  },
+  "placeholders": {
+    "detailPrompt": "Wähle ein Exponat, um alle Details zu laden."
+  },
+  "tally": {
+    "countLabel": "{count} Stimmen"
+  },
+  "evidenceData": [
+    {
+      "id": "abuse-history",
+      "title": "Dokumentierter Kindesmissbrauch",
+      "image": "ressource/images/evidence_abuse-history.png",
+      "type": "Aussage des Jugendamtes",
+      "summary": "Sozialarbeiter und Familienangehörige berichteten von anhaltendem Missbrauch von frühester Kindheit an.",
+      "details": [
+        "Im Alter von vier Jahren kam Wuornos zu ihren alkoholkranken Großeltern. Sie berichtet von Schlägen, Vergewaltigungen und einem Gruppenüberfall im Alter von vierzehn Jahren, der in einem Protokoll aus dem Jahr 1970 erfasst wurde.",
+        "Lehrer beschrieben sie als eine Teenagerin, die in den Schulfluren schlief und für Essen und Kleidung Sex anbot.",
+        "Ein gerichtlich bestellter Psychiater diagnostizierte bei ihr 1976 eine schwere posttraumatische Belastungsstörung und auf einem chronischen Trauma beruhende dissoziative Symptome.",
+        "Die Verteidigung wies darauf hin, dass mehrere männliche Ankläger bereits aufgrund von Gewalttaten oder sexuellen Übergriffen vorbestraft waren."
+      ],
+      "quote": "Wournos war an keinem Ort je in Sicherheit. Alle Männer, denen sie begegnete, wollten sie bzw. ihren Körper kaufen. ",
+      "attribution": "Sachverständiger für Viktimologie – Anhörung vom 14. Januar 1992"
+    },
+    {
+      "id": "forensic-proof",
+      "title": "Forensische Beweise & Diebesgut",
+      "image": "ressource/images/evidence_forensic-proof.png",
+      "type": "Ergebnisse des Kriminallabors",
+      "summary": "Öffentlich bestellte Sachverständige legten die Wuornos mit den einzelnen Opfern verbindenden Sachbeweise dar.",
+      "details": [
+        "Aus dem in Wournos angemieteten Lagerraum sichergestellten Revolver vom Kaliber .22 stammten die Patronen, die den Tatorten aller sechs Tötungsdelikte zugeordnet werden konnten. ",
+        "In den Fahrzeugen mehrerer Opfer wurden ihre Fingerabdrücke zusammen mit in ein Handtuch gewickelten Patronenhülsen gefunden, die mit ihrem Lager in Verbindung standen.",
+        "Pfandscheine belegten, dass sie innerhalb weniger Stunden nach den Morden eine Kamera, Werkzeuge und Schmuck beliehen hatte. Darüber hinaus fand man Fotokopien der Ausweispapiere ihrer Opfer.",
+        "Die Brieftasche von Peter Siems wurde von der Autobahnpolizei in einem Müllcontainer in der Nähe einer Bar gefunden, in der Wuornos nachweislich mit dem Bargeld feierte."
+      ],
+      "quote": "Die Beweiskette ist lückenlos: eine Tatwaffe, sechs Morde und alle Beweismittel führten direkt zu der Angeklagten.",
+      "attribution": "FDLE (Florida Department of Law Enforcement), ballistischer Bericht – Exponat 137"
+    },
+    {
+      "id": "tyra-testimony",
+      "title": "Tyra Moores‘ Aussage",
+      "image": "ressource/images/evidence_tyra-testimony.png",
+      "type": "Hauptzeugenaussage",
+      "summary": "Moore schilderte detailliert die Geständnisse und überzeugte die Geschworenen, dass es sich um einen geplanten Raubüberfall handelte, der in Mord endete.",
+      "details": [
+        "Moore berichtete den Geschworenen, Wuornos habe zugegeben, die Waffe gezogen zu haben, als die Opfer die Herausgabe von Bargeld oder Fahrzeug verweigerten.",
+        "Sie beschrieb, wie sie die am isoliertesten erscheinenden Lkw-Fahrer ausmachte und passende Geschichten einübte.",
+        "Telefonaufzeichnungen dokumentierten, dass Wuornos Moore angefleht hatte, bei der Version der Notwehr zu bleiben, um dann zuzugeben, dass sie geschossen habe, „um keine Zeugen zu hinterlassen“.",
+        "Die Staatsanwaltschaft argumentierte dahingehend, dass Moore aufgrund der in einem anderen Betrugsfall zugesicherten Straffreiheit keinen Grund zur Lüge hatte."
+      ],
+      "quote": "Sie sagte, der einzige Ausweg sei gewesen, ihnen alles zu nehmen und sicherzustellen, dass sie ihr nicht folgen konnten.",
+      "attribution": "Tyra Moore, Verhandlungsprotokoll, Tag 18"
+    },
+    {
+      "id": "mental-health",
+      "title": "Psychiatrische Gutachten",
+      "image": "ressource/images/evidence_mental-health.png",
+      "type": "Klinische Expertise",
+      "summary": "Vor und im Verlauf des Prozesses wurden psychologische Gutachten erstellt.",
+      "details": [
+        "Drei forensische Psychiater diagnostizierten eine Borderline-Persönlichkeitsstörung in Verbindung mit einer komplexen PTBS.",
+        "Projektive Untersuchungen ergaben dissoziative Episoden, extreme Hypervigilanz und die verzerrte Wahrnehmung einer von Männern ausgehenden Gefahr.",
+        "Während der Vernehmungen beschrieb sie Flashbacks, in denen die Gesichter ihrer Kunden mit denen früherer Missbrauchstäter verschwammen.",
+        "Die Verteidigung argumentierte, dass sie in Krisensituation nicht mehr zwischen tatsächlichen und vermeintlichen Bedrohungen zu unterscheiden vermochte."
+      ],
+      "quote": "Ihre Psyche entspricht der einer Überlebenden in einem andauernden Krieg, überzeugt davon, dass Töten der einzige Ausweg sei.",
+      "attribution": "Dr. L. Morgan, psychiatrischer Sachverständiger – Verhandlungsprotokoll Seite 572"
+    },
+    {
+      "id": "exploitation",
+      "title": "Ausbeutung und Zuhälterei",
+      "image": "ressource/images/evidence_exploitation.png",
+      "type": "Aufgezeichnete Vernehmungen",
+      "summary": "Die Ausschnitte zeigen, wie gewalttätige Mittelsmänner Wuornos' Arbeit überwachten.",
+      "details": [
+        "Ehemalige Sexarbeiterinnen berichteten, dass zahlreiche Zuhälter bis zu siebzig Prozent ihrer Einnahmen einbehielten und sie schlugen, wenn sie Kunden ablehnten.",
+        "Ein Barbesitzer gab zu, Übergriffe von Stammgästen vertuscht zu haben, um nicht die Aufmerksamkeit der örtlichen Polizei zu erregen.",
+        "Eine Nachbarin bestätigte, Wuornos sei mit blauen Flecken übersät nach Hause gekommen und habe diese selbst im Sommer unter langen Ärmeln versteckt.",
+        "Die Verteidigung betonte, sie habe aus Angst vor Vergeltungsmaßnahmen die ihr zugefügte Gewalt nicht angezeigt."
+      ],
+      "quote": "Sie sagte sich: Wenn ich mich weigere, sterbe ich. Wenn ich zustimme, könnte ich ebenfalls sterben.",
+      "attribution": "T. Daniels, ehemaliger Kollege – Investigative Dokumentation"
+    },
+    {
+      "id": "police-interview",
+      "title": "Fragwürdige Vernehmungspraxis durch die Polizei",
+      "image": "ressource/images/evidence_police-interview.png",
+      "type": "Audioaufnahme",
+      "summary": "Aufzeichnung des Geständnisses, die den anfänglich ausgeübten Druck dokumentiert.",
+      "details": [
+        "Die Ermittler hielten sie zehn Stunden lang ohne Rechtsbeistand fest und versprachen ihr Gnade, wenn sie ihre Ex-Partnerin Tyra Moore belasten würde.",
+        "Die Beamten boten ihr Limonade und Zigaretten an und betonten, dass ohne Kooperation ihrerseits die Todesstrafe unausweichlich sei.",
+        "Das Protokoll belegt, dass sie das von der Polizei vorgegebene Narrativ wiederholte, einschließlich das des geplanten Raubes.",
+        "Die Verteidigung argumentiert, ihr Geständnis sei mit dem Ziel erfolgt, Moore vor Strafverfolgung zu schützen."
+      ],
+      "quote": "Ich sage, was immer Sie wollen, aber lassen Sie Tyra gehen.",
+      "attribution": "Vernehmung vom 16. Januar 1991 – Offizielles Protokoll"
+    },
+    {
+      "id": "sentencing",
+      "title": "Strafzumessungsphase",
+      "image": "ressource/images/evidence_sentencing.png",
+      "type": "Notizen aus der Geschworenenberatung",
+      "summary": "Schlussplädoyers und Rechtsfragen aus der Strafzumessungsphase.",
+      "details": [
+        "Der Staatsanwalt betonte den Vorsatz und die Opferanzahl, um die Todesstrafe zu rechtfertigen.",
+        "Die Verteidigung führte das Fehlen sozialer und medizinischer Unterstützung sowie Empfehlungen zur Einweisung in eine geschlossene psychiatrische Einrichtung an.",
+        "Der Richter erachtete den früheren Missbrauch als nichts ausreichende rechtliche Entschuldigung für die Taten.",
+        "Zwei Geschworene zögerten bei der Verhängung der Todesstrafe, schlossen sich aber nach dreistündiger Beratung der Mehrheit an."
+      ],
+      "quote": "Wir haben das Gesetz abgewogen, wer aber wägt das ihr zugefügte Leid ab?",
+      "attribution": "Notizen eines Geschworenen in den Verteidigungsakten"
+    }
+  ]
+}

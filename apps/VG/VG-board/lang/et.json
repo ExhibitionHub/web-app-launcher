@@ -1,0 +1,201 @@
+{
+  "app": {
+    "title": "Van Goghi tahvel"
+  },
+  "home": {
+    "title": "Van Gogh maalis sageli samu motiive, kuid erinevalt.",
+    "text": "Milline versioon sind kõnetab?",
+    "button": "Alusta"
+  },
+  "errors": {
+    "experienceLoad": {
+      "title": "Elamust ei saanud laadida",
+      "text": "Elamust ei saanud praegu laadida. Proovi uuesti."
+    }
+  },
+  "final": {
+    "title": "Mida inimesed arvavad?",
+    "text": "Siin on teosed, millega külastajad kõige rohkem samastusid.",
+    "empty": "Edetabel ilmub pärast esimesi valikuid."
+  },
+  "categoryChoice": {
+    "title": "Mis jääb sulle kõige rohkem meelde?",
+    "text": "Kõiki neid maale vaadates, milline teema sind kõige enam kõnetab?"
+  },
+  "years": {
+    "1888": "1888",
+    "1889": "1889",
+    "1890": "1890"
+  },
+  "steps": {
+    "sunflowers": {
+      "title": "Päevalilled",
+      "text": "Van Gogh maalis päevalilli korduvalt. Milline neist sind kõnetab?",
+      "options": {
+        "sunflowers": "Päevalilled"
+      },
+      "results": {
+        "1888": [
+          "Valisid 1888. aastal maalitud „Päevalillede“ versiooni.",
+          "See teos valmis Arles’is lootuse ja ootuse perioodil.",
+          "Van Gogh kasutas erksaid kollaseid toone ja lopsakamaid õisi, väljendades nii soojust ja sõprust."
+        ],
+        "1889": [
+          "Valisid 1889. aastal maalitud „Päevalillede“ versiooni.",
+          "See teos valmis Arles’is lootuse ja ootuse perioodil.",
+          "Van Gogh kasutas erksaid kollaseid toone ja lopsakamaid õisi, väljendades nii soojust ja sõprust."
+        ]
+      }
+    },
+    "bedroom": {
+      "title": "Magamistuba Arles’is",
+      "text": "Van Gogh maalis oma magamistuba kolm korda. Milline tuba tundub sulle kõige rahulikum?",
+      "options": {
+        "bedroom": "Magamistuba"
+      },
+      "results": {
+        "1888": [
+          "Valisid 1888. aasta versiooni.",
+          "See oli tema Arles’i toa esimene maal.",
+          "Maali julged värvid ja lihtsustatud vormid pidid looma rahu ja puhkuse meeleolu."
+        ],
+        "1889": [
+          "Valisid 1889. aasta versiooni.",
+          "See oli tema Arles’i toa esimene maal.",
+          "Maali julged värvid ja lihtsustatud vormid pidid looma rahu ja puhkuse meeleolu."
+        ]
+      }
+    },
+    "night": {
+      "title": "Öö",
+      "text": "Van Gogh kujutas ööd väga erineval moel. Milline neist kõnetab sind kõige rohkem?",
+      "options": {
+        "theStarryNight": "Tähisöö",
+        "starryNightOverTheRhone": "Tähistaevas Rhône’i kohal",
+        "cafeTerraceAtNight": "Kohviku terrass õhtul",
+        "roadWithCypressAndStar": "Tee küpressi ja tähega"
+      },
+      "results": {
+        "1888": [
+          "Valisid 1888. aastal valminud öömaali.",
+          "Mõned Van Goghi öömaalid peegeldavad tema kujutlusvõimet, teised kujutavad päris paiku.",
+          "Igaüks neist väljendab erinevat viisi ööd näha."
+        ],
+        "1889": [
+          "Valisid 1889. aastal valminud öömaali.",
+          "Mõned Van Goghi öömaalid peegeldavad tema kujutlusvõimet, teised kujutavad päris paiku.",
+          "Igaüks neist väljendab erinevat viisi ööd näha."
+        ],
+        "1890": [
+          "Valisid 1890. aastal valminud öömaali.",
+          "Mõned Van Goghi öömaalid peegeldavad tema kujutlusvõimet, teised kujutavad päris paiku.",
+          "Igaüks neist väljendab erinevat viisi ööd näha."
+        ]
+      }
+    },
+    "wheatfields": {
+      "title": "Nisupõllud",
+      "text": "Van Gogh maalis nisupõlde korduvalt. Milline maastik tundub sulle kõige rahulikum?",
+      "options": {
+        "wheatfieldWithCrows": "Nisupõld varestega",
+        "wheatfieldUnderThunderclouds": "Nisupõld äikesepilvede all",
+        "greenWheatfieldWithCypress": "Roheline nisupõld küpressiga",
+        "wheatfieldsNearAuvers": "Nisupõllud Auvers’i lähedal"
+      },
+      "results": {
+        "1889": [
+          "Valisid 1889. aastal maalitud nisupõllu.",
+          "Van Gogh kasutas maastikke tunnete väljendamiseks.",
+          "Mõned mõjuvad rahulikult, teistes on tunda pinget ja liikumist."
+        ],
+        "1890": [
+          "Valisid 1890. aastal maalitud nisupõllu.",
+          "Van Gogh kasutas maastikke tunnete väljendamiseks.",
+          "Mõned mõjuvad rahulikult, teistes on tunda pinget ja liikumist."
+        ]
+      }
+    },
+    "flowers": {
+      "title": "Lilled",
+      "text": "Van Gogh maalis lilli elu ja uuenemise sümbolitena. Milline neist tundub sulle kõige õrnem?",
+      "options": {
+        "almondBlossom": "Õitsev mandlipuu",
+        "irises": "Iirised",
+        "roses": "Roosid"
+      },
+      "results": {
+        "1889": [
+          "Valisid 1889. aastal maalitud lillemaali.",
+          "Need teosed sümboliseerivad sageli uut algust, tasakaalu ja haprust."
+        ],
+        "1890": [
+          "Valisid 1890. aastal maalitud lillemaali.",
+          "Need teosed sümboliseerivad sageli uut algust, tasakaalu ja haprust."
+        ]
+      }
+    },
+    "portraits": {
+      "title": "Portreed",
+      "text": "Van Gogh maalis sageli sama inimest mitu korda. Milline portree mõjub sulle kõige inimlikumalt?",
+      "options": {
+        "portrait": "Portree"
+      },
+      "details": {
+        "blueBackground": "(sinise taustaga)",
+        "floralBackground": "(lillelise taustaga)",
+        "greenTones": "(rohelistes toonides)"
+      },
+      "results": {
+        "1888": [
+          "Valisid 1888. aastal maalitud portree.",
+          "Van Gogh uuris emotsioone värvide, tausta ja näoilmete kaudu."
+        ],
+        "1889": [
+          "Valisid 1889. aastal maalitud portree.",
+          "Van Gogh uuris emotsioone värvide, tausta ja näoilmete kaudu."
+        ]
+      }
+    },
+    "chairs": {
+      "title": "Toolid",
+      "text": "Van Gogh maalis kaks tooli. Kumbki neist kujutab erinevat isiksust. Kumb tundub sulle kohalolevam?",
+      "options": {
+        "vanGoghChair": "Van Goghi tool",
+        "gauguinChair": "Gauguini tool"
+      },
+      "results": {
+        "shared": [
+          "Need toolid kujutavad kahte erinevat inimest.",
+          "Van Goghi tool on lihtne ja maalähedane.",
+          "Gauguini tool on tumedam ja sümboolsem."
+        ]
+      }
+    }
+  },
+  "ranking": {
+    "sunflowers1888": "Päevalilled (1888)",
+    "sunflowers1889": "Päevalilled (1889)",
+    "bedroom1888": "Magamistuba (1888)",
+    "bedroom1889": "Magamistuba (1889)",
+    "theStarryNight": "Tähisöö",
+    "starryNightOverTheRhone": "Tähistaevas Rhône’i kohal",
+    "cafeTerraceAtNight": "Kohviku terrass õhtul",
+    "roadWithCypressAndStar": "Tee küpressi ja tähega",
+    "wheatfieldWithCrows": "Nisupõld varestega",
+    "wheatfieldUnderThunderclouds": "Nisupõld äikesepilvede all",
+    "greenWheatfieldWithCypress": "Roheline nisupõld küpressiga",
+    "wheatfieldsNearAuvers": "Nisupõllud Auvers’i lähedal",
+    "almondBlossom": "Õitsev mandlipuu",
+    "irises": "Iirised",
+    "roses": "Roosid",
+    "portrait1888Blue": "Portree (1888)",
+    "portrait1888Floral": "Portree (1888)",
+    "portrait1889Green": "Portree (1889)",
+    "vanGoghChair": "Van Goghi tool",
+    "gauguinChair": "Gauguini tool"
+  },
+  "aria": {
+    "home": "Avaleht",
+    "next": "Edasi"
+  }
+}

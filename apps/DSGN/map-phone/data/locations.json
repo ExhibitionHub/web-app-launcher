@@ -1,0 +1,35 @@
+{
+  "locations": {
+    "victimHouse": {
+      "name": "Victim's House",
+      "context": "Medina district, Rabat",
+      "coordinates": "34.0206, -6.8360"
+    },
+    "neighborHouse": {
+      "name": "Housekeeper",
+      "context": "Morning witness",
+      "coordinates": "34.0207, -6.8358"
+    },
+    "friendHouse": {
+      "name": "Friend's House",
+      "context": "Agdal district",
+      "coordinates": "34.0009, -6.8554"
+    },
+    "policeStation": {
+      "name": "Police Station",
+      "context": "Commissariat Central de Rabat",
+      "address": "Avenue Ibn Sina, Rabat, Morocco",
+      "coordinates": "34.0228, -6.8416"
+    },
+    "karimLocation": {
+      "name": "Karim Last Known",
+      "context": "Hassan district",
+      "coordinates": "34.0245, -6.8320"
+    }
+  },
+  "policeAnchor": {
+    "location": "Commissariat Central de Rabat",
+    "address": "Avenue Ibn Sina, Rabat, Morocco",
+    "coordinates": "34.0228, -6.8416"
+  }
+}

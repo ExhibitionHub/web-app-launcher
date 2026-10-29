@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "languageName": "Deutsch"
+  },
+  "common": {
+    "home": "Startseite",
+    "languageSelector": "Sprachauswahl",
+    "backToMainMenu": "Zurück zum Hauptmenü."
+  },
+  "quizApp": {
+    "pageTitle": "Serienmörder-Quiz – Kiosk-Modus",
+    "welcome": {
+      "title": "INTERAKTIVES QUIZ",
+      "subtitle": "KRIMINALSTATISTIK",
+      "descriptionHtml": "Teste dein Wissen über echte Daten zu Serienmördern.<br>12 Fragen auf Basis der Radford/FGCU-Datenbank (FGCU = Florida Gulf Coast University).",
+      "start": "STARTEN"
+    },
+    "nav": {
+      "previous": "ZURÜCK",
+      "next": "WEITER",
+      "seeResult": "ERGEBNIS ANZEIGEN",
+      "nextQuestion": "NÄCHSTE FRAGE",
+      "seeResults": "ERGEBNISSE ANZEIGEN"
+    },
+    "questionCounter": "Frage {{current}} / {{total}}",
+    "insight": {
+      "title": "ERKLÄRUNG",
+      "continue": "WEITER",
+      "answerCorrect": "RICHTIG",
+      "answerIncorrect": "FALSCH"
+    },
+    "result": {
+      "title": "ERGEBNIS",
+      "correctAnswers": "RICHTIGE ANTWORTEN",
+      "restart": "NEUSTART"
+    },
+    "error": {
+      "title": "FEHLER",
+      "subtitle": "LADEN FEHLGESCHLAGEN",
+      "helpHtml": "Prüfe, ob der lokale Server läuft und die Datei questions.json erreichbar ist.",
+      "reload": "NEU LADEN",
+      "unableToLoadQuestions": "Fragen konnten nicht geladen werden. Prüfe, ob die Datei questions.json erreichbar ist."
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Kriminologie-Einsteiger",
+        "message": "Du verfügst nur über ein begrenztes Wissen zur Kriminalstatistik. Aus diesen Daten gehen wichtige Trends hervor, die viele gängige Mythen über Serienmörder widerlegen. Erfahre mehr über evidenzbasierte Kriminologie!"
+      },
+      "student": {
+        "title": "Informierter Student",
+        "message": "Du verfügst über ein gutes Verständnis für Kriminalitätsdaten. Dir wird so langsam klar, dass die Realität von Serienmördern oft von der Mediendarstellung abweicht. Statistiken zeigen von sozialen und historischen Faktoren beeinflusste komplexe Muster."
+      },
+      "connoisseur": {
+        "title": "Versierter Kenner",
+        "message": "Hervorragende Kenntnisse im Bereich der Kriminalstatistik! Du weißt, dass die Daten kontraintuitive Trends aufzeigen: Serienmörder haben einen im Normbereich liegenden durchschnittlichen IQ, die meisten von ihnen verwenden Schusswaffen und historische Spitzenwerte korrelieren mit bestimmten gesellschaftlichen Faktoren."
+      },
+      "expert": {
+        "title": "Kriminologie-Experte",
+        "message": "Beeindruckend! Deine Kenntnisse im Bereich der Kriminalstatistik sind außergewöhnlich. Dir ist bewusst, dass die Radford-Daten eine deutliche Reduzierung der Aktivitäten von Serienmördern seit den 1990er Jahren dank verbesserter Datenbanken, forensischer Methoden und behördenübergreifender Kommunikation belegen."
+      },
+      "undetermined": {
+        "title": "Unbestimmtes Profil",
+        "message": "Dein Profil konnte mit den verfügbaren Daten nicht ermittelt werden."
+      }
+    },
+    "questions": {
+      "1": {
+        "question": "Wie viele Serienmörder waren 2016 in der Radford-Datenbank verzeichnet?",
+        "answers": {
+          "0": {
+            "text": "A. 1,452"
+          },
+          "1": {
+            "text": "B. 2,112"
+          },
+          "2": {
+            "text": "C. 4,743"
+          },
+          "3": {
+            "text": "D. 6,235"
+          }
+        },
+        "insight": "Die Radford/FGCU-Datenbank enthielt am 4. September 2016 Daten von 4.743 Serienmördern und 13.105 Opfern und war somit der umfassendste Datensatz dieser Art."
+      },
+      "2": {
+        "question": "In welchem ​​Jahrzehnt verzeichneten die USA die höchste Anzahl neuer Serienmörder?",
+        "answers": {
+          "0": {
+            "text": "A. 1960er"
+          },
+          "1": {
+            "text": "B. 1970er"
+          },
+          "2": {
+            "text": "C. 1980er"
+          },
+          "3": {
+            "text": "D. 1990er"
+          }
+        },
+        "insight": "Das goldene Zeitalter der Serienmörder waren die 1970er Jahre: 605 Täter begannen ihre kriminelle Karriere – begünstigt durch erhöhte Mobilität, soziale Umbrüche und mangelnde zentrale Datenbanken der Strafverfolgungsbehörden."
+      },
+      "3": {
+        "question": "Wie hoch ist der Anteil von Männern unter amerikanischen Serienmördern?",
+        "answers": {
+          "0": {
+            "text": "A. 70%"
+          },
+          "1": {
+            "text": "B. 80%"
+          },
+          "2": {
+            "text": "C. 90%"
+          },
+          "3": {
+            "text": "D. 95%"
+          }
+        },
+        "insight": "Neun von zehn Serienmördern sind männlich. Der Anteil an Frauen (≈ 9%) ist gering, aber über Jahrzehnte konstant."
+      },
+      "4": {
+        "question": "Welche ethnische Gruppe stellt gegenwärtig den größten Anteil der amerikanischen Serienmörder dar?",
+        "answers": {
+          "0": {
+            "text": "A. Weiß"
+          },
+          "1": {
+            "text": "B. Schwarz"
+          },
+          "2": {
+            "text": "C. Hispanisch"
+          },
+          "3": {
+            "text": "D. Asiatisch"
+          }
+        },
+        "insight": "Das über lange Zeit angeführte Stereotyp des „weißen Mannes“ ist überholt. Weiße Täter machen zwar immer noch etwa die Hälfte aus, mittlerweile sind aber fast 40 % der Täter Schwarz, diese Daten spiegeln demografische und sozioökonomische Faktoren wider und sind nicht in der ethnischen Zugehörigkeit begründet."
+      },
+      "5": {
+        "question": "Was ist das häufigste Motiv von Serienmördern?",
+        "answers": {
+          "0": {
+            "text": "A. Wut"
+          },
+          "1": {
+            "text": "B. Finanzieller Gewinn"
+          },
+          "2": {
+            "text": "C. Vergnügen"
+          },
+          "3": {
+            "text": "D. Vermeidung von Verhaftung"
+          }
+        },
+        "insight": "Mehr als 36 % der Serienmorde werden aus Vergnügen daran begangen – einer Mischung aus Begierde, Dominanz und Machtstreben. „Vergnügen“ ist damit das am häufigsten genannte Motiv für Serienmorde."
+      },
+      "6": {
+        "question": "Welchen durchschnittlichen IQ weisen Serienmörder auf?",
+        "answers": {
+          "0": {
+            "text": "A. 76"
+          },
+          "1": {
+            "text": "B. 94"
+          },
+          "2": {
+            "text": "C. 109"
+          },
+          "3": {
+            "text": "D. 127"
+          }
+        },
+        "insight": "Trotz des Mythos vom „kriminellen Genie“ liegen Serienmörder mit einen durchschnittlichen IQ von 94,5 etwas unter dem Durchschnitt der Allgemeinbevölkerung. Selten führt Intelligenz zu einer langen Aktivität, es sind vielmehr Planung und die Umstände."
+      },
+      "7": {
+        "question": "Welche Tötungsmethode wird am häufigsten von Serienmördern angewandt?",
+        "answers": {
+          "0": {
+            "text": "A. Erdrosselung"
+          },
+          "1": {
+            "text": "B. Erstechen"
+          },
+          "2": {
+            "text": "C. Schusswaffen"
+          },
+          "3": {
+            "text": "D. Vergiftung"
+          }
+        },
+        "insight": "Ungefähr 43 % aller bekannten Serienmorde werden mit Schusswaffen verübt, gefolgt von Erdrosselung (ca. 22 %). Die Wahl der Waffe ist eher eine Frage der Verfügbarkeit und Kontrolle als der Raffinesse."
+      },
+      "8": {
+        "question": "Welcher US-Bundesstaat verzeichnet die meisten Opfer von Serienmördern?",
+        "answers": {
+          "0": {
+            "text": "A. Florida"
+          },
+          "1": {
+            "text": "B. Texas"
+          },
+          "2": {
+            "text": "C. California"
+          },
+          "3": {
+            "text": "D. New York"
+          }
+        },
+        "insight": "Es führt Kalifornien mit 1.628 Opfern, gefolgt von Texas und Florida – dies ist ein Spiegelbild der Bevölkerungsgröße und Mobilität und nicht etwa eines charakteristischen regionalen Unterschieds."
+      },
+      "9": {
+        "question": "Zu welcher Altersgruppe zählen die meisten Opfer von Serienmördern?",
+        "answers": {
+          "0": {
+            "text": "A. Unter 10 Jahre"
+          },
+          "1": {
+            "text": "B. 18–35 Jahre"
+          },
+          "2": {
+            "text": "C. 40–60 Jahre"
+          },
+          "3": {
+            "text": "D. Über 60 Jahre"
+          }
+        },
+        "insight": "Das Durchschnittsalter der Opfer liegt bei 33,8 Jahren, der Median bei 29 Jahren – junge Erwachsene, die gleichermaßen mobil wie verletzlich sind."
+      },
+      "10": {
+        "question": "Welches Geschlecht macht den größten Anteil der Opfer von Serienmördern aus?",
+        "answers": {
+          "0": {
+            "text": "A. Männlich"
+          },
+          "1": {
+            "text": "B. Weiblich"
+          },
+          "2": {
+            "text": "C. Gemischt/Unbekannt"
+          },
+          "3": {
+            "text": "D. Gleich viele"
+          }
+        },
+        "insight": "Gemäß der Radford/FGCU-Datenbank sind etwa sieben von zehn Opfern von Serienmördern weiblich. Dieses Muster spiegelt die gezielte Opferauswahl wider und nicht nur zufällige Gelegenheiten – Frauen werden häufiger ins Visier genommen, weil Täter sie als leichter zu isolieren oder zu manipulieren wahrnehmen."
+      },
+      "11": {
+        "question": "In welchem ​​Jahrzehnt wurde in den USA die höchste Anzahl aktiver Serienmörder pro Jahr verzeichnet?",
+        "answers": {
+          "0": {
+            "text": "A. 1960er"
+          },
+          "1": {
+            "text": "B. 1970er"
+          },
+          "2": {
+            "text": "C. 1980er"
+          },
+          "3": {
+            "text": "D. 1990er"
+          }
+        },
+        "insight": "In den 1980er Jahren gab es in den USA durchschnittlich 145 aktive Serienmörder pro Jahr (d. h. Täter, die mindestens einmal im jeweiligen Jahr einen Mord begingen). Durch verbesserte forensische Methoden und Datenbanken wurde diese Zahl seither drastisch reduziert."
+      },
+      "12": {
+        "question": "Wie hoch ist der Anteil amerikanischer Serienmörder, die einen Militärdienst geleistet haben?",
+        "answers": {
+          "0": {
+            "text": "A. 11%"
+          },
+          "1": {
+            "text": "B. 18%"
+          },
+          "2": {
+            "text": "C. 32%"
+          },
+          "3": {
+            "text": "D. 46%"
+          }
+        },
+        "insight": "Ungefähr jeder fünfte männliche Serienmörder hat einen militärischen Hintergrund – d. h. der Prozentsatz liegt etwas über dem nationalen Durchschnitt. Eine militärische Ausbildung an sich führt nicht automatisch zu Gewalt, sie kann aber Struktur, Kontrolle und Desensibilisierung verstärken."
+      }
+    }
+  }
+}

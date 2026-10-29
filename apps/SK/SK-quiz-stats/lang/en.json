@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "languageName": "English"
+  },
+  "common": {
+    "home": "Home",
+    "languageSelector": "Language selector",
+    "backToMainMenu": "Back to main menu"
+  },
+  "quizApp": {
+    "pageTitle": "Serial Killer Quiz - Kiosk Mode",
+    "welcome": {
+      "title": "INTERACTIVE QUIZ",
+      "subtitle": "CRIMINAL STATISTICS",
+      "descriptionHtml": "Test your knowledge on real serial killer data.<br>12 questions based on the Radford/FGCU database (FGCU = Florida Gulf Coast University).",
+      "start": "START"
+    },
+    "nav": {
+      "previous": "PREVIOUS",
+      "next": "NEXT",
+      "seeResult": "SEE RESULT",
+      "nextQuestion": "NEXT QUESTION",
+      "seeResults": "SEE RESULTS"
+    },
+    "questionCounter": "Question {{current}} / {{total}}",
+    "insight": {
+      "title": "EXPLANATION",
+      "continue": "CONTINUE",
+      "answerCorrect": "TRUE",
+      "answerIncorrect": "FALSE"
+    },
+    "result": {
+      "title": "RESULT",
+      "correctAnswers": "CORRECT ANSWERS",
+      "restart": "RESTART"
+    },
+    "error": {
+      "title": "ERROR",
+      "subtitle": "LOADING FAILED",
+      "helpHtml": "Check that the local server is running and that the questions.json file is accessible.",
+      "reload": "RELOAD",
+      "unableToLoadQuestions": "Unable to load questions. Check that the questions.json file is accessible."
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Criminology Beginner",
+        "message": "Your knowledge of criminal statistics is still limited. This data reveals important trends that challenge many popular myths about serial killers. Continue learning about evidence-based criminology!"
+      },
+      "student": {
+        "title": "Informed Student",
+        "message": "You have a fair understanding of criminal data. You're beginning to grasp that the reality of serial killers often differs from media portrayals. Statistics show complex patterns influenced by social and historical factors."
+      },
+      "connoisseur": {
+        "title": "Savvy Connoisseur",
+        "message": "Excellent mastery of criminal statistics! You understand that data reveals counter-intuitive trends: the average IQ of serial killers is normal, most use firearms, and historical peaks correspond to specific societal factors."
+      },
+      "expert": {
+        "title": "Criminology Expert",
+        "message": "Remarkable! Your knowledge of criminal statistics is exceptional. You know that Radford data reveals how improved databases, forensics and inter-jurisdictional communication have significantly reduced serial killer activity since the 1990s."
+      },
+      "undetermined": {
+        "title": "Undetermined Profile",
+        "message": "Unable to determine your profile with available data."
+      }
+    },
+    "questions": {
+      "1": {
+        "question": "How many serial killers were listed in the Radford database in 2016?",
+        "answers": {
+          "0": { "text": "A. 1,452" },
+          "1": { "text": "B. 2,112" },
+          "2": { "text": "C. 4,743" },
+          "3": { "text": "D. 6,235" }
+        },
+        "insight": "As of September 4, 2016, the Radford/FGCU database contained 4,743 serial killers and 13,105 victims, making it the most comprehensive dataset of its kind."
+      },
+      "2": {
+        "question": "In which decade did the United States see the highest number of new serial killers start killing?",
+        "answers": {
+          "0": { "text": "A. 1960s" },
+          "1": { "text": "B. 1970s" },
+          "2": { "text": "C. 1980s" },
+          "3": { "text": "D. 1990s" }
+        },
+        "insight": "The 1970s mark the golden age of serial murder, with 605 killers starting their crimes - fueled by increased mobility, social upheaval, and the absence of centralized law enforcement databases."
+      },
+      "3": {
+        "question": "What percentage of American serial killers are male?",
+        "answers": {
+          "0": { "text": "A. 70%" },
+          "1": { "text": "B. 80%" },
+          "2": { "text": "C. 90%" },
+          "3": { "text": "D. 95%" }
+        },
+        "insight": "About 9 in 10 serial killers are male. The female share (≈ 9%) is small but persistent across all decades."
+      },
+      "4": {
+        "question": "Which ethnicity currently represents the largest share of American serial killers?",
+        "answers": {
+          "0": { "text": "A. White" },
+          "1": { "text": "B. Black" },
+          "2": { "text": "C. Hispanic" },
+          "3": { "text": "D. Asian" }
+        },
+        "insight": "The long-cited 'white male' stereotype is outdated. While white offenders still account for about half, Black offenders now account for nearly 40%, reflecting demographic and socio-economic factors, not race-based causality."
+      },
+      "5": {
+        "question": "What is the most common motive among serial killers?",
+        "answers": {
+          "0": { "text": "A. Anger" },
+          "1": { "text": "B. Financial gain" },
+          "2": { "text": "C. Pleasure" },
+          "3": { "text": "D. Avoiding arrest" }
+        },
+        "insight": "More than 36% of serial killers kill for pleasure - a mix of lust, domination and power - making 'pleasure' the most reported driver of serial murder."
+      },
+      "6": {
+        "question": "What is the average IQ of a serial killer?",
+        "answers": {
+          "0": { "text": "A. 76" },
+          "1": { "text": "B. 94" },
+          "2": { "text": "C. 109" },
+          "3": { "text": "D. 127" }
+        },
+        "insight": "Despite the myths of the 'criminal genius', serial killers have an average IQ of 94.5 - slightly below the general population average. Intelligence is rarely the secret to longevity; planning and circumstances are."
+      },
+      "7": {
+        "question": "What is the most common murder method among serial killers?",
+        "answers": {
+          "0": { "text": "A. Strangulation" },
+          "1": { "text": "B. Stabbing" },
+          "2": { "text": "C. Firearms" },
+          "3": { "text": "D. Poisoning" }
+        },
+        "insight": "Firearms account for about 43% of all known serial killer murders, with strangulation second (≈ 22%). The choice reflects accessibility and control rather than sophistication."
+      },
+      "8": {
+        "question": "Which US state has recorded the most serial killer victims?",
+        "answers": {
+          "0": { "text": "A. Florida" },
+          "1": { "text": "B. Texas" },
+          "2": { "text": "C. California" },
+          "3": { "text": "D. New York" }
+        },
+        "insight": "California leads with 1,628 victims, followed by Texas and Florida - a reflection of population size and mobility rather than an innate regional difference."
+      },
+      "9": {
+        "question": "What age are most serial killer victims?",
+        "answers": {
+          "0": { "text": "A. Under 10 years" },
+          "1": { "text": "B. 18 – 35 years" },
+          "2": { "text": "C. 40 – 60 years" },
+          "3": { "text": "D. Over 60 years" }
+        },
+        "insight": "The average age of victims is 33.8 years, with a median of 29 - young adults who balance mobility and vulnerability."
+      },
+      "10": {
+        "question": "Which gender represents most serial killer victims?",
+        "answers": {
+          "0": { "text": "A. Male" },
+          "1": { "text": "B. Female" },
+          "2": { "text": "C. Mixed/Unknown" },
+          "3": { "text": "D. Equal" }
+        },
+        "insight": "About seven in ten serial killer victims are female, according to the Radford/FGCU database. This pattern reflects target selection, not just opportunity - women are more often targeted because they are perceived by offenders as easier to isolate or manipulate."
+      },
+      "11": {
+        "question": "Which decade saw the highest number of active serial killers in the United States in any given year?",
+        "answers": {
+          "0": { "text": "A. 1960s" },
+          "1": { "text": "B. 1970s" },
+          "2": { "text": "C. 1980s" },
+          "3": { "text": "D. 1990s" }
+        },
+        "insight": "During the 1980s, the United States averaged 145 active serial killers per year (defined as those killing at least once that year). Improved forensics and databases have since drastically reduced this number."
+      },
+      "12": {
+        "question": "What percentage of American serial killers have served in the military?",
+        "answers": {
+          "0": { "text": "A. 11%" },
+          "1": { "text": "B. 18%" },
+          "2": { "text": "C. 32%" },
+          "3": { "text": "D. 46%" }
+        },
+        "insight": "About 1 in 5 male serial killers has a military background - slightly above national averages. Military training does not cause violence but can reinforce structure, control and desensitization."
+      }
+    }
+  }
+}

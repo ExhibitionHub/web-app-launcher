@@ -1,0 +1,246 @@
+{
+  "suspects": {
+    "karim": { "name": "Karim", "role": "The Killer", "photo": "ressource/images/profiles/karim-file.webp" },
+    "samir": { "name": "Samir",  "role": "The Friend", "photo": "ressource/images/profiles/samir-file.webp" }
+  },
+  "victim": { "name": "Youssef", "photo": "ressource/images/profiles/victim-file.webp" },
+  "killer": "karim",
+  "stations": [
+    {
+      "id": "toxicology",
+      "title": "Coroner & Substance Reports",
+      "kicker": "TOXICOLOGY",
+      "priority": true,
+      "evidence": [],
+      "conclusion": "Coroner: alcohol + cocaine in the victim's system. Estimated time of death between 22:00 and 00:00. Substance analysis: real cocaine traces on the table, but the brick on the counter is FAKE cocaine (unknown adulterant)."
+    },
+    {
+      "id": "fingerprints",
+      "title": "Fingerprint Analysis",
+      "kicker": "FINGERPRINTS",
+      "evidence": [
+        "ressource/images/evidence/fingerprints/reveal-chair-long.webp",
+        "ressource/images/evidence/fingerprints/reveal-chair-short.webp",
+        "ressource/images/evidence/fingerprints/reveal-table.webp",
+        "ressource/images/evidence/fingerprints/reveal-teapot.webp"
+      ],
+      "conclusion": "Prints lifted from the dining table, kitchen chair and teapot. The tea-table chair was wiped clean. Without DNA matches we cannot yet attribute prints, but the wiped chair is suspicious."
+    },
+    {
+      "id": "fiber",
+      "title": "Fiber Analysis",
+      "kicker": "FIBER",
+      "evidence": [
+        "ressource/images/evidence/fiber/candidate-fiber-1.webp",
+        "ressource/images/evidence/fiber/candidate-fiber-2.webp",
+        "ressource/images/evidence/fiber/candidate-fiber-3.webp",
+        "ressource/images/evidence/fiber/control-fiber.webp"
+      ],
+      "conclusion": "The fiber on the fallen button matches the fiber caught on the broken branch outside. The button fiber could not be matched to any jacket recovered on scene."
+    },
+    {
+      "id": "dna",
+      "title": "DNA Comparison",
+      "kicker": "BLOOD ANALYSES",
+      "evidence": [],
+      "conclusion": "Samples 1+2 match: the victim. Samples 3+4 match: the person who lost the shirt button ALSO hid the broken teacup outside. Sample 5: a third person who slept in the bed upstairs and is unlikely to have hidden the glass."
+    },
+    {
+      "id": "network",
+      "title": "Cellular & Network Data",
+      "kicker": "NETWORK",
+      "evidence": [],
+      "conclusion": "Cell map and text printouts show that Karim attempted to remotely wipe the victim's phone via Google. The Faraday cage prevented the deletion and preserved the evidence."
+    },
+    {
+      "id": "light",
+      "title": "Light Wavelength / Spectrum",
+      "kicker": "LIGHT WAVE",
+      "evidence": [
+        "ressource/images/evidence/light/als-a-68.webp",
+        "ressource/images/evidence/light/als-a-85.webp",
+        "ressource/images/evidence/light/als-d-17.webp",
+        "ressource/images/evidence/light/als-e-51.webp",
+        "ressource/images/evidence/light/als-f-17.webp",
+        "ressource/images/evidence/light/als-f-68.webp",
+        "ressource/images/evidence/light/als-h-17.webp",
+        "ressource/images/evidence/light/als-h-34.webp"
+      ],
+      "conclusion": "Under UV, the cocaine brick reveals a hidden mark linked to Karim. The victim's body shows internal bruising on the fingertips, consistent with a struggle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "stationId": "toxicology",
+      "prompt": "Estimated time of death was between 22:00 - 00:00, based on temperature of the body - was this accurate?",
+      "options": []
+    },
+    {
+      "id": "q2",
+      "stationId": "network",
+      "prompt": "What is the main motive for Samir to have killed or fought the victim?",
+      "options": [
+        { "label": "A - Drug deal gone wrong", "blame": "samir", "correct": false },
+        { "label": "B - Fight over a girl", "blame": "samir", "correct": true },
+        { "label": "C - He wasn't his friend", "blame": "samir", "correct": false },
+        { "label": "D - Sold fake drugs", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q3",
+      "stationId": "light",
+      "prompt": "What is the main motive for Karim to have killed or fought the victim?",
+      "options": [
+        { "label": "A - Drug deal gone wrong", "blame": "karim", "correct": false },
+        { "label": "B - Fight over a girl", "blame": "karim", "correct": false },
+        { "label": "C - He wasn't his friend", "blame": "karim", "correct": false },
+        { "label": "D - Sold fake drugs", "blame": "karim", "correct": true }
+      ]
+    },
+    {
+      "id": "q4",
+      "stationId": "network",
+      "prompt": "Why is a faraday cage important in this case?",
+      "options": [
+        { "label": "A - KARIM tried to track phone", "blame": "karim", "correct": false },
+        { "label": "B - Block google remote deletion from KARIM", "blame": "karim", "correct": true },
+        { "label": "C - SAMIR tried to track the phone", "blame": "samir", "correct": false },
+        { "label": "D - Block google remote deletion from SAMIR", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q5",
+      "stationId": "dna",
+      "prompt": "Was collecting DNA in this case useful?",
+      "options": [
+        { "label": "A - No, without matches, no information is gained", "blame": "samir", "correct": false },
+        { "label": "B - Yes, it gave us the identity of the victim", "blame": "samir", "correct": false },
+        { "label": "C - Yes, we can push for DNA testing of suspects and match", "blame": "karim", "correct": true },
+        { "label": "D - Yes, it gave us the identity of the killer", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q6",
+      "stationId": "dna",
+      "prompt": "Which two pieces of evidence show that Samir (Friend), slept in the bed upstairs?",
+      "multi": 2,
+      "options": [
+        { "label": "A - Text / Cell conversation", "blame": "samir", "correct": true },
+        { "label": "B - Fingerprint Analysis", "blame": "samir", "correct": false },
+        { "label": "C - DNA analysis", "blame": "samir", "correct": true },
+        { "label": "D - Light wavelength", "blame": "karim", "correct": false }
+      ]
+    },
+    {
+      "id": "q7",
+      "stationId": "fingerprints",
+      "prompt": "Karim's fingerprints were found at the scene, what other piece of evidence could be enough to get a warrant for DNA testing?",
+      "options": [
+        { "label": "A - Light spectrum analysis", "blame": "karim", "correct": true }
+      ]
+    },
+    {
+      "id": "q8",
+      "stationId": "toxicology",
+      "prompt": "Who owned the brick on the counter and what was it?",
+      "options": [
+        { "label": "A - Cocaine / KARIM", "blame": "karim", "correct": false },
+        { "label": "B - Not cocaine, unknown substance / KARIM", "blame": "karim", "correct": true },
+        { "label": "C - Cocaine / SAMIR", "blame": "samir", "correct": false },
+        { "label": "D - Not cocaine, unknown substance / SAMIR", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q9",
+      "stationId": "network",
+      "prompt": "If Samir killed Youssef, why would Karim still try to delete the victim's phone data?",
+      "options": [
+        { "label": "Karim and Samir were a team", "blame": "samir", "correct": false },
+        { "label": "Karim and Youssef sell drugs", "blame": "karim", "correct": true },
+        { "label": "Karim found Youssef dead, knew police were coming", "blame": "karim", "correct": false },
+        { "label": "not enough evidence", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q10",
+      "stationId": "network",
+      "prompt": "What key evidence was learned from the cleaner? (Choose all that apply)",
+      "multi": 3,
+      "options": [
+        { "label": "the time the first visitor arrived", "blame": "karim", "correct": true },
+        { "label": "the first visitor was drunk", "blame": "samir", "correct": true },
+        { "label": "the first visitor was short", "blame": "karim", "correct": true },
+        { "label": "she didn't recognize the first visitor", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q11",
+      "stationId": "dna",
+      "prompt": "No fingerprints were recovered from the brick in the kitchen... (Pick 2)",
+      "multi": 2,
+      "options": [
+        { "label": "direct fingerprints are needed as evidence", "blame": "samir", "correct": false },
+        { "label": "prints on the nearby chair is enough", "blame": "samir", "correct": false },
+        { "label": "prints nearby can further the case", "blame": "karim", "correct": true },
+        { "label": "other key evidence was found on the brick", "blame": "karim", "correct": true }
+      ]
+    },
+    {
+      "id": "q12",
+      "stationId": "network",
+      "prompt": "How could Karim or samir have appeared more innocent to the police",
+      "options": [
+        { "label": "call the police when they saw the body", "blame": "karim", "correct": true },
+        { "label": "removed their fingerprints from the scene", "blame": "samir", "correct": false },
+        { "label": "delete text conversations from victim", "blame": "karim", "correct": false },
+        { "label": "kill the neighbor too", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q13",
+      "stationId": "toxicology",
+      "prompt": "What substances were in the victims body?",
+      "multi": 2,
+      "options": [
+        { "label": "cocaine", "blame": "karim", "correct": true },
+        { "label": "alcohol", "blame": "karim", "correct": true },
+        { "label": "same substance as brick on kitchen counter", "blame": "samir", "correct": false },
+        { "label": "amphetamines", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q14",
+      "stationId": "fiber",
+      "prompt": "We couldn't match the button fibre to a jacket...",
+      "options": [
+        { "label": "A - but, We learned the identity of the killer", "blame": "karim", "correct": false },
+        { "label": "B - but it's likely the killer didn't sleep in the bed", "blame": "karim", "correct": true },
+        { "label": "C - so, we know the killer slept in the bed", "blame": "samir", "correct": false },
+        { "label": "D - So, it wasn't useful evidence", "blame": "samir", "correct": false }
+      ]
+    },
+    {
+      "id": "q15",
+      "stationId": "toxicology",
+      "prompt": "What useful information was NOT gained from the coroner's report?",
+      "options": [
+        { "label": "Time of death", "blame": "samir", "correct": false },
+        { "label": "Cause of death", "blame": "samir", "correct": false },
+        { "label": "Where the drugs came from", "blame": "karim", "correct": true },
+        { "label": "Drugs consumed", "blame": "karim", "correct": false }
+      ]
+    },
+    {
+      "id": "q16",
+      "stationId": "light",
+      "prompt": "What key evidence was gained from the blue light wavelength",
+      "options": [
+        { "label": "Heavy foot traffic around body", "blame": "samir", "correct": false },
+        { "label": "Cleaned blood of a suspect", "blame": "karim", "correct": false },
+        { "label": "Internal bruising / victim struggle", "blame": "karim", "correct": true },
+        { "label": "Hair and fibres of killer", "blame": "karim", "correct": false }
+      ]
+    }
+  ]
+}

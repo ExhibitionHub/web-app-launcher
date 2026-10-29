@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "languageName": "Français"
+  },
+  "common": {
+    "home": "Accueil",
+    "map": "Carte",
+    "quiz": "Quiz",
+    "controls": "Contrôles",
+    "toggleControls": "Basculer les contrôles",
+    "zoomIn": "Zoom avant",
+    "zoomOut": "Zoom arrière",
+    "reset": "Accueil",
+    "all": "Tous",
+    "backToMainMenu": "Retour au menu principal",
+    "mainMenu": "Menu principal",
+    "selection": "Sélection",
+    "openMap": "Ouvrir la carte"
+  },
+  "mapApp": {
+    "pageTitle": "Carte interactive Art of the Brick",
+    "datasetTitles": {
+      "perniciem": "PERNiCiEM — Espèces en danger",
+      "masters": "Past Masters — Carte des œuvres",
+      "postmasters": "Post Masters — Carte des œuvres",
+      "all": "Carte interactive Art of the Brick"
+    },
+    "datasetShortTitles": {
+      "perniciem": "Espèces en danger",
+      "masters": "Past Masters",
+      "postmasters": "Post Masters",
+      "all": "Carte AOTB"
+    },
+    "search": {
+      "title": "Rechercher",
+      "placeholder": "Rechercher (espèce, œuvre, artiste...)",
+      "hint": "Rechercher par nom, région, description...",
+      "countryAria": "Filtrer par région",
+      "resultsAria": "Résultats",
+      "keyboardAria": "Clavier",
+      "countryAll": "Toutes les régions",
+      "countryUnknown": "Région inconnue",
+      "startTyping": "Commencez à taper pour rechercher",
+      "noResults": "Aucun résultat",
+      "unnamed": "Sans nom",
+      "toggleAria": "Basculer le panneau de recherche",
+      "clearAria": "Effacer la recherche",
+      "layoutAria": "Changer la disposition du clavier",
+      "keys": {
+        "space": "Espace",
+        "backspace": "Retour",
+        "clear": "Effacer",
+        "shift": "Maj"
+      }
+    },
+    "idle": {
+      "logoAlt": "Carte interactive Art of the Brick",
+      "subtitle": "Explorez l'exposition interactive",
+      "loading": "Chargement...",
+      "unableToStart": "Impossible de démarrer le module de la carte. Vérifiez la version du runtime ou les chemins des ressources."
+    },
+    "opening": {
+      "perniciem": {
+        "title": "Notre planète change.\nDécouvrez les espèces en danger partout dans le monde.",
+        "cta": "Touchez pour explorer"
+      },
+      "masters": {
+        "title": "Entrez dans l’univers des Maîtres.",
+        "cta": "Touchez pour explorer."
+      }
+    },
+    "legend": {
+      "title": "Statut de conservation",
+      "endangered": "En danger",
+      "vulnerable": "Vulnérable",
+      "nearThreatened": "Quasi menacé"
+    }
+  },
+  "popup": {
+    "keyInfos": "Infos clés",
+    "tagsLabel": "Détails",
+    "imageUnavailable": "Image non disponible",
+    "profile": "Détails",
+    "profileDetails": "Détails",
+    "imageAlt": "Image",
+    "adoptSpecies": "Adopter cette espèce",
+    "openLink": "Ouvrir le lien",
+    "close": "Fermer",
+    "closeCard": "Fermer la fiche",
+    "detailsToBeConfirmed": "Détails à confirmer.",
+    "meta": {
+      "status": "Statut",
+      "habitat": "Habitat",
+      "population": "Population",
+      "threats": "Menaces",
+      "artists": "Artistes",
+      "medium": "Technique",
+      "date": "Date",
+      "dimensions": "Dimensions",
+      "movement": "Mouvement",
+      "artist": "Artiste",
+      "conservationStatus": "Statut",
+      "cat": "Habitat",
+      "artwork": "Œuvre",
+      "declineRate": "Déclin",
+      "mounting": "Montage",
+      "labelNumber": "Étiquette",
+      "dimensionsCm": "Dimensions (cm)",
+      "bricks": "Briques",
+      "QRcode": "QR",
+      "artistBio": "À propos de l'artiste"
+    },
+    "compare": {
+      "original": "Œuvre originale",
+      "aotb": "Interprétation AOTB"
+    }
+  },
+  "thethinker": {
+    "masters": {
+      "name": "Le Penseur",
+      "desc": "Initialement conçu pour prendre place au-dessus de l’encadrement de la porte des Portes de l’Enfer (une œuvre inachevée), Rodin a finalement décidé de faire du Penseur une sculpture à part entière.\nLa sculpture représente l’homme ordinaire, méditant peut-être sur le sens de la vie. Alors que les sculptures publiques représentaient souvent des héros ou des hommes politiques, le Penseur de Rodin est universel et peut incarner chacun d’entre nous; dans sa posture, il apparaît aussi intelligent et héroïque.\nLa sculpture n’est pas absolument anatomiquement correcte: son grand dos accentue sa position voûtée de penseur. Cela souligne que la figure ne pense pas seulement avec son cerveau, mais avec chaque muscle de son corps.\nL’œuvre originale est une sculpture si remarquable que ce fut un plaisir d’en réaliser une réplique en briques. La version en briques est à l’échelle de la version originale que Rodin a d’abord créée. Il a fallu beaucoup de travail pour obtenir la bonne posture du corps, et je suis stupéfait de la quantité de détails que Rodin a pu accomplir à cette échelle.",
+      "artist": "Auguste Rodin",
+      "medium": "Bronze",
+      "origin": "France",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "France",
+      "place": "France",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "handeffigy": {
+    "masters": {
+      "name": "Effigie de main",
+      "desc": "Cette effigie de main est plus grande qu’une main humaine réelle et a été trouvée avec la sépulture 47, dans le tumulus 25 du complexe de tumulus Hopewell, dans le comté de Ross (Ohio). Cette main est réalisée à partir d’une feuille naturelle de mica, matériau très délicat et pas forcément facilement accessible aux Hopewell. L’emploi de ce type de matière montre l’étendue de leur réseau d’échanges. Il témoigne aussi du savoir-faire des artistes Hopewell, capables de travailler une ressource qui n’était pas propre à leur territoire d’origine. Les tumulus, comme celui qui a été fouillé et a révélé cette effigie de main, étaient très probablement des lieux d’inhumation sacrés ou des sites cérémoniels. Réalisée dans un matériau aussi peu conventionnel, l’effigie a sans doute été déposée dans le tumulus comme offrande funéraire.\nPour restituer la translucidité du mica de la sculpture originale, j’ai choisi d’intégrer quelques briques transparentes aux différentes nuances de gris. Comme l’original est très fin, je voulais que la réplique en briques le soit autant que possible; au final, j’ai décidé de construire en hauteur en empilant de petites briques les unes sur les autres. Cela m’a permis d’obtenir davantage de détails avec des pièces plus petites. J’aurais peut-être pu réaliser une pièce plus fine en utilisant des plaques, mais je voulais que la face lisse des briques soit tournée vers l’extérieur afin de retrouver la douceur de surface de la sculpture originale.",
+      "artist": "Inconnu",
+      "medium": "Feuille de mica",
+      "origin": "Ohio, États-Unis",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "États-Unis",
+      "place": "Ohio, États-Unis",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "gayerandersencat": {
+    "masters": {
+      "name": "Chat Gayer-Andersen",
+      "desc": "Le Chat Gayer-Andersen est une sculpture en bronze, nommée d’après son propriétaire, qui l’a donnée au British Museum. Des radiographies ont révélé de petites pièces carrées réparties sur tout le corps de la sculpture: il s’agissait de goupilles de noyau (core-pins), indiquant que l’œuvre a été réalisée selon la technique de la cire perdue. La sculpture du chat porte encore un collier et une plaque en argent autour du cou. Sur l’original, la plaque présente l’œil oudjat, en hommage au dieu faucon Horus. Le nez et les oreilles du chat sont percés; il porte des boucles d’oreilles en or et un anneau au nez. Ses yeux devaient contenir de la pierre ou du verre afin de renforcer le réalisme. Le chat représente la déesse Bastet et a probablement été offert à un temple où Bastet était vénérée et adorée. Conformément à la tradition égyptienne, la queue du chat repose le long du côté droit du corps. Cette sculpture est une représentation emblématique d’un chat de l’Égypte ancienne et compte parmi les meilleures sculptures non humaines de cette époque.\nLe bronze de la sculpture originale a pris une teinte sombre, presque vert profond. Pour cette raison, j’ai choisi un vert « terre foncée » pour les briques de la version réplique. Les anneaux jaunes sont de véritables éléments en briques, utilisés pour représenter les bijoux en or du chat sur la sculpture originale.",
+      "artist": "Inconnu",
+      "medium": "Bronze, or et argent",
+      "origin": "Égypte",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Égypte",
+      "place": "Égypte",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "chacmoolfigure": {
+    "masters": {
+      "name": "Figure de Chacmool",
+      "desc": "On trouve des figures de Chacmool sur des sites de temples d’Amérique centrale, principalement au Mexique et dans le Yucatán. Leur fonction demeure inconnue, mais leur positionnement devant les temples mayas suggère qu’elles servaient d’autel destiné à recevoir des offrandes ou des sacrifices. Les chacmools sont des figures humaines en pierre grossièrement taillée, représentées de manière décontractée, le corps appuyé en arrière et la tête tournée vers le haut et l’avant, à un angle de 90 degrés. Ce chacmool tient un bol, ou plat d’offrande, posé sur son ventre, qui pouvait contenir des éléments sacrificiels tels que des cœurs humains ou de petits animaux. La grande coiffe arrondie et les grands disques d’oreilles indiquent que la figure appartient à la noblesse maya.\nPour la réplique en briques, ma première préoccupation était de restituer fidèlement la coloration sableuse du chacmool. Je voulais aussi représenter correctement l’arrière de la sculpture, car je n’avais pas la possibilité d’en voir une en personne et je ne trouvais pas de photo satisfaisante de son dos. J’ai été satisfait du résultat du bol et de la coiffe, qui ont chacun demandé un travail considérable.",
+      "artist": "Inconnu",
+      "medium": "Calcaire",
+      "origin": "Mexique",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Mexique",
+      "place": "Mexique",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "beninmask": {
+    "masters": {
+      "name": "Masque du Bénin",
+      "desc": "Ce masque pendentif en ivoire représente probablement l’iyoba Idia, la mère du roi (Oba Esigie), et aurait été porté par Idia lors de festivals organisés en son honneur. L’expression forte des yeux, du nez et de la bouche de la reine domine le masque, tout comme les deux marques de scarification verticales brunes sur le front. Le masque comporte également des sculptures de petites figures au-dessus d’elle, en contraste avec la puissance de son visage. Ces figures représenteraient vraisemblablement des marchands portugais, formant une couronne sur le masque.\nL’ivoire symbolisait une pureté associée au dieu de la mer. Les marchands portugais, ayant traversé l’océan, étaient considérés comme des habitants du monde des esprits, apportant pouvoir et richesse. Le peuple du Bénin échangeait souvent de l’ivoire avec ces marchands.\nPour la version en briques du masque, je voulais mettre l’accent sur les petites représentations des marchands portugais qui entourent le haut et le bas du masque. En utilisant certains éléments des minifigurines en briques, j’ai pu créer une esthétique similaire.",
+      "artist": "Inconnu",
+      "medium": "Ivoire et fer",
+      "origin": "Nigéria",
+      "mounting": "Monté au mur",
+      "status": "Utilisé",
+      "country": "Nigéria",
+      "place": "Nigéria",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "bullvaseorzebu": {
+    "masters": {
+      "name": "Vase taureau ou zébu",
+      "desc": "Le peuple de Marlik était composé de cavaliers nomades, connu principalement grâce aux vestiges découverts dans la province de Gilan, près de la mer Caspienne. On pense qu’il s’agissait des premiers Iraniens à avoir peuplé la région. Les chevaux jouaient un rôle très important dans la culture de Marlik et étaient parfois enterrés dans des tombes individuelles. Bien que les chevaux aient eu une place majeure, la culture de Marlik privilégiait le taureau à bosse, le zébu, comme motif favori. Ce « vase taureau » est une représentation fortement stylisée d’un bovin aux pattes courtes, doté d’un bec verseur fonctionnel au niveau du museau.\nLa réplique en briques, de couleur orange foncé, est très proche de la teinte rougeâtre du vase original. À cette échelle, il était difficile de restituer la courbure du taureau, mais j’ai pu construire le bec verseur de manière tout aussi concave afin qu’il puisse servir de canal pour l’eau, comme sur la sculpture d’origine.",
+      "artist": "Inconnu",
+      "medium": "Céramique",
+      "origin": "Marlik, Iran du Nord",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Iran",
+      "place": "Marlik, Iran du Nord",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "sacrificialvessel": {
+    "masters": {
+      "name": "Vase sacrificiel",
+      "desc": "Des découvertes dans les tombes de Kaya, en Corée, ont révélé que les oiseaux étaient un sujet fréquent pour les créateurs de vases en grès à basse cuisson de cette époque. Les fours étaient construits dans des tunnels à flanc de colline. Les courbes du vase sont caractéristiques de ce type de grès, avec des formes plutôt simples mais élégantes. Ce vase sacrificiel représente une version de canard. Le corps du récipient pouvait être rempli d’eau par l’ouverture située sur le dos de l’oiseau, la queue faisant office de bec verseur pour verser l’eau.\nCe vase sacrificiel compte parmi les plus anciennes sculptures connues de Corée. Il était probablement lié au chamanisme, le système religieux dominant en Corée à cette époque. Ces modèles en argile étaient souvent déposés dans les tombes pour accompagner le défunt dans l’au-delà.\nJ’ai vraiment apprécié réaliser cette réplique en briques de ce canard. La fine crête qui coiffe la tête de l’oiseau ressort très bien pour une sculpture aussi petite. Le bec verseur est fidèle à l’original, mais les briques ne sont pas étanches; le récipient ne fonctionne donc pas vraiment pour contenir des liquides.",
+      "artist": "Inconnu",
+      "medium": "Grès",
+      "origin": "Corée",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Corée",
+      "place": "Corée",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "dogu": {
+    "masters": {
+      "name": "Dogu",
+      "desc": "Les dōgu appartiennent à la période Jōmon du Japon préhistorique et constituent l’une des plus anciennes preuves datées de la poterie. Ce sont de petites figures anthropomorphes. Leur fonction était très probablement celle d’effigies au sein de sociétés de chasseurs-cueilleurs. Elles pouvaient incarner des esprits, ou bien servir de support à des maladies transférées lors d’une cérémonie, avant que le dōgu ne soit brisé pour se débarrasser du mal. Cette hypothèse est plausible, car la plupart des dōgu ne sont pas retrouvés dans des tombes, mais plutôt dans des amas de déchets, et la plupart sont cassés.\nLa caractéristique principale du dōgu réside dans ses grands yeux évoquant des lunettes. Ce sont des figures géométriques aux têtes, torses et cuisses exagérés, mais avec de très petites mains et de très petits pieds. Les motifs centraux, semblables à des cordes, visibles sur l’abdomen, permettent de l’identifier comme provenant de la période Jōmon. Certains théoriciens pensent que les dōgu représentent une forme de vie universelle et que ces sculptures seraient la preuve de l’existence d’êtres extraterrestres.\nEn réalisant la réplique en briques du dōgu, je voulais me concentrer sur deux aspects principaux: la forme de la sculpture et les yeux surdimensionnés. J’ai commencé par de très petites mains et de très petits pieds pour respecter la silhouette, puis je me suis assuré que le corps et la tête (y compris la coiffe) étaient proches de la forme de l’original. Pour les yeux, j’ai utilisé de grandes pièces en forme de coupelle afin de reproduire l’effet « lunettes » de la sculpture originale.",
+      "artist": "Inconnu",
+      "medium": "Argile",
+      "origin": "Japon",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Japon",
+      "place": "Japon",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "venusofwillendorf": {
+    "masters": {
+      "name": "Vénus de Willendorf",
+      "desc": "Aussi connue sous le nom de « Femme de Willendorf », cette sculpture est l’un des plus anciens objets jamais découverts présentant une forme humaine. Elle fait partie des trois « Vénus » retrouvées lors de fouilles archéologiques près des rives du Danube, en Basse-Autriche. La sculpture est un élément important de l’art paléolithique. Elle représente une figure aux formes rondes, dont certains traits corporels sont amplifiés pour souligner la fertilité; par exemple, le nombril est accentué. Le torse et les cuisses sont volumineux en comparaison, tandis que les jambes sont très courtes. Le visage est absent, mais la tête présente un relief bosselé qui pourrait évoquer un bonnet tressé ou des cheveux ondulés. L’original est très petit, ce qui signifie qu’il a pu facilement voyager avec les populations nomades qui l’ont créé.\nPour la réplique en briques, j’ai choisi de doubler la taille originale afin de faire ressortir davantage de détails, comme les courbes de la silhouette. En utilisant les tenons des briques de côté, j’ai pu représenter les reliefs du bonnet ou des cheveux de la figure.",
+      "artist": "Inconnu",
+      "medium": "Calcaire",
+      "origin": "Autriche",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Autriche",
+      "place": "Autriche",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "doubleheadedserpent": {
+    "masters": {
+      "name": "Serpent à deux têtes",
+      "desc": "Le corps de la sculpture du Serpent à deux têtes est en bois, recouvert de turquoise et de pierre. L’œuvre utilise plus de 2 000 petites pièces plates pour former une mosaïque sur le corps du serpent, à la manière des écailles de la peau d’un serpent. La disposition experte de ces éléments accentue les courbes du corps et met en valeur le savoir-faire de l’artiste aztèque. Le corps ondulant du serpent représente probablement à la fois l’eau et le vent. Les serpents étaient aussi souvent associés aux idées de métamorphose et de renaissance, puisqu’ils muent.\nOn ne sait pas clairement si cette sculpture était portée en pendentif ou placée au sommet d’un bâton. Les trous prévus pour les yeux dans les têtes des serpents suggèrent qu’ils devaient contenir un matériau rapporté. Les dents des serpents sont réalisées à partir de fragments de coquillage blanc.\nComme même les plus petites briques sont bien plus grandes que les minuscules morceaux de turquoise qui recouvrent l’original, j’ai choisi une approche différente plutôt que de créer une mosaïque de pièces autour d’une forme de serpent. Je voulais toutefois essayer de restituer la richesse chromatique de l’œuvre, et j’ai intégré une variété de couleurs dans la réplique en briques. J’ai aussi eu la chance d’utiliser de petites pièces blanches pointues pour représenter les dents de la sculpture originale.",
+      "artist": "Inconnu",
+      "medium": "Bois, turquoise, coquille de conque",
+      "origin": "Mexique",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Mexique",
+      "place": "Mexique",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "seatedbuddha": {
+    "masters": {
+      "name": "Bouddha assis",
+      "desc": "Cette sculpture de Bouddha assis est représentée les jambes croisées dans la posture de satvaparyankasana, position du yogi où la jambe droite est placée sur la jambe gauche. Ses mains adoptent la bhumisparshamudra, qui signifie « prendre la Terre à témoin »: la main droite est abaissée, les doigts pointant vers le sol. Ce geste symbolise aussi la victoire de Shakyamuni sur le démon Mara, qui tenta de détourner le Bouddha de sa quête d’illumination. C’est un thème fréquent de l’art bouddhique thaïlandais.\nCe Bouddha combine des caractéristiques des écoles de sculpture du nord et du centre de la Thaïlande. La pose est typique des premières figures du royaume septentrional de Lan Na, tandis que les traits stylisés du visage évoquent le style plus tardif de Sukhothaï.\nMême si cette sculpture en briques s’est assemblée plutôt facilement, la partie la plus difficile de la réplique a été de reproduire le positionnement exact des mains, si important pour la signification de l’œuvre originale. La couleur brune des briques était le meilleur choix pour représenter la teinte brune du bronze d’origine.",
+      "artist": "Inconnu",
+      "medium": "Bronze",
+      "origin": "Thaïlande",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "Thaïlande",
+      "place": "Thaïlande",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "headtete": {
+    "masters": {
+      "name": "Tête",
+      "desc": "Modigliani était un artiste italien qui travailla en France. Cette sculpture particulière est l’une des 27 sculptures connues de l’artiste. Ses peintures comme ses sculptures se caractérisent par des visages allongés. Modigliani s’inspirait souvent de masques cérémoniels africains, qui représentaient pour lui une expression spirituelle. Bien qu’il ait exposé une série de ses sculptures en 1912, il avait abandonné la sculpture dès 1914 pour se consacrer uniquement à la peinture.\nL’œuvre représente la tête d’une femme portant le visage d’un masque. Elle rend hommage aux motifs géométriques autochtones et aux masques cérémoniels. Les yeux semblent clos et le visage allongé donne une impression de profonde contemplation. Les cheveux de la femme sont tirés en arrière, de manière ébouriffée, sur un côté. La sculpture est entièrement symétrique, à l’exception de la coiffure.\nPour obtenir l’effet enveloppant du masque dans la réplique en briques, j’ai légèrement élargi le nez et accentué l’arcade sourcilière davantage que sur l’original. Cela a permis de faire ressortir les yeux et de donner à l’ensemble la même impression que la sculpture d’origine.",
+      "artist": "Amedeo Modigliani",
+      "medium": "Calcaire",
+      "origin": "France",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "France",
+      "place": "France",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "littledanceroffourteenyears": {
+    "masters": {
+      "name": "La Petite danseuse de quatorze ans",
+      "desc": "Au fil des années, Degas a interprété le ballet avec fidélité dans ses peintures, mais aussi dans la sculpture de la Petite danseuse. Cependant, les danseuses de l’Opéra de Paris, qu’il utilisait comme modèles, bien que formées avec rigueur, étaient aussi réputées pour leur moralité légère; la sculpture suscita donc des critiques lors de sa première présentation.\nDegas commença l’œuvre en demandant à l’étudiante belge Maria Van Goethem de poser pour lui, tandis qu’il réalisait des dessins. Il produisit ensuite une petite figure à l’échelle. La sculpture fut à l’origine modelée en cire d’abeille translucide. Elle porte également un tutu en tissu et un ruban de soie dans les cheveux. Elle mesure environ les deux tiers de sa taille réelle.\nLa sculpture présente une apparence très naturaliste. Le réalisme est renforcé par l’emploi de matériaux mixtes pour le tutu et le ruban. Ce fut la seule sculpture que Degas accepta d’exposer de son vivant. Par la suite, ses héritiers décidèrent de faire réaliser des exemplaires à partir du modèle en cire.\nPour la réplique en briques, je voulais capturer l’assurance de la sculpture originale, avec son visage légèrement relevé. J’ai eu du mal à faire en sorte que le tutu et le ruban semblent tomber naturellement, comme s’ils étaient en véritable tissu. La sculpture originale est posée sur un bloc de bois dont j’ai essayé de reproduire la couleur aussi fidèlement que possible.",
+      "artist": "Edgar Degas",
+      "medium": "Bronze et techniques mixtes",
+      "origin": "France",
+      "mounting": "Sur piédestal",
+      "status": "Utilisé",
+      "country": "France",
+      "place": "France",
+      "cat": "Maîtres du passé",
+      "location": "Maîtres du passé"
+    }
+  },
+  "icarusplateviiifromtheillustratedbookjazz": {
+    "masters": {
+      "name": "Icare, planche VIII du livre illustré « Jazz »",
+      "artist": "Henri Matisse",
+      "medium": "Pochoir",
+      "country": "États-Unis",
+      "place": "Metropolitan Museum of Art, New York",
+      "cat": "Maîtres du passé"
+    }
+  },
+  "africanelephant": {
+    "perniciem": {
+      "name": "Éléphant d’Afrique",
+      "cat": "Prairie",
+      "conservationStatus": "Vulnérable",
+      "population": "Environ 415 000 restants",
+      "declineRate": "Environ 90 % de déclin au cours du dernier siècle",
+      "threats": "Braconnage pour l’ivoire, perte d’habitat, trafic illégal d’ivoire",
+      "notes": "Le plus grand mammifère terrestre. Des créatures très empathiques et émotionnelles, indispensables à la biodiversité et aux écosystèmes d’Afrique. Malgré l’interdiction mondiale de l’ivoire en 1990, la demande a repris — en 2011, la plus grande saisie illégale d’ivoire jamais enregistrée. Environ 20 000 éléphants sont tués chaque année (55 par jour).",
+      "artwork": "ÉLÉPHANT D’AFRIQUE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Kenya",
+      "place": "Amboseli"
+    }
+  },
+  "arcticfox": {
+    "perniciem": {
+      "name": "Renard arctique",
+      "cat": "Arctique",
+      "conservationStatus": "En danger (Scandinavie)",
+      "population": "Moins de 200 en Scandinavie",
+      "declineRate": "Déclin important des populations scandinaves",
+      "threats": "Changement climatique, fonte de la banquise, chasse pour la fourrure, forages offshore, raréfaction des proies",
+      "notes": "Originaire des régions arctiques couvertes de neige. Dépend de la banquise, qui disparaît avec la hausse des températures. Le renard arctique scandinave est désormais en danger malgré la protection légale contre la chasse. Les populations en Norvège, en Finlande et en Suède sont tombées à moins de 200 individus chacune.",
+      "artwork": "RENARD ARCTIQUE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Norvège",
+      "place": "Svalbard"
+    }
+  },
+  "belugawhale": {
+    "perniciem": {
+      "name": "Béluga",
+      "cat": "Océan",
+      "conservationStatus": "En danger critique d’extinction (Cook Inlet)",
+      "population": "Diminution de plus de 75 % (Cook Inlet)",
+      "declineRate": "Déclin de plus de 75 % de la sous-population de Cook Inlet",
+      "threats": "Pollution plastique marine, changement climatique, fonte de la banquise, pollution sonore, aménagement côtier, collisions avec les navires",
+      "notes": "Surnommé le « canari de la mer ». Animal extrêmement social et très vocal qui utilise l’écholocalisation. Il dépend de la banquise, qui disparaît. Malgré l’arrêt de la chasse réglementée en 2005, les effectifs de Cook Inlet ne se sont pas encore rétablis.",
+      "artwork": "BÉLUGA, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "États-Unis",
+      "place": "Cook Inlet, Alaska"
+    }
+  },
+  "chileanflamingo": {
+    "perniciem": {
+      "name": "Flamant du Chili",
+      "cat": "Prairie",
+      "conservationStatus": "Quasi menacé",
+      "population": "Colonies fortement réduites",
+      "declineRate": "Réduction drastique de la taille des colonies",
+      "threats": "Collecte illégale d’œufs, perte d’habitat, pollution de l’eau, extraction minière/prélèvements d’eau, dérangements dus au tourisme",
+      "notes": "Reconnaissable à son plumage rose pâle, ses articulations rose vif et son grand bec noir. Son alimentation dépend des algues et du plancton des lagunes salées et des lacs alcalins. N’a niché que 9 fois en 26 ans à Mar Chiquita. Les femelles ne pondent qu’un seul œuf à la fois.",
+      "artwork": "FLAMANT DU CHILI, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Chili",
+      "place": "Atacama"
+    }
+  },
+  "cheetah": {
+    "perniciem": {
+      "name": "Guépard",
+      "cat": "Prairie",
+      "conservationStatus": "Vulnérable",
+      "population": "Moins de 7 000 restants",
+      "declineRate": "Baisse de 50 % depuis 1975; perte supplémentaire de 53 % prévue dans les 15 prochaines années",
+      "threats": "Perte d’habitat (agriculture), braconnage pour la peau, trafic illégal d’animaux de compagnie, raréfaction des proies, conflits homme-animal",
+      "notes": "Le mammifère terrestre le plus rapide — de 0 à 60 mph en 3 secondes. Moins de 5 % des petits guépards survivent jusqu’à l’âge adulte. Presque totalement disparu d’Asie (moins de 50 individus en Iran). Son habitat se réduit d’environ 3 % par an. Disparition totale prédite d’ici la fin du siècle.",
+      "artwork": "GUÉPARD, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Tanzanie",
+      "place": "Serengeti"
+    }
+  },
+  "malayantiger": {
+    "perniciem": {
+      "name": "Tigre malais",
+      "cat": "Forêt",
+      "conservationStatus": "En danger critique d’extinction",
+      "population": "250 à 340 adultes (dont seulement 80 à 120 capables de se reproduire)",
+      "declineRate": "Déclin de 96 % de l’ensemble des tigres en un siècle (100 000 → 3 890)",
+      "threats": "Braconnage (principale menace), perte d’habitat (déforestation liée à l’huile de palme), conflit homme-animal, commerce illégal, raréfaction des proies",
+      "notes": "Trois des neuf sous-espèces de tigres sont déjà totalement éteintes. Entre 2000 et 2012, la Malaisie a enregistré le taux de perte de forêt le plus élevé au monde, perdant 18 244 miles carrés (plus grand que le Danemark) au profit des plantations de palmiers à huile. Aucun noyau d’habitat ne compte plus de 50 tigres malais restants.",
+      "artwork": "TIGRE MALAIS, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Malaisie",
+      "place": "Taman Negara"
+    }
+  },
+  "giraffe": {
+    "perniciem": {
+      "name": "Girafe",
+      "cat": "Prairie",
+      "conservationStatus": "Vulnérable / En danger (Rothschild)",
+      "population": "97 562 (estimation 2015)",
+      "declineRate": "Déclin de plus de 40 % en 30 ans (contre 163 452 en 1985)",
+      "threats": "Chasse non réglementée, braconnage, trafic d’espèces sauvages, réduction de l’habitat",
+      "notes": "Le plus grand mammifère terrestre vivant, mesurant en moyenne 19 pieds et pouvant atteindre une masse de deux tonnes. La girafe de Rothschild est l’une des neuf sous-espèces. Les troupeaux sont passés de 20–30 individus à parfois seulement 6. Une « extinction silencieuse » est en cours.",
+      "artwork": "GIRAFE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Kenya",
+      "place": "Lac Nakuru"
+    }
+  },
+  "polarbear": {
+    "perniciem": {
+      "name": "Ours polaire",
+      "cat": "Arctique",
+      "notes": "L’ours polaire, depuis longtemps l’une des créatures les plus convoitées et les plus aimées de la planète, omniprésent dans la culture populaire et synonyme de froid et d’Arctique, est devenu l’emblème des effets dévastateurs du réchauffement climatique.",
+      "artwork": "OURS POLAIRE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Canada",
+      "place": "Baie d’Hudson"
+    }
+  },
+  "westernlowlandgorilla": {
+    "perniciem": {
+      "name": "Gorille des plaines de l’Ouest",
+      "cat": "Forêt",
+      "notes": "Le gorille des plaines de l’Ouest est le plus commun et le plus abondant des gorilles. Pourtant, malgré des effectifs qui semblent importants, il est classé « en danger critique d’extinction » par l’UICN depuis 2007.",
+      "artwork": "GORILLE DES PLAINES DE L’OUEST, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Gabon",
+      "place": "Parc national de Loango"
+    }
+  },
+  "humpbackwhale2": {
+    "perniciem": {
+      "name": "Baleine à bosse 2",
+      "cat": "Océan",
+      "notes": "Avant le moratoire sur la chasse commerciale à la baleine de 1985, les populations de baleines à bosse avaient chuté d’un dévastateur 95 %. Elles furent chassées sans relâche, presque jusqu’à l’extinction.",
+      "artwork": "Baleine à bosse 2, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "États-Unis",
+      "place": "Glacier Bay, Alaska"
+    }
+  },
+  "reefshark": {
+    "perniciem": {
+      "name": "Requin de récif",
+      "cat": "Océan",
+      "notes": "Depuis aussi loin que la plupart s’en souviennent, les requins ont été un sujet de peur, de malveillance et, ensuite, d’admiration. De leur représentation dans la culture populaire dans des films comme Jaws et The Reef, aux exemples bien réels de la menace qu’ils peuvent représenter pour l’être humain sur les plages et en pleine mer.",
+      "artwork": "REQUIN DE RÉCIF, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Belize",
+      "place": "Barrière de corail du Belize"
+    }
+  },
+  "vaquita": {
+    "perniciem": {
+      "name": "Vaquita",
+      "cat": "Océan",
+      "notes": "La vaquita, le marsouin du golfe de Californie, est aujourd’hui le cétacé le plus en danger critique d’extinction au monde. Bien qu’elle ait été découverte il y a moins d’un siècle, en 1958, ses effectifs ont chuté si brutalement qu’elle a été classée « en danger critique d’extinction » moins de 40 ans plus tard, en 1996.",
+      "artwork": "Vaquita, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Mexique",
+      "place": "Golfe de Californie"
+    }
+  },
+  "hawksbillturtle": {
+    "perniciem": {
+      "name": "Tortue imbriquée",
+      "cat": "Océan",
+      "conservationStatus": "En danger critique d’extinction",
+      "population": "Déclin de 80 à 90 % en 10 ans",
+      "declineRate": "Perte de plus de 80 % en seulement 10 ans",
+      "threats": "Chasse pour la carapace (commerce d’écaille de tortue), commerce des œufs et de la chair, aménagement côtier, pollution marine, captures accidentelles par la pêche",
+      "notes": "L’une des espèces les plus en danger critique d’extinction de la planète. Représentants vivants de reptiles qui dominaient la Terre il y a plus de 100 millions d’années. Rôle fondamental dans la biodiversité marine : contribue à maintenir la santé des récifs coralliens. Le commerce de la carapace a été déclaré illégal au niveau international en 1993, mais le marché noir persiste.",
+      "artwork": "TORTUE IMBRIQUÉE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Mexique",
+      "place": "Cozumel"
+    }
+  },
+  "humpbackwhale1": {
+    "perniciem": {
+      "name": "Baleine à bosse 1",
+      "cat": "Océan",
+      "conservationStatus": "Préoccupation mineure (reclassé ; 4/14 sous-populations toujours en danger)",
+      "population": "Environ 80 000 (2016), contre environ 10 000 dans les années 1970",
+      "declineRate": "Déclin de 95 % avant le moratoire de 1985 ; en reprise mais toujours menacée",
+      "threats": "Pollution des océans, enchevêtrement dans les engins de pêche, collisions avec les navires, harcèlement par les embarcations",
+      "notes": "Les crooners de l’océan. Des chants complexes de gémissements, de hurlements et de cris qui résonnent pendant des heures. Leur rétablissement prouve que les efforts de conservation fonctionnent, mais les menaces persistent. Deux millions de baleines à fanons ont été tuées par l’industrie baleinière avant l’interdiction. 80 baleines à bosse mortes ont été retrouvées sur la côte est des États-Unis entre 2016 et 2018.",
+      "artwork": "BALEINE À BOSSE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Australie",
+      "place": "Grande Barrière de corail"
+    }
+  },
+  "militarymacaw": {
+    "perniciem": {
+      "name": "Ara militaire",
+      "cat": "Forêt",
+      "notes": "Facilement reconnaissable même sur le fond luxuriant et vert de la forêt tropicale de notre image, majoritairement vert citron, rehaussé de plumes de vol bleu aqua et de petits détails de plumage rouge sur le front et la queue, l’ara militaire est un véritable régal visuel.",
+      "artwork": "ARA MILITAIRE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Mexique",
+      "place": "Sierra Madre Occidentale"
+    }
+  },
+  "northernwhiterhinoceros": {
+    "perniciem": {
+      "name": "Rhinocéros blanc du Nord",
+      "cat": "Prairie",
+      "notes": "Le rhinocéros blanc du Nord, le dernier à être dévoilé dans notre projet, est aussi l’espèce la plus menacée de la collection. Fatu, une femelle, et sa mère Najin sont les deux derniers rhinocéros blancs du Nord encore en vie.",
+      "artwork": "RHINOCÉROS BLANC DU NORD, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Kenya",
+      "place": "Ol Pejeta Conservancy"
+    }
+  },
+  "sumatranorangutan": {
+    "perniciem": {
+      "name": "Orang-outan de Sumatra",
+      "cat": "Forêt",
+      "notes": "L’orang-outan de Sumatra, originaire de l’île indonésienne de Sumatra, est en train de perdre sa place sur notre planète. Ces primates asiatiques sont considérés comme en danger critique d’extinction depuis 2000, et leurs effectifs continuent encore de diminuer aujourd’hui.",
+      "artwork": "ORANG-OUTAN DE SUMATRA, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Indonésie",
+      "place": "Gunung Leuser"
+    }
+  },
+  "orca": {
+    "perniciem": {
+      "name": "Orque",
+      "cat": "Océan",
+      "notes": "L’orque, géant des océans exceptionnellement intelligent, émotionnel et sociable, est en réalité la plus grande espèce de dauphin au monde. Reconnaissable à son noir et blanc, l’orque est un prédateur apex puissant et colossal, présent dans chacun des océans de la Terre.",
+      "artwork": "ORQUE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Norvège",
+      "place": "Tromsø"
+    }
+  },
+  "whaleshark": {
+    "perniciem": {
+      "name": "Requin-baleine",
+      "cat": "Océan",
+      "notes": "Plus grand poisson de nos mers, le requin-baleine peut peser jusqu’à 50 000 livres et dépasser 30 pieds de longueur. Il est pourtant trompeusement inoffensif.",
+      "artwork": "REQUIN-BALEINE, PERNiCiEM 2019",
+      "medium": "Jet d’encre archivistique sur papier Canson",
+      "country": "Philippines",
+      "place": "Donsol"
+    }
+  },
+  "geo": {
+    "countries": {
+      "france": "France",
+      "unitedstates": "États-Unis",
+      "egypt": "Égypte",
+      "mexico": "Mexique",
+      "nigeria": "Nigéria",
+      "iran": "Iran",
+      "korea": "Corée",
+      "japan": "Japon",
+      "austria": "Autriche",
+      "thailand": "Thaïlande",
+      "kenya": "Kenya",
+      "norway": "Norvège",
+      "chile": "Chili",
+      "tanzania": "Tanzanie",
+      "malaysia": "Malaisie",
+      "canada": "Canada",
+      "gabon": "Gabon",
+      "belize": "Belize",
+      "australia": "Australie",
+      "indonesia": "Indonésie",
+      "philippines": "Philippines"
+    }
+  },
+  "masters": {
+    "collections": {
+      "pastmasters": "Maîtres du passé"
+    },
+    "status": {
+      "used": "Utilisé"
+    },
+    "mounting": {
+      "onpedestal": "Sur piédestal",
+      "mountedonwall": "Monté au mur"
+    },
+    "medium": {
+      "bronze": "Bronze",
+      "sheetmica": "Feuille de mica",
+      "bronzegoldandsilver": "Bronze, or et argent",
+      "limestone": "Calcaire",
+      "ivoryandiron": "Ivoire et fer",
+      "ceramic": "Céramique",
+      "stoneware": "Grès",
+      "clay": "Argile",
+      "woodturquoiseconchshell": "Bois, turquoise, coquille de conque",
+      "bronzeandmixedmedia": "Bronze et techniques mixtes",
+      "pochoir": "Pochoir"
+    },
+    "origin": {
+      "france": "France",
+      "ohiousa": "Ohio, États-Unis",
+      "egypt": "Égypte",
+      "mexico": "Mexique",
+      "nigeria": "Nigéria",
+      "marliknortherniran": "Marlik, Iran du Nord",
+      "korea": "Corée",
+      "japan": "Japon",
+      "austria": "Autriche",
+      "thailand": "Thaïlande"
+    }
+  },
+  "perniciem": {
+    "habitats": {
+      "grassland": "Prairie",
+      "arctic": "Arctique",
+      "ocean": "Océan",
+      "forest": "Forêt"
+    },
+    "conservationStatus": {
+      "vulnerable": "Vulnérable",
+      "endangeredscandinavia": "En danger (Scandinavie)",
+      "criticallyendangeredcookinlet": "En danger critique d’extinction (Cook Inlet)",
+      "nearthreatened": "Quasi menacé",
+      "criticallyendangered": "En danger critique d’extinction",
+      "vulnerableendangeredrothschild": "Vulnérable / En danger (Rothschild)",
+      "leastconcernupgraded414subpopulationsstillendangered": "Préoccupation mineure (reclassé ; 4/14 sous-populations toujours en danger)"
+    }
+  }
+}

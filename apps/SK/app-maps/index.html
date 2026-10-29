@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Serial Killer Map</title>
+  <meta name="i18n-base" content="./lang/" />
+  <meta name="i18n-default-lang" content="en" />
+  <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+  <meta name="i18n-lock-lang" content="false" />
+  <meta name="i18n-title-key" content="mapApp.pageTitle" />
+  <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,embed,keyboardLayout" />
+  <meta name="kiosk-home" content="../Multi-app/index.html" />
+  <!-- Disable shared kiosk.js auto-redirect for this page (we handle it with a loading screen). -->
+  <meta name="kiosk-timeout-ms" content="0" />
+  <meta name="map-idle-timeout-ms" content="90000" />
+  <link rel="stylesheet" href="./style/theme.css?v=20260129c" />
+  <link rel="stylesheet" href="./style/app.css?v=20260116c">
+  <link rel="stylesheet" href="./style/popup.css?v=20260116e">
+  <link rel="stylesheet" href="./style/kiosk.css?v=20260116b" />
+  <!-- Use direct local ES module paths so the map boots fully offline without import maps or network polyfills. -->
+  <style>
+    html.is-embedded .lang-switcher--map {
+      display: none;
+    }
+
+    html.lang-selection-locked .lang-switcher--map {
+      display: none;
+    }
+  </style>
+  <script>
+    if (new URL(window.location.href).searchParams.get('embed') === '1') {
+      document.documentElement.classList.add('is-embedded');
+    }
+  </script>
+</head>
+<body>
+  <div id="viewport"></div>
+
+  <aside id="mapSearch" class="map-search" data-i18n-attr="aria-label:mapApp.search.panelAria">
+    <div class="map-search__header">
+      <div class="map-search__title" data-i18n="mapApp.search.title">Search</div>
+      <button type="button" class="map-search__toggle" data-action="search-toggle" aria-expanded="true" data-i18n-attr="aria-label:mapApp.search.toggleAria">
+        ▸
+      </button>
+    </div>
+
+    <div class="map-search__input">
+      <input
+        id="mapSearchInput"
+        class="map-search__input-el"
+        type="text"
+        autocomplete="off"
+        autocapitalize="none"
+        spellcheck="false"
+        data-i18n-attr="placeholder:mapApp.search.placeholder;aria-label:mapApp.search.placeholder" />
+      <button type="button" class="map-search__clear" data-action="search-clear" data-i18n-attr="aria-label:mapApp.search.clearAria">×</button>
+    </div>
+
+    <div class="map-search__tools">
+      <div class="map-search__hint" data-i18n="mapApp.search.hint">Search by name, place, description…</div>
+      <select id="mapSearchCountry" class="map-search__country" data-i18n-attr="aria-label:mapApp.search.countryAria"></select>
+      <button type="button" class="map-search__layout" data-action="search-layout" data-i18n-attr="aria-label:mapApp.search.layoutAria">AZERTY</button>
+    </div>
+
+    <div id="mapSearchResults" class="map-search__results" role="listbox" data-i18n-attr="aria-label:mapApp.search.resultsAria"></div>
+    <div id="mapSearchKeyboard" class="map-search__keyboard" data-i18n-attr="aria-label:mapApp.search.keyboardAria"></div>
+  </aside>
+
+  <nav class="lang-switcher lang-switcher--map" data-lang-switcher data-i18n-attr="aria-label:common.languageSelector"></nav>
+
+  <div class="user-menu user-menu--bottom">
+    <button class="menu-toggle" data-menu-group="primary" data-i18n="common.controls" data-i18n-attr="aria-label:common.toggleControls">Controls</button>
+    <div class="controls-panel" data-menu-group-panel="primary">
+      <div class="controls-row">
+        <button data-action="zoomIn" data-i18n-attr="aria-label:common.zoomIn">+</button>
+        <button data-action="zoomOut" data-i18n-attr="aria-label:common.zoomOut">-</button>
+        <button data-action="resetCamera" data-i18n="common.reset">Home</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="idleOverlay" class="idle-overlay">
+    <div class="idle-overlay__content">
+      <div class="idle-title">
+        <img src="./ressource/theme/Title.webp" alt="Serial Killer Map" class="idle-logo" data-lang-logo-default="./ressource/theme/Title.webp" data-lang-logo-de="../shared/Logo_Serien_Killer.webp" data-i18n-attr="alt:mapApp.idle.logoAlt" />
+      </div>
+      <div class="idle-loading" aria-live="polite">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <div id="idleMessage" class="idle-message" data-i18n="mapApp.idle.loading">Loading…</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../shared/lang-logo.js?v=20260504b"></script>
+  <script>
+    // Bootstrap watchdog: if the module bundle fails to start (e.g. importmap not supported
+    // in the embedded runtime), the overlay would otherwise look like "loading forever".
+    window.__MAP_APP_STARTED = false;
+    (function () {
+      const overlay = document.getElementById('idleOverlay');
+      const msg = document.getElementById('idleMessage');
+      const setMsg = (t) => { try { if (msg) msg.textContent = String(t || ''); } catch {} };
+      const t = (key, vars, fallback) => {
+        try {
+          if (window.i18n && typeof window.i18n.t === 'function') {
+            const value = window.i18n.t(key, vars);
+            if (value != null && value !== key) return value;
+          }
+        } catch {}
+        return fallback || key;
+      };
+
+      window.addEventListener('error', (e) => {
+        const text = (e && e.message) ? e.message : 'JavaScript error';
+        setMsg(`${t('mapApp.loading.errorPrefix', null, 'Error')}: ${text}`);
+      });
+      window.addEventListener('unhandledrejection', (e) => {
+        const r = e && e.reason;
+        const text = (r && (r.message || String(r))) ? (r.message || String(r)) : 'Unhandled promise rejection';
+        setMsg(`${t('mapApp.loading.errorPrefix', null, 'Error')}: ${text}`);
+      });
+
+      window.setTimeout(() => {
+        if (window.__MAP_APP_STARTED) return;
+        if (!overlay) return;
+        setMsg(t('mapApp.loading.startFailure', null, 'Unable to start the map. Check the kiosk runtime or asset paths.'));
+      }, 8000);
+    })();
+  </script>
+
+  <script src="./lib/i18n.js?v=20260123a"></script>
+  <script src="../../../assets/tracking.js"></script>
+  <script type="module" src="src/main.js?v=20260330a"></script>
+  <script src="./lib/kiosk.js?v=20260116b" defer></script>
+</body>
+</html>

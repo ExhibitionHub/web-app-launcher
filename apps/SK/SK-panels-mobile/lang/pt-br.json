@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "languageName": "Português (Brasil)"
+  },
+  "common": {
+    "languageSelector": "Seletor de idioma",
+    "scan": "Escanear QR code",
+    "stopScan": "Parar",
+    "close": "Fechar",
+    "home": "Início",
+    "previous": "Anterior",
+    "next": "Próximo"
+  },
+  "panelApp": {
+    "brand": "SK",
+    "pageTitle": "Tradução SK",
+    "counter": "{{current}} / {{total}}",
+    "nav": {
+      "aria": "Navegação",
+      "home": "Início",
+      "scan": "Escanear",
+      "list": "Lista",
+      "panel": "Texto"
+    },
+    "views": {
+      "home": { "eyebrow": "Início", "label": "Início" },
+      "scan": { "eyebrow": "Escanear", "label": "Escanear" },
+      "list": { "eyebrow": "Lista", "label": "Lista" },
+      "panel": { "eyebrow": "Texto", "label": "Texto" }
+    },
+    "home": {
+      "eyebrow": "Início",
+      "title": "Tradução",
+      "copy": "Escaneie um QR code ou abra a lista.",
+      "primaryAction": "Escanear",
+      "secondaryAction": "Lista",
+      "resumeEyebrow": "Texto atual",
+      "resumeAction": "Abrir",
+      "metricPanelsLabel": "Textos",
+      "metricPanelsValue": "{{count}} textos",
+      "metricLanguageLabel": "Idioma"
+    },
+    "scan": {
+      "eyebrow": "Escanear",
+      "title": "Escaneie o QR code",
+      "copy": "Abra a câmera para acessar o texto correto.",
+      "openButton": "Iniciar leitura",
+      "listAction": "Abrir lista"
+    },
+    "list": {
+      "eyebrow": "Lista",
+      "title": "Textos",
+      "copy": "Selecione um texto.",
+      "empty": "Nenhum texto disponível."
+    },
+    "panel": {
+      "listAction": "Abrir lista",
+      "scanAction": "Abrir scanner"
+    },
+    "scanner": {
+      "title": "Scanner de QR code",
+      "pillLive": "Ao vivo",
+      "pillMatch": "Encontrado",
+      "pillOff": "Desligado",
+      "pillReady": "Pronto",
+      "ready": "Aponte a câmera para um QR code.",
+      "tapToStart": "Abra o scanner.",
+      "unsupported": "A leitura de QR codes não está disponível neste navegador.",
+      "secureContext": "O acesso à câmera requer HTTPS ou localhost.",
+      "permissionDenied": "A permissão para usar a câmera foi negada.",
+      "noCamera": "Nenhuma câmera foi encontrada neste dispositivo.",
+      "unavailable": "Não foi possível iniciar a câmera.",
+      "matched": "Texto carregado.",
+      "invalid": "Este QR code não está vinculado a um texto."
+    },
+    "status": {
+      "unknownPanel": "Este texto não está disponível no aplicativo.",
+      "noPanels": "Nenhum texto configurado."
+    }
+  },
+  "panels": {
+    "order": ["intro", "patterns", "myths", "investigation"],
+    "items": {
+      "intro": {
+        "kicker": "01",
+        "title": "Introdução",
+        "body": [
+          "Painel de introdução da exposição."
+        ]
+      },
+      "patterns": {
+        "kicker": "02",
+        "title": "Rastro de padrões",
+        "body": [
+          "O crime em série não é puro caos. Escolhas repetidas deixam uma estrutura visível.",
+          "Datas, lugares e rotinas muitas vezes revelam mais do que um caso isolado."
+        ]
+      },
+      "myths": {
+        "kicker": "03",
+        "title": "Perfil falso",
+        "body": [
+          "A imagem popular do criminoso genial é enganosa.",
+          "A maioria dos casos se baseia em métodos comuns, espaços familiares e oportunidades recorrentes."
+        ]
+      },
+      "investigation": {
+        "kicker": "04",
+        "title": "Pista de investigação",
+        "body": [
+          "As conexões importam: geografia, perfis das vítimas e registros de desaparecimento.",
+          "A exposição se concentra no que pode ser observado, comparado e verificado."
+        ]
+      }
+    }
+  }
+}

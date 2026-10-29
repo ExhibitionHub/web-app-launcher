@@ -1,0 +1,6 @@
+{
+  "appKey": "DINO-MAP",
+  "displayName": "Dinosaur Map",
+  "entryPath": "/apps/DINO/DINO-MAP/index.html",
+  "idleTimeoutSec": 60
+}

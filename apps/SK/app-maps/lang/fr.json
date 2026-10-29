@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "languageName": "Français"
+  },
+  "common": {
+    "home": "Accueil",
+    "map": "Carte",
+    "quiz": "Quiz",
+    "languageSelector": "Sélecteur de langue",
+    "controls": "Contrôles",
+    "toggleControls": "Afficher ou masquer les commandes",
+    "zoomIn": "Zoomer",
+    "zoomOut": "Zoom arrière",
+    "reset": "Accueil",
+    "all": "Tout",
+    "solved": "Résolu",
+    "unsolved": "Non résolu",
+    "backToMainMenu": "Retour au menu principal",
+    "mainMenu": "Menu principal",
+    "selection": "Sélection",
+    "openMap": "Ouvrir la carte",
+    "openQuiz": "Ouvrir le quiz"
+  },
+  "mapApp": {
+    "pageTitle": "Carte des tueurs en série",
+    "search": {
+      "title": "Rechercher",
+      "panelAria": "Panneau de recherche",
+      "placeholder": "Recherche (nom, lieu, description…)",
+      "hint": "Recherche par nom, lieu, description…",
+      "resultsAria": "Résultats de la recherche",
+      "keyboardAria": "Clavier à l'écran",
+      "countryAria": "Filtrer par pays",
+      "countryAll": "Tous les pays",
+      "countryUnknown": "Pays inconnu",
+      "startTyping": "Commencez à taper pour rechercher",
+      "noResults": "Aucun résultat",
+      "unnamed": "Sans nom",
+      "toggleAria": "Basculer le panneau de recherche",
+      "clearAria": "Effacer la recherche",
+      "layoutAria": "Changer la disposition du clavier",
+      "keys": {
+        "space": "Espace",
+        "backspace": "Retour",
+        "clear": "Effacer",
+        "shift": "Maj"
+      }
+    },
+    "idle": {
+      "logoAlt": "Carte des tueurs en série",
+      "subtitle": "Explorez les profils de cas à travers le monde",
+      "loading": "Chargement…"
+    },
+    "loading": {
+      "returningHome": "Retour au menu…",
+      "stuckMessage": "Le chargement est bloqué ({{stages}}). Vérifiez les ressources.",
+      "startFailure": "Impossible de démarrer la carte. Vérifiez le runtime du kiosque ou les chemins d’accès aux actifs.",
+      "modelParseFailure": "Impossible de lire le modèle de carte.",
+      "modelLoadFailure": "Impossible de charger le modèle de carte.",
+      "errorPrefix": "Erreur",
+      "stages": {
+        "texture": "texture",
+        "model": "modèle",
+        "data": "données",
+        "markers": "marqueurs"
+      }
+    }
+  },
+  "popup": {
+    "tagsLabel": "Mots-clés",
+    "imageUnavailable": "Image indisponible",
+    "profile": "Profil",
+    "profileDetails": "Détails du profil",
+    "imageAlt": "Image",
+    "close": "Fermer",
+    "closeCard": "Fermer la fiche",
+    "detailsToBeConfirmed": "Détails à confirmer.",
+    "pressPlay": "Appuyez sur lecture pour lancer l'animation.",
+    "video": "Vidéo",
+    "meta": {
+      "yearsActive": "Années d'activité",
+      "provenVictims": "Victimes avérées",
+      "possibleVictims": "Victimes possibles",
+      "status": "Statut"
+    }
+  }
+}

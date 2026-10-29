@@ -1,0 +1,41 @@
+{
+  "characters": {
+    "victim": {
+      "name": "Youssef",
+      "role": "Victima",
+      "details": [
+        "Encontrado muerto en su casa.",
+        "Conocido por vender drogas."
+      ]
+    },
+    "karim": {
+      "name": "Karim",
+      "role": "Comprador / Visitante",
+      "details": [
+        "Compro drogas a la victima.",
+        "Creia que eran falsas.",
+        "Se puso agresivo y amenazo con ir.",
+        "Intento borrar datos del telefono remotamente."
+      ]
+    },
+    "samir": {
+      "name": "Samir",
+      "role": "Amigo",
+      "details": [
+        "Relacion cercana con la victima.",
+        "Llego borracho la noche del incidente.",
+        "Dice no recordar.",
+        "Estuvo en la casa, pero sin motivo claro."
+      ]
+    },
+    "witness": {
+      "name": "Fatima Zahra El Idrissi",
+      "role": "Ama de llaves / Testigo",
+      "details": [
+        "Trabaja regularmente en casa de la victima.",
+        "Llego temprano y noto que algo no iba bien.",
+        "Llamo a la policia."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1201 @@
+{
+  "meta": {
+    "documentTitle": "Persoonlijkheidsscenarioquiz"
+  },
+  "ui": {
+    "welcome": {
+      "tag": "Situationele persoonlijkheidsquiz",
+      "title": "PERSOONLIJKHEIDSMOMENTOPNAME",
+      "subtitle": "15 korte scenario’s om in kaart te brengen hoe jij reageert",
+      "description": "Stap door snelle situaties heen en kies de reactie die natuurlijk aanvoelt. Elke instinctieve keuze bouwt uw persoonlijke profiel op; er zijn geen andere profielen op het scherm.",
+      "howTitle": "Hoe het werkt",
+      "howSteps": [
+        "Lees de korte scenariocontext.",
+        "Kies het antwoord dat overeenkomt met hoe jij zou reageren.",
+        "Bekijk uw profielupdate met een live dossier."
+      ],
+      "whyTitle": "Waarom",
+      "whyCopy": "Zie uw natuurlijke balans tussen structuur, spontaniteit, keuzevrijheid en sociaal gemak. Dit is een hulpmiddel voor zelfreflectie: je kijkt alleen naar je eigen patroon.",
+      "disclaimer": "Leuke, gefictionaliseerde ervaring voor persoonlijk inzicht. Geen klinische beoordeling.",
+      "start": "Begin"
+    },
+    "question": {
+      "sectionLabel": "Situationele reis",
+      "metaLabel": "Scenariobeschrijving",
+      "counterPrefix": "Geval",
+      "answersLabel": "Jouw reactie",
+      "statusLocked": "Keuze opgeslagen. Ga naar het volgende scenario.",
+      "statusOpen": "Kies het antwoord dat het beste bij u past.",
+      "visualAlt": "Visuele aanwijzing {index}"
+    },
+    "result": {
+      "title": "JOUW PERSOONLIJKHEIDSPROFIEL",
+      "profileTypeTitle": "JOUW TYPOLOGIE",
+      "populationTitle": "Jouw reactiepatroon",
+      "traits": {
+        "organized": "Structuur",
+        "impulsive": "Spontaniteit",
+        "control": "Controle",
+        "social": "Sociaal gemak"
+      },
+      "highlightsTitle": "Belangrijkste tendensen",
+      "profileSummaryShare": "Profielsterkte: {value}%",
+      "profileSummaryLabel": "Je sluit aan bij: {type}"
+    },
+    "buttons": {
+      "restart": "Opnieuw beginnen",
+      "back": "Terug",
+      "send": "Deel",
+      "sendWide": "Stuur mijn profiel",
+      "sendModalClose": "Terug naar begin"
+    },
+    "accessibility": {
+      "languageSelector": "Taalkiezer"
+    },
+    "research": {
+      "title": "PROFIELDOSSIER",
+      "emailTitle": "Stuur uw momentopname",
+      "emailHint": "Schermtoetsenbord",
+      "recipientLabel": "Ontvanger",
+      "placeholder": "bijv. you@example.com",
+      "statusMissing": "Voeg een e-mailadres toe om uw profiel te delen.",
+      "statusInvalid": "Voer een geldig e-mailadres in.",
+      "statusSending": "Verzenden...",
+      "statusQueued": "Profiel staat in de wachtrij voor bezorging.",
+      "statusSuccess": "Profiel verzonden.",
+      "statusError": "Kan uw dossier niet verzenden.",
+      "statusNoCamera": "Live foto niet beschikbaar op deze verbinding. Het dossier kan nog steeds worden verzonden.",
+      "sendStatus": "Profiel klaar voor {email}. (Gesimuleerd verzenden)",
+      "liveLabel": "Live profielposter",
+      "sendAria": "Stuur uw profiel",
+      "keyboardBackspace": "Verwijderen",
+      "keyboardClear": "Wissen",
+      "mailSubject": "Bijgevoegd dossier: Persoonlijkheidsdossier",
+      "mailBody": "Uw vertrouwelijk dossier is bijgevoegd.\n\nDit bestand is samengesteld uit uw antwoorden tijdens het Persoonlijkheidsmomentopname-onderzoek en legt het tijdens uw sessie geïdentificeerde gedragsprofiel vast.\n\nBedankt voor uw deelname aan het onderzoek.\n\nTentoonstellingscentrum"
+    },
+    "modal": {
+      "title": "Profiel verzonden",
+      "body": "Uw momentopname is onderweg."
+    },
+    "error": {
+      "title": "FOUT",
+      "subtitle": "Kan quizgegevens niet laden",
+      "message": "Zorg ervoor dat uw lokale server actief is en dat lang/nl.json toegankelijk is.",
+      "reload": "Herladen",
+      "loadQuestions": "Kan vragen niet laden. Controleer of het taalbestand toegankelijk is."
+    },
+    "chart": {
+      "you": "Jij",
+      "average": "Referentie"
+    },
+    "camera": {
+      "permissionError": "Kan geen toegang krijgen tot de camera. Zorg ervoor dat je een camera hebt aangesloten en toestemming hebt verleend.\n\nDetails: {error}",
+      "errors": {
+        "secureContext": "Voor cameratoegang is HTTPS of localhost in de kioskbrowser vereist.",
+        "notAllowed": "Cameratoestemming is geweigerd.",
+        "notFound": "Er werd geen camera gedetecteerd.",
+        "notReadable": "De camera is al in gebruik of niet beschikbaar.",
+        "overconstrained": "De camera ondersteunt de gevraagde video-instellingen niet.",
+        "generic": "Cameratoegang mislukt."
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "question": "Als u zich onrecht aangedaan of gekwetst voelt, hoe reageert u dan doorgaans?",
+      "answers": [
+        {
+          "text": "Ik praat het uit en probeer het perspectief van de ander te begrijpen",
+          "organized": 1,
+          "impulsive": 1,
+          "control": 1,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik trek me terug en plan mijn volgende zet zorgvuldig",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik confronteer ze onmiddellijk en emotioneel",
+          "organized": 1,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik koester een wrok en wacht op het juiste moment",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Uw reactie op conflicten laat zien hoe u woede verwerkt en impulsen onder controle houdt. Georganiseerde planners neigen naar methodische benaderingen, terwijl impulsieve types emotioneel reageren op het moment.",
+      "image": "images/questions/q01.jpg"
+    },
+    {
+      "id": 2,
+      "question": "Hoe denk jij over het bewaren van geheimen?",
+      "answers": [
+        {
+          "text": "Ik ben een open boek; geheimen geven mij een ongemakkelijk gevoel",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Sommige dingen houd ik privé, maar deel ik met goede vrienden",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik heb veel geheimen en geniet van de kracht om dingen te weten die anderen niet weten",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik onderhoud uitgebreide dubbellevens en deel informatie zorgvuldig in hokjes",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Compartimentering en geheimzinnigheid zijn sleuteleigenschappen bij manipulatieve persoonlijkheden. Degenen die graag informatie controleren, zoeken vaak macht via kennisasymmetrie.",
+      "image": "images/questions/q02.jpg"
+    },
+    {
+      "id": 3,
+      "question": "Wat trekt jou in andere mensen?",
+      "answers": [
+        {
+          "text": "Echte verbinding en gedeelde interesses",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Mensen die mij kunnen helpen mijn doelen te bereiken",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "De spanning van nieuwe interacties en veroveringen",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Kwetsbare individuen die ik kan beïnvloeden of controleren",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Motivatie voor relaties onthult empathieniveaus. Roofzuchtige persoonlijkheden beschouwen anderen als instrumenten of doelwitten in plaats van als gelijken die respect verdienen.",
+      "image": "images/questions/q03.jpg"
+    },
+    {
+      "id": 4,
+      "question": "Hoe zou u uw woon- of werkruimte omschrijven?",
+      "answers": [
+        {
+          "text": "Comfortabele chaos - ik weet waar alles is",
+          "organized": 1,
+          "impulsive": 4,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Relatief georganiseerd met enkele persoonlijke accenten",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Zorgvuldig geregeld - alles heeft zijn plaats",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Steriel en gecontroleerd - Ik verwijder regelmatig onnodige items",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Omgevingscontrole weerspiegelt de psychologische behoefte aan orde. Extreme organisatie hangt vaak samen met de behoefte om andere aspecten van het leven onder controle te houden.",
+      "image": "images/questions/q04.jpg"
+    },
+    {
+      "id": 5,
+      "question": "Hoe reageert u op onverwachte veranderingen in uw plannen?",
+      "answers": [
+        {
+          "text": "Ik ga met de stroom mee en pas me gemakkelijk aan",
+          "organized": 1,
+          "impulsive": 3,
+          "control": 1,
+          "social": 4,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik voel me gefrustreerd, maar pas mijn plannen aan",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik raak geïrriteerd en probeer mijn oorspronkelijke plan te herstellen",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik voel een intense woede over het verlies van controle",
+          "organized": 5,
+          "impulsive": 5,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Reactie op verstoring meet de flexibiliteit en triggert woede. Starre persoonlijkheden worstelen met onvoorspelbaarheid en kunnen reageren met onevenredige woede.",
+      "image": "images/questions/q05.jpg"
+    },
+    {
+      "id": 6,
+      "question": "Welke rol speelt u doorgaans in groepsverband?",
+      "answers": [
+        {
+          "text": "De medewerker die iedereen helpt samen te werken",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "De waarnemer die vanaf de zijlijn toekijkt",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "De leider die leiding geeft en beslissingen neemt",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "De manipulator die achter de schermen aan de touwtjes trekt",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Sociale rolvoorkeur onthult dominantiebehoeften. Degenen die op zoek zijn naar geheime controle geven vaak de voorkeur aan manipulatie vanuit de schaduw in plaats van openlijk leiderschap.",
+      "image": "images/questions/q06.jpg"
+    },
+    {
+      "id": 7,
+      "question": "Als je een fout maakt, hoe ga je daar dan mee om?",
+      "answers": [
+        {
+          "text": "Ik erken het, bied mijn excuses aan en leer ervan",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik probeer het rustig op te lossen, zonder de aandacht te trekken",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik schuif de schuld af op de omstandigheden of op anderen",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik ontken het volledig of herschrijf het verhaal",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Verantwoording legt narcistische neigingen bloot. Het onvermogen om fouten te accepteren en de neiging om de werkelijkheid te manipuleren zijn tekenen van pathologische zelfbescherming.",
+      "image": "images/questions/q07.jpg"
+    },
+    {
+      "id": 8,
+      "question": "Wat is jouw relatie met regels en autoriteit?",
+      "answers": [
+        {
+          "text": "Ik respecteer regels en volg ze voor sociale harmonie",
+          "organized": 3,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik volg de meeste regels, maar trek onrechtvaardige regels in twijfel",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik volg de regels alleen als het mij ten goede komt",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Regels zijn niet op mij van toepassing - ik sta boven dergelijke beperkingen",
+          "organized": 4,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Houding ten opzichte van autoriteit onthult antisociale neigingen. Het geloof in persoonlijke vrijstelling van regels is een kernkenmerk van sociopathische persoonlijkheden.",
+      "image": "images/questions/q08.jpg"
+    },
+    {
+      "id": 9,
+      "question": "Hoe besteed jij je vrije tijd?",
+      "answers": [
+        {
+          "text": "Socialiseren met vrienden en familie",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Hobby's en creatieve projecten nastreven",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 2,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Toekomstige doelen en strategieën plannen",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Anderen observeren of deelnemen aan eenzame, intense activiteiten",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Vrijetijdskeuzes weerspiegelen sociale verbondenheid versus isolatie. Een voorkeur voor eenzame, voyeuristische activiteiten kan duiden op onthechting van normale sociale banden.",
+      "image": "images/questions/q09.jpg"
+    },
+    {
+      "id": 10,
+      "question": "Hoe voel jij je als je iemand anders ziet slagen?",
+      "answers": [
+        {
+          "text": "Blij voor hen en geïnspireerd",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Gemotiveerd om mijn eigen succes te behalen",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Jaloers en competitief",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Wrokkig en gedreven om ze te ondermijnen",
+          "organized": 4,
+          "impulsive": 3,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Reactie op het succes van anderen meet empathie en ego. Kwaadaardige afgunst en verlangen om te saboteren onthullen diepe onzekerheid en gebrek aan echte eigenwaarde.",
+      "image": "images/questions/q10.jpg"
+    },
+    {
+      "id": 11,
+      "question": "Tot wat voor soort media of inhoud voel je je aangetrokken?",
+      "answers": [
+        {
+          "text": "Komedies, romances en feelgoodverhalen",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Documentaires en educatieve inhoud",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Actie, thrillers en echte misdaad",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 3,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Donkere, gewelddadige of verontrustende inhoud",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Mediavoorkeuren kunnen psychologische behoeften weerspiegelen. Aanhoudende interesse in gewelddadige inhoud kan duiden op desensibilisatie of plaatsvervangende vervulling van duistere impulsen.",
+      "image": "images/questions/q11.jpg"
+    },
+    {
+      "id": 12,
+      "question": "Hoe ga je om met verveling?",
+      "answers": [
+        {
+          "text": "Ik neem contact op met vrienden of zoek een eenvoudige activiteit",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik werk aan een productieve taak of leer iets nieuws",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik zoek onmiddellijke opwinding of stimulatie",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik creëer chaos of manipuleer situaties voor entertainment",
+          "organized": 3,
+          "impulsive": 4,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Vervelingstolerantie onthult impulsiviteit en behoefte aan stimulatie. Degenen die drama of gevaar creëren wanneer ze te weinig gestimuleerd worden, kunnen last hebben van sensatiezoekende pathologieën.",
+      "image": "images/questions/q12.jpg"
+    },
+    {
+      "id": 13,
+      "question": "Wat is uw aanpak om langetermijndoelen te bereiken?",
+      "answers": [
+        {
+          "text": "Ik werk gestaag met steun van mijn gemeenschap",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 2,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Ik maak gedetailleerde plannen en houd mij daaraan",
+          "organized": 5,
+          "impulsive": 1,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Ik neem sluiproutes en benut kansen",
+          "organized": 3,
+          "impulsive": 3,
+          "control": 4,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Ik elimineer obstakels op alle mogelijke manieren",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Methoden voor het nastreven van doelen onthullen morele flexibiliteit. De bereidheid om anderen schade toe te brengen voor persoonlijk gewin is een kenmerk van psychopathische instrumentele agressie.",
+      "image": "images/questions/q13.jpg"
+    },
+    {
+      "id": 14,
+      "question": "Hoe zou je je emotionele leven omschrijven?",
+      "answers": [
+        {
+          "text": "Rijk en gevarieerd - ik voel me diep",
+          "organized": 2,
+          "impulsive": 3,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Evenwichtig - Ik ervaar normale ups en downs",
+          "organized": 3,
+          "impulsive": 2,
+          "control": 3,
+          "social": 4,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Intens en soms overweldigend",
+          "organized": 2,
+          "impulsive": 5,
+          "control": 2,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Oppervlakkig en gedempt - emoties voelen afstandelijk of performatief",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Emotionele diepgang scheidt empathische van gevoelloze persoonlijkheden. Ondiep affect en uitgevoerde emoties zijn klassieke kenmerken van psychopathie.",
+      "image": "images/questions/q14.jpg"
+    },
+    {
+      "id": 15,
+      "question": "Als je een superkracht zou kunnen hebben, welke zou dat dan zijn?",
+      "answers": [
+        {
+          "text": "Anderen genezen of geluk brengen",
+          "organized": 2,
+          "impulsive": 2,
+          "control": 1,
+          "social": 5,
+          "image": "ressource/images/1_1.png"
+        },
+        {
+          "text": "Superintelligentie of verbeterde vaardigheden",
+          "organized": 4,
+          "impulsive": 1,
+          "control": 3,
+          "social": 3,
+          "image": "ressource/images/1_2.png"
+        },
+        {
+          "text": "Gedachtenlezen of onzichtbaarheid",
+          "organized": 4,
+          "impulsive": 2,
+          "control": 5,
+          "social": 2,
+          "image": "ressource/images/1_3.png"
+        },
+        {
+          "text": "Volledige controle over anderen",
+          "organized": 5,
+          "impulsive": 2,
+          "control": 5,
+          "social": 1,
+          "image": "ressource/images/1_4.png"
+        }
+      ],
+      "insight": "Fantasievoorkeuren onthullen de diepste verlangens. Degenen die gefixeerd zijn op overheersing en controle over anderen vertonen de machtszoekende kern van roofzuchtige persoonlijkheden.",
+      "image": "images/questions/q15.jpg"
+    }
+  ],
+  "profiles": [
+    {
+      "type": "DE STRATEEG",
+      "label": "GEORGANISEERD",
+      "icon": "🧬",
+      "description": "In klassieke criminologische typologieën wordt een ‘georganiseerd’ patroon geassocieerd met planning, terughoudendheid en weloverwogen besluitvorming. Uw antwoorden neigen eerder naar structuurgerichte controle dan naar impulsieve reacties.",
+      "traits": {
+        "organized": "95%",
+        "impulsive": "90%",
+        "control": "95%",
+        "social": "60%"
+      },
+      "characteristics": [
+        "Plannen alvorens te handelen",
+        "Geeft de voorkeur aan controle door voorbereiding",
+        "Blijft kalm onder druk",
+        "Houdt details en follow-up bij",
+        "Anticipeert op de gevolgen",
+        "Kiest methode boven chaos"
+      ],
+      "minScore": {
+        "organized": 60,
+        "impulsive": 0,
+        "control": 60,
+        "social": 0
+      },
+      "realWorldPattern": "Dit label is een thematische, fictieve verwijzing naar bekende typologieën die worden gebruikt in de misdaadmedia en het onderwijs – bedoeld om de toon van de tentoonstelling te evenaren, niet om gedrag te diagnosticeren."
+    },
+    {
+      "type": "HET SPONTANE",
+      "label": "ONGEORGANISEERD",
+      "icon": "⚡",
+      "description": "In klassieke criminologische typologieën wordt een ‘ongeorganiseerd’ patroon geassocieerd met reactiviteit en weinig terughoudendheid. Uw antwoorden neigen eerder naar handelen in het moment dan naar zorgvuldig plannen.",
+      "traits": {
+        "organized": "25%",
+        "impulsive": "15%",
+        "control": "40%",
+        "social": "30%"
+      },
+      "characteristics": [
+        "Reageert snel op stressoren",
+        "Improviseert in plaats van plannen",
+        "Handelt vanuit emotie en impuls",
+        "Verandert snel van richting",
+        "Accepteert onvoorspelbaarheid",
+        "Neigt naar spontaniteit"
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 55,
+        "control": 0,
+        "social": 0
+      },
+      "realWorldPattern": "Dit label is een thematische, fictieve referentie voor de tentoonstelling. Het beschrijft een patroon in antwoordstijl, en niet een reëel risico of intentie."
+    },
+    {
+      "type": "DE ERVARINGSZOEKER",
+      "label": "HEDONISTISCH",
+      "icon": "🌠",
+      "description": "In klassieke typologieën worden 'hedonistische' patronen ingekaderd rond het zoeken naar sensatie en bevrediging. Uit uw antwoorden blijkt dat nieuwigheid en stimulatie sterke motivatoren zijn.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "45%",
+        "control": "70%",
+        "social": "50%"
+      },
+      "characteristics": [
+        "Zoekt naar nieuwigheid en stimulatie",
+        "Raakt verveeld door routine",
+        "Achtervolgt intensiteit en variatie",
+        "Brengt controle in evenwicht met nieuwsgierigheid",
+        "Neemt berekende risico's",
+        "Geeft de voorkeur aan ervaringen boven terughoudendheid"
+      ],
+      "minScore": {
+        "organized": 40,
+        "impulsive": 40,
+        "control": 50,
+        "social": 0
+      },
+      "realWorldPattern": "Dit is een label in tentoonstellingsstijl, geïnspireerd op bekende typologieën; het is geen klinisch en geen moreel oordeel."
+    },
+    {
+      "type": "DE DIRECTEUR",
+      "label": "MACHT / CONTROLE",
+      "icon": "🎯",
+      "description": "In klassieke typologieën benadrukken ‘macht/controle’-patronen dominantie, richtingbepaling en controle over de uitkomsten. Uw antwoorden neigen ernaar situaties te sturen in plaats van zich eraan aan te passen.",
+      "traits": {
+        "organized": "80%",
+        "impulsive": "70%",
+        "control": "95%",
+        "social": "40%"
+      },
+      "characteristics": [
+        "Wil de uitkomsten sturen",
+        "Dwingt tot duidelijke controle",
+        "Bepaalt rollen, regels en richting",
+        "Geeft de voorkeur aan beslissende actie",
+        "Houdt er niet van om de hefboomwerking te verliezen",
+        "Meet succes aan de hand van invloed"
+      ],
+      "minScore": {
+        "organized": 45,
+        "impulsive": 0,
+        "control": 65,
+        "social": 0
+      },
+      "realWorldPattern": "Dit is een thematisch label voor de tentoonstelling dat op controle gerichte antwoorden weerspiegelt, en niet gedrag uit de echte wereld."
+    },
+    {
+      "type": "DE DOELBEWUSTE IDEALIST",
+      "label": "MISSIEGERICHT",
+      "icon": "🚀",
+      "description": "In klassieke typologieën worden ‘missiegerichte’ patronen ingekaderd rond een zelfgerechtvaardigd doel of zaak. Uw antwoorden neigen naar op principes gebaseerde beslissingen en een gevoel van 'waarom' achter actie.",
+      "traits": {
+        "organized": "75%",
+        "impulsive": "65%",
+        "control": "60%",
+        "social": "55%"
+      },
+      "characteristics": [
+        "Handelt vanuit een bepaald doel",
+        "Kaderkeuzes als \"noodzakelijk\"",
+        "Geeft de voorkeur aan discipline boven impuls",
+        "Rechtvaardigt beslissingen met principes",
+        "Denkt in resultaten op lange termijn",
+        "Blijft toegewijd zodra er een besluit is genomen"
+      ],
+      "minScore": {
+        "organized": 50,
+        "impulsive": 0,
+        "control": 45,
+        "social": 35
+      },
+      "realWorldPattern": "Dit label wordt alleen gebruikt voor het vertellen van tentoonstellingen, geïnspireerd door typologietaal waarnaar vaak wordt verwezen in het criminologieonderwijs."
+    },
+    {
+      "type": "HET EVENWICHTIGE INDIVIDU",
+      "label": "VISIONAIR",
+      "icon": "⚖️",
+      "description": "In klassieke typologieën wordt 'visionair' ingekaderd rond een intern verhaal dat dwingend of overheersend aanvoelt. Uw antwoorden suggereren dat beslissingen worden beïnvloed door instinct, verhaal en interpretatie, in plaats van door een strikte externe structuur.",
+      "traits": {
+        "organized": "60%",
+        "impulsive": "65%",
+        "control": "40%",
+        "social": "85%"
+      },
+      "characteristics": [
+        "Volgt een intern verhaal",
+        "Leest betekenis in gebeurtenissen",
+        "Vertrouwt op intuïtie en interpretatie",
+        "Schakelt tussen kalmte en intensiteit",
+        "Past het verhaal aan aan nieuwe informatie",
+        "Beweegt wanneer \"het onvermijdelijk voelt\""
+      ],
+      "minScore": {
+        "organized": 0,
+        "impulsive": 0,
+        "control": 0,
+        "social": 50
+      },
+      "realWorldPattern": "Alleen label in tentoonstellingsstijl. Het beschrijft een reactiepatroon dat wordt gebruikt voor het formuleren van verhalen, niet voor het beoordelen van de geestelijke gezondheid."
+    }
+  ],
+  "researchProfiles": {
+    "THE STRATEGIST": {
+      "notes": [
+        "Geeft de voorkeur aan checklists en duidelijke mijlpalen.",
+        "Houdt een kalme toon aan als beslissingen urgent zijn.",
+        "Maakt gebruik van back-upplannen voordat er een commit wordt gemaakt.",
+        "Brengt risico’s en opties visueel in kaart.",
+        "Deelt verwachtingen vroegtijdig met anderen."
+      ],
+      "locations": [
+        "Projectborden",
+        "Rustige kantoren",
+        "Planningsessies"
+      ],
+      "alias": [
+        "Georganiseerd",
+        "Methodisch",
+        "De Planner"
+      ]
+    },
+    "THE SPONTANEOUS": {
+      "notes": [
+        "Gesterkt door snelle veranderingen.",
+        "Spreekt vrijuit over gevoelens.",
+        "Past plannen ter plekke aan.",
+        "Vindt snel creatieve invalshoeken.",
+        "Waardeert vrijheid boven routine."
+      ],
+      "locations": [
+        "Pop-upevenementen",
+        "Drukke pleinen",
+        "Creatieve studio's"
+      ],
+      "alias": [
+        "Ongeorganiseerd",
+        "De reactor",
+        "Onvoorspelbaar"
+      ]
+    },
+    "THE EXPERIENCE SEEKER": {
+      "notes": [
+        "Scant wekelijks naar nieuwe ervaringen.",
+        "Geeft de voorkeur aan meeslepende activiteiten.",
+        "Combineert voorbereiding met verrassing.",
+        "Jaagt op memorabele verhalen.",
+        "Opgewonden door zintuiglijke details."
+      ],
+      "locations": [
+        "Nachtmarkten",
+        "Live-locaties",
+        "Reishubs"
+      ],
+      "alias": [
+        "Hedonistisch",
+        "Sensatiezoeker",
+        "Sensatiejager"
+      ]
+    },
+    "THE DIRECTOR": {
+      "notes": [
+        "Stelt prioriteiten voor de groep.",
+        "Houdt rollen en tijdlijnen duidelijk.",
+        "Neemt gemakkelijk beslissingen.",
+        "Hecht waarde aan verantwoordelijkheid.",
+        "Zoekt efficiënte paden."
+      ],
+      "locations": [
+        "Vergaderzalen",
+        "Studio's in productie",
+        "Teamhuddles"
+      ],
+      "alias": [
+        "Macht/controle",
+        "De controleur",
+        "De Dominator"
+      ]
+    },
+    "THE PURPOSEFUL IDEALIST": {
+      "notes": [
+        "Onderbouwt beslissingen in principes.",
+        "Koppelt taken aan een missie.",
+        "Investeert in betekenisvolle doelen.",
+        "Zoekt naar impact op de lange termijn.",
+        "Inspireert anderen met een doel."
+      ],
+      "locations": [
+        "Gemeenschappelijke ruimtes",
+        "Workshops",
+        "Strategie retraites"
+      ],
+      "alias": [
+        "Missiegericht",
+        "De kruisvaarder",
+        "De purist"
+      ]
+    },
+    "THE BALANCED INDIVIDUAL": {
+      "notes": [
+        "Luistert voordat hij handelt.",
+        "Houdt emoties en logica op één lijn.",
+        "Onderhoudt vaste routines.",
+        "Toont consistente empathie.",
+        "Comfortabel schakelen."
+      ],
+      "locations": [
+        "Gemeenschapscentra",
+        "Kantoren",
+        "Huizen"
+      ],
+      "alias": [
+        "Visionair",
+        "De tolk",
+        "De Profeet"
+      ]
+    }
+  },
+  "poster": {
+    "header": "ONDERZOEKSAFDELING",
+    "subHeader": "REFLECTIEDOSSIER",
+    "sealCode": "UFPD07OFF002274",
+    "intended": "Alleen voor persoonlijk inzicht.",
+    "separatorCode": "P034",
+    "labels": {
+      "fileNumber": "SESSIE-ID",
+      "purposeCode": "FOCUSCODE",
+      "sruId": "RUN-ID",
+      "name": "NAAM",
+      "aliases": "OOK BEKEND ALS",
+      "recordId": "PROFIEL-ID#",
+      "nationality": "CONTEXT",
+      "citizen": "INSTELLING",
+      "gender": "STIJL",
+      "race": "EIGENSCHAPPENBALANS",
+      "height": "ENERGIE",
+      "weight": "TEMPO",
+      "eyeColor": "GEZICHTSPUNT",
+      "hairColor": "SFEER",
+      "dob": "BEGIN",
+      "age": "STATUS",
+      "arrestSection": "MOMENTOPNAME VAN SESSIE",
+      "date": "SCÈNE",
+      "offenseCode": "LABEL",
+      "institution": "CONTEXT",
+      "charge": "REACTIENOTITIE",
+      "term": "ENERGIE",
+      "fingerprints": "OPMERKINGEN",
+      "otherInfo": "OVERIGE INFORMATIE",
+      "stampFiled": "GELOGD",
+      "exhibitionFallback": "TENTOONSTELLING"
+    },
+    "defaults": {
+      "name": "[AFGESCHERMD]",
+      "aliases": "[AFGESCHERMD]",
+      "nationality": "[AFGESCHERMD]",
+      "citizen": "[AFGESCHERMD]",
+      "gender": "[AFGESCHERMD]",
+      "race": "[AFGESCHERMD]",
+      "height": "[AFGESCHERMD]",
+      "weight": "[AFGESCHERMD]",
+      "eyeColor": "[AFGESCHERMD]",
+      "hairColor": "[AFGESCHERMD]",
+      "dob": "[AFGESCHERMD]",
+      "age": "[AFGESCHERMD]",
+      "arrests": [
+        {
+          "institution": "SESSIE",
+          "charge": "In afwachting van reacties",
+          "term": "N.V.T"
+        }
+      ],
+      "defaultRedaction": "[VERBORGEN]",
+      "defaultUnknown": "ONBEKEND"
+    },
+    "otherInfoFallback": [
+      "* Profiel wordt samengesteld",
+      "wachten op cameramomentopname.",
+      "Sessienotities worden vernieuwd",
+      "na jouw reacties.",
+      "Ontworpen voor zelfreflectie.",
+      "Deel of download wanneer u klaar bent."
+    ],
+    "notes": {
+      "subjectProfile": "PROFIEL: {type}",
+      "divider": "--------------------------------",
+      "psychEval": "CONTROLEGEVOEL: {control}"
+    },
+    "compose": {
+      "subjectProfile": "PROFIEL: {type}",
+      "knownLocations": "ANKERPUNTEN",
+      "stats": "STIJL O:{o}% I:{i}% C:{c}% S:{s}%"
+    },
+    "charges": {
+      "THE STRATEGIST": [
+        {
+          "charge": "GESTRUCTUREERDE PLANNEN",
+          "term": "KERN"
+        },
+        {
+          "charge": "RUSTIGE BESLISSINGEN",
+          "term": "HOOG"
+        },
+        {
+          "charge": "BACK-UPPADEN",
+          "term": "KLAAR"
+        },
+        {
+          "charge": "DETAILTRACKER",
+          "term": "SOLIDE"
+        },
+        {
+          "charge": "DUIDELIJKE SIGNALEN",
+          "term": "STERK"
+        }
+      ],
+      "THE SPONTANEOUS": [
+        {
+          "charge": "DIRECT REAGEREN",
+          "term": "ACTIE"
+        },
+        {
+          "charge": "EMOTIE-GELEID",
+          "term": "HOOG"
+        },
+        {
+          "charge": "HOUDT VAN VERANDERING",
+          "term": "MAX"
+        },
+        {
+          "charge": "FLEXIBEL PLAN",
+          "term": "LICHT"
+        },
+        {
+          "charge": "CREATIEVE VONK",
+          "term": "HELDER"
+        }
+      ],
+      "THE EXPERIENCE SEEKER": [
+        {
+          "charge": "ZOEKT NAAR NIEUWIGHEID",
+          "term": "GEDURFD"
+        },
+        {
+          "charge": "SPEELS RISICO",
+          "term": "PRIKKEL"
+        },
+        {
+          "charge": "VERHAALMAKER",
+          "term": "LEVENDIG"
+        },
+        {
+          "charge": "COMBINEERT PLANNEN/SPELEN",
+          "term": "HYBRIDE"
+        },
+        {
+          "charge": "ZINTUIGLIJKE FOCUS",
+          "term": "HOOG"
+        }
+      ],
+      "THE DIRECTOR": [
+        {
+          "charge": "BEPAALT RICHTING",
+          "term": "LEIDEND"
+        },
+        {
+          "charge": "COÖRDINEERT TEAM",
+          "term": "SAMEN"
+        },
+        {
+          "charge": "BESLISSENDE KEUZES",
+          "term": "SNEL"
+        },
+        {
+          "charge": "HOUDT OVERZICHT",
+          "term": "DUIDELIJK"
+        },
+        {
+          "charge": "BEWAAKT VERANTWOORDELIJKHEID",
+          "term": "STABIEL"
+        }
+      ],
+      "THE PURPOSEFUL IDEALIST": [
+        {
+          "charge": "MISSIE EERST",
+          "term": "KERN"
+        },
+        {
+          "charge": "WAARDENGEDREVEN",
+          "term": "ANKER"
+        },
+        {
+          "charge": "LANGETERMIJNVISIE",
+          "term": "VERUIT"
+        },
+        {
+          "charge": "BOUWT AAN EEN DOEL",
+          "term": "OPBOUW"
+        },
+        {
+          "charge": "INSPIREERT ANDEREN",
+          "term": "MOTIVEERT"
+        }
+      ],
+      "THE BALANCED INDIVIDUAL": [
+        {
+          "charge": "STABIELE STEMMING",
+          "term": "KALM"
+        },
+        {
+          "charge": "EMPATHISCH",
+          "term": "WARM"
+        },
+        {
+          "charge": "EVENWICHTIGE REACTIE",
+          "term": "NIVEAU"
+        },
+        {
+          "charge": "GEZONDE GRENZEN",
+          "term": "DUIDELIJK"
+        },
+        {
+          "charge": "GECENTREERDE ENERGIE",
+          "term": "STABIEL"
+        }
+      ],
+      "DEFAULT": [
+        {
+          "charge": "SESSIE NOTITIE",
+          "term": "IN BEHANDELING"
+        }
+      ]
+    }
+  }
+}

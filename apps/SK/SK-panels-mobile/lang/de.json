@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "languageName": "Deutsch"
+  },
+  "common": {
+    "languageSelector": "Sprachauswahl",
+    "scan": "QR scannen",
+    "stopScan": "Stopp",
+    "close": "Schliessen",
+    "home": "Start",
+    "previous": "Zuruck",
+    "next": "Weiter"
+  },
+  "panelApp": {
+    "brand": "SK",
+    "pageTitle": "SK Ubersetzung",
+    "counter": "{{current}} / {{total}}",
+    "nav": {
+      "aria": "Navigation",
+      "home": "Start",
+      "scan": "Scan",
+      "list": "Liste",
+      "panel": "Text"
+    },
+    "views": {
+      "home": { "eyebrow": "Start", "label": "Start" },
+      "scan": { "eyebrow": "Scan", "label": "Scan" },
+      "list": { "eyebrow": "Liste", "label": "Liste" },
+      "panel": { "eyebrow": "Text", "label": "Text" }
+    },
+    "home": {
+      "eyebrow": "Start",
+      "title": "Ubersetzung",
+      "copy": "Scanne einen QR-Code oder offne die Liste.",
+      "primaryAction": "Scannen",
+      "secondaryAction": "Liste",
+      "resumeEyebrow": "Aktueller Text",
+      "resumeAction": "Offnen",
+      "metricPanelsLabel": "Texte",
+      "metricPanelsValue": "{{count}} Texte",
+      "metricLanguageLabel": "Sprache"
+    },
+    "scan": {
+      "eyebrow": "Scan",
+      "title": "QR-Code scannen",
+      "copy": "Offne die Kamera fur den richtigen Text.",
+      "openButton": "Scan starten",
+      "listAction": "Liste offnen"
+    },
+    "list": {
+      "eyebrow": "Liste",
+      "title": "Texte",
+      "copy": "Wahle einen Text.",
+      "empty": "Keine Texte verfugbar."
+    },
+    "panel": {
+      "listAction": "Liste offnen",
+      "scanAction": "Scan offnen"
+    },
+    "scanner": {
+      "title": "QR-Scanner",
+      "pillLive": "Live",
+      "pillMatch": "Treffer",
+      "pillOff": "Aus",
+      "pillReady": "Bereit",
+      "ready": "Richte die Kamera auf einen QR-Code.",
+      "tapToStart": "Offne den Scanner.",
+      "unsupported": "QR-Scan ist in diesem Browser nicht verfugbar.",
+      "secureContext": "Kamerazugriff braucht HTTPS oder localhost.",
+      "permissionDenied": "Der Kamerazugriff wurde verweigert.",
+      "noCamera": "Auf diesem Gerat wurde keine Kamera gefunden.",
+      "unavailable": "Die Kamera konnte nicht gestartet werden.",
+      "matched": "Text geladen.",
+      "invalid": "Dieser QR-Code ist keinem Text zugeordnet."
+    },
+    "status": {
+      "unknownPanel": "Dieser Text ist in der App nicht verfugbar.",
+      "noPanels": "Es ist noch kein Text konfiguriert."
+    }
+  },
+  "panels": {
+    "order": ["intro", "patterns", "myths", "investigation"],
+    "items": {
+      "intro": {
+        "kicker": "01",
+        "title": "Einfuhrung",
+        "body": [
+          "Einleitungstafel der Ausstellung."
+        ]
+      },
+      "patterns": {
+        "kicker": "02",
+        "title": "Spurenmuster",
+        "body": [
+          "Serielle Kriminalitat ist kein reines Chaos. Wiederholte Entscheidungen hinterlassen Struktur.",
+          "Daten, Orte und Routinen zeigen oft mehr als ein einzelner Fall."
+        ]
+      },
+      "myths": {
+        "kicker": "03",
+        "title": "Falsches Profil",
+        "body": [
+          "Das Bild vom kriminellen Genie fuhrt oft in die Irre.",
+          "Viele Falle beruhen auf gewohnlichen Methoden, vertrauten Orten und wiederholten Gelegenheiten."
+        ]
+      },
+      "investigation": {
+        "kicker": "04",
+        "title": "Ermittlungsspur",
+        "body": [
+          "Verbindungen zahlen: Geografie, Opferprofile und fehlende Meldungen.",
+          "Die Ausstellung konzentriert sich auf das, was beobachtet, verglichen und gepruft werden kann."
+        ]
+      }
+    }
+  }
+}

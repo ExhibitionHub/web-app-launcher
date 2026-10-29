@@ -1,0 +1,777 @@
+[
+ {
+ "id": "great_pyramid_giza",
+ "name": "Great Pyramid of Giza",
+ "cat": "Ancient",
+ "xy": [
+ 1295,
+ 405
+ ],
+ "location": "Giza, Plateau Egypt",
+ "dateBuilt": "2560 BCE",
+ "dateDestroyed": "Present Day",
+ "history": "The Great Pyramid of Giza, built for Pharaoh Khufu around 2560 BCE, is the only surviving Wonder of the Ancient World. Once clad in gleaming white limestone and crowned with a gilded apex, it soared to over 146 meters (480 feet) - the tallest structure on Earth for nearly 4,000 years. Comprising some 2.3 million blocks precisely set in place, it symbolized divine kingship and Egypt's mastery of engineering, astronomy, and labour organization. Its perfect geometry aligned with the stars and reflected the Egyptians' belief in eternity, guiding the king's soul toward the heavens. Millennia later, it still defines human ambition cast in stone.",
+ "overview": "The Great Pyramid of Giza, built for Pharaoh Khufu around 2560 BCE, is the only surviving Wonder of the Ancient World. Once clad in gleaming white limestone and crowned with a gilded apex, it soared to over 146 meters (480 feet) - the tallest structure on Earth for nearly 4,000 years. Comprising some 2.3 million blocks precisely set in place, it symbolized divine kingship and Egypt's mastery of engineering, astronomy, and labour organization. Its perfect geometry aligned with the stars and reflected the Egyptians' belief in eternity, guiding the king's soul toward the heavens. Millennia later, it still defines human ambition cast in stone.",
+ "primaryImage": {
+ "ref": "BXMAT5",
+ "caption": null,
+ "asset": "Ressource/wonder-images/PYRAMID/BXMAT5.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "It held the title of tallest human-made structure for over 3,800 years until the Lincoln Cathedral in England was built.",
+ "imageRef": "K34AXP",
+ "caption": "Pyramid and Nile view: The pyramid once stood beside the ancient floodplain of the Nile, framed by the river and desert. The Nile was key to transporting the stones that build the pyramids..",
+ "asset": "Ressource/wonder-images/PYRAMID/K34AXP.jpg"
+ },
+ {
+ "text": "The base of each side originally measured about 230 meters (755 feet) and covered more than 13 acres.",
+ "imageRef": "2AAP5FE",
+ "caption": "Original casing stone reconstruction: Its smooth limestone casing and gilded capstone reflected the sun's light - making the structure visible for miles.",
+ "asset": "Ressource/wonder-images/PYRAMID/2AAP5FE.jpg"
+ },
+ {
+ "text": "The pyramid is built with an estimated 2.3 million stone blocks, many weighing 2-15 tonnes each.",
+ "imageRef": "BC671N",
+ "caption": "Workers' settlement excavation: Archaeologists excavated a well-planned workers' village showing the labour force was organised, fed, and housed - not enslaved.",
+ "asset": "Ressource/wonder-images/PYRAMID/BC671N.jpg"
+ },
+ {
+ "text": "The precision of its construction is astounding - the base is level to within +/- 21 mm and the four sides differ by mere centimeters in length.",
+ "imageRef": "K34AXP",
+ "caption": "King's Chamber interior: Massive granite beams weighing tens of tonnes form the ceiling of Khufu's burial chamber - an engineering feat still unexplained in full.",
+ "asset": "Ressource/wonder-images/PYRAMID/K34AXP.jpg"
+ },
+ {
+ "text": "For centuries, it was thought to be built by slaves - but excavations of workers' villages show paid, skilled labourers built it.",
+ "imageRef": "2X75GGP",
+ "caption": "Alignment diagram: The pyramid's sides deviate by less than one-twentieth of a degree from true north, a testament to ancient surveying skill.",
+ "asset": "Ressource/wonder-images/PYRAMID/2X75GGP.jpg"
+ }
+ ],
+ "video": "videos/giza_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/PYRAMID/BXMAT5.jpg"
+ },
+ {
+ "id": "hanging_gardens_babylon",
+ "name": "Hanging Gardens of Babylon",
+ "cat": "Ancient",
+ "xy": [
+ 1385,
+ 380
+ ],
+ "location": "Babil Goveranate, Iraq",
+ "dateBuilt": "600 BCE",
+ "dateDestroyed": "200 BCE (approx)",
+ "history": "The Hanging Gardens of Babylon were described by classical writers as a lush, terraced mountain of greenery suspended above the dry Mesopotamian plain - built, according to legend, by King Nebuchadnezzar II around 600 BCE for his homesick Median wife, Queen Amytis, who missed mountainous landscapes and forests. The gardens' cascading terraces, exotic trees, flowering vines and engineered irrigation system made them one of the most celebrated Wonders of the Ancient World. However, no definitive archaeological proof of the site has been found, and modern scholarship even suggests the gardens may have been at nearby Nineveh, not Babylon itself. It is also possible that the gardens were imagined by scholars whio relied on other apocryphal accounts. Questions of their existence aside, they represent the ancient world's ambition to harness the power of nature, and remain the most compelling and mysterious wonder of the world to this day.",
+ "overview": "The Hanging Gardens of Babylon were described by classical writers as a lush, terraced mountain of greenery suspended above the dry Mesopotamian plain - built, according to legend, by King Nebuchadnezzar II around 600 BCE for his homesick Median wife, Queen Amytis, who missed mountainous landscapes and forests. The gardens' cascading terraces, exotic trees, flowering vines and engineered irrigation system made them one of the most celebrated Wonders of the Ancient World. However, no definitive archaeological proof of the site has been found, and modern scholarship even suggests the gardens may have been at nearby Nineveh, not Babylon itself. It is also possible that the gardens were imagined by scholars whio relied on other apocryphal accounts. Questions of their existence aside, they represent the ancient world's ambition to harness the power of nature, and remain the most compelling and mysterious wonder of the world to this day.",
+ "primaryImage": {
+ "ref": "HM3BMX",
+ "caption": null,
+ "asset": "Ressource/wonder-images/BABYLONE/HM3BMX.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The Greek word \"kremastos used to describe the gardens means \"overhanging or \"suspended, rather than hanging from vines.",
+ "imageRef": "H2PKM2",
+ "caption": "Artist's reconstruction of the Hanging Gardens: A vision of tiered terraces crowned with greenery, evoking a human-made mountain of plants for royal pleasure.",
+ "asset": "Ressource/wonder-images/BABYLONE/H2PKM2.jpg"
+ },
+ {
+ "text": "Classical sources describe the gardens as roughly square in form, each side about four plethra (approx. 100-120 metres(330-393 feet)) with walls more than 6.5 metres (22 feet) thick.",
+ "imageRef": "J3T1HC",
+ "caption": "Irrigation system diagram: Classical writers describe machines and screws lifting water from the Euphrates to irrigate the high garden - ancient hydraulic innovation.",
+ "asset": "Ressource/wonder-images/BABYLONE/J3T1HC.jpg"
+ },
+ {
+ "text": "The gardens' irrigation reportedly used water-raising machines to pump water from the Euphrates River up to the elevated terraces.",
+ "imageRef": "2BTPAG6",
+ "caption": "Babylon ruins aerial view: Modern Babylon site in Iraq; while this may not pinpoint the gardens' exact location, it gives scale to the ancient city context.",
+ "asset": "Ressource/wonder-images/BABYLONE/2BTPAG6.jpg"
+ },
+ {
+ "text": "Archaeologists have never conclusively located the gardens in Babylon, and one prominent theory credits them instead to the Assyrian king Sennacherib at Nineveh.",
+ "imageRef": "G15HGN",
+ "caption": "Terraced arch structure illustration: Descriptions say vaulted arches supported heavy loads of soil and plantings - engineering to sustain lush vegetation above ground.",
+ "asset": "Ressource/wonder-images/BABYLONE/G15HGN.jpg"
+ },
+ {
+ "text": "The gardens were included in the canonical list of the Seven Wonders of the Ancient World, yet they are the only entry whose very existence remains uncertain.",
+ "imageRef": "2FM19K3",
+ "caption": "Classical relief of palace garden scene: While not definitively the Hanging Gardens, some reliefs in Assyria and Babylon depict lush elevated gardens.",
+ "asset": "Ressource/wonder-images/BABYLONE/2FM19K3 (1).jpg"
+ }
+ ],
+ "video": "videos/babylon_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/BABYLONE/HM3BMX.jpg"
+ },
+ {
+ "id": "temple_artemis_ephesus",
+ "name": "Temple of Artemis at Ephesus",
+ "cat": "Ancient",
+ "xy": [
+ 1285,
+ 340
+ ],
+ "location": "Selcuk, Turkiye",
+ "dateBuilt": "550 BCE",
+ "dateDestroyed": "401 CE",
+ "history": "The Temple of Artemis at Ephesus was a monumental tribute to the goddess Artemis - guardian of nature, childbirth and wild beasts - built on the Ionian coast around 550 BCE with the patronage of Croesus of Lydia. Rising across an area nearly double the Parthenon, the temple's gleaming marble colonnades, sculptural ornamentation and rich cult statue created a dazzling sanctuary of faith and civic pride. Reconstructed several times after fire and invasion, its prestige endured into the Roman era before final destruction in the early 5th century. One of the only wonders that was open to all, and the only wonder to celebrate women, the temple is remembered as the most magnificent example of Hellenistic architecture ever built.",
+ "overview": "The Temple of Artemis at Ephesus was a monumental tribute to the goddess Artemis - guardian of nature, childbirth and wild beasts - built on the Ionian coast around 550 BCE with the patronage of Croesus of Lydia. Rising across an area nearly double the Parthenon, the temple's gleaming marble colonnades, sculptural ornamentation and rich cult statue created a dazzling sanctuary of faith and civic pride. Reconstructed several times after fire and invasion, its prestige endured into the Roman era before final destruction in the early 5th century. One of the only wonders that was open to all, and the only wonder to celebrate women, the temple is remembered as the most magnificent example of Hellenistic architecture ever built.",
+ "primaryImage": {
+ "ref": "2PPXMMK",
+ "caption": null,
+ "asset": "Ressource/wonder-images/ARTEMIS/2PPXMMK.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The temple was built entirely of marble and measured up to ~129.5 m (425 ft) in length, making it one of the largest Greek temples ever erected.",
+ "imageRef": "2AGNWGF",
+ "caption": "Surviving Column in Selcuk: The lone pillar rising from reeds marks the temple's original footprint, evoking its former grandeur.",
+ "asset": "Ressource/wonder-images/ARTEMIS/2JC52GC.jpg"
+ },
+ {
+ "text": "It featured approximately 127 Ionic columns, each standing about 18 m (60 ft) high, arranged in a double row around the cella.",
+ "imageRef": "2YKNY2K",
+ "caption": "Fragment of Frieze: Marble relief depicting Amazons - a nod to Artemis's wild and protective nature.",
+ "asset": "Ressource/wonder-images/ARTEMIS/2JMMY2P.jpg"
+ },
+ {
+ "text": "In 356 BCE, the temple was deliberately set on fire by an arsonist named Herostratus - he sought fame through destruction and his name was condemned to be unspoken.",
+ "imageRef": "PJE9HM",
+ "caption": "Ruined Column Capitals: Scattered drums and capitals reveal the refined craftsmanship that defined Ionian architecture.",
+ "asset": "Ressource/wonder-images/ARTEMIS/ChatGPT Image 7 nov. 2025, 15_27_49.png"
+ },
+ {
+ "text": "The site served not only religious purposes but also acted as a marketplace and bank, where the temple's treasury accepted deposits and offered asylum to supplicants.",
+ "imageRef": "2JNFJ7M",
+ "caption": "Archaeological Foundations: Modern excavations expose the engineering beneath the temple - layered foundations built to resist flooding and earthquakes.",
+ "asset": "Ressource/wonder-images/ARTEMIS/G1CT34.jpg"
+ },
+ {
+ "text": "Today, only one column remains standing in situ at Ephesus; the rest was lost to earthquakes, fires, pillage and the passage of time.",
+ "imageRef": null,
+ "caption": null,
+ "asset": "Ressource/wonder-images/ARTEMIS/HR1WYW.jpg"
+ }
+ ],
+ "video": "videos/artemis_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/ARTEMIS/2PPXMMK.jpg"
+ },
+ {
+ "id": "statue_zeus_olympia",
+ "name": "Statue of Zeus at Olympia",
+ "cat": "Ancient",
+ "xy": [
+ 1240,
+ 350
+ ],
+ "location": "Elis, Greece",
+ "dateBuilt": "435 BCE",
+ "dateDestroyed": "approx. 450 CE",
+ "history": "The Statue of Zeus at Olympia was a monumental masterpiece. Created using a chryselephantine technique, gold and ivory over a wooden core, the sculpture was built by the sculptor Phidias around 435 BCE for the great Temple of Zeus in Olympia. Rising to about 12 m (40 ft) in height, the seated king of the gods held a figure of Nike in his right hand and a sceptre topped by an eagle in his left. The seted figure wore sandals of gold, and his robe was carved with lilies and animals. \n The statue serves as an everlasting symbol of the power of Zeus in Greek culture and as teh ultimate achievement of Hellenic craftsmanship. Though long lost, its legacy endures",
+ "overview": "The Statue of Zeus at Olympia was a monumental masterpiece. Created using a chryselephantine technique, gold and ivory over a wooden core, the sculpture was built by the sculptor Phidias around 435 BCE for the great Temple of Zeus in Olympia. Rising to about 12 m (40 ft) in height, the seated king of the gods held a figure of Nike in his right hand and a sceptre topped by an eagle in his left. The seted figure wore sandals of gold, and his robe was carved with lilies and animals. \n The statue serves as an everlasting symbol of the power of Zeus in Greek culture and as teh ultimate achievement of Hellenic craftsmanship. Though long lost, its legacy endures",
+ "primaryImage": {
+ "ref": "2HAN0KW",
+ "caption": null,
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ "quickFacts": [
+ {
+ "text": "The statue stood approximately 12 m (40 ft) tall - a seated figure so large that, according to descriptions, if Zeus rose he would have broken through the temple roof.",
+ "imageRef": "HRKRMR",
+ "caption": "Reconstruction drawing of the statue in situ: A modern artist's rendering of Zeus enthroned in the cella of the Temple - towering above worshippers, outfitted in gold and ivory.",
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "text": "The statue was crafted using the chryselephantine technique: ivory for the skin, gold for robes and accessories, mounted on a cedarwood throne adorned with ebony, ivory, gold and precious stones.",
+ "imageRef": "PDFYED",
+ "caption": "Coins and engraved gems showing the statue: Ancient currency depicted the seated Zeus, providing key evidence for the statue's appearance since the original is lost.",
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "text": "In his right hand, Zeus held a figure of the goddess Nike, the goddess of Victory, a symbol of his triumph.",
+ "imageRef": "2BC1FC0",
+ "caption": "Remains of the Temple of Zeus in Olympia: The interior chamber where the statue once stood - now silent ruins, but layered with the weight of wonder and history.",
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "text": "In his left hand, Zeus held a a scepter with an eagle perched atop - a symbol of his rule.",
+ "imageRef": "MANRD6",
+ "caption": "Workshop site of Phidias at Olympia: Archaeologists located the sculptor's studio near the sanctuary, where parts of the statue were likely assembled.",
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "text": "The statue was made for the Temple of Zeus (built c. 466-456 BCE) but created somewhat later; completed about a decade after the temple was finished.",
+ "imageRef": "3CEY56D",
+ "caption": "Ivory and gold chryselephantine detail reconstruction: Close-up view of how ancient sculptors layered ivory and gold to convey flesh, garments and divinity in one figure.",
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "text": "Although it once drew pilgrims from across the Greek world, the was destroyed by fire or earthquake in late antiquity.",
+ "imageRef": null,
+ "caption": null,
+ "asset": "Ressource/wonder-images/ZEUS/zeus.png"
+ }
+ ],
+ "video": "videos/zeus_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/ZEUS/zeus.png"
+ },
+ {
+ "id": "mausoleum_halicarnassus",
+ "name": "Mausoleum at Halicarnassus",
+ "cat": "Ancient",
+ "xy": [
+ 1290,
+ 360
+ ],
+ "location": "Bodrum, Turkiye",
+ "dateBuilt": "351 BCE",
+ "dateDestroyed": "approx. 1400 CE",
+ "history": "The Mausoleum at Halicarnassus was built as the tomb of Mausolus, ruler of Caria. It was commissioned by his sister-wife Artemisia II of Caria and completed around 351 BCE. Towering up to about 45 metres high (~150 ft), the multi-layered marble structure combined Ionic colonnades, a stepped pyramid roof and a grand chariot sculpture at its summit. It blended Greek, Lycian and Persian architectural influences, adorned with reliefs and statues by leading sculptors of the age. For over 1,600 years it dominated the harbor of Halicarnassus, and its renown was such that the word \"mausoleum entered common usage for grand tombs.",
+ "overview": "The Mausoleum at Halicarnassus was built as the tomb of Mausolus, ruler of Caria. It was commissioned by his sister-wife Artemisia II of Caria and completed around 351 BCE. Towering up to about 45 metres high (~150 ft), the multi-layered marble structure combined Ionic colonnades, a stepped pyramid roof and a grand chariot sculpture at its summit. It blended Greek, Lycian and Persian architectural influences, adorned with reliefs and statues by leading sculptors of the age. For over 1,600 years it dominated the harbor of Halicarnassus, and its renown was such that the word \"mausoleum entered common usage for grand tombs.",
+ "primaryImage": {
+ "ref": "KR5JXX",
+ "caption": null,
+ "asset": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The tomb was built by Greek architects Satyros and Pythius of Priene, and decorated by sculptors Leochares, Bryaxis, Scopas and Timotheus.",
+ "imageRef": "J235H6",
+ "caption": "Reconstruction of the Mausoleum at Halicarnassus: A modern rendering showing the tiered structure rising above the city's harbor - blending temple-form with tomb-monument.",
+ "asset": "Ressource/wonder-images/MAUSOLEUM/BT5F2P.jpg"
+ },
+ {
+ "text": "It sat on a large podium, surrounded by 36 Ionic columns, and was crowned by a pyramid of 24-step levels topped by a chariot sculpture of Mausolus and Artemisia.",
+ "imageRef": "BT5K8C",
+ "caption": "Relief fragments from the Mausoleum (British Museum): Close-up of the Amazonomachy and centaur-lapith battle scenes that once wrapped the podium walls.",
+ "asset": "Ressource/wonder-images/MAUSOLEUM/BT5K8C.jpg"
+ },
+ {
+ "text": "The sight was so iconic that the term \"mausoleum (from Mausolus's name) now refers generally to any grand above-ground tomb.",
+ "imageRef": "AHNR67",
+ "caption": "Ruins at Bodrum, Turkey: The archaeological site today, where foundations and scattered blocks mark the footprint of the once-colossal monument.",
+ "asset": "Ressource/wonder-images/MAUSOLEUM/ChatGPT Image 7 nov. 2025, 15_12_28.png"
+ },
+ {
+ "text": "Though it survived intact for centuries, the Mausoleum was dismantled after a series of earthquakes from the 12th to 15th centuries, and much of its marble was reused by the Knights of St John for Bodrum Castle.",
+ "imageRef": "MF6C2G",
+ "caption": "Horse from the chariot group. Now at the British Museum, this horse once was part of the quadriga that crowned the mausoleum - pulling Mausolus and Artemisia in a horse-drawn chariot.",
+ "asset": "Ressource/wonder-images/MAUSOLEUM/D98896.jpg"
+ },
+ {
+ "text": "Its decorative reliefs - depicting mythic battles like the Amazonomachy - are now housed in museums (for example, the British Museum) and are key sources for reconstructing its appearance.",
+ "imageRef": "F7NFTH",
+ "caption": "Marble column drums and caps: The remains show the finely worked marble and ambitious scale of the original facade.",
+ "asset": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+ }
+ ],
+ "video": "videos/mausoleum_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/MAUSOLEUM/2C0PWER.jpg"
+ },
+ {
+ "id": "colossus_rhodes",
+ "name": "Colossus of Rhodes",
+ "cat": "Ancient",
+ "xy": [
+ 1291,
+ 365
+ ],
+ "location": "Rhodes, Greece",
+ "dateBuilt": "280 BCE",
+ "dateDestroyed": "226 BCE",
+ "history": "The Colossus of Rhodes was a monumental bronze statue of the sun-god Helios, standing at approximately 32 metres (105 ft) tall, built by the sculptor Chares of Lindos and erected on the island of Rhodes around 280 BCE after the city successfully defended itself against siege. \n Cast from bronze and iron and put togetehr piece by piece using an earthen structure to aid the consturction, the final sculpture was so large that the people of Rhodes had to find a new word to describe it. They chose the word \"colossus\" which itself was sometimes used to describe wonder. \nIt stood at the harbour for only about 54 years before an earthquake toppled it - but even broken, its fame has endured.",
+ "overview": "The Colossus of Rhodes was a monumental bronze statue of the sun-god Helios, standing at approximately 32 metres (105 ft) tall, built by the sculptor Chares of Lindos and erected on the island of Rhodes around 280 BCE after the city successfully defended itself against siege. \n Cast from bronze and iron and put togetehr piece by piece using an earthen structure to aid the consturction, the final sculpture was so large that the people of Rhodes had to find a new word to describe it. They chose the word \"colossus\" which itself was sometimes used to describe wonder. \nIt stood at the harbour for only about 54 years before an earthquake toppled it - but even broken, its fame has endured.",
+ "primaryImage": {
+ "ref": "MMWM7J",
+ "caption": null,
+ "asset": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The statue took about 12 years to build, beginning around 294 BCE and completed by c. 282-280 BCE.",
+ "imageRef": "RY4TNY",
+ "caption": "Artist's Reconstruction: A contemporary visualization of the Colossus as a bronze-clad guardian overlooking the harbor - symbol of Rhodes' triumph and divine favor.",
+ "asset": "Ressource/wonder-images/COLOSSUS/2JDY3CW.jpg"
+ },
+ {
+ "text": "It was constructed to celebrate Rhodes' victory over Demetrius I of Macedon during the siege of 305-304 BCE. And built from the war machines left behind.",
+ "imageRef": "R0R10P",
+ "caption": "Modern Mandraki Harbor View: The site traditionally associated with the Colossus; legends once imagined ships sailing beneath his feet, though historians now view that as myth.",
+ "asset": "Ressource/wonder-images/COLOSSUS/EC5CG3.jpg"
+ },
+ {
+ "text": "The Colossus stood roughly 32 m (105 ft) high, making it one of the tallest statues of the ancient world.",
+ "imageRef": "C6P7HF",
+ "caption": "Ruins of Ancient Rhodes Walls: The surviving city fortifications evoke the era of the siege the Colossus was meant to commemorate.",
+ "asset": "Ressource/wonder-images/COLOSSUS/EC8EHD.jpg"
+ },
+ {
+ "text": "In about 226 BCE, a severe earthquake caused the statue to collapse at the knees and it remained in its fallen state for many centuries.",
+ "imageRef": "Coin_Rhodes_Didrachm_Helios_305-275_BCE",
+ "caption": "Ancient Coin Depicting Helios: A Rhodian silver coin bearing the image of the sun god - one of the few visual sources for the statue's likeness.",
+ "asset": "Ressource/wonder-images/COLOSSUS/G1CT37.jpg"
+ },
+ {
+ "text": "The term \"colossus (large statue) derives from this monument; its fame shaped how later cultures imagined monumental sculpture.",
+ "imageRef": "DBXC95",
+ "caption": "Fallen Giant Impression: Artistic rendering of the Colossus in ruins after the earthquake - still visited by travelers who described climbing over its broken limbs.",
+ "asset": "Ressource/wonder-images/COLOSSUS/Generated Image November 07, 2025 - 3_30PM.png"
+ },
+ {
+ "text": "Although the exhibition depicts the Colossus straddling the harbor of Rhodes, it most likely stood with its feet together.",
+ "imageRef": null,
+ "caption": null,
+ "asset": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+ }
+ ],
+ "video": "videos/colossus_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/COLOSSUS/2F8KPJC.jpg"
+ },
+ {
+ "id": "lighthouse_alexandria",
+ "name": "Lighthouse of Alexandria",
+ "cat": "Ancient",
+ "xy": [
+ 1275,
+ 390
+ ],
+ "location": "Alexandria, Egypt",
+ "dateBuilt": "280 BCE",
+ "dateDestroyed": "approx 1350 CE",
+ "history": "The Lighthouse of Alexandria stood as a radiant beacon over the Mediterranean for 1,500 years, guiding ships into one of the ancient world's busiest ports. Built on the islet of Pharos near Alexandria, its multi-tiered structure - a square base, octagonal mid-section and circular tower - rose over 100 metres and commanded both sea and sky. It served not only as a nautical aid but also as an enduring symbol of human ambition and technical mastery.",
+ "overview": "The Lighthouse of Alexandria stood as a radiant beacon over the Mediterranean for 1,500 years, guiding ships into one of the ancient world's busiest ports. Built on the islet of Pharos near Alexandria, its multi-tiered structure - a square base, octagonal mid-section and circular tower - rose over 100 metres and commanded both sea and sky. It served not only as a nautical aid but also as an enduring symbol of human ambition and technical mastery.",
+ "primaryImage": {
+ "ref": "2D137JR",
+ "caption": null,
+ "asset": "Ressource/wonder-images/ALEXANDRIE/2D137JR.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "It was designed by Sostratus of Cnidus (though possibly under the name of the Ptolemaic dynasty) and built around 300-280 BCE on Pharos island.",
+ "imageRef": "K51GY6",
+ "caption": "Reconstruction view of the Lighthouse on Pharos: A modern digital rendering showing the tiered structure and grandeur of the ancient tower.",
+ "asset": "Ressource/wonder-images/ALEXANDRIE/K51GY6.jpg"
+ },
+ {
+ "text": "The structure reportedly stood between 100 and 140 metres tall, making it one of the tallest man-made buildings of its age.",
+ "imageRef": "AlexLighthouse01",
+ "caption": "Underwater ruins off Alexandria's harbour: Submerged stone blocks and foundation remains believed to be parts of the lighthouse's base.photo credit: Roland Unger",
+ "asset": "Ressource/wonder-images/ALEXANDRIE/2H92B5Y.jpg"
+ },
+ {
+ "text": "Its architecture comprised three stacked parts: a square lower block, an octagonal middle, and a circular top with the beacon fire.",
+ "imageRef": "Philip_Galle_-_Lighthouse_of_Alexandria_(Pharos_of_Alexandria)_-_1572",
+ "caption": "Renaissance illustration showing the island of Pharos and Heptastadion causeway: Illustrates the geographic and strategic placement of the lighthouse.",
+ "asset": "Ressource/wonder-images/ALEXANDRIE/2HAN0M2.jpg"
+ },
+ {
+ "text": "The lighthouse remained in use - and visible - for about 1,500 years until earthquakes in 956, 1303 and 1323 CE inflicted fatal damage.",
+ "imageRef": "_Diagram",
+ "caption": "Diagram of the three-stage architectural design: Square base, octagonal mid-section, circular lantern - highlighting its layered construction.",
+ "asset": "Ressource/wonder-images/ALEXANDRIE/2R217H7.jpg"
+ },
+ {
+ "text": "The word \"pharos, the Greek name of the island, became the root for the term \"lighthouse in many languages.",
+ "imageRef": "Coin_PhareAlexandrie",
+ "caption": "Historical coin showing ships entering Alexandria harbour by night: Emphasises the lighthouse's guiding role for mariners in antiquity.",
+ "asset": "Ressource/wonder-images/ALEXANDRIE/AYK6EM.jpg"
+ }
+ ],
+ "video": "videos/alexandria_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/ALEXANDRIE/2D137JR.jpg"
+ },
+ {
+ "id": "great_wall",
+ "name": "Great Wall of China",
+ "cat": "Modern",
+ "xy": [
+ 1820,
+ 320
+ ],
+ "location": "Northern China",
+ "dateBuilt": "600 BCE",
+ "dateDestroyed": "Present Day",
+ "history": "The Great Wall of China is a sprawling network of fortifications built over centuries to shield Chinese states and empires from northern nomadic incursions. Winding across mountains, deserts and plains, the wall in its most recognisable Mingera form stretches some 8,850 km (5,499 mi) of actual built ramparts from east to west.\nConstructed of rammed earth, brick, stone and timber depending on region and era, it served as military defence, communication network and symbol of imperial might. Although many sections are now worn or ruined, the Wall endures.",
+ "overview": "The Great Wall of China is a sprawling network of fortifications built over centuries to shield Chinese states and empires from northern nomadic incursions. Winding across mountains, deserts and plains, the wall in its most recognisable Mingera form stretches some 8,850 km (5,499 mi) of actual built ramparts from east to west.\nConstructed of rammed earth, brick, stone and timber depending on region and era, it served as military defence, communication network and symbol of imperial might. Although many sections are now worn or ruined, the Wall endures.",
+ "primaryImage": {
+ "ref": "C71JJ3",
+ "caption": "The wall follows rugged terrain to maximise defensive advantage.",
+ "asset": "Ressource/wonder-images/CHINA/1.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The total length of all known wall sections, branches and trenches is about 21,196 km (13,170 mi) according to the latest official survey.",
+ "imageRef": "C71JJ3",
+ "caption": "The wall follows rugged terrain to maximise defensive advantage.",
+ "asset": "Ressource/wonder-images/CHINA/2.jpg"
+ },
+ {
+ "text": "The height of the wall typically ranged from 5 to 8 metres (16-26 ft) in many areas, with wider bases in more strategic terrain.",
+ "imageRef": "CRE1TR",
+ "caption": "Close-up of a watchtower along the Great Wall",
+ "asset": "Ressource/wonder-images/CHINA/3.jpg"
+ },
+ {
+ "text": "The Wall was not built in one go - construction, repair and expansion occurred across 9+ dynasties and over 2,000 years of history.",
+ "imageRef": "T2HNAN",
+ "caption": "The Great Wall of China extends through the mountains of Northern China",
+ "asset": "Ressource/wonder-images/CHINA/4.jpg"
+ },
+ {
+ "text": "Materials varied by region: early sections used rammed earth; Ming sections often used bricks bound with sticky rice mortar and lime.",
+ "imageRef": "RPXXCR",
+ "caption": "Brickwork detail: Using ingenious local building techniques the original mortar was made from rice.",
+ "asset": "Ressource/wonder-images/CHINA/5.jpg"
+ },
+ {
+ "text": "Contrary to popular myth, the Great Wall is not easily visible from the moon with the naked eye - its width and material make it very difficult to spot without aid.",
+ "imageRef": "HDRNM9",
+ "caption": "Eastern terminus at Shanhai Pass \"Old Dragon Head where wall meets the sea: An evocative symbol of the Wall's reach from sea to desert.",
+ "asset": "Ressource/wonder-images/CHINA/6.jpg"
+ }
+ ],
+ "video": "videos/greatwall_loop.mp4",
+ "model": "./Ressource/GreatWall.obj",
+ "img": "Ressource/wonder-images/CHINA/1.jpg"
+ },
+ {
+ "id": "petra",
+ "name": "Petra",
+ "cat": "Modern",
+ "xy": [
+ 1315,
+ 390
+ ],
+ "location": "Wadi Mus, Jordan",
+ "dateBuilt": "approx 300 BCE",
+ "dateDestroyed": "Present Day",
+ "history": "Petra, the rose-red city hewn into sandstone cliffs by the Nabataeans, thrived as a trade nexus linking Arabia, Egypt and the Mediterranean. Its grand facades - most famously the Treasury - rise superbly against the canyon walls, embodying hydraulic mastery of dams, cisterns and channels that turned arid terrain into a vibrant metropolis. Annexed by Rome in 106 CE and later diminished by earthquake and shifting trade routes, Petra fell into obscurity until its modern \"rediscovery. Today, it stands as a testament to human ingenuity, carved deep into towering rock and imprinted with the echoes of ancient commerce, faith and artistry.",
+ "overview": "Petra, the rose-red city hewn into sandstone cliffs by the Nabataeans, thrived as a trade nexus linking Arabia, Egypt and the Mediterranean. Its grand facades - most famously the Treasury - rise superbly against the canyon walls, embodying hydraulic mastery of dams, cisterns and channels that turned arid terrain into a vibrant metropolis. Annexed by Rome in 106 CE and later diminished by earthquake and shifting trade routes, Petra fell into obscurity until its modern \"rediscovery. Today, it stands as a testament to human ingenuity, carved deep into towering rock and imprinted with the echoes of ancient commerce, faith and artistry.",
+ "primaryImage": {
+ "ref": "E9Y272",
+ "caption": "Facade of the Treasury (Al-Khazneh): The carved sandstone temple-tomb reveals the Nabataeans' fusion of Hellenistic detail and indigenous rock-cut mastery.",
+ "asset": "Ressource/wonder-images/PETRA/1.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The Nabataeans created an advanced water-management system of dams, channels and cisterns - allowing the city to flourish in the desert.",
+ "imageRef": "E9Y272",
+ "caption": "Facade of the Treasury (Al-Khazneh): The carved sandstone temple-tomb reveals the Nabataeans' fusion of Hellenistic detail and indigenous rock-cut mastery.",
+ "asset": "Ressource/wonder-images/PETRA/2.jpg"
+ },
+ {
+ "text": "Petra's iconic Treasury facade (Al-Khazneh) is carved directly from the cliff and dates to about the early 1st century CE.",
+ "imageRef": "MBDD48",
+ "caption": "The Siq canyon entrance: A narrow, winding slot canyon that dramatically gives way to the hidden city.",
+ "asset": "Ressource/wonder-images/PETRA/3.jpg"
+ },
+ {
+ "text": "The city occupies a dramatic location: it lies within a canyon (the Siq) and behind red-hued rock faces that give Petra its nickname \"rose-red city.",
+ "imageRef": "H17M3T",
+ "caption": "Rock-cut tombs along the cliff face: Massive funerary chambers carved directly into stone reveal the Nabataeans' reverence for the dead.",
+ "asset": "Ressource/wonder-images/PETRA/4.jpg"
+ },
+ {
+ "text": "Petra was the capital of the Nabataean Kingdom until the Roman annexation in 106 CE; after a powerful earthquake in 363 CE, its importance declined.",
+ "imageRef": "KHNPTY",
+ "caption": "Hydraulic channel carved into rock: One of the remarkable water-management installations that allowed Petra's inhabitants to capture, store and distribute water in a desert landscape.",
+ "asset": "Ressource/wonder-images/PETRA/5.jpg"
+ },
+ {
+ "text": "In 2007 Petra was named one of the New 7 Wonders of the World for its exceptional beauty and heritage value.",
+ "imageRef": "2F7M0GC",
+ "caption": "The Monastery (Ad-Dayr) facade near dusk: Carved into the rock and reached via a steep stairway, its remote position and vast scale evoke the spiritual dimension of the city.",
+ "asset": "Ressource/wonder-images/PETRA/6.jpg"
+ }
+ ],
+ "video": "videos/petra_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/PETRA/1.jpg"
+ },
+ {
+ "id": "colosseum",
+ "name": "Colosseum",
+ "cat": "Modern",
+ "xy": [
+ 1180,
+ 320
+ ],
+ "location": "Rome, Italy",
+ "dateBuilt": "80 CE",
+ "dateDestroyed": "Present Day",
+ "history": "The Colosseum in Rome is the largest ancient amphitheatre ever built and remains one of the most iconic symbols of the Roman Empire. Constructed of travertine, tuff and brick-faced concrete, it measured 189 m by 156 m and rose to about 48 m in height. \nBuilt to host gladiatorial contests, animal hunts, mock naval battles and public spectacles, it could hold between 50,000 and 80,000 spectators. \n Its engineering - barrel vaults, groin vaults, grand arches - and its role in civic life make it both a feat of architecture and a mirror of Roman culture. \nThough damaged by earthquakes and stone-robbers over centuries, the Colosseum continues to command attention and draw crowds",
+ "overview": "The Colosseum in Rome is the largest ancient amphitheatre ever built and remains one of the most iconic symbols of the Roman Empire. Constructed of travertine, tuff and brick-faced concrete, it measured 189 m by 156 m and rose to about 48 m in height. \nBuilt to host gladiatorial contests, animal hunts, mock naval battles and public spectacles, it could hold between 50,000 and 80,000 spectators. \n Its engineering - barrel vaults, groin vaults, grand arches - and its role in civic life make it both a feat of architecture and a mirror of Roman culture. \nThough damaged by earthquakes and stone-robbers over centuries, the Colosseum continues to command attention and draw crowds",
+ "primaryImage": {
+ "ref": "G3FCXD",
+ "caption": "Exterior facade at sunrise",
+ "asset": "Ressource/wonder-images/COLISEUM/1.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "Its official name was the Amphitheatrum Flavium, named after the Flavian dynasty who commissioned it - yet today we know it simply as the Colosseum.",
+ "imageRef": "G3FCXD",
+ "caption": "Exterior facade at sunrise",
+ "asset": "Ressource/wonder-images/COLISEUM/2.jpg"
+ },
+ {
+ "text": "The structure used over 100,000 m3 of travertine stone, held together originally without mortar, using iron clamps - an engineering marvel of its age.",
+ "imageRef": "JABX6R",
+ "caption": "Interior arena looking into the oval bowl: Shows where spectators once sat and where gladiators and animals fought, bringing the raw reality of public spectacle into focus.",
+ "asset": "Ressource/wonder-images/COLISEUM/3.jpg"
+ },
+ {
+ "text": "The arena floor could be flooded to stage mock naval battles (\"naumachiae), though the exact frequency and extent remain debated.",
+ "imageRef": "2AR52AK",
+ "caption": "Underground hypogeum tunnels and cages: Beneath the arena floor lies a network of vaults where animals, fighters and stage machinery were staged - an architecture of hidden drama.",
+ "asset": "Ressource/wonder-images/COLISEUM/4.jpg"
+ },
+ {
+ "text": "After the fall of the Roman Empire, the Colosseum was repurposed - as a fortress, quarry, Christian shrine and burial ground - and only in the 18th-19th centuries did preservation begin in earnest.",
+ "imageRef": "JKGG7A",
+ "caption": "Seating tiers and vaulted passageways: Demonstrates how Romans organised the space by class and engineered crowd movement - some of the earliest large-scale spectator logistics.",
+ "asset": "Ressource/wonder-images/COLISEUM/5.jpg"
+ },
+ {
+ "text": "In 2007 the Colosseum was officially designated as one of the New 7 Wonders of the World, reinforcing its status as a global heritage icon.",
+ "imageRef": "R9PGMC",
+ "caption": "Night-lit silhouette of the Colosseum: The illuminated Arches evoke both grandeur and ruin - the monument still stands in the modern city, layered with history.",
+ "asset": "Ressource/wonder-images/COLISEUM/6.jpg"
+ }
+ ],
+ "video": "videos/colosseum_loop.mp4",
+ "model": "cube",
+ "img": "Ressource/wonder-images/COLISEUM/1.jpg"
+ },
+ {
+ "id": "chichen_itza",
+ "name": "Chichen Itza",
+ "cat": "Modern",
+ "xy": [
+ 555,
+ 460
+ ],
+ "location": "Yucatan, Mexico",
+ "dateBuilt": "600 CE",
+ "dateDestroyed": "Present Day",
+ "history": "Chichen Itza rose as a powerful city of the Maya in the northern Yucatan, combining religious, commercial and political functions in a dense archaeological complex. From its iconic stepped pyramid of El Castillo (dedicated to the feathered-serpent deity Kukulcan) to the vast Great Ball Court and the precision of the Caracol observatory, the site reflects both indigenous Maya traditions and wider Mesoamerican influences. Its name - \"at the mouth of the well of the Itza-speakers - hints at the sacred cenotes that sustained life here. Abandoned centuries ago, it was rediscovered and now stands as one of the New 7 Wonders of the World - a living reminder of the Maya's architectural and astronomical mastery.",
+ "overview": "Chichen Itza rose as a powerful city of the Maya in the northern Yucatan, combining religious, commercial and political functions in a dense archaeological complex. From its iconic stepped pyramid of El Castillo (dedicated to the feathered-serpent deity Kukulcan) to the vast Great Ball Court and the precision of the Caracol observatory, the site reflects both indigenous Maya traditions and wider Mesoamerican influences. Its name - \"at the mouth of the well of the Itza-speakers - hints at the sacred cenotes that sustained life here. Abandoned centuries ago, it was rediscovered and now stands as one of the New 7 Wonders of the World - a living reminder of the Maya's architectural and astronomical mastery.",
+ "primaryImage": {
+ "ref": "2M5PY6T",
+ "caption": "The Pyramid of El Castillo at dusk: The stepped pyramid catches the long shadows that form the illusion of a descending serpent during the equinoxes - a dramatic fusion of architecture and celestial event.",
+ "asset": "Ressource/wonder-images/MAYA/1.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The name \"Chichen Itza comes from the Yucatec Maya for \"mouth of the well of the Itza, referencing the sacred cenotes on which the city depended.",
+ "imageRef": "2M5PY6T",
+ "caption": "The Pyramid of El Castillo at dusk: The stepped pyramid catches the long shadows that form the illusion of a descending serpent during the equinoxes - a dramatic fusion of architecture and celestial event.",
+ "asset": "Ressource/wonder-images/MAYA/2.jpg"
+ },
+ {
+ "text": "At its peak, the city may have been home to as many as 35,000 people, marking it as one of the largest Maya urban centres in the northern peninsula.",
+ "imageRef": "2PPGXXA",
+ "caption": "The Observatory (\"El Caracol): A circular tower on a rectangular platform hinting at the Maya's sophisticated understanding of astronomy and sky-watching.",
+ "asset": "Ressource/wonder-images/MAYA/2BFFCKE.jpg"
+ },
+ {
+ "text": "The pyramid of El Castillo contains 365 steps - one for each day of the solar year - linking the structure to Maya astronomy and the calendar cycle.",
+ "imageRef": "F66261",
+ "caption": "The Great Ball Court: One of the largest in Mesoamerica, surrounded by carved panels depicting the ritual game of life, death and the cosmos.",
+ "asset": "Ressource/wonder-images/MAYA/3.jpg"
+ },
+ {
+ "text": "The architectural style is a blend of Maya and Toltec influences, indicating cultural exchange or movement of peoples from central Mexico to the Yucatan in the 10th-12th centuries.",
+ "imageRef": "2HARN4B",
+ "caption": "View of cenote and surrounding forest: The natural sinkholes (cenotes) provided the lifeblood for the city and anchored its spiritual geography.",
+ "asset": "Ressource/wonder-images/MAYA/4.jpg"
+ },
+ {
+ "text": "Declared a UNESCO World Heritage Site in 1988 and voted one of the New 7 Wonders of the World in 2007, Chichen Itza remains among the most visited archaeological sites in Mexico.",
+ "imageRef": "2RBNTHW",
+ "caption": "Temple of the Warriors and colonnade of columns: A complex of grand halls and carved reliefs where military, religious and civic spheres intersected.",
+ "asset": "Ressource/wonder-images/MAYA/5.jpg"
+ }
+ ],
+ "video": "videos/chichen_loop.mp4",
+ "model": "./Ressource/ChichenItza.obj",
+ "img": "Ressource/wonder-images/MAYA/1.jpg"
+ },
+ {
+ "id": "machu_picchu",
+ "name": "Machu Picchu",
+ "cat": "Modern",
+ "xy": [
+ 650,
+ 680
+ ],
+ "location": "Cusco, Peru",
+ "dateBuilt": "1450 CE",
+ "dateDestroyed": "Present Day",
+ "history": "Machu Picchu is a breathtaking Inca citadel perched at about 2,430 metres above sea level in the Andes, built around 1450 CE as a royal estate and religious sanctuary for Pachacutec. \n Carved into rugged terrain between two dramatic peaks, it features finely cut dry-stone walls, terraced agriculture, and sophisticated watermanagement systems. \nWhile its exact purpose remains partly mysterious, the site reflects the Inca's mastery of architecture, astronomy and landscape. Hidden from Spanish conquerors for centuries and rediscovered in the early 20th century, Machu Picchu has emerged as one of the world's most iconic archaeological treasures and a symbol of human ingenuity.",
+ "overview": "Machu Picchu is a breathtaking Inca citadel perched at about 2,430 metres above sea level in the Andes, built around 1450 CE as a royal estate and religious sanctuary for Pachacutec. \n Carved into rugged terrain between two dramatic peaks, it features finely cut dry-stone walls, terraced agriculture, and sophisticated watermanagement systems. \nWhile its exact purpose remains partly mysterious, the site reflects the Inca's mastery of architecture, astronomy and landscape. Hidden from Spanish conquerors for centuries and rediscovered in the early 20th century, Machu Picchu has emerged as one of the world's most iconic archaeological treasures and a symbol of human ingenuity.",
+ "primaryImage": {
+ "ref": "ADRG7H",
+ "caption": "Aerial view of Machu Picchu at dawn:",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/1.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "Machu Picchu sits on a saddle between two peaks - Machu Picchu (\"Old Peak) and Huayna Picchu (\"New Peak) - above the Urubamba River valley in the Eastern Cordillera of the Andes.",
+ "imageRef": "ADRG7H",
+ "caption": "Aerial view of Machu Picchu at dawn:",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/2.jpg"
+ },
+ {
+ "text": "The stones were cut so precisely that many walls have no mortar and even a knife blade cannot be inserted between blocks.",
+ "imageRef": "C966GK",
+ "caption": "Temple of the Sun with its circular form: A fine example of Inca religious architecture, oriented to the rising sun and casting shadows that align with astronomical events.",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/2AJRD66.jpg"
+ },
+ {
+ "text": "The site includes the Intihuatana stone, believed to have been an astronomical clock or calendar-ritual stone aligned with solstices.",
+ "imageRef": "R8PA4K",
+ "caption": "Terraced agricultural fields cut into the mountain: Demonstrates how the Inca adapted challenging terrain to feed the city and manage water flow from the peaks.",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/2RD0EA1.jpg"
+ },
+ {
+ "text": "Though built around the mid-15th century, Machu Picchu was abandoned shortly after the Spanish conquest and remained relatively unknown until its \"rediscovery by Hiram Bingham in 1911.",
+ "imageRef": "2TB954Y",
+ "caption": "Intihuatana ritual stone in its carved niche: The \"hitching post of the sun, positioned to link the Inca cosmos with the mountaintop world below.",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/2Y2Y6B5.jpg"
+ },
+ {
+ "text": "Designated a UNESCO World Heritage Site in 1983, and in 2007 voted one of the New 7 Wonders of the World for its outstanding legacy.",
+ "imageRef": "C9BR0D",
+ "caption": "View from Huayna Picchu overlooking the citadel: A journey taken via steep stairways to a vantage point where the scale of the settlement and the canyon become clear.",
+ "asset": "Ressource/wonder-images/MACHU_PICCHU/3.jpg"
+ }
+ ],
+ "video": "videos/machu_loop.mp4",
+ "model": "./Ressource/MachtuPicchtu.obj",
+ "img": "Ressource/wonder-images/MACHU_PICCHU/1.jpg"
+ },
+ {
+ "id": "taj_mahal",
+ "name": "Taj Mahal",
+ "cat": "Modern",
+ "xy": [
+ 1585,
+ 435
+ ],
+ "location": "Agra, India",
+ "dateBuilt": "1643 CE",
+ "dateDestroyed": "Present Day",
+ "history": "The Taj Mahal is an ivory-white marble mausoleum commissioned by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, who died in 1631. Located on the banks of the Yamuna River in Agra, it exemplifies the pinnacle of Mughal architecture - blending Persian, Indian, and Islamic styles in perfect symmetry and proportion.\nThe complex includes a monumental gateway, gardens, mosque, guest house and the central mausoleum with its large dome and four minarets. Over 20,000 artisans and craftsmen from across the empire and beyond laboured for more than two decades. \nToday, the Taj remains a global icon of love, craftsmanship and the splendour of an empire at its height.",
+ "overview": "The Taj Mahal is an ivory-white marble mausoleum commissioned by Emperor Shah Jahan in memory of his beloved wife Mumtaz Mahal, who died in 1631. Located on the banks of the Yamuna River in Agra, it exemplifies the pinnacle of Mughal architecture - blending Persian, Indian, and Islamic styles in perfect symmetry and proportion.\nThe complex includes a monumental gateway, gardens, mosque, guest house and the central mausoleum with its large dome and four minarets. Over 20,000 artisans and craftsmen from across the empire and beyond laboured for more than two decades. \nToday, the Taj remains a global icon of love, craftsmanship and the splendour of an empire at its height.",
+ "primaryImage": {
+ "ref": "CTAGM3",
+ "caption": "The main mausoleum with its large dome - The central white-marble structure crowned by its bulbous dome and flanked by four minarets, symbolising the union of heaven and earth.",
+ "asset": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "Construction employed approximately 22,000 workers, and took around 22 years to complete the core mausoleum.",
+ "imageRef": "CTAGM3",
+ "caption": "The main mausoleum with its large dome - The central white-marble structure crowned by its bulbous dome and flanked by four minarets, symbolising the union of heaven and earth.",
+ "asset": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+ },
+ {
+ "text": "The white marble facade is inlaid with semi-precious stones - more than 28 different types, including jasper, turquoise, jade and crystal.",
+ "imageRef": "D6KXYH",
+ "caption": "Reflecting pool and garden front approach - The long reflecting pool leads the visitor's eye toward the mausoleum, embodying Mughal garden design ideals and the concept of paradise.",
+ "asset": "Ressource/wonder-images/TAJ/D6KXYH.jpg"
+ },
+ {
+ "text": "The four minarets are intentionally angled slightly outward so that if they collapsed (e.g., in an earthquake) they would fall away from the main mausoleum.",
+ "imageRef": "F76DG8",
+ "caption": "Close-up of pietra dura inlay work - A detail of the marble walls showing the intricate floral motifs and semi-precious stone inlays, highlighting the craft-intensive nature of the monument.",
+ "asset": "Ressource/wonder-images/TAJ/F76DG8.jpg"
+ },
+ {
+ "text": "The marble appears to change colour depending on the time of day - from pinkish in the morning, brilliant white at midday, to golden under the moonlight.",
+ "imageRef": "FJD4B8",
+ "caption": "Interior of the mausoleum chamber - The cenotaphs of Mumtaz Mahal and Shah Jahan, surrounded by carved marble screens and underscoring the funerary and monumental function of the site.",
+ "asset": "Ressource/wonder-images/TAJ/FJD4B8.jpg"
+ },
+ {
+ "text": "The Taj Mahal was designated a UNESCO World Heritage Site in 1983 and is listed among the New 7 Wonders of the World.",
+ "imageRef": "D6XHWF",
+ "caption": "View across the Yamuna River at sunset - The silhouette of the Taj in evening light, emphasising its riverside setting and the symmetry of the complex against the sky.",
+ "asset": "Ressource/wonder-images/TAJ/D6XHWF.jpg"
+ }
+ ],
+ "video": "videos/tajmahal_loop.mp4",
+ "model": "./Ressource/TajMahal.obj",
+ "img": "Ressource/wonder-images/TAJ/CTAGM3.jpg"
+ },
+ {
+ "id": "christ_redeemer",
+ "name": "Christ The Redeemer",
+ "cat": "Modern",
+ "xy": [
+ 830,
+ 750
+ ],
+ "location": "Rio de Janeiro, Brazil",
+ "dateBuilt": "1931 CE",
+ "dateDestroyed": "Present Day",
+ "history": "The Christ the Redeemer statue stands sentinel over Rio de Janeiro from the peak of Mount Corcovado, its arms outstretched in a gesture of welcome and blessing. Created from reinforced concrete and clad in soapstone, the 38 metre-tall figure (125 ft) was designed by French-Polish sculptor Paul Landowski and Brazilian engineer Heitor da Silva Costa, and completed in 1931. \nMore than a monument, it has become a symbol of Brazilian faith, culture and identity, visible from across the city and globe. Perched within the lush forest of Tijuca National Park, the statue merges human craftsmanship with naural splendor - its serene figure looking out across Guanabara Bay, the city, and the Atlantic horizon.",
+ "overview": "The Christ the Redeemer statue stands sentinel over Rio de Janeiro from the peak of Mount Corcovado, its arms outstretched in a gesture of welcome and blessing. Created from reinforced concrete and clad in soapstone, the 38 metre-tall figure (125 ft) was designed by French-Polish sculptor Paul Landowski and Brazilian engineer Heitor da Silva Costa, and completed in 1931. \nMore than a monument, it has become a symbol of Brazilian faith, culture and identity, visible from across the city and globe. Perched within the lush forest of Tijuca National Park, the statue merges human craftsmanship with naural splendor - its serene figure looking out across Guanabara Bay, the city, and the Atlantic horizon.",
+ "primaryImage": {
+ "ref": "2EFAE8N",
+ "caption": "Aerial view of Christ the Redeemer above Rio de Janeiro.",
+ "asset": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+ },
+ "quickFacts": [
+ {
+ "text": "The statue's arms span approximately 28 metres (92 feet) wide while the figure itself rises about 30 metres (98 feet) above ground, excluding the pedestal.",
+ "imageRef": "2EFAE8N",
+ "caption": "Aerial view of Christ the Redeemer above Rio de Janeiro.",
+ "asset": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+ },
+ {
+ "text": "Constructed of reinforced concrete and faced in triangular soapstone tiles, the statue was built to resist strong winds, lightning strikes and the coastal climate of Corcovado.",
+ "imageRef": "CRR60E",
+ "caption": "The arms-outstretched figure of the statue closer up: A stylised Art Deco form reaching wide, symbolising embrace and openness over the city below.",
+ "asset": "Ressource/wonder-images/REDEEMER/CRR60E.jpg"
+ },
+ {
+ "text": "The idea for the monument began in the 1850s; formal funding and design began around 1920 via local Catholic groups, with construction officially spanning 1922-1931.",
+ "imageRef": "2J9TMRW",
+ "caption": "Soapstone tile detail on statue surface: Close-up shot revealing the triangular soapstone covering and the weather-resistant craftsmanship under harsh mountain conditions.",
+ "asset": "Ressource/wonder-images/REDEEMER/2J9TMRW.jpg"
+ },
+ {
+ "text": "The statue is the largest Art Deco-style statue in the world, and in 2007 was declared part of the New7 Wonders of the World.",
+ "imageRef": "2G79JDD",
+ "caption": "View looking down from the statue over Guanabara Bay and cityscape: Emphasises the panoramic placement and symbolic lookout over Brazil's \"Marvelous City.",
+ "asset": "Ressource/wonder-images/REDEEMER/2G79JDD.jpg"
+ },
+ {
+ "text": "The statue is positioned at an elevation of approximately 710 metres (2,330 ft.) above sea level on Mount Corcovado,",
+ "imageRef": "2G79JG1",
+ "caption": "Visitors on the pedestal viewing platform at sunrise: Human scale in the context of the monument; how visitors engage with the site today.",
+ "asset": "Ressource/wonder-images/REDEEMER/2G79JG1.jpg"
+ },
+ {
+ "text": "Visitors can reach it via cog railway, elevator/walkway or hiking trail through the surrounding rainforest.",
+ "imageRef": ":TCW73H",
+ "caption": "Mount Corcovado railway ascending through Tijuca Forest to the statue: The ascent and terrain contribute to a sense of pilgrimage and arrival.",
+ "asset": "Ressource/wonder-images/REDEEMER/TCW73H.jpg"
+ }
+ ],
+ "video": "videos/christ_loop.mp4",
+ "model": "./Ressource/ChristRedeemer.obj",
+ "img": "Ressource/wonder-images/REDEEMER/2EFAE8N.jpg"
+ }
+]
+

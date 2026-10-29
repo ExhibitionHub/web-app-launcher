@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "languageName": "Nederlands"
+  },
+  "common": {
+    "languageSelector": "Taalselector",
+    "scan": "Scan QR",
+    "stopScan": "Stop",
+    "close": "Sluiten",
+    "home": "Home",
+    "previous": "Vorige",
+    "next": "Volgende"
+  },
+  "panelApp": {
+    "brand": "SK",
+    "pageTitle": "SK Vertaling",
+    "counter": "{{current}} / {{total}}",
+    "nav": {
+      "aria": "Navigatie",
+      "home": "Home",
+      "scan": "Scan",
+      "list": "Lijst",
+      "panel": "Tekst"
+    },
+    "views": {
+      "home": { "eyebrow": "Home", "label": "Home" },
+      "scan": { "eyebrow": "Scan", "label": "Scan" },
+      "list": { "eyebrow": "Lijst", "label": "Lijst" },
+      "panel": { "eyebrow": "Tekst", "label": "Tekst" }
+    },
+    "home": {
+      "eyebrow": "Home",
+      "title": "Vertaling",
+      "copy": "Scan een QR of open de lijst.",
+      "primaryAction": "Scannen",
+      "secondaryAction": "Lijst",
+      "resumeEyebrow": "Huidige tekst",
+      "resumeAction": "Open",
+      "metricPanelsLabel": "Teksten",
+      "metricPanelsValue": "{{count}} teksten",
+      "metricLanguageLabel": "Taal"
+    },
+    "scan": {
+      "eyebrow": "Scan",
+      "title": "Scan de QR",
+      "copy": "Open de camera om naar de juiste tekst te gaan.",
+      "openButton": "Start scan",
+      "listAction": "Open lijst"
+    },
+    "list": {
+      "eyebrow": "Lijst",
+      "title": "Teksten",
+      "copy": "Kies een tekst.",
+      "empty": "Geen teksten beschikbaar."
+    },
+    "panel": {
+      "listAction": "Open lijst",
+      "scanAction": "Open scan"
+    },
+    "scanner": {
+      "title": "QR-scanner",
+      "pillLive": "Live",
+      "pillMatch": "OK",
+      "pillOff": "Off",
+      "pillReady": "Ready",
+      "ready": "Richt de camera op een QR-code.",
+      "tapToStart": "Open de scanner.",
+      "unsupported": "QR-scan is niet beschikbaar in deze browser.",
+      "secureContext": "Camera-toegang heeft HTTPS of localhost nodig.",
+      "permissionDenied": "Toegang tot de camera is geweigerd.",
+      "noCamera": "Geen camera gevonden op dit apparaat.",
+      "unavailable": "De camera kon niet worden gestart.",
+      "matched": "Tekst geladen.",
+      "invalid": "Deze QR is niet gekoppeld aan een tekst."
+    },
+    "status": {
+      "unknownPanel": "Deze tekst is niet beschikbaar in de app.",
+      "noPanels": "Er is nog geen tekst ingesteld."
+    }
+  },
+  "panels": {
+    "order": ["intro", "patterns", "myths", "investigation"],
+    "items": {
+      "intro": {
+        "kicker": "01",
+        "title": "Introductie",
+        "body": [
+          "Introductiepaneel van de tentoonstelling."
+        ]
+      },
+      "patterns": {
+        "kicker": "02",
+        "title": "Patroonspoor",
+        "body": [
+          "Seriele misdaad is geen zuivere chaos. Herhaalde keuzes laten een zichtbare structuur achter.",
+          "Data, plaatsen en routines tonen vaak meer dan een losstaand geval."
+        ]
+      },
+      "myths": {
+        "kicker": "03",
+        "title": "Vals profiel",
+        "body": [
+          "Het populaire beeld van het criminele genie is misleidend.",
+          "Veel zaken steunen op gewone methodes, vertrouwde plekken en herhaalde kansen."
+        ]
+      },
+      "investigation": {
+        "kicker": "04",
+        "title": "Onderzoekspoor",
+        "body": [
+          "Verbindingen tellen: geografie, slachtofferprofielen en ontbrekende meldingen.",
+          "De tentoonstelling focust op wat kan worden gezien, vergeleken en gecontroleerd."
+        ]
+      }
+    }
+  }
+}

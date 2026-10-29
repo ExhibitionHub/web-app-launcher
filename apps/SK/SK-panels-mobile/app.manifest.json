@@ -1,0 +1,7 @@
+{
+  "appKey": "SK-panels-mobile",
+  "displayName": "Exhibition Panels",
+  "entryPath": "/apps/SK/SK-panels-mobile/index.html",
+  "idleTimeoutSec": 0,
+  "requiresSecureContext": true
+}

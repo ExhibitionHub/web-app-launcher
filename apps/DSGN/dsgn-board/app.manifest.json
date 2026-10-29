@@ -1,0 +1,6 @@
+{
+  "appKey": "dsgn-board",
+  "displayName": "DSGN Board",
+  "entryPath": "/apps/DSGN/dsgn-board/index.html",
+  "idleTimeoutSec": 90
+}

@@ -1,0 +1,6 @@
+{
+  "appKey": "map-phone",
+  "displayName": "Forensic Case Map",
+  "entryPath": "/apps/DSGN/map-phone/index.html",
+  "idleTimeoutSec": 25
+}

@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "languageName": "Deutsch"
+  },
+  "common": {
+    "home": "Startseite",
+    "map": "Karte",
+    "quiz": "Quiz",
+    "languageSelector": "Sprachauswahl",
+    "controls": "Steuerung",
+    "toggleControls": "Steuerung ein-/ausblenden",
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "reset": "Startansicht",
+    "all": "Alle",
+    "solved": "Gelöst",
+    "unsolved": "Ungelöst",
+    "backToMainMenu": "Zurück zum Hauptmenü.",
+    "mainMenu": "Hauptmenü",
+    "selection": "Auswahl",
+    "openMap": "Karte öffnen",
+    "openQuiz": "Quiz öffnen"
+  },
+  "mapApp": {
+    "pageTitle": "Serienmörder-Karte",
+    "search": {
+      "title": "Suche",
+      "panelAria": "Suchfeld",
+      "placeholder": "Suche (Name, Ort, Beschreibung…)",
+      "hint": "Suche nach Name, Ort, Beschreibung…",
+      "resultsAria": "Suchergebnisse",
+      "keyboardAria": "Bildschirmtastatur",
+      "countryAria": "Nach Land filtern",
+      "countryAll": "Alle Länder",
+      "countryUnknown": "Unbekanntes Land",
+      "startTyping": "Mit der Eingabe beginnen, um zu suchen",
+      "noResults": "Keine Ergebnisse",
+      "unnamed": "Unbenannt",
+      "toggleAria": "Suchfeld ein-/ausblenden",
+      "clearAria": "Suche löschen",
+      "layoutAria": "Tastaturlayout umschalten",
+      "keys": {
+        "space": "Leerzeichen",
+        "backspace": "Zurück",
+        "clear": "Löschen",
+        "shift": "Umschalt"
+      }
+    },
+    "idle": {
+      "logoAlt": "Serienmörder-Karte",
+      "subtitle": "Entdecke Fallbeispiele aus aller Welt.",
+      "loading": "Wird geladen…"
+    },
+    "loading": {
+      "returningHome": "Zurück zum Menü…",
+      "stuckMessage": "Der Ladevorgang hängt ({{stages}}). Bitte die Ressourcen prüfen.",
+      "startFailure": "Die Karte kann nicht gestartet werden. Bitte Kiosk-Laufzeit oder Asset-Pfade prüfen.",
+          "modelParseFailure": "Das Kartenmodell konnte nicht gelesen werden.",
+          "modelLoadFailure": "Das Kartenmodell konnte nicht geladen werden.",
+      "errorPrefix": "Fehler",
+      "stages": {
+        "texture": "Textur",
+        "model": "Modell",
+        "data": "Daten",
+        "markers": "Marker"
+      }
+    }
+  },
+  "popup": {
+    "tagsLabel": "Schlagwörter",
+    "imageUnavailable": "Bild nicht verfügbar",
+    "profile": "Profil",
+    "profileDetails": "Profildetails",
+    "imageAlt": "Bild",
+    "close": "Schließen",
+    "closeCard": "Karte schließen.",
+    "detailsToBeConfirmed": "Einzelheiten sind zu bestätigen.",
+    "pressPlay": "Drücke auf „Play“, um die Animation zu starten.",
+    "video": "Video",
+    "meta": {
+      "yearsActive": "Aktiv von",
+      "provenVictims": "Nachgewiesene Opfer",
+      "possibleVictims": "Mögliche Opfer",
+      "status": "Status"
+    }
+  }
+}

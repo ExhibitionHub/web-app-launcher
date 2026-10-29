@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "pageTitle": "DSGN Board - Investigacion"
+  },
+  "ui": {
+    "aria": {
+      "board": "Tablero de investigacion",
+      "fiber": "Analisis de fibras",
+      "network": "Datos celulares y de red",
+      "dna": "Comparacion de ADN",
+      "toxicology": "Informes forenses y de sustancias",
+      "light": "Fotos de longitud de onda luminica",
+      "fingerprints": "Informe de huellas"
+    },
+    "controls": {
+      "label": "Controles de la aplicacion",
+      "languageGroup": "Idioma",
+      "languages": {
+        "en": "Ingles",
+        "fr": "Frances",
+        "ar": "Arabe",
+        "es": "Español"
+      }
+    },
+    "tablet": {
+      "profileOverview": "Resumen de perfiles",
+      "agency": "DIRECCION GENERAL DE SEGURIDAD NACIONAL DE MARRUECOS",
+      "title": "INVESTIGACION CRIMINAL - RESUMEN DE PERFILES",
+      "labels": {
+        "category": "CATEGORIA",
+        "name": "NOMBRE",
+        "role": "ROL",
+        "age": "EDAD",
+        "height": "ALTURA",
+        "weight": "PESO"
+      },
+      "profiles": {
+        "victimProfile": "PERFIL DE LA VICTIMA",
+        "suspectAProfile": "PERFIL SOSPECHOSO A",
+        "suspectBProfile": "PERFIL SOSPECHOSO B",
+        "victim": {
+          "category": "Victima",
+          "role": "Victima",
+          "age": "34 anos",
+          "height": "175 cm",
+          "weight": "68 kg"
+        },
+        "samir": {
+          "category": "Visitante 2",
+          "role": "Sospechoso A",
+          "age": "32 anos",
+          "height": "180 cm",
+          "weight": "65 kg"
+        },
+        "karim": {
+          "category": "Visitante 1",
+          "role": "Sospechoso B",
+          "age": "29 anos",
+          "height": "170 cm",
+          "weight": "58 kg"
+        }
+      }
+    },
+    "actions": {
+      "analyze": "Analizar resultado",
+      "close": "Cerrar",
+      "closeCase": "Cerrar caso",
+      "home": "Inicio",
+      "homeAria": "Reiniciar este tablero",
+      "reset": "Reiniciar",
+      "resetAria": "Reiniciar investigacion"
+    },
+    "popup": {
+      "evidenceKicker": "EVIDENCIA",
+      "conclusionKicker": "CONCLUSION:"
+    },
+    "carousel": {
+      "ariaLabel": "Imagenes de evidencia",
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "imageLabel": "Imagen {{number}}"
+    },
+    "network": {
+      "kicker": "EVIDENCIA DIGITAL",
+      "tabsAriaLabel": "Fuente de evidencia digital",
+      "messagesAriaLabel": "Evidencia de mensajes de texto",
+      "mapLocked": "MAPA BLOQUEADO",
+      "status": {
+        "locked": "BLOQUEADO",
+        "located": "LOCALIZADO"
+      },
+      "pins": {
+        "victim": {
+          "label": "Casa de la victima",
+          "context": "Distrito Medina"
+        },
+        "police": {
+          "label": "Comisaria",
+          "context": "Commissariat Central"
+        },
+        "karim": {
+          "label": "Ultima ubicacion de Karim",
+          "context": "Distrito Hassan"
+        }
+      },
+      "cleaner": {
+        "badge": "Entrevista con la limpiadora",
+        "title": "Detalles del primer visitante",
+        "arrival": "El primer visitante llego antes del amanecer, hacia las 05:00.",
+        "drunk": "La limpiadora lo describio como borracho.",
+        "short": "La limpiadora recordaba que el visitante era bajo."
+      }
+    },
+    "conclusions": {
+      "coroner": "FORENSE",
+      "substanceReport": "INFORME DE SUSTANCIAS"
+    },
+    "questions": {
+      "reviewedKicker": "EVIDENCIA REVISADA",
+      "noQuestion": "No hay pregunta para esta estacion.",
+      "kicker": "PREGUNTA",
+      "numberedKicker": "PREGUNTA {{current}} / {{total}}",
+      "singleHint": "Selecciona una respuesta",
+      "multiHint": "Selecciona {{count}} respuestas",
+      "reviewOnlyHint": "Revisa esta evidencia antes de continuar.",
+      "recordAnswer": "REGISTRAR RESPUESTA",
+      "markReviewed": "MARCAR REVISADA",
+      "recorded": "REGISTRADA",
+      "feedback": "Respuesta registrada para el analisis final.",
+      "conclusionKicker": "CONCLUSION",
+      "closeStation": "Cerrar evidencia"
+    },
+    "hints": {
+      "initial": "Toca un objeto del escritorio para inspeccionar la evidencia.",
+      "progress": "Evidencia revisada: {{completed}} / {{total}}. Toca un objeto del escritorio.",
+      "complete": "Toda la evidencia fue revisada. Toca la tablet para cerrar el caso.",
+      "idleReset": "Sesion reiniciada por inactividad."
+    },
+    "reveal": {
+      "analysisComplete": "ANALISIS COMPLETO",
+      "caseSolved": "CASO RESUELTO",
+      "caseInconclusive": "CASO NO CONCLUYENTE",
+      "killerIs": "El asesino es...",
+      "wrongAccused": "Acusaste a la persona equivocada. El asesino era...",
+      "winText": "La evidencia forense converge: el motivo de la cocaina falsa, las iniciales ocultas en el bloque bajo UV, la coincidencia de fibras entre el boton perdido y la rama rota, y la silla limpiada confirman al asesino.",
+      "loseText": "Reexamina la evidencia: el bloque de cocaina falsa, las iniciales ocultas bajo UV, la coincidencia de fibras y la silla limpiada apuntan todos a una sola persona."
+    }
+  }
+}

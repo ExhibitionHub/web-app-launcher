@@ -1,0 +1,201 @@
+{
+  "app": {
+    "title": "Van Gogh Board"
+  },
+  "home": {
+    "title": "Van Gogh malte oft dieselben Motive ... auf unterschiedliche Weise.",
+    "text": "Welche Version spricht Sie an?",
+    "button": "Start"
+  },
+  "errors": {
+    "experienceLoad": {
+      "title": "Erlebnis konnte nicht geladen werden",
+      "text": "Das Erlebnis kann im Moment nicht geladen werden. Bitte versuchen Sie es erneut."
+    }
+  },
+  "final": {
+    "title": "So fuhlt sich die Welt an.",
+    "text": "So haben Besucherinnen und Besucher ihre Lieblingsthemen eingeordnet.",
+    "empty": "Das Ranking erscheint nach den ersten Auswahlen."
+  },
+  "categoryChoice": {
+    "title": "Was bleibt Ihnen am meisten?",
+    "text": "Welche Kategorie spricht Sie uber all diese Gemalde hinweg am meisten an?"
+  },
+  "years": {
+    "1888": "1888",
+    "1889": "1889",
+    "1890": "1890"
+  },
+  "steps": {
+    "sunflowers": {
+      "title": "Sonnenblumen",
+      "text": "Van Gogh malte Sonnenblumen mehrfach. Welche Version spricht Sie an?",
+      "options": {
+        "sunflowers": "Sonnenblumen"
+      },
+      "results": {
+        "1888": [
+          "Sie haben ein Sonnenblumen-Gemalde von 1888 gewahlt.",
+          "Diese Version entstand in Arles, in einer Phase von Hoffnung und Erwartung.",
+          "Van Gogh setzte leuchtende Gelbtone und vollere Bluten ein, um Warme und Freundschaft auszudrucken."
+        ],
+        "1889": [
+          "Sie haben ein Sonnenblumen-Gemalde von 1889 gewahlt.",
+          "Diese Version entstand in Arles, in einer Phase von Hoffnung und Erwartung.",
+          "Van Gogh setzte leuchtende Gelbtone und vollere Bluten ein, um Warme und Freundschaft auszudrucken."
+        ]
+      }
+    },
+    "bedroom": {
+      "title": "Schlafzimmer in Arles",
+      "text": "Van Gogh malte sein Schlafzimmer dreimal. Welcher Raum wirkt auf Sie friedlicher?",
+      "options": {
+        "bedroom": "Schlafzimmer"
+      },
+      "results": {
+        "1888": [
+          "Sie haben die Version von 1888 gewahlt.",
+          "Dies war das ursprungliche Bild seines Zimmers in Arles.",
+          "Kräftige Farben und vereinfachte Formen sollten Ruhe und Gelassenheit vermitteln."
+        ],
+        "1889": [
+          "Sie haben die Version von 1889 gewahlt.",
+          "Dies war das ursprungliche Bild seines Zimmers in Arles.",
+          "Kräftige Farben und vereinfachte Formen sollten Ruhe und Gelassenheit vermitteln."
+        ]
+      }
+    },
+    "night": {
+      "title": "Nacht",
+      "text": "Van Gogh malte die Nacht auf ganz unterschiedliche Weise. Welche Version steht Ihnen am nahesten?",
+      "options": {
+        "theStarryNight": "Sternennacht",
+        "starryNightOverTheRhone": "Sternennacht uber der Rhone",
+        "cafeTerraceAtNight": "Cafeterasse bei Nacht",
+        "roadWithCypressAndStar": "Strasse mit Zypresse und Stern"
+      },
+      "results": {
+        "1888": [
+          "Sie haben eine Nachtszene aus dem Jahr 1888 gewahlt.",
+          "Einige Nachtbilder Van Goghs entspringen der Vorstellung, andere zeigen reale Orte.",
+          "Jedes davon druckt eine andere Art aus, die Nacht wahrzunehmen."
+        ],
+        "1889": [
+          "Sie haben eine Nachtszene aus dem Jahr 1889 gewahlt.",
+          "Einige Nachtbilder Van Goghs entspringen der Vorstellung, andere zeigen reale Orte.",
+          "Jedes davon druckt eine andere Art aus, die Nacht wahrzunehmen."
+        ],
+        "1890": [
+          "Sie haben eine Nachtszene aus dem Jahr 1890 gewahlt.",
+          "Einige Nachtbilder Van Goghs entspringen der Vorstellung, andere zeigen reale Orte.",
+          "Jedes davon druckt eine andere Art aus, die Nacht wahrzunehmen."
+        ]
+      }
+    },
+    "wheatfields": {
+      "title": "Weizenfelder",
+      "text": "Van Gogh malte viele Weizenfelder. Welche Landschaft wirkt auf Sie friedlicher?",
+      "options": {
+        "wheatfieldWithCrows": "Weizenfeld mit Krahen",
+        "wheatfieldUnderThunderclouds": "Weizenfeld unter Gewitterwolken",
+        "greenWheatfieldWithCypress": "Grunes Weizenfeld mit Zypresse",
+        "wheatfieldsNearAuvers": "Weizenfelder bei Auvers"
+      },
+      "results": {
+        "1889": [
+          "Sie haben ein Weizenfeld von 1889 gewahlt.",
+          "Van Gogh nutzte Landschaften, um Gefuhle auszudrucken.",
+          "Manche wirken ruhig, andere tragen Spannung und Bewegung in sich."
+        ],
+        "1890": [
+          "Sie haben ein Weizenfeld von 1890 gewahlt.",
+          "Van Gogh nutzte Landschaften, um Gefuhle auszudrucken.",
+          "Manche wirken ruhig, andere tragen Spannung und Bewegung in sich."
+        ]
+      }
+    },
+    "flowers": {
+      "title": "Blumen",
+      "text": "Van Gogh malte Blumen als Zeichen von Leben und Erneuerung. Welche Version wirkt auf Sie am zartesten?",
+      "options": {
+        "almondBlossom": "Mandelblute",
+        "irises": "Schwertlilien",
+        "roses": "Rosen"
+      },
+      "results": {
+        "1889": [
+          "Sie haben ein Blumenbild von 1889 gewahlt.",
+          "Diese Werke stehen oft fur Neubeginn, Gleichgewicht und Zerbrechlichkeit."
+        ],
+        "1890": [
+          "Sie haben ein Blumenbild von 1890 gewahlt.",
+          "Diese Werke stehen oft fur Neubeginn, Gleichgewicht und Zerbrechlichkeit."
+        ]
+      }
+    },
+    "portraits": {
+      "title": "Portrats",
+      "text": "Van Gogh malte dieselbe Person mehrfach. Welches Portrat wirkt auf Sie menschlicher?",
+      "options": {
+        "portrait": "Portrat"
+      },
+      "details": {
+        "blueBackground": "(blauer Hintergrund)",
+        "floralBackground": "(floraler Hintergrund)",
+        "greenTones": "(grune Tone)"
+      },
+      "results": {
+        "1888": [
+          "Sie haben ein Portrat aus dem Jahr 1888 gewahlt.",
+          "Van Gogh erforschte Gefuhle uber Farbe, Hintergrund und Ausdruck."
+        ],
+        "1889": [
+          "Sie haben ein Portrat aus dem Jahr 1889 gewahlt.",
+          "Van Gogh erforschte Gefuhle uber Farbe, Hintergrund und Ausdruck."
+        ]
+      }
+    },
+    "chairs": {
+      "title": "Stuhle",
+      "text": "Van Gogh malte zwei Stuhle. Jeder steht fur eine andere Persohnlichkeit. Welcher wirkt auf Sie prasenter?",
+      "options": {
+        "vanGoghChair": "Van Goghs Stuhl",
+        "gauguinChair": "Gauguins Stuhl"
+      },
+      "results": {
+        "shared": [
+          "Diese Stuhle stehen fur zwei unterschiedliche Personen.",
+          "Van Goghs Stuhl wirkt schlicht und bodenstandig.",
+          "Gauguins Stuhl erscheint dunkler und symbolischer."
+        ]
+      }
+    }
+  },
+  "ranking": {
+    "sunflowers1888": "Sonnenblumen (1888)",
+    "sunflowers1889": "Sonnenblumen (1889)",
+    "bedroom1888": "Schlafzimmer (1888)",
+    "bedroom1889": "Schlafzimmer (1889)",
+    "theStarryNight": "Sternennacht",
+    "starryNightOverTheRhone": "Sternennacht uber der Rhone",
+    "cafeTerraceAtNight": "Cafeterasse bei Nacht",
+    "roadWithCypressAndStar": "Strasse mit Zypresse und Stern",
+    "wheatfieldWithCrows": "Weizenfeld mit Krahen",
+    "wheatfieldUnderThunderclouds": "Weizenfeld unter Gewitterwolken",
+    "greenWheatfieldWithCypress": "Grunes Weizenfeld mit Zypresse",
+    "wheatfieldsNearAuvers": "Weizenfelder bei Auvers",
+    "almondBlossom": "Mandelblute",
+    "irises": "Schwertlilien",
+    "roses": "Rosen",
+    "portrait1888Blue": "Portrat (1888)",
+    "portrait1888Floral": "Portrat (1888)",
+    "portrait1889Green": "Portrat (1889)",
+    "vanGoghChair": "Van Goghs Stuhl",
+    "gauguinChair": "Gauguins Stuhl"
+  },
+  "aria": {
+    "home": "Startseite",
+    "next": "Weiter"
+  }
+}

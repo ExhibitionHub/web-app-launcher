@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "pageTitle": "Map of Wonder"
+  },
+  "common": {
+    "home": "Home",
+    "backToMainMenu": "Return to home screen",
+    "languageSelector": "Language selector",
+    "controls": "Controls",
+    "toggleControls": "Toggle controls",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "reset": "Home"
+  },
+  "mapApp": {
+    "filters": {
+      "all": "All",
+      "ancient": "Ancient",
+      "modern": "Modern"
+    },
+    "idle": {
+      "logoAlt": "Map of Wonder",
+      "subtitle": "Explore the wonders of the world",
+      "loading": "Loading..."
+    },
+    "loading": {
+      "errorPrefix": "Error",
+      "startFailure": "Unable to start the map. Check the kiosk runtime or asset paths.",
+      "stuckMessage": "Loading is stuck ({{stages}}). Check the resources.",
+      "stages": {
+        "texture": "texture",
+        "model": "model",
+        "data": "data"
+      }
+    },
+    "categories": {
+      "ancient": "Ancient",
+      "modern": "Modern"
+    },
+    "popup": {
+      "cardAriaFallback": "Wonder details",
+      "imageAltFallback": "Image",
+      "imageUnavailable": "Image unavailable",
+      "detailsPending": "Details to be confirmed.",
+      "meta": {
+        "location": "Location",
+        "built": "Built",
+        "destroyed": "Destroyed"
+      },
+      "quickFact": "Fact {{number}}",
+      "quickFactAlt": "{{name}} - fact {{number}}",
+      "quickFactFallback": "Quick fact coming soon.",
+      "pageHint": "Use the arrows or dots to change the content.",
+      "navigationAria": "Card navigation",
+      "goToPage": "Go to page {{number}}",
+      "previousPage": "Previous page",
+      "nextPage": "Next page",
+      "close": "Close",
+      "closeAria": "Close the card"
+    }
+  }
+}

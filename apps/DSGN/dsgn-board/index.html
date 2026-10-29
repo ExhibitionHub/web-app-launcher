@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="i18n-base" content="./lang/" />
+  <meta name="i18n-default-lang" content="en" />
+  <meta name="i18n-supported-langs" content="en,fr,ar,es" />
+  <meta name="i18n-lock-lang" content="false" />
+  <meta name="i18n-force-dir" content="ltr" />
+  <meta name="i18n-title-key" content="meta.pageTitle" />
+  <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+  <meta name="kiosk-home" content="./index.html" />
+  <meta name="kiosk-timeout-ms" content="60000" />
+  <title data-i18n="meta.pageTitle">DSGN Board — Investigation</title>
+  <link rel="stylesheet" href="./style/app.css?v=final-feedback-flow-4" />
+</head>
+<body>
+  <aside class="app-controls" aria-label="App controls" data-i18n-attr="aria-label:ui.controls.label">
+    <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:ui.controls.languageGroup">
+      <button class="lang-switch__option" type="button" data-lang-option="en" aria-label="English" data-i18n-attr="aria-label:ui.controls.languages.en;title:ui.controls.languages.en">EN</button>
+      <button class="lang-switch__option" type="button" data-lang-option="fr" aria-label="Français" data-i18n-attr="aria-label:ui.controls.languages.fr;title:ui.controls.languages.fr">FR</button>
+      <button class="lang-switch__option" type="button" data-lang-option="ar" aria-label="العربية" data-i18n-attr="aria-label:ui.controls.languages.ar;title:ui.controls.languages.ar">AR</button>
+      <button class="lang-switch__option" type="button" data-lang-option="es" aria-label="Español" data-i18n-attr="aria-label:ui.controls.languages.es;title:ui.controls.languages.es">ES</button>
+    </div>
+    <button class="app-reset" id="goHome" type="button" data-i18n="ui.actions.reset" data-i18n-attr="aria-label:ui.actions.resetAria;title:ui.actions.resetAria">Reset</button>
+  </aside>
+
+  <main class="board" data-app="dsgn-board" aria-label="Investigation Board" data-i18n-attr="aria-label:ui.aria.board">
+    <div class="scene" id="scene">
+      <!-- Table surface -->
+      <img class="desk" src="ressource/images/board/desk-background.webp" alt="" />
+
+      <!-- Physical evidence objects placed on the table -->
+      <button class="obj obj--microscope"  data-station="fiber"        aria-label="Fiber analysis" data-i18n-attr="aria-label:ui.aria.fiber"
+              style="--x:1.5%; --y:2.5%; --w:16%; --rot:-7deg;">
+        <span class="obj-body obj-body--single">
+          <img class="piece" src="ressource/images/board/microscope.webp" alt="" />
+        </span>
+      </button>
+
+      <div class="fiber-capsules" aria-hidden="true">
+        <img class="fiber-capsule fiber-capsule--a" src="ressource/images/board/fiber-sample-1.webp" alt="" />
+        <img class="fiber-capsule fiber-capsule--b" src="ressource/images/board/fiber-sample-2.webp" alt="" />
+        <img class="fiber-capsule fiber-capsule--c" src="ressource/images/board/fiber-sample-3.webp" alt="" />
+        <img class="fiber-capsule fiber-capsule--d" src="ressource/images/board/fiber-sample-4.webp" alt="" />
+      </div>
+
+      <button class="obj obj--laptop"      data-station="network"      aria-label="Cellular & network data" data-i18n-attr="aria-label:ui.aria.network"
+              style="--x:24%; --y:2%; --w:35%; --rot:0deg;">
+        <span class="obj-body obj-body--single">
+          <img class="piece" src="ressource/images/board/laptop.webp" alt="" />
+        </span>
+      </button>
+
+      <button class="obj obj--dna"         data-station="dna"          aria-label="DNA comparison" data-i18n-attr="aria-label:ui.aria.dna"
+              style="--x:61%; --y:2%; --w:32%; --rot:3deg;">
+        <img class="dna-cables" src="ressource/images/board/dna-cables.webp" alt="" aria-hidden="true" />
+        <span class="obj-body dna-object">
+          <img class="piece dna-sample" src="ressource/images/board/blood-sample.webp" alt="" />
+          <img class="piece dna-sampler" src="ressource/images/board/blood-sampler.webp" alt="" />
+        </span>
+      </button>
+
+      <button class="obj obj--toxicology"  data-station="toxicology"   aria-label="Coroner and substance reports" data-i18n-attr="aria-label:ui.aria.toxicology"
+              style="--x:2%; --y:49%; --w:27%; --rot:-2deg;">
+        <span class="obj-body folder-stack">
+          <img class="piece folder-back" src="ressource/images/board/folder-coroner.webp" alt="" />
+          <img class="piece folder-front" src="ressource/images/board/folder-substance.webp" alt="" />
+        </span>
+      </button>
+
+      <button class="obj obj--light"       data-station="light"        aria-label="Light wavelength photos" data-i18n-attr="aria-label:ui.aria.light"
+              style="--x:32%; --y:58%; --w:13%; --rot:12deg;">
+        <span class="obj-body obj-body--single">
+          <img class="piece" src="ressource/images/board/light-folder.webp" alt="" />
+        </span>
+      </button>
+
+      <button class="obj obj--fingerprint" data-station="fingerprints" aria-label="Fingerprint report" data-i18n-attr="aria-label:ui.aria.fingerprints"
+              style="--x:49%; --y:59%; --w:14%; --rot:-4deg;">
+        <span class="obj-body obj-body--single">
+          <img class="piece" src="ressource/images/board/fingerprint-report.webp" alt="" />
+        </span>
+      </button>
+
+      <!-- Tablet: live web UI matched to TABLET_clean reference -->
+      <section class="tablet" id="tablet" aria-label="Profile overview" data-i18n-attr="aria-label:ui.tablet.profileOverview"
+               style="--x:68.2%; --y:40.9%; --w:23.4%; --rot:2deg;">
+        <img class="tablet-frame" src="ressource/images/board/tablet-frame.webp" alt="" aria-hidden="true" />
+        <div class="tablet-screen">
+          <header class="tablet-head">
+            <div class="tablet-meta" aria-hidden="true">
+              <span>2024</span>
+              <span data-i18n="ui.tablet.agency">GENERAL DIRECTORATE OF NATIONAL SECURITY OF MOROCCO</span>
+            </div>
+            <span class="tablet-rule" aria-hidden="true"></span>
+            <h2 data-i18n="ui.tablet.title">CRIMINAL INVESTIGATION - PROFILE OVERVIEW</h2>
+          </header>
+          <div class="tablet-body">
+            <div class="profile profile--victim">
+              <div class="profile-visual">
+                <img src="ressource/images/profiles/victim-portrait.webp" alt="Youssef" />
+                <p class="profile-tag"><span class="profile-icon" aria-hidden="true"></span><span data-i18n="ui.tablet.profiles.victimProfile">VICTIM PROFILE</span></p>
+              </div>
+              <dl class="profile-details">
+                <div>
+                  <dt data-i18n="ui.tablet.labels.category">CATEGORY</dt>
+                  <dd data-i18n="ui.tablet.profiles.victim.category">Victim</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.name">NAME</dt>
+                  <dd>Youssef</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.role">ROLE</dt>
+                  <dd data-i18n="ui.tablet.profiles.victim.role">Victim</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.age">AGE</dt>
+                  <dd data-i18n="ui.tablet.profiles.victim.age">34yo</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.height">HEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.victim.height">175cm</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.weight">WEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.victim.weight">68kg</dd>
+                </div>
+              </dl>
+            </div>
+            <div class="profile profile--suspect" data-suspect="samir">
+              <div class="profile-visual">
+                <img src="ressource/images/profiles/samir-portrait.webp" alt="Samir" />
+                <p class="profile-tag"><span class="profile-icon" aria-hidden="true"></span><span data-i18n="ui.tablet.profiles.suspectAProfile">SUSPECT A PROFILE</span></p>
+              </div>
+              <dl class="profile-details">
+                <div>
+                  <dt data-i18n="ui.tablet.labels.category">CATEGORY</dt>
+                  <dd data-i18n="ui.tablet.profiles.samir.category">Visitor 2</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.name">NAME</dt>
+                  <dd>Samir</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.role">ROLE</dt>
+                  <dd data-i18n="ui.tablet.profiles.samir.role">Suspect A</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.age">AGE</dt>
+                  <dd data-i18n="ui.tablet.profiles.samir.age">32yo</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.height">HEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.samir.height">180cm</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.weight">WEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.samir.weight">65kg</dd>
+                </div>
+              </dl>
+              <div class="profile-meter">
+                <div class="bar"><span class="bar-fill" data-fill="samir"></span></div>
+                <p class="bar-pct" data-pct="samir">0%</p>
+              </div>
+            </div>
+            <div class="profile profile--suspect" data-suspect="karim">
+              <div class="profile-visual">
+                <img src="ressource/images/profiles/karim-portrait.webp" alt="Karim" />
+                <p class="profile-tag"><span class="profile-icon" aria-hidden="true"></span><span data-i18n="ui.tablet.profiles.suspectBProfile">SUSPECT B PROFILE</span></p>
+              </div>
+              <dl class="profile-details">
+                <div>
+                  <dt data-i18n="ui.tablet.labels.category">CATEGORY</dt>
+                  <dd data-i18n="ui.tablet.profiles.karim.category">Visitor 1</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.name">NAME</dt>
+                  <dd>Karim</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.role">ROLE</dt>
+                  <dd data-i18n="ui.tablet.profiles.karim.role">Suspect B</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.age">AGE</dt>
+                  <dd data-i18n="ui.tablet.profiles.karim.age">29yo</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.height">HEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.karim.height">170cm</dd>
+                </div>
+                <div>
+                  <dt data-i18n="ui.tablet.labels.weight">WEIGHT</dt>
+                  <dd data-i18n="ui.tablet.profiles.karim.weight">58kg</dd>
+                </div>
+              </dl>
+              <div class="profile-meter">
+                <div class="bar"><span class="bar-fill" data-fill="karim"></span></div>
+                <p class="bar-pct" data-pct="karim">0%</p>
+              </div>
+            </div>
+          </div>
+          <button class="cta-analyze" id="ctaAnalyze" disabled><span class="cta-icon" aria-hidden="true"></span><span data-i18n="ui.actions.analyze">Analyze result</span></button>
+        </div>
+      </section>
+
+      <p class="board-status" id="boardHint" aria-live="polite" data-i18n="ui.hints.initial">Tap an item on the desk to inspect the evidence.</p>
+    </div>
+
+    <div class="popup" id="popup" hidden aria-hidden="true">
+      <div class="tablet-preview-mount" id="tabletPreviewMount" aria-hidden="true"></div>
+      <div class="popup-card" role="dialog" aria-modal="true" aria-labelledby="popupTitle">
+        <button class="popup-close" id="popupClose" aria-label="Close" data-i18n-attr="aria-label:ui.actions.close">×</button>
+        <div class="popup-grid">
+          <div class="popup-left">
+            <section class="popup-zone popup-conclusion" aria-labelledby="popupTitle">
+              <p class="kicker" id="popupKicker" data-i18n="ui.popup.evidenceKicker">EVIDENCE</p>
+              <h2 id="popupTitle">Title</h2>
+              <div class="conclusion">
+                <p class="kicker" data-i18n="ui.popup.conclusionKicker">CONCLUSION:</p>
+                <p id="popupConclusion"></p>
+              </div>
+            </section>
+            <section class="popup-zone popup-evidence" aria-label="Evidence images" data-i18n-attr="aria-label:ui.carousel.ariaLabel">
+              <div class="carousel" id="carousel">
+                <button class="car-btn prev" id="carPrev" aria-label="Previous" data-i18n-attr="aria-label:ui.carousel.previous">‹</button>
+                <div class="car-stage"><img id="carImg" alt="" /></div>
+                <button class="car-btn next" id="carNext" aria-label="Next" data-i18n-attr="aria-label:ui.carousel.next">›</button>
+              </div>
+              <div class="car-dots" id="carDots"></div>
+              <div class="network-stage" id="networkStage" hidden></div>
+            </section>
+          </div>
+          <section class="popup-zone popup-question" id="popupQuestion"></section>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal" id="reveal" hidden>
+      <div class="reveal-card">
+        <header class="reveal-head">
+          <div class="reveal-meta" aria-hidden="true">
+            <span>2024</span>
+            <span data-i18n="ui.tablet.agency">GENERAL DIRECTORATE OF NATIONAL SECURITY OF MOROCCO</span>
+          </div>
+          <span class="reveal-rule" aria-hidden="true"></span>
+          <p class="kicker" id="revealKicker" data-i18n="ui.reveal.analysisComplete">ANALYSIS COMPLETE</p>
+          <h2 id="revealTitle" data-i18n="ui.reveal.killerIs">The killer is…</h2>
+        </header>
+        <div class="reveal-result">
+          <div class="reveal-profile" id="revealProfile"></div>
+          <div class="reveal-details">
+            <p class="reveal-name" id="revealName"></p>
+            <p id="revealText"></p>
+          </div>
+        </div>
+        <span class="reveal-meter" aria-hidden="true"><span></span></span>
+        <button class="cta-analyze is-ready" id="revealClose" data-i18n="ui.actions.closeCase">Close case</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="./lib/i18n.js?v=final-feedback-flow-4"></script>
+  <script src="../../../assets/tracking.js"></script>
+  <script type="module" src="./src/app.js?v=final-feedback-flow-4"></script>
+</body>
+</html>

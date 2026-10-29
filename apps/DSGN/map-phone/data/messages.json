@@ -1,0 +1,139 @@
+{
+  "details": {
+    "conversations": {
+      "threads": {
+        "neighbor": {
+          "label": "Housekeeper thread",
+          "badge": "Housekeeper — early morning",
+          "summary": "The housekeeper, Fatima, arrives early, notices something is off, tries to reach Youssef several times, then calls the police.",
+          "insights": [
+            "She reaches the house before dawn and spots an unusual light pattern.",
+            "Two missed calls remain unanswered.",
+            "She escalates and calls the police at 6:30am."
+          ],
+          "messages": [
+            {
+              "author": "Fatima",
+              "time": "05:48",
+              "text": "I'm outside. Are you okay? Your lights are never on at this time."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:12",
+              "text": "I'm ringing and there's no answer."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:24",
+              "text": "Calling you again. Pick up please."
+            },
+            {
+              "author": "Fatima",
+              "time": "06:30",
+              "text": "I'm calling the police."
+            }
+          ]
+        },
+        "karim": {
+          "label": "Karim thread",
+          "badge": "Drug deal — invited",
+          "summary": "Karim is upset about the deal, says he is coming over. Youssef invites him in to talk it out.",
+          "insights": [
+            "Tension around the transaction.",
+            "Karim announces his visit explicitly.",
+            "Youssef explicitly invites him over."
+          ],
+          "messages": [
+            {
+              "author": "Karim",
+              "time": "23:18",
+              "text": "What the heck man"
+            },
+            {
+              "author": "Karim",
+              "time": "23:19",
+              "text": "I'm coming over, I'm not sure what game you're playing"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:22",
+              "text": "All good man, relax. Come for a drink and let's chat"
+            },
+            {
+              "author": "Karim",
+              "time": "23:24",
+              "text": "I'm coming, see ya soon"
+            }
+          ]
+        },
+        "samir": {
+          "label": "Samir thread",
+          "badge": "Drunk — not invited",
+          "summary": "A week earlier Samir is upset about a girl. The night of the incident he is drunk, not invited, and shows up anyway. The morning after he doesn't remember.",
+          "insights": [
+            "Old grievance about a shared interest in a girl.",
+            "Drunk and insistent the night of the incident.",
+            "Morning-after messages show memory gaps."
+          ],
+          "messages": [
+            {
+              "author": "Samir",
+              "time": "May 10",
+              "text": "Dude, I told you not to kiss her - I LIKE her a lot"
+            },
+            {
+              "author": "Samir",
+              "time": "May 10",
+              "text": "Honestly, pisses me off… I trusted you"
+            },
+            {
+              "author": "Youssef",
+              "time": "May 10",
+              "text": "She doesn't even like you Sam, just chill."
+            },
+            {
+              "author": "Youssef",
+              "time": "May 10",
+              "text": "Come for a sniff, chilll"
+            },
+            {
+              "author": "Samir",
+              "time": "23:41",
+              "text": "Broo, I'm kind trashed.. Still upset!"
+            },
+            {
+              "author": "Samir",
+              "time": "23:46",
+              "text": "Let's partyy a bit, I need a little sniff. A pick meupwdp"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:48",
+              "text": "Not a good time, tomorrow"
+            },
+            {
+              "author": "Youssef",
+              "time": "23:49",
+              "text": "NO, not tonight"
+            },
+            {
+              "author": "Samir",
+              "time": "23:55",
+              "text": "Donn't be like thatt, I'm comminn"
+            },
+            {
+              "author": "Samir",
+              "time": "06:30",
+              "text": "Bro I passed out, I'm gunna have a shower n come down"
+            },
+            {
+              "author": "Samir",
+              "time": "07:12",
+              "text": "Tell me what happened, if you're awake"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

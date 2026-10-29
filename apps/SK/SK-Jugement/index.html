@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="meta.pageTitle" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <title data-i18n="meta.pageTitle"></title>
+    <link rel="stylesheet" href="style/app.css?v=20260326b">
+</head>
+<body>
+    <main class="kiosk" data-step="1">
+        <div class="kiosk__branding">
+            <div>
+                <p class="branding__eyebrow" data-i18n="branding.eyebrow"></p>
+                <p class="branding__title" data-i18n="branding.title"></p>
+            </div>
+            <nav class="lang-switcher lang-switcher--judgment" data-lang-switcher data-i18n-attr="aria-label:navigation.languageSelector" aria-label="Language selector"></nav>
+        </div>
+
+        <div class="kiosk__viewport">
+            <section class="screen screen--intro" data-step="1" data-active="true" aria-labelledby="intro-title">
+                <div class="screen__hero">
+                    <div class="hero">
+                        <div class="hero__overlay"></div>
+                        <div class="hero__content">
+                            <h1 id="intro-title" data-i18n="hero.title"></h1>
+                            <p class="hero__tagline" data-i18n="hero.tagline"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen__context">
+                    <div class="context-card">
+                        <h2 data-i18n="background.title"></h2>
+                        <p data-i18n="background.copy"></p>
+                    </div>
+                    <div class="context-card">
+                        <h2 data-i18n="howTo.title"></h2>
+                        <ol id="howto-list"></ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="screen screen--charges" data-step="2" data-active="false" aria-labelledby="charges-title">
+                <div class="section-header">
+                    <h2 id="charges-title" data-i18n="charges.title"></h2>
+                    <p class="section-subcopy" data-i18n="charges.intro"></p>
+                </div>
+                <div class="charges-grid" id="charges-grid"></div>
+            </section>
+
+            <section class="screen screen--evidence" data-step="3" data-active="false" aria-labelledby="evidence-title">
+                <div class="section-header section-header--compact">
+                    <div class="section-copy">
+                        <h2 id="evidence-title" data-i18n="evidence.heading"></h2>
+                        <p data-i18n="evidence.subheading"></p>
+                    </div>
+                    <p class="evidence__status" id="evidence-status" aria-live="polite">
+                    </p>
+                </div>
+                <div class="evidence__layout">
+                    <nav class="evidence__nav" data-i18n-attr="aria-label:evidence.nav.ariaLabel" aria-label="Evidence list">
+                        <ul id="evidence-list"></ul>
+                    </nav>
+                    <article class="evidence__detail" id="evidence-detail" aria-live="polite">
+                    </article>
+                </div>
+            </section>
+
+            <section class="screen screen--verdict" data-step="4" data-active="false" aria-labelledby="verdict-title">
+                <div class="section-header">
+                    <h2 id="verdict-title" data-i18n="verdict.title"></h2>
+                    <p data-i18n="verdict.prompt"></p>
+                </div>
+                <div class="verdict__choices">
+                    <button class="choice" data-choice="death" data-i18n="verdict.choices.death"></button>
+                    <button class="choice" data-choice="life" data-i18n="verdict.choices.life"></button>
+                    <button class="choice" data-choice="insanity" data-i18n="verdict.choices.insanity"></button>
+                </div>
+                <p class="verdict__hint" data-i18n="verdict.hint"></p>
+            </section>
+
+            <section class="screen screen--results" data-step="5" data-active="false" aria-labelledby="results-title">
+                <div class="section-header">
+                    <h2 id="results-title" data-i18n="results.title"></h2>
+                    <p data-i18n="results.description"></p>
+                </div>
+                <div class="verdict__feedback" id="verdict-feedback" aria-live="polite"></div>
+                <div class="verdict__tally" id="verdict-tally"></div>
+                <p class="verdict__footer" data-i18n="results.footer"></p>
+            </section>
+        </div>
+
+        <footer class="kiosk__controls">
+            <button type="button" class="nav-button nav-button--restart" data-action="restart" data-i18n="navigation.nextLabels.restart"></button>
+            <p class="nav-alert" id="nav-alert" role="status" aria-live="polite" hidden></p>
+            <button type="button" class="nav-button nav-button--next" data-action="next" data-i18n="navigation.continue"></button>
+        </footer>
+    </main>
+
+    <script src="./lib/i18n.js?v=20260326a"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script src="src/app.js?v=20260326a" defer></script>
+</body>
+</html>

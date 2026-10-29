@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#080608" />
+  <meta name="i18n-base" content="./lang/" />
+  <meta name="i18n-default-lang" content="en" />
+  <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+  <meta name="i18n-lock-lang" content="false" />
+  <meta name="i18n-title-key" content="panelApp.pageTitle" />
+  <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,embed,view,panel,panelId,content,contentId,id" />
+  <title data-i18n="panelApp.pageTitle">SK Translation</title>
+  <link rel="stylesheet" href="./style/theme.css?v=20260703e" />
+  <link rel="stylesheet" href="./style/app.css?v=20260703f" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <nav class="lang-switcher" data-lang-switcher data-i18n-attr="aria-label:common.languageSelector" aria-label="Language selector"></nav>
+    </header>
+
+    <main class="stage-shell">
+      <div id="view-stack" class="view-stack" data-view="home" data-direction="forward">
+        <section class="app-view app-view--home is-active" data-view="home" aria-hidden="false">
+          <div class="view-scene view-scene--home">
+            <article id="home-resume-card" class="resume-card scene-block" style="--scene-delay: 60ms">
+              <h1 id="home-current-panel-title" class="resume-card__title"></h1>
+            </article>
+          </div>
+        </section>
+
+        <section class="app-view app-view--scan" data-view="scan" aria-hidden="true">
+          <div class="view-scene view-scene--scan">
+            <article id="scanner" class="scanner-card scene-block" style="--scene-delay: 60ms" aria-live="polite">
+              <div class="scanner-card__header">
+                <p class="scanner__title" data-i18n="panelApp.scanner.title">Scan the QR code</p>
+                <span id="scanner-pill" class="scanner__pill">QR</span>
+              </div>
+
+              <div class="scanner__viewport">
+                <video id="scanner-video" class="scanner__video" playsinline muted autoplay></video>
+                <div class="scanner__noise"></div>
+                <div class="scanner__overlay" aria-hidden="true">
+                  <span class="scanner__corner scanner__corner--tl"></span>
+                  <span class="scanner__corner scanner__corner--tr"></span>
+                  <span class="scanner__corner scanner__corner--bl"></span>
+                  <span class="scanner__corner scanner__corner--br"></span>
+                  <span class="scanner__beam"></span>
+                </div>
+                <div id="scanner-placeholder" class="scanner__placeholder"></div>
+              </div>
+
+              <p id="scanner-status" class="scanner__status"></p>
+            </article>
+
+            <div class="scan-actions scene-block" style="--scene-delay: 120ms">
+              <button id="scan-toggle-btn" class="toolbar-btn" type="button" data-i18n="panelApp.scan.openButton">Start scan</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="app-view app-view--list" data-view="list" aria-hidden="true">
+          <div class="view-scene view-scene--list">
+            <div id="panel-list" class="panel-list scene-block" style="--scene-delay: 60ms"></div>
+          </div>
+        </section>
+
+        <section class="app-view app-view--panel" data-view="panel" aria-hidden="true">
+          <div class="view-scene view-scene--panel">
+            <article id="panel-card" class="panel-card scene-block" style="--scene-delay: 60ms" aria-live="polite">
+              <h1 id="panel-title" class="panel-title"></h1>
+              <div id="panel-body" class="panel-body"></div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <nav class="dock-nav" data-i18n-attr="aria-label:panelApp.nav.aria">
+      <button class="dock-btn" type="button" data-nav-view="home">
+        <span class="dock-btn__label" data-i18n="panelApp.nav.home">Accueil</span>
+      </button>
+      <button class="dock-btn" type="button" data-nav-view="scan">
+        <span class="dock-btn__label" data-i18n="panelApp.nav.scan">Scan</span>
+      </button>
+      <button class="dock-btn" type="button" data-nav-view="list">
+        <span class="dock-btn__label" data-i18n="panelApp.nav.list">Panels</span>
+      </button>
+    </nav>
+
+    <p id="app-status" class="app-status" hidden></p>
+  </div>
+
+  <script src="./lib/i18n.js?v=20260703a"></script>
+  <script src="../../../assets/tracking.js"></script>
+  <script src="./src/app.js?v=20260703c" defer></script>
+</body>
+</html>

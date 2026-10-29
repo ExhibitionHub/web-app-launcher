@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "pageTitle": "Aileen Wuornos - Zou jij haar veroordeeld hebben?"
+  },
+  "branding": {
+    "eyebrow": "Interactieve strafervaring",
+    "title": "Aileen Wuornos - Zou jij haar veroordeeld hebben?"
+  },
+  "hero": {
+    "title": "Aileen Wuornos",
+    "tagline": "Zou jij in deze jury zitten? Bekijk het dossier, weeg het geweld dat ze heeft overleefd en spreek een vonnis uit."
+  },
+  "background": {
+    "title": "Achtergrond",
+    "copy": "Aileen Wuornos, een dakloze sekswerker, werd tussen 1989 en 1990 veroordeeld voor de moord op zes mannen in Florida. Ze overleefde meedogenloos misbruik en beweerde dat elke moord zelfverdediging was."
+  },
+  "howTo": {
+    "title": "Hoe deze kiosk te gebruiken",
+    "steps": [
+      "Bekijk de belangrijkste fragmenten uit de proces- en verdedigingsstrategie.",
+      "Volg verzachtende factoren: trauma, politiedruk, psychiatrische bevindingen.",
+      "Vul uw oordeel in en vergelijk het met eerdere bezoekers."
+    ]
+  },
+  "charges": {
+    "title": "Aanklachten en klachten",
+    "intro": "Staatsdossiers vermelden zes afzonderlijke moorden plus overvallen die verband houden met de vermiste eigendommen van de slachtoffers. Lees de taal die aanklagers gebruikten om Wuornos als roofdier af te schilderen.",
+    "items": [
+      {
+        "label": "Aanklachten wegens moord met voorbedachten rade",
+        "title": "Mallory, Spears en Carskaddon",
+        "image": "ressource/images/charge_1.png",
+        "summary": "In de aanklacht wordt beschreven dat ze chauffeurs aanhield, eerst de .22 trok en waardevolle spullen uitpakte voordat ze ze langs de weg achterlieten.",
+        "facts": [
+          {
+            "label": "Schoten",
+            "text": "Bij autopsies wordt melding gemaakt van strakke, puntloze clusters op de borst en het hoofd, die overeenkomen met hinderlaagexecuties."
+          },
+          {
+            "label": "Bewijs",
+            "text": "Latexhandschoenen, touw en het pistool dat uit haar kluisje werd gegrepen, gingen rechtstreeks naar de drie scènes."
+          },
+          {
+            "label": "Patroon",
+            "text": "Klachten vermelden dezelfde methode: lokken, ontwapenen, beroven en de lichamen in greppels dumpen."
+          }
+        ]
+      },
+      {
+        "label": "Klachten over diefstal en fraude",
+        "title": "Burress & Humphreys-families",
+        "image": "ressource/images/charge_2.png",
+        "summary": "Families dienden binnen enkele dagen na elke verdwijning fraudeklachten in zodra pionnenbriefjes, vervalste handtekeningen en ontbrekende identiteitskaarten aan het licht kwamen.",
+        "facts": [
+          {
+            "label": "Spoor van verpande goederen",
+            "text": "De camera, badge en sieraden van Burress werden verpand onder aliassen met haar vingerafdruk op het kaartje."
+          },
+          {
+            "label": "Kaarten",
+            "text": "Op de folio's van het motel en de benzinebonnen staan de creditcards van Humphreys die Wuornos uren na zijn verdwijning gebruikte."
+          },
+          {
+            "label": "Vervalsing",
+            "text": "Bankonderzoekers getuigden dat handtekeningen op cheques en DMV-formulieren overeenkwamen met haar handschrift, niet met dat van de slachtoffers."
+          }
+        ]
+      },
+      {
+        "label": "Verzwarende petities",
+        "title": "De verdwijning van Peter Siems",
+        "image": "ressource/images/charge_3.png",
+        "summary": "De zus van Moore en Siems heeft gezworen dat in de opgenomen bekentenissen wordt beschreven dat er geen getuigen achterblijven tijdens overvallen.",
+        "facts": [
+          {
+            "label": "Bekentenis",
+            "text": "Moore vertelde de onderzoekers dat Wuornos opschepte over het feit dat hij hem twee keer had neergeschoten 'zodat hij niet kon praten'."
+          },
+          {
+            "label": "Auto",
+            "text": "Zijn Oldsmobile werd verlaten aangetroffen en afgeveegd, terwijl haar handpalmafdruk op het deurglas zat."
+          },
+          {
+            "label": "Nasleep",
+            "text": "Barmannen meldden dat ze diezelfde avond nieuw contant geld had laten zien, wat het motief van de overval versterkte."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "heading": "Briefings om te beoordelen",
+    "subheading": "Open elk bewijsstuk om het oordeel te ontgrendelen.",
+    "status": {
+      "loading": "Briefings laden...",
+      "error": "Kan bewijsdossier niet laden. Ga voorzichtig te werk.",
+      "empty": "Er zijn geen bewijsbriefings beschikbaar.",
+      "complete": "Alle briefings beoordeeld. Ga verder met het vonnis.",
+      "incomplete": "{reviewed} van {total} briefings bekeken. Bekijk er nog {remaining} om het oordeel te onthullen."
+    },
+    "nav": {
+      "ariaLabel": "Bewijslijst",
+      "loading": "Briefings laden...",
+      "error": "Kan briefings niet laden.",
+      "empty": "Geen briefings beschikbaar.",
+      "selectPrompt": "Selecteer een bewijsstuk om alle details te laden."
+    }
+  },
+  "verdict": {
+    "title": "Juryoordeel",
+    "prompt": "Kies de zin waarvan u denkt dat deze net is nadat u het bewijsmateriaal en de verzachtende factoren hebt overwogen. Uw stem maakt de uitslag onmiddellijk bekend.",
+    "choices": {
+      "death": "Schuldig - doodvonnis",
+      "life": "Schuldig - levenslang in de gevangenis",
+      "insanity": "Niet schuldig wegens krankzinnigheid"
+    },
+    "hint": "De impact van uw beslissing kunt u zien in de onderstaande resultaten.",
+    "feedback": {
+      "preVote": "Breng uw stem uit om te onthullen hoe dit de resultaten verschuift.",
+      "verdictStep": "Kies een straf om de cumulatieve resultaten direct weer te geven.",
+      "otherStep": "Bekijk de briefings voordat u uw oordeel uitspreekt en de telling bekijkt.",
+      "template": "Jouw stem vertegenwoordigt {percentage}% van de geregistreerde beslissingen op deze kiosk. {alignment}",
+      "alignmentMatch": "Je sluit je aan bij de huidige meerderheid.",
+      "alignmentDifferent": "Uw beslissing wijkt af van de dominante trend."
+    }
+  },
+  "results": {
+    "title": "Cumulatieve resultaten",
+    "description": "Ontdek hoe uw oordeel zich verhoudt tot andere bezoekers van deze interactieve kiosk.",
+    "footer": "Gegevensaggregaten staan live op dit apparaat en worden periodiek gereset. Gebouwd op basis van rechtbanktranscripties en verdedigingsarchieven uit 1992."
+  },
+  "navigation": {
+    "languageSelector": "Taalkiezer",
+    "back": "Terug",
+    "continue": "Ga door",
+    "alerts": {
+      "reviewEvidenceFirst": "Controleer elke briefing voordat u een oordeel uitspreekt.",
+      "castVoteToSeeResults": "Breng uw stem uit om de resultaten bekend te maken."
+    },
+    "nextLabels": {
+      "restart": "Opnieuw beginnen",
+      "seeCharges": "Bekijk de aanklachten",
+      "reviewEvidence": "Bewijsmateriaal beoordelen",
+      "goToVerdict": "Naar het oordeel",
+      "continue": "Ga door"
+    }
+  },
+  "placeholders": {
+    "detailPrompt": "Selecteer een bewijsstuk om alle details te laden."
+  },
+  "tally": {
+    "countLabel": "{count} stemmen"
+  },
+  "evidenceData": [
+    {
+      "id": "abuse-history",
+      "title": "Gedocumenteerd kindermisbruik",
+      "image": "ressource/images/evidence_abuse-history.png",
+      "type": "Getuigenis van sociale diensten",
+      "summary": "Maatschappelijk werkers en familie-interviews beschrijven aanhoudend misbruik vanaf de vroege kinderjaren.",
+      "details": [
+        "Toen hij op vierjarige leeftijd bij alcoholische grootouders werd geplaatst, rapporteerde Wuornos in een rapport uit 1970 afranselingen, verkrachtingen en een groepsaanval op veertienjarige leeftijd.",
+        "Leraren beschreven een tiener die in schoolgangen sliep en seks uitwisselde voor voedsel en kleding.",
+        "In 1976 concludeerde een door de rechtbank aangestelde psychiater dat ze ernstige posttraumatische stress en dissociatieve symptomen had die voortkwamen uit chronisch trauma.",
+        "De verdediging merkte op dat verschillende mannelijke aanklagers al eerder waren veroordeeld wegens geweld of aanranding."
+      ],
+      "quote": "Ze heeft nooit een veilige plek gehad. Elke man die ze ontmoette, wilde haar lichaam kopen of meenemen.",
+      "attribution": "Victimologie-getuige-deskundige - hoorzitting op 14 januari 1992"
+    },
+    {
+      "id": "forensic-proof",
+      "title": "Forensisch bewijs en gestolen voorwerpen",
+      "image": "ressource/images/evidence_forensic-proof.png",
+      "type": "Bevindingen uit het misdaadlaboratorium",
+      "summary": "Staatsexperts schetsten het fysieke bewijs dat Wuornos met elk slachtoffer in verband bracht.",
+      "details": [
+        "Een revolver van .22-kaliber die werd teruggevonden in een opslagruimte die ze huurde, vuurde patronen af die overeenkwamen met scènes uit alle zes moorden.",
+        "Haar vingerafdrukken werden gevonden in de voertuigen van meerdere slachtoffers, samen met gebruikte hulzen gewikkeld in een handdoek die naar haar kamp waren getraceerd.",
+        "Uit pionnenstrookjes bleek dat ze binnen enkele uren na de moorden een camera, gereedschap en sieraden verkocht, samen met fotokopieën van de identiteitsbewijzen van de slachtoffers.",
+        "De snelwegpolitie haalde de portemonnee van Peter Siems uit een afvalcontainer bij een bar waar Wuornos getuige was van het vieren met contant geld."
+      ],
+      "quote": "De ballistische keten is ononderbroken: één wapen, zes moorden en elk artefact vloeide terug naar de verdachte.",
+      "attribution": "Ballistisch rapport van FDLE (Florida Department of Law Enforcement) - Bewijsstuk 137"
+    },
+    {
+      "id": "tyra-testimony",
+      "title": "Verklaring van Tyra Moore",
+      "image": "ressource/images/evidence_tyra-testimony.png",
+      "type": "Sleutelgetuigenverklaring",
+      "summary": "Moore detailleerde de bekentenissen die de juryleden ervan overtuigden dat het een geplande overval was die moord was geworden.",
+      "details": [
+        "Moore vertelde juryleden dat Wuornos toegaf dat hij als eerste het pistool had getrokken toen klanten zich verzetten tegen het afgeven van contant geld of voertuigen.",
+        "Ze beschreef het plannen van welke vrachtwagenchauffeurs het meest geïsoleerd leken en het repeteren van bijpassende coververhalen.",
+        "Op telefoonopnamen was te zien hoe Wuornos Moore smeekte om zich aan de zelfverdedigingsversie te houden en vervolgens toegaf dat ze had geschoten 'om geen getuigen achter te laten'.",
+        "Aanklagers voerden aan dat Moore niets te winnen had door te liegen nadat hij immuniteit had gekregen voor aanklachten van niet-gerelateerde fraude."
+      ],
+      "quote": "Ze zei dat de enige uitweg was door te nemen wat ze hadden en ervoor te zorgen dat ze niet konden volgen.",
+      "attribution": "Tyra Moore, transcriptie van het proces dag 18"
+    },
+    {
+      "id": "mental-health",
+      "title": "Psychiatrische evaluaties",
+      "image": "ressource/images/evidence_mental-health.png",
+      "type": "Klinische expertise",
+      "summary": "Beoordelingen van de geestelijke gezondheid, opgesteld vóór en tijdens het proces.",
+      "details": [
+        "Drie forensische psychiaters ontdekten een borderline-persoonlijkheidsstoornis, verergerd door complexe PTSS.",
+        "Projectieve tests brachten dissociatieve episoden, extreme hyperwaakzaamheid en een vertekende perceptie van mannelijk gevaar aan het licht.",
+        "Tijdens interviews beschreef ze flashbacks waarin de gezichten van cliënten vervaagden met die van vroegere misbruikers.",
+        "Defensie-experts voerden aan dat ze tijdens een crisis de werkelijke dreigingen niet langer kon scheiden van de verwachte dreigingen."
+      ],
+      "quote": "Haar psyche is die van een overlevende in een permanente oorlog, ervan overtuigd dat moorden de enige uitweg was.",
+      "attribution": "Dr. L. Morgan, psychiatrisch expert - transcriptie pagina 572"
+    },
+    {
+      "id": "exploitation",
+      "title": "Uitbuiting en pooiers",
+      "image": "ressource/images/evidence_exploitation.png",
+      "type": "Opgenomen interviews",
+      "summary": "Clips laten zien hoe gewelddadige tussenpersonen het werk van Wuornos controleerden.",
+      "details": [
+        "Voormalige sekswerkers zeiden dat meerdere pooiers tot zeventig procent van haar verdiensten in beslag namen en haar sloegen toen ze klanten weigerde.",
+        "Een bareigenaar gaf toe dat hij aanvallen van stamgasten had verborgen om te voorkomen dat de lokale politie zich van hem zou vervreemden.",
+        "Een buurman getuigde dat Wuornos bedekt met blauwe plekken naar huis terugkeerde en ze zelfs in de zomer onder lange mouwen verborgen hield.",
+        "De verdediging benadrukte dat ze te veel bang was voor vergelding om melding te maken van het geweld dat ze had ondergaan."
+      ],
+      "quote": "Ze zei tegen zichzelf: als ik weiger, sterf ik. Als ik het accepteer, ga ik misschien toch dood.",
+      "attribution": "T. Daniels, voormalig collega - onderzoeksdocumentaire"
+    },
+    {
+      "id": "police-interview",
+      "title": "Twijfelachtig politie-interview",
+      "image": "ressource/images/evidence_police-interview.png",
+      "type": "Audio-opname",
+      "summary": "Opgenomen reeks waarin de druk wordt getoond die werd uitgeoefend tijdens de eerste bekentenis.",
+      "details": [
+        "Onderzoekers hielden haar tien uur vast zonder advocaat en beloofden genade als ze ex-partner Tyra Moore erbij betrokken zou krijgen.",
+        "Agenten boden frisdranken en sigaretten aan, terwijl ze herhaalden dat de dodencel onvermijdelijk was zonder medewerking.",
+        "Uit het transcript blijkt dat ze verhalen herhaalde die door de politie waren voorgesteld, waaronder een overval met voorbedachten rade.",
+        "De verdediging beweert dat ze bekende om Moore tegen vervolging te beschermen."
+      ],
+      "quote": "Ik zeg wat je wilt, laat Tyra maar gaan.",
+      "attribution": "Interview van 16 januari 1991 - officieel transcript"
+    },
+    {
+      "id": "sentencing",
+      "title": "Fase van veroordeling",
+      "image": "ressource/images/evidence_sentencing.png",
+      "type": "Aantekeningen juryberaadslaging",
+      "summary": "Slotargumenten en juridische vragen uit de straffase.",
+      "details": [
+        "De aanklager legde de nadruk op voorbedachten rade en meerdere slachtoffers om de doodstraf te rechtvaardigen.",
+        "De verdediging noemde het ontbreken van sociale en medische ondersteuning, plus aanbevelingen voor veilige psychiatrische betrokkenheid.",
+        "De rechter beperkte hoeveel eerder misbruik in aanmerking kon worden genomen, en oordeelde dat dit geen voldoende juridisch excuus was.",
+        "Twee juryleden aarzelden over een doodvonnis, maar volgden na drie uur beraadslaging de meerderheid."
+      ],
+      "quote": "We hebben het statuut gewogen, maar wie weegt het lijden dat zij met zich meedroeg?",
+      "attribution": "Jurylidnota bewaard in de verdedigingsarchieven"
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "pageTitle": "Mapa del caso forense"
+  },
+  "common": {
+    "languageSelector": "Selector de idioma",
+    "home": "Inicio"
+  },
+  "language": {
+    "title": "Elige tu idioma",
+    "subtitle": "Selecciona un idioma antes de iniciar la investigacion.",
+    "select": "Seleccionar"
+  },
+  "time": {
+    "mayDate": "{{day}} de mayo",
+    "mayDateTime": "{{day}} de mayo {{time}}"
+  },
+  "evidenceUi": {
+    "common": {
+      "evidenceLabel": "EVIDENCIA {{id}}",
+      "status": {
+        "secured": "ASEGURADO",
+        "certified": "CERTIFICADO",
+        "blocked": "BLOQUEADO",
+        "alert": "ALERTA",
+        "extracted": "EXTRAIDO",
+        "onRecord": "REGISTRADO"
+      }
+    },
+    "phone": {
+      "tagTitle": "Telefono de la victima - RB-17-042",
+      "navBack": "Telefono",
+      "recents": "Recientes",
+      "edit": "Editar",
+      "all": "Todos",
+      "missed": "Perdidas",
+      "unknownNumber": "Numero desconocido",
+      "calls": {
+        "missedTwo": "Perdidas - 2 llamadas",
+        "incoming215": "Entrante - 2 min 15 s",
+        "outgoing108": "Saliente - 1 min 08 s",
+        "outgoing045": "Saliente - 0 min 45 s",
+        "missed": "Perdida"
+      }
+    },
+    "cellular": {
+      "tagTitle": "{{suspect}} - Celular",
+      "reportTitle": "INFORME TECNICO DE EVIDENCIA",
+      "reportRef": "REF: RB-17-042 / SOLICITUD JUDICIAL",
+      "dateLine": "FECHA: 2024-05-18",
+      "statusLine": "ESTADO: CERTIFICADO",
+      "pagesLine": "PAGINAS: 01 / 04",
+      "deviceInfo": "Informacion del dispositivo",
+      "subscriber": "ABONADO",
+      "positions": "Posiciones estimadas del telefono",
+      "table": {
+        "dateTime": "FECHA / HORA",
+        "tower": "ANTENA",
+        "position": "POSICION EST. DEL DISPOSITIVO",
+        "confidence": "CONF."
+      },
+      "confidence": {
+        "high": "ALTA",
+        "med": "MEDIA"
+      },
+      "areas": {
+        "karim": [
+          "Sector domicilio Hassan",
+          "Borde de salida de Hassan",
+          "Acceso a la Medina",
+          "Sector de regreso a Hassan"
+        ],
+        "samir": [
+          "Sector sur de Agdal",
+          "Zona de la casa del amigo",
+          "Acceso oeste a la Medina",
+          "Sector de regreso a Agdal"
+        ]
+      },
+      "evidenceStatus": "Estado de la evidencia",
+      "chainOfCustody": "CADENA DE CUSTODIA INTACTA"
+    },
+    "google": {
+      "tagTitle": "Cuenta Google - Registro de actividad remota",
+      "alertTitle": "Alerta critica de seguridad",
+      "alertBody": "Se inicio sesion en tu cuenta desde una ubicacion desconocida y se realizaron dos intentos de borrado que fueron bloqueados. Se recomienda revision inmediata.",
+      "recentEvents": "Eventos recientes de seguridad",
+      "rows": {
+        "loginTitle": "Nuevo inicio de sesion detectado",
+        "loginMeta": "18 de mayo, 07:24 - Distrito Hassan, Rabat - Samsung Galaxy",
+        "resetTitle": "Restablecimiento remoto - bloqueado",
+        "resetMeta": "18 de mayo, 07:26 - Aislamiento Faraday activo",
+        "wipeTitle": "Borrado de datos de la cuenta - bloqueado",
+        "wipeMeta": "18 de mayo, 07:29 - Aislamiento Faraday activo"
+      },
+      "reviewActivity": "Revisar actividad",
+      "secureAccount": "Proteger cuenta",
+      "privacy": "Privacidad",
+      "help": "Ayuda"
+    },
+    "conversations": {
+      "tabs": {
+        "neighbor": "Ama de llaves",
+        "karim": "Karim",
+        "samir": "Samir"
+      },
+      "threadTitle": "Hilo - {{contact}}",
+      "messages": "Mensajes",
+      "inputPlaceholder": "iMessage"
+    },
+    "googleEvent": {
+      "tagTitle": "Evento de seguridad de la cuenta Google",
+      "eventDetails": "Detalles del evento",
+      "reviewEvent": "Revisar evento",
+      "exportLog": "Exportar registro",
+      "securityCenter": "Centro de seguridad",
+      "labels": {
+        "time": "Hora",
+        "device": "Dispositivo",
+        "location": "Ubicacion",
+        "action": "Accion",
+        "result": "Resultado",
+        "origin": "Origen"
+      },
+      "login": {
+        "title": "Nuevo inicio de sesion en tu cuenta",
+        "body": "Se inicio sesion en tu cuenta Google desde un dispositivo nuevo en una ubicacion inusual.",
+        "time": "18 de mayo de 2024 - 07:24",
+        "location": "Distrito Hassan, Rabat, Marruecos"
+      },
+      "delete1": {
+        "title": "Restablecimiento remoto - BLOQUEADO",
+        "body": "Se impidio un intento de borrar remotamente el dispositivo de la victima. El contenedor Faraday bloqueo todas las senales inalambricas.",
+        "time": "18 de mayo de 2024 - 07:26",
+        "action": "Solicitud de restablecimiento de fabrica (Find My Device)",
+        "result": "BLOQUEADO - aislamiento Faraday activo",
+        "origin": "Distrito Hassan, Rabat"
+      },
+      "delete2": {
+        "title": "Borrado de datos de la cuenta - BLOQUEADO",
+        "body": "Se detecto y bloqueo automaticamente un segundo intento de borrar todos los datos y copias de seguridad de la cuenta.",
+        "time": "18 de mayo de 2024 - 07:29",
+        "action": "Borrado de datos de cuenta (Google Dashboard)",
+        "result": "BLOQUEADO - aislamiento Faraday activo",
+        "origin": "Distrito Hassan, Rabat"
+      }
+    },
+    "witnessCall": {
+      "tagTitle": "Llamada del ama de llaves - Registro de emergencias",
+      "title": "Llamada de emergencia",
+      "outgoingDuration": "Saliente - 4 min 32 s",
+      "policeName": "Policia nacional (19)",
+      "outgoingTransferred": "Saliente - Transferida",
+      "dispatchRecord": "Registro de despacho",
+      "dispatch": [
+        "Llamada recibida - el ama de llaves informa luces inusuales y falta de respuesta en casa de la victima",
+        "Patrulla enviada - 2 agentes",
+        "Agentes llegan a la escena",
+        "Victima encontrada - escena asegurada"
+      ]
+    }
+  },
+  "labels": {
+    "role": "Rol",
+    "age": "Edad",
+    "context": "Contexto",
+    "address": "Direccion",
+    "coordinates": "Coordenadas"
+  },
+  "intro": {
+    "caseLabel": "CASO RB-17-042",
+    "title": "Reconstruye la noche a traves de rastros digitales.",
+    "summary": "Este kiosco guiado te lleva por la noche del 17 de mayo de 2024. Cruza el telefono de la victima, conversaciones, datos celulares y actividad de Google, y decide a que vino cada sospechoso.",
+    "integrityLabel": "Integridad forense",
+    "integrityValue": "Aislamiento Faraday activo",
+    "cta": "Continuar al analisis",
+    "tutorial": {
+      "step1Title": "Faraday e integridad forense",
+      "step2Title": "Tipos de evidencia",
+      "step3Title": "Objetivo de investigacion",
+      "step4Title": "Insight final"
+    },
+    "briefing": {
+      "caseDescription": "1. Descripcion del caso",
+      "stationGoals": "2. Que muestra esta estacion",
+      "people": "3. Personas involucradas",
+      "evidence": "4. Evidencia y origen",
+      "deviceSecured": "Contenedor Faraday activo",
+      "outcomeTitle": "Que haras",
+      "sourcesCompactTitle": "Cuatro fuentes a examinar",
+      "flowTitle": "Que hacer",
+      "tutorialTitle": "Tutorial en 4 pasos",
+      "step1Body": "El telefono se coloco en un contenedor Faraday justo despues de recuperarlo. Esta caja blindada bloquea todas las senales inalambricas para que el dispositivo no pueda rastrearse, accederse ni borrarse remotamente.",
+      "step2Body": "Se cruzaran cuatro fuentes: el telefono de la victima, sus conversaciones, la triangulacion de la red celular y la actividad de la cuenta Google.",
+      "step3Body": "Usa los tiempos de estas fuentes electronicas para determinar cuando estuvo cada sospechoso en casa de la victima y que conversaciones precedieron la visita.",
+      "step4Body": "Tu decides por que vino cada sospechoso. El sistema muestra los rastros; la interpretacion es tuya."
+    }
+  },
+  "header": {
+    "caseEyebrow": "Reconstruccion forense guiada",
+    "title": "Reconstruye la noche con rastros convergentes"
+  },
+  "analysis": {
+    "instruction": "Selecciona una fuente de datos para iniciar el analisis.",
+    "followupInstruction": "Revela Telefono de la victima, Conversaciones, Red celular y Cuenta Google para desbloquear la linea temporal de correlacion.",
+    "timelineReady": "Todas las fuentes de evidencia estan reveladas. Construye la linea temporal para correlacionar los rastros.",
+    "conclusionReady": "La conclusion esta desbloqueada. Abre la sintesis final.",
+    "idleReset": "Sesion reiniciada por inactividad.",
+    "loading": {
+      "phone": "Importando datos del telefono de la victima...",
+      "cellular": "Importando registros de red celular...",
+      "google": "Importando actividad de la cuenta Google...",
+      "conversations": "Cargando hilos de conversacion..."
+    },
+    "cellular": {
+      "plotHint": "Toca una fila para trazar la posicion estimada del telefono. Las antenas son contexto de cobertura.",
+      "trajectoryComplete": "{{suspect}} viajo a la casa de la victima."
+    },
+    "coach": {
+      "kicker": "Siguiente paso",
+      "phoneSelect": {
+        "title": "Empieza con el telefono recuperado",
+        "body": "Toca Telefono de la victima. El telefono abre el acceso a llamadas y conversaciones."
+      },
+      "conversationsSelect": {
+        "title": "Abre las conversaciones extraidas",
+        "body": "El telefono da acceso a los mensajes. Abre Conversaciones a continuacion."
+      },
+      "conversationsKarim": {
+        "title": "Revisa el hilo de Karim",
+        "body": "Lee la invitacion y la discusion. Esto da contexto, no coordenadas."
+      },
+      "conversationsSamir": {
+        "title": "Revisa el hilo de Samir",
+        "body": "Lee los mensajes borrachos y no invitados antes de pasar a la evidencia de ubicacion."
+      },
+      "cellularSelect": {
+        "title": "Ahora usa los datos de red",
+        "body": "Las conversaciones explican la intencion. Los datos celulares prueban el movimiento."
+      },
+      "cellularKarimRows": {
+        "title": "Traza los pings de Karim",
+        "body": "Toca cada fila de Karim. Cada fila agrega un punto y un segmento al mapa."
+      },
+      "cellularSamirTab": {
+        "title": "Cambia a Samir",
+        "body": "La ruta de Karim queda visible. Selecciona Samir y construye su recorrido."
+      },
+      "cellularSamirRows": {
+        "title": "Traza los pings de Samir",
+        "body": "Toca cada fila de Samir. El recorrido se construye paso a paso."
+      },
+      "googleSelect": {
+        "title": "Abre la actividad de Google",
+        "body": "Las dos rutas fisicas estan establecidas. Ahora inspecciona la actividad remota posterior."
+      },
+      "conclusionSelect": {
+        "title": "Abre la sintesis final",
+        "body": "Toda la evidencia requerida esta revelada. Muestra la conclusion."
+      }
+    },
+    "mapCaption": {
+      "intro": "Solo la casa de la victima es visible al inicio del analisis.",
+      "phone": "El telefono sale de la escena del crimen y queda asegurado en el Commissariat Central de Rabat.",
+      "cellular": "El solapamiento de antenas y el filtrado de rutas muestran quien estuvo fisicamente presente esa noche.",
+      "google": "Aparece un inicio de sesion desde la zona de Karim, pero el dispositivo aislado en la comisaria no puede borrarse.",
+      "conversations": "Los hilos con el ama de llaves, Karim y Samir revelan motivo, invitaciones y la alerta de madrugada.",
+      "timeline": "La linea temporal consolidada alinea presencia fisica, testimonio y la cadena de borrado remoto bloqueada."
+    }
+  },
+  "sources": {
+    "kicker": "Fuentes de datos",
+    "title": "Elige evidencia",
+    "phone": {
+      "label": "Telefono de la victima",
+      "hint": "Recuperacion, traslado, clon forense"
+    },
+    "cellular": {
+      "label": "Red celular",
+      "hint": "Triangulacion, movimiento, solapamiento"
+    },
+    "google": {
+      "label": "Cuenta Google",
+      "hint": "Origen del login, intentos de borrado remoto"
+    },
+    "conversations": {
+      "label": "Conversaciones",
+      "hint": "Conflicto, testigo, motivo"
+    }
+  },
+  "suspects": {
+    "kicker": "Compara sospechosos",
+    "title": "Cambiar perfil",
+    "neighbor": {
+      "label": "Ama de llaves (Fatima)",
+      "hint": "Testigo, alerta de madrugada"
+    },
+    "karim": {
+      "label": "Karim",
+      "hint": "Trato de drogas, invitado, vino"
+    },
+    "samir": {
+      "label": "Samir",
+      "hint": "Borracho, no invitado, vino igual"
+    }
+  },
+  "map": {
+    "kicker": "Capas del mapa",
+    "title": "Reconstruccion de Rabat",
+    "ariaLabel": "Mapa forense estilizado de Rabat con casa de la victima, comisaria, marcador del ama de llaves, rutas de sospechosos, antenas y eventos remotos de cuenta"
+  },
+  "districts": {
+    "medina": "Distrito Medina",
+    "agdal": "Distrito Agdal",
+    "hassan": "Distrito Hassan"
+  },
+  "legend": {
+    "location": "Ubicacion fija",
+    "route": "Ruta de movimiento",
+    "network": "Zona de antena celular",
+    "alert": "Evento remoto"
+  },
+  "context": {
+    "kicker": "Panel de evidencia",
+    "title": "Fuente actual",
+    "defaultTitle": "Solo casa de la victima",
+    "defaultBody": "Empieza desde la escena del crimen y revela una capa de evidencia a la vez. El mapa y el panel derecho cambian juntos para que la logica se lea en segundos.",
+    "defaultBadge": "Estado inicial",
+    "defaultPoints": [
+      "Telefono de la victima explica recuperacion y manejo forense.",
+      "Red celular compara presencia fisica y movimiento.",
+      "Cuenta Google explica los intentos de borrado bloqueados.",
+      "Conversaciones revelan motivo, tiempos del testigo y ambiguedad."
+    ],
+    "guideEyebrow": "Flujo guiado",
+    "guideTitle": "Revela la evidencia en cuatro pasos"
+  },
+  "details": {
+    "phone": {
+      "kicker": "Telefono de la victima",
+      "heading": "Recuperado, trasladado y clonado para analisis",
+      "summary": "El dispositivo sale de la casa bajo cadena de custodia y queda protegido antes de que un atacante pueda borrarlo.",
+      "victimLabel": "Victima",
+      "anchorLabel": "Anclaje policial",
+      "stats": [
+        {
+          "label": "Recuperado",
+          "value": "En casa de la victima"
+        },
+        {
+          "label": "Trasladado",
+          "value": "A la comisaria"
+        },
+        {
+          "label": "Procesado",
+          "value": "Clon forense creado"
+        }
+      ],
+      "evidenceTitle": "Contenido forense preservado",
+      "evidence": [
+        "Mensajes, registros de llamadas y contactos siguen disponibles en la copia forense.",
+        "La ruta de traslado desde la casa hasta el Commissariat Central esta confirmada.",
+        "El telefono queda aislado antes de que el atacante complete el borrado remoto."
+      ]
+    },
+    "google": {
+      "kicker": "Cuenta Google",
+      "heading": "El borrado remoto falla despues de acceder a la cuenta",
+      "statusLabel": "Bloqueado",
+      "statusTitle": "Acceso remoto bloqueado - aislamiento exitoso del dispositivo",
+      "statusBody": "La cuenta se accede desde la zona de Karim en el distrito Hassan justo despues de las 7am, pero el telefono ya esta dentro del contenedor Faraday y no se puede borrar remotamente.",
+      "pathTitle": "Ruta de borrado remoto",
+      "logs": [
+        {
+          "time": "07:24",
+          "title": "Nuevo login Google",
+          "meta": "Origen distrito Hassan"
+        },
+        {
+          "time": "07:26",
+          "title": "Intento de borrado #1",
+          "meta": "BLOQUEADO",
+          "tone": "alert"
+        },
+        {
+          "time": "07:29",
+          "title": "Intento de borrado #2",
+          "meta": "BLOQUEADO",
+          "tone": "alert"
+        }
+      ]
+    },
+    "conversations": {
+      "kicker": "Conversaciones",
+      "heading": "Los mensajes revelan motivo e invitaciones",
+      "summary": "El ama de llaves senala una anomalia de madrugada, Karim esta molesto por el trato pero fue invitado, y Samir llega borracho aunque le dijeron que no.",
+      "witnessLabel": "Testimonio del ama de llaves",
+      "witnessTitle": "Fatima Zahra El Idrissi",
+      "witnessBody": "El ama de llaves llega temprano, nota las luces a las 5:48am, intenta llamar y luego llama a la policia a las 6:30am.",
+      "friendHistoryTitle": "Semana anterior - tension entre amigos",
+      "transactionHistoryTitle": "Noche del incidente - visita",
+      "witnessPoints": [
+        "Trabaja regularmente en casa de la victima y llega antes del amanecer.",
+        "Nota luces inusuales antes del amanecer y escribe a la victima.",
+        "Llama a la policia a las 6:30am, antes de que el telefono sea asegurado."
+      ]
+    },
+    "cellular": {
+      "kicker": "Red celular",
+      "heading": "La triangulacion situa a ambos hombres cerca de la victima esa noche",
+      "compareBody": "Los metadatos telecom colocan a ambos hombres cerca de la victima. Karim se va alrededor de las 5am, Samir alrededor de las 6:30am, justo cuando el ama de llaves llama a la policia.",
+      "pathTitle": "Ruta de movimiento",
+      "towers": [
+        "Antena A: sector oeste de la Medina",
+        "Antena B: solapamiento central cerca de la victima",
+        "Antena C: lado Hassan hacia la ultima zona conocida de Karim"
+      ],
+      "karim": {
+        "badge": "Vino desde Hassan",
+        "title": "Movimiento de Karim",
+        "summary": "El dispositivo de Karim se mueve desde el distrito Hassan hacia la casa de la victima por la noche, permanece durante la noche y sale alrededor de las 5am de regreso hacia Hassan.",
+        "points": [
+          "La llegada coincide con la visita invitada.",
+          "Permanece durante las primeras horas de la noche.",
+          "Sale alrededor de las 5:00am, antes de la llamada del ama de llaves."
+        ]
+      },
+      "samir": {
+        "badge": "Vino desde Agdal",
+        "title": "Movimiento de Samir",
+        "summary": "Samir viaja desde su casa en Agdal hacia la zona de la victima pese a que le dijeron que no, y se va alrededor de las 6:30am.",
+        "points": [
+          "Llega pese al rechazo de Youssef.",
+          "Permanece mas tiempo que los dos sospechosos.",
+          "Se va alrededor de las 6:30am, justo cuando el ama de llaves llama a la policia."
+        ]
+      }
+    },
+    "timeline": {
+      "kicker": "Linea temporal de correlacion",
+      "heading": "Todos los rastros apoyan la misma secuencia",
+      "summary": "La secuencia completa conecta la alerta de madrugada, las dos visitas, la triangulacion celular y la cadena de borrado remoto bloqueada.",
+      "earlierWeekTitle": "Senales de la semana anterior",
+      "incidentTitle": "Noche del incidente",
+      "postIncidentTitle": "Post-incidente y manana",
+      "resultLabel": "Lo que reconstruiste",
+      "resultTitle": "Dos sospechosos entraron en la casa",
+      "resultBody": "Karim vino despues de una discusion y fue invitado. Samir vino borracho y no fue invitado. El login de Google desde la zona de Karim ocurre justo despues de las 7am, cuando el telefono ya esta en el contenedor Faraday."
+    }
+  },
+  "timeline": {
+    "kicker": "Paso de correlacion",
+    "title": "Construye la secuencia completa",
+    "summary": "Cuando todas las fuentes de evidencia estan reveladas, la linea temporal alinea presencia fisica y comportamiento digital.",
+    "focusSummary": "Foco preservado desde {{source}}.",
+    "stepLabel": "Linea temporal de correlacion",
+    "labels": {
+      "locked": "Revela primero una fuente",
+      "active": "Correlacion visible"
+    },
+    "sourceTags": {
+      "phone": "Telefono",
+      "cellular": "Celular",
+      "google": "Google",
+      "conversations": "Conversacion",
+      "witness": "Testigo",
+      "timeline": "Correlacion"
+    }
+  },
+  "footer": {
+    "reset": "Reiniciar analisis",
+    "restart": "Reiniciar caso",
+    "timeline": "Construir linea temporal",
+    "conclusion": "Mostrar conclusion"
+  },
+  "conclusion": {
+    "kicker": "Insight final",
+    "title": "Dos sospechosos entraron en la casa - tu decides por que.",
+    "summary": "El sistema muestra los rastros digitales: evidencia del telefono, conversaciones, triangulacion celular y actividad de la cuenta Google. La interpretacion es tuya.",
+    "quote": "Karim vino despues de una discusion y fue invitado. Samir vino borracho y no fue invitado. Te toca decidir.",
+    "back": "Volver al analisis",
+    "restart": "Reiniciar caso"
+  },
+  "markers": {
+    "victimHouse": {
+      "name": "Casa de la victima",
+      "caption": "Escena del crimen"
+    },
+    "neighborHouse": {
+      "name": "Ama de llaves",
+      "caption": "Testigo de la manana"
+    },
+    "policeStation": {
+      "name": "Comisaria",
+      "caption": "Commissariat Central"
+    },
+    "friendHouse": {
+      "name": "Casa del amigo",
+      "caption": "Origen de Samir"
+    },
+    "karimLocation": {
+      "name": "Ultima ubicacion de Karim",
+      "caption": "Distrito Hassan"
+    }
+  },
+  "towers": {
+    "a": {
+      "name": "Antena A",
+      "caption": "Medina oeste"
+    },
+    "b": {
+      "name": "Antena B",
+      "caption": "Solapamiento central"
+    },
+    "c": {
+      "name": "Antena C",
+      "caption": "Lado Hassan"
+    }
+  },
+  "events": {
+    "googleLogin": {
+      "short": "07:24 login"
+    },
+    "deleteAttemptOne": {
+      "short": "07:26 bloqueado"
+    },
+    "deleteAttemptTwo": {
+      "short": "07:29 bloqueado"
+    },
+    "witnessCall": {
+      "short": "06:30 llamada policia"
+    }
+  },
+  "cards": {
+    "phone": {
+      "title": "Telefono de la victima",
+      "badge": "Cadena de custodia",
+      "body": "Recuperado en la escena del crimen, el dispositivo se traslada al Commissariat Central de Rabat y se clona para analisis forense.",
+      "points": [
+        "Recuperado en la casa de la victima en el distrito de la Medina.",
+        "Trasladado bajo control policial a un anclaje forense real.",
+        "Mensajes, registros de llamadas y contactos siguen disponibles en la copia."
+      ]
+    },
+    "cellular": {
+      "title": "Red celular",
+      "badge": "Presencia fisica",
+      "body": "La triangulacion de antenas coloca a ambos hombres cerca de la casa de la victima. Karim se va alrededor de las 5am, Samir alrededor de las 6:30am.",
+      "points": [
+        "Samir y Karim pueden ubicarse cerca de la casa durante la noche.",
+        "Las horas de salida fijan la secuencia de la manana.",
+        "La correlacion espacial refuerza la reconstruccion."
+      ]
+    },
+    "google": {
+      "title": "Cuenta Google",
+      "badge": "Actividad remota bloqueada",
+      "body": "Un nuevo login aparece desde la zona de Karim justo despues de las 7am, seguido por dos intentos fallidos de borrar remotamente el telefono.",
+      "points": [
+        "07:24 login desde el distrito Hassan.",
+        "07:26 intento de borrado bloqueado.",
+        "07:29 segundo intento de borrado bloqueado."
+      ]
+    },
+    "conversations": {
+      "title": "Conversaciones",
+      "badge": "Contexto conductual",
+      "body": "Los hilos con el ama de llaves, Karim y Samir revelan motivo, invitaciones y la alerta de madrugada.",
+      "points": [
+        "El ama de llaves reporta una anomalia matinal y llama a la policia.",
+        "Karim esta molesto por el trato pero Youssef lo invita.",
+        "Samir esta borracho, recibe un 'NO, esta noche no' y viene igual."
+      ]
+    },
+    "timeline": {
+      "title": "Linea temporal de correlacion",
+      "badge": "Secuencia consolidada",
+      "body": "La linea final combina los mensajes de la noche, las salidas celulares, la llamada del ama de llaves y los intentos de borrado remoto bloqueados.",
+      "points": [
+        "Karim es invitado y llega.",
+        "Samir llega sin invitacion, borracho.",
+        "La cadena de borrado bloqueada ocurre despues de que el telefono esta en la caja Faraday."
+      ]
+    },
+    "karim": {
+      "title": "Karim",
+      "badge": "Trato de drogas - invitado",
+      "body": "Molesto por un trato de drogas, dice que va a venir. Youssef lo invita a entrar para hablar. Sale de la casa alrededor de las 5am, antes de que llamen a la policia.",
+      "points": [
+        "La conversacion muestra tension y luego una invitacion explicita.",
+        "Los pings celulares lo colocan en la casa durante la noche.",
+        "El login de Google desde su zona ocurre justo despues de las 7am."
+      ]
+    },
+    "samir": {
+      "title": "Samir",
+      "badge": "Borracho - no invitado",
+      "body": "Borracho, todavia molesto por una chica de la semana anterior, recibe un 'NO, esta noche no' pero viene igual. Sale alrededor de las 6:30am, cerca de la llamada del ama de llaves.",
+      "points": [
+        "Viejo resentimiento por un interes compartido.",
+        "Borracho e insistente la noche del incidente.",
+        "Los mensajes de la manana muestran lagunas de memoria."
+      ]
+    }
+  }
+}

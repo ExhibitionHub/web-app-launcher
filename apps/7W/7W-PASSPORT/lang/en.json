@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "pageTitle": "7W Passport"
+  },
+  "common": {
+    "home": "Home",
+    "languageSelector": "Language selector"
+  },
+  "brand": {
+    "kicker": "7 Wonders",
+    "title": "Passport",
+    "homeHint": "Choose a language and open the passport.",
+    "catalogHint": "Select one wonder and place its stamp.",
+    "detailHint": "Read, answer one question, and validate the stamp."
+  },
+  "home": {
+    "bannerTop": "PASSPORT",
+    "bannerMiddle": "--- Of The ---",
+    "bannerBottom": "Wonders of the World",
+    "eyebrow": "Interactive route",
+    "title": "Start your passport of the 14 wonders",
+    "subtitle": "Move from the seven ancient wonders to the seven new wonders. Each stop unlocks one stamp in your travel passport.",
+    "welcomeTitle": "Welcome!",
+    "welcomeCopy": "Explore the wonders, answer the questions, and unlock your stamps.",
+    "start": "Open my passport",
+    "progressTitle": "--- stamps collected by era ---",
+    "progressGroup": "{{era}} {{current}} / {{total}}",
+    "previewTitle": "Passport overview",
+    "previewAncient": "Ancient",
+    "previewNew": "New"
+  },
+  "catalog": {
+    "eyebrow": "Wonder index",
+    "title": "All fourteen wonders",
+    "subtitle": "Open any card to see the passport page, read the short context, and answer one question.",
+    "summaryTitle": "Stamp mission",
+    "summaryText": "Each wonder has one dedicated stamp and one passport slot. A correct answer fills the slot and advances your route.",
+    "progress": "{{current}} / {{total}} stamps collected",
+    "progressCompact": "{{era}} {{current}}/{{total}}",
+    "listTitle": "Wonder list",
+    "ancientTitle": "The seven ancient wonders",
+    "newTitle": "The seven new wonders",
+    "stamped": "Stamped",
+    "emptyStamp": "Empty slot"
+  },
+  "detail": {
+    "eyebrow": "Passport page",
+    "locationLabel": "Location",
+    "stampImage": "Stamp image",
+    "passportSlot": "Passport slot",
+    "slotEmpty": "Answer the question to place this stamp.",
+    "questionLabel": "One question",
+    "questionHint": "Choose the right answer to validate the stamp.",
+    "correct": "Correct answer. The stamp is now placed in the passport.",
+    "incorrect": "Not yet. Select another answer to place the stamp.",
+    "back": "Back to list",
+    "next": "Next wonder",
+    "stampValidated": "Stamp validated",
+    "stampPending": "Stamp pending",
+    "ancientChip": "Ancient wonder",
+    "newChip": "New wonder"
+  },
+  "eras": {
+    "ancient": "Ancient wonders",
+    "new": "New wonders",
+    "ancientTab": "Ancient",
+    "newTab": "New",
+    "ancientShort": "Ancient",
+    "newShort": "New",
+    "ancientCompact": "Anc.",
+    "newCompact": "New"
+  },
+  "countries": {
+    "brazil": "Brazil",
+    "china": "China",
+    "egypt": "Egypt",
+    "greece": "Greece",
+    "india": "India",
+    "iraq": "Iraq",
+    "italy": "Italy",
+    "jordan": "Jordan",
+    "mexico": "Mexico",
+    "peru": "Peru",
+    "turkey": "Turkey"
+  },
+  "wonders": {
+    "great-pyramid": {
+      "name": "Great Pyramid of Giza",
+      "location": "Giza, Egypt",
+      "summary": "The oldest and only surviving ancient wonder rises on the Giza plateau as a royal tomb built with precise stone engineering.",
+      "passportNote": "This is the only ancient wonder that still stands today.",
+      "question": {
+        "prompt": "In which country can you visit the Great Pyramid of Giza?"
+      }
+    },
+    "hanging-gardens": {
+      "name": "Hanging Gardens of Babylon",
+      "location": "Babylon, Iraq",
+      "summary": "Legend describes terraced gardens watered above the desert skyline of ancient Babylon.",
+      "passportNote": "No confirmed ruins have been found, which makes this page part history and part mystery.",
+      "question": {
+        "prompt": "Ancient Babylon is usually associated with which present-day country?"
+      }
+    },
+    "statue-zeus": {
+      "name": "Statue of Zeus at Olympia",
+      "location": "Olympia, Greece",
+      "summary": "A monumental seated statue once dominated Olympia and celebrated Zeus at the heart of the games.",
+      "passportNote": "This passport page remembers a wonder known mostly through written accounts and coins.",
+      "question": {
+        "prompt": "Olympia, the site of this wonder, is in which country?"
+      }
+    },
+    "temple-artemis": {
+      "name": "Temple of Artemis at Ephesus",
+      "location": "Ephesus, Turkey",
+      "summary": "A vast marble sanctuary at Ephesus honored Artemis and drew pilgrims from around the Mediterranean.",
+      "passportNote": "The temple was rebuilt more than once, turning memory and ruin into one story.",
+      "question": {
+        "prompt": "Ephesus is located in which modern country?"
+      }
+    },
+    "mausoleum-halicarnassus": {
+      "name": "Mausoleum at Halicarnassus",
+      "location": "Halicarnassus, Turkey",
+      "summary": "This ornate royal tomb gave the world the word mausoleum through its scale, sculpture, and ceremony.",
+      "passportNote": "Its memory survives in architecture every time we describe a monumental tomb.",
+      "question": {
+        "prompt": "Halicarnassus stood on the coast of which present-day country?"
+      }
+    },
+    "colossus-rhodes": {
+      "name": "Colossus of Rhodes",
+      "location": "Rhodes, Greece",
+      "summary": "A giant bronze figure welcomed sailors near the harbor of Rhodes after a hard-fought victory.",
+      "passportNote": "The statue stood only a few decades, but its image became permanent in world memory.",
+      "question": {
+        "prompt": "Rhodes belongs to which country today?"
+      }
+    },
+    "lighthouse-alexandria": {
+      "name": "Lighthouse of Alexandria",
+      "location": "Alexandria, Egypt",
+      "summary": "The Pharos of Alexandria guided ships with fire and mirrored light at one of the busiest ports of the ancient world.",
+      "passportNote": "This stamp honors a wonder that turned navigation into spectacle.",
+      "question": {
+        "prompt": "Alexandria is in which country today?"
+      }
+    },
+    "great-wall": {
+      "name": "Great Wall of China",
+      "location": "Northern China",
+      "summary": "A chain of fortifications crosses mountains and deserts, showing how defense and landscape were linked over centuries.",
+      "passportNote": "It is not one single wall, but a long system built and rebuilt through time.",
+      "question": {
+        "prompt": "The Great Wall is in which country?"
+      }
+    },
+    "petra": {
+      "name": "Petra",
+      "location": "Ma'an, Jordan",
+      "summary": "Petra is a rock-carved city whose facades open from narrow desert canyons into monumental spaces.",
+      "passportNote": "Its stamp belongs to a city shaped as much by trade routes as by stone.",
+      "question": {
+        "prompt": "Petra is located in which country?"
+      }
+    },
+    "colosseum": {
+      "name": "Colosseum",
+      "location": "Rome, Italy",
+      "summary": "Rome's great amphitheater staged spectacle, engineering skill, and imperial power in one enduring oval.",
+      "passportNote": "The passport slot marks a monument built for crowds, ritual, and performance.",
+      "question": {
+        "prompt": "In which country is the Colosseum?"
+      }
+    },
+    "chichen-itza": {
+      "name": "Chichen Itza",
+      "location": "Yucatan, Mexico",
+      "summary": "This Maya city combines astronomy, ceremony, and stone geometry around the pyramid of El Castillo.",
+      "passportNote": "Its page connects architecture with calendars, shadow, and ritual movement.",
+      "question": {
+        "prompt": "Chichen Itza is in which country?"
+      }
+    },
+    "machu-picchu": {
+      "name": "Machu Picchu",
+      "location": "Cusco Region, Peru",
+      "summary": "High in the Andes, Machu Picchu aligns terraces, water, and sacred topography in a dramatic mountain setting.",
+      "passportNote": "This stamp celebrates a site where engineering follows the terrain instead of erasing it.",
+      "question": {
+        "prompt": "Machu Picchu is in which country?"
+      }
+    },
+    "taj-mahal": {
+      "name": "Taj Mahal",
+      "location": "Agra, India",
+      "summary": "A marble mausoleum of symmetry and light, the Taj Mahal transforms grief into a carefully staged landscape.",
+      "passportNote": "Its passport page is about memory, devotion, and crafted balance.",
+      "question": {
+        "prompt": "The Taj Mahal is in which country?"
+      }
+    },
+    "christ-redeemer": {
+      "name": "Christ the Redeemer",
+      "location": "Rio de Janeiro, Brazil",
+      "summary": "The hilltop statue above Rio de Janeiro has become a global image of welcome and horizon.",
+      "passportNote": "This stamp represents a modern wonder shaped by both sculpture and skyline.",
+      "question": {
+        "prompt": "Christ the Redeemer overlooks which country?"
+      }
+    }
+  }
+}

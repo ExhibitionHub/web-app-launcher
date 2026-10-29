@@ -1,0 +1,52 @@
+{
+  "sourceEffects": {
+    "default": {
+      "markers": ["victim-house"],
+      "routes": [],
+      "zones": [],
+      "towers": [],
+      "events": [],
+      "captionKey": "analysis.mapCaption.intro"
+    },
+    "phone": {
+      "markers": ["victim-house", "police-station"],
+      "routes": ["phone"],
+      "zones": [],
+      "towers": [],
+      "events": [],
+      "captionKey": "analysis.mapCaption.phone"
+    },
+    "cellular": {
+      "markers": ["victim-house", "friend-house", "karim-location"],
+      "routes": ["karim", "samir"],
+      "zones": ["a", "b", "c"],
+      "towers": ["a", "b", "c"],
+      "events": [],
+      "captionKey": "analysis.mapCaption.cellular"
+    },
+    "google": {
+      "markers": ["victim-house", "police-station", "karim-location"],
+      "routes": [],
+      "zones": [],
+      "towers": [],
+      "events": ["google-login", "delete-attempt-1", "delete-attempt-2"],
+      "captionKey": "analysis.mapCaption.google"
+    },
+    "conversations": {
+      "markers": ["victim-house", "neighbor-house", "friend-house", "karim-location"],
+      "routes": [],
+      "zones": [],
+      "towers": [],
+      "events": ["witness-call"],
+      "captionKey": "analysis.mapCaption.conversations"
+    },
+    "timeline": {
+      "markers": ["victim-house", "neighbor-house", "police-station", "friend-house", "karim-location"],
+      "routes": ["phone", "karim", "samir", "google"],
+      "zones": ["a", "b", "c"],
+      "towers": ["a", "b", "c"],
+      "events": ["google-login", "delete-attempt-1", "delete-attempt-2", "witness-call"],
+      "captionKey": "analysis.mapCaption.timeline"
+    }
+  }
+}

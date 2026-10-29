@@ -1,0 +1,170 @@
+{
+  "movementPaths": {
+    "samir": [
+      "Start: Friend's House in Agdal district.",
+      "Move to: Victim's House (uninvited, drunk).",
+      "Stays through the night.",
+      "Leaves around 6:30am."
+    ],
+    "karim": [
+      "Start: Hassan district.",
+      "Move to: Victim's House (invited after argument).",
+      "Leaves around 5:00am."
+    ],
+    "remoteDeletion": [
+      "Karim Last Known location.",
+      "Victim's Google account context.",
+      "Phone at Commissariat Central de Rabat.",
+      "Result: BLOCKED."
+    ]
+  },
+  "chronology": {
+    "earlierWeek": [
+      {
+        "time": "May 10",
+        "label": "Samir / Youssef argument about a girl"
+      },
+      {
+        "time": "May 12",
+        "label": "Drug deal between Karim and Youssef"
+      }
+    ],
+    "incident": [
+      {
+        "time": "23:18",
+        "label": "Karim: 'What the heck man'"
+      },
+      {
+        "time": "23:22",
+        "label": "Youssef invites Karim to talk"
+      },
+      {
+        "time": "23:41",
+        "label": "Samir (drunk) says he's coming over"
+      },
+      {
+        "time": "23:49",
+        "label": "Youssef tells Samir: 'NO, not tonight'"
+      },
+      {
+        "time": "23:55",
+        "label": "Samir: 'I'm comminn'"
+      }
+    ],
+    "night": [
+      {
+        "time": "00:30 — 04:30",
+        "label": "Both suspects present at the victim's house"
+      },
+      {
+        "time": "05:00",
+        "label": "Karim leaves the victim's house"
+      },
+      {
+        "time": "06:30",
+        "label": "Samir leaves the victim's house"
+      }
+    ],
+    "morning": [
+      {
+        "time": "05:48",
+        "label": "Housekeeper: 'Your lights are never on at this time'"
+      },
+      {
+        "time": "06:24",
+        "label": "Housekeeper missed call to Youssef"
+      },
+      {
+        "time": "06:30",
+        "label": "Housekeeper calls the police"
+      },
+      {
+        "time": "07:12",
+        "label": "Samir: 'Tell me what happened, if you're awake'"
+      }
+    ],
+    "postIncident": [
+      {
+        "time": "07:18",
+        "label": "Phone secured in Faraday container"
+      },
+      {
+        "time": "07:24",
+        "label": "Google login from Karim's area"
+      },
+      {
+        "time": "07:26",
+        "label": "Deletion attempt #1 blocked"
+      },
+      {
+        "time": "07:29",
+        "label": "Deletion attempt #2 blocked"
+      }
+    ]
+  },
+  "timelineItems": [
+    {
+      "id": "karim-leaves",
+      "time": "05:00",
+      "label": "Karim leaves the victim's house",
+      "source": "cellular",
+      "tag": "cellular"
+    },
+    {
+      "id": "neighbor-text",
+      "time": "05:48",
+      "label": "Housekeeper notices unusual lights, texts Youssef",
+      "source": "conversations",
+      "tag": "witness"
+    },
+    {
+      "id": "samir-leaves",
+      "time": "06:30",
+      "label": "Samir leaves the victim's house",
+      "source": "cellular",
+      "tag": "cellular"
+    },
+    {
+      "id": "neighbor-call",
+      "time": "06:30",
+      "label": "Housekeeper calls the police",
+      "source": "conversations",
+      "tag": "witness"
+    },
+    {
+      "id": "samir-message",
+      "time": "07:12",
+      "label": "Samir: 'Tell me what happened, if you're awake'",
+      "source": "conversations",
+      "tag": "conversations"
+    },
+    {
+      "id": "phone-secured",
+      "time": "07:18",
+      "label": "Victim's phone secured in Faraday container",
+      "source": "phone",
+      "tag": "phone"
+    },
+    {
+      "id": "google-login",
+      "time": "07:24",
+      "label": "Google login from Karim's area",
+      "source": "google",
+      "tag": "google"
+    },
+    {
+      "id": "delete-one",
+      "time": "07:26",
+      "label": "Deletion attempt #1 blocked",
+      "source": "google",
+      "tag": "google"
+    },
+    {
+      "id": "delete-two",
+      "time": "07:29",
+      "label": "Deletion attempt #2 blocked",
+      "source": "google",
+      "tag": "google"
+    }
+  ]
+}

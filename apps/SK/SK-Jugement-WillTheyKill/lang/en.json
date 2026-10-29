@@ -1,0 +1,296 @@
+{
+    "meta": {
+        "title": "Will They Kill?"
+    },
+    "branding": {
+        "eyebrow": "Interactive journey",
+        "title": "Will They Kill?"
+    },
+    "intro": {
+        "heroTitle": "Your instincts when facing strangers",
+        "heroCopy": "Each vignette summarizes the early years and warning signs of a real person without giving away their name. Your call: will they escalate all the way to murder?",
+        "howTitle": "How it works",
+        "howSteps": [
+            "Review the key facts: family, behaviors, first offenses.",
+            "Decide in a tap whether this individual will carry out murder.",
+            "Reveal their identity and compare your instinct to the documented outcome."
+        ],
+        "goalTitle": "Goal",
+        "goalCopy": "Measure your biases and convictions across a series of contrasting profiles. The final score sums up your predictions and opens up discussion prompts."
+    },
+    "profile": {
+        "progressLabel": "Profile",
+        "progressConnector": "of",
+        "taglineFallback": "Anonymous profile",
+        "aliasFallback": "Alias",
+        "decisionTitle": "Your judgment",
+        "decisionPrompt": "Based on the clues, will this person end up killing someone?",
+        "choiceYes": "Yes, they will kill",
+        "choiceNo": "No, they will stop short",
+        "revealPlaceholder": "Choose Yes or No to reveal the real identity and what happened.",
+        "revealLabel": "Identity revealed",
+        "outcomeYes": "They did kill",
+        "outcomeNo": "No killing",
+        "revealNext": "Next profile",
+        "revealFinal": "View final score",
+        "verdictTitle": "What happened",
+        "detailTitle": "Why we know",
+        "yourCallLabel": "Your call",
+        "realityLabel": "Reality",
+        "correctLabel": "Correct",
+        "incorrectLabel": "Incorrect",
+        "choiceYesShort": "Yes",
+        "choiceNoShort": "No",
+        "fallbackImage": "??",
+        "profileLabelDefault": "Profile",
+        "defaultProfilePrefix": "Profile "
+    },
+    "score": {
+        "eyebrow": "Final result",
+        "title": "How you read the risk",
+        "dialLabel": "Correct decisions",
+        "calculating": "Calculating your score...",
+        "summaryTemplate": "You reviewed {count} anonymized profiles and took a stand each time.",
+        "notes": {
+            "perfect": "Flawless read: you anticipated every trajectory. List your criteria and share them with the group.",
+            "high": "Strong intuition: you spotted most risks. Which signals misled you in the remaining cases?",
+            "medium": "Balanced score: your gut feeling swings. Revisit the profiles to test your biases and fill any missing context.",
+            "low": "These profiles defy snap judgments. Study the missing details and protective contexts to refine your read."
+        },
+        "discussionTitle": "Discussion prompts",
+        "peerYes": "Yes",
+        "peerNo": "No",
+        "separator": "·"
+    },
+    "navigation": {
+        "start": "Start",
+        "languageSelector": "Language selector",
+        "continue": "Continue",
+        "restart": "Restart",
+        "viewFinal": "View final score",
+        "nextProfile": "Next profile"
+    },
+    "errors": {
+        "bootstrap": "Unable to bootstrap experience:",
+        "profiles": "Unable to load experience data. Please refresh the page.",
+        "fetchFailed": "Failed to load {path} (status {status})",
+        "storageWarning": "Unable to parse stored value for {key}:"
+    },
+    "experience": {
+        "progressAria": "Experience progress"
+    },
+    "formatAnswer": {
+        "yes": "Yes - they will kill",
+        "no": "No - no lethal act",
+        "none": "No answer"
+    },
+    "peer": {
+        "ariaLabel": "{name}: {yes}% answered {yesLabel}, {no}% answered {noLabel}"
+    },
+    "profiles": {
+        "p01": {
+            "label": "Profile 01",
+            "alias": "Profile 01 - The interstate drifter",
+            "tagline": "Abandonment hardens into roadside ambushes",
+            "era": "Florida, United States - late 1980s",
+            "summary": "Thrown out of her home as a teen, she survived by hitchhiking and sex work along U.S. 1, collecting a thick arrest file for disorderly conduct and theft.",
+            "highlights": [
+                "Neighbors remembered her target practice with a .22 pistol in the woods behind budget motels.",
+                "Regularly stole clients' cars and dumped them hours later, leaving purses and IDs in dumpsters.",
+                "Told her girlfriend she 'hated' johns and fantasized about wiping them out."
+            ],
+            "reveal": {
+                "identity": "Aileen Wuornos",
+                "verdict": "Confessed to killing seven men while posing as a stranded hitchhiker; executed in 2002.",
+                "detail": "Investigators tied her to abandoned vehicles, spent shells, and pawn slips from victims' belongings."
+            }
+        },
+        "p02": {
+            "label": "Profile 02",
+            "alias": "Profile 02 - The chessboard avenger",
+            "tagline": "Puzzle-obsessed clerk keeps a private tally",
+            "era": "Moscow, Russia - 1990s to 2000s",
+            "summary": "A supermarket stocker who bragged to classmates that life was a giant chess match and that he intended to 'fill the board' before retirement.",
+            "highlights": [
+                "Told friends he wanted one victim for each of the 64 squares on his beloved chessboard.",
+                "Invited coworkers to drink vodka in Bittsevsky Park, then bludgeoned them with a hammer and dropped them down wells.",
+                "Recorded himself torturing stray dogs, keeping the tapes as rehearsal material."
+            ],
+            "reveal": {
+                "identity": "Alexander Pichushkin",
+                "verdict": "Convicted in 2007 of murdering 48 people, though he claimed 60-plus victims.",
+                "detail": "Police matched his victims to the chessboard tally he kept under his floorboards."
+            }
+        },
+        "p03": {
+            "label": "Profile 03",
+            "alias": "Profile 03 - The reclusive aviator",
+            "tagline": "Engineering brilliance consumed by germ fears",
+            "era": "United States - 1930s to 1970s",
+            "summary": "An heir who built movie studios and aircraft companies, then retreated behind blackout curtains and dictations delivered via Kleenex-wrapped pencils.",
+            "highlights": [
+                "Locked himself inside a screening room for months, living on milk and chocolate bars while giving hourly memos.",
+                "Ordered aides to burn clothing he believed contaminated and insisted on surgical masks during every interaction.",
+                "Spent millions on experimental aircraft like the H-4 Hercules despite multiple near-fatal crashes."
+            ],
+            "reveal": {
+                "identity": "Howard Hughes",
+                "verdict": "Eccentric billionaire aviator whose paranoia never escalated into homicide.",
+                "detail": "Remembered for aviation records, hospital donations, and founding Hughes Medical Institute."
+            }
+        },
+        "p04": {
+            "label": "Profile 04",
+            "alias": "Profile 04 - The campaign golden boy",
+            "tagline": "Law student charm masking compulsions",
+            "era": "Washington State & Utah, United States - mid 1970s",
+            "summary": "A scholarship student who volunteered for political campaigns and manned a suicide hotline while hiding escalating fantasies of domination.",
+            "highlights": [
+                "Collected plaster arm casts and feigned injuries to lure women toward his Volkswagen Beetle.",
+                "Visited crime scenes posing as an investigator to eavesdrop on detectives.",
+                "Escaped custody twice in 1977 and resumed roaming road trips without alerting family."
+            ],
+            "reveal": {
+                "identity": "Ted Bundy",
+                "verdict": "Convicted of multiple murders in Florida and linked to at least 30 killings across the United States.",
+                "detail": "Executed in 1989 after eyewitness testimony, bite-mark analysis, and forensic fiber matches."
+            }
+        },
+        "p05": {
+            "label": "Profile 05",
+            "alias": "Profile 05 - The relentless advocate",
+            "tagline": "Politics as a human-rights classroom",
+            "era": "Washington, D.C. & New York, United States - 1930s to 1950s",
+            "summary": "A patrician-born organizer who transformed the ceremonial role of First Lady into a relentless campaign for workers, women, and refugees.",
+            "highlights": [
+                "Held women-only press conferences that forced newspapers to hire female reporters.",
+                "Visited coal mines, prisons, and segregated hospitals despite threats from segregationists.",
+                "Chaired the UN committee that drafted the Universal Declaration of Human Rights."
+            ],
+            "reveal": {
+                "identity": "Eleanor Roosevelt",
+                "verdict": "Social reformer and diplomat; no involvement in violent crime.",
+                "detail": "Used her platform to expand civil rights and humanitarian corridors during WWII."
+            }
+        },
+        "p06": {
+            "label": "Profile 06",
+            "alias": "Profile 06 - The trusted country doctor",
+            "tagline": "House calls, forged signatures",
+            "era": "Hyde, England - 1970s to 1990s",
+            "summary": "A respected general practitioner celebrated for punctual bedside visits who kept unusually tight control over medical records and cremation paperwork.",
+            "highlights": [
+                "Patients died minutes after routine morphine injections he administered without charting symptoms.",
+                "Forged Kathleen Grundy's will to make himself sole beneficiary of her estate.",
+                "Had already been disciplined in 1975 for falsifying pethidine prescriptions to feed his own addiction."
+            ],
+            "reveal": {
+                "identity": "Harold Shipman",
+                "verdict": "Found guilty of murdering 15 patients, with an inquiry later attributing more than 200 deaths to his practice.",
+                "detail": "Received 15 life sentences in 2000 after statistical audits of death certificates exposed the pattern."
+            }
+        },
+        "p07": {
+            "label": "Profile 07",
+            "alias": "Profile 07 - The wartime ballerina",
+            "tagline": "Malnourished teen turned UNICEF envoy",
+            "era": "Netherlands & Worldwide - 1940s to 1990s",
+            "summary": "A young dancer who carried resistance messages during the Nazi occupation before becoming a film star and global humanitarian.",
+            "highlights": [
+                "Survived the Dutch Hunger Winter, secretly raising funds with 'blackout' dance recitals.",
+                "Abandoned a professional ballet career after war injuries but redirected discipline into acting.",
+                "Spent her final decades as a UNICEF Goodwill Ambassador visiting famine zones in Africa and Asia."
+            ],
+            "reveal": {
+                "identity": "Audrey Hepburn",
+                "verdict": "Oscar-winning actor and humanitarian; never associated with violent crime.",
+                "detail": "Remembered for 'Roman Holiday,' 'Breakfast at Tiffany's,' and hands-on relief missions."
+            }
+        },
+        "p08": {
+            "label": "Profile 08",
+            "alias": "Profile 08 - The jet-set con artist",
+            "tagline": "Luxury breakfasts, vanished backpackers",
+            "era": "South & Southeast Asia - mid 1970s",
+            "summary": "A polyglot who hopped between Bangkok, Kathmandu, and Bombay selling fake gems while cultivating a rotating coterie of adoring travelers.",
+            "highlights": [
+                "Used stolen passports to reinvent himself as a wealthy dealer and lure victims to private villas.",
+                "Drugged guests with pills he said cured dysentery, leaving them incapacitated for robbery or worse.",
+                "Escaped Tihar Prison in 1986 by drugging guards with a farewell cake and walking out the gate."
+            ],
+            "reveal": {
+                "identity": "Charles Sobhraj",
+                "verdict": "Linked to at least a dozen murders of backpackers across Thailand, Nepal, and India.",
+                "detail": "Earned the moniker 'Bikini Killer' and is serving a life sentence in Nepal after a 2003 arrest."
+            }
+        },
+        "p09": {
+            "label": "Profile 09",
+            "alias": "Profile 09 - The unbought congresswoman",
+            "tagline": "Educator storms Capitol Hill with only volunteers",
+            "era": "Brooklyn & Washington, D.C. - 1960s to 1970s",
+            "summary": "A headstrong teacher who opened day-care centers before running for Congress on a pledge to challenge both parties' power brokers.",
+            "highlights": [
+                "Refused corporate donations, relying on church basements and schoolteachers for small-dollar support.",
+                "Pushed child-nutrition and minimum-wage bills while receiving racist threats and heckling.",
+                "Announced a 1972 presidential bid to force civil-rights planks into televised debates."
+            ],
+            "reveal": {
+                "identity": "Shirley Chisholm",
+                "verdict": "First Black congresswoman in the United States; trailblazer without violent offenses.",
+                "detail": "Her 'Unbought and Unbossed' platform inspired later generations of public servants."
+            }
+        },
+        "p10": {
+            "label": "Profile 10",
+            "alias": "Profile 10 - The quiet tenant",
+            "tagline": "Basement odors brushed off as bad plumbing",
+            "era": "Milwaukee, United States - late 1980s",
+            "summary": "A solitary chocolate factory worker who paid rent on time and offered beers to neighbors, even as police fielded repeated nuisance calls about his apartment.",
+            "highlights": [
+                "Tenants alerted management to rancid smells, buzzing saws, and dark liquid leaking from vents.",
+                "Previously convicted of molesting a 13-year-old boy; still received early release and minimal supervision.",
+                "Told childhood friends he liked collecting roadkill and bleaching bones in acid jars."
+            ],
+            "reveal": {
+                "identity": "Jeffrey Dahmer",
+                "verdict": "Confessed to murdering and dismembering 17 men and boys between 1978 and 1991.",
+                "detail": "Police recovered body parts, photographs, and written plans for more killings inside his apartment."
+            }
+        },
+        "p11": {
+            "label": "Profile 11",
+            "alias": "Profile 11 - The prisoner candidate",
+            "tagline": "Sabotage training redirected to reconciliation",
+            "era": "South Africa - 1960s to 1990s",
+            "summary": "A lawyer who co-founded an armed wing against apartheid, studied Afrikaans in prison, and later negotiated elections instead of revenge.",
+            "highlights": [
+                "Helped organize Umkhonto we Sizwe sabotage cells targeting infrastructure rather than civilians.",
+                "Spent 27 years incarcerated on Robben Island, reading law textbooks and mediating inmate disputes.",
+                "After release, championed a Truth and Reconciliation Commission instead of purges."
+            ],
+            "reveal": {
+                "identity": "Nelson Mandela",
+                "verdict": "Led South Africa into multiracial democracy and received the Nobel Peace Prize.",
+                "detail": "Advocated reconciliation and never faced homicide allegations despite militant training."
+            }
+        },
+        "p12": {
+            "label": "Profile 12",
+            "alias": "Profile 12 - The shapeshifting pop icon",
+            "tagline": "Personas multiply with every album cycle",
+            "era": "London, Berlin & New York - 1970s to 2010s",
+            "summary": "A restless performer who reinvented himself with alien alter egos, occult reading binges, and meticulously choreographed stagecraft.",
+            "highlights": [
+                "Isolated for weeks to fast and storyboard characters like Ziggy Stardust and the Thin White Duke.",
+                "Immersed himself in surveillance imagery and Expressionist art during the Berlin Trilogy years.",
+                "Collaborated with mime artists, fashion designers, and film directors to keep audiences unsettled."
+            ],
+            "reveal": {
+                "identity": "David Bowie",
+                "verdict": "Genre-defying musician with zero record of violent crime.",
+                "detail": "Left a catalog of innovation and philanthropic support for HIV/AIDS causes."
+            }
+        }
+    }
+}

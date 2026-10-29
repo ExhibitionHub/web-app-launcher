@@ -1,0 +1,435 @@
+{
+  "families": [
+    {
+      "id": "7W",
+      "label": "7W"
+    },
+    {
+      "id": "AOTB",
+      "label": "AOTB"
+    },
+    {
+      "id": "DINO",
+      "label": "DINO"
+    },
+    {
+      "id": "DSGN",
+      "label": "DSGN"
+    },
+    {
+      "id": "SK",
+      "label": "SK"
+    },
+    {
+      "id": "TITANIC",
+      "label": "Titanic"
+    },
+    {
+      "id": "VG",
+      "label": "VG"
+    }
+  ],
+  "entries": [
+    {
+      "id": "7W-PASSPORT",
+      "family": "7W",
+      "type": "launch",
+      "title": "7W Passport",
+      "description": "",
+      "url": "/apps/7W/7W-PASSPORT/index.html",
+      "languages": [
+        "en"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    },
+    {
+      "id": "create-your-own-wonder",
+      "family": "7W",
+      "type": "download",
+      "title": "Create Your Own Wonder",
+      "description": "AI image generator: visitors design their own wonder and get the picture by email. Windows PC with NVIDIA RTX GPU and internet (the AI model downloads on first launch).",
+      "downloads": [
+        {
+          "version": "1.5",
+          "url": "https://drive.google.com/file/d/1YdGf5h6-zWLqxSTw3-kAKqmR3qOiU-Kn/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "7W-MAP-OF-WONDER",
+      "family": "7W",
+      "type": "launch",
+      "title": "Map of the Wonder",
+      "description": "",
+      "url": "/apps/7W/7W-MAP-OF-WONDER/index.html",
+      "languages": [
+        "en",
+        "it"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    },
+    {
+      "id": "talk-with-zara-historian",
+      "family": "7W",
+      "type": "download",
+      "title": "Talk with Zara (Historian)",
+      "description": "Talking 3D historian: visitors say \"Hey Zara\" and ask a question. Windows PC, internet, microphone and webcam.",
+      "downloads": [
+        {
+          "version": "1",
+          "url": "https://drive.google.com/file/d/1e5YUyvWKIqqiLL4hllPgVP1_ytFQt8kS/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "AOTB-ALL",
+      "family": "AOTB",
+      "type": "launch",
+      "title": "Art of the Brick - Combined Collections",
+      "description": "",
+      "url": "/apps/AOTB/AOTB-ALL/index.html",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 90
+    },
+    {
+      "id": "AOTB-PERNICIEM",
+      "family": "AOTB",
+      "type": "launch",
+      "title": "Art of the Brick - Endangered Species",
+      "description": "",
+      "url": "/apps/AOTB/AOTB-PERNICIEM/index.html",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 60
+    },
+    {
+      "id": "AOTB-MASTERS",
+      "family": "AOTB",
+      "type": "launch",
+      "title": "Art of the Brick - Past Masters",
+      "description": "",
+      "url": "/apps/AOTB/AOTB-MASTERS/index.html",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 90
+    },
+    {
+      "id": "DINO-MAP",
+      "family": "DINO",
+      "type": "launch",
+      "title": "Dinosaur Map",
+      "description": "",
+      "url": "/apps/DINO/DINO-MAP/index.html",
+      "languages": [
+        "fr",
+        "en",
+        "es"
+      ],
+      "defaultLanguage": "fr",
+      "idleTimeoutSec": 60
+    },
+    {
+      "id": "dsgn-board",
+      "family": "DSGN",
+      "type": "launch",
+      "title": "DSGN Board",
+      "description": "",
+      "url": "/apps/DSGN/dsgn-board/index.html",
+      "languages": [
+        "en",
+        "fr",
+        "ar",
+        "es"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 90
+    },
+    {
+      "id": "map-phone",
+      "family": "DSGN",
+      "type": "launch",
+      "title": "Forensic Case Map",
+      "description": "",
+      "url": "/apps/DSGN/map-phone/index.html",
+      "languages": [
+        "en",
+        "fr",
+        "ar",
+        "es"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 25
+    },
+    {
+      "id": "SK-Jugement",
+      "family": "SK",
+      "type": "launch",
+      "title": "Aileen Wuornos Judgment",
+      "description": "",
+      "url": "/apps/SK/SK-Jugement/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    },
+    {
+      "id": "SK-quiz-stats",
+      "family": "SK",
+      "type": "launch",
+      "title": "Data Quiz",
+      "description": "",
+      "url": "/apps/SK/SK-quiz-stats/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 90
+    },
+    {
+      "id": "SK-panels-mobile",
+      "family": "SK",
+      "type": "launch",
+      "title": "Exhibition Panels",
+      "description": "",
+      "url": "/apps/SK/SK-panels-mobile/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 0,
+      "requiresSecureContext": true
+    },
+    {
+      "id": "SK-quiz-knowledge",
+      "family": "SK",
+      "type": "launch",
+      "title": "Knowledge Quiz",
+      "description": "",
+      "url": "/apps/SK/SK-quiz-knowledge/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    },
+    {
+      "id": "sk-personality",
+      "family": "SK",
+      "type": "launch",
+      "title": "Personality Test",
+      "description": "",
+      "url": "/apps/SK/sk-personality/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120,
+      "requiresSecureContext": true
+    },
+    {
+      "id": "sk-local-server",
+      "family": "SK",
+      "type": "download",
+      "title": "SK Local Server",
+      "description": "Offline package for local installations of the SK family.",
+      "downloads": [
+        {
+          "version": "1.9",
+          "url": "https://drive.google.com/file/d/1Yrm5JzfnjOXm7Y_1awDUrZzvYo4RVkhd/view?usp=sharing"
+        },
+        {
+          "version": "1.8",
+          "url": "https://drive.google.com/file/d/1eWedUC2YOGdjn--0N00YEwGmW1br17a4/view?usp=sharing"
+        },
+        {
+          "version": "1.7",
+          "url": "https://drive.google.com/file/d/1wv34FyrogX0HQi-YXTv7aCW6pq8d-rKo/view?usp=sharing"
+        },
+        {
+          "version": "1.6",
+          "url": "https://drive.google.com/file/d/1qPlE3_e0kIVnM_KDjQHS1GMJZ8qRrpxs/view?usp=sharing"
+        },
+        {
+          "version": "1.5",
+          "url": "https://drive.google.com/file/d/195pbBj4yfeZOVSLDktRU5LfPnpR58dpq/view?usp=sharing"
+        },
+        {
+          "version": "1.4",
+          "url": "https://drive.google.com/file/d/1Dj3BiSM7IuSRTvCqMYCnUrJps45LSVSC/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "SK-Jugement-WillTheyKill",
+      "family": "SK",
+      "type": "launch",
+      "title": "Will They Kill?",
+      "description": "",
+      "url": "/apps/SK/SK-Jugement-WillTheyKill/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    },
+    {
+      "id": "app-maps",
+      "family": "SK",
+      "type": "launch",
+      "title": "World Map",
+      "description": "",
+      "url": "/apps/SK/app-maps/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 90,
+      "launchQuery": {
+        "keyboardLayout": "qwerty"
+      },
+      "launchOptions": [
+        {
+          "key": "keyboardLayout",
+          "label": "Keyboard layout",
+          "defaultValue": "qwerty",
+          "choices": [
+            {
+              "value": "qwerty",
+              "label": "QWERTY"
+            },
+            {
+              "value": "azerty",
+              "label": "AZERTY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Multi-app",
+      "family": "SK",
+      "type": "launch",
+      "title": "World Map + Data Quiz",
+      "description": "",
+      "url": "/apps/SK/Multi-app/index.html",
+      "languages": [
+        "en",
+        "de",
+        "es",
+        "fr",
+        "nl",
+        "pt-br"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 0,
+      "launchQuery": {
+        "keyboardLayout": "qwerty"
+      },
+      "launchOptions": [
+        {
+          "key": "keyboardLayout",
+          "label": "Keyboard layout",
+          "defaultValue": "qwerty",
+          "choices": [
+            {
+              "value": "qwerty",
+              "label": "QWERTY"
+            },
+            {
+              "value": "azerty",
+              "label": "AZERTY"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "titanic-brightsign",
+      "family": "TITANIC",
+      "type": "download",
+      "title": "Titanic BrightSign",
+      "description": "Interactive touch-screen app for the Titanic exhibition, 9 languages. Runs offline on BrightSign HD1025 players: copy the package to the SD card.",
+      "downloads": [
+        {
+          "version": "6.3.1",
+          "url": "https://drive.google.com/file/d/14HY611N9W5zX4fYbHwqsf7VysmGLYnMT/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "talking-ia",
+      "family": "VG",
+      "type": "download",
+      "title": "Talking IA",
+      "description": "Download package for the Talking IA companion app.",
+      "downloads": [
+        {
+          "version": "1.7",
+          "url": "https://drive.google.com/file/d/1Pv04evvFf0KBi97mYuEUoGS-vggWu3Fo/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      "id": "VG-board",
+      "family": "VG",
+      "type": "launch",
+      "title": "Van Gogh Board",
+      "description": "",
+      "url": "/apps/VG/VG-board/index.html",
+      "languages": [
+        "en",
+        "et"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 120
+    }
+  ]
+}

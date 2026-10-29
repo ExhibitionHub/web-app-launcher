@@ -1,0 +1,6 @@
+{
+  "appKey": "VG-board",
+  "displayName": "Van Gogh Board",
+  "entryPath": "/apps/VG/VG-board/index.html",
+  "idleTimeoutSec": 120
+}

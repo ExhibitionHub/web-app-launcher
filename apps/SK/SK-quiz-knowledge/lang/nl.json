@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "documentTitle": "Kennisquiz - Tentoonstelling seriemoordenaars"
+  },
+  "ui": {
+    "welcome": {
+      "title": "KENNISQUIZ",
+      "subtitle": "Test wat je hebt geleerd",
+      "descriptionHtml": "Gebaseerd op de tentoonstellingsgegevens en de Radford/FGCU database (FGCU = Florida Gulf Coast University)<br><strong>12 vragen</strong> met grafieken en visuele inzichten<br>Zie wat u zich herinnert van uw bezoek.",
+      "start": "QUIZ STARTEN"
+    },
+    "stats": {
+      "serialKillers": "Seriemoordenaars",
+      "victims": "Slachtoffers",
+      "years": "Jaren"
+    },
+    "question": {
+      "counterTemplate": "Vraag {{current}} of {{total}}"
+    },
+    "buttons": {
+      "restart": "OPNIEUW BEGINNEN",
+      "continue": "GA DOOR",
+      "nextQuestion": "VOLGENDE VRAAG",
+      "viewResults": "BEKIJK RESULTATEN"
+    },
+    "accessibility": {
+      "languageSelector": "Taalkiezer"
+    },
+    "insight": {
+      "title": "BELANGRIJKSTE INZICHT"
+    },
+    "result": {
+      "title": "JOUW RESULTATEN",
+      "correctAnswers": "JUISTE ANTWOORDEN",
+      "chartLabels": {
+        "correct": "Juist",
+        "incorrect": "Onjuist"
+      }
+    },
+    "feedback": {
+      "correct": "Juist",
+      "incorrect": "Onjuist",
+      "incorrectWithAnswer": "Onjuist — Juist: {{answer}}"
+    },
+    "error": {
+      "title": "FOUT",
+      "subtitle": "KAN NIET LADEN",
+      "description": "Zorg ervoor dat er een lokale server actief is en dat ressource/data/questions.json toegankelijk is.",
+      "reload": "HERLADEN",
+      "loadQuestions": "Kan quizinhoud niet laden."
+    }
+  },
+  "content": {
+    "questions": {
+      "1": {
+        "question": "Hoeveel seriemoordenaars stonden er in 2016 in de Radford-database?",
+        "answers": [
+          {
+            "text": "A. 1.400"
+          },
+          {
+            "text": "B. 2.100"
+          },
+          {
+            "text": "C. 4.743"
+          },
+          {
+            "text": "D. 6.200"
+          }
+        ],
+        "insight": "In 2016 vermeldde de Radford/FGCU-database 4.743 seriemoordenaars en 13.105 slachtoffers."
+      },
+      "2": {
+        "question": "In welk decennium zagen de Verenigde Staten het grootste aantal nieuwe seriemoordenaars beginnen met moorden?",
+        "answers": [
+          {
+            "text": "A. Jaren 60"
+          },
+          {
+            "text": "B. Jaren 70"
+          },
+          {
+            "text": "C. Jaren 80"
+          },
+          {
+            "text": "D. Jaren negentig"
+          }
+        ],
+        "insight": "De jaren zeventig vormen hier het topdecennium: er ontstonden 605 nieuwe moordenaars, vaak gekoppeld aan mobiliteit en zwakkere gegevensuitwisseling.",
+        "chartData": {
+          "title": "Nieuwe seriemoordenaars per decennium",
+          "labels": [
+            "Jaren 60",
+            "Jaren 70",
+            "Jaren 80",
+            "jaren negentig",
+            "Jaren 2000"
+          ]
+        }
+      },
+      "3": {
+        "question": "Welk percentage van de Amerikaanse seriemoordenaars zijn mannen?",
+        "answers": [
+          {
+            "text": "A. 70%"
+          },
+          {
+            "text": "B. 80%"
+          },
+          {
+            "text": "C. 90,8%"
+          },
+          {
+            "text": "D. 95%"
+          }
+        ],
+        "insight": "Ongeveer 90,8% zijn mannen; vrouwen vertegenwoordigen ongeveer 9%.",
+        "insightChart": {
+          "title": "Uitsplitsing naar geslacht",
+          "labels": [
+            "Mannen",
+            "Vrouwen"
+          ]
+        }
+      },
+      "4": {
+        "question": "Welke etniciteit vertegenwoordigt momenteel het grootste aandeel Amerikaanse seriemoordenaars?",
+        "answers": [
+          {
+            "text": "A. Wit (≈ 52%)"
+          },
+          {
+            "text": "B. Zwart"
+          },
+          {
+            "text": "C. Spaans"
+          },
+          {
+            "text": "D. Aziatisch"
+          }
+        ],
+        "insight": "In deze dataset zijn blanke overtreders ~52% en zwarte overtreders ~38%.",
+        "insightChart": {
+          "title": "Uitsplitsing naar etniciteit",
+          "labels": [
+            "Wit",
+            "Zwart",
+            "Spaans",
+            "Aziatisch",
+            "Anders"
+          ]
+        }
+      },
+      "5": {
+        "question": "Wat is het meest voorkomende motief onder seriemoordenaars?",
+        "answers": [
+          {
+            "text": "A. Woede"
+          },
+          {
+            "text": "B. Financieel gewin"
+          },
+          {
+            "text": "C. Plezier (lust, sensatie, kracht)"
+          },
+          {
+            "text": "D. Het vermijden van arrestatie"
+          }
+        ],
+        "insight": "Plezier (lust/sensatie/kracht) is met ongeveer 36% het meest gerapporteerde motief.",
+        "insightChart": {
+          "title": "Motieven",
+          "labels": [
+            "Plezier",
+            "Financieel gewin",
+            "Woede",
+            "Arrestatie voorkomen",
+            "Anders"
+          ]
+        }
+      },
+      "6": {
+        "question": "Wat is het gemiddelde IQ van een seriemoordenaar?",
+        "answers": [
+          {
+            "text": "A. 75"
+          },
+          {
+            "text": "B. 94,5"
+          },
+          {
+            "text": "C. 110"
+          },
+          {
+            "text": "D. 130"
+          }
+        ],
+        "insight": "Het gemiddelde IQ ligt rond de 94,5 – vrijwel normaal, niet het stereotype van het 'geniale meesterbrein'."
+      },
+      "7": {
+        "question": "Welke moordmethode komt het meest voor onder seriemoordenaars?",
+        "answers": [
+          {
+            "text": "A. Wurging"
+          },
+          {
+            "text": "B. Steekpartij"
+          },
+          {
+            "text": "C. Vuurwapens"
+          },
+          {
+            "text": "D. Vergiftiging"
+          }
+        ],
+        "insight": "Vuurwapens komen het meest voor (~43%), gevolgd door wurging (~22%).",
+        "insightChart": {
+          "title": "Methoden",
+          "labels": [
+            "Vuurwapens",
+            "Wurging",
+            "Steken",
+            "Vergiftiging",
+            "Anders"
+          ]
+        }
+      },
+      "8": {
+        "question": "Welke Amerikaanse staat heeft de meeste slachtoffers van seriemoordenaars geregistreerd?",
+        "answers": [
+          {
+            "text": "A. Florida"
+          },
+          {
+            "text": "B. Texas"
+          },
+          {
+            "text": "C. Californië"
+          },
+          {
+            "text": "D. New York"
+          }
+        ],
+        "insight": "Californië heeft de meeste geregistreerde slachtoffers (1.628), gevolgd door Texas en Florida.",
+        "insightChart": {
+          "title": "Top 5 staten op basis van het aantal slachtoffers",
+          "labels": [
+            "Californië",
+            "Texas",
+            "Florida",
+            "New York",
+            "Illinois"
+          ]
+        }
+      },
+      "9": {
+        "question": "Hoe oud zijn de meeste slachtoffers van seriemoordenaars?",
+        "answers": [
+          {
+            "text": "A. Onder de 10 jaar"
+          },
+          {
+            "text": "B. 18–35"
+          },
+          {
+            "text": "C. 40–60"
+          },
+          {
+            "text": "D. Ouder dan 60"
+          }
+        ],
+        "insight": "De meeste slachtoffers zijn jonge volwassenen; de gemiddelde leeftijd is ~33,8 (mediaan ~29).",
+        "insightChart": {
+          "title": "Leeftijdsverdeling van het slachtoffer",
+          "labels": [
+            "0-17",
+            "18-35",
+            "36-50",
+            "51-65",
+            "65+"
+          ]
+        }
+      },
+      "10": {
+        "question": "Welk geslacht vertegenwoordigt de meeste slachtoffers van seriemoordenaars?",
+        "answers": [
+          {
+            "text": "A. Mannetje"
+          },
+          {
+            "text": "B. Vrouw"
+          },
+          {
+            "text": "C. Gemengd/Onbekend"
+          },
+          {
+            "text": "D. Gelijk"
+          }
+        ],
+        "insight": "Vrouwen vormen ongeveer 70% van de slachtoffers in de Radford/FGCU-database.",
+        "insightChart": {
+          "title": "Uitsplitsing naar geslacht van het slachtoffer",
+          "labels": [
+            "Vrouwen",
+            "Mannen"
+          ]
+        }
+      },
+      "11": {
+        "question": "In welk decennium was er in een bepaald jaar het hoogste aantal actieve seriemoordenaars in de VS?",
+        "answers": [
+          {
+            "text": "A. Jaren 60"
+          },
+          {
+            "text": "B. Jaren 70"
+          },
+          {
+            "text": "C. Jaren 80"
+          },
+          {
+            "text": "D. Jaren negentig"
+          }
+        ],
+        "insight": "In de jaren tachtig waren er gemiddeld ongeveer 145 actieve seriemoordenaars per jaar; latere decennia nemen af ​​met beter forensisch onderzoek en databases.",
+        "chartData": {
+          "title": "Actieve seriemoordenaars per decennium",
+          "labels": [
+            "Jaren 60",
+            "Jaren 70",
+            "Jaren 80",
+            "jaren negentig",
+            "Jaren 2000",
+            "jaren 2010"
+          ]
+        }
+      },
+      "12": {
+        "question": "Hoeveel procent van de Amerikaanse seriemoordenaars heeft in het leger gediend?",
+        "answers": [
+          {
+            "text": "A. 10%"
+          },
+          {
+            "text": "B. 18%"
+          },
+          {
+            "text": "C. 30%"
+          },
+          {
+            "text": "D. 45%"
+          }
+        ],
+        "insight": "Ongeveer 18% van de mannelijke seriemoordenaars diende in het leger."
+      }
+    },
+    "conclusions": {
+      "beginner": {
+        "title": "Beginner in de criminologie",
+        "message": "Vroeg stadium: deze statistieken dagen algemene mythen uit. Blijf verkennen."
+      },
+      "student": {
+        "title": "Geïnformeerde student",
+        "message": "Goede basislijn: je ziet hoe data verschillen van mediaverhalen."
+      },
+      "observer": {
+        "title": "Scherpe waarnemer",
+        "message": "Sterk: je volgt de belangrijkste patronen over verschillende methoden, decennia en demografische gegevens heen."
+      },
+      "expert": {
+        "title": "Criminologie-expert",
+        "message": "Uitstekend: uw inzicht in de statistieken is op expertniveau."
+      }
+    }
+  }
+}

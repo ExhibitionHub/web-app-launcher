@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="i18n-base" content="./lang/" />
+  <meta name="i18n-default-lang" content="en" />
+  <meta name="i18n-supported-langs" content="en,it" />
+  <meta name="i18n-lock-lang" content="false" />
+  <meta name="i18n-title-key" content="meta.pageTitle" />
+  <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,embed" />
+  <meta name="kiosk-home" content="./" />
+  <meta name="kiosk-timeout-ms" content="0" />
+  <meta name="map-idle-timeout-ms" content="120000" />
+  <title>Map of Wonder</title>
+  <link rel="stylesheet" href="style.css?v=20260730b">
+  <link rel="stylesheet" href="styles/popup.css?v=20260730b">
+  <script async src="./lib/es-module-shims/es-module-shims.js"></script>
+  <!-- Importmap for Three.js - LOCAL -->
+  <script type="importmap-shim">
+    {
+      "imports": {
+        "three": "./lib/three/build/three.module.js",
+        "three/addons/": "./lib/three/examples/jsm/"
+      }
+    }
+  </script>
+  <!-- Three.js and CSS3DRenderer -->
+  <script type="module-shim">
+    import * as THREE from 'three';
+    import { CSS3DRenderer, CSS3DObject } from 'three/addons/renderers/CSS3DRenderer.js';
+    window.THREE = THREE;
+    window.CSS3DRenderer = CSS3DRenderer;
+    window.CSS3DObject = CSS3DObject;
+  </script>
+</head>
+<body>
+  <a class="kiosk-menu" href="./" data-i18n="common.home" data-i18n-attr="aria-label:common.backToMainMenu">Home</a>
+  <nav class="lang-switcher" data-lang-switcher data-i18n-attr="aria-label:common.languageSelector"></nav>
+
+  <div id="viewport"></div>
+
+  <div class="user-menu user-menu--bottom">
+    <button class="menu-toggle" data-menu-group="primary" data-i18n="common.controls" data-i18n-attr="aria-label:common.toggleControls">Controls</button>
+    <div class="controls-panel" data-menu-group-panel="primary">
+      <div class="controls-row">
+        <button data-action="zoomIn" data-i18n-attr="aria-label:common.zoomIn">+</button>
+        <button data-action="zoomOut" data-i18n-attr="aria-label:common.zoomOut">-</button>
+        <button data-action="resetCamera" data-i18n="common.reset">Home</button>
+      </div>
+      <div class="controls-row">
+        <button class="filter selected" data-filter="all" data-i18n="mapApp.filters.all">All</button>
+        <button class="filter" data-filter="ancient" data-i18n="mapApp.filters.ancient">Ancient</button>
+        <button class="filter" data-filter="modern" data-i18n="mapApp.filters.modern">Modern</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="idleOverlay" class="idle-overlay">
+    <div class="idle-overlay__content">
+      <div class="idle-title">
+        <img src="Ressource/title.png" alt="Map of Wonder" class="idle-logo" data-i18n-attr="alt:mapApp.idle.logoAlt" />
+      </div>
+      <div class="idle-subtitle" data-i18n="mapApp.idle.subtitle">Explore the wonders of the world</div>
+      <div class="idle-loading" aria-live="polite">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <div id="idleMessage" class="idle-message" data-i18n="mapApp.idle.loading">Loading...</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    window.__MAP_APP_STARTED = false;
+    (function () {
+      const overlay = document.getElementById('idleOverlay');
+      const message = document.getElementById('idleMessage');
+      const setMessage = (text) => {
+        try {
+          if (message) {
+            message.textContent = String(text || '');
+          }
+        } catch {
+        }
+      };
+
+      window.addEventListener('error', (event) => {
+        const text = event && event.message ? event.message : 'JavaScript error';
+        setMessage(`Error: ${text}`);
+      });
+
+      window.addEventListener('unhandledrejection', (event) => {
+        const reason = event && event.reason;
+        const text = reason && (reason.message || String(reason)) ? (reason.message || String(reason)) : 'Unhandled promise rejection';
+        setMessage(`Error: ${text}`);
+      });
+
+      window.setTimeout(() => {
+        if (window.__MAP_APP_STARTED || !overlay) {
+          return;
+        }
+
+        try {
+          const t = window.i18n && typeof window.i18n.t === 'function' ? window.i18n.t : null;
+          const key = 'mapApp.loading.startFailure';
+          const translated = t ? t(key) : key;
+          setMessage(translated && translated !== key ? translated : 'Unable to start the map. Check the kiosk runtime or asset paths.');
+        } catch {
+          setMessage('Unable to start the map. Check the kiosk runtime or asset paths.');
+        }
+      }, 8000);
+    })();
+  </script>
+
+  <script src="./lib/i18n.js?v=20260730a"></script>
+  <script src="../../../assets/tracking.js"></script>
+  <script type="module-shim" src="src/main.js?v=20261026a"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="meta.documentTitle" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <meta name="selfie-segmentation" content="true" />
+    <meta name="vote-api" content="" />
+    <title data-i18n="meta.documentTitle">Threshold Instinct Test</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23060405'/%3E%3Cpath d='M16 48 L32 14 L48 48' fill='none' stroke='%23ff1f2d' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='32' cy='36' r='4' fill='%23f8f8f8'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style/app.css?v=20260326b">
+    <script src="../shared/chart-lite.js?v=20260320h"></script>
+    <script src="./lib/i18n.js?v=20260326a"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script src="src/cameraSession.js?v=20260403a"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Welcome screen -->
+        <div id="welcome-screen" class="screen active">
+            <section class="screen-shell welcome-shell">
+                <nav class="lang-switcher lang-switcher--personality" data-lang-switcher data-i18n-attr="aria-label:ui.accessibility.languageSelector" aria-label="Language selector"></nav>
+                <div class="welcome-grid">
+                    <div class="welcome-primary">
+                        <p class="welcome-tag" data-i18n="ui.welcome.tag"></p>
+                        <h1 class="title" data-i18n="ui.welcome.title"></h1>
+                        <div class="subtitle" data-i18n="ui.welcome.subtitle"></div>
+                        <p class="description" data-i18n="ui.welcome.description"></p>
+                        <div class="welcome-info-grid">
+                            <div class="info-card">
+                                <h3 data-i18n="ui.welcome.howTitle"></h3>
+                                <ul class="info-list">
+                                    <li><span>01</span><span data-i18n="ui.welcome.howSteps.0"></span></li>
+                                    <li><span>02</span><span data-i18n="ui.welcome.howSteps.1"></span></li>
+                                    <li><span>03</span><span data-i18n="ui.welcome.howSteps.2"></span></li>
+                                </ul>
+                            </div>
+                            <div class="info-card">
+                                <h3 data-i18n="ui.welcome.whyTitle"></h3>
+                                <p data-i18n="ui.welcome.whyCopy"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-rail">
+                    <div class="rail-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill progress-fill--muted"></div>
+                        </div>
+                    </div>
+                    <div class="rail-actions">
+                        <span class="disclaimer" data-i18n="ui.welcome.disclaimer"></span>
+                        <button id="start-btn" class="btn-primary" data-i18n="ui.welcome.start"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Questionnaire screen -->
+        <div id="question-screen" class="screen">
+            <section class="screen-shell question-shell">
+                <div class="section-header">
+                    <div>
+                        <p class="section-label" data-i18n="ui.question.sectionLabel"></p>
+                        <div id="question-counter" class="question-counter"></div>
+                    </div>
+                    <div class="section-meta">
+                        <span data-i18n="ui.question.metaLabel"></span>
+                    </div>
+                </div>
+                
+                <div id="question-container" class="question-layout">
+                    <div class="question-copy">
+                        <h2 id="question-text" class="question-text"></h2>
+                        <div id="question-status" class="question-status"></div>
+                    </div>
+                    <div class="answers-wrapper">
+                        <div class="answers-header">
+                            <p class="section-label" data-i18n="ui.question.answersLabel"></p>
+                        </div>
+                        <div id="answers-container" class="answers-container"></div>
+                    </div>
+                </div>
+
+                <div class="bottom-rail bottom-rail--solo">
+                    <div class="rail-progress">
+                        <div class="progress-bar progress-bar--solo">
+                            <div id="progress-fill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="rail-actions">
+                        <button id="restart-global-btn" class="btn-primary btn-primary--solid" data-i18n="ui.buttons.restart" data-i18n-attr="aria-label:ui.buttons.restart" aria-label="Restart"></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Result screen -->
+        <div id="result-screen" class="screen">
+            <section class="result-container">
+                <h1 class="title" data-i18n="ui.result.title"></h1>
+
+                <div class="result-grid">
+                    <div class="result-main">
+                        <div class="charts-row charts-row--with-research">
+                            <div class="chart-container profile-summary-panel">
+                                <h3 class="chart-title" data-i18n="ui.result.profileTypeTitle"></h3>
+                                <div id="profile-summary" class="profile-summary"></div>
+                            </div>
+                            <div class="chart-container">
+                                <h3 class="chart-title" data-i18n="ui.result.populationTitle"></h3>
+                                <canvas id="comparison-chart"></canvas>
+                            </div>
+                        </div>
+                        
+                        <div class="stats-grid" id="stats-grid"></div>
+                        <div class="profile-highlights-card" id="profile-highlights"></div>
+
+                        <div class="bottom-rail">
+                            <div class="rail-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill progress-fill--complete"></div>
+                                </div>
+                            </div>
+                            <div class="rail-actions">
+                                <button id="restart-btn" class="btn-primary" data-i18n="ui.buttons.restart"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Research Dossier Side Panel -->
+                    <div class="chart-container research-panel">
+                        <h3 class="chart-title" data-i18n="ui.research.title"></h3>
+                        <div class="research-content">
+                            <div class="hidden-feed">
+                                <video id="research-video" playsinline muted autoplay></video>
+                                <canvas id="research-canvas"></canvas>
+                            </div>
+                            <div class="document-preview-container">
+                                <canvas id="document-preview-canvas" data-i18n="ui.research.liveLabel" data-i18n-attr="aria-label"></canvas>
+                                <div class="preview-controls">
+                                    <button id="send-doc-btn" class="btn-primary btn-primary--solid" data-i18n="ui.buttons.send"></button>
+                                </div>
+                            </div>
+                            <div class="email-panel" id="email-panel" data-i18n-attr="aria-label:ui.research.sendAria">
+                                <div class="email-panel__header">
+                                    <h4 data-i18n="ui.research.emailTitle"></h4>
+                                    <span class="email-panel__hint" data-i18n="ui.research.emailHint"></span>
+                                </div>
+                                <form id="email-form" class="email-form" novalidate>
+                                <label for="email-input" data-i18n="ui.research.recipientLabel"></label>
+                                <input id="email-input" name="email" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" inputmode="email" data-i18n="ui.research.placeholder" data-i18n-attr="placeholder" required>
+                                <div class="virtual-keyboard" id="virtual-keyboard"></div>
+                                <button type="submit" class="btn-primary btn-primary--wide" data-i18n="ui.buttons.sendWide"></button>
+                                <button type="button" id="email-cancel-btn" class="btn-primary btn-primary--wide btn-primary--solid" data-i18n="ui.buttons.back"></button>
+                                <div class="email-status" id="email-status" role="status" aria-live="polite"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="send-modal-backdrop" class="send-modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="send-modal-title">
+        <div class="send-modal">
+            <h4 id="send-modal-title" data-i18n="ui.modal.title"></h4>
+            <p id="send-modal-body" data-i18n="ui.modal.body"></p>
+            <div id="send-modal-spinner" class="send-modal__loader" aria-hidden="true"></div>
+            <button id="send-modal-close" class="btn-primary btn-primary--solid" data-i18n="ui.buttons.sendModalClose"></button>
+        </div>
+    </div>
+
+    <script src="src/storage.js?v=20260320h"></script>
+    <script src="src/questionnaire.js?v=20260320h"></script>
+    <script src="src/app.js?v=20260407a"></script>
+    <script type="module" src="src/research.js?v=20260407b"></script>
+</body>
+</html>

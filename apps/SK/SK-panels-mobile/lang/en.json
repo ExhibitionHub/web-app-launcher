@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "languageName": "English"
+  },
+  "common": {
+    "languageSelector": "Language selector",
+    "scan": "Scan QR",
+    "stopScan": "Stop",
+    "close": "Close",
+    "home": "Home",
+    "previous": "Prev",
+    "next": "Next"
+  },
+  "panelApp": {
+    "brand": "SK",
+    "pageTitle": "SK Translation",
+    "counter": "{{current}} / {{total}}",
+    "nav": {
+      "aria": "Navigation",
+      "home": "Home",
+      "scan": "Scan",
+      "list": "List",
+      "panel": "Text"
+    },
+    "views": {
+      "home": { "eyebrow": "Home", "label": "Home" },
+      "scan": { "eyebrow": "Scan", "label": "Scan" },
+      "list": { "eyebrow": "List", "label": "List" },
+      "panel": { "eyebrow": "Text", "label": "Text" }
+    },
+    "home": {
+      "eyebrow": "Home",
+      "title": "Translation",
+      "copy": "Scan a QR code or open the list.",
+      "primaryAction": "Scan",
+      "secondaryAction": "List",
+      "resumeEyebrow": "Current text",
+      "resumeAction": "Open",
+      "metricPanelsLabel": "Texts",
+      "metricPanelsValue": "{{count}} texts",
+      "metricLanguageLabel": "Language"
+    },
+    "scan": {
+      "eyebrow": "Scan",
+      "title": "Scan the QR code",
+      "copy": "Open the camera to go to the right text.",
+      "openButton": "Start scan",
+      "listAction": "Open list"
+    },
+    "list": {
+      "eyebrow": "List",
+      "title": "Texts",
+      "copy": "Select a text.",
+      "empty": "No text available."
+    },
+    "panel": {
+      "listAction": "Open list",
+      "scanAction": "Open scan"
+    },
+    "scanner": {
+      "title": "QR scanner",
+      "pillLive": "Live",
+      "pillMatch": "Match",
+      "pillOff": "Off",
+      "pillReady": "Ready",
+      "ready": "Point the camera at a QR code.",
+      "tapToStart": "Open the scanner.",
+      "unsupported": "QR scan is not available on this browser.",
+      "secureContext": "Camera access needs HTTPS or localhost.",
+      "permissionDenied": "Camera permission was denied.",
+      "noCamera": "No camera was found on this device.",
+      "unavailable": "The camera could not be started.",
+      "matched": "Text loaded.",
+      "invalid": "This QR code is not linked to a text."
+    },
+    "status": {
+      "unknownPanel": "This text is not available in the app.",
+      "noPanels": "No text configured."
+    }
+  },
+  "panels": {
+    "order": ["intro", "patterns", "myths", "investigation"],
+    "items": {
+      "intro": {
+        "kicker": "01",
+        "title": "Introduction",
+        "body": [
+          "Introduction panel for the exhibition."
+        ]
+      },
+      "patterns": {
+        "kicker": "02",
+        "title": "Pattern Trace",
+        "body": [
+          "Serial crime is not pure chaos. Repeated choices leave a visible structure.",
+          "Dates, places and routines often reveal more than one isolated case."
+        ]
+      },
+      "myths": {
+        "kicker": "03",
+        "title": "False Profile",
+        "body": [
+          "The popular image of the criminal genius is misleading.",
+          "Most cases are built from ordinary methods, familiar spaces and repeated opportunities."
+        ]
+      },
+      "investigation": {
+        "kicker": "04",
+        "title": "Investigation Trail",
+        "body": [
+          "Connections matter: geography, victim profiles and missing reports.",
+          "The exhibition focuses on what can be observed, compared and verified."
+        ]
+      }
+    }
+  }
+}

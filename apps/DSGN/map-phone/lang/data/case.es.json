@@ -1,0 +1,82 @@
+{
+  "case": {
+    "location": "Rabat, Marruecos"
+  },
+  "intro": {
+    "description": [
+      "En la noche del 17 de mayo de 2024, Youssef fue encontrado muerto en su casa del distrito de la Medina en Rabat.",
+      "Su telefono fue recuperado en la escena y colocado de inmediato dentro de un contenedor Faraday, una caja blindada que bloquea todas las senales inalambricas para que el dispositivo no pueda rastrearse, accederse ni borrarse remotamente.",
+      "Dos sospechosos estuvieron cerca de la casa esa noche. Te toca cruzar los rastros digitales y decidir a que vino cada uno."
+    ],
+    "objectives": [
+      "Como la informatica forense conecta distintos tipos de datos para resolver un caso real.",
+      "La importancia de aislar un dispositivo para preservar evidencia.",
+      "Como se pueden cruzar datos telefonicos, de red y de cuenta.",
+      "Como las lineas temporales, ubicaciones y comportamientos ayudan a identificar sospechosos.",
+      "Que incluso cuando alguien intenta destruir evidencia, los rastros digitales pueden revelar la verdad."
+    ],
+    "people": {
+      "victim": {
+        "summary": "Encontrado muerto en su casa."
+      },
+      "witness": {
+        "summary": "El ama de llaves llega temprano, nota luces inusuales y falta de respuesta, y luego llama a la policia."
+      },
+      "karim": {
+        "summary": "Contacto por trato de drogas. Molesto por el trato, dice que va a venir. Fue invitado a entrar para hablar."
+      },
+      "samir": {
+        "summary": "Amigo de la victima. Borracho esa noche, no invitado, vino de todos modos."
+      }
+    },
+    "evidence": [
+      {
+        "tone": "phone",
+        "title": "Telefono de la victima",
+        "meta": "Dispositivo fisico",
+        "body": "Recuperado en la escena del crimen (casa de la victima). Colocado en la comisaria."
+      },
+      {
+        "tone": "conversations",
+        "title": "Conversaciones",
+        "meta": "Mensajes y llamadas",
+        "body": "Hilos con el ama de llaves, Karim y Samir revelan motivo, invitaciones y la alerta de madrugada."
+      },
+      {
+        "tone": "cellular",
+        "title": "Datos de red celular",
+        "body": "Proporcionados por el operador. Incluyen registros de llamadas, metadatos SMS y triangulacion de antenas."
+      },
+      {
+        "tone": "google",
+        "title": "Datos de cuenta Google",
+        "meta": "Portatil",
+        "body": "Del portatil de la victima encontrado en la casa. Muestra inicios de sesion e intentos de borrado remoto."
+      }
+    ],
+    "secureCard": {
+      "paragraphs": [
+        "El telefono de la victima fue colocado en un contenedor Faraday inmediatamente despues de recuperarlo para bloquear todas las senales inalambricas.",
+        "Durante el traslado a la comisaria, se realizaron dos intentos de borrado remoto a traves de la cuenta Google. Ambos fueron bloqueados.",
+        "El aislamiento Faraday preserva la evidencia al impedir acceso remoto, rastreo y borrado de datos."
+      ],
+      "status": "Contenedor Faraday activo"
+    }
+  },
+  "conclusion": {
+    "cards": [
+      {
+        "title": "Dos sospechosos entraron en la casa",
+        "body": "Karim vino despues de una discusion por un trato de drogas. Estaba molesto, pero fue invitado a entrar para hablar."
+      },
+      {
+        "title": "Y el otro vino borracho",
+        "body": "Samir estaba borracho, no fue invitado y vino de todos modos. Buscaba drogas y quiza seguia molesto por una chica."
+      },
+      {
+        "title": "Te toca decidir",
+        "body": "El aislamiento forense preservo el telefono, los pings celulares colocaron a ambos hombres en el lugar, y los intentos bloqueados de Google vinieron de la zona de Karim. Los rastros son claros; el motivo queda para tu interpretacion."
+      }
+    ]
+  }
+}

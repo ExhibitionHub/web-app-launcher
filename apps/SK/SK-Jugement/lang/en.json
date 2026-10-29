@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "pageTitle": "Aileen Wuornos - Would You Have Sentenced Her?"
+  },
+  "branding": {
+    "eyebrow": "Interactive sentencing experience",
+    "title": "Aileen Wuornos - Would You Have Sentenced Her?"
+  },
+  "hero": {
+    "title": "Aileen Wuornos",
+    "tagline": "Would you sit on this jury? Review the case file, weigh the violence she survived, and deliver a verdict."
+  },
+  "background": {
+    "title": "Background",
+    "copy": "Aileen Wuornos, a homeless sex worker, was convicted of murdering six men in Florida between 1989 and 1990. A survivor of relentless abuse, she maintained that each killing was self-defense."
+  },
+  "howTo": {
+    "title": "How to use this kiosk",
+    "steps": [
+      "Review key excerpts from the trial and defense strategy.",
+      "Track mitigating factors: trauma, police pressure, psychiatric findings.",
+      "Enter your verdict and compare it with previous visitors."
+    ]
+  },
+  "charges": {
+    "title": "Charges & complaints",
+    "intro": "State filings enumerate six separate homicides plus robberies tied to the victims' missing property. Read the language prosecutors used to frame Wuornos as a predator.",
+    "items": [
+      {
+        "label": "Capital murder counts",
+        "title": "Mallory, Spears, & Carskaddon",
+        "image": "ressource/images/charge_1.png",
+        "summary": "Indictments describe her flagging down drivers, pulling the .22 first, and stripping valuables before leaving them roadside.",
+        "facts": [
+          { "label": "Shots", "text": "Autopsies cite tight point-blank clusters to the chest and head, matching ambush executions." },
+          { "label": "Evidence", "text": "Latex gloves, rope, and the pistol seized from her locker tie directly to the three scenes." },
+          { "label": "Pattern", "text": "Complaints list the same method: lure, disarm, rob, and dump the bodies in ditches." }
+        ]
+      },
+      {
+        "label": "Theft & fraud complaints",
+        "title": "Burress & Humphreys families",
+        "image": "ressource/images/charge_2.png",
+        "summary": "Families filed fraud complaints once pawn slips, forged signatures, and missing ID cards surfaced within days of each disappearance.",
+        "facts": [
+          { "label": "Pawn trail", "text": "Burress' camera, badge, and jewelry were pawned under aliases with her thumbprint on the ticket." },
+          { "label": "Cards", "text": "Motel folios and gas receipts show Humphreys' credit cards used by Wuornos hours after he vanished." },
+          { "label": "Forgery", "text": "Bank investigators testified signatures on checks and DMV forms matched her handwriting, not the victims'." }
+        ]
+      },
+      {
+        "label": "Aggravating petitions",
+        "title": "Peter Siems disappearance",
+        "image": "ressource/images/charge_3.png",
+        "summary": "Moore and Siems' sister swore that taped confessions described \"leaving no witnesses\" during robbery runs.",
+        "facts": [
+          { "label": "Confession", "text": "Moore told investigators Wuornos bragged about shooting him twice \"so he couldn't talk.\"" },
+          { "label": "Car", "text": "His Oldsmobile was found abandoned and wiped down, while her palm print sat on the door glass." },
+          { "label": "Aftermath", "text": "Bartenders reported she flashed new cash the same night, reinforcing the robbery motive." }
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "heading": "Briefings to review",
+    "subheading": "Open each exhibit to unlock the verdict.",
+    "status": {
+      "loading": "Loading briefings...",
+      "error": "Unable to load evidence dossier. Proceed with caution.",
+      "empty": "No evidence briefings available.",
+      "complete": "All briefings reviewed. Proceed to the verdict.",
+      "incomplete": "Reviewed {reviewed} of {total} briefings. Review {remaining} more to unlock the verdict."
+    },
+    "nav": {
+      "ariaLabel": "Evidence list",
+      "loading": "Loading briefings...",
+      "error": "Unable to load briefings.",
+      "empty": "No briefings available.",
+      "selectPrompt": "Select an exhibit to load the full details."
+    }
+  },
+  "verdict": {
+    "title": "Jury verdict",
+    "prompt": "Choose the sentence you believe is just after considering the evidence and mitigating factors. Your vote will immediately reveal the results.",
+    "choices": {
+      "death": "Guilty - death sentence",
+      "life": "Guilty - life in prison",
+      "insanity": "Not guilty by reason of insanity"
+    },
+    "hint": "You can see the impact of your decision in the results below.",
+    "feedback": {
+      "preVote": "Cast your vote to reveal how it shifts the results.",
+      "verdictStep": "Choose a sentence to display the cumulative results immediately.",
+      "otherStep": "Review the briefings before issuing your verdict and seeing the tally.",
+      "template": "Your vote represents {percentage}% of the recorded decisions on this kiosk. {alignment}",
+      "alignmentMatch": "You align with the current majority.",
+      "alignmentDifferent": "Your decision differs from the dominant trend."
+    }
+  },
+  "results": {
+    "title": "Cumulative results",
+    "description": "Discover how your judgment compares with other visitors to this interactive kiosk.",
+    "footer": "Data aggregates live on this device and resets periodically. Built from 1992 court transcripts and defense archives."
+  },
+  "navigation": {
+    "languageSelector": "Language selector",
+    "back": "Back",
+    "continue": "Continue",
+    "alerts": {
+      "reviewEvidenceFirst": "Review every briefing before issuing a verdict.",
+      "castVoteToSeeResults": "Cast your vote to reveal the results."
+    },
+    "nextLabels": {
+      "restart": "Restart",
+      "seeCharges": "See the charges",
+      "reviewEvidence": "Review evidence",
+      "goToVerdict": "Go to verdict",
+      "continue": "Continue"
+    }
+  },
+  "placeholders": {
+    "detailPrompt": "Select an exhibit to load the full details."
+  },
+  "tally": {
+    "countLabel": "{count} votes"
+  },
+  "evidenceData": [
+    {
+      "id": "abuse-history",
+      "title": "Documented Childhood Abuse",
+      "image": "ressource/images/evidence_abuse-history.png",
+      "type": "Social services testimony",
+      "summary": "Social workers and family interviews describe sustained abuse from early childhood.",
+      "details": [
+        "Placed with alcoholic grandparents at age four, Wuornos reported beatings, rapes, and a group assault at fourteen logged in a 1970 report.",
+        "Teachers described a teenager sleeping in school hallways and exchanging sex for food and clothing.",
+        "In 1976 a court-appointed psychiatrist concluded she had severe post-traumatic stress and dissociative symptoms rooted in chronic trauma.",
+        "The defense noted that several male accusers carried prior convictions for violence or sexual assault."
+      ],
+      "quote": "She never had a safe place. Every man she met wanted to buy or take her body.",
+      "attribution": "Victimology expert witness - January 14, 1992 hearing"
+    },
+    {
+      "id": "forensic-proof",
+      "title": "Forensic Evidence & Stolen Items",
+      "image": "ressource/images/evidence_forensic-proof.png",
+      "type": "Crime-lab findings",
+      "summary": "State experts outlined the physical evidence linking Wuornos to each victim.",
+      "details": [
+        "A .22 caliber revolver recovered from a storage locker she rented fired cartridges that matched scenes from all six homicides.",
+        "Her fingerprints were found inside multiple victims' vehicles along with spent casings wrapped in a towel traced to her camp.",
+        "Pawn slips showed she sold a camera, tools, and jewelry within hours of the murders along with photocopies of the victims' IDs.",
+        "Highway patrol recovered the purse of Peter Siems from a dumpster near a bar where Wuornos was witnessed celebrating with cash."
+      ],
+      "quote": "The ballistic chain is uninterrupted: one weapon, six murders, and every artifact flowed back to the defendant.",
+      "attribution": "FDLE (Florida Department of Law Enforcement) ballistics report - Exhibit 137"
+    },
+    {
+      "id": "tyra-testimony",
+      "title": "Tyra Moore's Statement",
+      "image": "ressource/images/evidence_tyra-testimony.png",
+      "type": "Key witness testimony",
+      "summary": "Moore detailed the confessions that convinced jurors it was planned robbery turned murder.",
+      "details": [
+        "Moore told jurors Wuornos admitted pulling the gun first when clients resisted giving up cash or vehicles.",
+        "She described plotting which truckers seemed most isolated and rehearsing matching cover stories.",
+        "Phone recordings captured Wuornos begging Moore to stick to the self-defense version, then admitting she shot 'to leave no witnesses'.",
+        "Prosecutors argued Moore had nothing to gain by lying after receiving immunity for unrelated fraud charges."
+      ],
+      "quote": "She said the only way out was to take what they had and make sure they couldn't follow.",
+      "attribution": "Tyra Moore, trial transcript day 18"
+    },
+    {
+      "id": "mental-health",
+      "title": "Psychiatric Evaluations",
+      "image": "ressource/images/evidence_mental-health.png",
+      "type": "Clinical expertise",
+      "summary": "Mental health assessments prepared before and during the trial.",
+      "details": [
+        "Three forensic psychiatrists found borderline personality disorder compounded by complex PTSD.",
+        "Projective tests revealed dissociative episodes, extreme hypervigilance, and a distorted perception of male danger.",
+        "During interviews she described flashbacks in which clients' faces blurred with those of past abusers.",
+        "Defense experts argued that in crisis she could no longer separate actual threats from anticipated ones."
+      ],
+      "quote": "Her psyche is that of a survivor in permanent war, convinced that killing was the only exit.",
+      "attribution": "Dr. L. Morgan, psychiatric expert - transcript page 572"
+    },
+    {
+      "id": "exploitation",
+      "title": "Exploitation and Pimps",
+      "image": "ressource/images/evidence_exploitation.png",
+      "type": "Recorded interviews",
+      "summary": "Clips show how violent intermediaries controlled Wuornos' work.",
+      "details": [
+        "Former sex workers said multiple pimps took up to seventy percent of her earnings and beat her when she refused clients.",
+        "A bar owner admitted hiding assaults committed by regulars to avoid alienating local police.",
+        "A neighbor testified Wuornos returned home covered in bruises, hiding them under long sleeves even in summer.",
+        "The defense stressed she feared retaliation too much to report the violence she endured."
+      ],
+      "quote": "She told herself: if I refuse, I die. If I accept, I might die anyway.",
+      "attribution": "T. Daniels, former colleague - investigative documentary"
+    },
+    {
+      "id": "police-interview",
+      "title": "Questionable Police Interview",
+      "image": "ressource/images/evidence_police-interview.png",
+      "type": "Audio recording",
+      "summary": "Recorded sequence showing pressure applied during the initial confession.",
+      "details": [
+        "Investigators held her ten hours without a lawyer, promising mercy if she implicated ex-partner Tyra Moore.",
+        "Officers offered sodas and cigarettes while repeating that death row was inevitable without cooperation.",
+        "The transcript shows she echoed narratives suggested by police, including premeditated robbery.",
+        "The defense argues she confessed to protect Moore from prosecution."
+      ],
+      "quote": "I'll say whatever you want, just let Tyra go.",
+      "attribution": "Interview from January 16, 1991 - official transcript"
+    },
+    {
+      "id": "sentencing",
+      "title": "Sentencing Phase",
+      "image": "ressource/images/evidence_sentencing.png",
+      "type": "Jury deliberation notes",
+      "summary": "Closing arguments and legal questions from the penalty phase.",
+      "details": [
+        "The prosecutor emphasized premeditation and multiple victims to justify capital punishment.",
+        "The defense cited the absence of social and medical support plus recommendations for secure psychiatric commitment.",
+        "The judge limited how much prior abuse could be considered, ruling it was not a sufficient legal excuse.",
+        "Two jurors hesitated about a death sentence but followed the majority after three hours of deliberation."
+      ],
+      "quote": "We weighed the statute, but who weighs the suffering she carried?",
+      "attribution": "Juror note preserved in the defense archives"
+    }
+  ]
+}

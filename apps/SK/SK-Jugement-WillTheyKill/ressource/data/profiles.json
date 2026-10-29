@@ -1,0 +1,134 @@
+[
+    {
+        "id": "p01",
+        "copyKey": "profiles.p01",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p01_masked.png",
+            "image": "ressource/images/p01_reveal.png"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 68
+    },
+    {
+        "id": "p02",
+        "copyKey": "profiles.p02",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p02_masked.png",
+            "image": "ressource/images/p02_reveal.jpg"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 79
+    },
+    {
+        "id": "p03",
+        "copyKey": "profiles.p03",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p03_masked.png",
+            "image": "ressource/images/p03_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 42
+    },
+    {
+        "id": "p04",
+        "copyKey": "profiles.p04",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p04_masked.png",
+            "image": "ressource/images/p04_reveal.jpg"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 74
+    },
+    {
+        "id": "p05",
+        "copyKey": "profiles.p05",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p05_masked.png",
+            "image": "ressource/images/p05_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 25
+    },
+    {
+        "id": "p06",
+        "copyKey": "profiles.p06",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p06_masked.png",
+            "image": "ressource/images/p06_reveal.jpg"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 70
+    },
+    {
+        "id": "p07",
+        "copyKey": "profiles.p07",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p07_masked.png",
+            "image": "ressource/images/p07_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 29
+    },
+    {
+        "id": "p08",
+        "copyKey": "profiles.p08",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p08_masked.png",
+            "image": "ressource/images/p08_reveal.webp"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 66
+    },
+    {
+        "id": "p09",
+        "copyKey": "profiles.p09",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p09_masked.png",
+            "image": "ressource/images/p09_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 31
+    },
+    {
+        "id": "p10",
+        "copyKey": "profiles.p10",
+        "reveal": {
+            "outcome": "yes",
+            "maskedImage": "ressource/images/p10_masked.png",
+            "image": "ressource/images/p10_reveal.jpg"
+        },
+        "correctAnswer": "yes",
+        "peerYes": 61
+    },
+    {
+        "id": "p11",
+        "copyKey": "profiles.p11",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p11_masked.png",
+            "image": "ressource/images/p11_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 38
+    },
+    {
+        "id": "p12",
+        "copyKey": "profiles.p12",
+        "reveal": {
+            "outcome": "no",
+            "maskedImage": "ressource/images/p12_masked.png",
+            "image": "ressource/images/p12_reveal.jpg"
+        },
+        "correctAnswer": "no",
+        "peerYes": 47
+    }
+]

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="meta.documentTitle" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <title data-i18n="meta.documentTitle">Knowledge Quiz — Serial Killers Exhibition</title>
+    <link rel="stylesheet" href="style/theme.css">
+    <link rel="stylesheet" href="style/app.css">
+</head>
+<body>
+    <div id="app">
+        <button id="restart-top-btn" class="btn-secondary kiosk-restart" type="button" data-i18n="ui.buttons.restart">RESTART</button>
+
+        <!-- Welcome screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="container">
+                <nav class="lang-switcher lang-switcher--knowledge" data-lang-switcher data-i18n-attr="aria-label:ui.accessibility.languageSelector" aria-label="Language selector"></nav>
+                <h1 class="title" data-i18n="ui.welcome.title">KNOWLEDGE QUIZ</h1>
+                <div class="subtitle" data-i18n="ui.welcome.subtitle">Test what you learned</div>
+                <p class="description">
+                    <span data-i18n-html="ui.welcome.descriptionHtml">Based on the exhibition data and the Radford/FGCU database (FGCU = Florida Gulf Coast University)<br><strong>12 questions</strong> with charts and visual insights<br>See what you remember from your visit.</span>
+                </p>
+                <div class="stats-preview">
+                    <div class="stat-item">
+                        <div class="stat-number">4,743</div>
+                        <div class="stat-label" data-i18n="ui.stats.serialKillers">Serial killers</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">13,105</div>
+                        <div class="stat-label" data-i18n="ui.stats.victims">Victims</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label" data-i18n="ui.stats.years">Years</div>
+                    </div>
+                </div>
+                <button id="start-btn" class="btn-primary" data-i18n="ui.welcome.start">START QUIZ</button>
+            </div>
+        </div>
+
+        <!-- Question screen -->
+        <div id="question-screen" class="screen">
+            <div class="container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="question-counter" class="question-counter">Question 1 of 12</div>
+                
+                <div id="question-container">
+                    <h2 id="question-text" class="question-text"></h2>
+                    <div id="answers-container" class="answers-container"></div>
+                </div>
+
+                <div class="navigation">
+                    <button id="next-btn" class="btn-primary" disabled data-i18n="ui.buttons.continue">CONTINUE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Insight screen -->
+        <div id="insight-screen" class="screen">
+            <div class="container">
+                <div class="progress-bar">
+                    <div id="insight-progress-fill" class="progress-fill"></div>
+                </div>
+                <div id="insight-counter" class="question-counter"></div>
+                
+                <!-- Correct/Incorrect indicator -->
+                <div id="answer-feedback" class="answer-feedback">
+                    <div class="feedback-icon"></div>
+                    <div class="feedback-text"></div>
+                </div>
+                
+                <!-- Chart/Graph for insight if applicable -->
+                <div id="insight-chart-container" class="chart-container" style="display: none;">
+                    <canvas id="insight-chart"></canvas>
+                </div>
+                
+                <h2 class="insight-title" data-i18n="ui.insight.title">KEY TAKEAWAY</h2>
+                <div id="insight-text" class="insight-text"></div>
+                
+                <button id="continue-btn" class="btn-primary" data-i18n="ui.buttons.continue">NEXT</button>
+            </div>
+        </div>
+
+        <!-- Results screen -->
+        <div id="result-screen" class="screen">
+            <div class="container">
+                <h1 class="title" data-i18n="ui.result.title">YOUR RESULTS</h1>
+                <div id="score-display" class="score-display">
+                    <div id="score-percentage" class="score-percentage">0%</div>
+                    <div class="score-label" data-i18n="ui.result.correctAnswers">CORRECT ANSWERS</div>
+                    <div id="score-fraction" class="score-fraction">0 / 12</div>
+                </div>
+                
+                <!-- Results chart -->
+                <div class="results-chart-container">
+                    <canvas id="results-chart"></canvas>
+                </div>
+                
+                <div id="conclusion-text" class="conclusion-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../shared/chart-lite.js"></script>
+    <script src="./lib/i18n.js"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script src="src/questionnaire.js"></script>
+    <script src="src/app.js"></script>
+</body>
+</html>

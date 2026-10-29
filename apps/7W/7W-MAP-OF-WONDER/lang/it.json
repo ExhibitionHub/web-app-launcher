@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "pageTitle": "Mappa delle Meraviglie"
+  },
+  "common": {
+    "home": "Home",
+    "backToMainMenu": "Torna alla schermata iniziale",
+    "languageSelector": "Selezione della lingua",
+    "controls": "Comandi",
+    "toggleControls": "Mostra o nascondi i comandi",
+    "zoomIn": "Ingrandisci",
+    "zoomOut": "Riduci",
+    "reset": "Home"
+  },
+  "mapApp": {
+    "filters": {
+      "all": "Tutte",
+      "ancient": "Antiche",
+      "modern": "Moderne"
+    },
+    "idle": {
+      "logoAlt": "Mappa delle Meraviglie",
+      "subtitle": "Esplora le meraviglie del mondo",
+      "loading": "Caricamento..."
+    },
+    "loading": {
+      "errorPrefix": "Errore",
+      "startFailure": "Impossibile avviare la mappa. Controllare l'ambiente del chiosco o i percorsi delle risorse.",
+      "stuckMessage": "Il caricamento è bloccato ({{stages}}). Controllare le risorse.",
+      "stages": {
+        "texture": "texture",
+        "model": "modello",
+        "data": "dati"
+      }
+    },
+    "categories": {
+      "ancient": "Antica",
+      "modern": "Moderna"
+    },
+    "popup": {
+      "cardAriaFallback": "Dettagli della meraviglia",
+      "imageAltFallback": "Immagine",
+      "imageUnavailable": "Immagine non disponibile",
+      "detailsPending": "Dettagli in corso di conferma.",
+      "meta": {
+        "location": "Luogo",
+        "built": "Costruzione",
+        "destroyed": "Distruzione"
+      },
+      "quickFact": "Curiosità {{number}}",
+      "quickFactAlt": "{{name}} - curiosità {{number}}",
+      "quickFactFallback": "Curiosità in arrivo.",
+      "pageHint": "Usa le frecce o i puntini per cambiare contenuto.",
+      "navigationAria": "Navigazione tra le schede",
+      "goToPage": "Vai alla pagina {{number}}",
+      "previousPage": "Pagina precedente",
+      "nextPage": "Pagina successiva",
+      "close": "Chiudi",
+      "closeAria": "Chiudi la scheda"
+    }
+  }
+}

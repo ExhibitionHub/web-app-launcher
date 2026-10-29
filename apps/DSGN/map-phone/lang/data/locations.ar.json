@@ -1,0 +1,29 @@
+{
+	"locations": {
+		"victimHouse": {
+			"name": "منزل الضحية",
+			"context": "حي المدينة، الرباط"
+		},
+		"neighborHouse": {
+			"name": "مدبرة المنزل",
+			"context": "شاهدة الصباح"
+		},
+		"friendHouse": {
+			"name": "منزل الصديق",
+			"context": "حي أكدال"
+		},
+		"policeStation": {
+			"name": "مركز الشرطة",
+			"context": "المفوضية المركزية بالرباط",
+			"address": "شارع ابن سينا، الرباط، المغرب"
+		},
+		"karimLocation": {
+			"name": "آخر منطقة معروفة لكريم",
+			"context": "حي حسن"
+		}
+	},
+	"policeAnchor": {
+		"location": "المفوضية المركزية بالرباط",
+		"address": "شارع ابن سينا، الرباط، المغرب"
+	}
+}

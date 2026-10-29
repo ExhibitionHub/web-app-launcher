@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="color-scheme" content="dark" />
+    <title>Exhibition - Menu</title>
+    <meta name="i18n-base" content="./lang/" />
+    <meta name="i18n-default-lang" content="en" />
+    <meta name="i18n-supported-langs" content="en,de,es,fr,nl,pt-br" />
+    <meta name="i18n-lock-lang" content="false" />
+    <meta name="i18n-title-key" content="menu.pageTitle" />
+    <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang" />
+    <meta name="kiosk-home" content="./" />
+    <meta name="kiosk-timeout-ms" content="0" />
+    <link rel="stylesheet" href="./style/theme.css?v=20260129c" />
+    <link rel="stylesheet" href="./style/kiosk.css?v=20260116b" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      html, body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      body {
+        font-family: var(--font-text);
+        background:
+          var(--sk-bg-radial),
+          var(--color-black);
+        color: var(--color-white);
+        user-select: none;
+      }
+
+      .screen {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        max-width: 900px;
+        width: 92%;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      .title {
+        font-size: clamp(2.4rem, 6vw, 4rem);
+        font-weight: bold;
+        color: var(--color-red);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        margin-bottom: 1rem;
+        letter-spacing: 0.20em;
+        text-transform: uppercase;
+        font-family: var(--font-title);
+      }
+
+      .title-logo {
+        display: block;
+        width: min(92vw, 720px);
+        height: auto;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+
+      .subtitle {
+        font-size: clamp(1rem, 2.4vw, 1.5rem);
+        color: var(--color-white);
+        margin-bottom: 2.5rem;
+        letter-spacing: 0.12em;
+        opacity: 0.9;
+        text-transform: uppercase;
+      }
+
+      .menu-toolbar {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1.5rem;
+      }
+
+      .lang-switcher--menu {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        position: fixed;
+        top: clamp(12px, 2vh, 24px);
+        right: clamp(12px, 2vw, 24px);
+        z-index: 20;
+        max-width: min(86vw, 360px);
+        gap: 0.5rem;
+        padding: 0.4rem;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        background: rgba(0, 0, 0, 0.42);
+        backdrop-filter: blur(10px);
+      }
+
+      .lang-switcher--menu .lang-switcher__option {
+        padding: 0.55rem 1rem;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        color: rgba(255, 255, 255, 0.78);
+        text-decoration: none;
+        font-size: 0.95rem;
+        letter-spacing: 0.06em;
+        transition: background 0.22s ease, color 0.22s ease, border-color 0.22s ease;
+      }
+
+      .lang-switcher--menu .lang-switcher__option:hover,
+      .lang-switcher--menu .lang-switcher__option:focus-visible {
+        color: var(--color-white);
+        border-color: rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .lang-switcher--menu .lang-switcher__option.is-active {
+        color: var(--color-white);
+        border-color: rgba(139, 0, 0, 0.55);
+        background: linear-gradient(135deg, rgba(139, 0, 0, 0.85), rgba(178, 34, 34, 0.85));
+      }
+
+      .intro {
+        max-width: 760px;
+        margin: 1.25rem auto 2.25rem;
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        line-height: 1.45;
+        letter-spacing: 0.02em;
+        opacity: 0.92;
+        text-transform: none;
+      }
+
+      .intro p {
+        margin: 0 0 0.95rem;
+      }
+
+      .intro p:last-child {
+        margin-bottom: 0;
+      }
+
+      .app-version {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        font-family: var(--font-text);
+        font-size: 9px;
+        letter-spacing: 0.08em;
+        opacity: 0.35;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 14px;
+        justify-content: center;
+        margin: 0 auto;
+        width: min(760px, 100%);
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.05rem 2.2rem;
+        font-size: 1.1rem;
+        font-weight: bold;
+        letter-spacing: 0.08em;
+        border: 2px solid;
+        background: none;
+        cursor: pointer;
+        transition: all 0.22s ease;
+        text-transform: uppercase;
+        border-radius: 6px;
+        text-decoration: none;
+      }
+
+      .btn-primary {
+        color: var(--color-red);
+        border-color: var(--color-red);
+      }
+
+      .btn-primary:hover {
+        background-color: var(--color-red);
+        color: var(--color-white);
+        transform: scale(1.03);
+      }
+
+      .btn-secondary {
+        color: var(--color-white);
+        border-color: var(--color-white);
+      }
+
+      .btn-secondary:hover {
+        background-color: var(--color-white);
+        color: var(--color-black);
+        transform: scale(1.03);
+      }
+
+      .btn:focus-visible {
+        outline: 3px solid rgba(139, 0, 0, 0.55);
+        outline-offset: 3px;
+      }
+
+      @media (max-width: 720px) {
+        .buttons { grid-template-columns: 1fr; }
+
+        .lang-switcher--menu {
+          max-width: min(88vw, 320px);
+          gap: 0.35rem;
+          top: 12px;
+          right: 12px;
+        }
+
+        .lang-switcher--menu .lang-switcher__option {
+          flex: 1 1 30%;
+          font-size: 0.82rem;
+          padding-inline: 0.75rem;
+        }
+      }
+
+      .app-overlay {
+        position: fixed;
+        inset: 0;
+        display: none;
+        background: rgba(0, 0, 0, 0.78);
+        z-index: 40;
+      }
+
+      .app-overlay.is-open {
+        display: block;
+      }
+
+      .app-overlay__chrome {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        right: 1rem;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1rem;
+        pointer-events: none;
+      }
+
+      .app-overlay__actions {
+        display: flex;
+        gap: 0.75rem;
+        pointer-events: auto;
+      }
+
+      .app-overlay__actions .btn {
+        background: rgba(0, 0, 0, 0.72);
+      }
+
+      .app-overlay__frame {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="screen" data-i18n-attr="aria-label:common.mainMenu">
+      <section class="container">
+        <h1 class="title">
+          <span class="sr-only" data-i18n="menu.title">Exhibition</span>
+          <img class="title-logo" src="./ressource/theme/Title.webp" alt="Serial Killer" data-lang-logo-default="./ressource/theme/Title.webp" data-lang-logo-de="../shared/Logo_Serien_Killer.webp" data-i18n-attr="alt:menu.subtitle" />
+        </h1>
+
+        <div class="menu-toolbar">
+          <nav class="lang-switcher lang-switcher--menu" data-lang-switcher data-i18n-attr="aria-label:common.languageSelector" aria-label="Language selector"></nav>
+        </div>
+
+        <div class="subtitle" data-i18n="menu.homeSubtitle">Explore. Understand. Question.</div>
+
+        <div class="intro" data-i18n-html="menu.introHtml">
+          <p>This interactive station invites you to look beyond individual cases and examine serial crime through patterns, data, and geography.</p>
+          <p>Choose the map to examine geography and movement, or take the quiz to challenge common assumptions using real statistics.</p>
+        </div>
+
+        <div class="buttons" data-i18n-attr="aria-label:common.selection">
+          <a class="btn btn-primary" href="../app-maps/index.html" data-embed-src="../app-maps/index.html" data-i18n="menu.exploreMap">Explore the Map</a>
+          <a class="btn btn-secondary" href="../SK-quiz-stats/index.html" data-embed-src="../SK-quiz-stats/index.html" data-i18n="menu.startQuiz">Start the Data Quiz</a>
+        </div>
+      </section>
+    </main>
+
+    <section class="app-overlay" id="app-overlay" aria-hidden="true">
+      <div class="app-overlay__chrome">
+        <div class="app-overlay__actions">
+          <button type="button" class="btn btn-secondary" id="app-overlay-close" data-i18n="common.home">Home</button>
+        </div>
+      </div>
+      <iframe id="app-overlay-frame" class="app-overlay__frame" title="Embedded experience" data-i18n-attr="title:common.embeddedExperienceTitle" loading="eager" referrerpolicy="same-origin"></iframe>
+    </section>
+
+    <div class="app-version" aria-hidden="true">v1.1</div>
+
+    <script src="../shared/lang-logo.js?v=20260504b"></script>
+    <script src="./lib/i18n.js?v=20260126a"></script>
+    <script src="../../../assets/tracking.js"></script>
+    <script>
+      (() => {
+        const overlay = document.getElementById('app-overlay');
+        const overlayFrame = document.getElementById('app-overlay-frame');
+        const overlayClose = document.getElementById('app-overlay-close');
+        const embedLinks = Array.from(document.querySelectorAll('[data-embed-src]'));
+        const launchQueryCache = new Map();
+
+        const getCurrentLang = () => (window.i18n && window.i18n.lang) || new URL(window.location.href).searchParams.get('lang') || 'en';
+        const hubTracking = window.EHTracking
+          ? window.EHTracking.createTracker({
+              exhibition: 'SK',
+              application: 'Multi-app',
+              getLanguage: () => getCurrentLang()
+            })
+          : null;
+
+        const getParentLaunchContext = () => {
+          const context = {};
+          const currentUrl = new URL(window.location.href);
+          currentUrl.searchParams.forEach((value, key) => {
+            const normalizedKey = String(key || '').trim();
+            const normalizedValue = String(value || '').trim();
+            if (!normalizedKey || !normalizedValue) return;
+            if (['lang', 'availableLangs', 'primaryLang', 'embed', 'hub', 'standalone'].includes(normalizedKey)) return;
+            context[normalizedKey] = normalizedValue;
+          });
+          return context;
+        };
+
+        const preserveRuntimeLanguageContext = (url) => {
+          const currentUrl = new URL(window.location.href);
+          ['availableLangs', 'primaryLang'].forEach((key) => {
+            const value = currentUrl.searchParams.get(key);
+            if (value) {
+              url.searchParams.set(key, value);
+            } else {
+              url.searchParams.delete(key);
+            }
+          });
+        };
+
+        const applyParentLaunchContext = (url) => {
+          Object.entries(getParentLaunchContext()).forEach(([key, value]) => {
+            url.searchParams.set(key, value);
+          });
+        };
+
+        const normalizeLaunchQuery = (rawLaunchQuery) => {
+          if (!rawLaunchQuery || typeof rawLaunchQuery !== 'object') return {};
+          return Object.fromEntries(
+            Object.entries(rawLaunchQuery)
+              .map(([key, value]) => [String(key || '').trim(), String(value ?? '').trim()])
+              .filter(([key, value]) => key && value)
+          );
+        };
+
+        const loadLaunchQuery = async (targetUrl) => {
+          const manifestUrl = new URL('./app.manifest.json', targetUrl);
+          const cacheKey = manifestUrl.toString();
+          if (launchQueryCache.has(cacheKey)) {
+            return launchQueryCache.get(cacheKey);
+          }
+
+          try {
+            const response = await fetch(manifestUrl, { cache: 'no-store' });
+            if (!response.ok) {
+              launchQueryCache.set(cacheKey, {});
+              return {};
+            }
+
+            const manifest = await response.json();
+            const launchQuery = normalizeLaunchQuery(manifest?.launchQuery);
+            launchQueryCache.set(cacheKey, launchQuery);
+            return launchQuery;
+          } catch {
+            launchQueryCache.set(cacheKey, {});
+            return {};
+          }
+        };
+
+        const appendLaunchQuery = (url, launchQuery) => {
+          Object.entries(launchQuery || {}).forEach(([key, value]) => {
+            const normalizedKey = String(key || '').trim();
+            const normalizedValue = String(value ?? '').trim();
+            if (!normalizedKey || !normalizedValue) return;
+            url.searchParams.set(normalizedKey, normalizedValue);
+          });
+        };
+
+        const closeOverlay = () => {
+          if (!overlay || !overlayFrame) return;
+          overlay.classList.remove('is-open');
+          overlay.setAttribute('aria-hidden', 'true');
+          overlayFrame.src = 'about:blank';
+        };
+
+        const openOverlay = async (link) => {
+          if (!overlay || !overlayFrame) return;
+
+          const target = link.getAttribute('data-embed-src');
+          if (!target) return;
+
+          const url = new URL(target, window.location.href);
+          appendLaunchQuery(url, await loadLaunchQuery(url));
+          applyParentLaunchContext(url);
+          url.searchParams.set('lang', getCurrentLang());
+          preserveRuntimeLanguageContext(url);
+          url.searchParams.set('embed', '1');
+
+          if (hubTracking) {
+            void hubTracking.restart(100, { step: 'launch' });
+          }
+
+          overlayFrame.src = url.toString();
+          overlay.classList.add('is-open');
+          overlay.setAttribute('aria-hidden', 'false');
+          overlayClose?.focus();
+        };
+
+        embedLinks.forEach((link) => {
+          link.addEventListener('click', async (event) => {
+            event.preventDefault();
+            await openOverlay(link);
+          });
+        });
+
+        overlayClose?.addEventListener('click', closeOverlay);
+
+        document.addEventListener('keydown', (event) => {
+          if (event.key === 'Escape' && overlay?.classList.contains('is-open')) {
+            closeOverlay();
+          }
+        });
+      })();
+    </script>
+    <script src="./lib/kiosk.js?v=20260116c" defer></script>
+  </body>
+</html>

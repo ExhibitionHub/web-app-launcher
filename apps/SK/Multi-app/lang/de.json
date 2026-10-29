@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "languageName": "Deutsch"
+  },
+  "common": {
+    "home": "Startseite",
+    "map": "Karte",
+    "quiz": "Quiz",
+    "languageSelector": "Sprachauswahl",
+    "embeddedExperienceTitle": "Eingebettetes Erlebnis",
+    "backToMainMenu": "Zurück zum Hauptmenü.",
+    "mainMenu": "Hauptmenü",
+    "selection": "Auswahl",
+    "openMap": "Karte öffnen",
+    "openQuiz": "Quiz öffnen"
+  },
+  "menu": {
+    "title": "Ausstellung",
+    "subtitle": "Serienmörder",
+    "pageTitle": "Ausstellungsmenü",
+    "homeSubtitle": "Erkunden. Verstehen. Fragen.",
+    "introHtml": "<p>An dieser interaktiven Station wirst du eingeladen, über Einzelfälle hinauszublicken und Serienverbrechen anhand von Mustern, Daten und geografischen Gegebenheiten zu analysieren. </p><p>Wähle die Karte, um geografische Gegebenheiten und Bewegungsmuster zu untersuchen, oder nimm an dem Quiz teil, um gängige Annahmen auf Basis realer Statistiken zu hinterfragen.</p>",
+    "exploreMap": "Karte erkunden.",
+    "startQuiz": "Los geht‘s mit dem Daten-Quiz."
+  }
+}

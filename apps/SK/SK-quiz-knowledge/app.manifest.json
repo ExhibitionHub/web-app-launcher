@@ -1,0 +1,6 @@
+{
+  "appKey": "SK-quiz-knowledge",
+  "displayName": "Knowledge Quiz",
+  "entryPath": "/apps/SK/SK-quiz-knowledge/index.html",
+  "idleTimeoutSec": 120
+}
