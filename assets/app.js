@@ -887,10 +887,12 @@ function openEntryForm(entry) {
 
       <div class="field">
         <span class="field__label">Type</span>
-        <div class="segmented">
-          <label><input type="radio" name="type" value="launch" ${type === 'launch' ? 'checked' : ''} /><span>Launch (web app)</span></label>
-          <label><input type="radio" name="type" value="download" ${type === 'download' ? 'checked' : ''} /><span>Download (.zip)</span></label>
-        </div>
+        ${isNew ? `<div class="segmented">
+          <label><input type="radio" name="type" value="launch" checked /><span>Launch (web app)</span></label>
+          <label><input type="radio" name="type" value="download" /><span>Download (.zip)</span></label>
+        </div>` : `<span class="field__static">${type === 'launch' ? 'Launch (web app)' : 'Download (.zip)'}</span>
+        <input type="hidden" name="type" value="${type}" />
+        <span class="field__hint">The type can't be changed once the card exists. To switch, delete the card and add a new one.</span>`}
       </div>
       <label class="field">
         <span class="field__label">Title</span>
@@ -1021,7 +1023,6 @@ function applyFamilyForm(form, draft) {
 
 function applyEntryForm(form, draft) {
   const data = new FormData(form);
-  const type = data.get('type') === 'download' ? 'download' : 'launch';
   const title = pickFirstText(data.get('title'));
   if (!title) {
     return 'Enter a title.';
@@ -1029,6 +1030,8 @@ function applyEntryForm(form, draft) {
 
   const index = draft.entries.findIndex((entry) => entry.id === form.dataset.id);
   const original = index === -1 ? null : draft.entries[index];
+  // The type is chosen when the card is created and stays fixed afterwards.
+  const type = (original?.type || data.get('type')) === 'download' ? 'download' : 'launch';
   const base = { family: data.get('family'), type, title, description: pickFirstText(data.get('description')) };
   const newId = () => uniqueId(slugify(title), draft.entries.map((item) => item.id));
   let entry;

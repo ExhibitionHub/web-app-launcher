@@ -731,6 +731,17 @@ h1 {
   font-size: 0.78rem;
 }
 
+.field__static {
+  width: fit-content;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-alt);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
 .help summary {
   display: inline-flex;
   align-items: center;
