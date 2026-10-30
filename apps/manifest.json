@@ -100,6 +100,27 @@
       ]
     },
     {
+      "id": "post-and-sketch",
+      "family": "7W",
+      "type": "download",
+      "title": "Post And Sketch",
+      "description": "PostAndSketch is an interactive Unity installation for exhibitions. Visitors colour a printed monument sheet and place it in a camera box. The app reads the QR code, flattens and photographs the page, and paints it onto an animated monument that floats across an on-screen river scene.",
+      "downloads": [
+        {
+          "version": "1.3",
+          "url": "https://drive.google.com/file/d/14_2VcPAJSmX7hJ7yG8qZwcqy_kmyTg_p/view?usp=drive_link"
+        },
+        {
+          "version": "1.2",
+          "url": "https://drive.google.com/file/d/1CjxyyTVNhc50aEOoKIQ-rEYpk8nnjSOa/view?usp=drive_link"
+        },
+        {
+          "version": "1.1",
+          "url": "https://drive.google.com/file/d/1ipUv-vPB2BsAGB7Lu3xsfcBDJt0BEm0T/view?usp=drive_link"
+        }
+      ]
+    },
+    {
       "id": "talk-with-zara-historian",
       "family": "7W",
       "type": "download",
