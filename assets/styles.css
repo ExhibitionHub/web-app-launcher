@@ -223,9 +223,12 @@ h1 {
 
 .card__text {
   margin: 0;
+  max-height: 4.5em; /* 3 lines at line-height 1.5; longer text scrolls inside the card */
+  overflow-y: auto;
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.5;
+  scrollbar-width: thin;
 }
 
 .card__langs {
@@ -863,9 +866,19 @@ h1 {
 
 .version-row {
   display: grid;
-  grid-template-columns: 6rem minmax(0, 1fr) auto;
+  grid-template-columns: 6rem minmax(0, 1fr) minmax(0, 9rem) auto;
   gap: 0.5rem;
   align-items: center;
+}
+
+@media (max-width: 560px) {
+  .version-row {
+    grid-template-columns: 5rem minmax(0, 1fr) auto;
+  }
+
+  .version-row input[name="developer"] {
+    grid-column: 1 / 3;
+  }
 }
 
 .edit-error {

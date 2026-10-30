@@ -5,12 +5,12 @@
 //   { "families": [ { "id", "label" } ],
 //     "entries":  [ launch card | download card ] }
 //   launch card:   id, family, type "launch", title, description, url, languages[],
-//                  defaultLanguage, idleTimeoutSec (+ optional launchQuery,
+//                  defaultLanguage, idleTimeoutSec (+ optional developer, launchQuery,
 //                  launchOptions, requiresSecureContext)
 //   download card: id, family, type "download", title, description,
-//                  downloads [ { version, url } ]
+//                  downloads [ { version, url, optional developer } ]
 
-const LAUNCH_KEYS = ['id', 'family', 'type', 'title', 'description', 'url', 'languages', 'defaultLanguage', 'idleTimeoutSec'];
+const LAUNCH_KEYS = ['id', 'family', 'type', 'title', 'description', 'url', 'languages', 'defaultLanguage', 'idleTimeoutSec', 'developer'];
 const APP_MANIFEST_EXTRA_KEYS = ['launchQuery', 'launchOptions', 'requiresSecureContext'];
 const CARD_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
 
@@ -67,6 +67,7 @@ export function canonicalEntry(entry) {
       downloads: (Array.isArray(entry.downloads) ? entry.downloads : []).map((download) => ({
         version: normalizeVersion(download?.version),
         url: text(download?.url),
+        ...(text(download?.developer) ? { developer: text(download.developer) } : {}),
       })),
     };
   }
@@ -79,6 +80,7 @@ export function canonicalEntry(entry) {
     languages: normalizeLanguageList(entry.languages),
     defaultLanguage: normalizeLanguageCode(entry.defaultLanguage),
     idleTimeoutSec: text(String(entry.idleTimeoutSec ?? '')) === '' ? NaN : Number(entry.idleTimeoutSec),
+    ...(text(entry.developer) ? { developer: text(entry.developer) } : {}),
     ...extras,
   };
 }

@@ -869,6 +869,7 @@ function renderVersionRow(download = { version: '', url: '' }) {
     <div class="version-row">
       <input type="text" name="version" value="${escapeHtml(download.version)}" placeholder="1.6" aria-label="Version" />
       <input type="text" name="downloadUrl" value="${escapeHtml(download.url)}" placeholder="https://drive.google.com/file/d/.../view" aria-label="Download link" />
+      <input type="text" name="developer" value="${escapeHtml(download.developer || '')}" placeholder="Developer" aria-label="Developer (optional)" />
       <button class="icon-btn" type="button" data-remove-version title="Remove this version" aria-label="Remove this version">×</button>
     </div>
   `;
@@ -914,6 +915,10 @@ function openEntryForm(entry) {
           <span class="field__label">Launch link</span>
           <input type="text" name="url" value="${escapeHtml(type === 'launch' ? entry?.url || '' : '')}" placeholder="/apps/7W/7W-MY-APP/index.html" />
           <span class="field__hint">The app's index.html (its folder must already exist), or a full https:// link.</span>
+        </label>
+        <label class="field">
+          <span class="field__label">Developer (optional)</span>
+          <input type="text" name="developer" value="${escapeHtml(type === 'launch' ? entry?.developer || '' : '')}" />
         </label>
         <div class="field-row">
           <label class="field">
@@ -1041,6 +1046,7 @@ function applyEntryForm(form, draft) {
       .map((row) => ({
         version: pickFirstText(row.querySelector('[name="version"]').value).replace(/^v(?=\d)/i, ''),
         url: pickFirstText(row.querySelector('[name="downloadUrl"]').value),
+        developer: pickFirstText(row.querySelector('[name="developer"]').value),
       }))
       .filter((download) => download.version || download.url);
     entry = { id: original?.id || newId(), ...base, downloads };
@@ -1055,6 +1061,7 @@ function applyEntryForm(form, draft) {
       id: localKey || original?.id || newId(),
       ...base,
       url,
+      developer: pickFirstText(data.get('developer')),
       languages,
       defaultLanguage: normalizeLanguageCode(data.get('defaultLanguage')) || languages[0] || '',
       idleTimeoutSec: pickFirstText(data.get('idleTimeoutSec')) === '' ? '' : Number(data.get('idleTimeoutSec')),
