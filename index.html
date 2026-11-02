@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exhibition Hub</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="./assets/styles.css?v=20261029m" />
+    <link rel="stylesheet" href="./assets/styles.css?v=20261102b" />
   </head>
   <body>
     <main class="launcher" id="launcher">
@@ -14,6 +14,13 @@
           <h1>Exhibition Hub</h1>
           <p>Apps &amp; downloads</p>
         </div>
+        <button class="family-menu" id="family-menu" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="family-nav">
+          <span class="family-menu__text">
+            <span class="family-menu__hint">Family</span>
+            <span class="family-menu__label" id="family-menu-label">Families</span>
+          </span>
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
         <nav class="family-nav" id="family-nav" aria-label="Families"></nav>
       </aside>
       <section class="content">
@@ -80,6 +87,6 @@
 
     <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
 
-    <script type="module" src="./assets/app.js?v=20261029m"></script>
+    <script type="module" src="./assets/app.js?v=20261102b"></script>
   </body>
 </html>

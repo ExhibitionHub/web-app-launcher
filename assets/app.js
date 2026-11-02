@@ -39,6 +39,9 @@ const ICON_PLUS = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" s
 
 const appList = document.getElementById('app-list');
 const familyNav = document.getElementById('family-nav');
+const familyMenu = document.getElementById('family-menu');
+const familyMenuLabel = document.getElementById('family-menu-label');
+const sidebar = document.querySelector('.sidebar');
 const familyTitle = document.getElementById('family-title');
 const familySubtitle = document.getElementById('family-subtitle');
 const editToggle = document.getElementById('edit-toggle');
@@ -71,6 +74,12 @@ init();
 appList.addEventListener('click', onAppListClick);
 appList.addEventListener('change', onVersionChange);
 familyNav.addEventListener('click', onFamilyNavClick);
+familyMenu.addEventListener('click', () => setFamilyMenu(!sidebar.classList.contains('is-open')));
+document.addEventListener('click', (event) => {
+  if (!sidebar.contains(event.target)) {
+    setFamilyMenu(false);
+  }
+});
 launchModal.addEventListener('click', onLaunchModalClick);
 editModal.addEventListener('click', onEditModalClick);
 editModal.addEventListener('submit', onEditModalSubmit);
@@ -247,6 +256,7 @@ function renderList() {
     emptyState.classList.remove('hidden');
     appList.innerHTML = '';
     familyNav.innerHTML = editMode ? renderAddFamilyButton() : '';
+    familyMenuLabel.textContent = 'Families';
     familyTitle.textContent = '';
     familySubtitle.textContent = '';
     return;
@@ -263,6 +273,7 @@ function renderList() {
 
   familyNav.innerHTML = families.map((family) => renderFamilyTab(family)).join('')
     + (editMode ? renderAddFamilyButton() : '');
+  familyMenuLabel.textContent = activeFamily.label;
   familyTitle.textContent = activeFamily.label;
   familySubtitle.textContent = [
     launchCount ? `${launchCount} web ${launchCount === 1 ? 'app' : 'apps'}` : '',
@@ -750,7 +761,15 @@ function onAppListClick(event) {
   }
 }
 
+// On a phone the family list is a dropdown under the family button (the CSS hides it otherwise).
+function setFamilyMenu(open) {
+  sidebar.classList.toggle('is-open', open);
+  familyMenu.setAttribute('aria-expanded', String(open));
+}
+
 function onFamilyNavClick(event) {
+  setFamilyMenu(false);
+
   const editButton = event.target.closest('[data-edit-family]');
   if (editButton) {
     openFamilyForm(manifest.families.find((family) => family.id === editButton.dataset.editFamily));
@@ -818,7 +837,9 @@ function onGlobalKeyDown(event) {
     return;
   }
 
-  if (!editModal.classList.contains('hidden')) {
+  if (sidebar.classList.contains('is-open')) {
+    setFamilyMenu(false);
+  } else if (!editModal.classList.contains('hidden')) {
     closeEditModal();
   } else if (launchDialogAppId) {
     closeLaunchDialog();
