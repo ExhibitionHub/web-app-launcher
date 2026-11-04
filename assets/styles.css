@@ -1185,3 +1185,68 @@ h1 {
     box-shadow: var(--shadow);
   }
 }
+
+/* Password screen (assets/gate.js) */
+.gate {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  background: var(--bg);
+}
+
+.gate__card {
+  display: grid;
+  gap: 12px;
+  width: min(100%, 22rem);
+  padding: 28px 24px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.gate__card h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.gate__card p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.gate__input {
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  font: inherit;
+  font-size: 16px;
+}
+
+.gate__button {
+  min-height: 44px;
+  border: 0;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.gate__button:hover:not(:disabled) {
+  background: var(--accent-dark);
+}
+
+.gate__button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.gate .gate__error {
+  color: #c0392b;
+}
