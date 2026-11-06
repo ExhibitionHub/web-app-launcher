@@ -163,7 +163,10 @@
     const storedLang = (() => {
       try { return String(localStorage.getItem('lang') || '').trim().toLowerCase(); } catch { return ''; }
     })();
-    const uiLang = (langParam || storedLang || navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en';
+    const ADOPT_LANGS = ['en', 'fr', 'es', 'ca'];
+    const baseLang = (v) => String(v || '').trim().toLowerCase().split(/[-_]/)[0];
+    const uiLang = [langParam, storedLang, navigator.language].map(baseLang).find((l) => ADOPT_LANGS.includes(l)) || 'en';
+    try { document.documentElement.lang = uiLang; } catch { /* ignore */ }
 
     const statusEl = document.getElementById('status');
     const cardEl = document.getElementById('speciesCard');
@@ -206,6 +209,36 @@
         notFound: 'Espèce introuvable.',
         copied: 'Lien copié.',
         unable: 'Impossible de générer la carte.'
+      },
+      es: {
+        pageTitle: 'Adopta esta especie',
+        status: 'Estado',
+        population: 'Población',
+        habitat: 'Hábitat',
+        decline: 'Descenso',
+        download: 'Descargar la ficha como imagen',
+        share: 'Compartir',
+        back: 'Volver al mapa',
+        loading: 'Cargando…',
+        noSpecies: 'No se ha indicado ninguna especie en la URL.',
+        notFound: 'Especie no encontrada.',
+        copied: 'Enlace copiado.',
+        unable: 'No se ha podido crear la ficha.'
+      },
+      ca: {
+        pageTitle: 'Adopta aquesta espècie',
+        status: 'Estat',
+        population: 'Població',
+        habitat: 'Hàbitat',
+        decline: 'Descens',
+        download: 'Baixa la fitxa com a imatge',
+        share: 'Comparteix',
+        back: 'Torna al mapa',
+        loading: 'Carregant…',
+        noSpecies: "No s'ha indicat cap espècie a l'URL.",
+        notFound: "No s'ha trobat l'espècie.",
+        copied: 'Enllaç copiat.',
+        unable: "No s'ha pogut crear la fitxa."
       }
     };
 
@@ -222,8 +255,8 @@
     function text(v) { return String(v || '').trim(); }
 
     function readI18nField(species, baseKey) {
-      if (uiLang === 'fr') {
-        const frKey = `${baseKey}_fr`;
+      if (uiLang !== 'en') {
+        const frKey = `${baseKey}_${uiLang}`;
         const frValue = text(species[frKey]);
         if (frValue) return frValue;
       }
@@ -257,8 +290,8 @@
         .map((p) => p.trim())
         .filter(Boolean);
 
-      // FR content can use one newline per paragraph.
-      if (uiLang === 'fr' && parts.length <= 1 && /\n/.test(withMdBold)) {
+      // Translated content can use one newline per paragraph.
+      if (uiLang !== 'en' && parts.length <= 1 && /\n/.test(withMdBold)) {
         parts = withMdBold
           .split(/\n/g)
           .map((p) => p.trim())

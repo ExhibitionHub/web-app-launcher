@@ -33240,7 +33240,8 @@
     const speciesSlug = isPerniciem ? toSpeciesSlug(speciesSlugSource) : "";
     const adoptBaseUrl = DATASET && typeof DATASET.adoptPageBaseUrl === "string" && DATASET.adoptPageBaseUrl.trim() ? DATASET.adoptPageBaseUrl.trim() : `${window.location.origin}${window.location.pathname.replace(/[^/]+$/, "")}adopt.html`;
     const buildAdoptUrl = () => {
-      const uiLang = String(getUiLang() || "").toLowerCase().startsWith("fr") ? "fr" : "en";
+      const adoptLang = String(getUiLang() || "").toLowerCase().split(/[-_]/)[0];
+      const uiLang = ["en", "fr", "es", "ca"].includes(adoptLang) ? adoptLang : "en";
       if (!(isPerniciem && speciesSlug)) return "";
       return `${adoptBaseUrl}${adoptBaseUrl.includes("?") ? "&" : "?"}species=${encodeURIComponent(speciesSlug)}&lang=${encodeURIComponent(uiLang)}`;
     };

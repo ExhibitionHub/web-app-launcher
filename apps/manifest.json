@@ -185,7 +185,8 @@
       "url": "/apps/AOTB/AOTB-ALL/index.html",
       "languages": [
         "en",
-        "fr"
+        "es",
+        "ca"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 90
@@ -199,7 +200,8 @@
       "url": "/apps/AOTB/AOTB-PERNICIEM/index.html",
       "languages": [
         "en",
-        "fr"
+        "es",
+        "ca"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 60
