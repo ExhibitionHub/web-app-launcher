@@ -182,6 +182,37 @@
       ]
     },
     {
+      "id": "AOTB-QUIZ",
+      "family": "AOTB",
+      "type": "launch",
+      "title": "Art of the Brick - Challenge Quiz",
+      "description": "",
+      "url": "/apps/AOTB/AOTB-QUIZ/index.html",
+      "languages": [
+        "en",
+        "es",
+        "ca",
+        "fr"
+      ],
+      "defaultLanguage": "en",
+      "idleTimeoutSec": 60,
+      "developer": "Nathanaël"
+    },
+    {
+      "id": "aotb-challenge-quiz-kiosk",
+      "family": "AOTB",
+      "type": "download",
+      "title": "Art of the Brick - Challenge Quiz (kiosk program)",
+      "description": "Full-screen Windows kiosk program for the touch quiz, in English, Spanish, Catalan and French. Visitors cannot leave it and it starts again by itself. Windows 10/11 PC, no internet needed: unzip, then double-click Install-Autostart.cmd and Start-Quiz.cmd.",
+      "downloads": [
+        {
+          "version": "2.1.0",
+          "url": "https://drive.google.com/file/d/1QnHgHtvYraAzqNMvPa_mAad1hHX41_Hc/view?usp=sharing",
+          "developer": "Nathanaël"
+        }
+      ]
+    },
+    {
       "id": "AOTB-ALL",
       "family": "AOTB",
       "type": "launch",
