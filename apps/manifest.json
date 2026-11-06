@@ -55,6 +55,11 @@
       "description": "AI image generator: visitors design their own wonder and get the picture by email. Windows PC with NVIDIA RTX GPU and internet (the AI model downloads on first launch).",
       "downloads": [
         {
+          "version": "1.7",
+          "url": "https://drive.google.com/file/d/1XHwpAlk2-pwVpuGGFjVwVBumoN7WNh5H/view?usp=drive_link",
+          "developer": "Bhavesh"
+        },
+        {
           "version": "1.6",
           "url": "https://drive.google.com/file/d/1dsR-sDpcrnvaA5FOp9GvxgIDM4VEAVTV/view?usp=drive_link",
           "developer": "Bhavesh"
