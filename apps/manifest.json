@@ -186,7 +186,8 @@
       "languages": [
         "en",
         "es",
-        "ca"
+        "ca",
+        "fr"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 90
@@ -201,7 +202,8 @@
       "languages": [
         "en",
         "es",
-        "ca"
+        "ca",
+        "fr"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 60
@@ -216,7 +218,8 @@
       "languages": [
         "en",
         "es",
-        "ca"
+        "ca",
+        "fr"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 90
