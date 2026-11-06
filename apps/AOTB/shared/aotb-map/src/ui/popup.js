@@ -159,16 +159,17 @@ const translateMaybeI18nKey = (value) => {
 
 const readLocalizedField = (obj, ...aliases) => {
   const lang = String(getUiLang() || '').toLowerCase();
-  if (lang.startsWith('fr')) {
+  const locSuffix = lang.split(/[-_]/)[0];
+  if (locSuffix && locSuffix !== 'en' && /^[a-z]{2,3}$/.test(locSuffix)) {
     // Special case: many masters entries store translated long text in
     // Description_fr while Notes contains the latest English version.
     // Prefer Notes_fr first (keeps FR emphasis), then Description_fr fallback.
     const asksForNotes = aliases.some((a) => String(a || '').toLowerCase() === 'notes');
     if (asksForNotes) {
-      const frNotes = readField(obj, 'Notes_fr', 'notes_fr');
+      const frNotes = readField(obj, `Notes_${locSuffix}`, `notes_${locSuffix}`);
       if (frNotes !== null && frNotes !== undefined && String(frNotes).trim() !== '') return frNotes;
 
-      const frDesc = readField(obj, 'Description_fr', 'description_fr');
+      const frDesc = readField(obj, `Description_${locSuffix}`, `description_${locSuffix}`);
       if (frDesc !== null && frDesc !== undefined && String(frDesc).trim() !== '') return frDesc;
     }
 
@@ -177,7 +178,7 @@ const readLocalizedField = (obj, ...aliases) => {
       if (!alias) continue;
       const a = String(alias);
       // Prefer explicit French sibling fields when present (e.g. Name_fr, Notes_fr).
-      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
     }
     const frValue = readField(obj, ...frAliases);
     if (frValue !== null && frValue !== undefined && String(frValue).trim() !== '') return frValue;
@@ -233,8 +234,8 @@ const formatRichTextToHtml = (value) => {
     .filter(Boolean);
 
   // Some FR texts are authored with single newlines between paragraphs.
-  const isFr = String(getUiLang() || '').toLowerCase().startsWith('fr');
-  if (isFr && paragraphs.length <= 1 && /\n/.test(escaped)) {
+  const isTranslated = !String(getUiLang() || '').toLowerCase().startsWith('en');
+  if (isTranslated && paragraphs.length <= 1 && /\n/.test(escaped)) {
     paragraphs = escaped
       .split(/\n/g)
       .map(p => p.trim())
@@ -243,7 +244,7 @@ const formatRichTextToHtml = (value) => {
 
   // Fallback emphasis for FR masters when source text has no explicit bold markup.
   // This keeps visual hierarchy without altering underlying data.
-  if (isFr && DATASET && DATASET.key === 'masters') {
+  if (isTranslated && DATASET && DATASET.key === 'masters') {
     const hasExplicitBold = paragraphs.some((p) => /<strong>.*?<\/strong>/i.test(p));
     if (!hasExplicitBold) {
       paragraphs = paragraphs.map((p) => {

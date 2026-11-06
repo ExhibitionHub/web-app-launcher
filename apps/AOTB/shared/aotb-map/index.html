@@ -6,7 +6,7 @@
   <title>Art of the Brick Interactive Map</title>
   <meta name="i18n-base" content="./lang/" />
   <meta name="i18n-default-lang" content="en" />
-  <meta name="i18n-supported-langs" content="en,fr" />
+  <meta name="i18n-supported-langs" content="en,fr,es,ca" />
   <meta name="i18n-lock-lang" content="" />
   <meta name="i18n-title-key" content="mapApp.pageTitle" />
   <meta name="i18n-link-preserve" content="lang,availableLangs,primaryLang,forceLang,startRegion" />
@@ -16,7 +16,7 @@
   <meta name="map-idle-timeout-ms" content="90000" />
   <meta name="tracking-exhibition" content="AOTB" />
   <meta name="tracking-application" content="AOTB-Map" />
-  <!-- Optional: force UI language on boot and whenever the app returns to idle. Values: en | fr | (empty = no forced boot, idle keeps legacy default) -->
+  <!-- Optional: force UI language on boot and whenever the app returns to idle. Values: en | fr | es | ca | (empty = no forced boot, idle keeps legacy default) -->
   <meta name="map-force-lang" content="" />
   <!-- Optional: override the initial camera alignment. Values: europe | america | dataset (empty = dataset default) -->
   <meta name="map-start-region" content="" />
@@ -43,6 +43,8 @@
   <div id="langOverlay" class="lang-overlay" role="group" aria-label="Language">
     <button type="button" class="lang-overlay__btn" data-lang="en" aria-pressed="true" aria-label="English">EN</button>
     <button type="button" class="lang-overlay__btn" data-lang="fr" aria-pressed="false" aria-label="Français">FR</button>
+    <button type="button" class="lang-overlay__btn" data-lang="es" aria-pressed="false" aria-label="Español">ES</button>
+    <button type="button" class="lang-overlay__btn" data-lang="ca" aria-pressed="false" aria-label="Català">CA</button>
   </div>
 
   <aside id="mapSearch" class="map-search" aria-label="Search" hidden>

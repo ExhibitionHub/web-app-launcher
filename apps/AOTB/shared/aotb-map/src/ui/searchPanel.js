@@ -56,13 +56,14 @@ function getUiLang() {
 
 function readLocalizedField(obj, ...aliases) {
   const lang = String(getUiLang() || '').toLowerCase();
-  if (lang.startsWith('fr')) {
+  const locSuffix = lang.split(/[-_]/)[0];
+  if (locSuffix && locSuffix !== 'en' && /^[a-z]{2,3}$/.test(locSuffix)) {
     const asksForNotes = aliases.some((a) => String(a || '').toLowerCase() === 'notes');
     if (asksForNotes) {
-      const frNotes = readField(obj, 'Notes_fr', 'notes_fr');
+      const frNotes = readField(obj, `Notes_${locSuffix}`, `notes_${locSuffix}`);
       if (frNotes) return frNotes;
 
-      const frDesc = readField(obj, 'Description_fr', 'description_fr');
+      const frDesc = readField(obj, `Description_${locSuffix}`, `description_${locSuffix}`);
       if (frDesc) return frDesc;
     }
 
@@ -70,7 +71,7 @@ function readLocalizedField(obj, ...aliases) {
     for (const alias of aliases) {
       if (!alias) continue;
       const a = String(alias);
-      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
     }
     const frValue = readField(obj, ...frAliases);
     if (frValue) return frValue;

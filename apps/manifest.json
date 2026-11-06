@@ -213,7 +213,8 @@
       "url": "/apps/AOTB/AOTB-MASTERS/index.html",
       "languages": [
         "en",
-        "fr"
+        "es",
+        "ca"
       ],
       "defaultLanguage": "en",
       "idleTimeoutSec": 90

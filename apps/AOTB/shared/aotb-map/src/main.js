@@ -257,7 +257,7 @@ function normalizeMapLang(value) {
   const raw = String(value || '').trim().toLowerCase();
   if (!raw) return '';
   const base = raw.split(/[-_]/)[0];
-  return base === 'en' || base === 'fr' ? base : '';
+  return /^[a-z]{2,3}$/.test(base) ? base : '';
 }
 
 function getCurrentLang() {
@@ -353,7 +353,7 @@ function getForcedLang() {
   const fromQuery = getParam('forceLang') || getParam('langForce');
   const raw = (fromQuery || meta('map-force-lang') || '').trim();
   const v = raw.toLowerCase();
-  if (v === 'en' || v === 'fr') return v;
+  if (/^[a-z]{2,3}$/.test(v)) return v;
   return '';
 }
 

@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "languageName": "Español"
+  },
+  "common": {
+    "home": "Inicio",
+    "map": "Mapa",
+    "quiz": "Cuestionario",
+    "controls": "Controles",
+    "toggleControls": "Mostrar u ocultar controles",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "reset": "Inicio",
+    "all": "Todo",
+    "backToMainMenu": "Volver al menú principal",
+    "mainMenu": "Menú principal",
+    "selection": "Selección",
+    "openMap": "Abrir mapa"
+  },
+  "mapApp": {
+    "pageTitle": "Mapa interactivo de The Art of the Brick",
+    "datasetTitles": {
+      "perniciem": "PERNiCiEM — Especies en peligro",
+      "masters": "Maestros del pasado — Mapa de obras",
+      "postmasters": "Post Masters — Mapa de obras",
+      "all": "Mapa interactivo de The Art of the Brick"
+    },
+    "datasetShortTitles": {
+      "perniciem": "Especies en peligro",
+      "masters": "Maestros del pasado",
+      "postmasters": "Post Masters",
+      "all": "Mapa AOTB"
+    },
+    "search": {
+      "title": "Buscar",
+      "placeholder": "Buscar (especie, obra, artista...)",
+      "hint": "Busca por nombre, región, descripción...",
+      "countryAria": "Filtrar por región",
+      "resultsAria": "Resultados",
+      "keyboardAria": "Teclado",
+      "countryAll": "Todas las regiones",
+      "countryUnknown": "Región desconocida",
+      "startTyping": "Empieza a escribir para buscar",
+      "noResults": "Sin resultados",
+      "unnamed": "Sin nombre",
+      "toggleAria": "Mostrar u ocultar el panel de búsqueda",
+      "clearAria": "Borrar la búsqueda",
+      "layoutAria": "Cambiar la disposición del teclado",
+      "keys": {
+        "space": "Espacio",
+        "backspace": "Borrar",
+        "clear": "Vaciar",
+        "shift": "Mayús"
+      }
+    },
+    "idle": {
+      "logoAlt": "Mapa interactivo de The Art of the Brick",
+      "subtitle": "Explora la exposición interactiva",
+      "loading": "Cargando...",
+      "unableToStart": "No se puede iniciar el paquete del módulo del mapa. Comprueba la versión del entorno de ejecución o las rutas de los recursos."
+    },
+    "opening": {
+      "perniciem": {
+        "title": "Nuestro planeta está cambiando.\nDescubre las especies en peligro de todo el mundo.",
+        "cta": "Toca para explorar"
+      },
+      "masters": {
+        "title": "Adéntrate en el mundo de los maestros.",
+        "cta": "Toca para explorar."
+      }
+    },
+    "legend": {
+      "title": "Estado de conservación",
+      "endangered": "En peligro",
+      "vulnerable": "Vulnerable",
+      "nearThreatened": "Casi amenazada"
+    }
+  },
+  "popup": {
+    "keyInfos": "Datos clave",
+    "tagsLabel": "Detalles",
+    "imageUnavailable": "Imagen no disponible",
+    "profile": "Detalles",
+    "profileDetails": "Detalles",
+    "imageAlt": "Imagen",
+    "adoptSpecies": "Adopta esta especie",
+    "openLink": "Abrir enlace",
+    "close": "Cerrar",
+    "closeCard": "Cerrar la ficha",
+    "detailsToBeConfirmed": "Detalles por confirmar.",
+    "meta": {
+      "status": "Estado",
+      "habitat": "Hábitat",
+      "population": "Población",
+      "threats": "Amenazas",
+      "artists": "Artistas",
+      "medium": "Técnica",
+      "date": "Fecha",
+      "dimensions": "Dimensiones",
+      "movement": "Movimiento",
+      "artist": "Artista",
+      "conservationStatus": "Estado",
+      "cat": "Hábitat",
+      "artwork": "Obra",
+      "declineRate": "Descenso",
+      "mounting": "Montaje",
+      "labelNumber": "Etiqueta",
+      "dimensionsCm": "Dimensiones (cm)",
+      "bricks": "Ladrillos",
+      "QRcode": "QR",
+      "artistBio": "Sobre el artista"
+    },
+    "compare": {
+      "original": "Obra original",
+      "aotb": "Obra de AOTB"
+    }
+  },
+  "thethinker": {
+    "masters": {
+      "name": "El pensador",
+      "desc": "Concebida en origen como un elemento para coronar el marco de la puerta de Las puertas del Infierno (una obra inacabada), Rodin acabó decidiendo convertir El pensador en una escultura independiente.\nLa escultura representa al hombre corriente, que reflexiona quizá sobre el sentido de la vida. Mientras que las esculturas públicas solían retratar a héroes o políticos, El pensador de Rodin es universal y puede representar a cualquiera, pero en su pose también resulta inteligente y heroico.\nLa escultura no es del todo exacta desde el punto de vista anatómico: su gran espalda ejemplifica la postura encorvada del pensamiento. Eso subraya que la figura no piensa solo con el cerebro, sino con cada músculo de su cuerpo.\nLa pieza original es una escultura tan magnífica que fue un placer construir una réplica en ladrillos. La versión en ladrillos está a la misma escala que la versión original que Rodin creó por primera vez, El pensador. Costó mucho trabajo conseguir la posición correcta del cuerpo y me asombra la cantidad de detalle que Rodin logró a esta escala.",
+      "artist": "Auguste Rodin",
+      "medium": "Bronce",
+      "origin": "Francia",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Francia",
+      "place": "Francia",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "handeffigy": {
+    "masters": {
+      "name": "Efigie de mano",
+      "desc": "Esta efigie de mano es más grande que una mano humana real y se encontró en el Enterramiento 47 del Túmulo 25 del conjunto de túmulos de Hopewell, en el condado de Ross, Ohio. La mano está hecha con una lámina natural de mica, un material bastante delicado y que los hopewell no tenían necesariamente al alcance. El uso de este tipo de material demuestra que la red comercial de los hopewell era extensa.\nTambién demuestra la habilidad de los artistas hopewell para emplear un material que no era natural de su territorio. Los túmulos, como el que se excavó y sacó a la luz esta efigie de mano, eran con toda probabilidad lugares sagrados de enterramiento o ceremonia. La efigie, hecha con un material tan poco convencional, se colocó probablemente en el túmulo como ofrenda funeraria.\nPara captar el color translúcido de la mica de la escultura original, decidí integrar algunas piezas de ladrillo transparente con distintos tonos de gris. Como la escultura original es muy fina, quería que la réplica en ladrillos fuera lo más fina posible, pero al final decidí construir hacia arriba, apilando los ladrillos pequeños unos sobre otros. Esto permitió más detalle con las piezas pequeñas. Quizá habría logrado una pieza más fina con placas, pero quería que la cara lisa de los ladrillos mirase hacia fuera para igualar la suavidad de la escultura original.",
+      "artist": "Desconocido",
+      "medium": "Lámina de mica",
+      "origin": "Ohio, EE. UU.",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Estados Unidos",
+      "place": "Ohio, EE. UU.",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "gayerandersencat": {
+    "masters": {
+      "name": "Gato Gayer-Andersen",
+      "desc": "El gato Gayer-Andersen es una escultura de bronce que lleva el nombre del propietario que la donó al Museo Británico. Las radiografías del gato han mostrado pequeñas piezas cuadradas por todo el cuerpo de la escultura, que resultaron ser pernos de núcleo y revelan que se fabricó mediante fundición a la cera perdida.\nLa escultura del gato aún luce un collar y una placa de plata alrededor del cuello. En la escultura original, la placa lleva la imagen del ojo udjat, que rinde homenaje al dios halcón Horus. La nariz y las orejas del gato están perforadas y lleva pendientes de oro y un aro en la nariz. Sus ojos habrían llevado piedra o vidrio para darle un aspecto realista. El gato representa a la diosa Bastet y probablemente se ofreció a un templo donde se veneraba y adoraba a Bastet. Siguiendo la tradición egipcia, la cola del gato descansa a lo largo del lado derecho del cuerpo. La escultura es una interpretación icónica de un gato del antiguo Egipto y es una de las mejores esculturas no humanas de esa época.\nEl bronce de la escultura original del gato ha adquirido un tono oscuro, casi un verde profundo. Por eso elegí un verde tierra oscuro para los ladrillos de la réplica de la escultura. Los aros amarillos son elementos de ladrillo reales que he usado para representar las joyas de oro del gato de la escultura original.",
+      "artist": "Desconocido",
+      "medium": "Bronce, oro y plata",
+      "origin": "Egipto",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Egipto",
+      "place": "Egipto",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "chacmoolfigure": {
+    "masters": {
+      "name": "Figura de Chacmool",
+      "desc": "Las figuras de chac mool se encuentran en templos de Centroamérica, sobre todo en México y Yucatán. Se desconoce su finalidad, pero su colocación frente a los templos mayas sugiere que servían como altar para recibir ofrendas o sacrificios.\nLos chac mool son figuras humanas de piedra toscamente talladas, colocadas de forma desenfadada y recostadas hacia atrás, con la cabeza mirando hacia arriba y hacia delante en un ángulo de 90 grados. Este chac mool sostiene un cuenco, o plato de ofrendas, sobre el estómago, que pudo contener los objetos del sacrificio, como corazones humanos o animales pequeños. El gran tocado redondo y las grandes orejeras sugieren que la figura es de la nobleza maya.\nPara la réplica en ladrillos, me preocupaba primero representar con exactitud el color arenoso del chac mool. También quería captar bien la parte trasera de la escultura, ya que no pude visitar ninguna y no encontré una buena foto de su espalda. Quedé contento con el resultado del cuenco y del tocado, que requirieron cada uno muchísimo trabajo.",
+      "artist": "Desconocido",
+      "medium": "Piedra caliza",
+      "origin": "México",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "México",
+      "place": "México",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "beninmask": {
+    "masters": {
+      "name": "Máscara de Benín",
+      "desc": "Esta máscara colgante de marfil representa probablemente a Iyoba Idia, la madre del rey, o a Oba Esigie, y Idia la habría llevado durante las fiestas en su honor. La mirada intensa de los ojos, la nariz y la boca de la reina domina la máscara, al igual que las dos franjas verticales marrones o marcas de escarificación de la frente. La máscara tiene además tallas de pequeñas figuras por encima, en contraste con su poderoso rostro. Las figuras representan probablemente a comerciantes portugueses y forman una corona sobre la máscara.\nEl marfil representaba una pureza asociada al dios del mar. A los comerciantes portugueses, que habían cruzado el mar, se les consideraba habitantes del reino de los espíritus que traían consigo poder y riqueza. El pueblo de Benín comerciaba a menudo con marfil con esos comerciantes.\nPara la versión en ladrillos de la máscara, quise centrarme en las pequeñas representaciones de los comerciantes portugueses que rodean la parte superior e inferior de la máscara. Usando ciertos elementos de las minifiguras de ladrillos, conseguí una estética similar.",
+      "artist": "Desconocido",
+      "medium": "Marfil y hierro",
+      "origin": "Nigeria",
+      "mounting": "Montado en la pared",
+      "status": "En exposición",
+      "country": "Nigeria",
+      "place": "Nigeria",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "bullvaseorzebu": {
+    "masters": {
+      "name": "Vasija en forma de toro o cebú",
+      "desc": "El pueblo de Marlik era de jinetes nómadas y se le conoce sobre todo por los restos hallados en la provincia de Guilán, junto al mar Caspio. Se cree que fueron los primeros iraníes en poblar la zona. Los caballos tenían un papel muy importante en la cultura marlik y a veces se enterraban en tumbas individuales. Aunque los caballos desempeñaban un papel destacado, la cultura marlik tomaba como motivo favorito el toro jorobado, el cebú. Esta vasija en forma de toro es una representación muy estilizada de un toro con patas cortas y un surtidor que funciona en el hocico del animal.\nLa réplica en ladrillos, de color naranja oscuro, se parece mucho al color rojizo de la vasija original. A esta escala, resultó difícil conseguir la curvatura del toro, pero pude construir el surtidor igualmente cóncavo para que sirviera de canal para el agua, igual que en la escultura original.",
+      "artist": "Desconocido",
+      "medium": "Cerámica",
+      "origin": "Marlik, norte de Irán",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Irán",
+      "place": "Marlik, norte de Irán",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "sacrificialvessel": {
+    "masters": {
+      "name": "Vasija sacrificial",
+      "desc": "Los hallazgos en las tumbas de Kaya, en Corea, han revelado que las aves eran con frecuencia un tema para los creadores de vasijas de gres cocidas a baja temperatura de esta época. Los hornos se construían en túneles excavados en las laderas. Las curvas de la vasija son características de este tipo de gres, con diseños bastante sencillos pero elegantes.\nEsta vasija sacrificial representa una versión de un pato. El cuerpo de la vasija podía llenarse de agua por el orificio del lomo del ave, y la cola hacía de pico vertedor para verter el agua. Esta vasija sacrificial es una de las esculturas más antiguas que se conocen de Corea. Probablemente se usó para el chamanismo, el sistema religioso dominante en Corea en aquella época. Estos modelos de arcilla se colocaban a menudo en las tumbas para acompañar al difunto en el más allá.\nDisfruté mucho creando esta réplica en ladrillos de este pato. La fina cresta que corona la cabeza del ave quedó muy bien para una escultura tan pequeña. El vertedor es una representación fiel, pero los ladrillos no son estancos, así que no funciona bien como recipiente para contener líquidos.",
+      "artist": "Desconocido",
+      "medium": "Gres",
+      "origin": "Corea",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Corea",
+      "place": "Corea",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "dogu": {
+    "masters": {
+      "name": "Dogu",
+      "desc": "Los dogu pertenecen al periodo Jōmon de la prehistoria de Japón y son la prueba datada más antigua de cerámica. Son pequeñas figuras de aspecto humano. Lo más probable es que se usaran como efigies propias de sociedades de cazadores-recolectores. Posiblemente eran la encarnación de espíritus, o quizá se les transferían enfermedades en una ceremonia y después se rompía el dogu para librarse de la enfermedad. Es probable, ya que la mayoría de los restos de dogu no se encuentran en tumbas, sino en vertederos, y casi todos están rotos.\nEl rasgo principal del dogu son sus grandes ojos de gafas de protección. Son figuras geométricas con la cabeza, el pecho y los muslos exagerados, pero con las manos y los pies muy pequeños. Las marcas centrales con patrones de cuerda que se encuentran en el abdomen son lo que lo identifica como del periodo Jōmon. Algunos teóricos creen que los dogu son representaciones de una forma de vida universal y que las esculturas son en realidad prueba de la existencia de seres alienígenas.\nAl crear la réplica en ladrillos del dogu, quise centrarme en dos cosas principales: la forma de la escultura y los ojos sobredimensionados. Empecé con las manos y los pies muy pequeños para la forma de la escultura y luego me aseguré de que el tipo de cuerpo y la cabeza (incluido el tocado) se parecieran a los del original. Para los ojos usé piezas grandes en forma de plato para captar los ojos de gafas de protección del original.",
+      "artist": "Desconocido",
+      "medium": "Arcilla",
+      "origin": "Japón",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Japón",
+      "place": "Japón",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "venusofwillendorf": {
+    "masters": {
+      "name": "Venus de Willendorf",
+      "desc": "Conocida también como la «Dama de Willendorf», esta escultura es uno de los objetos más antiguos que se han encontrado con forma humana. Es una de las tres venus halladas en una excavación arqueológica cerca de las orillas del río Danubio, en la Baja Austria.\nLa escultura es una pieza importante del arte paleolítico. Representa una figura redondeada con rasgos corporales amplificados que subrayan su fertilidad. Por ejemplo, el ombligo está destacado. El torso y los muslos son grandes en comparación, pero las piernas son muy cortas. No tiene rostro, pero la cabeza presenta un diseño abultado que quizá representaba un sombrero tejido o el cabello ondulado. La escultura original es muy pequeña, lo que significa que podía viajar con facilidad con los pueblos nómadas que la crearon.\nPara la réplica en ladrillos, decidí duplicar el tamaño original para resaltar más detalles de la escultura, como las curvas de su cuerpo. Usando los tetones de los ladrillos de lado, pude representar las protuberancias del sombrero o del cabello de la figura.",
+      "artist": "Desconocido",
+      "medium": "Piedra caliza",
+      "origin": "Austria",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Austria",
+      "place": "Austria",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "doubleheadedserpent": {
+    "masters": {
+      "name": "Serpiente bicéfala",
+      "desc": "El cuerpo de la escultura de la serpiente bicéfala es de madera cubierta de turquesa y piedra. La escultura emplea más de 2000 piezas planas diminutas para formar un mosaico en el cuerpo de la serpiente, como las escamas de la piel de una serpiente. La colocación experta de las piezas del mosaico acentúa el cuerpo curvado de la serpiente y la habilidad del artista azteca. El cuerpo ondulante de la serpiente representa probablemente tanto el agua como el viento. Las serpientes se asociaban además a menudo con las ideas de metamorfosis y renacimiento, ya que mudan de piel.\nNo está claro si esta escultura se llevaba como colgante o se colocaba en la punta de un bastón. Los orificios de los ojos en las cabezas de las serpientes sugieren que los ojos pudieron contener algo. Los dientes de las serpientes están hechos con trozos de concha blanca.\nComo incluso los ladrillos individuales más pequeños son todavía mucho más grandes que los diminutos trocitos de turquesa que cubren la escultura original, decidí adoptar un enfoque distinto en lugar de crear un mosaico de piezas de ladrillo alrededor de una forma de serpiente. Sin embargo, quise intentar captar los ricos colores de la pieza original e incrusté una variedad de colores en la réplica en ladrillos. Tuve además la suerte de poder usar las pequeñas piezas blancas puntiagudas que representan los dientes del original.",
+      "artist": "Desconocido",
+      "medium": "Madera, turquesa y concha de caracola",
+      "origin": "México",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "México",
+      "place": "México",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "seatedbuddha": {
+    "masters": {
+      "name": "Buda sentado",
+      "desc": "Esta escultura del Buda sentado está sentada con las piernas cruzadas en la postura de sattva-paryankasana, la posición del yogui con la pierna derecha colocada sobre la izquierda. Sus manos están en el bhumisparsha mudra, que significa «llamar a la tierra por testigo», con la mano derecha bajada de modo que los dedos apuntan hacia el suelo. Esto simboliza también la victoria de Shakyamuni sobre el demonio Mara, que intentó distraer a Buda de su búsqueda de la iluminación. Es un tema habitual en el arte budista tailandés.\nEste Buda combina características de las escuelas de escultura del norte y del centro de Tailandia. Las poses son típicas de las primeras figuras del reino norteño de Lan Na, mientras que los rasgos faciales estilizados son característicos del estilo posterior de Sukhothai.\nAunque esta escultura en ladrillos salió bastante bien, la parte más difícil de la réplica fue esculpir la posición correcta de las manos, que es tan importante para el significado de esta escultura original. El color marrón de los ladrillos fue la mejor elección para representar el color marrón del bronce original.",
+      "artist": "Desconocido",
+      "medium": "Bronce",
+      "origin": "Tailandia",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Tailandia",
+      "place": "Tailandia",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "headtete": {
+    "masters": {
+      "name": "Cabeza (Tête)",
+      "desc": "Modigliani fue un artista italiano que trabajó en Francia. Esta escultura en concreto es una de las 27 esculturas que se conocen del artista. Tanto sus pinturas como sus esculturas se caracterizaban por los rostros alargados. Modigliani se inspiraba a menudo en las máscaras ceremoniales africanas, que para el artista representaban una expresión espiritual. Aunque Modigliani expuso una serie de esculturas en 1912, había abandonado la escultura en 1914 para dedicarse solo a la pintura.\nLa pieza representa la cabeza de una mujer con rostro de máscara. Rinde homenaje a los diseños geométricos indígenas y a las máscaras ceremoniales. Los ojos parecen cerrados y el rostro alargado transmite una sensación de profunda contemplación. El cabello de la mujer está recogido hacia atrás de forma despeinada hacia un lado. La escultura es completamente simétrica, salvo por el cabello de la mujer.\nPara lograr la máscara fluida de esta escultura en la réplica en ladrillos, ensanché ligeramente la nariz y saqué la frente más que en la pieza original. Esto permitió que los ojos también sobresalieran y dio a toda la pieza la misma sensación que la escultura original.",
+      "artist": "Amedeo Modigliani",
+      "medium": "Piedra caliza",
+      "origin": "Francia",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Francia",
+      "place": "Francia",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "littledanceroffourteenyears": {
+    "masters": {
+      "name": "Pequeña bailarina de catorce años",
+      "desc": "Degas interpretó con fidelidad el ballet a lo largo de los años en sus pinturas, pero también en la escultura de la Pequeña bailarina. Sin embargo, las bailarinas de la Ópera de París, que usó como modelos, aunque recibían una enseñanza rigurosa, tenían también fama de licenciosas, y por eso la escultura recibió miradas de reproche cuando se presentó por primera vez.\nDegas empezó la escultura haciendo posar para él a la estudiante belga Maria Van Goethem mientras hacía dibujos de ella. Después hizo una figura a pequeña escala. La escultura se modeló originalmente en cera de abeja translúcida. Además, lleva un tutú de tela y un lazo de seda en el pelo. Mide dos tercios de su tamaño real.\nLa escultura tiene un aspecto muy naturalista. La representación realista se vio reforzada por la técnica mixta del tutú y el lazo. Fue la única escultura que Degas permitió exponer en vida. Después, sus herederos decidieron hacer copias a partir del modelo de cera.\nPara la réplica en ladrillos, quise captar la seguridad en sí misma de la escultura original, con su rostro ligeramente levantado. Me costó conseguir que el tutú y el lazo parecieran caer de forma natural, como si fueran de tela de verdad. La escultura original está sobre un bloque de madera cuyo color intenté igualar con la mayor exactitud posible.",
+      "artist": "Edgar Degas",
+      "medium": "Bronce y técnica mixta",
+      "origin": "Francia",
+      "mounting": "Sobre pedestal",
+      "status": "En exposición",
+      "country": "Francia",
+      "place": "Francia",
+      "cat": "Maestros del pasado",
+      "location": "Maestros del pasado"
+    }
+  },
+  "icarusplateviiifromtheillustratedbookjazz": {
+    "masters": {
+      "name": "Ícaro, lámina VIII del libro ilustrado «Jazz»",
+      "artist": "Henri Matisse",
+      "medium": "Pochoir",
+      "country": "Estados Unidos",
+      "place": "Metropolitan Museum of Art, Nueva York",
+      "cat": "Maestros del pasado"
+    }
+  },
+  "africanelephant": {
+    "perniciem": {
+      "name": "Elefante africano",
+      "cat": "pradera",
+      "conservationStatus": "Vulnerable",
+      "population": "Quedan unos 415 000 ejemplares",
+      "declineRate": "Descenso de ~90 % durante el último siglo",
+      "threats": "Caza furtiva por el marfil, pérdida de hábitat, comercio ilegal de marfil",
+      "notes": "El mayor mamífero terrestre. Criaturas muy empáticas y emotivas, esenciales para la biodiversidad y el ecosistema de África. A pesar de la prohibición mundial del marfil de 1990, la demanda resurgió: en 2011 se registró la mayor incautación de marfil ilegal. Cada año mueren unos 20 000 elefantes (55 al día).",
+      "artwork": "ELEFANTE AFRICANO, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Kenia",
+      "place": "Amboseli"
+    }
+  },
+  "arcticfox": {
+    "perniciem": {
+      "name": "Zorro ártico",
+      "cat": "ártico",
+      "conservationStatus": "En peligro (Escandinavia)",
+      "population": "Menos de 200 en Escandinavia",
+      "declineRate": "Fuerte descenso de las poblaciones escandinavas",
+      "threats": "Cambio climático, pérdida de hielo marino, caza por su piel, perforaciones petrolíferas marinas, escasez de presas",
+      "notes": "Originario de las regiones árticas cubiertas de nieve. Depende del hielo marino, que desaparece con el aumento de las temperaturas. El zorro ártico escandinavo está hoy en peligro a pesar de la protección legal contra la caza. Las poblaciones de Noruega, Finlandia y Suecia se han reducido a menos de 200 ejemplares cada una.",
+      "artwork": "ZORRO ÁRTICO, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Noruega",
+      "place": "Svalbard"
+    }
+  },
+  "belugawhale": {
+    "perniciem": {
+      "name": "Ballena beluga",
+      "cat": "océano",
+      "conservationStatus": "En peligro crítico (ensenada de Cook)",
+      "population": "Ha disminuido más de un 75 % (ensenada de Cook)",
+      "declineRate": "Descenso de más del 75 % en la subpoblación de la ensenada de Cook",
+      "threats": "Contaminación por plásticos oceánicos, cambio climático, pérdida de hielo marino, contaminación acústica, urbanización costera, colisiones con barcos",
+      "notes": "Conocida como el canario del mar. Animales sumamente sociales y vocales que usan la ecolocalización. Dependen del hielo marino, que está desapareciendo. A pesar de que la caza regulada cesó en 2005, las cifras de la ensenada de Cook aún no se han recuperado.",
+      "artwork": "BALLENA BELUGA, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Estados Unidos",
+      "place": "Ensenada de Cook, Alaska"
+    }
+  },
+  "chileanflamingo": {
+    "perniciem": {
+      "name": "Flamenco chileno",
+      "cat": "pradera",
+      "conservationStatus": "Casi amenazada",
+      "population": "Colonias reducidas drásticamente",
+      "declineRate": "Reducción drástica del tamaño de las colonias",
+      "threats": "Recolección ilegal de huevos, pérdida de hábitat, contaminación del agua, minería y extracción de agua, molestias del turismo",
+      "notes": "Se reconoce por su plumaje rosa pálido, sus articulaciones de rosa intenso y su gran pico negro. Su dieta depende de las algas y el plancton de lagunas saladas y lagos de soda. Solo crió 9 veces en 26 años en Mar Chiquita. Las hembras ponen un solo huevo cada vez.",
+      "artwork": "FLAMENCO, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Chile",
+      "place": "Atacama"
+    }
+  },
+  "cheetah": {
+    "perniciem": {
+      "name": "Guepardo",
+      "cat": "pradera",
+      "conservationStatus": "Vulnerable",
+      "population": "Quedan menos de 7000",
+      "declineRate": "Descenso del 50 % desde 1975; se prevé una pérdida adicional del 53 % en los próximos 15 años",
+      "threats": "Pérdida de hábitat (agricultura), caza furtiva por su piel, comercio ilegal de mascotas, escasez de presas, conflicto entre personas y fauna",
+      "notes": "El mamífero terrestre más rápido: de 0 a 97 km/h (60 mph) en 3 segundos. Menos del 5 % de las crías de guepardo llegan a la edad adulta. Está casi extinguido en Asia (quedan menos de 50 en Irán). Su hábitat se reduce un 3 % al año. Se prevé que desaparezca por completo a finales de siglo.",
+      "artwork": "GUEPARDO, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Tanzania",
+      "place": "Serengueti"
+    }
+  },
+  "malayantiger": {
+    "perniciem": {
+      "name": "Tigre malayo",
+      "cat": "bosque",
+      "conservationStatus": "En peligro crítico",
+      "population": "250-340 adultos (solo 80-120 capaces de reproducirse)",
+      "declineRate": "Descenso del 96 % de todos los tigres en un siglo (de 100 000 a 3890)",
+      "threats": "Caza furtiva (la mayor amenaza), pérdida de hábitat (deforestación por el aceite de palma), conflicto entre personas y fauna, comercio ilegal, descenso de presas",
+      "notes": "Tres de las nueve subespecies de tigre ya están extintas. Entre 2000 y 2012, Malasia tuvo el mayor ritmo de pérdida de bosque del mundo: perdió 47 250 km² (18 244 millas cuadradas, más que Dinamarca) por las plantaciones de palma aceitera. Ningún enclave de hábitat alberga más de 50 tigres malayos.",
+      "artwork": "TIGRE MALAYO, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Malasia",
+      "place": "Taman Negara"
+    }
+  },
+  "giraffe": {
+    "perniciem": {
+      "name": "Jirafa",
+      "cat": "pradera",
+      "conservationStatus": "Vulnerable / En peligro (jirafa de Rothschild)",
+      "population": "97 562 (estimación de 2015)",
+      "declineRate": "Descenso de más del 40 % en 30 años (de 163 452 en 1985)",
+      "threats": "Caza no regulada, caza furtiva, tráfico de fauna, reducción del hábitat",
+      "notes": "El mamífero terrestre vivo más alto del mundo: mide de media 5,8 metros (19 pies) y pesa dos toneladas. La jirafa de Rothschild es una de las nueve subespecies. Las manadas han pasado de 20-30 individuos a tan solo 6. Se está produciendo una «extinción silenciosa».",
+      "artwork": "JIRAFA, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Kenia",
+      "place": "Lago Nakuru"
+    }
+  },
+  "polarbear": {
+    "perniciem": {
+      "name": "Oso polar",
+      "cat": "ártico",
+      "notes": "El oso polar, desde hace mucho una de las criaturas más codiciadas y queridas del planeta, omnipresente en la cultura popular y sinónimo de frío y del Ártico, se ha convertido en el símbolo de los efectos devastadores del calentamiento de la Tierra.",
+      "artwork": "Oso polar, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Canadá",
+      "place": "Bahía de Hudson"
+    }
+  },
+  "westernlowlandgorilla": {
+    "perniciem": {
+      "name": "Gorila occidental de llanura",
+      "cat": "bosque",
+      "notes": "El gorila occidental de llanura es la especie de gorila más común y abundante. Sin embargo, a pesar de sus cifras aparentemente elevadas, la UICN lo clasifica como en peligro crítico desde 2007.",
+      "artwork": "Gorila occidental de llanura, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Gabón",
+      "place": "Parque Nacional de Loango"
+    }
+  },
+  "humpbackwhale2": {
+    "perniciem": {
+      "name": "Ballena jorobada 2",
+      "cat": "océano",
+      "notes": "Antes de la moratoria sobre la caza comercial de ballenas de 1985, las poblaciones de ballena jorobada se habían reducido en un devastador 95 %. Fueron cazadas sin descanso, casi hasta su extinción.",
+      "artwork": "Ballena jorobada 2, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Estados Unidos",
+      "place": "Bahía de los Glaciares, Alaska"
+    }
+  },
+  "reefshark": {
+    "perniciem": {
+      "name": "Tiburón de arrecife",
+      "cat": "océano",
+      "notes": "Desde que se tiene memoria, los tiburones han sido objeto de miedo, de maldad y, después, de asombro. Desde su retrato en la cultura popular, en películas como Tiburón o The Reef, hasta los ejemplos reales de la amenaza que suponen para las personas en playas y aguas abiertas.",
+      "artwork": "Tiburón de arrecife, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Belice",
+      "place": "Gran Barrera de Coral de Belice"
+    }
+  },
+  "vaquita": {
+    "perniciem": {
+      "name": "Vaquita",
+      "cat": "océano",
+      "notes": "La vaquita, la marsopa del golfo de California, es hoy el cetáceo más amenazado que existe. A pesar de haber sido descubierta hace menos de un siglo, en 1958, sus números han caído con tanta rapidez que fue clasificada como en peligro crítico menos de 40 años después, en 1996.",
+      "artwork": "Vaquita, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "México",
+      "place": "Golfo de California"
+    }
+  },
+  "hawksbillturtle": {
+    "perniciem": {
+      "name": "Tortuga carey",
+      "cat": "océano",
+      "conservationStatus": "En peligro crítico",
+      "population": "Descenso del 80-90 % en 10 años",
+      "declineRate": "Pérdida de más del 80 % en solo 10 años",
+      "threats": "Caza por su caparazón (comercio de carey), comercio de huevos y carne, urbanización costera, contaminación marina, captura accidental en la pesca",
+      "notes": "Una de las especies más amenazadas del planeta. Representantes vivos de los reptiles que dominaron la Tierra hace más de 100 millones de años. Cumple un papel fundamental en la biodiversidad marina: mantiene sanos los arrecifes de coral. El comercio de caparazones se declaró ilegal a nivel internacional en 1993, pero el mercado negro persiste.",
+      "artwork": "TORTUGA CAREY, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "México",
+      "place": "Cozumel"
+    }
+  },
+  "humpbackwhale1": {
+    "perniciem": {
+      "name": "Ballena jorobada 1",
+      "cat": "océano",
+      "conservationStatus": "Preocupación menor (reclasificada; 4 de 14 subpoblaciones siguen en peligro)",
+      "population": "~80 000 (2016), frente a ~10 000 en la década de 1970",
+      "declineRate": "Reducida un 95 % antes de la moratoria de 1985; se recupera, pero sigue amenazada",
+      "threats": "Contaminación oceánica, enredos en artes de pesca, colisiones con embarcaciones, acoso de las embarcaciones",
+      "notes": "Los baladistas del océano. Cantos complejos de gemidos, aullidos y lamentos que resuenan durante horas. Su recuperación demuestra que los esfuerzos de conservación funcionan, pero las amenazas persisten. La industria ballenera mató a dos millones de ballenas barbadas antes de la prohibición. Entre 2016 y 2018 aparecieron 80 jorobadas muertas en la costa este de Estados Unidos.",
+      "artwork": "BALLENA JOROBADA, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Australia",
+      "place": "Gran Barrera de Coral"
+    }
+  },
+  "militarymacaw": {
+    "perniciem": {
+      "name": "Guacamayo militar",
+      "cat": "bosque",
+      "notes": "Incluso sobre el fondo verde y frondoso de la selva de nuestra imagen, se distingue con facilidad: decorado sobre todo con un verde lima, con plumas de vuelo azul aguamarina y pequeños detalles de plumaje rojo en la cabeza y la cola, el guacamayo militar es una delicia visual.",
+      "artwork": "Guacamayo militar, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "México",
+      "place": "Sierra Madre Occidental"
+    }
+  },
+  "northernwhiterhinoceros": {
+    "perniciem": {
+      "name": "Rinoceronte blanco del norte",
+      "cat": "pradera",
+      "notes": "El rinoceronte blanco del norte, el último en publicarse en nuestro proyecto, es también la especie más amenazada de la colección. Fatu, una hembra, y su madre Najin son los únicos rinocerontes blancos del norte que quedan en el mundo.",
+      "artwork": "Rinoceronte blanco del norte, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Kenia",
+      "place": "Reserva Ol Pejeta"
+    }
+  },
+  "sumatranorangutan": {
+    "perniciem": {
+      "name": "Orangután de Sumatra",
+      "cat": "bosque",
+      "notes": "El orangután de Sumatra, originario de la isla indonesia de Sumatra, está perdiendo su lugar en nuestro planeta. Estos primates asiáticos están considerados en peligro crítico desde el año 2000 y su número sigue disminuyendo hoy en día.",
+      "artwork": "Orangután de Sumatra, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Indonesia",
+      "place": "Gunung Leuser"
+    }
+  },
+  "orca": {
+    "perniciem": {
+      "name": "Orca",
+      "cat": "océano",
+      "notes": "La orca, un gigante del océano excepcionalmente inteligente, emotivo y sociable, es en realidad la especie de delfín más grande del mundo. La inconfundible orca blanca y negra es un depredador superior poderoso y colosal, presente en todos los océanos de la Tierra.",
+      "artwork": "Orca, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Noruega",
+      "place": "Tromsø"
+    }
+  },
+  "whaleshark": {
+    "perniciem": {
+      "name": "Tiburón ballena",
+      "cat": "océano",
+      "notes": "Al ser el pez más grande de nuestros mares, el tiburón ballena puede pesar hasta 22 700 kg (50 000 libras) y superar los 9 metros (30 pies) de longitud. Sin embargo, es engañosamente inofensivo.",
+      "artwork": "Tiburón ballena, PERNiCiEM 2019",
+      "medium": "Impresión de archivo a inyección de tinta sobre papel Canson",
+      "country": "Filipinas",
+      "place": "Donsol"
+    }
+  },
+  "geo": {
+    "countries": {
+      "france": "Francia",
+      "unitedstates": "Estados Unidos",
+      "egypt": "Egipto",
+      "mexico": "México",
+      "nigeria": "Nigeria",
+      "iran": "Irán",
+      "korea": "Corea",
+      "japan": "Japón",
+      "austria": "Austria",
+      "thailand": "Tailandia",
+      "kenya": "Kenia",
+      "norway": "Noruega",
+      "chile": "Chile",
+      "tanzania": "Tanzania",
+      "malaysia": "Malasia",
+      "canada": "Canadá",
+      "gabon": "Gabón",
+      "belize": "Belice",
+      "australia": "Australia",
+      "indonesia": "Indonesia",
+      "philippines": "Filipinas"
+    }
+  },
+  "masters": {
+    "collections": {
+      "pastmasters": "Maestros del pasado"
+    },
+    "status": {
+      "used": "En exposición"
+    },
+    "mounting": {
+      "onpedestal": "Sobre pedestal",
+      "mountedonwall": "Montado en la pared"
+    },
+    "medium": {
+      "bronze": "Bronce",
+      "sheetmica": "Lámina de mica",
+      "bronzegoldandsilver": "Bronce, oro y plata",
+      "limestone": "Piedra caliza",
+      "ivoryandiron": "Marfil y hierro",
+      "ceramic": "Cerámica",
+      "stoneware": "Gres",
+      "clay": "Arcilla",
+      "woodturquoiseconchshell": "Madera, turquesa y concha de caracola",
+      "bronzeandmixedmedia": "Bronce y técnica mixta",
+      "pochoir": "Pochoir"
+    },
+    "origin": {
+      "france": "Francia",
+      "ohiousa": "Ohio, EE. UU.",
+      "egypt": "Egipto",
+      "mexico": "México",
+      "nigeria": "Nigeria",
+      "marliknortherniran": "Marlik, norte de Irán",
+      "korea": "Corea",
+      "japan": "Japón",
+      "austria": "Austria",
+      "thailand": "Tailandia"
+    }
+  },
+  "perniciem": {
+    "habitats": {
+      "grassland": "pradera",
+      "arctic": "ártico",
+      "ocean": "océano",
+      "forest": "bosque"
+    },
+    "conservationStatus": {
+      "vulnerable": "Vulnerable",
+      "endangeredscandinavia": "En peligro (Escandinavia)",
+      "criticallyendangeredcookinlet": "En peligro crítico (ensenada de Cook)",
+      "nearthreatened": "Casi amenazada",
+      "criticallyendangered": "En peligro crítico",
+      "vulnerableendangeredrothschild": "Vulnerable / En peligro (jirafa de Rothschild)",
+      "leastconcernupgraded414subpopulationsstillendangered": "Preocupación menor (reclasificada; 4 de 14 subpoblaciones siguen en peligro)"
+    }
+  }
+}

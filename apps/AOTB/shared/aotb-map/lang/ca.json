@@ -1,0 +1,647 @@
+{
+  "meta": {
+    "languageName": "Català"
+  },
+  "common": {
+    "home": "Inici",
+    "map": "Mapa",
+    "quiz": "Qüestionari",
+    "controls": "Controls",
+    "toggleControls": "Mostra o amaga els controls",
+    "zoomIn": "Apropa",
+    "zoomOut": "Allunya",
+    "reset": "Inici",
+    "all": "Tot",
+    "backToMainMenu": "Torna al menú principal",
+    "mainMenu": "Menú principal",
+    "selection": "Selecció",
+    "openMap": "Obre el mapa"
+  },
+  "mapApp": {
+    "pageTitle": "Mapa interactiu de The Art of the Brick",
+    "datasetTitles": {
+      "perniciem": "PERNiCiEM — Espècies en perill",
+      "masters": "Mestres del passat — Mapa d'obres",
+      "postmasters": "Post Masters — Mapa d'obres",
+      "all": "Mapa interactiu de The Art of the Brick"
+    },
+    "datasetShortTitles": {
+      "perniciem": "Espècies en perill",
+      "masters": "Mestres del passat",
+      "postmasters": "Post Masters",
+      "all": "Mapa AOTB"
+    },
+    "search": {
+      "title": "Cerca",
+      "placeholder": "Cerca (espècie, obra, artista...)",
+      "hint": "Cerca per nom, regió, descripció...",
+      "countryAria": "Filtra per regió",
+      "resultsAria": "Resultats",
+      "keyboardAria": "Teclat",
+      "countryAll": "Totes les regions",
+      "countryUnknown": "Regió desconeguda",
+      "startTyping": "Escriu per cercar",
+      "noResults": "Cap resultat",
+      "unnamed": "Sense nom",
+      "toggleAria": "Mostra o amaga el tauler de cerca",
+      "clearAria": "Esborra la cerca",
+      "layoutAria": "Canvia la disposició del teclat",
+      "keys": {
+        "space": "Espai",
+        "backspace": "Enrere",
+        "clear": "Esborra",
+        "shift": "Maj"
+      }
+    },
+    "idle": {
+      "logoAlt": "Mapa interactiu de The Art of the Brick",
+      "subtitle": "Explora l'exposició interactiva",
+      "loading": "Carregant...",
+      "unableToStart": "No s'ha pogut iniciar el paquet del mòdul del mapa. Comprova la versió d'execució o les rutes dels recursos."
+    },
+    "opening": {
+      "perniciem": {
+        "title": "El nostre planeta està canviant.\nDescobreix les espècies en perill arreu del món.",
+        "cta": "Toca per explorar"
+      },
+      "masters": {
+        "title": "Endinsa't en el món dels Mestres.",
+        "cta": "Toca per explorar."
+      }
+    },
+    "legend": {
+      "title": "Estat de conservació",
+      "endangered": "En perill",
+      "vulnerable": "Vulnerable",
+      "nearThreatened": "Gairebé amenaçada"
+    }
+  },
+  "popup": {
+    "keyInfos": "Dades clau",
+    "tagsLabel": "Detalls",
+    "imageUnavailable": "Imatge no disponible",
+    "profile": "Detalls",
+    "profileDetails": "Detalls",
+    "imageAlt": "Imatge",
+    "adoptSpecies": "Adopta aquesta espècie",
+    "openLink": "Obre l'enllaç",
+    "close": "Tanca",
+    "closeCard": "Tanca la fitxa",
+    "detailsToBeConfirmed": "Detalls per confirmar.",
+    "meta": {
+      "status": "Estat",
+      "habitat": "Hàbitat",
+      "population": "Població",
+      "threats": "Amenaces",
+      "artists": "Artistes",
+      "medium": "Tècnica",
+      "date": "Data",
+      "dimensions": "Dimensions",
+      "movement": "Moviment",
+      "artist": "Artista",
+      "conservationStatus": "Estat",
+      "cat": "Hàbitat",
+      "artwork": "Obra",
+      "declineRate": "Descens",
+      "mounting": "Muntatge",
+      "labelNumber": "Etiqueta",
+      "dimensionsCm": "Dimensions (cm)",
+      "bricks": "Peces",
+      "QRcode": "QR",
+      "artistBio": "Sobre l'artista"
+    },
+    "compare": {
+      "original": "Obra original",
+      "aotb": "Obra AOTB"
+    }
+  },
+  "thethinker": {
+    "masters": {
+      "name": "El pensador",
+      "desc": "Originàriament concebuda com un element que havia de coronar el marc de la porta de Les portes de l'Infern (una obra inacabada), Rodin va acabar decidint fer d'El pensador una escultura independent.\nL'escultura representa l'home qualsevol, mentre reflexiona potser sobre el sentit de la vida. Mentre que les escultures públiques sovint representen herois o polítics, El pensador de Rodin és universal i pot representar tothom, però amb la seva postura també és intel·ligent i heroic.\nL'escultura no és absolutament correcta des del punt de vista anatòmic: la seva gran esquena exemplifica la postura encorbada de qui pensa. Això subratlla que la figura no pensa només amb el cervell, sinó amb cada múscul del seu cos.\nL'obra original és una escultura tan extraordinària que va ser un plaer construir-ne una rèplica amb peces. La versió amb peces és a escala amb la versió original que Rodin va crear d'El pensador. Va caldre molta feina per aconseguir la postura correcta del cos i m'admira la quantitat de detall que Rodin va aconseguir a aquesta escala.",
+      "artist": "Auguste Rodin",
+      "medium": "Bronze",
+      "origin": "França",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "França",
+      "place": "França",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "handeffigy": {
+    "masters": {
+      "name": "Efígie de mà",
+      "desc": "Aquesta Efígie de mà és més gran que una mà humana real i es va trobar amb l'enterrament 47 del túmul 25 del Hopewell Mound Group, al comtat de Ross, a Ohio. La mà està feta d'una làmina natural de mica, un material molt delicat i que els hopewell no podien aconseguir fàcilment. L'ús d'aquest material demostra que la xarxa comercial dels hopewell era extensa.\nTambé demostra l'habilitat dels artistes hopewell per treballar un material que no era natural del seu territori. Els túmuls, com el que es va excavar i va revelar aquesta Efígie de mà, eren molt probablement llocs sagrats d'enterrament o de cerimònia. L'Efígie de mà, feta d'un material tan poc convencional, probablement es va dipositar al túmul com a ofrena funerària.\nPer captar el color translúcid de la mica de l'escultura original, vaig decidir integrar algunes peces transparents amb diferents tonalitats de gris. Com que l'escultura original és molt prima, volia fer la rèplica amb peces tan prima com fos possible, però al final vaig decidir construir cap amunt, apilant les peces petites unes sobre les altres. Això va permetre més detall amb les peces petites. Potser hauria pogut aconseguir una peça més prima fent servir plaques, però volia que la cara llisa de les peces quedés cap a fora per igualar la llisor de l'escultura original.",
+      "artist": "Desconegut",
+      "medium": "Làmina de mica",
+      "origin": "Ohio, EUA",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Estats Units",
+      "place": "Ohio, EUA",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "gayerandersencat": {
+    "masters": {
+      "name": "Gat Gayer-Andersen",
+      "desc": "El gat Gayer-Andersen és una escultura de bronze que duu el nom del propietari que la va donar al Museu Britànic. Els raigs X del gat han mostrat petites peces quadrades arreu del cos de l'escultura, que van resultar ser claus de nucli i van revelar que l'escultura es va fer amb la tècnica de la cera perduda.\nL'escultura del gat encara llueix un collaret i una placa de plata al coll. A l'escultura original, la placa porta la imatge de l'ull udjat, que homenatja el déu falcó Horus. El nas i les orelles del gat són foradats i duu arracades d'or i una anella al nas. Els ulls haurien contingut pedra o vidre per donar-li un aspecte realista. El gat representa la deessa Bastet i probablement es va oferir a un temple on Bastet era venerada i adorada. Seguint la tradició egípcia, la cua del gat reposa al llarg del costat dret del cos. L'escultura és una representació emblemàtica d'un gat de l'antic Egipte i una de les millors escultures no humanes d'aquella època.\nEl bronze de l'escultura original del gat ha agafat un color fosc, gairebé d'un verd profund. Per això vaig triar un verd terra fosc per a les peces de la versió de rèplica de l'escultura. Els anells grocs són peces reals que he fet servir per representar les joies d'or del gat de l'escultura original.",
+      "artist": "Desconegut",
+      "medium": "Bronze, or i plata",
+      "origin": "Egipte",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Egipte",
+      "place": "Egipte",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "chacmoolfigure": {
+    "masters": {
+      "name": "Figura de chacmool",
+      "desc": "Les figures de chacmool es troben als jaciments de temples d'Amèrica Central, sobretot a Mèxic i al Iucatan. Se'n desconeix la finalitat, però la seva posició davant dels temples maies suggereix que servien d'altar per rebre ofrenes o sacrificis.\nEls chacmools són figures humanes de pedra tallades de manera tosca, col·locades distesament reclinades, amb el cap mirant cap amunt i endavant formant un angle de 90 graus. Aquest chacmool sosté un bol, o plat d'ofrenes, sobre l'estómac, que potser contenia els elements del sacrifici, com ara cors humans o animals petits. El gran tocat rodó i les grans orelleres suggereixen que la figura representa la noblesa maia.\nPer a la versió de rèplica amb peces, primer em va preocupar representar amb exactitud el color sorrenc del chacmool. També volia captar bé la part posterior de l'escultura, ja que no n'he pogut visitar cap i no vaig trobar cap fotografia adequada del darrere. Estic content del resultat del bol i del tocat, que van exigir molta feina.",
+      "artist": "Desconegut",
+      "medium": "Pedra calcària",
+      "origin": "Mèxic",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Mèxic",
+      "place": "Mèxic",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "beninmask": {
+    "masters": {
+      "name": "Màscara de Benín",
+      "desc": "Aquesta màscara pendent d'ivori probablement representa Iyoba Idia, la mare del rei, o Oba Esigie, i Idia l'hauria portada durant les festes en honor seu. La mirada intensa dels ulls, el nas i la boca de la reina dominen la màscara, igual que les dues franges verticals marrons o marques d'escarificació del front. La màscara també té talles de figures petites a la part superior, en contrast amb el seu rostre poderós. Les figures probablement representen comerciants portuguesos i formen una corona a la màscara.\nL'ivori representava una puresa associada al déu del mar. Els comerciants portuguesos, que havien creuat el mar, eren considerats habitants del món dels esperits que portaven poder i riquesa. El poble de Benín comerciava sovint amb ivori amb aquests comerciants.\nPer a la versió de la màscara amb peces, volia centrar-me en les petites representacions dels comerciants portuguesos que envolten la part superior i inferior de la màscara. Fent servir certs elements de les minifigures, vaig poder crear una estètica semblant.",
+      "artist": "Desconegut",
+      "medium": "Ivori i ferro",
+      "origin": "Nigèria",
+      "mounting": "Muntat a la paret",
+      "status": "En exposició",
+      "country": "Nigèria",
+      "place": "Nigèria",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "bullvaseorzebu": {
+    "masters": {
+      "name": "Gerro de brau o zebú",
+      "desc": "Els marlik eren genets nòmades i se'ls coneix sobretot per les restes trobades a la província de Gilan, prop de la mar Càspia. Es pensa que van ser els primers iranians que van poblar la zona. Els cavalls tenien un paper molt important a la cultura marlik i de vegades s'enterraven en tombes individuals. Tot i la importància dels cavalls, la cultura marlik va considerar el brau geperut, el zebú, un motiu predilecte. Aquest Gerro de brau és una representació molt estilitzada d'un brau amb potes curtes i un broc funcional al nas de l'animal.\nLa rèplica amb peces, de color taronja fosc, s'assembla molt al to vermellós del gerro original. A aquesta escala va ser difícil aconseguir la curvatura del brau, però vaig poder construir el broc còncau de manera semblant perquè pogués servir de canal per a l'aigua, igual que a l'escultura original.",
+      "artist": "Desconegut",
+      "medium": "Ceràmica",
+      "origin": "Marlik, nord de l'Iran",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Iran",
+      "place": "Marlik, nord de l'Iran",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "sacrificialvessel": {
+    "masters": {
+      "name": "Recipient sacrificial",
+      "desc": "Els descobriments a les tombes de Kaya, a Corea, han revelat que els ocells eren sovint un tema per als creadors de recipients de gres de cocció a baixa temperatura d'aquella època. Els forns es construïen en túnels als vessants dels turons. Les corbes del recipient són característiques d'aquest tipus de gres, amb dissenys força senzills però elegants.\nAquest Recipient sacrificial representa una versió d'un ànec. El cos del recipient es podia omplir d'aigua pel forat del llom de l'ocell, i la cua de l'ocell feia de broc per abocar-la. Aquest Recipient sacrificial és una de les escultures més antigues que es coneixen de Corea. Probablement s'utilitzava per al xamanisme, el sistema religiós dominant a Corea en aquell moment. Aquests models d'argila sovint es col·locaven a les tombes per acompanyar el difunt a l'altra vida.\nVaig gaudir molt creant aquesta rèplica amb peces d'aquest ànec. La fina cresta que corona el cap de l'ocell va quedar molt bé per a una escultura tan petita. El broc és una representació fidel, però les peces no són estanques i per això no funciona bé com a recipient per contenir líquids.",
+      "artist": "Desconegut",
+      "medium": "Gres",
+      "origin": "Corea",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Corea",
+      "place": "Corea",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "dogu": {
+    "masters": {
+      "name": "Dogu",
+      "desc": "Els dogu pertanyen al període Jomon del Japó prehistòric i són la prova de ceràmica més antiga datada. Són figures petites d'aspecte humà. Molt probablement s'utilitzaven com a efígies, pròpies de societats de caçadors-recol·lectors. Probablement eren l'encarnació d'esperits, o bé les malalties els podien ser transferides en una cerimònia i després el dogu es feia miques per desfer-se de la malaltia. Això és probable perquè la majoria de les restes de dogu no es troben en tombes, sinó en munts de deixalles, i la majoria són trencades.\nL'atribut principal del dogu són els grans ulls com d'ulleres de protecció. Són figures geomètriques amb el cap, el pit i les cuixes exagerats, però mans i peus molt petits. Les marques centrals amb patrons de cordill, que semblen corda, a l'abdomen són el que n'identifica l'origen en el període Jomon. Alguns teòrics creuen que els dogu són representacions d'una forma de vida universal i que les escultures són en realitat una prova de l'existència d'éssers extraterrestres.\nEn crear la rèplica amb peces del dogu em vaig voler centrar en dues coses principals: la forma de l'escultura i els ulls desmesurats. Vaig començar amb mans i peus molt petits per a la forma de l'escultura i després vaig assegurar-me que el tipus de cos i el cap (inclòs el tocat) s'assemblessin a la forma de l'original. Per als ulls, vaig fer servir peces grans en forma de plat per captar els ulls com d'ulleres de l'original.",
+      "artist": "Desconegut",
+      "medium": "Argila",
+      "origin": "Japó",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Japó",
+      "place": "Japó",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "venusofwillendorf": {
+    "masters": {
+      "name": "Venus de Willendorf",
+      "desc": "També coneguda com la «Dona de Willendorf», aquesta escultura és un dels objectes més antics que s'han trobat amb forma humana. És una de les tres escultures de venus que es van trobar en una excavació arqueològica prop de la riba del Danubi, a la part baixa d'Àustria.\nL'escultura és una part important de l'art paleolític. Representa una figura rodona amb trets corporals amplificats que en subratllen la fertilitat. Per exemple, el melic està accentuat. El tors i les cuixes són grans en comparació, però les cames són molt curtes. No té rostre, però el cap té un disseny irregular que podria representar un barret teixit o uns cabells ondulats. L'escultura original és molt petita, la qual cosa vol dir que podia viatjar fàcilment amb el poble nòmada que la va crear.\nPer a la rèplica amb peces, vaig decidir doblar la mida original per fer ressaltar més detalls de l'escultura, com ara les corbes del seu cos. Posant els tacs de les peces de costat, vaig poder representar les protuberàncies del barret o dels cabells de la figura.",
+      "artist": "Desconegut",
+      "medium": "Pedra calcària",
+      "origin": "Àustria",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Àustria",
+      "place": "Àustria",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "doubleheadedserpent": {
+    "masters": {
+      "name": "Serp de dos caps",
+      "desc": "El cos de l'escultura de la Serp de dos caps és de fusta recoberta de turquesa i pedra. L'escultura fa servir més de 2.000 peces planes minúscules per fer un mosaic al cos de la serp, com les escates de la pell d'una serp. La col·locació experta de les peces del mosaic accentua el cos corbat de la serp i l'habilitat de l'artista asteca. El cos ondulant de la serp probablement representa tant l'aigua com el vent. Les serps també s'associaven sovint a les idees de metamorfosi i de renaixement, ja que les serps muden la pell.\nNo es sap si aquesta escultura es duia com a penjoll o es posava al cap d'un bastó. Els forats dels ulls als caps de les serps suggereixen que els ulls podrien haver contingut alguna cosa. Les dents de les serps estan fetes de trossos de closca blanca.\nCom que fins i tot les peces individuals més petites són molt més grans que els minúsculs trossos de turquesa que recobreixen l'escultura original, vaig decidir adoptar un enfocament diferent en lloc de crear un mosaic de peces al voltant d'una forma de serp. Tot i això, volia intentar captar els colors rics de l'obra original i vaig incorporar-hi una varietat de colors a la rèplica amb peces. També vaig tenir la sort de poder fer servir les petites peces blanques punxegudes per representar les dents de l'original.",
+      "artist": "Desconegut",
+      "medium": "Fusta, turquesa i closca de cargol de mar",
+      "origin": "Mèxic",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Mèxic",
+      "place": "Mèxic",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "seatedbuddha": {
+    "masters": {
+      "name": "Buda assegut",
+      "desc": "Aquesta escultura del Buda assegut seu amb les cames creuades en la postura de Sattva-paryankasana, la posició del iogui amb la cama dreta col·locada sobre l'esquerra. Té les mans en el mudra bhumisparsha, que vol dir «cridar la terra com a testimoni», amb la mà dreta baixada de manera que els dits assenyalen cap a terra. Això simbolitza també la victòria de Xakiamuni sobre el dimoni Mara, que va intentar distreure Buda de la seva recerca de la il·luminació. Aquest és un tema habitual en l'art budista tailandès.\nAquest Buda combina característiques de les escoles d'escultura del nord i del centre de Tailàndia. Les postures són típiques de les primeres figures del regne septentrional de Lan Na, mentre que els trets facials estilitzats són propis de l'estil posterior de Sukhothai.\nTot i que aquesta escultura de peces va sortir força bé, la part més difícil de la rèplica amb peces va ser modelar la posició correcta de les mans, que és tan important per al significat d'aquesta escultura original. El color marró de les peces va ser la millor opció per representar el color marró del bronze original.",
+      "artist": "Desconegut",
+      "medium": "Bronze",
+      "origin": "Tailàndia",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "Tailàndia",
+      "place": "Tailàndia",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "headtete": {
+    "masters": {
+      "name": "Cap (Tête)",
+      "desc": "Modigliani va ser un artista italià que va treballar a França. Aquesta escultura en concret és una de les 27 escultures que es coneixen de l'artista. Tant les seves pintures com les seves escultures es caracteritzen pels rostres allargats. Modigliani sovint s'inspirava en les màscares cerimonials africanes, que per a l'artista representaven una expressió espiritual. Tot i que Modigliani va exposar una sèrie de les seves escultures el 1912, el 1914 ja havia abandonat l'escultura per dedicar-se únicament a la pintura.\nL'obra representa el cap d'una dona que té el rostre d'una màscara. Homenatja els dissenys geomètrics indígenes i les màscares cerimonials. Els ulls semblen tancats i el rostre allargat transmet una sensació de contemplació profunda. Els cabells de la dona estan tirats cap enrere, despentinats, cap a un costat. L'escultura és totalment simètrica, llevat dels cabells de la dona.\nPer aconseguir la màscara esvelta d'aquesta escultura en la rèplica amb peces, vaig eixamplar lleument el nas i vaig fer sortir més les celles que a l'obra original. Això va permetre que els ulls també sortissin i que tota l'obra tingués la mateixa sensació que l'escultura original.",
+      "artist": "Amedeo Modigliani",
+      "medium": "Pedra calcària",
+      "origin": "França",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "França",
+      "place": "França",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "littledanceroffourteenyears": {
+    "masters": {
+      "name": "Petita ballarina de catorze anys",
+      "desc": "Degas va interpretar fidelment el ballet al llarg dels anys en les seves pintures, però també en l'escultura de la Petita ballarina. Tanmateix, les ballarines de l'Òpera de París, que feia servir com a models, tot i estar rigorosament formades, també tenien fama de costums relaxats i, per això, l'escultura va rebre mirades de reprovació quan es va presentar per primer cop.\nDegas va començar l'escultura fent posar l'estudiant belga Maria Van Goethem mentre en feia dibuixos. Després va fer una figura a petita escala. L'escultura es va modelar originalment amb cera d'abella translúcida. L'escultura també porta un tutú de teixit i un llaç de seda als cabells. Té dos terços de la mida real.\nL'escultura té un aspecte molt naturalista. La representació realista es va reforçar amb la tècnica mixta del tutú i el llaç. Va ser l'única escultura que Degas va permetre exposar en vida. Tanmateix, els seus hereus van decidir fer-ne còpies a partir del model de cera.\nPer a la rèplica amb peces, volia captar la seguretat en ella mateixa de l'escultura original, amb el rostre lleument alçat. Em va costar aconseguir que el tutú i el llaç semblessin caure de manera natural, com si fossin de teixit de debò. L'escultura original es dreça sobre un bloc de fusta, i vaig intentar igualar-ne el color amb la màxima exactitud.",
+      "artist": "Edgar Degas",
+      "medium": "Bronze i tècnica mixta",
+      "origin": "França",
+      "mounting": "Sobre peanya",
+      "status": "En exposició",
+      "country": "França",
+      "place": "França",
+      "cat": "Mestres del passat",
+      "location": "Mestres del passat"
+    }
+  },
+  "icarusplateviiifromtheillustratedbookjazz": {
+    "masters": {
+      "name": "Ícar, làmina VIII del llibre il·lustrat «Jazz»",
+      "artist": "Henri Matisse",
+      "medium": "Pochoir",
+      "country": "Estats Units",
+      "place": "Metropolitan Museum of Art, Nova York",
+      "cat": "Mestres del passat"
+    }
+  },
+  "africanelephant": {
+    "perniciem": {
+      "name": "Elefant africà",
+      "cat": "praderia",
+      "conservationStatus": "Vulnerable",
+      "population": "~415.000 exemplars restants",
+      "declineRate": "~90 % de descens durant l'últim segle",
+      "threats": "Caça furtiva per l'ivori, pèrdua d'hàbitat, comerç il·legal d'ivori",
+      "notes": "El mamífer terrestre més gran. Criatures molt empàtiques i emotives, fonamentals per a la biodiversitat i l'ecosistema d'Àfrica. Malgrat la prohibició mundial de l'ivori del 1990, la demanda va tornar a créixer: el 2011 es va registrar el decomís il·legal d'ivori més gran. Cada any maten uns 20.000 elefants (55 al dia).",
+      "artwork": "ELEFANT AFRICÀ, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Kenya",
+      "place": "Amboseli"
+    }
+  },
+  "arcticfox": {
+    "perniciem": {
+      "name": "Guineu àrtica",
+      "cat": "àrtic",
+      "conservationStatus": "En perill (Escandinàvia)",
+      "population": "Menys de 200 a Escandinàvia",
+      "declineRate": "Descens notable de les poblacions escandinaves",
+      "threats": "Canvi climàtic, pèrdua de gel marí, caça per la pell, perforacions marítimes, escassetat de preses",
+      "notes": "Autòctona de les regions àrtiques cobertes de neu. Depèn del gel marí, que desapareix a causa de l'escalfament. La guineu àrtica escandinava és ara en perill malgrat la protecció legal contra la caça. Les poblacions de Noruega, Finlàndia i Suècia s'han reduït a menys de 200 exemplars cadascuna.",
+      "artwork": "GUINEU ÀRTICA, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Noruega",
+      "place": "Svalbard"
+    }
+  },
+  "belugawhale": {
+    "perniciem": {
+      "name": "Beluga",
+      "cat": "oceà",
+      "conservationStatus": "En perill crític (Cook Inlet)",
+      "population": "Descens de més del 75 % (Cook Inlet)",
+      "declineRate": "Descens de més del 75 % de la subpoblació de Cook Inlet",
+      "threats": "Contaminació per plàstics als oceans, canvi climàtic, pèrdua de gel marí, contaminació acústica, urbanització de la costa, col·lisions amb vaixells",
+      "notes": "Coneguda com els canaris del mar. Animals sorprenentment socials i vocals que fan servir l'ecolocalització. Depenen del gel marí, que desapareix. Tot i que la caça regulada es va aturar el 2005, les xifres de Cook Inlet encara no s'han recuperat.",
+      "artwork": "BELUGA, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Estats Units",
+      "place": "Cook Inlet, Alaska"
+    }
+  },
+  "chileanflamingo": {
+    "perniciem": {
+      "name": "Flamenc de Xile",
+      "cat": "praderia",
+      "conservationStatus": "Gairebé amenaçada",
+      "population": "Colònies reduïdes de manera dràstica",
+      "declineRate": "Reducció dràstica de la mida de les colònies",
+      "threats": "Recol·lecció il·legal d'ous, pèrdua d'hàbitat, contaminació de l'aigua, mineria i extracció d'aigua, molèsties del turisme",
+      "notes": "Es reconeix pel plomatge rosa pàl·lid, les articulacions rosa intens i el gran bec negre. La seva dieta depèn de les algues i el plàncton de les llacunes salades i els llacs de sosa. A Mar Chiquita només ha criat 9 vegades en 26 anys. Les femelles només posen un ou cada vegada.",
+      "artwork": "FLAMENC DE XILE, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Xile",
+      "place": "Atacama"
+    }
+  },
+  "cheetah": {
+    "perniciem": {
+      "name": "Guepard",
+      "cat": "praderia",
+      "conservationStatus": "Vulnerable",
+      "population": "Menys de 7.000 exemplars restants",
+      "declineRate": "Descens del 50 % des del 1975; es preveu una pèrdua addicional del 53 % en els propers 15 anys",
+      "threats": "Pèrdua d'hàbitat (agricultura), caça furtiva per la pell, comerç il·legal de mascotes, esgotament de preses, conflicte entre humans i animals",
+      "notes": "El mamífer terrestre més ràpid: de 0 a 100 km/h en 3 segons. Menys del 5 % dels cadells de guepard arriben a l'edat adulta. Gairebé extingit del tot a Àsia (en queden menys de 50 a l'Iran). L'hàbitat es redueix un ~3 % cada any. Es preveu que desaparegui del tot a finals de segle.",
+      "artwork": "GUEPARD, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Tanzània",
+      "place": "Serengeti"
+    }
+  },
+  "malayantiger": {
+    "perniciem": {
+      "name": "Tigre malai",
+      "cat": "bosc",
+      "conservationStatus": "En perill crític",
+      "population": "250-340 adults (només 80-120 en edat de reproduir-se)",
+      "declineRate": "Descens del 96 % de tots els tigres en un segle (100.000 → 3.890)",
+      "threats": "Caça furtiva (la principal amenaça), pèrdua d'hàbitat (desforestació per l'oli de palma), conflicte entre humans i animals, comerç il·legal, descens de les preses",
+      "notes": "Tres de les nou subespècies de tigre ja s'han extingit del tot. Entre el 2000 i el 2012, Malàisia va tenir la taxa de pèrdua de bosc més alta del món: va perdre 47.000 km² (més que Dinamarca) a favor de plantacions d'oli de palma. En cap zona d'hàbitat no queden més de 50 tigres malais.",
+      "artwork": "TIGRE MALAI, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Malàisia",
+      "place": "Taman Negara"
+    }
+  },
+  "giraffe": {
+    "perniciem": {
+      "name": "Girafa",
+      "cat": "praderia",
+      "conservationStatus": "Vulnerable / En perill (Rothschild)",
+      "population": "97.562 (estimació del 2015)",
+      "declineRate": "Descens de més del 40 % en 30 anys (de 163.452 el 1985)",
+      "threats": "Caça no regulada, caça furtiva, tràfic d'animals salvatges, reducció de l'hàbitat",
+      "notes": "L'animal terrestre viu més alt del món: fa 5,8 metres de mitjana i té una massa corporal de dues tones. La girafa de Rothschild és una de les nou subespècies. Els ramats s'han reduït de 20-30 a només 6 individus. Hi ha en marxa una «extinció silenciosa».",
+      "artwork": "GIRAFA, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Kenya",
+      "place": "Llac Nakuru"
+    }
+  },
+  "polarbear": {
+    "perniciem": {
+      "name": "Ós polar",
+      "cat": "àrtic",
+      "notes": "L'ós polar, durant molt de temps una de les criatures més desitjades i estimades del planeta, omnipresent a la cultura popular i sinònim de fred i d'àrtic, s'ha convertit en el símbol dels efectes devastadors de l'escalfament de la Terra.",
+      "artwork": "Ós polar, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Canadà",
+      "place": "Badia d'Hudson"
+    }
+  },
+  "westernlowlandgorilla": {
+    "perniciem": {
+      "name": "Goril·la occidental de plana",
+      "cat": "bosc",
+      "notes": "El goril·la occidental de plana és el més comú i abundant de totes les espècies de goril·la. Tanmateix, malgrat les seves xifres aparentment copioses, la UICN el classifica com a en perill crític des del 2007.",
+      "artwork": "Goril·la occidental de plana, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Gabon",
+      "place": "Parc Nacional de Loango"
+    }
+  },
+  "humpbackwhale2": {
+    "perniciem": {
+      "name": "Rorqual geperut 2",
+      "cat": "oceà",
+      "notes": "Abans de la moratòria de la caça comercial de balenes del 1985, les poblacions de rorquals geperuts es van reduir devastadorament un 95 per cent. Els van caçar sense treva, gairebé fins a l'extinció.",
+      "artwork": "Rorqual geperut, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Estats Units",
+      "place": "Glacier Bay, Alaska"
+    }
+  },
+  "reefshark": {
+    "perniciem": {
+      "name": "Tauró d'escull",
+      "cat": "oceà",
+      "notes": "Des que molts en tenen memòria, els taurons han estat motiu de por, de malignitat i, després, d'admiració. Des de la seva representació a la cultura popular, en pel·lícules com Jaws i The Reef, fins als exemples reals de l'amenaça que suposen per als humans a les platges i en aigües obertes.",
+      "artwork": "Tauró d'escull, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Belize",
+      "place": "Barrera de corall de Belize"
+    }
+  },
+  "vaquita": {
+    "perniciem": {
+      "name": "Vaquita",
+      "cat": "oceà",
+      "notes": "La vaquita, la marsopa del golf de Califòrnia, és actualment el cetaci en més perill crític que existeix. Tot i haver estat descoberta fa menys d'un segle, el 1958, les seves xifres han caigut tan bruscament que van ser classificades com a en perill crític menys de 40 anys després, el 1996.",
+      "artwork": "Vaquita, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Mèxic",
+      "place": "Golf de Califòrnia"
+    }
+  },
+  "hawksbillturtle": {
+    "perniciem": {
+      "name": "Tortuga de carei",
+      "cat": "oceà",
+      "conservationStatus": "En perill crític",
+      "population": "Descens del 80-90 % en 10 anys",
+      "declineRate": "Pèrdua de més del 80 % en només 10 anys",
+      "threats": "Caça per les closques (comerç de la tortuga), comerç d'ous i de carn, urbanització de la costa, contaminació marina, captura accidental en la pesca",
+      "notes": "Una de les espècies en més perill crític del planeta. Representants vius de rèptils que van dominar la Terra fa més de 100 milions d'anys. Tenen un paper fonamental en la biodiversitat marina: mantenen la salut dels esculls de corall. El comerç de closques es va declarar il·legal a escala internacional el 1993, però el mercat negre persisteix.",
+      "artwork": "TORTUGA DE CAREI, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Mèxic",
+      "place": "Cozumel"
+    }
+  },
+  "humpbackwhale1": {
+    "perniciem": {
+      "name": "Rorqual geperut 1",
+      "cat": "oceà",
+      "conservationStatus": "Preocupació menor (reclassificada; 4 de 14 subpoblacions encara en perill)",
+      "population": "~80.000 (2016), davant dels ~10.000 dels anys setanta",
+      "declineRate": "Reducció del 95 % abans de la moratòria del 1985; es recupera, però continua en perill",
+      "threats": "Contaminació dels oceans, enredament en arts de pesca, col·lisions amb vaixells, molèsties causades per embarcacions",
+      "notes": "Els cantants melòdics de l'oceà. Cants complexos de gemecs, udols i planys que ressonen durant hores. La seva recuperació demostra que els esforços de conservació funcionen, però les amenaces persisteixen. Abans de la prohibició, la indústria balenera va matar dos milions de balenes de barba. Entre el 2016 i el 2018 es van trobar 80 rorquals geperuts morts a la costa est dels Estats Units.",
+      "artwork": "RORQUAL GEPERUT, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Austràlia",
+      "place": "Gran Barrera de Corall"
+    }
+  },
+  "militarymacaw": {
+    "perniciem": {
+      "name": "Guacamai militar",
+      "cat": "bosc",
+      "notes": "Fàcilment distingible fins i tot sobre el fons verd i frondós de la selva de la nostra imatge, decorat sobretot amb verd llima i amb plomes de vol de color blau aigua, amb petits detalls de plomatge vermell al cap i a la cua, el guacamai militar és una delícia visual.",
+      "artwork": "Guacamai militar, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Mèxic",
+      "place": "Sierra Madre Occidental"
+    }
+  },
+  "northernwhiterhinoceros": {
+    "perniciem": {
+      "name": "Rinoceront blanc del nord",
+      "cat": "praderia",
+      "notes": "El rinoceront blanc del nord, l'últim que es va presentar en el nostre projecte, és també l'espècie més amenaçada de la col·lecció. Fatu, una femella, i la seva mare Najin són els únics rinoceronts blancs del nord que queden al món.",
+      "artwork": "Rinoceront blanc del nord, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Kenya",
+      "place": "Reserva d'Ol Pejeta"
+    }
+  },
+  "sumatranorangutan": {
+    "perniciem": {
+      "name": "Orangutan de Sumatra",
+      "cat": "bosc",
+      "notes": "L'orangutan de Sumatra, autòcton de l'illa indonèsia de Sumatra, està perdent el seu lloc al nostre planeta. Aquests primats asiàtics són considerats en perill crític des del 2000 i les seves xifres continuen disminuint avui dia.",
+      "artwork": "Orangutan de Sumatra, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Indonèsia",
+      "place": "Gunung Leuser"
+    }
+  },
+  "orca": {
+    "perniciem": {
+      "name": "Orca",
+      "cat": "oceà",
+      "notes": "L'orca, un gegant de l'oceà excepcionalment intel·ligent, emotiu i sociable, és en realitat l'espècie de dofí més gran del món. L'orca, inconfusible pel seu color blanc i negre, és un depredador superior poderós i colossal, omnipresent a tots els oceans de la Terra.",
+      "artwork": "Orca, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Noruega",
+      "place": "Tromsø"
+    }
+  },
+  "whaleshark": {
+    "perniciem": {
+      "name": "Tauró balena",
+      "cat": "oceà",
+      "notes": "El tauró balena, el peix més gran dels nostres mars, pot pesar fins a 22.000 quilos i fer més de 9 metres de llarg. Tanmateix, és enganyosament inofensiu.",
+      "artwork": "Tauró balena, PERNiCiEM 2019",
+      "medium": "Impressió de raig de tinta d'arxiu sobre paper Canson",
+      "country": "Filipines",
+      "place": "Donsol"
+    }
+  },
+  "geo": {
+    "countries": {
+      "france": "França",
+      "unitedstates": "Estats Units",
+      "egypt": "Egipte",
+      "mexico": "Mèxic",
+      "nigeria": "Nigèria",
+      "iran": "Iran",
+      "korea": "Corea",
+      "japan": "Japó",
+      "austria": "Àustria",
+      "thailand": "Tailàndia",
+      "kenya": "Kenya",
+      "norway": "Noruega",
+      "chile": "Xile",
+      "tanzania": "Tanzània",
+      "malaysia": "Malàisia",
+      "canada": "Canadà",
+      "gabon": "Gabon",
+      "belize": "Belize",
+      "australia": "Austràlia",
+      "indonesia": "Indonèsia",
+      "philippines": "Filipines"
+    }
+  },
+  "masters": {
+    "collections": {
+      "pastmasters": "Mestres del passat"
+    },
+    "status": {
+      "used": "En exposició"
+    },
+    "mounting": {
+      "onpedestal": "Sobre peanya",
+      "mountedonwall": "Muntat a la paret"
+    },
+    "medium": {
+      "bronze": "Bronze",
+      "sheetmica": "Làmina de mica",
+      "bronzegoldandsilver": "Bronze, or i plata",
+      "limestone": "Pedra calcària",
+      "ivoryandiron": "Ivori i ferro",
+      "ceramic": "Ceràmica",
+      "stoneware": "Gres",
+      "clay": "Argila",
+      "woodturquoiseconchshell": "Fusta, turquesa i closca de cargol de mar",
+      "bronzeandmixedmedia": "Bronze i tècnica mixta",
+      "pochoir": "Pochoir"
+    },
+    "origin": {
+      "france": "França",
+      "ohiousa": "Ohio, EUA",
+      "egypt": "Egipte",
+      "mexico": "Mèxic",
+      "nigeria": "Nigèria",
+      "marliknortherniran": "Marlik, nord de l'Iran",
+      "korea": "Corea",
+      "japan": "Japó",
+      "austria": "Àustria",
+      "thailand": "Tailàndia"
+    }
+  },
+  "perniciem": {
+    "habitats": {
+      "grassland": "praderia",
+      "arctic": "àrtic",
+      "ocean": "oceà",
+      "forest": "bosc"
+    },
+    "conservationStatus": {
+      "vulnerable": "Vulnerable",
+      "endangeredscandinavia": "En perill (Escandinàvia)",
+      "criticallyendangeredcookinlet": "En perill crític (Cook Inlet)",
+      "nearthreatened": "Gairebé amenaçada",
+      "criticallyendangered": "En perill crític",
+      "vulnerableendangeredrothschild": "Vulnerable / En perill (Rothschild)",
+      "leastconcernupgraded414subpopulationsstillendangered": "Preocupació menor (reclassificada; 4 de 14 subpoblacions encara en perill)"
+    }
+  }
+}

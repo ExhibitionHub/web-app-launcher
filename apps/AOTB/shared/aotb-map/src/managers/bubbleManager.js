@@ -52,12 +52,13 @@ function getUiLang() {
 
 function readLocalizedField(obj, ...aliases) {
   const lang = String(getUiLang() || '').toLowerCase();
-  if (lang.startsWith('fr')) {
+  const locSuffix = lang.split(/[-_]/)[0];
+  if (locSuffix && locSuffix !== 'en' && /^[a-z]{2,3}$/.test(locSuffix)) {
     const frAliases = [];
     for (const alias of aliases) {
       if (!alias) continue;
       const a = String(alias);
-      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+      if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
     }
     const frValue = readField(obj, ...frAliases);
     if (frValue !== null && frValue !== undefined && String(frValue).trim() !== '') return frValue;

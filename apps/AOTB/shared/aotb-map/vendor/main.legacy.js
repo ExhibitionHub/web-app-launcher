@@ -33012,19 +33012,20 @@
   };
   var readLocalizedField = (obj, ...aliases) => {
     const lang = String(getUiLang() || "").toLowerCase();
-    if (lang.startsWith("fr")) {
+    const locSuffix = lang.split(/[-_]/)[0];
+    if (locSuffix && locSuffix !== "en" && /^[a-z]{2,3}$/.test(locSuffix)) {
       const asksForNotes = aliases.some((a) => String(a || "").toLowerCase() === "notes");
       if (asksForNotes) {
-        const frNotes = readField(obj, "Notes_fr", "notes_fr");
+        const frNotes = readField(obj, `Notes_${locSuffix}`, `notes_${locSuffix}`);
         if (frNotes !== null && frNotes !== void 0 && String(frNotes).trim() !== "") return frNotes;
-        const frDesc = readField(obj, "Description_fr", "description_fr");
+        const frDesc = readField(obj, `Description_${locSuffix}`, `description_${locSuffix}`);
         if (frDesc !== null && frDesc !== void 0 && String(frDesc).trim() !== "") return frDesc;
       }
       const frAliases = [];
       for (const alias of aliases) {
         if (!alias) continue;
         const a = String(alias);
-        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
       }
       const frValue = readField(obj, ...frAliases);
       if (frValue !== null && frValue !== void 0 && String(frValue).trim() !== "") return frValue;
@@ -33048,11 +33049,11 @@
     const withBoldTokens = raw2.replace(/<\s*(strong|b)\s*>/gi, "[BOLD_OPEN]").replace(/<\s*\/\s*(strong|b)\s*>/gi, "[BOLD_CLOSE]").replace(/\*\*(.+?)\*\*/g, "[BOLD_OPEN]$1[BOLD_CLOSE]").replace(/__(.+?)__/g, "[BOLD_OPEN]$1[BOLD_CLOSE]");
     const escaped = escapeHtml(withBoldTokens).replace(/\[BOLD_OPEN\]/g, "<strong>").replace(/\[BOLD_CLOSE\]/g, "</strong>");
     let paragraphs = escaped.split(/\n\s*\n/g).map((p) => p.trim()).filter(Boolean);
-    const isFr = String(getUiLang() || "").toLowerCase().startsWith("fr");
-    if (isFr && paragraphs.length <= 1 && /\n/.test(escaped)) {
+    const isTranslated = !String(getUiLang() || "").toLowerCase().startsWith("en");
+    if (isTranslated && paragraphs.length <= 1 && /\n/.test(escaped)) {
       paragraphs = escaped.split(/\n/g).map((p) => p.trim()).filter(Boolean);
     }
-    if (isFr && DATASET && DATASET.key === "masters") {
+    if (isTranslated && DATASET && DATASET.key === "masters") {
       const hasExplicitBold = paragraphs.some((p) => /<strong>.*?<\/strong>/i.test(p));
       if (!hasExplicitBold) {
         paragraphs = paragraphs.map((p) => {
@@ -34227,12 +34228,13 @@
   }
   function readLocalizedField2(obj, ...aliases) {
     const lang = String(getUiLang2() || "").toLowerCase();
-    if (lang.startsWith("fr")) {
+    const locSuffix = lang.split(/[-_]/)[0];
+    if (locSuffix && locSuffix !== "en" && /^[a-z]{2,3}$/.test(locSuffix)) {
       const frAliases = [];
       for (const alias of aliases) {
         if (!alias) continue;
         const a = String(alias);
-        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
       }
       const frValue = readField2(obj, ...frAliases);
       if (frValue !== null && frValue !== void 0 && String(frValue).trim() !== "") return frValue;
@@ -35644,19 +35646,20 @@
   }
   function readLocalizedField3(obj, ...aliases) {
     const lang = String(getUiLang3() || "").toLowerCase();
-    if (lang.startsWith("fr")) {
+    const locSuffix = lang.split(/[-_]/)[0];
+    if (locSuffix && locSuffix !== "en" && /^[a-z]{2,3}$/.test(locSuffix)) {
       const asksForNotes = aliases.some((a) => String(a || "").toLowerCase() === "notes");
       if (asksForNotes) {
-        const frNotes = readField3(obj, "Notes_fr", "notes_fr");
+        const frNotes = readField3(obj, `Notes_${locSuffix}`, `notes_${locSuffix}`);
         if (frNotes) return frNotes;
-        const frDesc = readField3(obj, "Description_fr", "description_fr");
+        const frDesc = readField3(obj, `Description_${locSuffix}`, `description_${locSuffix}`);
         if (frDesc) return frDesc;
       }
       const frAliases = [];
       for (const alias of aliases) {
         if (!alias) continue;
         const a = String(alias);
-        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_fr`);
+        if (/^[a-z0-9_]+$/i.test(a)) frAliases.push(`${a}_${locSuffix}`);
       }
       const frValue = readField3(obj, ...frAliases);
       if (frValue) return frValue;
@@ -36350,7 +36353,7 @@
     const raw2 = String(value || "").trim().toLowerCase();
     if (!raw2) return "";
     const base = raw2.split(/[-_]/)[0];
-    return base === "en" || base === "fr" ? base : "";
+    return /^[a-z]{2,3}$/.test(base) ? base : "";
   }
   function getCurrentLang() {
     const fromI18n = (() => {
@@ -36424,7 +36427,7 @@
     const fromQuery = getParam("forceLang") || getParam("langForce");
     const raw2 = (fromQuery || meta("map-force-lang") || "").trim();
     const v = raw2.toLowerCase();
-    if (v === "en" || v === "fr") return v;
+    if (/^[a-z]{2,3}$/.test(v)) return v;
     return "";
   }
   function applyForcedLang() {
