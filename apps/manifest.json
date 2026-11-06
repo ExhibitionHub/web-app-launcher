@@ -182,23 +182,6 @@
       ]
     },
     {
-      "id": "AOTB-QUIZ",
-      "family": "AOTB",
-      "type": "launch",
-      "title": "Art of the Brick - Challenge Quiz",
-      "description": "",
-      "url": "/apps/AOTB/AOTB-QUIZ/index.html",
-      "languages": [
-        "en",
-        "es",
-        "ca",
-        "fr"
-      ],
-      "defaultLanguage": "en",
-      "idleTimeoutSec": 60,
-      "developer": "Nathanaël"
-    },
-    {
       "id": "aotb-challenge-quiz-kiosk",
       "family": "AOTB",
       "type": "download",
