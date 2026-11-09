@@ -191,8 +191,13 @@
       "family": "AOTB",
       "type": "download",
       "title": "Art of the Brick - Challenge Quiz (kiosk program)",
-      "description": "Full-screen Windows kiosk program for the touch quiz, in English, Spanish, Catalan and French. Visitors cannot leave it and it starts again by itself. Windows 10/11 PC, no internet needed: unzip, then double-click Install-Autostart.cmd and Start-Quiz.cmd.",
+      "description": "Full-screen Windows kiosk quiz in English, Spanish, Catalan and French. The watcher restarts it after a crash or freeze; staff can close it with Alt+F4. Windows 10/11, offline: unzip and start Start-Quiz.cmd manually after signing in. When upgrading, run Remove-Autostart.cmd once under the Windows account that installed the old shortcut.",
       "downloads": [
+        {
+          "version": "2.2.0",
+          "url": "https://drive.google.com/file/d/1J9BkgE6TamAVM0JE08AnM_iuqqleKIGd/view?usp=sharing",
+          "developer": "Nathanaël"
+        },
         {
           "version": "2.1.0",
           "url": "https://drive.google.com/file/d/1QnHgHtvYraAzqNMvPa_mAad1hHX41_Hc/view?usp=sharing",
