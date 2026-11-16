@@ -584,6 +584,20 @@
       ]
     },
     {
+      "id": "canopic-jar",
+      "family": "TUT",
+      "type": "download",
+      "title": "Canopic Jar",
+      "description": "Pick up any of four suspended canopic jars and hear, from that jar’s own speaker, the story of the organ it protected and its guardian deity.",
+      "downloads": [
+        {
+          "version": "1",
+          "url": "https://drive.google.com/file/d/1Mj_glmnF-YU78Y01w2Sm3SmUtVpp1MGY/view?usp=drive_link",
+          "developer": "Bhavesh"
+        }
+      ]
+    },
+    {
       "id": "talking-ia",
       "family": "VG",
       "type": "download",
