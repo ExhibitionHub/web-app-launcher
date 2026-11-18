@@ -264,6 +264,20 @@
       "idleTimeoutSec": 90
     },
     {
+      "id": "masterpiece-wall",
+      "family": "AOTB",
+      "type": "download",
+      "title": "Masterpiece Wall",
+      "description": "A multi-touch brick-building wall in which visitors drag numbered, coloured bricks onto a sculpture to reveal the finished 3D artwork, in English, Spanish and Catalan, running full screen and offline on a touchscreen.",
+      "downloads": [
+        {
+          "version": "1",
+          "url": "https://drive.google.com/file/d/1Zj7d59p2TuRWB8mDAwP5YLnMRtWtwUHx/view?usp=drive_link",
+          "developer": "Bhavesh"
+        }
+      ]
+    },
+    {
       "id": "create-your-dino",
       "family": "DINO",
       "type": "download",
