@@ -285,6 +285,10 @@
       "description": "Create Your Dino is a touch-screen exhibition kiosk where visitors build their own dinosaur from a body and up to five parts, then hatch it from an egg. The result is an AI-blended Passport card with a QR code that opens the creature in the Dino Passport phone app.",
       "downloads": [
         {
+          "version": "1.3",
+          "url": "https://drive.google.com/file/d/1HIWfaYxCztw0pdYwLn9DqV7-ObbLaR2Y/view?usp=sharing"
+        },
+        {
           "version": "1.2",
           "url": "https://drive.google.com/file/d/1BbLlD-ynAKnS8RHWHgEWB6bP1CzFPziE/view?usp=drive_link"
         },
