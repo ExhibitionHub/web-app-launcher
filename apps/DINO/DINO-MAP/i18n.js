@@ -11,7 +11,7 @@
   const doc = window.document;
   const meta = (name) => doc.querySelector(`meta[name="${name}"]`)?.getAttribute('content') || '';
 
-  const SUPPORTED_LANGS = ['fr', 'en', 'es'];
+  const SUPPORTED_LANGS = ['fr', 'en', 'es', 'nl'];
   const DEFAULT_LANG = (meta('i18n-default-lang') || 'fr').trim() || 'fr';
   const BASE_RAW = (meta('i18n-base') || './lang/').trim() || './lang/';
   const TITLE_KEY = (meta('i18n-title-key') || '').trim();

@@ -93,7 +93,7 @@ if (idleOverlay) {
   try { idleOverlay.setAttribute('data-overlay-state', 'loading'); } catch { /* ignore */ }
 }
 
-const SUPPORTED_LANGS = ['fr', 'en', 'es'];
+const SUPPORTED_LANGS = ['fr', 'en', 'es', 'nl'];
 const DEFAULT_IDLE_RESET_LANG = 'fr';
 
 function normalizeLang(value) {

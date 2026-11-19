@@ -279,7 +279,7 @@ export function showWonderPanel(w, clickX, clickY, opts = {}) {
 
     return defaultLang.toLowerCase();
   })();
-  const SUPPORTED_LANGS = ['fr', 'en', 'es'];
+  const SUPPORTED_LANGS = ['fr', 'en', 'es', 'nl'];
   const normalizeLang = (value) => {
     const raw = String(value || '').trim().toLowerCase();
     if (!raw) return '';
@@ -313,18 +313,18 @@ export function showWonderPanel(w, clickX, clickY, opts = {}) {
 
   const getFallbacks = () => {
     const lang = getCurrentLang();
-    const pick = (fr, en, es) => (lang === 'fr') ? fr : ((lang === 'es') ? es : en);
+    const pick = (fr, en, es, nl) => ({ fr, es, nl }[lang] ?? en);
     return {
-      close: pick('Fermer', 'Close', 'Cerrar'),
-      closeCard: pick('Fermer la fiche', 'Close the card', 'Cerrar la ficha'),
-      detailsToBeConfirmed: pick('Détails à confirmer.', 'Details to be confirmed.', 'Detalles por confirmar.'),
-      tagsLabel: pick('Détails', 'Details', 'Detalles'),
-      imageAlt: pick('Image', 'Image', 'Imagen'),
-      profileDetails: pick('Détails', 'Details', 'Detalles'),
-      quickFacts: pick('Infos clés', 'Quick facts', 'Datos clave'),
-      keyTraits: pick('Traits clés', 'Key traits', 'Rasgos clave'),
-      overview: pick('Aperçu', 'Overview', 'Resumen'),
-      behavior: pick('Comportement', 'Behavior', 'Comportamiento'),
+      close: pick('Fermer', 'Close', 'Cerrar', 'Sluiten'),
+      closeCard: pick('Fermer la fiche', 'Close the card', 'Cerrar la ficha', 'De fiche sluiten'),
+      detailsToBeConfirmed: pick('Détails à confirmer.', 'Details to be confirmed.', 'Detalles por confirmar.', 'Details nog te bevestigen.'),
+      tagsLabel: pick('Détails', 'Details', 'Detalles', 'Details'),
+      imageAlt: pick('Image', 'Image', 'Imagen', 'Afbeelding'),
+      profileDetails: pick('Détails', 'Details', 'Detalles', 'Details'),
+      quickFacts: pick('Infos clés', 'Quick facts', 'Datos clave', 'Kerngegevens'),
+      keyTraits: pick('Traits clés', 'Key traits', 'Rasgos clave', 'Belangrijkste kenmerken'),
+      overview: pick('Aperçu', 'Overview', 'Resumen', 'Overzicht'),
+      behavior: pick('Comportement', 'Behavior', 'Comportamiento', 'Gedrag'),
     };
   };
   const FALLBACKS = getFallbacks();
@@ -351,10 +351,10 @@ export function showWonderPanel(w, clickX, clickY, opts = {}) {
     const baseKey = String(key || '').trim();
     if (!baseKey) return null;
     // If the caller already asks for a specific language, respect it.
-    if (/(?:Fr|En|Es)$/.test(baseKey)) return maybeResolveI18nPointer(readField(obj, baseKey));
+    if (/(?:Fr|En|Es|Nl)$/.test(baseKey)) return maybeResolveI18nPointer(readField(obj, baseKey));
 
     const lang = getCurrentLang();
-    const suffixByLang = { fr: 'Fr', en: 'En', es: 'Es' };
+    const suffixByLang = { fr: 'Fr', en: 'En', es: 'Es', nl: 'Nl' };
     const first = suffixByLang[lang] || 'Fr';
     const fallbacks = ['Fr', 'En'].filter(suffix => suffix !== first);
     return maybeResolveI18nPointer(readField(
