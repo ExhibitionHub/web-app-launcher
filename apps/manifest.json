@@ -646,6 +646,20 @@
       ]
     },
     {
+      "id": "photo-gallery",
+      "family": "TUT",
+      "type": "download",
+      "title": "Photo Gallery",
+      "description": "Photo Gallery is a touchscreen kiosk where visitors pick an ancient Egyptian role, take a photo, and get an AI-made Egyptian portrait of themselves with a QR code to download it on their phone.",
+      "downloads": [
+        {
+          "version": "1",
+          "url": "https://drive.google.com/file/d/1GDRmYNAilbJwZhw7SL2h5TAMpmJyQmLk/view?usp=drive_link",
+          "developer": "Bhavesh"
+        }
+      ]
+    },
+    {
       "id": "talking-ia",
       "family": "VG",
       "type": "download",
