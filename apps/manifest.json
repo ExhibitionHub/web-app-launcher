@@ -632,6 +632,20 @@
       ]
     },
     {
+      "id": "magic-amulet",
+      "family": "TUT",
+      "type": "download",
+      "title": "Magic Amulet",
+      "description": "Drag each of the nine amulets onto its place on the pharaoh to discover its magical power, its protection and its meaning. Full-screen Windows touch-table program, offline; it restarts by itself after a crash or a power cut.",
+      "downloads": [
+        {
+          "version": "1.0",
+          "url": "https://drive.google.com/file/d/1dlbkBQeVjjnXAOLp7VOXUTyyf4Kw9Hv0/view?usp=sharing",
+          "developer": "Nathanaël"
+        }
+      ]
+    },
+    {
       "id": "talking-ia",
       "family": "VG",
       "type": "download",
