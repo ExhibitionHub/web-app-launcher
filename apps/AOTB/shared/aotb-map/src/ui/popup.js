@@ -6,6 +6,12 @@ const POPUP_Z_INDEX = 9999;
 
 
 const CONNECTOR_LAYER_ID = 'popup-connector-layer';
+const CLOSE_ALL_EVENT = 'wonder-popups:close-all';
+
+// Closes every open card with its closing animation.
+export function closeAllWonderPopups() {
+  document.dispatchEvent(new CustomEvent(CLOSE_ALL_EVENT));
+}
 
 function removePopupBackIfAny() {
   const back = document.getElementById('popup-back');
@@ -1000,6 +1006,7 @@ export function showWonderPanel(w, clickX, clickY, opts = {}) {
     popup.style.display = 'none';
     if (popup.parentNode) popup.parentNode.removeChild(popup);
     document.removeEventListener('keydown', onKeyDown);
+    document.removeEventListener(CLOSE_ALL_EVENT, teardown);
     try { window.removeEventListener('i18n:change', onI18nChange); } catch { /* ignore */ }
     try { window.removeEventListener('resize', onViewportResize); } catch { /* ignore */ }
     if (connectorPath && connectorPath.parentNode) connectorPath.parentNode.removeChild(connectorPath);
@@ -1012,6 +1019,9 @@ export function showWonderPanel(w, clickX, clickY, opts = {}) {
     // Remove after the CSS transition.
     window.setTimeout(teardownNow, 220);
   }
+
+  // A tap outside the cards (on the empty map) closes every open card.
+  document.addEventListener(CLOSE_ALL_EVENT, teardown);
 
   closeBtn.onclick = teardown;
   closeBtn.onkeyup = (e) => {

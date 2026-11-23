@@ -96,4 +96,4 @@ export function fetchWonders(callback) {
   }
 }
 
-export { showWonderPanel } from '../ui/popup.js';
+export { showWonderPanel, closeAllWonderPopups } from '../ui/popup.js';

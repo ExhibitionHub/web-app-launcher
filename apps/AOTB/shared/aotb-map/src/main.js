@@ -2,7 +2,7 @@
 import { CSS2DObject } from '../lib/three/examples/jsm/renderers/CSS2DRenderer.js';
 import { GLTFLoader } from '../lib/three/examples/jsm/loaders/GLTFLoader.js';
 import { setupInfiniteMap, checkInfiniteScroll, groupCubes, setScrollSize, setGeoBounds, geoToMapXY, MAP_WIDTH, MAP_HEIGHT } from './core/map.js';
-import { cubeWonderMap, showWonderPanel, fetchWonders } from './data/wonders.js';
+import { cubeWonderMap, showWonderPanel, closeAllWonderPopups, fetchWonders } from './data/wonders.js';
 import { DATASET, DATASET_KEY } from './data/datasetConfig.js';
 import { setupControls } from './managers/controls.js';
 import { loadFileAsArrayBuffer, getResourcePath } from './utils/fileLoader.js';
@@ -1418,6 +1418,9 @@ function handleViewportClick(x, y) {
   } catch {
     // ignore
   }
+
+  // Tap on the empty map (outside the cards and the markers): close the open cards.
+  try { closeAllWonderPopups(); } catch { /* ignore */ }
 
   // No 3D marker picking in this project (bubbles only).
   pointerVec.set(
