@@ -332,6 +332,11 @@
       "description": "Dinos Alive is an interactive kiosk where a webcam tracks a visitor’s head, face, hands and jumps, and a 3D dinosaur on screen copies every move in real time, including a roar when they open their mouth. Each visit ends with a 10-second souvenir video of their dino, which they download on their phone by scanning a QR code, available for 7 days.",
       "downloads": [
         {
+          "version": "1.5",
+          "url": "https://drive.google.com/file/d/1Rk07PtSI4XHe2YtIeSArDiKWCBkk6lDe/view?usp=drive_link",
+          "developer": "Bhavesh"
+        },
+        {
           "version": "1.4",
           "url": "https://drive.google.com/file/d/1-v9-358jQ55bWjetTeqQtupNLYLC3DCO/view?usp=drive_link",
           "developer": "Bhavesh"
