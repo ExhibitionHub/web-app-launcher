@@ -637,6 +637,20 @@
       ]
     },
     {
+      "id": "family-tree",
+      "family": "TUT",
+      "type": "download",
+      "title": "Family Tree",
+      "description": "Slide the royal family tree of the 18th Dynasty, from Ahmose to Tutankhamun, and tap a portrait to open that person's story: biography, places on a map and related artefacts. Full-screen Windows program for a portrait touch screen, offline; it restarts by itself after a crash or a power cut.",
+      "downloads": [
+        {
+          "version": "1.0.0",
+          "url": "https://drive.google.com/file/d/1i6lL2epU6zQ9j8DFFgdC-RNR7aeoLpSv/view?usp=sharing",
+          "developer": "Nathanaël"
+        }
+      ]
+    },
+    {
       "id": "magic-amulet",
       "family": "TUT",
       "type": "download",
