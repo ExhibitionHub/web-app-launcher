@@ -276,6 +276,11 @@
       "description": "A multi-touch brick-building wall in which visitors drag numbered, coloured bricks onto a sculpture to reveal the finished 3D artwork, in English, Spanish and Catalan, running full screen and offline on a touchscreen.",
       "downloads": [
         {
+          "version": "3",
+          "url": "https://drive.google.com/file/d/11k_1nJodZzPC6iuCm0RDhcH-b2J5vFPd/view?usp=drive_link",
+          "developer": "Bhavesh"
+        },
+        {
           "version": "2",
           "url": "https://drive.google.com/file/d/1BALKSw7jpNwTYjgsk4gzblpXYmDeUuZe/view?usp=drive_link",
           "developer": "Bhavesh"
