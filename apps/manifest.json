@@ -707,8 +707,13 @@
       "family": "TUT",
       "type": "download",
       "title": "Timeline",
-      "description": "Swipe the horizontal timeline of Ancient Egypt, from the unification of the Two Lands to the discovery of the tomb, and tap one of its 14 moments to open its chapter: picture, story and a map of the place. Full-screen Windows program for a wide horizontal touch screen, offline; it restarts by itself after a crash or a power cut.",
+      "description": "Swipe the horizontal timeline of Ancient Egypt, from the unification of the Two Lands to the discovery of the tomb, and tap one of its 14 moments to open its chapter: picture, story and a map of the place. Full-screen Windows program for a touch screen, landscape or portrait, offline; it restarts by itself after a crash or a power cut.",
       "downloads": [
+        {
+          "version": "0.1.1",
+          "url": "https://drive.google.com/file/d/1EEat8zwLVTKzVIqBXcDuhZ1rCU08q1nM/view?usp=sharing",
+          "developer": "Nathanaël"
+        },
         {
           "version": "0.1.0",
           "url": "https://drive.google.com/file/d/1JpZXy3CIgRQu8Plu5r71MmLy_nrnz4xj/view?usp=sharing",
